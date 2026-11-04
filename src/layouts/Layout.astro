@@ -15,11 +15,9 @@ interface Props {
   jsonLd?: Record<string, unknown>[];
   /** The 404 has no real URL: skip canonical, hreflang and indexing. */
   noIndex?: boolean;
-  /** The day drawn along the header as the page is read – the home page. */
-  dayProgress?: boolean;
 }
 
-const { lang, title, description, path, jsonLd = [], noIndex = false, dayProgress = false } = Astro.props;
+const { lang, title, description, path, jsonLd = [], noIndex = false } = Astro.props;
 const t = useTranslations(lang);
 
 const metaTitle = title ?? t('meta.title');
@@ -175,7 +173,7 @@ const jsonLdPayload = JSON.stringify(schemas).replace(/</g, '\\u003c');
     </a>
 
     {/* The 404 has no localised twin, so its language switch targets the home page. */}
-    <Navbar lang={lang} path={noIndex ? '/' : path} dayProgress={dayProgress} />
+    <Navbar lang={lang} path={noIndex ? '/' : path} />
     <main id="main">
       <slot />
     </main>

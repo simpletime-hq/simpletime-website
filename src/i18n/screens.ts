@@ -8,6 +8,8 @@ import type { Lang } from './ui';
  */
 const phone = import.meta.glob<{ default: ImageMetadata }>('../assets/screens/*/*.webp', { eager: true });
 const watch = import.meta.glob<{ default: ImageMetadata }>('../assets/watch/*/*.webp', { eager: true });
+const ipad = import.meta.glob<{ default: ImageMetadata }>('../assets/ipad/*/*.webp', { eager: true });
+const mac = import.meta.glob<{ default: ImageMetadata }>('../assets/mac/*/*.webp', { eager: true });
 
 export type PhoneScreen =
   | 'tracking'
@@ -18,7 +20,9 @@ export type PhoneScreen =
   | 'report'
   | 'report-2'
   | 'pro';
-export type WatchScreen = 'running' | 'start';
+export type WatchScreen = 'running' | 'start' | 'today' | 'goals';
+export type IpadScreen = 'timeline';
+export type MacScreen = 'chart';
 
 function pick(
   files: Record<string, { default: ImageMetadata }>,
@@ -35,3 +39,5 @@ function pick(
 
 export const phoneScreen = (lang: Lang, name: PhoneScreen) => pick(phone, 'screens', lang, name);
 export const watchScreen = (lang: Lang, name: WatchScreen) => pick(watch, 'watch', lang, name);
+export const ipadScreen = (lang: Lang, name: IpadScreen) => pick(ipad, 'ipad', lang, name);
+export const macScreen = (lang: Lang, name: MacScreen) => pick(mac, 'mac', lang, name);

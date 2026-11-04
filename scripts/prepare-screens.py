@@ -6,7 +6,9 @@ screenshots the App Store images are composed from (StoreShots in the app
 repository), in the visitor's language. They are already at the iPhone's
 true 1320:2868 ratio, so they only need to be scaled down and converted.
 
-  src/assets/screens/<lang>/<name>.webp   iPhone, 720 px wide
+  src/assets/screens/<lang>/<name>.webp   iPhone, 1080 px wide
+  src/assets/ipad/<lang>/<name>.webp      iPad, 1032 px wide
+  src/assets/mac/<lang>/<name>.webp       Mac, 1600 x 1000
   src/assets/watch/<lang>/<name>.webp     Apple Watch, 416 x 496
   src/assets/pro/                         the Pro mark and the app icons
 
@@ -26,6 +28,7 @@ from PIL import Image
 ROOT = Path(__file__).resolve().parent.parent
 APP = Path(sys.argv[1]) if len(sys.argv) > 1 else Path.home() / "XcodeProjects/SimpleTime"
 PHONE_SRC = APP / "Screenshots-4.0"
+MAC_SRC = APP / "Screenshots-mac"
 WATCH_SRC = APP / "SimpleTime/StoreShots/fertig/uhr"
 ASSETS_SRC = APP / "SimpleTime/SimpleTime/Assets.xcassets"
 
@@ -49,8 +52,14 @@ PHONE = {
     "report-2": "11-report-2.png",
     "pro": "08-pro.png",
 }
-WATCH = {"running": "1-laeuft.png", "start": "2-starten.png"}
-PHONE_WIDTH = 720
+# One screen each for the other devices – the same in every language.
+IPAD = {"timeline": "03-day-timeline.png"}
+MAC = {"chart": "04-chart-week.png"}
+WATCH = {"running": "1-laeuft.png", "start": "2-starten.png", "today": "3-heute.png", "goals": "5-ziele.png"}
+# Large enough for a phone 360 px wide on a 3x screen; Astro scales down from here.
+PHONE_WIDTH = 1080
+IPAD_WIDTH = 1032
+MAC_SIZE = (1600, 1000)
 
 # The eight colourways, each shown with the Pro star.
 ICONS = ["Standard", "Petrol", "Violet", "Slate", "Forest", "Burgundy", "Graphite", "Espresso"]
@@ -71,7 +80,18 @@ def main() -> None:
             if img.size != (1320, 2868):
                 raise SystemExit(f"{src}: {img.size}, expected 1320 x 2868")
             height = round(PHONE_WIDTH * img.height / img.width)
-            total += save_webp(img.resize((PHONE_WIDTH, height), Image.LANCZOS), OUT / f"screens/{lang}/{name}.webp")
+            total += save_webp(img.resize((PHONE_WIDTH, height), Image.LANCZOS), OUT / f"screens/{lang}/{name}.webp", quality=82)
+        for name, file in IPAD.items():
+            src = PHONE_SRC / f"ipad-{folder}" / file
+            img = Image.open(src).convert("RGB")
+            height = round(IPAD_WIDTH * img.height / img.width)
+            total += save_webp(img.resize((IPAD_WIDTH, height), Image.LANCZOS), OUT / f"ipad/{lang}/{name}.webp", quality=82)
+        for name, file in MAC.items():
+            src = MAC_SRC / folder / file
+            img = Image.open(src).convert("RGB")
+            if img.size != (2560, 1600):
+                raise SystemExit(f"{src}: {img.size}, expected 2560 x 1600")
+            total += save_webp(img.resize(MAC_SIZE, Image.LANCZOS), OUT / f"mac/{lang}/{name}.webp", quality=82)
         for name, file in WATCH.items():
             src = WATCH_SRC / folder / file
             total += save_webp(Image.open(src).convert("RGB"), OUT / f"watch/{lang}/{name}.webp", quality=88)

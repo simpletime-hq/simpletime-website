@@ -102,39 +102,25 @@
         "Inga annonser, ingen spårning"
       ]
     },
+    "tour": {
+      "tracking": "Starta var du än är."
+    },
+    "devices": {
+      "title": "På alla dina enheter.",
+      "subtitle": "iPhone, iPad och Mac hålls synkade via iCloud – och klockan fortsätter att gå på låsskärmen, i Dynamic Island och på handleden."
+    },
     "showcase": [
       {
         "id": "day",
-        "eyebrow": "Din dag",
-        "title": "Hela din dag i en blick.",
-        "body": "Varje post med start, slut och längd – som lista eller som tidsaxel från 0 till 24, med en markering på aktuell tid. Anteckningar fångar det som siffrorna inte säger, och högst upp ser du hur i dag står sig jämfört med i går.",
-        "points": [
-          "En lista eller en tidsaxel från 0 till 24",
-          "Anteckningar på varje post",
-          "I dag jämfört med i går"
-        ]
+        "title": "Hela din dag i en blick."
       },
       {
         "id": "insights",
-        "eyebrow": "Analysera",
-        "title": "Se vart timmarna faktiskt tar vägen.",
-        "body": "Cirkeldiagram per uppgift och per produktivitet – för en dag, en vecka, en månad eller ett år. Statistiken jämför varje period med den föregående och visar förloppet och när på dygnet du registrerar mest.",
-        "points": [
-          "Diagram per uppgift och per produktivitet",
-          "Jämförelse med föregående period",
-          "Dela vilket diagram som helst som bild"
-        ]
+        "title": "Se vart timmarna faktiskt tar vägen."
       },
       {
         "id": "reports",
-        "eyebrow": "Rapporter och export",
-        "title": "En rapport på några sekunder.",
-        "body": "Välj en period och de avsnitt du behöver, dra dem i rätt ordning – så sätter SimpleTime ihop en PDF med varje uppgift och deluppgift. Behöver du de råa siffrorna? En CSV-fil öppnar du i Excel och Numbers.",
-        "points": [
-          "En PDF med de avsnitt du väljer",
-          "CSV för Excel och Numbers",
-          "Automatiska säkerhetskopior i iCloud Drive"
-        ]
+        "title": "En rapport på några sekunder."
       }
     ],
     "features": {
@@ -143,10 +129,6 @@
     },
     "pro": {
       "button": "Allt om SimpleTime Pro"
-    },
-    "gallery": {
-      "title": "Närmare inpå.",
-      "subtitle": "Skärmarna från App Store – precis som de ser ut på din enhet."
     },
     "audience": {
       "title": "För alla som vill veta vart tiden tar vägen.",

@@ -94,14 +94,6 @@
   --nav-bg: rgb(245 246 250 / 0.74);
   --glow: rgb(36 87 214 / 0.16);
 
-  /* The day, top to bottom: each section starts where the one above ends. */
-  --dawn: #e9edfa;
-  --morning: #f4f6fb;
-  --noon: #f7f7f4;
-  --afternoon: #f9f3ea;
-  --evening: #f5edef;
-  --dusk: #e9e8f5;
-
   /* The app's task colours – iOS system colours, as in the screenshots. */
   --t-work: #007aff;
   --t-client: #5856d6;
@@ -134,12 +126,6 @@
   --nav-bg: rgb(8 10 18 / 0.72);
   --glow: rgb(80 130 255 / 0.22);
 
-  --dawn: #0b1024;
-  --morning: #080b17;
-  --noon: #080a13;
-  --afternoon: #0c0a12;
-  --evening: #0d0a14;
-  --dusk: #090b1b;
 
   --t-work: #0a84ff;
   --t-client: #5e5ce6;
@@ -185,22 +171,12 @@
   color: var(--ink);
 }
 
-/* Section grounds, chained: dawn above the fold, warm light through the
-   afternoon, dusk, then night. */
-.sky-dawn {
-  background: linear-gradient(180deg, var(--dawn) 0%, var(--morning) 100%);
-}
-
-.sky-day {
-  background: linear-gradient(180deg, var(--morning) 0%, var(--noon) 38%, var(--afternoon) 100%);
-}
-
-.sky-evening {
-  background: linear-gradient(180deg, var(--afternoon) 0%, var(--evening) 60%, var(--dusk) 100%);
-}
-
-.sky-dusk {
-  background: var(--dusk);
+/* The light ground with the soft glow of the icon's blue in its upper corner –
+   the top of every page. */
+.ground-glow {
+  background:
+    radial-gradient(50rem 26rem at 85% 0%, var(--glow), transparent 70%),
+    var(--canvas);
 }
 
 /* Japanese and Chinese share most Han codepoints but draw them
@@ -615,4 +591,180 @@ h3 {
 
 .faq-entry[open]::details-content {
   height: auto;
+}
+
+/* ------------------------------------------------------------ sections --- */
+
+/* Every section of the home page opens the same way: what it is about, the
+   claim, one sentence of context – so a visitor always knows where they are. */
+.sec {
+  padding-block: clamp(5.5rem, 4rem + 6vw, 10rem);
+}
+
+.sec-head {
+  max-width: 46rem;
+}
+
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-family: var(--font-display);
+  font-size: 0.875rem;
+  font-weight: 620;
+  font-stretch: 110%;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.eyebrow::before {
+  content: "";
+  width: 0.5rem;
+  height: 0.5rem;
+  flex: none;
+  border-radius: 0.15rem;
+  background: currentColor;
+}
+
+:is(:lang(ar), :lang(he), :lang(hi), :lang(ja), :lang(zh), :lang(hy)) .eyebrow {
+  text-transform: none;
+  letter-spacing: 0;
+  font-size: 0.9375rem;
+}
+
+/* A rounded panel on the page – the bento tiles and the cards. */
+.tile {
+  position: relative;
+  overflow: hidden;
+  border-radius: 1.75rem;
+  background: var(--surface);
+  box-shadow:
+    0 0 0 1px var(--line),
+    0 1px 2px rgb(12 20 38 / 0.03),
+    0 28px 56px -40px rgb(12 20 38 / 0.28);
+}
+
+.dark .tile,
+.night .tile {
+  box-shadow: 0 0 0 1px var(--line);
+}
+
+.tile-title {
+  font-size: 1.1875rem;
+  font-weight: 620;
+  letter-spacing: -0.02em;
+  line-height: 1.25;
+  color: var(--ink);
+}
+
+.tile-body {
+  font-size: 1rem;
+  line-height: 1.55;
+  color: var(--muted);
+  text-wrap: pretty;
+}
+
+/* Small badge, e.g. „Pro“ next to a tile title. */
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  border-radius: 999px;
+  padding: 0.2rem 0.6rem;
+  font-size: 0.75rem;
+  font-weight: 650;
+  letter-spacing: 0.02em;
+  color: var(--accent);
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+}
+
+/* Points with a tick – the feature lists. */
+.checklist {
+  display: grid;
+  gap: 0.85rem;
+}
+
+.checklist li {
+  display: grid;
+  grid-template-columns: 1.375rem 1fr;
+  gap: 0.75rem;
+  font-size: 1.0625rem;
+  line-height: 1.5;
+  color: var(--ink-2);
+  text-wrap: pretty;
+}
+
+.checklist li::before {
+  content: "";
+  width: 1.375rem;
+  height: 1.375rem;
+  margin-top: 0.06rem;
+  border-radius: 50%;
+  background:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 22 22'%3E%3Cpath d='M6.5 11.3l3 3 6-6.4' fill='none' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E")
+      center / 100% no-repeat,
+    var(--accent);
+}
+
+.dark .checklist li::before,
+.night .checklist li::before {
+  background:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 22 22'%3E%3Cpath d='M6.5 11.3l3 3 6-6.4' fill='none' stroke='%2306102e' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E")
+      center / 100% no-repeat,
+    var(--accent);
+}
+
+/* Devices drift a little, each at its own pace – never in step. */
+@keyframes drift {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-0.6rem);
+  }
+}
+
+.drift-a {
+  animation: drift 7s ease-in-out infinite;
+}
+
+.drift-b {
+  animation: drift 8.5s ease-in-out -2.5s infinite;
+}
+
+.drift-c {
+  animation: drift 9.5s ease-in-out -5s infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .drift-a,
+  .drift-b,
+  .drift-c {
+    animation: none;
+  }
+}
+
+/* Ring charts (src/i18n/ring.ts): every slice fills in its turn – when the
+   section around it is revealed, or at once with `.ring--draw`. */
+.ring-slice {
+  fill: none;
+  transition-property: stroke-dasharray;
+  transition-duration: 1.3s;
+  transition-timing-function: var(--ease-out-expo);
+}
+
+.js .reveal:not(.is-visible) .ring-slice {
+  stroke-dasharray: 0 1000;
+}
+
+.ring--draw .ring-slice {
+  animation: ring-draw 1.5s var(--ease-out-expo) both;
+}
+
+@keyframes ring-draw {
+  from {
+    stroke-dasharray: 0 1000;
+  }
 }

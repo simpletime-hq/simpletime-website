@@ -39,24 +39,5 @@ const ELAPSED = 42 * 60 + 5;
 </div>
 
 <script>
-  // Counts on from the time in the markup, on the beat of whole seconds.
-  const pad = (n: number) => String(n).padStart(2, '0');
-
-  document.querySelectorAll<HTMLElement>('[data-live]').forEach((card) => {
-    const timer = card.querySelector<HTMLElement>('[data-live-timer]');
-    if (!timer) return;
-    const start = Date.now() - Number(card.dataset.elapsed ?? 0) * 1000;
-
-    const tick = () => {
-      const seconds = Math.floor((Date.now() - start) / 1000);
-      const h = Math.floor(seconds / 3600);
-      const m = Math.floor((seconds % 3600) / 60);
-      timer.textContent = `${h}:${pad(m)}:${pad(seconds % 60)}`;
-    };
-    tick();
-    window.setTimeout(() => {
-      tick();
-      window.setInterval(tick, 1000);
-    }, 1000 - ((Date.now() - start) % 1000));
-  });
+  import '../scripts/live-timer';
 </script>

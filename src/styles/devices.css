@@ -360,3 +360,155 @@
   width: 0.85em;
   height: 0.85em;
 }
+
+/* --------------------------------------------------------------- MacBook --- */
+
+/* A 14-inch MacBook Pro: the lid 88 cqw wide around a 16:10 screen, with the
+   notch, on a base that is wider than the lid. The screenshot is the app's
+   window at full screen, so the frame adds the traffic lights its toolbar
+   leaves room for. */
+.macbook {
+  container-type: inline-size;
+  position: relative;
+  isolation: isolate;
+}
+
+.macbook__lid {
+  position: relative;
+  margin-inline: 6cqw;
+  padding: 1.5cqw 1.5cqw 2.4cqw;
+  border-radius: 3cqw 3cqw 0.7cqw 0.7cqw;
+  background: #0c0d10;
+  box-shadow:
+    inset 0 0 0 0.22cqw #34363c,
+    inset 0 0 0 0.45cqw #0c0d10,
+    0 3cqw 7cqw -2cqw rgb(10 22 60 / 0.28);
+}
+
+.macbook__screen {
+  position: relative;
+  overflow: hidden;
+  aspect-ratio: 16 / 10;
+  border-radius: 1.1cqw 1.1cqw 0.2cqw 0.2cqw;
+  background: #ececec;
+  transform: translateZ(0);
+}
+
+.macbook__screen img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.macbook__notch {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 10.5cqw;
+  height: 1.8cqw;
+  translate: -50% 0;
+  border-radius: 0 0 0.9cqw 0.9cqw;
+  background: #0c0d10;
+}
+
+/* Close, minimise, zoom – where the window's toolbar puts them. */
+.macbook__lights {
+  position: absolute;
+  top: 1.15cqw;
+  inset-inline-start: 1.25cqw;
+  display: flex;
+  gap: 0.55cqw;
+}
+
+[dir="rtl"] .macbook__lights {
+  inset-inline-start: auto;
+  left: 1.25cqw;
+}
+
+.macbook__lights span {
+  width: 0.85cqw;
+  height: 0.85cqw;
+  border-radius: 50%;
+  box-shadow: inset 0 0 0 0.06cqw rgb(0 0 0 / 0.12);
+}
+
+.macbook__lights span:nth-child(1) { background: #ff5f57; }
+.macbook__lights span:nth-child(2) { background: #febc2e; }
+.macbook__lights span:nth-child(3) { background: #28c840; }
+
+.macbook__base {
+  position: relative;
+  height: 2.3cqw;
+  border-radius: 0 0 3.2cqw 3.2cqw / 0 0 2cqw 2cqw;
+  background: linear-gradient(180deg, #eef0f3 0%, #c9ccd2 45%, #9a9ea6 100%);
+  box-shadow: 0 2.4cqw 4cqw -2cqw rgb(10 22 60 / 0.35);
+}
+
+/* The groove that lifts the lid. */
+.macbook__base::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 15cqw;
+  height: 0.8cqw;
+  translate: -50% 0;
+  border-radius: 0 0 1cqw 1cqw;
+  background: linear-gradient(180deg, #a3a7ae, #c4c7cd);
+}
+
+.dark .macbook__base {
+  background: linear-gradient(180deg, #a9adb5 0%, #6f737b 45%, #44474d 100%);
+}
+
+.dark .macbook__base::before {
+  background: linear-gradient(180deg, #55585e, #6d7077);
+}
+
+/* ------------------------------------------------------------------ iPad --- */
+
+/* An iPad Pro upright, around the 2064 × 2752 screenshots: an even black
+   border, aluminium at the edge and the camera in the top border. */
+.ipad {
+  container-type: inline-size;
+  position: relative;
+  isolation: isolate;
+}
+
+.ipad__body {
+  position: relative;
+  padding: 3.4cqw;
+  border-radius: 7.4cqw;
+  background: #0d0e11;
+  box-shadow:
+    inset 0 0 0 0.45cqw #8e939b,
+    inset 0 0 0 0.75cqw #0d0e11,
+    0 4cqw 9cqw -2.5cqw rgb(10 22 60 / 0.3);
+}
+
+.ipad__screen {
+  overflow: hidden;
+  aspect-ratio: 2064 / 2752;
+  border-radius: 4cqw;
+  background: #f2f2f7;
+  transform: translateZ(0);
+}
+
+.ipad__screen img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.ipad__camera {
+  position: absolute;
+  top: 1.3cqw;
+  left: 50%;
+  width: 1.1cqw;
+  height: 1.1cqw;
+  translate: -50% 0;
+  border-radius: 50%;
+  background: #24262c;
+}

@@ -1,0 +1,27 @@
+---
+import { Image } from 'astro:assets';
+import type { ImageMetadata } from 'astro';
+
+interface Props {
+  image: ImageMetadata;
+  alt: string;
+  sizes?: string;
+  loading?: 'lazy' | 'eager';
+  class?: string;
+}
+
+// A MacBook around a full-screen window of the Mac app. Drawn in
+// src/styles/devices.css, in cqw like the iPhone.
+const { image, alt, sizes = '(min-width: 1024px) 720px, 92vw', loading = 'lazy', class: className = '' } = Astro.props;
+---
+
+<div class:list={['macbook', className]}>
+  <div class="macbook__lid">
+    <div class="macbook__screen">
+      <Image src={image} alt={alt} widths={[480, 800, 1200, 1600]} sizes={sizes} loading={loading} decoding="async" />
+      <span class="macbook__lights" aria-hidden="true"><span></span><span></span><span></span></span>
+      <span class="macbook__notch" aria-hidden="true"></span>
+    </div>
+  </div>
+  <div class="macbook__base" aria-hidden="true"></div>
+</div>

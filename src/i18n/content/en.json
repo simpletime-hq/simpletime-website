@@ -102,39 +102,25 @@
         "No ads, no tracking"
       ]
     },
+    "tour": {
+      "tracking": "Start wherever you are."
+    },
+    "devices": {
+      "title": "On every device you use.",
+      "subtitle": "iPhone, iPad, and Mac stay in sync through iCloud – and the clock keeps running on the Lock Screen, in the Dynamic Island, and on your wrist."
+    },
     "showcase": [
       {
         "id": "day",
-        "eyebrow": "Your day",
-        "title": "Your whole day, at a glance.",
-        "body": "Every entry with its start, end and duration – as a list, or as a timeline from 0 to 24 with a marker for the current time. Notes keep what the numbers can’t, and right at the top you see how today compares to yesterday.",
-        "points": [
-          "A list or a timeline from 0 to 24",
-          "Notes on any entry",
-          "Today compared with yesterday"
-        ]
+        "title": "Your whole day, at a glance."
       },
       {
         "id": "insights",
-        "eyebrow": "Insights",
-        "title": "See where your hours actually go.",
-        "body": "Pie charts by task and by productivity – for a day, a week, a month or a year. The statistics compare each period with the one before, show the trend and when in the day you track the most.",
-        "points": [
-          "Charts by task and by productivity",
-          "Comparison with the previous period",
-          "Share any chart as an image"
-        ]
+        "title": "See where your hours actually go."
       },
       {
         "id": "reports",
-        "eyebrow": "Reports and export",
-        "title": "A report in seconds.",
-        "body": "Choose a period and the sections you need, drag them into order – and SimpleTime lays out a PDF with every task and subtask. Need the raw numbers? A CSV file opens in Excel and Numbers.",
-        "points": [
-          "A PDF with the sections you choose",
-          "CSV for Excel and Numbers",
-          "Automatic backups in iCloud Drive"
-        ]
+        "title": "A report in seconds."
       }
     ],
     "features": {
@@ -143,10 +129,6 @@
     },
     "pro": {
       "button": "All about SimpleTime Pro"
-    },
-    "gallery": {
-      "title": "A closer look.",
-      "subtitle": "The screens from the App Store – exactly as they appear on your device."
     },
     "audience": {
       "title": "Made for anyone who wants to know where their time goes.",

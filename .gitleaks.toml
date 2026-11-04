@@ -1,0 +1,12 @@
+# Gitleaks configuration for the secret scan in CI (.github/workflows/ci.yml).
+# The default rules apply; the only exception is below.
+
+[extend]
+useDefault = true
+
+# Atriya public keys (atr_pk_…) tell the visitor statistics server which site
+# a page view belongs to. They are public by design – every visitor's browser
+# sees them in the page – and only accepted from the site's own address.
+[allowlist]
+description = "Atriya public keys"
+regexes = ['''^atr_pk_[A-Za-z0-9]{16,}$''']

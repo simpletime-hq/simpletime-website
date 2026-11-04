@@ -810,7 +810,7 @@
     "summary": [
       "Zamanın sana ait. SimpleTime hesap gerektirmez, reklam göstermez ve seni takip etmez.",
       "Kayıtların cihazlarında ve sana özel iCloud alanında durur – onları başka kimse okuyamaz, biz bile. SimpleTime'ın kendi sunucuları yoktur.",
-      "Bu web sitesi kendine ait çerez yerleştirmez, analiz aracı kullanmaz ve üçüncü taraflardan hiçbir şey yüklemez."
+      "Bu web sitesi kendine ait çerez yerleştirmez ve üçüncü taraflardan hiçbir şey yüklemez. Kaç kişinin ziyaret ettiğini kendi analiz hizmetimiz Atriya ile anonim olarak sayarız."
     ],
     "sections": [
       {
@@ -926,9 +926,19 @@
             ]
           },
           {
-            "title": "Analiz yok, üçüncü taraflar yok",
+            "title": "Atriya ile ziyaretçi istatistikleri",
             "paragraphs": [
-              "Bu web sitesi analiz ya da takip araçları, reklam ve sosyal medya eklentileri kullanmaz; başka sunuculardan yazı tipi ya da betik yüklemez. App Store bağlantıları seni Apple'a götürür; orada Apple'ın gizlilik politikası geçerlidir."
+              "Hangi sayfaların okunduğunu ve ziyaretçilerin nereden geldiğini görmek için kendi işlettiğimiz bir analiz hizmeti olan Atriya'yı kullanırız. Atriya tarayıcında hiçbir şey saklamaz ve oradan hiçbir şey okumaz – çerez yok, yerel depolama yok – ve ziyaretini kayda almaz.",
+              "Bir sayfayı açtığında tarayıcın bunun için intern.atriya.io'dan küçük bir betik yükler. Açılan sayfa, geldiğin sayfa, bağlantıdaki kampanya bilgileri (UTM parametreleri), hangi öğelere tıkladığın, sayfayı ne kadar kaydırdığın, yüklenme süreleri ve teknik hatalar iletilir. IP adresinden ülkeyi ve şehri, tarayıcının kimliğinden (user agent) cihaz türünü, tarayıcıyı ve işletim sistemini belirleriz.",
+              "Seni tanımadan ziyaretleri sayabilmek için Atriya; IP adresi, tarayıcı kimliği ve rastgele bir günlük anahtardan yalnızca bir gün geçerli olan bir tanımlayıcı oluşturur. Ardından günlük anahtar silinir ve tanımlayıcı artık ne seninle ne de bir IP adresiyle ilişkilendirilebilir. IP adresinin kendisini saklamayız.",
+              "Sunucu, Avrupa Birliği'ndeki bir veri merkezinde IONOS SE, Elgendorfer Str. 57, 56410 Montabaur, Almanya bünyesinde bulunur; IONOS verileri bizim adımıza işler. Verileri yalnızca toplu olarak değerlendiririz ve kimseyle paylaşmayız. Günlük anahtar silindikten sonra istatistikler anonimdir; bunları belirli bir süre sınırı olmadan saklarız.",
+              "Hukuki dayanak, web sitesini iyileştirmeye yönelik meşru menfaatimizdir (GDPR m. 6/1-f). Cihazına hiçbir şey kaydedilmediği ve cihazından hiçbir şey okunmadığı için onay gerekmez (§ 25 TDDDG). Sayılmak istemiyorsan tarayıcında Do Not Track veya Global Privacy Control'ü aç; o zaman Atriya hiçbir şey kaydetmez."
+            ]
+          },
+          {
+            "title": "Reklam yok, üçüncü taraflar yok",
+            "paragraphs": [
+              "Bu web sitesi reklam göstermez, sosyal medya eklentileri kullanmaz ve üçüncü tarafların sunucularından yazı tipi ya da betik yüklemez. App Store bağlantıları seni Apple'a götürür; orada Apple'ın gizlilik politikası geçerlidir."
             ]
           },
           {

@@ -810,7 +810,7 @@
     "summary": [
       "Il tuo tempo ti appartiene. SimpleTime non richiede alcun account, non mostra pubblicità e non ti traccia.",
       "Le tue voci si trovano sui tuoi dispositivi e nel tuo iCloud privato: nessun altro può leggerle, nemmeno noi. SimpleTime non ha server propri.",
-      "Questo sito non imposta cookie propri, non usa strumenti di analisi e non carica nulla da terze parti."
+      "Questo sito non imposta cookie propri e non carica nulla da terze parti. Contiamo in modo anonimo quante persone lo visitano con Atriya, il nostro servizio di analisi."
     ],
     "sections": [
       {
@@ -926,9 +926,19 @@
             ]
           },
           {
-            "title": "Nessuna analisi, nessuna terza parte",
+            "title": "Statistiche delle visite con Atriya",
             "paragraphs": [
-              "Questo sito non usa strumenti di analisi o di tracciamento, pubblicità né plugin di social media, e non carica font o script da altri server. I link all’App Store ti portano da Apple, dove si applica l’informativa sulla privacy di Apple."
+              "Per capire quali pagine vengono lette e da dove arrivano i visitatori, usiamo Atriya, un servizio di analisi che gestiamo noi stessi. Atriya non salva nulla nel tuo browser e non vi legge nulla – niente cookie, niente memoria locale – e non registra la tua visita.",
+              "Quando apri una pagina, il tuo browser carica a questo scopo un piccolo script da intern.atriya.io. Vengono trasmessi la pagina aperta, la pagina da cui arrivi, i dati di campagna nel link (parametri UTM), gli elementi su cui fai clic, fin dove scorri la pagina, i tempi di caricamento e gli errori tecnici. Dal tuo indirizzo IP ricaviamo paese e città, dall’identificativo del tuo browser (user agent) tipo di dispositivo, browser e sistema operativo.",
+              "Per poter contare le visite senza riconoscerti, Atriya ricava dall’indirizzo IP, dall’identificativo del browser e da una chiave giornaliera casuale un identificativo valido per un solo giorno. Poi la chiave giornaliera viene cancellata e l’identificativo non può più essere ricondotto né a te né a un indirizzo IP. Il tuo indirizzo IP in sé non lo salviamo.",
+              "Il server è ospitato da IONOS SE, Elgendorfer Str. 57, 56410 Montabaur, Germania, in un data center nell’Unione europea; IONOS tratta i dati per nostro conto. Li analizziamo solo in forma aggregata e non li cediamo a nessuno. Una volta cancellata la chiave giornaliera, le statistiche sono anonime; le conserviamo senza un termine fisso.",
+              "La base giuridica è il nostro legittimo interesse a migliorare il sito (art. 6, par. 1, lett. f) del GDPR). Poiché nel tuo dispositivo non viene salvato né letto nulla, non serve alcun consenso (§ 25 TDDDG). Se non vuoi essere contato, attiva Do Not Track o Global Privacy Control nel tuo browser: in quel caso Atriya non rileva nulla."
+            ]
+          },
+          {
+            "title": "Nessuna pubblicità, nessuna terza parte",
+            "paragraphs": [
+              "Questo sito non mostra pubblicità, non usa plugin di social media e non carica font o script da server di terze parti. I link all’App Store ti portano da Apple, dove si applica l’informativa sulla privacy di Apple."
             ]
           },
           {

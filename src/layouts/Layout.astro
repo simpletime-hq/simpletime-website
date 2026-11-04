@@ -147,6 +147,18 @@ const jsonLdPayload = JSON.stringify(schemas).replace(/</g, '\\u003c');
         root.classList.toggle('dark', dark);
       })();
     </script>
+
+    {/* Visitor statistics with Atriya, our own analytics server: cookieless,
+        nothing read from or stored in the browser, no session recordings.
+        Off with Do Not Track or Global Privacy Control. See the privacy page. */}
+    <script
+      is:inline
+      defer
+      src="https://intern.atriya.io/t.js"
+      data-key="atr_pk_uw7Nhe9xKAljv5TFADToyd2s"
+      data-cookieless="true"
+      data-auto-replay="false"
+    ></script>
   </head>
   <body class="bg-canvas text-ink antialiased">
     <a

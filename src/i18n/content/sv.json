@@ -810,7 +810,7 @@
     "summary": [
       "Din tid är din. SimpleTime behöver inget konto, visar inga annonser och spårar dig inte.",
       "Dina tidposter finns på dina enheter och i din privata iCloud – ingen annan kan läsa dem, inte ens vi. SimpleTime har inga egna servrar.",
-      "Den här webbplatsen sätter inga egna cookies, använder inga analysverktyg och laddar inget från tredje part."
+      "Den här webbplatsen sätter inga egna cookies och laddar inget från tredje part. Hur många som besöker den räknar vi anonymt med Atriya, vår egen analystjänst."
     ],
     "sections": [
       {
@@ -926,9 +926,19 @@
             ]
           },
           {
-            "title": "Inga analysverktyg, ingen tredje part",
+            "title": "Besöksstatistik med Atriya",
             "paragraphs": [
-              "Den här webbplatsen använder inga analys- eller spårningsverktyg, ingen reklam och inga plugin-program för sociala medier, och den laddar inga typsnitt eller skript från andra servrar. Länkar till App Store leder dig till Apple, där Apples integritetspolicy gäller."
+              "För att se vilka sidor som läses och var besökarna kommer ifrån använder vi Atriya, en analystjänst som vi driver själva. Atriya sparar ingenting i din webbläsare och läser inte heller något därifrån – inga cookies, ingen lokal lagring – och spelar inte in ditt besök.",
+              "När du öppnar en sida laddar din webbläsare ett litet skript från intern.atriya.io för detta. Det som skickas är den öppnade sidan, sidan du kom från, kampanjuppgifter i länken (UTM-parametrar), vilka element du klickar på, hur långt du skrollar, laddningstider och tekniska fel. Utifrån din IP-adress tar vi fram land och stad, och utifrån din webbläsares identifiering (user agent) enhetstyp, webbläsare och operativsystem.",
+              "För att kunna räkna besök utan att känna igen dig skapar Atriya en identifierare av IP-adressen, webbläsarens identifiering och en slumpmässig dagsnyckel, som bara gäller i en dag. Sedan raderas dagsnyckeln, och identifieraren kan inte längre kopplas till dig eller till en IP-adress. Själva IP-adressen sparar vi inte.",
+              "Servern finns hos IONOS SE, Elgendorfer Str. 57, 56410 Montabaur, Tyskland, i ett datacenter inom Europeiska unionen; IONOS behandlar uppgifterna för vår räkning. Vi tittar bara på dem sammanställda och lämnar inte ut dem. När dagsnyckeln har raderats är statistiken anonym; vi sparar den utan fast tidsgräns.",
+              "Den rättsliga grunden är vårt berättigade intresse av att förbättra webbplatsen (art. 6.1 f GDPR). Eftersom inget sparas på eller läses från din enhet behövs inget samtycke (§ 25 TDDDG). Vill du inte räknas, slå på Do Not Track eller Global Privacy Control i din webbläsare – då registrerar Atriya ingenting."
+            ]
+          },
+          {
+            "title": "Ingen reklam, ingen tredje part",
+            "paragraphs": [
+              "Den här webbplatsen visar ingen reklam, använder inga plugin-program för sociala medier och laddar inga typsnitt eller skript från tredje parts servrar. Länkar till App Store leder dig till Apple, där Apples integritetspolicy gäller."
             ]
           },
           {

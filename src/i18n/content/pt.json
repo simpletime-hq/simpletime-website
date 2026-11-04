@@ -810,7 +810,7 @@
     "summary": [
       "O seu tempo pertence-lhe. O SimpleTime não precisa de conta, não mostra publicidade e não faz rastreio.",
       "Os seus registos ficam nos seus dispositivos e no seu iCloud privado – mais ninguém os pode ler, nem mesmo nós. O SimpleTime não tem servidores próprios.",
-      "Este site não coloca cookies próprios, não usa ferramentas de análise e não carrega nada de terceiros."
+      "Este site não coloca cookies próprios e não carrega nada de terceiros. Contamos de forma anónima quantas pessoas o visitam com o Atriya, o nosso próprio serviço de análise."
     ],
     "sections": [
       {
@@ -926,9 +926,19 @@
             ]
           },
           {
-            "title": "Sem análises, sem terceiros",
+            "title": "Estatísticas de visitas com o Atriya",
             "paragraphs": [
-              "Este site não usa ferramentas de análise nem de rastreio, publicidade ou plugins de redes sociais, e não carrega tipos de letra nem scripts de outros servidores. As ligações para a App Store conduzem ao site da Apple, onde se aplica a política de privacidade da Apple."
+              "Para sabermos que páginas são lidas e de onde vêm os visitantes, usamos o Atriya, um serviço de análise que nós próprios gerimos. O Atriya não guarda nada no seu navegador nem lê nada dele – nem cookies, nem armazenamento local – e não grava a sua visita.",
+              "Quando abre uma página, o seu navegador carrega para isso um pequeno script a partir de intern.atriya.io. São transmitidos a página aberta, a página de onde vem, os dados de campanha da ligação (parâmetros UTM), os elementos em que clica, até onde se desloca na página, os tempos de carregamento e os erros técnicos. A partir do seu endereço IP determinamos o país e a cidade e, a partir da identificação do seu navegador (user agent), o tipo de dispositivo, o navegador e o sistema operativo.",
+              "Para podermos contar as visitas sem o reconhecer, o Atriya gera, a partir do endereço IP, da identificação do navegador e de uma chave diária aleatória, um identificador válido apenas durante um dia. Depois, a chave diária é apagada e o identificador deixa de poder ser associado a si ou a um endereço IP. O seu endereço IP propriamente dito não o guardamos.",
+              "O servidor está alojado na IONOS SE, Elgendorfer Str. 57, 56410 Montabaur, Alemanha, num centro de dados na União Europeia; a IONOS trata os dados em nosso nome. Só os analisamos de forma agregada e não os transmitimos a ninguém. Depois de apagada a chave diária, as estatísticas são anónimas; conservamo-las sem prazo fixo.",
+              "O fundamento jurídico é o nosso interesse legítimo em melhorar o site (art. 6.º, n.º 1, alínea f), do RGPD). Como nada é guardado nem lido no seu dispositivo, não é necessário consentimento (§ 25 TDDDG). Se não quiser ser contado, ative Do Not Track ou Global Privacy Control no seu navegador: nesse caso, o Atriya não regista nada."
+            ]
+          },
+          {
+            "title": "Sem publicidade, sem terceiros",
+            "paragraphs": [
+              "Este site não mostra publicidade, não usa plugins de redes sociais e não carrega tipos de letra nem scripts de servidores de terceiros. As ligações para a App Store conduzem ao site da Apple, onde se aplica a política de privacidade da Apple."
             ]
           },
           {

@@ -61,6 +61,13 @@ const UNGOVERNED_HEADERS = new Set(['strict-transport-security']);
 /** The only CSP directives csp-headers.mjs is allowed to rewrite. */
 const HASHED_DIRECTIVES = ['script-src', 'style-src'];
 
+/**
+ * Hosts a hashed directive may name after its placeholder – the Atriya server
+ * the visitor statistics script comes from. They must come through the build
+ * unchanged, after the hashes; any other source is rejected.
+ */
+const EXTERNAL_SOURCES = { 'script-src': ['https://intern.atriya.io'], 'style-src': [] };
+
 /** base64 of a 32-byte digest is 43 chars plus one '=' of padding. */
 const SHA256_TOKEN = /^'sha256-[A-Za-z0-9+/]{43}='$/;
 
@@ -293,11 +300,18 @@ function validateCsp(sourceValue, builtValue, expected) {
       continue;
     }
 
-    // Precondition: the source really is the placeholder we expect to rewrite.
-    if (sourceTokens.join(' ') !== "'self' 'unsafe-inline'") {
+    // Precondition: the source really is the placeholder we expect to rewrite,
+    // followed only by the external sources this directive may name.
+    const placeholder = sourceTokens.slice(0, 2).join(' ');
+    const sourceHosts = sourceTokens.slice(2);
+    if (placeholder !== "'self' 'unsafe-inline'") {
       problems.push(
         `public/_headers ${name} is "${sourceTokens.join(' ')}", expected "'self' 'unsafe-inline'"`,
       );
+    }
+    const unknownHosts = sourceHosts.filter((h) => !(EXTERNAL_SOURCES[name] ?? []).includes(h));
+    if (unknownHosts.length) {
+      problems.push(`public/_headers ${name} names unexpected sources: ${unknownHosts.join(' ')}`);
     }
     if (builtTokens.includes("'unsafe-inline'")) {
       problems.push(`built ${name} still allows 'unsafe-inline'`);
@@ -305,8 +319,14 @@ function validateCsp(sourceValue, builtValue, expected) {
     if (builtTokens[0] !== "'self'") {
       problems.push(`built ${name} does not start with 'self': ${builtTokens.join(' ')}`);
     }
+    const builtHosts = builtTokens.slice(builtTokens.length - sourceHosts.length);
+    if (sourceHosts.length && builtHosts.join(' ') !== sourceHosts.join(' ')) {
+      problems.push(
+        `built ${name} changed its external sources:\n  public: ${sourceHosts.join(' ')}\n  built:  ${builtHosts.join(' ')}`,
+      );
+    }
 
-    const present = builtTokens.slice(1);
+    const present = builtTokens.slice(1, builtTokens.length - sourceHosts.length);
     for (const token of present) {
       if (!SHA256_TOKEN.test(token)) {
         problems.push(`built ${name} has token ${token}, which is not a valid SHA-256 source`);
@@ -656,6 +676,7 @@ async function negativeSelfTest() {
     ['stale hash (one character flipped)', mutateHash(builtRaw), 'stale or unexpected hash'],
     ['missing hash (one removed)', dropHash(builtRaw), 'is missing 1 hash(es) that dist/ requires'],
     ['extra hash (one invented)', addHash(builtRaw), 'stale or unexpected hash'],
+    ['another host slipped into script-src', builtRaw.replace(/(script-src [^;]*)/, '$1 https://evil.example'), 'changed its external sources'],
     ['built directive with no hashes at all', stripHashes(builtRaw), 'built style-src carries no hashes'],
     ['no inline content found, so nothing to hash', builtRaw, 'expected hash set is empty', NO_EXPECTED_HASHES],
     ['malformed indented line without a colon', builtRaw.replace('\n/_astro/*', '\n  this-is-not-a-header\n/_astro/*'), 'is not a "Name: value" header'],

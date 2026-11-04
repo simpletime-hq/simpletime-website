@@ -810,7 +810,7 @@
     "summary": [
       "Your time belongs to you. SimpleTime needs no account, shows no ads and doesn’t track you.",
       "Your entries live on your devices and in your private iCloud – nobody else can read them, not even us. SimpleTime has no servers of its own.",
-      "This website sets no cookies of its own, uses no analytics and loads nothing from third parties."
+      "This website sets no cookies of its own and loads nothing from third parties. We count how many people visit it anonymously with Atriya, our own analytics service."
     ],
     "sections": [
       {
@@ -926,9 +926,19 @@
             ]
           },
           {
-            "title": "No analytics, no third parties",
+            "title": "Visitor statistics with Atriya",
             "paragraphs": [
-              "This website uses no analytics or tracking tools, no advertising and no social media plugins, and it loads no fonts or scripts from other servers. Links to the App Store take you to Apple, where Apple’s privacy policy applies."
+              "To see which pages are read and where visitors come from, we use Atriya, an analytics service we run ourselves. Atriya stores nothing in your browser and reads nothing from it – no cookies, no local storage – and doesn’t record your visit.",
+              "When you open a page, your browser loads a small script from intern.atriya.io for this. It transmits the page you opened, the page you came from, campaign details in the link (UTM parameters), which elements you click, how far you scroll, loading times and technical errors. From your IP address we determine your country and city, and from your browser’s identification (user agent) your device type, browser and operating system.",
+              "So that we can count visits without recognising you, Atriya derives an identifier from your IP address, your browser’s identification and a random daily key, valid for one day only. The daily key is then deleted, after which the identifier can’t be linked to you or to an IP address. We don’t store your IP address itself.",
+              "The server is hosted by IONOS SE, Elgendorfer Str. 57, 56410 Montabaur, Germany, in a data centre in the European Union; IONOS processes the data on our behalf. We only look at it in aggregate and don’t pass it on. Once the daily key has been deleted, the statistics are anonymous; we keep them without a fixed time limit.",
+              "The legal basis is our legitimate interest in improving the website (Art. 6 (1) (f) GDPR). As nothing is stored on or read from your device, no consent is needed (§ 25 TDDDG). If you don’t want to be counted, turn on Do Not Track or Global Privacy Control in your browser – Atriya then records nothing."
+            ]
+          },
+          {
+            "title": "No advertising, no third parties",
+            "paragraphs": [
+              "This website shows no advertising, uses no social media plugins and loads no fonts or scripts from third-party servers. Links to the App Store take you to Apple, where Apple’s privacy policy applies."
             ]
           },
           {

@@ -2,7 +2,7 @@
 
 Marketing website for [SimpleTime](https://apps.apple.com/us/app/simpletime-time-tracker/id6755532037), available at [simple-time.app](https://simple-time.app).
 
-Built with [Astro](https://astro.build) and [Tailwind CSS v4](https://tailwindcss.com). 18 languages (English at `/`, every other language under `/<lang>/`). No analytics, no tracking, self-hosted fonts.
+Built with [Astro](https://astro.build) and [Tailwind CSS v4](https://tailwindcss.com). 18 languages (English at `/`, every other language under `/<lang>/`). Self-hosted fonts; visits are counted anonymously with our own [Atriya](https://intern.atriya.io) server (no cookies, nothing stored in the browser).
 
 ## Development
 
@@ -54,4 +54,6 @@ for Arabic, Hebrew and Hindi.
 
 `dist/` is served by Cloudflare (`wrangler.jsonc`). `public/_headers` holds the security headers; the build
 replaces `'unsafe-inline'` in its CSP with hashes of the inline code (`scripts/csp-headers.mjs`), and CI
-verifies the result (`scripts/check-headers.mjs`).
+verifies the result (`scripts/check-headers.mjs`). The only other host the CSP allows is
+`https://intern.atriya.io`, for the visitor statistics script in `src/layouts/Layout.astro` and the
+requests it sends.

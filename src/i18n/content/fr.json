@@ -810,7 +810,7 @@
     "summary": [
       "Votre temps vous appartient. SimpleTime ne nécessite aucun compte, n’affiche aucune publicité et ne vous piste pas.",
       "Vos entrées se trouvent sur vos appareils et dans votre iCloud privé – personne d’autre ne peut les lire, pas même nous. SimpleTime n’a aucun serveur à lui.",
-      "Ce site ne dépose lui-même aucun cookie, n’utilise aucun outil d’analyse et ne charge rien depuis des tiers."
+      "Ce site ne dépose lui-même aucun cookie et ne charge rien depuis des tiers. Nous comptons ses visiteurs de manière anonyme avec Atriya, notre propre service d’analyse."
     ],
     "sections": [
       {
@@ -926,9 +926,19 @@
             ]
           },
           {
-            "title": "Aucun outil d’analyse, aucun tiers",
+            "title": "Statistiques de visite avec Atriya",
             "paragraphs": [
-              "Ce site n’utilise aucun outil d’analyse ou de pistage, aucune publicité ni aucun plugin de réseaux sociaux, et il ne charge aucune police ni aucun script depuis d’autres serveurs. Les liens vers l’App Store vous mènent chez Apple, où la politique de confidentialité d’Apple s’applique."
+              "Pour savoir quelles pages sont lues et d’où viennent les visiteurs, nous utilisons Atriya, un service d’analyse que nous exploitons nous-mêmes. Atriya ne stocke rien dans votre navigateur et n’y lit rien – ni cookies, ni stockage local – et ne réalise aucun enregistrement de votre visite.",
+              "Lorsque vous ouvrez une page, votre navigateur charge à cet effet un petit script depuis intern.atriya.io. Sont transmis : la page ouverte, la page d’où vous venez, les indications de campagne contenues dans le lien (paramètres UTM), les éléments sur lesquels vous cliquez, jusqu’où vous faites défiler la page, les temps de chargement et les erreurs techniques. À partir de votre adresse IP, nous déterminons le pays et la ville ; à partir de l’identifiant de votre navigateur (user agent), le type d’appareil, le navigateur et le système d’exploitation.",
+              "Pour pouvoir compter les visites sans vous reconnaître, Atriya calcule, à partir de l’adresse IP, de l’identifiant du navigateur et d’une clé journalière aléatoire, un identifiant valable un seul jour. La clé journalière est ensuite supprimée, et l’identifiant ne peut plus être rattaché ni à vous ni à une adresse IP. Nous ne conservons pas votre adresse IP elle-même.",
+              "Le serveur est hébergé par IONOS SE, Elgendorfer Str. 57, 56410 Montabaur, Allemagne, dans un centre de données situé dans l’Union européenne ; IONOS traite les données pour notre compte. Nous ne les exploitons que sous forme agrégée et ne les transmettons à personne. Une fois la clé journalière supprimée, les statistiques sont anonymes ; nous les conservons sans délai fixe.",
+              "La base juridique est notre intérêt légitime à améliorer le site (art. 6, par. 1, point f), du RGPD). Comme rien n’est enregistré sur votre appareil ni lu depuis celui-ci, aucun consentement n’est nécessaire (§ 25 TDDDG). Si vous ne souhaitez pas être compté, activez Do Not Track ou Global Privacy Control dans votre navigateur : Atriya n’enregistre alors rien."
+            ]
+          },
+          {
+            "title": "Aucune publicité, aucun tiers",
+            "paragraphs": [
+              "Ce site n’affiche aucune publicité, n’utilise aucun plugin de réseaux sociaux et ne charge aucune police ni aucun script depuis des serveurs tiers. Les liens vers l’App Store vous mènent chez Apple, où la politique de confidentialité d’Apple s’applique."
             ]
           },
           {

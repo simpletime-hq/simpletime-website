@@ -810,7 +810,7 @@
     "summary": [
       "Deine Zeit gehört dir. SimpleTime braucht kein Konto, zeigt keine Werbung und trackt dich nicht.",
       "Deine Einträge liegen auf deinen Geräten und in deiner privaten iCloud – niemand sonst kann sie lesen, auch wir nicht. SimpleTime hat keine eigenen Server.",
-      "Diese Website setzt keine eigenen Cookies, nutzt kein Analytics und lädt nichts von Dritten."
+      "Diese Website setzt keine eigenen Cookies und lädt nichts von Dritten. Wie viele Menschen sie besuchen, zählen wir anonym mit Atriya, unserem eigenen Analytics-Dienst."
     ],
     "sections": [
       {
@@ -926,9 +926,19 @@
             ]
           },
           {
-            "title": "Kein Analytics, keine Dritten",
+            "title": "Besucherstatistik mit Atriya",
             "paragraphs": [
-              "Diese Website nutzt keine Analyse- oder Tracking-Werkzeuge, keine Werbung und keine Social-Media-Plugins und lädt keine Schriften oder Skripte von anderen Servern. Links zum App Store führen zu Apple; dort gilt die Datenschutzerklärung von Apple."
+              "Um zu sehen, welche Seiten gelesen werden und woher Besucher kommen, nutzen wir Atriya, einen Analytics-Dienst, den wir selbst betreiben. Atriya speichert nichts in deinem Browser und liest dort auch nichts aus – keine Cookies, kein lokaler Speicher – und zeichnet deinen Besuch nicht auf.",
+              "Beim Aufruf einer Seite lädt dein Browser dafür ein kleines Skript von intern.atriya.io. Übermittelt werden die aufgerufene Seite, die Seite, von der du kommst, Kampagnen-Angaben im Link (UTM-Parameter), auf welche Elemente du klickst, wie weit du scrollst, Ladezeiten und technische Fehler. Aus deiner IP-Adresse ermitteln wir Land und Stadt, aus der Kennung deines Browsers (User-Agent) Gerätetyp, Browser und Betriebssystem.",
+              "Damit wir Besuche zählen können, ohne dich wiederzuerkennen, bildet Atriya aus IP-Adresse, Browser-Kennung und einem zufälligen Tagesschlüssel eine Kennung, die nur einen Tag gilt. Danach wird der Tagesschlüssel gelöscht, und die Kennung lässt sich weder dir noch einer IP-Adresse zuordnen. Deine IP-Adresse selbst speichern wir nicht.",
+              "Der Server steht bei der IONOS SE, Elgendorfer Str. 57, 56410 Montabaur, in einem Rechenzentrum in der Europäischen Union; IONOS verarbeitet die Daten in unserem Auftrag. Wir werten sie nur zusammengefasst aus und geben sie nicht weiter. Ist der Tagesschlüssel gelöscht, ist die Statistik anonym; wir bewahren sie ohne feste Frist auf.",
+              "Rechtsgrundlage ist unser berechtigtes Interesse, die Website zu verbessern (Art. 6 Abs. 1 lit. f DSGVO). Da nichts auf deinem Gerät gespeichert oder ausgelesen wird, ist keine Einwilligung nötig (§ 25 TDDDG). Möchtest du nicht gezählt werden, schalte in deinem Browser „Do Not Track“ oder „Global Privacy Control“ ein – dann erfasst Atriya nichts."
+            ]
+          },
+          {
+            "title": "Keine Werbung, keine Dritten",
+            "paragraphs": [
+              "Diese Website zeigt keine Werbung, nutzt keine Social-Media-Plugins und lädt keine Schriften oder Skripte von fremden Servern. Links zum App Store führen zu Apple; dort gilt die Datenschutzerklärung von Apple."
             ]
           },
           {

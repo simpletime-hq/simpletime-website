@@ -810,7 +810,7 @@
     "summary": [
       "Jouw tijd is van jou. SimpleTime heeft geen account nodig, toont geen advertenties en volgt je niet.",
       "Je registraties staan op je apparaten en in je persoonlijke iCloud – niemand anders kan ze lezen, ook wij niet. SimpleTime heeft geen eigen servers.",
-      "Deze website plaatst geen eigen cookies, gebruikt geen analysetools en laadt niets van derden."
+      "Deze website plaatst geen eigen cookies en laadt niets van derden. Hoeveel mensen hem bezoeken, tellen we anoniem met Atriya, onze eigen analysedienst."
     ],
     "sections": [
       {
@@ -926,9 +926,19 @@
             ]
           },
           {
-            "title": "Geen analysetools, geen derden",
+            "title": "Bezoekersstatistieken met Atriya",
             "paragraphs": [
-              "Deze website gebruikt geen analyse- of trackingtools, geen advertenties en geen plug-ins van sociale media, en laadt geen lettertypen of scripts van andere servers. Links naar de App Store brengen je naar Apple, waar het privacybeleid van Apple van toepassing is."
+              "Om te zien welke pagina’s worden gelezen en waar bezoekers vandaan komen, gebruiken we Atriya, een analysedienst die we zelf beheren. Atriya slaat niets op in je browser en leest er ook niets uit – geen cookies, geen lokale opslag – en neemt je bezoek niet op.",
+              "Als je een pagina opent, laadt je browser daarvoor een klein script van intern.atriya.io. Daarbij worden doorgegeven: de geopende pagina, de pagina waar je vandaan komt, campagnegegevens in de link (UTM-parameters), op welke elementen je klikt, hoe ver je scrolt, laadtijden en technische fouten. Uit je IP-adres bepalen we land en stad, uit de identificatie van je browser (user agent) het type apparaat, de browser en het besturingssysteem.",
+              "Zodat we bezoeken kunnen tellen zonder je te herkennen, maakt Atriya uit het IP-adres, de identificatie van je browser en een willekeurige dagsleutel een kenmerk dat maar één dag geldig is. Daarna wordt de dagsleutel verwijderd en kan het kenmerk niet meer aan jou of aan een IP-adres worden gekoppeld. Je IP-adres zelf slaan we niet op.",
+              "De server staat bij IONOS SE, Elgendorfer Str. 57, 56410 Montabaur, Duitsland, in een datacenter in de Europese Unie; IONOS verwerkt de gegevens in onze opdracht. We bekijken ze alleen samengevat en geven ze niet door. Zodra de dagsleutel is verwijderd, zijn de statistieken anoniem; we bewaren ze zonder vaste termijn.",
+              "De rechtsgrond is ons gerechtvaardigd belang om de website te verbeteren (art. 6 lid 1 sub f AVG). Omdat er niets op je apparaat wordt opgeslagen of uitgelezen, is geen toestemming nodig (§ 25 TDDDG). Wil je niet meegeteld worden, zet dan Do Not Track of Global Privacy Control aan in je browser – Atriya registreert dan niets."
+            ]
+          },
+          {
+            "title": "Geen advertenties, geen derden",
+            "paragraphs": [
+              "Deze website toont geen advertenties, gebruikt geen plug-ins van sociale media en laadt geen lettertypen of scripts van servers van derden. Links naar de App Store brengen je naar Apple, waar het privacybeleid van Apple van toepassing is."
             ]
           },
           {

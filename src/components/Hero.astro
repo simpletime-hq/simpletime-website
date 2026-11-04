@@ -3,11 +3,10 @@ import type { Lang } from '../i18n/ui';
 import { useTranslations } from '../i18n/utils';
 import { getContent } from '../i18n/content';
 import { phoneScreen } from '../i18n/screens';
-import { DAY, totals, taskName, duration } from '../i18n/day';
 import AppStoreButton from './AppStoreButton.astro';
 import DeviceFrame from './DeviceFrame.astro';
 import LiveActivity from './LiveActivity.astro';
-import DayRibbon from './DayRibbon.astro';
+import WidgetToday from './WidgetToday.astro';
 
 interface Props {
   lang: Lang;
@@ -17,27 +16,41 @@ const { lang } = Astro.props;
 const t = useTranslations(lang);
 const { home, store, shots } = getContent(lang);
 const hero = home.hero;
-const legend = totals(DAY);
-const total = legend.reduce((sum, item) => sum + item.minutes, 0);
 
 // Chinese and Japanese run sentences together; everywhere else they are spaced.
 const sentenceGap = lang === 'ja' || lang === 'zh' ? '' : ' ';
+
+// The dial behind the phone: sixty minute marks, every fifth one longer – the
+// face of the clock that one tap starts.
+const ticks = Array.from({ length: 60 }, (_, i) => {
+  const angle = (i / 60) * 2 * Math.PI;
+  const outer = 200;
+  const inner = i % 5 === 0 ? 184 : 192;
+  return {
+    x1: (200 + Math.sin(angle) * inner).toFixed(2),
+    y1: (200 - Math.cos(angle) * inner).toFixed(2),
+    x2: (200 + Math.sin(angle) * outer).toFixed(2),
+    y2: (200 - Math.cos(angle) * outer).toFixed(2),
+    major: i % 5 === 0,
+  };
+});
 ---
 
-<section class="hero sky-dawn relative overflow-x-clip">
-  <div class="wrap relative grid items-center gap-x-10 gap-y-12 pt-10 pb-12 sm:pt-16 lg:grid-cols-12 lg:pt-14 lg:pb-16">
-    <div class="relative z-10 lg:col-span-8">
-      <h1 class="t-hero rise">
+<section class="hero relative overflow-x-clip">
+  <div class="wrap relative grid items-center gap-x-12 gap-y-20 pb-24 pt-12 sm:pt-16 lg:grid-cols-12 lg:pb-32 lg:pt-16">
+    <div class="relative z-10 lg:col-span-7">
+      <p class="eyebrow rise">{hero.eyebrow}</p>
+      <h1 class="t-hero rise delay-1 mt-6">
         <span class="block">{hero.titleLead}</span>
         <span class="block">{hero.titleAccent}</span>
       </h1>
 
       {/* The first two paragraphs of the App Store description, word for word. */}
-      <p class="rise delay-1 t-intro mt-7 max-w-[35rem] text-muted">
+      <p class="rise delay-2 t-intro mt-8 max-w-[34rem] text-muted">
         {`${store.lead}${sentenceGap}${store.promise}`}
       </p>
 
-      <div class="rise delay-2 mt-9 flex flex-wrap items-center gap-x-8 gap-y-5">
+      <div class="rise delay-3 mt-10 flex flex-wrap items-center gap-x-8 gap-y-5">
         <AppStoreButton label={t('appstore.download')} size="lg" />
         <a href="#features" class="link-more text-[17px]">
           {hero.cta}
@@ -47,49 +60,47 @@ const sentenceGap = lang === 'ja' || lang === 'zh' ? '' : ' ';
         </a>
       </div>
 
-      <ul class="rise delay-3 hero-proof mt-10 flex flex-wrap gap-x-3 gap-y-1.5 text-[15px] text-muted">
+      <ul class="rise delay-4 hero-proof mt-12 flex flex-wrap gap-x-3 gap-y-1.5 text-[15px] text-muted">
         {hero.proof.map((item) => <li>{item}</li>)}
       </ul>
     </div>
 
-    <div class="relative lg:col-span-4">
+    <div class="relative lg:col-span-5">
       <div class="hero-stage">
-        <DeviceFrame
-          image={phoneScreen(lang, 'tracking')}
-          alt={shots[0].alt}
-          loading="eager"
-          sizes="(min-width: 1024px) 330px, 62vw"
-          class="hero-phone rise-media delay-1"
-        />
+        <svg class="hero-dial rise-media" viewBox="0 0 400 400" aria-hidden="true">
+          <circle cx="200" cy="200" r="150" class="hero-dial__face" />
+          {ticks.map((tick) => <line x1={tick.x1} y1={tick.y1} x2={tick.x2} y2={tick.y2} class:list={['hero-dial__tick', tick.major && 'is-major']} />)}
+        </svg>
+
+        <div class="hero-phone rise-media delay-1">
+          <div class="drift-a">
+            <DeviceFrame image={phoneScreen(lang, 'tracking')} alt={shots[0].alt} loading="eager" sizes="(min-width: 1024px) 320px, 64vw" />
+          </div>
+        </div>
+
+        <div class="hero-widget rise-media delay-3">
+          <div class="drift-b">
+            <WidgetToday lang={lang} id="hero" draw />
+          </div>
+        </div>
+
         <div class="hero-live rise-media delay-4">
-          <LiveActivity lang={lang} />
+          <div class="drift-c">
+            <LiveActivity lang={lang} />
+          </div>
         </div>
       </div>
     </div>
   </div>
-
-  {/* Today, as the app would draw it: every block a task, the open one still running. */}
-  <div class="wrap pb-20 sm:pb-28">
-    <div class="flex items-baseline justify-between gap-6 border-t border-line pt-6">
-      <p class="t-label">{t('day.today')}</p>
-      <p class="t-clock text-[1.375rem] text-ink" dir="ltr">{duration(total)}</p>
-    </div>
-    <DayRibbon id="rh" blocks={DAY} variant="hero" scale class="mt-5" />
-    <ul class="mt-7 flex flex-wrap gap-x-8 gap-y-3">
-      {
-        legend.map((item) => (
-          <li class="flex items-center gap-2.5 text-[14px]">
-            <span class:list={['legend-dot', `bg-${item.task}`]} aria-hidden="true" />
-            <span class="text-ink-2">{taskName(lang, item.task)}</span>
-            <span class="tabular text-muted" dir="ltr">{duration(item.minutes)}</span>
-          </li>
-        ))
-      }
-    </ul>
-  </div>
 </section>
 
 <style>
+  .hero {
+    background:
+      radial-gradient(60rem 36rem at 85% 30%, var(--glow), transparent 70%),
+      var(--canvas);
+  }
+
   /* The dot belongs to the item before it, so a wrapped line never starts with one. */
   .hero-proof li {
     white-space: nowrap;
@@ -101,32 +112,80 @@ const sentenceGap = lang === 'ja' || lang === 'zh' ? '' : ' ';
     color: var(--subtle);
   }
 
+  /* Its own stacking context, so the dial sits behind the phone but in front
+     of the section's ground. */
   .hero-stage {
     position: relative;
+    isolation: isolate;
     margin-inline: auto;
-    width: min(62vw, 20.5rem);
+    width: min(64vw, 20rem);
   }
 
   @media (min-width: 1024px) {
     .hero-stage {
-      width: min(100%, 20.75rem);
-      margin-inline-end: 0;
+      width: min(100%, 20rem);
     }
   }
 
-  /* The Lock Screen card, floating in front of the phone – the same task and
-     time the screen shows. */
-  .hero-live {
+  /* The clock face is larger than the phone and centred on it. */
+  .hero-dial {
     position: absolute;
-    z-index: 2;
-    top: 63%;
-    inset-inline-start: 50%;
-    translate: -50% 0;
-    font-size: clamp(0.8rem, 2.7vw, 0.95rem);
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    width: 168%;
+    translate: -50% -50%;
+    overflow: visible;
   }
 
-  :global([dir='rtl']) .hero-live {
-    translate: 50% 0;
+  .hero-dial__face {
+    fill: color-mix(in srgb, var(--surface) 55%, transparent);
+    stroke: var(--line);
+    stroke-width: 1;
+  }
+
+  .hero-dial__tick {
+    stroke: var(--line-strong);
+    stroke-width: 1.5;
+    stroke-linecap: round;
+  }
+
+  .hero-dial__tick.is-major {
+    stroke: var(--subtle);
+    stroke-width: 2.5;
+  }
+
+  /* The Home Screen widget at the phone's upper corner, the Live Activity
+     below – the running task in both places, as on a real iPhone. */
+  .hero-widget {
+    position: absolute;
+    z-index: 2;
+    top: 9%;
+    inset-inline-end: -26%;
+    width: 46%;
+  }
+
+  .hero-live {
+    position: absolute;
+    z-index: 3;
+    top: 66%;
+    inset-inline-start: -30%;
+    width: 112%;
+    font-size: clamp(0.72rem, 2.4vw, 0.86rem);
+  }
+
+  @media (min-width: 1024px) {
+    .hero-live {
+      font-size: 0.8rem;
+    }
+  }
+
+  /* A laptop leaves less room on the right: the widget comes in closer. */
+  @media (min-width: 1024px) and (max-width: 1279px) {
+    .hero-widget {
+      inset-inline-end: -9%;
+      width: 40%;
+    }
   }
 
   .hero-live :global(.live-card) {
@@ -137,16 +196,16 @@ const sentenceGap = lang === 'ja' || lang === 'zh' ? '' : ' ';
     color: #9b99ff;
   }
 
-  @media (min-width: 1024px) {
-    .hero-live {
-      font-size: 0.8rem;
+  /* On narrow phones the cards stay inside the page. */
+  @media (max-width: 479px) {
+    .hero-widget {
+      inset-inline-end: -12%;
+      width: 40%;
     }
-  }
 
-  .legend-dot {
-    width: 0.625rem;
-    height: 0.625rem;
-    flex: none;
-    border-radius: 0.2rem;
+    .hero-live {
+      inset-inline-start: -14%;
+      width: 100%;
+    }
   }
 </style>

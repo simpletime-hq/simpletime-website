@@ -102,39 +102,25 @@
         "Geen advertenties, geen tracking"
       ]
     },
+    "tour": {
+      "tracking": "Start waar je ook bent."
+    },
+    "devices": {
+      "title": "Op al je apparaten.",
+      "subtitle": "iPhone, iPad en Mac blijven via iCloud gelijk – en de klok loopt mee op het toegangsscherm, in het Dynamic Island en om je pols."
+    },
     "showcase": [
       {
         "id": "day",
-        "eyebrow": "Je dag",
-        "title": "Je hele dag in één oogopslag.",
-        "body": "Elke registratie met begin, einde en duur – als lijst of als tijdlijn van 0 tot 24 uur, met een markering op het huidige tijdstip. Notities leggen vast wat de cijfers niet zeggen, en bovenaan zie je hoe vandaag zich verhoudt tot gisteren.",
-        "points": [
-          "Een lijst of een tijdlijn van 0 tot 24 uur",
-          "Notities bij elke registratie",
-          "Vandaag vergeleken met gisteren"
-        ]
+        "title": "Je hele dag in één oogopslag."
       },
       {
         "id": "insights",
-        "eyebrow": "Analyseren",
-        "title": "Zie waar je uren echt heen gaan.",
-        "body": "Cirkeldiagrammen per taak en per productiviteit – voor een dag, een week, een maand of een jaar. De statistieken vergelijken elke periode met de vorige en tonen het verloop en de uren van de dag waarop je het meest registreert.",
-        "points": [
-          "Grafieken per taak en per productiviteit",
-          "Vergelijking met de vorige periode",
-          "Deel elke grafiek als afbeelding"
-        ]
+        "title": "Zie waar je uren echt heen gaan."
       },
       {
         "id": "reports",
-        "eyebrow": "Rapporten en export",
-        "title": "Een rapport in seconden.",
-        "body": "Kies een periode en de onderdelen die je nodig hebt, sleep ze in de juiste volgorde – en SimpleTime maakt er een pdf van, met elke taak en subtaak. Heb je de ruwe cijfers nodig? Een CSV-bestand open je in Excel en Numbers.",
-        "points": [
-          "Een pdf met de onderdelen die jij kiest",
-          "CSV voor Excel en Numbers",
-          "Automatische back-ups in iCloud Drive"
-        ]
+        "title": "Een rapport in seconden."
       }
     ],
     "features": {
@@ -143,10 +129,6 @@
     },
     "pro": {
       "button": "Alles over SimpleTime Pro"
-    },
-    "gallery": {
-      "title": "Van dichterbij.",
-      "subtitle": "De schermen uit de App Store – precies zoals ze op je apparaat verschijnen."
     },
     "audience": {
       "title": "Voor iedereen die wil weten waar zijn tijd heen gaat.",

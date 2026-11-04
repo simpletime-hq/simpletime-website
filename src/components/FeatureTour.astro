@@ -1,0 +1,298 @@
+---
+import { Image } from 'astro:assets';
+import type { Lang } from '../i18n/ui';
+import { useTranslations } from '../i18n/utils';
+import { getContent } from '../i18n/content';
+import { phoneScreen, type PhoneScreen } from '../i18n/screens';
+import DeviceFrame from './DeviceFrame.astro';
+
+interface Props {
+  lang: Lang;
+}
+
+// The free app in the order it is used: capture the time, look at the day,
+// see where the hours went, hand on a report. Each chapter is a part of the
+// App Store description, word for word, beside the screen it describes. On a
+// wide screen one phone stays put and changes screen as the chapters pass.
+const { lang } = Astro.props;
+const t = useTranslations(lang);
+const { home, store, shots } = getContent(lang);
+
+const headline = (id: string) => home.showcase.find((s) => s.id === id)?.title;
+const chapters = (
+  [
+    { id: 'tracking', screen: 'tracking', title: home.tour.tracking },
+    { id: 'day', screen: 'timeline', title: headline('day') },
+    { id: 'insights', screen: 'chart', title: headline('insights') },
+    { id: 'reports', screen: 'report', title: headline('reports') },
+  ] as { id: string; screen: PhoneScreen; title?: string }[]
+).map((chapter) => {
+  const section = store.sections.find((s) => s.id === chapter.id);
+  const shot = shots.find((s) => s.id === chapter.screen);
+  if (!section || !shot || !chapter.title) throw new Error(`Feature tour: "${chapter.id}" is missing in ${lang}`);
+  return { ...chapter, section, alt: shot.alt, image: phoneScreen(lang, chapter.screen) };
+});
+---
+
+<section id="features" class="sec tour">
+  <div class="wrap">
+    <header class="sec-head">
+      <p class="eyebrow reveal">{t('nav.features')}</p>
+      <h2 class="t-section reveal delay-1 mt-6">{home.features.title}</h2>
+      <p class="t-intro reveal delay-2 mt-6 text-muted">{home.features.subtitle}</p>
+    </header>
+
+    <div class="tour-grid mt-16 lg:mt-8">
+      <ol class="tour-steps">
+        {
+          chapters.map((chapter, i) => (
+            <li class:list={['tour-step', i === 0 && 'is-active']} data-step={i}>
+              <div class="tour-step__text reveal">
+                <p class="tour-step__meta">
+                  <span class="tour-step__num" dir="ltr">{String(i + 1).padStart(2, '0')}</span>
+                  <span>{chapter.section.title}</span>
+                </p>
+                <h3 class="t-title mt-5">{chapter.title}</h3>
+                <ul class="checklist mt-8">
+                  {chapter.section.points.map((point) => (
+                    <li>{point}</li>
+                  ))}
+                </ul>
+              </div>
+              <div class="tour-step__phone reveal-media delay-1">
+                <DeviceFrame image={chapter.image} alt={chapter.alt} sizes="72vw" />
+              </div>
+            </li>
+          ))
+        }
+      </ol>
+
+      <div class="tour-stage" data-active="0">
+        <div class="tour-stage__sticky">
+          <div class="tour-stage__glow" aria-hidden="true"></div>
+          <div class="tour-stage__phone">
+            <DeviceFrame>
+              {
+                chapters.map((chapter, i) => (
+                  <Image
+                    src={chapter.image}
+                    alt={chapter.alt}
+                    widths={[360, 720, 1080]}
+                    sizes="(min-width: 1024px) 340px, 0px"
+                    class="tour-layer"
+                    data-layer={i}
+                    decoding="async"
+                  />
+                ))
+              }
+            </DeviceFrame>
+          </div>
+          <ol class="tour-rail" aria-hidden="true">
+            {chapters.map((_, i) => <li data-dot={i} />)}
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+  // Which chapter is at the middle of the screen decides the phone's screen.
+  const stage = document.querySelector<HTMLElement>('.tour-stage');
+  const steps = [...document.querySelectorAll<HTMLElement>('.tour-step')];
+  if (stage && steps.length && 'IntersectionObserver' in window) {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        for (const entry of entries) {
+          if (!entry.isIntersecting) continue;
+          const active = entry.target as HTMLElement;
+          stage.dataset.active = active.dataset.step ?? '0';
+          steps.forEach((step) => step.classList.toggle('is-active', step === active));
+        }
+      },
+      { rootMargin: '-50% 0px -50% 0px' },
+    );
+    steps.forEach((step) => observer.observe(step));
+  }
+</script>
+
+<style>
+  .tour {
+    background: var(--canvas);
+  }
+
+  .tour-step__meta {
+    display: flex;
+    align-items: baseline;
+    gap: 0.9rem;
+    font-family: var(--font-display);
+    font-size: 0.9375rem;
+    font-weight: 620;
+    color: var(--accent);
+  }
+
+  .tour-step__num {
+    font-stretch: 125%;
+    font-variant-numeric: tabular-nums;
+    color: var(--subtle);
+  }
+
+  .tour-steps {
+    display: grid;
+    gap: 6.5rem;
+  }
+
+  .tour-step__phone {
+    width: min(72vw, 19rem);
+    margin: 3.5rem auto 0;
+  }
+
+  .tour-stage {
+    display: none;
+  }
+
+  @media (min-width: 1024px) {
+    .tour-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+      gap: 4rem;
+    }
+
+    .tour-steps {
+      gap: 0;
+    }
+
+    /* Each chapter fills most of a screen, so the phone has time to change. */
+    .tour-step {
+      display: flex;
+      align-items: center;
+      min-height: 82vh;
+    }
+
+    .tour-step__phone {
+      display: none;
+    }
+
+    /* The chapter beside the phone is marked by its number turning to the
+       accent and a line growing under it – the others stay fully legible. */
+    .tour-step__meta::after {
+      content: '';
+      order: -1;
+      width: 0;
+      height: 2px;
+      align-self: center;
+      border-radius: 1px;
+      background: var(--accent);
+      transition: width 0.6s var(--ease-out-expo);
+    }
+
+    .tour-step.is-active .tour-step__meta::after {
+      width: 1.75rem;
+    }
+
+    .tour-step__num {
+      transition: color 0.4s ease;
+    }
+
+    .tour-step.is-active .tour-step__num {
+      color: var(--accent);
+    }
+
+    .tour-stage {
+      display: block;
+    }
+
+    .tour-stage__sticky {
+      position: sticky;
+      top: 0;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 2rem;
+    }
+
+    /* As wide as fits under the header on a short laptop screen. */
+    .tour-stage__phone {
+      position: relative;
+      width: min(21rem, calc((100vh - 11rem) * 0.45));
+    }
+  }
+
+  /* The screens lie on top of each other; the first one keeps the height. */
+  .tour-layer {
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    transform: scale(1.035);
+    transition:
+      opacity 0.7s var(--ease-out-soft),
+      transform 1s var(--ease-out-expo);
+  }
+
+  .tour-layer[data-layer='0'] {
+    position: relative;
+  }
+
+  .tour-stage[data-active='0'] .tour-layer[data-layer='0'],
+  .tour-stage[data-active='1'] .tour-layer[data-layer='1'],
+  .tour-stage[data-active='2'] .tour-layer[data-layer='2'],
+  .tour-stage[data-active='3'] .tour-layer[data-layer='3'] {
+    opacity: 1;
+    transform: none;
+  }
+
+  /* A glow behind the phone in the colour of the chapter: the running task,
+     the day's meetings, the week's work, the report's warm orange. */
+  .tour-stage__glow {
+    position: absolute;
+    width: 30rem;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background-color: #5856d6;
+    opacity: 0.16;
+    filter: blur(80px);
+    transition: background-color 1.2s var(--ease-out-soft);
+  }
+
+  .tour-stage[data-active='1'] .tour-stage__glow {
+    background-color: #30b0c7;
+  }
+
+  .tour-stage[data-active='2'] .tour-stage__glow {
+    background-color: #007aff;
+  }
+
+  .tour-stage[data-active='3'] .tour-stage__glow {
+    background-color: #ff9500;
+  }
+
+  :global(.dark) .tour-stage__glow {
+    opacity: 0.24;
+  }
+
+  .tour-rail {
+    position: relative;
+    display: flex;
+    gap: 0.5rem;
+  }
+
+  .tour-rail li {
+    width: 1.75rem;
+    height: 0.25rem;
+    border-radius: 999px;
+    background: var(--line-strong);
+    transition:
+      background-color 0.5s ease,
+      width 0.6s var(--ease-out-expo);
+  }
+
+  .tour-stage[data-active='0'] .tour-rail li[data-dot='0'],
+  .tour-stage[data-active='1'] .tour-rail li[data-dot='1'],
+  .tour-stage[data-active='2'] .tour-rail li[data-dot='2'],
+  .tour-stage[data-active='3'] .tour-rail li[data-dot='3'] {
+    width: 3rem;
+    background: var(--accent);
+  }
+</style>

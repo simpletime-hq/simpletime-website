@@ -1,10 +1,11 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import Hero from '../Hero.astro';
-import Story from '../Story.astro';
-import Features from '../Features.astro';
+import FeatureTour from '../FeatureTour.astro';
+import Devices from '../Devices.astro';
+import PrivacyBand from '../PrivacyBand.astro';
 import Audience from '../Audience.astro';
-import ProBand from '../ProBand.astro';
+import ProSection from '../ProSection.astro';
 import FAQ from '../FAQ.astro';
 import CTA from '../CTA.astro';
 import type { Lang } from '../../i18n/ui';
@@ -18,16 +19,17 @@ const { lang } = Astro.props;
 ---
 
 {/*
-  One day, top to bottom: the morning above the fold, the app through the day,
-  dusk for the people it is made for – and Pro, the questions and the close at
-  night.
+  The questions a visitor has, in the order they come: what it is, what it
+  does, where it runs, what happens to the data, who it is for, what Pro adds –
+  then the remaining questions and the download.
 */}
-<Layout lang={lang} path={getLocalizedPath(lang, '/')} dayProgress>
+<Layout lang={lang} path={getLocalizedPath(lang, '/')}>
   <Hero lang={lang} />
-  <Story lang={lang} />
-  <Features lang={lang} />
+  <FeatureTour lang={lang} />
+  <Devices lang={lang} />
+  <PrivacyBand lang={lang} />
   <Audience lang={lang} />
-  <ProBand lang={lang} />
+  <ProSection lang={lang} />
   <FAQ lang={lang} />
   <CTA lang={lang} />
 </Layout>

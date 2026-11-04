@@ -1,6 +1,6 @@
 ---
 import type { Lang } from '../i18n/ui';
-import { langPrefix } from '../i18n/utils';
+import { langPrefix, useTranslations } from '../i18n/utils';
 import { getContent, faqById, HOME_FAQ } from '../i18n/content';
 import FaqEntry from './FaqEntry.astro';
 
@@ -11,18 +11,20 @@ interface Props {
 // The six questions people ask before downloading. The full list is on /faq/;
 // `#faq` stays here because the app links to it (Website.faq).
 const { lang } = Astro.props;
+const t = useTranslations(lang);
 const { faq } = getContent(lang).home;
 const entries = faqById(lang);
 const items = HOME_FAQ.map((id) => entries.get(id)).filter((item) => item !== undefined);
 ---
 
-<section id="faq" class="night scroll-mt-14">
+<section id="faq" class="sec faq scroll-mt-14">
   <div class="wrap">
-    <div class="grid gap-12 border-t border-line py-24 sm:py-32 lg:grid-cols-12 lg:gap-16">
-      <div class="lg:sticky lg:top-24 lg:col-span-5 lg:self-start">
-        <h2 class="reveal t-section">{faq.title}</h2>
-        <p class="reveal delay-1 t-intro mt-6 text-muted">{faq.subtitle}</p>
-        <a href={`${langPrefix(lang)}/faq/`} class="reveal delay-2 link-more mt-8 text-[17px]">
+    <div class="grid gap-12 lg:grid-cols-12 lg:gap-16">
+      <div class="sec-head lg:sticky lg:top-28 lg:col-span-5 lg:self-start">
+        <p class="eyebrow reveal">{t('nav.faq')}</p>
+        <h2 class="reveal delay-1 t-section mt-6">{faq.title}</h2>
+        <p class="reveal delay-2 t-intro mt-6 text-muted">{faq.subtitle}</p>
+        <a href={`${langPrefix(lang)}/faq/`} class="reveal delay-3 link-more mt-8 text-[17px]">
           {faq.button}
           <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
             <path d="M2 6h8M6.5 2.5L10 6l-3.5 3.5"></path>
@@ -36,3 +38,9 @@ const items = HOME_FAQ.map((id) => entries.get(id)).filter((item) => item !== un
     </div>
   </div>
 </section>
+
+<style>
+  .faq {
+    background: var(--canvas);
+  }
+</style>

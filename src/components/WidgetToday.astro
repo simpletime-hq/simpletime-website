@@ -1,0 +1,104 @@
+---
+import type { Lang } from '../i18n/ui';
+import { useTranslations } from '../i18n/utils';
+import { DAY, totals, duration } from '../i18n/day';
+import { ring } from '../i18n/ring';
+
+interface Props {
+  lang: Lang;
+  /** Unique per page – the ring's classes are named after it. */
+  id: string;
+  /** Fill the ring as soon as the page shows it, rather than on reveal. */
+  draw?: boolean;
+  class?: string;
+}
+
+// The small Today widget on the Home Screen: the day so far as a ring, the
+// tracked time in the middle – the sample day of the screenshots.
+const { lang, id, draw = false, class: className = '' } = Astro.props;
+const t = useTranslations(lang);
+const R = 36;
+const today = ring(totals(DAY), R, 2.4, `wt${id}`);
+---
+
+<div class:list={['widget', className]} aria-hidden="true">
+  <div class="widget__face">
+    <p class="widget__label">{t('day.today')}</p>
+    <div class:list={['widget__ring', draw && 'ring--draw']}>
+      <svg viewBox="0 0 100 100">
+        <circle cx="50" cy="50" r={R} class="widget__track" />
+        <g transform="rotate(-90 50 50)">
+          {today.segments.map((s) => <circle cx="50" cy="50" r={R} class:list={['ring-slice', `stroke-${s.task}`, s.cls]} />)}
+        </g>
+      </svg>
+      <span class="widget__total" dir="ltr">{duration(today.total)}</span>
+    </div>
+  </div>
+</div>
+<style is:inline set:html={today.css}></style>
+
+<style>
+  .widget {
+    container-type: inline-size;
+    width: 100%;
+  }
+
+  .widget__face {
+    aspect-ratio: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 9cqw;
+    border-radius: 23cqw;
+    background: #ffffff;
+    color: #0b0b0d;
+    box-shadow:
+      0 0 0 1px rgb(12 20 38 / 0.05),
+      0 3cqw 9cqw -2cqw rgb(12 20 38 / 0.22);
+  }
+
+  :global(.dark) .widget__face,
+  :global(.night) .widget__face {
+    background: #1c1c1e;
+    color: #ffffff;
+    box-shadow: 0 0 0 1px rgb(255 255 255 / 0.06);
+  }
+
+  .widget__label {
+    font-size: 9.5cqw;
+    font-weight: 650;
+    letter-spacing: -0.01em;
+    color: #5856d6;
+  }
+
+  .widget__ring {
+    position: relative;
+    flex: 1;
+    display: grid;
+    place-items: center;
+    margin-top: 3cqw;
+  }
+
+  .widget__ring svg {
+    width: 76cqw;
+    height: 76cqw;
+  }
+
+  .widget__track {
+    fill: none;
+    stroke: rgb(120 120 128 / 0.14);
+    stroke-width: 14;
+  }
+
+  .widget__ring :global(.ring-slice) {
+    stroke-width: 14;
+  }
+
+  .widget__total {
+    position: absolute;
+    font-family: var(--font-rounded);
+    font-size: 14cqw;
+    font-weight: 650;
+    font-variant-numeric: tabular-nums;
+    letter-spacing: -0.02em;
+  }
+</style>

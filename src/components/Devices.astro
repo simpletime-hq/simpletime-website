@@ -1,0 +1,347 @@
+---
+import type { Lang } from '../i18n/ui';
+import { useTranslations } from '../i18n/utils';
+import { getContent } from '../i18n/content';
+import { ipadScreen, macScreen, watchScreen } from '../i18n/screens';
+import MacFrame from './MacFrame.astro';
+import IpadFrame from './IpadFrame.astro';
+import WatchFrame from './WatchFrame.astro';
+import WidgetToday from './WidgetToday.astro';
+import WidgetRunning from './WidgetRunning.astro';
+import LockScreen from './LockScreen.astro';
+import ControlCenter from './ControlCenter.astro';
+
+interface Props {
+  lang: Lang;
+}
+
+// Where SimpleTime runs and where its clock shows: the two device parts of the
+// App Store description, word for word, each beside what it describes.
+const { lang } = Astro.props;
+const t = useTranslations(lang);
+const { home, store, shots, pro } = getContent(lang);
+
+const points = (id: string) => {
+  const section = store.sections.find((s) => s.id === id);
+  if (!section) throw new Error(`Devices: section "${id}" is missing in ${lang}`);
+  return section.points;
+};
+const [widgets, lockScreen, control, siri] = points('widgets');
+const [sync, languageCount, access] = points('devices');
+const watch = pro.features.find((f) => f.id === 'watch');
+const alt = (id: string) => shots.find((s) => s.id === id)?.alt ?? '';
+// The number of languages is the first number in the sentence that names it.
+const languageNumber = languageCount.match(/\d+/)?.[0] ?? '41';
+---
+
+<section id="devices" class="sec devices">
+  <div class="wrap">
+    <header class="sec-head">
+      <p class="eyebrow reveal">{t('nav.devices')}</p>
+      <h2 class="t-section reveal delay-1 mt-6">{home.devices.title}</h2>
+      <p class="t-intro reveal delay-2 mt-6 text-muted">{home.devices.subtitle}</p>
+    </header>
+
+    <div class="bento mt-14 lg:mt-20">
+      <article class="tile bento-mac reveal">
+        <div class="bento-text">
+          <p class="bento-kicker" dir="ltr">Mac · iPad</p>
+          <p class="bento-lead">{sync}</p>
+        </div>
+        <div class="bento-mac__stage">
+          <div class="bento-mac__mac">
+            <MacFrame image={macScreen(lang, 'chart')} alt={alt('chart')} />
+          </div>
+          <div class="bento-mac__ipad">
+            <IpadFrame image={ipadScreen(lang, 'timeline')} alt={alt('timeline')} sizes="(min-width: 1024px) 200px, 34vw" />
+          </div>
+        </div>
+      </article>
+
+      <article class="tile bento-watch reveal delay-1">
+        <div class="bento-text">
+          <p class="bento-kicker"><span dir="ltr">Apple Watch</span><span class="chip">Pro</span></p>
+          {watch && <p class="bento-lead">{watch.body}</p>}
+        </div>
+        <div class="bento-watch__stage">
+          <WatchFrame image={watchScreen(lang, 'running')} alt="" sizes="(min-width: 1024px) 220px, 46vw" />
+        </div>
+      </article>
+
+      <article class="tile bento-widgets reveal">
+        <div class="bento-widgets__stage">
+          <WidgetToday lang={lang} id="devices" />
+          <div class="bento-widgets__medium">
+            <WidgetRunning lang={lang} />
+          </div>
+        </div>
+        <p class="bento-lead bento-foot">{widgets}</p>
+      </article>
+
+      <article class="tile bento-lock reveal delay-1">
+        <div class="bento-lock__stage">
+          <LockScreen lang={lang} />
+        </div>
+        <p class="bento-lead bento-foot">{lockScreen}</p>
+      </article>
+
+      <article class="tile bento-control reveal delay-2">
+        <div class="bento-control__stage">
+          <ControlCenter lang={lang} />
+        </div>
+        <div class="bento-foot">
+          <p class="bento-lead">{control}</p>
+          <p class="tile-body mt-3">{siri}</p>
+        </div>
+      </article>
+
+      <article class="tile bento-fact reveal">
+        <p class="bento-figure" dir="ltr" aria-hidden="true">{languageNumber}</p>
+        <p class="bento-lead">{languageCount}</p>
+      </article>
+
+      <article class="tile bento-fact reveal delay-1">
+        <p class="bento-figure bento-figure--type" aria-hidden="true">
+          <span>A</span><span>a</span>
+        </p>
+        <p class="bento-lead">{access}</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<style>
+  .devices {
+    background: var(--canvas-alt);
+  }
+
+  .bento {
+    display: grid;
+    gap: 1rem;
+  }
+
+  @media (min-width: 640px) {
+    .bento {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .bento-mac {
+      grid-column: 1 / -1;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .bento {
+      grid-template-columns: repeat(6, minmax(0, 1fr));
+      gap: 1.25rem;
+    }
+
+    .bento-mac {
+      grid-column: span 4;
+    }
+
+    .bento-watch,
+    .bento-widgets,
+    .bento-lock,
+    .bento-control {
+      grid-column: span 2;
+    }
+
+    .bento-fact {
+      grid-column: span 3;
+    }
+  }
+
+  .bento .tile {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .bento-text {
+    padding: 1.75rem 1.75rem 0;
+  }
+
+  /* Under a picture the sentence sits at the foot of the tile, so the tiles of
+     a row line up whatever the length of their text. */
+  .bento-foot {
+    margin-top: auto;
+    padding: 0 1.75rem 1.75rem;
+  }
+
+  @media (min-width: 1024px) {
+    .bento-text {
+      padding: 2.25rem 2.25rem 0;
+    }
+
+    .bento-foot {
+      padding: 0 2.25rem 2.25rem;
+    }
+  }
+
+  .bento-kicker {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    font-family: var(--font-display);
+    font-size: 0.9375rem;
+    font-weight: 620;
+    color: var(--subtle);
+  }
+
+  .bento-lead {
+    margin-top: 0.6rem;
+    font-size: 1.1875rem;
+    font-weight: 560;
+    line-height: 1.4;
+    letter-spacing: -0.015em;
+    color: var(--ink);
+    text-wrap: pretty;
+  }
+
+  :is(:lang(ar), :lang(he), :lang(hi), :lang(ja), :lang(zh), :lang(hy)) .bento-lead {
+    letter-spacing: 0;
+  }
+
+  /* Mac and iPad: the Mac fills the tile, the iPad stands in front of it. */
+  .bento-mac__stage {
+    position: relative;
+    margin-top: auto;
+    padding: 2.5rem 1.5rem 0;
+  }
+
+  .bento-mac__mac {
+    width: 88%;
+    margin-inline: auto 0;
+    translate: 3% 0;
+  }
+
+  :global([dir='rtl']) .bento-mac__mac {
+    translate: -3% 0;
+  }
+
+  .bento-mac__ipad {
+    position: absolute;
+    bottom: 1.5rem;
+    inset-inline-start: 4%;
+    width: 27%;
+  }
+
+  @media (min-width: 1024px) {
+    .bento-mac__stage {
+      padding: 3rem 2.25rem 2.25rem;
+    }
+
+    .bento-mac__ipad {
+      bottom: 2.25rem;
+    }
+  }
+
+  .bento-watch__stage {
+    display: grid;
+    place-items: center;
+    flex: 1;
+    padding: 2.5rem 1.75rem 2.25rem;
+  }
+
+  .bento-watch__stage > :global(*) {
+    width: min(58%, 13rem);
+  }
+
+  /* Two widgets as they sit on a Home Screen, on a wallpaper of the task colours. */
+  .bento-widgets__stage,
+  .bento-lock__stage,
+  .bento-control__stage {
+    position: relative;
+    margin: 1rem 1rem 1.75rem;
+    border-radius: 1.25rem;
+  }
+
+  .bento-widgets__stage,
+  .bento-lock__stage,
+  .bento-control__stage {
+    flex: 1;
+  }
+
+  .bento-widgets__stage {
+    display: grid;
+    grid-template-columns: 0.78fr 1fr;
+    align-items: center;
+    gap: 0.9rem;
+    padding: 2rem 1.25rem;
+    background:
+      radial-gradient(90% 120% at 0% 0%, rgb(88 86 214 / 0.28), transparent 60%),
+      radial-gradient(90% 120% at 100% 100%, rgb(255 149 0 / 0.22), transparent 60%),
+      var(--surface-2);
+  }
+
+  .bento-widgets__medium {
+    align-self: center;
+  }
+
+  .bento-lock__stage {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 1.5rem 1.5rem 0;
+    overflow: hidden;
+    background: var(--surface-2);
+  }
+
+  .bento-lock__stage > :global(*) {
+    width: min(100%, 18rem);
+  }
+
+  .bento-control__stage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.75rem 1.5rem 2.25rem;
+    background: var(--surface-2);
+  }
+
+  .bento-control__stage > :global(*) {
+    width: min(76%, 14rem);
+  }
+
+  /* Two facts set large: the languages and the type that grows with you. */
+  .bento-fact {
+    padding: 1.75rem;
+  }
+
+  @media (min-width: 1024px) {
+    .bento .bento-fact {
+      display: grid;
+      grid-template-columns: auto 1fr;
+      align-items: center;
+      gap: 2rem;
+      padding: 2.25rem;
+    }
+
+    .bento-fact .bento-lead {
+      margin-top: 0;
+    }
+  }
+
+  .bento-figure {
+    font-family: var(--font-display);
+    font-size: 4.5rem;
+    font-weight: 700;
+    font-stretch: 125%;
+    letter-spacing: -0.04em;
+    line-height: 1;
+    background: linear-gradient(120deg, #007aff, #5856d6 40%, #ff2d55 75%, #ff9500);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  .bento-figure--type {
+    display: flex;
+    align-items: baseline;
+    gap: 0.05em;
+  }
+
+  .bento-figure--type span:last-child {
+    font-size: 0.55em;
+  }
+</style>

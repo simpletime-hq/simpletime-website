@@ -1,0 +1,133 @@
+---
+import type { Lang } from '../i18n/ui';
+import { clock, NOW } from '../i18n/day';
+import LiveActivity from './LiveActivity.astro';
+
+interface Props {
+  lang: Lang;
+  class?: string;
+}
+
+// The top of a Lock Screen at 18:47 on the Saturday of the screenshots: date,
+// time, the Live Activity of the running task – and the Dynamic Island above,
+// showing the same clock in its compact form.
+const { lang, class: className = '' } = Astro.props;
+const locale = { zh: 'zh-CN', pt: 'pt-PT' }[lang as string] ?? lang;
+const date = new Intl.DateTimeFormat(locale, {
+  weekday: 'long',
+  day: 'numeric',
+  month: 'long',
+  timeZone: 'UTC',
+  numberingSystem: 'latn',
+}).format(new Date(Date.UTC(2026, 8, 5)));
+// The big clock shows no AM/PM – the Lock Screen leaves it out.
+const time = clock(lang, NOW).replace(/\s*(AM|PM|am|pm|ص|م|पूर्वाह्न|अपराह्न|上午|下午|午前|午後)\s*/gu, '');
+const ELAPSED = 42 * 60 + 5;
+---
+
+<div class:list={['lock', className]} aria-hidden="true">
+  <div class="lock__screen">
+    <div class="lock__island" data-live data-elapsed={ELAPSED}>
+      <span class="lock__island-icon">
+        <svg viewBox="0 0 24 24" fill="currentColor">
+          <path d="M5.5 5h13A1.5 1.5 0 0 1 20 6.5v8.75a.75.75 0 0 1-.75.75H4.75a.75.75 0 0 1-.75-.75V6.5A1.5 1.5 0 0 1 5.5 5zm.5 2v7h12V7H6zM2.6 17.5h18.8c.33 0 .6.27.6.6 0 .77-.63 1.4-1.4 1.4H3.4c-.77 0-1.4-.63-1.4-1.4 0-.33.27-.6.6-.6z"></path>
+        </svg>
+      </span>
+      <span class="lock__island-timer" dir="ltr" data-live-timer data-live-short>42:05</span>
+    </div>
+    <p class="lock__date">{date}</p>
+    <p class="lock__time" dir="ltr">{time}</p>
+    <div class="lock__live">
+      <LiveActivity lang={lang} />
+    </div>
+  </div>
+</div>
+
+<script>
+  import '../scripts/live-timer';
+</script>
+
+<style>
+  .lock {
+    container-type: inline-size;
+    width: 100%;
+  }
+
+  /* The upper part of a phone screen: the wallpaper runs off the bottom. */
+  .lock__screen {
+    position: relative;
+    overflow: hidden;
+    padding: 6cqw 6cqw 8cqw;
+    border-radius: 13cqw 13cqw 0 0;
+    background:
+      radial-gradient(120% 80% at 20% 0%, #3c5bd8 0%, transparent 60%),
+      radial-gradient(90% 70% at 100% 30%, #7a3fd1 0%, transparent 65%),
+      linear-gradient(180deg, #13205a 0%, #0a1033 100%);
+    color: #fff;
+    text-align: center;
+    box-shadow: inset 0 0 0 0.5cqw rgb(255 255 255 / 0.06);
+  }
+
+  .lock__island {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 9cqw;
+    margin-inline: auto;
+    padding: 1.7cqw 3.2cqw 1.7cqw 2cqw;
+    border-radius: 999px;
+    background: #000;
+  }
+
+  .lock__island-icon {
+    display: grid;
+    place-items: center;
+    width: 5.6cqw;
+    height: 5.6cqw;
+    border-radius: 1.6cqw;
+    background: #5e5ce6;
+  }
+
+  .lock__island-icon svg {
+    width: 3.8cqw;
+    height: 3.8cqw;
+  }
+
+  .lock__island-timer {
+    font-family: var(--font-rounded);
+    font-size: 4.4cqw;
+    font-weight: 650;
+    font-variant-numeric: tabular-nums;
+    color: #9b99ff;
+  }
+
+  .lock__date {
+    margin-top: 6cqw;
+    font-size: 4.6cqw;
+    font-weight: 600;
+    opacity: 0.86;
+  }
+
+  .lock__time {
+    font-family: var(--font-rounded);
+    font-size: 24cqw;
+    font-weight: 600;
+    font-variant-numeric: tabular-nums;
+    letter-spacing: -0.02em;
+    line-height: 1;
+  }
+
+  .lock__live {
+    margin-top: 7cqw;
+    font-size: 3.5cqw;
+    text-align: start;
+  }
+
+  .lock__live :global(.live-card) {
+    --tint: #5e5ce6;
+  }
+
+  .lock__live :global(.live-card__timer) {
+    color: #9b99ff;
+  }
+</style>

@@ -1,0 +1,267 @@
+---
+import type { Lang } from '../i18n/ui';
+import { useTranslations, langPrefix } from '../i18n/utils';
+import { getContent } from '../i18n/content';
+
+interface Props {
+  lang: Lang;
+}
+
+// What happens to the hours you track: the privacy part of the App Store
+// description, plus its line on backups, under the first sentence of the
+// privacy policy's summary – „Your time belongs to you.“
+const { lang } = Astro.props;
+const t = useTranslations(lang);
+const { store, privacy } = getContent(lang);
+
+const data = store.sections.find((s) => s.id === 'data');
+const backups = store.sections.find((s) => s.id === 'reports')?.points[2];
+if (!data || !backups) throw new Error(`Privacy band: App Store text incomplete in ${lang}`);
+
+// The summary's first sentence is the claim, the rest its explanation – split
+// at the first full stop of the script: . 。 । ։
+const summary = privacy.summary[0].match(/^(.+?[.。।։])\s*(.+)$/u);
+if (!summary) throw new Error(`Privacy band: no sentence to split in ${lang}`);
+const [, title, intro] = summary;
+
+// The promise without accounts and ads first, across the full width.
+const items = [
+  { icon: 'nothing', text: data.points[2] },
+  { icon: 'lock', text: data.points[0] },
+  { icon: 'cloud', text: backups },
+  { icon: 'list', text: data.points[1] },
+  { icon: 'erase', text: data.points[3] },
+];
+---
+
+<section id="privacy" class="sec privacy">
+  <div class="wrap grid gap-x-16 gap-y-16 lg:grid-cols-12">
+    <div class="lg:col-span-5">
+      <header class="sec-head">
+        <p class="eyebrow reveal">{t('nav.privacy')}</p>
+        <h2 class="t-section reveal delay-1 mt-6">{title}</h2>
+        <p class="t-intro reveal delay-2 mt-6 text-muted">{intro}</p>
+        <a href={`${langPrefix(lang)}/privacy/`} class="link-more reveal delay-3 mt-8 text-[17px]">
+          {privacy.title}
+          <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M2 6h8M6.5 2.5L10 6l-3.5 3.5"></path>
+          </svg>
+        </a>
+      </header>
+
+      {/* The app's own lock: its icon, the code being typed, the keypad. */}
+      <div class="applock tile reveal-media delay-2" aria-hidden="true">
+        <img src="/logo.png" alt="" width="56" height="56" class="applock__icon" />
+        <span class="applock__dots"><i></i><i></i><i></i><i></i></span>
+        <span class="applock__keys">
+          {['1', '2', '3', '4', '5', '6', '7', '8', '9', '', '0', ''].map((key) => (
+            <span class:list={['applock__key', !key && 'is-empty']} dir="ltr">{key}</span>
+          ))}
+        </span>
+      </div>
+    </div>
+
+    <ul class="privacy-list lg:col-span-7">
+      {
+        items.map((item, i) => (
+          <li class:list={['tile privacy-item reveal', `delay-${(i % 3) + 1}`]}>
+            <span class="privacy-item__icon" aria-hidden="true">
+              {item.icon === 'lock' && (
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="5" y="10.5" width="14" height="10" rx="2.5" />
+                  <path d="M8.5 10.5V8a3.5 3.5 0 0 1 7 0v2.5" />
+                </svg>
+              )}
+              {item.icon === 'nothing' && (
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="8.5" r="3.5" />
+                  <path d="M5.5 19.5a6.5 6.5 0 0 1 13 0" />
+                  <path d="M4 4l16 16" />
+                </svg>
+              )}
+              {item.icon === 'cloud' && (
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M7 18.5a4.5 4.5 0 0 1-.6-8.96A6 6 0 0 1 18 9a4.5 4.5 0 0 1-.5 9.5z" />
+                  <path d="M10 14.5v-1.2a2 2 0 0 1 4 0v1.2" />
+                  <rect x="9" y="14.5" width="6" height="3.5" rx="1" />
+                </svg>
+              )}
+              {item.icon === 'list' && (
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 3l7 3v5.5c0 4.3-3 8-7 9.5-4-1.5-7-5.2-7-9.5V6z" />
+                  <path d="M9 12l2 2 4-4.5" />
+                </svg>
+              )}
+              {item.icon === 'erase' && (
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M4.5 7h15" />
+                  <path d="M9.5 7V5.5a1.5 1.5 0 0 1 1.5-1.5h2a1.5 1.5 0 0 1 1.5 1.5V7" />
+                  <path d="M6.5 7l.9 11.2a2 2 0 0 0 2 1.8h5.2a2 2 0 0 0 2-1.8L17.5 7" />
+                </svg>
+              )}
+            </span>
+            <p class="privacy-item__text">{item.text}</p>
+          </li>
+        ))
+      }
+    </ul>
+  </div>
+</section>
+
+<style>
+  .privacy {
+    background: var(--canvas);
+  }
+
+  .privacy-list {
+    display: grid;
+    gap: 1rem;
+    align-content: start;
+  }
+
+  @media (min-width: 640px) {
+    .privacy-list {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .privacy-item:first-child {
+      grid-column: 1 / -1;
+    }
+  }
+
+  .privacy-item {
+    display: flex;
+    flex-direction: column;
+    gap: 1.1rem;
+    padding: 1.6rem 1.6rem 1.75rem;
+  }
+
+  .privacy-item__icon {
+    display: grid;
+    place-items: center;
+    width: 2.75rem;
+    height: 2.75rem;
+    border-radius: 0.9rem;
+    color: var(--accent);
+    background: color-mix(in srgb, var(--accent) 10%, transparent);
+  }
+
+  .privacy-item__icon svg {
+    width: 1.4rem;
+    height: 1.4rem;
+  }
+
+  .privacy-item__text {
+    font-size: 1.0625rem;
+    font-weight: 540;
+    line-height: 1.5;
+    color: var(--ink);
+    text-wrap: pretty;
+  }
+
+  .privacy-item:first-child .privacy-item__text {
+    font-family: var(--font-display);
+    font-size: clamp(1.3rem, 1rem + 1vw, 1.65rem);
+    font-weight: 640;
+    line-height: 1.25;
+    letter-spacing: -0.025em;
+  }
+
+  :is(:lang(ar), :lang(he), :lang(hi), :lang(ja), :lang(zh), :lang(hy)) .privacy-item:first-child .privacy-item__text {
+    letter-spacing: 0;
+  }
+
+  .applock {
+    display: none;
+  }
+
+  @media (min-width: 1024px) {
+    .applock {
+      display: grid;
+      justify-items: center;
+      gap: 1.4rem;
+      width: 15rem;
+      margin-top: 3.5rem;
+      padding: 2rem 1.75rem 1.75rem;
+    }
+  }
+
+  .applock__icon {
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 22.5%;
+    box-shadow: 0 0 0 1px var(--line);
+  }
+
+  /* Four digits of the code, typed one after the other once it is seen. */
+  .applock__dots {
+    display: flex;
+    gap: 0.8rem;
+  }
+
+  .applock__dots i {
+    width: 0.8rem;
+    height: 0.8rem;
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 1.5px var(--ink-2);
+    transition: background-color 0.2s ease;
+  }
+
+  :global(.js) .applock.is-visible .applock__dots i {
+    animation: applock-type 4.8s steps(1) infinite;
+  }
+
+  :global(.js) .applock.is-visible .applock__dots i:nth-child(2) {
+    animation-delay: 0.45s;
+  }
+
+  :global(.js) .applock.is-visible .applock__dots i:nth-child(3) {
+    animation-delay: 0.9s;
+  }
+
+  :global(.js) .applock.is-visible .applock__dots i:nth-child(4) {
+    animation-delay: 1.35s;
+  }
+
+  @keyframes applock-type {
+    0% {
+      background-color: transparent;
+    }
+    12%,
+    70% {
+      background-color: var(--ink-2);
+    }
+    100% {
+      background-color: transparent;
+    }
+  }
+
+  .applock__keys {
+    display: grid;
+    grid-template-columns: repeat(3, 2.75rem);
+    gap: 0.6rem 0.9rem;
+  }
+
+  .applock__key {
+    display: grid;
+    place-items: center;
+    width: 2.75rem;
+    height: 2.75rem;
+    border-radius: 50%;
+    background: var(--surface-2);
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: var(--ink);
+  }
+
+  .applock__key.is-empty {
+    visibility: hidden;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    :global(.js) .applock.is-visible .applock__dots i {
+      animation: none;
+      background-color: var(--ink-2);
+    }
+  }
+</style>

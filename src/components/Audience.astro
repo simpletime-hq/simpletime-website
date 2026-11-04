@@ -1,7 +1,7 @@
 ---
 import type { Lang } from '../i18n/ui';
 import { getContent } from '../i18n/content';
-import { AUDIENCE_DAYS } from '../i18n/day';
+import { AUDIENCE_DAYS, totals, duration } from '../i18n/day';
 import DayRibbon from './DayRibbon.astro';
 
 interface Props {
@@ -13,23 +13,55 @@ const { audience } = getContent(lang).home;
 ---
 
 {/* Four kinds of day, each drawn the way the app would draw it. */}
-<section class="sky-dusk">
-  <div class="wrap pb-28 pt-4 sm:pb-36">
-    <header class="max-w-[46rem]">
+<section class="sec audience">
+  <div class="wrap">
+    <header class="sec-head">
       <h2 class="t-section reveal">{audience.title}</h2>
       <p class="t-intro reveal delay-1 mt-6 text-muted">{audience.subtitle}</p>
     </header>
 
-    <div class="mt-14 grid gap-x-10 gap-y-12 sm:mt-16 sm:grid-cols-2 lg:grid-cols-4">
+    <div class="mt-14 grid gap-4 sm:grid-cols-2 lg:mt-20 lg:grid-cols-4 lg:gap-5">
       {
-        audience.groups.map((group, i) => (
-          <article class:list={['reveal', `delay-${(i % 4) + 1}`]}>
-            <DayRibbon id={`ra${i}`} blocks={AUDIENCE_DAYS[group.id] ?? []} variant="mini" />
-            <h3 class="mt-6 text-[1.25rem] font-semibold tracking-[-0.02em] text-ink">{group.title}</h3>
-            <p class="mt-2.5 text-[1.0625rem] leading-relaxed text-muted text-pretty">{group.body}</p>
-          </article>
-        ))
+        audience.groups.map((group, i) => {
+          const day = AUDIENCE_DAYS[group.id] ?? [];
+          const total = totals(day).reduce((sum, s) => sum + s.minutes, 0);
+          return (
+            <article class:list={['tile audience-card reveal', `delay-${(i % 4) + 1}`]}>
+              <div class="audience-card__day">
+                <DayRibbon id={`ra${i}`} blocks={day} variant="mini" />
+                <p class="audience-card__total" dir="ltr" aria-hidden="true">{duration(total)}</p>
+              </div>
+              <h3 class="tile-title mt-7">{group.title}</h3>
+              <p class="tile-body mt-2.5">{group.body}</p>
+            </article>
+          );
+        })
       }
     </div>
   </div>
 </section>
+
+<style>
+  .audience {
+    background: var(--canvas-alt);
+  }
+
+  .audience-card {
+    padding: 1.6rem 1.6rem 1.9rem;
+  }
+
+  .audience-card__day {
+    display: grid;
+    gap: 0.75rem;
+  }
+
+  .audience-card__total {
+    font-family: var(--font-display);
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-stretch: 125%;
+    font-variant-numeric: tabular-nums;
+    letter-spacing: -0.03em;
+    color: var(--ink);
+  }
+</style>

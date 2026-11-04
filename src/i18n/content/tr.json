@@ -102,39 +102,25 @@
         "Reklam yok, takip yok"
       ]
     },
+    "tour": {
+      "tracking": "Nerede olursan ol, başlat."
+    },
+    "devices": {
+      "title": "Tüm cihazlarında.",
+      "subtitle": "iPhone, iPad ve Mac iCloud üzerinden eşzamanlı kalır; süre kilitli ekranda, Dynamic Island'da ve bileğinde işlemeye devam eder."
+    },
     "showcase": [
       {
         "id": "day",
-        "eyebrow": "Günün",
-        "title": "Tüm günün tek bakışta.",
-        "body": "Her kayıt başlangıcı, bitişi ve süresiyle – liste olarak ya da şu anki saati gösteren bir işaretle 0'dan 24'e bir zaman çizelgesi olarak. Notlar sayıların anlatamadığını saklar; en üstte de bugünün dünle karşılaştırmasını görürsün.",
-        "points": [
-          "Liste ya da 0'dan 24'e zaman çizelgesi",
-          "Her kayda not",
-          "Bugün, dünle karşılaştırmalı"
-        ]
+        "title": "Tüm günün tek bakışta."
       },
       {
         "id": "insights",
-        "eyebrow": "Değerlendirme",
-        "title": "Saatlerinin gerçekte nereye gittiğini gör.",
-        "body": "Göreve ve verimliliğe göre pasta grafikler – bir gün, bir hafta, bir ay ya da bir yıl için. İstatistikler her dönemi bir öncekiyle karşılaştırır; gelişimi ve günün hangi saatlerinde en çok kayıt yaptığını gösterir.",
-        "points": [
-          "Göreve ve verimliliğe göre grafikler",
-          "Önceki dönemle karşılaştırma",
-          "Her grafiği görsel olarak paylaş"
-        ]
+        "title": "Saatlerinin gerçekte nereye gittiğini gör."
       },
       {
         "id": "reports",
-        "eyebrow": "Raporlar ve dışa aktarma",
-        "title": "Saniyeler içinde bir rapor.",
-        "body": "Bir dönem ve gereken bölümleri seç, sürükleyerek sırala – SimpleTime her görev ve alt görevle bir PDF hazırlar. Ham sayılar mı lazım? Bir CSV dosyası Excel ve Numbers'ta açılır.",
-        "points": [
-          "Seçtiğin bölümlerle bir PDF",
-          "Excel ve Numbers için CSV",
-          "iCloud Drive'da otomatik yedekler"
-        ]
+        "title": "Saniyeler içinde bir rapor."
       }
     ],
     "features": {
@@ -143,10 +129,6 @@
     },
     "pro": {
       "button": "SimpleTime Pro hakkında her şey"
-    },
-    "gallery": {
-      "title": "Daha yakından.",
-      "subtitle": "App Store'daki ekranlar – cihazında göründükleri gibi."
     },
     "audience": {
       "title": "Zamanının nereye gittiğini bilmek isteyen herkes için.",

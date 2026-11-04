@@ -102,39 +102,25 @@
         "Aucune publicité, aucun pistage"
       ]
     },
+    "tour": {
+      "tracking": "Démarrez où que vous soyez."
+    },
+    "devices": {
+      "title": "Sur tous vos appareils.",
+      "subtitle": "iPhone, iPad et Mac restent synchronisés via iCloud – et le chrono vous suit sur l’écran verrouillé, dans la Dynamic Island et à votre poignet."
+    },
     "showcase": [
       {
         "id": "day",
-        "eyebrow": "Votre journée",
-        "title": "Toute votre journée d’un coup d’œil.",
-        "body": "Chaque entrée avec son début, sa fin et sa durée – en liste, ou en frise de 0 à 24 h avec un repère sur l’heure actuelle. Les notes gardent ce que les chiffres ne disent pas, et tout en haut s’affiche la comparaison avec hier.",
-        "points": [
-          "Une liste ou une frise de 0 à 24 h",
-          "Des notes sur chaque entrée",
-          "La comparaison avec hier"
-        ]
+        "title": "Toute votre journée d’un coup d’œil."
       },
       {
         "id": "insights",
-        "eyebrow": "Analyser",
-        "title": "Voyez où passent vraiment vos heures.",
-        "body": "Des camemberts par tâche et par productivité – sur un jour, une semaine, un mois ou une année. Les statistiques comparent chaque période à la précédente et montrent l’évolution, ainsi que les moments de la journée où vous enregistrez le plus de temps.",
-        "points": [
-          "Des graphiques par tâche et par productivité",
-          "La comparaison avec la période précédente",
-          "Partagez n’importe quel graphique en image"
-        ]
+        "title": "Voyez où passent vraiment vos heures."
       },
       {
         "id": "reports",
-        "eyebrow": "Rapports et export",
-        "title": "Un rapport en quelques secondes.",
-        "body": "Choisissez une période et les sections qu’il vous faut, faites-les glisser dans l’ordre voulu – et SimpleTime met en page un PDF avec chaque tâche et sous-tâche. Besoin des chiffres bruts ? Un fichier CSV s’ouvre dans Excel et Numbers.",
-        "points": [
-          "Un PDF avec les sections de votre choix",
-          "CSV pour Excel et Numbers",
-          "Des sauvegardes automatiques dans iCloud Drive"
-        ]
+        "title": "Un rapport en quelques secondes."
       }
     ],
     "features": {
@@ -143,10 +129,6 @@
     },
     "pro": {
       "button": "Tout sur SimpleTime Pro"
-    },
-    "gallery": {
-      "title": "De plus près.",
-      "subtitle": "Les écrans de l’App Store – exactement tels qu’ils s’affichent sur votre appareil."
     },
     "audience": {
       "title": "Pour toutes celles et ceux qui veulent savoir où passe leur temps.",

@@ -8,156 +8,26 @@ interface Props {
 
 const { lang } = Astro.props;
 const { home, store } = getContent(lang);
-
-// One tile per section of the App Store description, with its points word
-// for word – this grid and the App Store say exactly the same. The pictures
-// carry no words, so they need no translation; colours are the app's own.
-const spans: Record<string, string> = {
-  tracking: 'bento-tile--wide',
-  day: 'bento-tile--wide',
-  devices: 'bento-tile--wide',
-  data: 'bento-tile--wide',
-};
 ---
 
-<section id="features" class="relative scroll-mt-20 bg-canvas-alt py-20 sm:py-28">
-  <div class="mx-auto max-w-6xl px-5 sm:px-8">
-    <div class="mx-auto mb-12 max-w-3xl text-center sm:mb-16">
-      <h2 class="reveal t-section">{home.features.title}</h2>
-      <p class="reveal delay-1 t-intro mt-5 text-muted">{home.features.subtitle}</p>
-    </div>
+{/*
+  Every section of the App Store description with its points word for word –
+  the list and the App Store say exactly the same, and all of it is free.
+  Set like a spec sheet: the section on one side, its points on the other.
+*/}
+<section id="free" class="sky-evening scroll-mt-16">
+  <div class="wrap py-24 sm:py-32">
+    <header class="max-w-[46rem]">
+      <h2 class="t-section reveal">{home.features.title}</h2>
+      <p class="t-intro reveal delay-1 mt-6 text-muted">{home.features.subtitle}</p>
+    </header>
 
-    <div class="bento">
+    <div class="mt-16 sm:mt-20">
       {
-        store.sections.map((section, i) => (
-          <article class:list={['bento-tile reveal', spans[section.id], `delay-${(i % 3) + 1}`]}>
-            <div class="bento-art" aria-hidden="true">
-              {section.id === 'tracking' && (
-                <svg viewBox="0 0 280 120">
-                  <defs>
-                    <linearGradient id="art-track" x1="0" y1="0" x2="1" y2="1">
-                      <stop offset="0" stop-color="#4b8dff" />
-                      <stop offset="1" stop-color="#173685" />
-                    </linearGradient>
-                  </defs>
-                  <circle cx="62" cy="60" r="50" fill="none" class="art-faint" stroke-width="7" />
-                  <circle
-                    class="art-ring"
-                    cx="62"
-                    cy="60"
-                    r="50"
-                    fill="none"
-                    stroke="url(#art-track)"
-                    stroke-width="7"
-                    stroke-linecap="round"
-                    pathLength="100"
-                    transform="rotate(-90 62 60)"
-                  />
-                  <circle cx="62" cy="60" r="36" fill="url(#art-track)" />
-                  <path d="M55 45.5c0-2.3 2.5-3.7 4.4-2.5l17.5 11.5c1.8 1.2 1.8 3.8 0 5L59.4 77c-1.9 1.2-4.4-.2-4.4-2.5z" fill="#fff" />
-                  <text x="132" y="72" class="art-clock">0:42:05</text>
-                </svg>
-              )}
-              {section.id === 'day' && (
-                <svg viewBox="0 0 280 120">
-                  <rect x="8" y="22" width="264" height="54" rx="14" class="art-track" />
-                  <g class="art-blocks">
-                    <rect x="64" y="30" width="22" height="38" rx="7" fill="#30d158" />
-                    <rect x="96" y="30" width="58" height="38" rx="7" fill="#0a84ff" />
-                    <rect x="162" y="30" width="40" height="38" rx="7" fill="#0a84ff" />
-                    <rect x="208" y="30" width="16" height="38" rx="7" fill="#ff9f0a" />
-                  </g>
-                  <rect x="232" y="16" width="3" height="66" rx="1.5" fill="#ff3b30" />
-                  <circle cx="233.5" cy="16" r="5" fill="#ff3b30" />
-                  <g class="art-axis">
-                    <text x="14" y="104">0</text>
-                    <text x="74" y="104">6</text>
-                    <text x="134" y="104">12</text>
-                    <text x="200" y="104">18</text>
-                    <text x="254" y="104">24</text>
-                  </g>
-                </svg>
-              )}
-              {section.id === 'insights' && (
-                <svg viewBox="0 0 280 120">
-                  <g transform="rotate(-90 140 60)">
-                    <circle class="art-slice" cx="140" cy="60" r="44" stroke="#0a84ff" pathLength="100" stroke-dasharray="61 100" stroke-dashoffset="0" />
-                    <circle class="art-slice" cx="140" cy="60" r="44" stroke="#ff9f0a" pathLength="100" stroke-dasharray="14 100" stroke-dashoffset="-62" />
-                    <circle class="art-slice" cx="140" cy="60" r="44" stroke="#30d158" pathLength="100" stroke-dasharray="8 100" stroke-dashoffset="-77" />
-                    <circle class="art-slice" cx="140" cy="60" r="44" stroke="#a2845e" pathLength="100" stroke-dasharray="7 100" stroke-dashoffset="-86" />
-                    <circle class="art-slice" cx="140" cy="60" r="44" stroke="#bf5af2" pathLength="100" stroke-dasharray="5 100" stroke-dashoffset="-94" />
-                  </g>
-                </svg>
-              )}
-              {section.id === 'reports' && (
-                <svg viewBox="0 0 280 120">
-                  <g class="art-paper">
-                    <rect x="96" y="6" width="88" height="108" rx="10" class="art-sheet" />
-                    <rect x="108" y="20" width="44" height="7" rx="3.5" fill="#173685" />
-                    <rect x="108" y="34" width="64" height="5" rx="2.5" class="art-line" />
-                    <rect x="108" y="44" width="52" height="5" rx="2.5" class="art-line" />
-                    <rect x="110" y="80" width="10" height="18" rx="2" fill="#0a84ff" />
-                    <rect x="124" y="66" width="10" height="32" rx="2" fill="#0a84ff" />
-                    <rect x="138" y="72" width="10" height="26" rx="2" fill="#ff9f0a" />
-                    <rect x="152" y="60" width="10" height="38" rx="2" fill="#30d158" />
-                  </g>
-                  <g class="art-tag art-tag--pdf">
-                    <rect x="38" y="64" width="50" height="26" rx="13" fill="#ff3b30" />
-                    <text x="63" y="81.5" text-anchor="middle">PDF</text>
-                  </g>
-                  <g class="art-tag art-tag--csv">
-                    <rect x="192" y="30" width="50" height="26" rx="13" fill="#30a14e" />
-                    <text x="217" y="47.5" text-anchor="middle">CSV</text>
-                  </g>
-                </svg>
-              )}
-              {section.id === 'widgets' && (
-                <svg viewBox="0 0 280 120">
-                  <g class="art-island">
-                    <rect x="30" y="18" width="220" height="44" rx="22" fill="#000" />
-                    <rect x="50" y="31" width="20" height="14" rx="3" fill="none" stroke="#0a84ff" stroke-width="2.4" />
-                    <rect x="46" y="47" width="28" height="3" rx="1.5" fill="#0a84ff" />
-                    <text x="230" y="47" text-anchor="end" class="art-island-time">42:05</text>
-                  </g>
-                  <circle cx="140" cy="94" r="20" class="art-control" />
-                  <circle cx="140" cy="95" r="8.5" fill="none" stroke="#fff" stroke-width="2.2" />
-                  <path d="M140 95v-4.2M137.5 84.5h5" stroke="#fff" stroke-width="2.2" stroke-linecap="round" />
-                </svg>
-              )}
-              {section.id === 'devices' && (
-                <svg viewBox="0 0 280 120" class="art-devices" fill="none" stroke-width="3" stroke-linejoin="round">
-                  <rect x="18" y="26" width="104" height="70" rx="7" />
-                  <path d="M6 104h128l-6 6H12z" />
-                  <rect x="138" y="20" width="62" height="84" rx="8" />
-                  <rect x="212" y="34" width="34" height="68" rx="8" />
-                  <rect x="254" y="54" width="20" height="26" rx="6" />
-                  <path d="M258 54v-6h12v6M258 80v6h12v-6" />
-                </svg>
-              )}
-              {section.id === 'data' && (
-                <svg viewBox="0 0 280 120">
-                  <defs>
-                    <linearGradient id="art-lock" x1="0" y1="0" x2="0" y2="1">
-                      <stop offset="0" stop-color="#4b8dff" />
-                      <stop offset="1" stop-color="#173685" />
-                    </linearGradient>
-                  </defs>
-                  <path class="art-shackle" d="M120 56V40a20 20 0 0 1 40 0v16" fill="none" stroke="#8e8e93" stroke-width="8" stroke-linecap="round" />
-                  <rect x="106" y="54" width="68" height="56" rx="14" fill="url(#art-lock)" />
-                  <circle cx="140" cy="78" r="6" fill="#fff" />
-                  <rect x="137.5" y="80" width="5" height="14" rx="2.5" fill="#fff" />
-                  <g class="art-faceid" fill="none" stroke-width="3.5" stroke-linecap="round">
-                    <path d="M28 44v-8a8 8 0 0 1 8-8h8M76 28h8a8 8 0 0 1 8 8v8M92 76v8a8 8 0 0 1-8 8h-8M44 92h-8a8 8 0 0 1-8-8v-8" />
-                    <path d="M48 50v6M72 50v6M60 50v14h-4M50 74c6 5 14 5 20 0" />
-                    <path d="M188 44v-8a8 8 0 0 1 8-8h8M236 28h8a8 8 0 0 1 8 8v8M252 76v8a8 8 0 0 1-8 8h-8M204 92h-8a8 8 0 0 1-8-8v-8" />
-                    <circle cx="220" cy="60" r="13" />
-                    <path d="M220 52v8l5 4" />
-                  </g>
-                </svg>
-              )}
-            </div>
-            <h3 class="bento-title">{section.title}</h3>
-            <ul class="bento-points">
+        store.sections.map((section) => (
+          <article class="spec reveal">
+            <h3 class="spec__title">{section.title}</h3>
+            <ul class="spec__points">
               {section.points.map((point) => (
                 <li>{point}</li>
               ))}
@@ -170,290 +40,65 @@ const spans: Record<string, string> = {
 </section>
 
 <style>
-  .bento {
+  .spec {
     display: grid;
-    gap: 1rem;
+    gap: 1.25rem;
+    padding-block: 2rem 2.25rem;
+    border-top: 1px solid var(--line-strong);
   }
 
-  @media (min-width: 768px) {
-    .bento {
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
-
-    .bento-tile:first-child {
-      grid-column: span 2;
-    }
+  .spec:last-child {
+    border-bottom: 1px solid var(--line-strong);
   }
 
-  @media (min-width: 1024px) {
-    .bento {
-      grid-template-columns: repeat(6, minmax(0, 1fr));
-      gap: 1.25rem;
-    }
-
-    .bento-tile {
-      grid-column: span 2;
-    }
-
-    .bento-tile:first-child,
-    .bento-tile--wide {
-      grid-column: span 3;
-    }
+  .spec__title {
+    font-family: var(--font-display);
+    font-size: clamp(1.5rem, 1.2rem + 1vw, 2rem);
+    font-weight: 620;
+    line-height: 1.1;
+    letter-spacing: -0.03em;
   }
 
-  .bento-tile {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    border-radius: 1.75rem;
-    background: var(--surface);
-    padding: 1.75rem 1.75rem 2rem;
-    transition: box-shadow 0.4s ease;
-  }
-
-  @media (hover: hover) {
-    .bento-tile:hover {
-      box-shadow:
-        0 1px 2px rgb(13 18 32 / 0.04),
-        0 24px 48px -28px rgb(13 18 32 / 0.25);
-    }
-  }
-
-  .bento-art {
-    height: 7.5rem;
-    margin: 0.25rem 0 1.5rem;
-    display: flex;
-    justify-content: center;
-  }
-
-  .bento-art svg {
-    height: 100%;
-    width: auto;
-    max-width: 100%;
-    overflow: visible;
-  }
-
-  .bento-title {
-    font-size: 1.375rem;
+  :global(:is(:lang(ar), :lang(he), :lang(hi), :lang(ja), :lang(zh), :lang(hy))) .spec__title {
+    letter-spacing: 0;
     font-weight: 700;
-    letter-spacing: -0.022em;
-    line-height: 1.2;
   }
 
-  .bento-points {
-    margin-top: 0.85rem;
+  .spec__points {
     display: grid;
-    gap: 0.55rem;
-    font-size: 0.97rem;
-    line-height: 1.5;
-    color: var(--muted);
+    gap: 0.85rem 2.5rem;
   }
 
-  .bento-points li {
+  .spec__points li {
     position: relative;
-    padding-inline-start: 1.1rem;
+    padding-inline-start: 1.4rem;
+    font-size: 1.0625rem;
+    line-height: 1.5;
+    color: var(--ink-2);
+    text-wrap: pretty;
   }
 
-  .bento-points li::before {
+  /* A short time block instead of a bullet. */
+  .spec__points li::before {
     content: '';
     position: absolute;
     inset-inline-start: 0;
     top: 0.62em;
-    width: 0.375rem;
-    height: 0.375rem;
-    border-radius: 999px;
-    background: var(--accent);
-    opacity: 0.55;
+    width: 0.7rem;
+    height: 0.3rem;
+    border-radius: 0.15rem;
+    background: var(--line-strong);
   }
 
-  /* ----------------------------------------------------------- art --- */
+  @media (min-width: 768px) {
+    .spec {
+      grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
+      gap: 2.5rem;
+      padding-block: 2.5rem 2.75rem;
+    }
 
-  .bento-tile {
-    --art-track: #eef0f5;
-    --art-line: #d9dde7;
-    --art-sheet: #ffffff;
-    --art-sheet-line: #e3e6ee;
-    --art-stroke: #2457d6;
-    --art-text: #6e6e73;
-  }
-
-  :global(.dark) .bento-tile {
-    --art-track: #26262a;
-    --art-line: #3a3a3e;
-    --art-sheet: #2a2a2e;
-    --art-sheet-line: #3d3d42;
-    --art-stroke: #7aa2ff;
-    --art-text: #a1a1a6;
-  }
-
-  .art-faint {
-    stroke: var(--art-track);
-  }
-
-  .art-track {
-    fill: var(--art-track);
-  }
-
-  .art-line {
-    fill: var(--art-line);
-  }
-
-  .art-sheet {
-    fill: var(--art-sheet);
-    stroke: var(--art-sheet-line);
-    stroke-width: 1.5;
-    filter: drop-shadow(0 8px 14px rgb(13 18 32 / 0.12));
-  }
-
-  .art-clock {
-    font-family: var(--font-rounded);
-    font-size: 34px;
-    font-weight: 600;
-    fill: var(--ink);
-    font-variant-numeric: tabular-nums;
-  }
-
-  .art-axis text {
-    font-size: 12px;
-    fill: var(--art-text);
-    font-variant-numeric: tabular-nums;
-  }
-
-  .art-tag text {
-    font-size: 12.5px;
-    font-weight: 700;
-    fill: #fff;
-    letter-spacing: 0.04em;
-  }
-
-  .art-island-time {
-    font-family: var(--font-rounded);
-    font-size: 17px;
-    font-weight: 600;
-    fill: #3d9bff;
-    font-variant-numeric: tabular-nums;
-  }
-
-  .art-control {
-    fill: #0a84ff;
-  }
-
-  .art-devices {
-    stroke: var(--art-stroke);
-  }
-
-  .art-faceid {
-    stroke: var(--art-stroke);
-  }
-
-  .art-slice {
-    fill: none;
-    stroke-width: 22;
-  }
-
-  /* Each picture finishes itself once its tile scrolls into view. Without
-     JavaScript nothing scrolls in, so the pictures simply stand finished. */
-  .art-ring {
-    stroke-dasharray: 100;
-    stroke-dashoffset: 28;
-  }
-
-  :global(.js) .art-ring {
-    stroke-dashoffset: 100;
-    transition: stroke-dashoffset 1.8s var(--ease-out-soft) 0.3s;
-  }
-
-  :global(.js) .is-visible .art-ring {
-    stroke-dashoffset: 28;
-  }
-
-  :global(.js) .art-blocks rect {
-    transform-box: fill-box;
-    transform-origin: left center;
-    transform: scaleX(0);
-    transition: transform 0.9s var(--ease-out-soft);
-  }
-
-  :global(.js) .art-blocks rect:nth-child(2) {
-    transition-delay: 0.12s;
-  }
-
-  :global(.js) .art-blocks rect:nth-child(3) {
-    transition-delay: 0.24s;
-  }
-
-  :global(.js) .art-blocks rect:nth-child(4) {
-    transition-delay: 0.36s;
-  }
-
-  :global(.js) .is-visible .art-blocks rect {
-    transform: none;
-  }
-
-  :global(.js) .art-slice {
-    transform-box: fill-box;
-    transform-origin: center;
-    opacity: 0;
-    transform: scale(0.85);
-    transition:
-      opacity 0.6s ease,
-      transform 1s var(--ease-out-soft);
-  }
-
-  :global(.js) .art-slice:nth-child(2) {
-    transition-delay: 0.1s;
-  }
-
-  :global(.js) .art-slice:nth-child(3) {
-    transition-delay: 0.2s;
-  }
-
-  :global(.js) .art-slice:nth-child(4) {
-    transition-delay: 0.3s;
-  }
-
-  :global(.js) .art-slice:nth-child(5) {
-    transition-delay: 0.4s;
-  }
-
-  :global(.js) .is-visible .art-slice {
-    opacity: 1;
-    transform: none;
-  }
-
-  :global(.js) .art-tag {
-    transition: transform 0.9s var(--ease-out-soft) 0.25s;
-  }
-
-  :global(.js) .art-tag--pdf {
-    transform: translate(18px, 0);
-  }
-
-  :global(.js) .art-tag--csv {
-    transform: translate(-18px, 0);
-  }
-
-  :global(.js) .is-visible .art-tag {
-    transform: none;
-  }
-
-  :global(.js) .art-shackle {
-    transform: translateY(-8px);
-    transition: transform 0.7s cubic-bezier(0.3, 1.4, 0.5, 1) 0.5s;
-  }
-
-  :global(.js) .is-visible .art-shackle {
-    transform: none;
-  }
-
-  :global(.js) .art-island {
-    transform-box: fill-box;
-    transform-origin: center;
-    transform: scaleX(0.5);
-    transition: transform 0.9s cubic-bezier(0.3, 1.25, 0.5, 1) 0.2s;
-  }
-
-  :global(.js) .is-visible .art-island {
-    transform: none;
+    .spec__points {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
   }
 </style>

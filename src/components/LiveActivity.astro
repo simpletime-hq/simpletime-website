@@ -10,8 +10,9 @@ interface Props {
 const { lang, class: className = '' } = Astro.props;
 const t = useTranslations(lang);
 
-// The clock has been running for 42:05 when the page opens – the same task
-// and time the tracking screenshot shows – and keeps counting from there.
+// The client project of the sample day, running for 42:05 when the page opens –
+// the task and time the tracking screenshot shows – and counting on from there.
+// No start time: each language's screenshots were taken at their own hour.
 const ELAPSED = 42 * 60 + 5;
 ---
 
@@ -19,13 +20,7 @@ const ELAPSED = 42 * 60 + 5;
   Decorative: it repeats what the screenshot beside it shows, so screen
   readers skip it rather than hearing a number change every second.
 */}
-<div
-  class:list={['live-card', className]}
-  aria-hidden="true"
-  data-live
-  data-elapsed={ELAPSED}
-  data-since={t('live.since')}
->
+<div class:list={['live-card', className]} aria-hidden="true" data-live data-elapsed={ELAPSED}>
   <div class="live-card__main">
     <div class="live-card__task">
       <svg class="live-card__icon" viewBox="0 0 24 24" fill="currentColor">
@@ -36,7 +31,6 @@ const ELAPSED = 42 * 60 + 5;
       <span>{t('live.task')}</span>
     </div>
     <div class="live-card__timer" data-live-timer>0:42:05</div>
-    <div class="live-card__since" data-live-since>{t('live.since', { time: '18:05' })}</div>
   </div>
   <span class="live-card__stop">
     <svg viewBox="0 0 12 12" fill="currentColor"><rect x="1.5" y="1.5" width="9" height="9" rx="2"></rect></svg>
@@ -45,21 +39,13 @@ const ELAPSED = 42 * 60 + 5;
 </div>
 
 <script>
-  // Counts on from the time in the markup and writes the start in the
-  // visitor's own clock format, the way the Lock Screen would.
+  // Counts on from the time in the markup, on the beat of whole seconds.
   const pad = (n: number) => String(n).padStart(2, '0');
 
   document.querySelectorAll<HTMLElement>('[data-live]').forEach((card) => {
     const timer = card.querySelector<HTMLElement>('[data-live-timer]');
-    const since = card.querySelector<HTMLElement>('[data-live-since]');
-    const start = Date.now() - Number(card.dataset.elapsed ?? 0) * 1000;
-    const lang = document.documentElement.lang;
-
-    if (since && card.dataset.since) {
-      const time = new Intl.DateTimeFormat(lang, { hour: 'numeric', minute: '2-digit', numberingSystem: 'latn' });
-      since.textContent = card.dataset.since.replace('{time}', time.format(start));
-    }
     if (!timer) return;
+    const start = Date.now() - Number(card.dataset.elapsed ?? 0) * 1000;
 
     const tick = () => {
       const seconds = Math.floor((Date.now() - start) / 1000);
@@ -68,7 +54,6 @@ const ELAPSED = 42 * 60 + 5;
       timer.textContent = `${h}:${pad(m)}:${pad(seconds % 60)}`;
     };
     tick();
-    // Start on the next full second so every tick lands on the same beat.
     window.setTimeout(() => {
       tick();
       window.setInterval(tick, 1000);

@@ -4,6 +4,7 @@ import Navbar from '../components/Navbar.astro';
 import Footer from '../components/Footer.astro';
 import { languages, type Lang } from '../i18n/ui';
 import { useTranslations, getAllLangPaths } from '../i18n/utils';
+import displayLatin from '@fontsource-variable/mona-sans/files/mona-sans-latin-wdth-normal.woff2?url';
 
 interface Props {
   lang: Lang;
@@ -14,9 +15,11 @@ interface Props {
   jsonLd?: Record<string, unknown>[];
   /** The 404 has no real URL: skip canonical, hreflang and indexing. */
   noIndex?: boolean;
+  /** The day drawn along the header as the page is read – the home page. */
+  dayProgress?: boolean;
 }
 
-const { lang, title, description, path, jsonLd = [], noIndex = false } = Astro.props;
+const { lang, title, description, path, jsonLd = [], noIndex = false, dayProgress = false } = Astro.props;
 const t = useTranslations(lang);
 
 const metaTitle = title ?? t('meta.title');
@@ -51,9 +54,11 @@ const ogImage = new URL(lang === 'en' ? '/og.png' : `/og-${lang}.png`, site).toS
 const RTL_LOCALES = new Set<Lang>(['ar', 'he']);
 const dir = RTL_LOCALES.has(lang) ? 'rtl' : 'ltr';
 
-// No font preloads: Apple devices set the page in their own system face and
-// never fetch Inter or Noto, and a preload would make them download it anyway.
-// Everyone else gets the faces from fonts.css, swapped in as they arrive.
+// Body text needs no preload: Apple devices set it in their own system face
+// and never fetch Inter or Noto. The headlines are another matter – every
+// device sets them in Mona Sans, and the hero's arrives with the first bytes.
+// Latin only: other scripts fall back to the text face for their headlines.
+const LATIN = new Set<Lang>(['en', 'de', 'nl', 'sv', 'fr', 'it', 'es', 'pt', 'tr']);
 
 const appSchema = {
   '@context': 'https://schema.org',
@@ -87,8 +92,8 @@ const jsonLdPayload = JSON.stringify(schemas).replace(/</g, '\\u003c');
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" />
-    <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)" />
+    <meta name="theme-color" content="#f5f6fa" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#06080f" media="(prefers-color-scheme: dark)" />
     <title>{metaTitle}</title>
     <meta name="description" content={metaDescription} />
     {/* Safari on iPhone and iPad shows its own "Get" / "Open" banner for the app. */}
@@ -101,6 +106,7 @@ const jsonLdPayload = JSON.stringify(schemas).replace(/</g, '\\u003c');
     <link rel="icon" type="image/png" href="/favicon-192.png" sizes="192x192" />
 
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    {LATIN.has(lang) && <link rel="preload" as="font" type="font/woff2" href={displayLatin} crossorigin="anonymous" />}
 
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="SimpleTime" />
@@ -169,7 +175,7 @@ const jsonLdPayload = JSON.stringify(schemas).replace(/</g, '\\u003c');
     </a>
 
     {/* The 404 has no localised twin, so its language switch targets the home page. */}
-    <Navbar lang={lang} path={noIndex ? '/' : path} />
+    <Navbar lang={lang} path={noIndex ? '/' : path} dayProgress={dayProgress} />
     <main id="main">
       <slot />
     </main>

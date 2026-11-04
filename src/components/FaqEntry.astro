@@ -19,19 +19,19 @@ const { lang, item, anchor = false } = Astro.props;
   data-faq-item={anchor ? '' : undefined}
 >
   <summary
-    class="flex cursor-pointer list-none items-center justify-between gap-6 py-5 text-[17px] font-semibold tracking-[-0.012em] text-ink sm:py-6 sm:text-[19px]"
+    class="flex cursor-pointer list-none items-center justify-between gap-6 py-6 text-[17px] font-semibold tracking-[-0.012em] text-ink transition-colors hover:text-ink-2 sm:py-7 sm:text-[19px]"
   >
     <span>{item.q}</span>
     <span
-      class="grid h-7 w-7 shrink-0 place-items-center rounded-full bg-surface-2 text-ink transition-[transform,background-color] duration-300 group-open:rotate-45 group-hover:bg-line"
+      class="faq-toggle grid h-8 w-8 shrink-0 place-items-center rounded-full text-ink transition-[transform,box-shadow] duration-500 group-open:rotate-45"
       aria-hidden="true"
     >
-      <svg class="h-3 w-3" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round">
+      <svg class="h-3 w-3" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round">
         <path d="M6 1.5v9M1.5 6h9"></path>
       </svg>
     </span>
   </summary>
-  <div class="space-y-3 pb-6 pe-12 text-[16px] leading-relaxed text-muted">
+  <div class="space-y-3 pb-7 pe-12 text-[16.5px] leading-relaxed text-muted">
     {
       item.a.map((paragraph) => (
         <p>
@@ -46,5 +46,14 @@ const { lang, item, anchor = false } = Astro.props;
   /* Safari still renders the default disclosure triangle without this. */
   summary::-webkit-details-marker {
     display: none;
+  }
+
+  .faq-toggle {
+    box-shadow: inset 0 0 0 1px var(--line-strong);
+    transition-timing-function: var(--ease-out-expo);
+  }
+
+  summary:hover .faq-toggle {
+    box-shadow: inset 0 0 0 1px var(--ink);
   }
 </style>

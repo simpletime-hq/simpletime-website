@@ -94,11 +94,10 @@ const COPY = {
 ---
 
 <Layout lang="en" path="/404/" title="404 · Page not found · SimpleTime" noIndex>
-  <section class="relative overflow-hidden">
-    <div aria-hidden="true" class="nf-glow pointer-events-none absolute inset-0 -z-10"></div>
-
+  <section class="sky-dawn relative overflow-hidden">
     <div class="mx-auto max-w-3xl px-5 py-28 text-center sm:px-8 sm:py-36">
-      <p class="text-display text-[110px] font-bold text-accent sm:text-[150px]">404</p>
+      {/* 404 as a time of day – the clock of the app, stopped at 4:04. */}
+      <p class="t-clock text-[96px] text-ink sm:text-[148px]" aria-hidden="true" dir="ltr">4:04</p>
 
       <h1 id="nf-title" class="t-title mt-4">Page not found</h1>
 
@@ -130,12 +129,6 @@ const COPY = {
       </div>
     </div>
   </section>
-
-  <style>
-    .nf-glow {
-      background: radial-gradient(50% 45% at 50% 0%, var(--glow), transparent 75%);
-    }
-  </style>
 
   <script is:inline define:vars={{ COPY }}>
     (function () {

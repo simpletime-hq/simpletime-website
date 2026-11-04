@@ -7,13 +7,17 @@ interface Props {
 const { title, subtitle } = Astro.props;
 ---
 
-<section class="page-header relative overflow-hidden">
-  <div class="page-header__glow" aria-hidden="true"></div>
-  <div class="relative mx-auto max-w-4xl px-5 pb-8 pt-16 text-center sm:px-8 sm:pb-12 sm:pt-24">
-    <h1 class="rise t-section">{title}</h1>
+{/*
+  The top of every inner page: the morning sky of the home page, and the
+  title on the same edge as the text below it – that column is 48rem wide
+  on every inner page.
+*/}
+<section class="page-header sky-dawn">
+  <div class="mx-auto max-w-3xl px-5 pb-10 pt-16 sm:px-8 sm:pb-14 sm:pt-24">
+    <h1 class="page-title rise t-section">{title}</h1>
     {
       subtitle && (
-        <p class="rise delay-1 t-intro mx-auto mt-5 max-w-2xl text-muted">
+        <p class="rise delay-1 t-intro mt-6 max-w-2xl text-muted">
           {subtitle}
         </p>
       )
@@ -22,13 +26,10 @@ const { title, subtitle } = Astro.props;
 </section>
 
 <style>
-  .page-header__glow {
-    position: absolute;
-    left: 50%;
-    top: -30%;
-    width: min(56rem, 140vw);
-    height: 120%;
-    translate: -50% 0;
-    background: radial-gradient(50% 50% at 50% 50%, var(--glow), transparent 72%);
+  /* Long compounds – „Datenschutzerklärung“ – are hyphenated in the page's
+     language rather than broken anywhere inside the word. */
+  .page-title {
+    hyphens: auto;
+    -webkit-hyphens: auto;
   }
 </style>

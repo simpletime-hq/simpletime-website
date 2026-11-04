@@ -6,10 +6,35 @@
    files of their own (fonts-ja.css, fonts-zh.css), imported by their pages
    only – everywhere else their rules would just be render-blocking bytes. */
 @import "./fonts.css";
+/* The display face: Mona Sans with its width axis – headlines at normal
+   width, the clock wide. Latin only; other scripts fall back to the text face. */
+@import "@fontsource-variable/mona-sans/wdth.css";
 @import "./devices.css";
 
 /* Dark mode is class-driven so the header toggle can override the OS setting. */
 @custom-variant dark (&:where(.dark, .dark *));
+
+/* Semantic tokens, inline: a utility like `text-ink` then reads `var(--ink)`
+   where the element is, so the night sections and dark mode flip it. As
+   ordinary theme variables they would be resolved once, at the root. */
+@theme inline {
+  --color-canvas: var(--canvas);
+  --color-canvas-alt: var(--canvas-alt);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-line: var(--line);
+  --color-line-strong: var(--line-strong);
+  --color-ink: var(--ink);
+  --color-ink-2: var(--ink-2);
+  --color-muted: var(--muted);
+  --color-subtle: var(--subtle);
+  --color-accent: var(--accent);
+  --color-accent-hover: var(--accent-hover);
+  --color-on-accent: var(--on-accent);
+  --color-action: var(--action);
+  --color-action-hover: var(--action-hover);
+  --color-on-action: var(--on-action);
+}
 
 @theme {
   /* Brand ramp built around the app icon blue (#173685). */
@@ -25,80 +50,157 @@
   --color-brand-900: #0a1943;
   --color-brand-950: #060f2a;
 
-  /* Semantic tokens — these flip in dark mode via the variables below. */
-  --color-canvas: var(--canvas);
-  --color-canvas-alt: var(--canvas-alt);
-  --color-surface: var(--surface);
-  --color-surface-2: var(--surface-2);
-  --color-line: var(--line);
-  --color-line-strong: var(--line-strong);
-  --color-ink: var(--ink);
-  --color-muted: var(--muted);
-  --color-subtle: var(--subtle);
-  --color-accent: var(--accent);
-  --color-accent-hover: var(--accent-hover);
-  --color-on-accent: var(--on-accent);
-  --color-action: var(--action);
-  --color-action-hover: var(--action-hover);
-  --color-on-action: var(--on-action);
 
-  /* Apple devices get their own system face (SF Pro, SF Arabic, PingFang …);
-     everyone else gets Inter and the Noto faces declared under its name. */
+  /* Apple devices get their own system face (SF Pro, SF Arabic, PingFang …),
+     the one the app itself is set in; everyone else gets Inter and the Noto
+     faces declared under its name. */
   --font-sans: -apple-system, BlinkMacSystemFont, "Inter", ui-sans-serif, "Segoe UI", Roboto, sans-serif;
+  --font-display: "Mona Sans Variable", -apple-system, BlinkMacSystemFont, "Inter", ui-sans-serif, sans-serif;
+  /* The Live Activity's timer is set in SF Pro Rounded, as on the Lock Screen. */
   --font-rounded: ui-rounded, -apple-system, BlinkMacSystemFont, "Inter", ui-sans-serif, sans-serif;
 
   --radius-4xl: 2rem;
   --radius-5xl: 2.5rem;
 
-  --shadow-soft: 0 1px 2px rgb(13 18 32 / 0.04), 0 8px 24px -12px rgb(13 18 32 / 0.12);
-  --shadow-lift: 0 2px 4px rgb(13 18 32 / 0.05), 0 18px 40px -18px rgb(13 18 32 / 0.22);
-  --shadow-device: 0 4px 12px rgb(13 18 32 / 0.12), 0 32px 64px -24px rgb(13 18 32 / 0.35);
+  --shadow-soft: 0 1px 2px rgb(12 20 38 / 0.04), 0 10px 28px -14px rgb(12 20 38 / 0.14);
+  --shadow-lift: 0 2px 4px rgb(12 20 38 / 0.05), 0 22px 44px -20px rgb(12 20 38 / 0.25);
 
   --ease-out-soft: cubic-bezier(0.2, 0.8, 0.2, 1);
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
 }
 
-/* Neutrals follow Apple's own pages; the blue is the app's. Every text pair
-   below clears WCAG AA (4.5 : 1) on both canvas colours. */
+/* ------------------------------------------------------------- colour --- */
+
+/* A cool paper rather than pure white: the neutrals lean a little toward the
+   icon's blue. Every text pair below clears WCAG AA (4.5 : 1) on its ground,
+   the daylight tints included. */
 :root {
-  --canvas: #ffffff;
-  --canvas-alt: #f5f5f7;
+  --canvas: #f5f6fa;
+  --canvas-alt: #eceff5;
   --surface: #ffffff;
-  --surface-2: #f5f5f7;
-  --line: #e5e5ea;
-  --line-strong: #d2d2d7;
-  --ink: #1d1d1f;
-  --muted: #6e6e73;
-  --subtle: #6e6e73;
-  --accent: #2457d6;
-  --accent-hover: #1a44b0;
+  --surface-2: #eff1f6;
+  --line: #e0e4ec;
+  --line-strong: #cbd1dd;
+  --ink: #0c1426;
+  --ink-2: #283149;
+  --muted: #535d71;
+  --subtle: #636c80;
+  --accent: #173685;
+  --accent-hover: #0f2560;
   --on-accent: #ffffff;
-  --action: #2457d6;
-  --action-hover: #1a44b0;
+  --action: #0c1426;
+  --action-hover: #273047;
   --on-action: #ffffff;
-  --nav-bg: rgb(255 255 255 / 0.78);
+  --nav-bg: rgb(245 246 250 / 0.74);
   --glow: rgb(36 87 214 / 0.16);
+
+  /* The day, top to bottom: each section starts where the one above ends. */
+  --dawn: #e9edfa;
+  --morning: #f4f6fb;
+  --noon: #f7f7f4;
+  --afternoon: #f9f3ea;
+  --evening: #f5edef;
+  --dusk: #e9e8f5;
+
+  /* The app's task colours – iOS system colours, as in the screenshots. */
+  --t-work: #007aff;
+  --t-client: #5856d6;
+  --t-meetings: #30b0c7;
+  --t-study: #ff9500;
+  --t-sport: #34c759;
+  --t-reading: #af52de;
+  --t-admin: #a2845e;
+  --t-social: #ff2d55;
   color-scheme: light;
 }
 
 .dark {
-  --canvas: #000000;
-  --canvas-alt: #0e0e10;
-  --surface: #161617;
-  --surface-2: #1d1d1f;
-  --line: #2a2a2d;
-  --line-strong: #3a3a3d;
-  --ink: #f5f5f7;
-  --muted: #a1a1a6;
-  --subtle: #8e8e93;
-  --accent: #7aa2ff;
-  --accent-hover: #a5c0ff;
+  --canvas: #06080f;
+  --canvas-alt: #0b0e18;
+  --surface: #0f131e;
+  --surface-2: #161b28;
+  --line: #1f2534;
+  --line-strong: #2e3547;
+  --ink: #eef1f8;
+  --ink-2: #cdd3e1;
+  --muted: #9aa3b7;
+  --subtle: #8790a5;
+  --accent: #93acf2;
+  --accent-hover: #b8c9f7;
   --on-accent: #06102e;
-  --action: #2563eb;
-  --action-hover: #3b74f5;
-  --on-action: #ffffff;
-  --nav-bg: rgb(22 22 23 / 0.78);
+  --action: #eef1f8;
+  --action-hover: #ffffff;
+  --on-action: #0c1426;
+  --nav-bg: rgb(8 10 18 / 0.72);
   --glow: rgb(80 130 255 / 0.22);
+
+  --dawn: #0b1024;
+  --morning: #080b17;
+  --noon: #080a13;
+  --afternoon: #0c0a12;
+  --evening: #0d0a14;
+  --dusk: #090b1b;
+
+  --t-work: #0a84ff;
+  --t-client: #5e5ce6;
+  --t-meetings: #40c8e0;
+  --t-study: #ff9f0a;
+  --t-sport: #30d158;
+  --t-reading: #bf5af2;
+  --t-admin: #ac8e68;
+  --t-social: #ff375f;
   color-scheme: dark;
+}
+
+/* Night: Pro, the questions and the end of the page are dark in either
+   theme – the day is over. Its tokens flip everything inside it. */
+.night {
+  --canvas: #060a1c;
+  --canvas-alt: #0a1029;
+  --surface: #0d1430;
+  --surface-2: #131b3b;
+  --line: #1d2648;
+  --line-strong: #2b3660;
+  --ink: #eef1fa;
+  --ink-2: #ccd3e8;
+  --muted: #a3acc9;
+  --subtle: #8d97b8;
+  --accent: #9db4ff;
+  --accent-hover: #c3d1ff;
+  --on-accent: #06102e;
+  --action: #ffffff;
+  --action-hover: #e7ecfb;
+  --on-action: #0c1426;
+  --nav-bg: rgb(6 10 28 / 0.74);
+  --t-work: #0a84ff;
+  --t-client: #5e5ce6;
+  --t-meetings: #40c8e0;
+  --t-study: #ff9f0a;
+  --t-sport: #30d158;
+  --t-reading: #bf5af2;
+  --t-admin: #ac8e68;
+  --t-social: #ff375f;
+  color-scheme: dark;
+  background-color: var(--canvas);
+  color: var(--ink);
+}
+
+/* Section grounds, chained: dawn above the fold, warm light through the
+   afternoon, dusk, then night. */
+.sky-dawn {
+  background: linear-gradient(180deg, var(--dawn) 0%, var(--morning) 100%);
+}
+
+.sky-day {
+  background: linear-gradient(180deg, var(--morning) 0%, var(--noon) 38%, var(--afternoon) 100%);
+}
+
+.sky-evening {
+  background: linear-gradient(180deg, var(--afternoon) 0%, var(--evening) 60%, var(--dusk) 100%);
+}
+
+.sky-dusk {
+  background: var(--dusk);
 }
 
 /* Japanese and Chinese share most Han codepoints but draw them
@@ -125,7 +227,6 @@ html {
 
 body {
   font-family: var(--font-sans);
-  font-feature-settings: "cv11", "ss01", "ss03";
   background-color: var(--canvas);
   color: var(--ink);
   letter-spacing: -0.003em;
@@ -133,66 +234,102 @@ body {
 
 /* --------------------------------------------------------------- type --- */
 
-/* Display type wants tighter tracking than body copy. */
-.text-display,
+.font-display,
+.t-hero,
+.t-section,
+.t-title,
+.t-clock,
+.t-label {
+  font-family: var(--font-display);
+}
+
 .t-hero,
 .t-section,
 .t-title {
-  font-weight: 700;
+  font-weight: 640;
+  font-stretch: 100%;
   text-wrap: balance;
 }
 
-.text-display {
-  letter-spacing: -0.03em;
-  line-height: 1.04;
-}
-
 .t-hero {
-  font-size: clamp(2.75rem, 1.2rem + 4.9vw, 5.5rem);
-  line-height: 1.02;
-  letter-spacing: -0.035em;
+  font-size: clamp(3rem, 1.1rem + 5.5vw, 6.25rem);
+  line-height: 0.95;
+  letter-spacing: -0.048em;
 }
 
 .t-section {
-  font-size: clamp(2.25rem, 1.45rem + 3.2vw, 4rem);
-  line-height: 1.05;
-  letter-spacing: -0.03em;
+  font-size: clamp(2.35rem, 1.3rem + 3.9vw, 4.75rem);
+  line-height: 0.98;
+  letter-spacing: -0.042em;
 }
 
 .t-title {
-  font-size: clamp(1.75rem, 1.3rem + 1.6vw, 2.6rem);
-  line-height: 1.08;
-  letter-spacing: -0.025em;
+  font-size: clamp(1.65rem, 1.2rem + 1.5vw, 2.4rem);
+  line-height: 1.06;
+  letter-spacing: -0.032em;
 }
 
 .t-intro {
-  font-size: clamp(1.125rem, 0.98rem + 0.55vw, 1.375rem);
-  line-height: 1.45;
+  font-size: clamp(1.125rem, 0.98rem + 0.5vw, 1.375rem);
+  line-height: 1.5;
   letter-spacing: -0.012em;
   text-wrap: pretty;
 }
 
-/* Small coloured line above a headline, the way Apple introduces a feature. */
-.t-eyebrow {
-  font-size: clamp(1.0625rem, 0.98rem + 0.3vw, 1.25rem);
+/* Times of day, wide and tabular – the app's clock on a page. */
+.t-clock {
+  font-stretch: 125%;
+  font-weight: 560;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.04em;
+  line-height: 1;
+}
+
+/* A time stamp or short label above a headline: it tells the hour of the
+   day the section belongs to, or what the block is about. */
+.t-label {
+  font-size: 0.8125rem;
   font-weight: 600;
-  letter-spacing: -0.01em;
-  color: var(--accent);
+  font-stretch: 112%;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.t-label time {
+  color: var(--ink);
 }
 
 /* Tracking and tight leading are tuned for Latin, Greek and Cyrillic.
    Joined scripts and CJK need their natural spacing, and Arabic, Hebrew and
    Devanagari need room above and below for their marks. */
-:is(:lang(ar), :lang(he), :lang(hi), :lang(ja), :lang(zh), :lang(hy)) :is(.text-display, .t-hero, .t-section, .t-title, .t-intro, .t-eyebrow, body) {
+:is(:lang(ar), :lang(he), :lang(hi), :lang(ja), :lang(zh), :lang(hy)) :is(.t-hero, .t-section, .t-title, .t-intro, .t-label, body) {
   letter-spacing: 0;
 }
 
-:is(:lang(ar), :lang(he), :lang(hi)) :is(.text-display, .t-hero, .t-section, .t-title) {
-  line-height: 1.22;
+:is(:lang(ar), :lang(he), :lang(hi), :lang(hy), :lang(ru), :lang(uk), :lang(el)) :is(.t-hero, .t-section, .t-title) {
+  font-weight: 700;
 }
 
-:is(:lang(ja), :lang(zh)) :is(.text-display, .t-hero, .t-section, .t-title) {
+:is(:lang(ar), :lang(he), :lang(hi)) :is(.t-hero, .t-section, .t-title) {
+  line-height: 1.2;
+}
+
+:is(:lang(ja), :lang(zh)) :is(.t-hero, .t-section, .t-title) {
   line-height: 1.16;
+  font-weight: 700;
+}
+
+:is(:lang(ru), :lang(uk), :lang(el), :lang(hy)) :is(.t-hero, .t-section) {
+  letter-spacing: -0.03em;
+  line-height: 1.02;
+}
+
+/* Upper case means nothing in these scripts, and the wide face has none of them. */
+:is(:lang(ar), :lang(he), :lang(hi), :lang(ja), :lang(zh), :lang(hy)) .t-label {
+  text-transform: none;
+  font-size: 0.875rem;
 }
 
 /* A word longer than the line breaks instead of widening the page – Armenian
@@ -212,11 +349,36 @@ h3 {
   text-wrap: pretty;
 }
 
+.tabular {
+  font-variant-numeric: tabular-nums;
+}
+
 /* Visible, consistent keyboard focus everywhere. */
 :focus-visible {
   outline: 2px solid var(--accent);
   outline-offset: 3px;
   border-radius: 4px;
+}
+
+/* ------------------------------------------------------------- layout --- */
+
+.wrap {
+  margin-inline: auto;
+  width: 100%;
+  max-width: 78rem;
+  padding-inline: 1.25rem;
+}
+
+@media (min-width: 640px) {
+  .wrap {
+    padding-inline: 2rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .wrap {
+    padding-inline: 3rem;
+  }
 }
 
 /* ------------------------------------------------------------ buttons --- */
@@ -225,22 +387,22 @@ h3 {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  gap: 0.5rem;
+  gap: 0.55rem;
   border-radius: 999px;
-  padding: 0.8rem 1.5rem;
+  padding: 0.85rem 1.55rem;
   font-size: 1.0625rem;
-  font-weight: 500;
+  font-weight: 560;
   line-height: 1.2;
   letter-spacing: -0.01em;
   transition:
     background-color 0.25s ease,
     color 0.25s ease,
-    transform 0.25s var(--ease-out-soft),
-    box-shadow 0.25s ease;
+    transform 0.35s var(--ease-out-expo),
+    box-shadow 0.35s ease;
 }
 
 .btn:active {
-  transform: scale(0.98);
+  transform: scale(0.97);
 }
 
 .btn--primary {
@@ -253,45 +415,42 @@ h3 {
 }
 
 .btn--quiet {
-  background: var(--surface-2);
+  background: transparent;
   color: var(--ink);
+  box-shadow: inset 0 0 0 1px var(--line-strong);
 }
 
 .btn--quiet:hover {
-  background: var(--line);
+  box-shadow: inset 0 0 0 1px var(--ink);
 }
 
-.btn--light {
-  background: #ffffff;
-  color: #0b1640;
-}
-
-.btn--light:hover {
-  background: #e8edfb;
-}
-
-/* Text link with a chevron, Apple's "Learn more ›". */
+/* Text link with an arrow that moves on hover. */
 .link-more {
   display: inline-flex;
   align-items: center;
-  gap: 0.3em;
-  font-weight: 500;
-  color: var(--accent);
+  gap: 0.4em;
+  font-weight: 560;
+  color: var(--ink);
+  text-decoration: underline;
+  text-decoration-color: var(--line-strong);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.3em;
+  transition: text-decoration-color 0.25s ease;
 }
 
 .link-more:hover {
-  text-decoration: underline;
-  text-underline-offset: 0.18em;
+  text-decoration-color: currentColor;
 }
 
 .link-more svg {
-  width: 0.7em;
-  height: 0.7em;
-  transition: transform 0.25s var(--ease-out-soft);
+  width: 0.8em;
+  height: 0.8em;
+  flex: none;
+  transition: transform 0.35s var(--ease-out-expo);
 }
 
 .link-more:hover svg {
-  transform: translateX(0.15em);
+  transform: translateX(0.2em);
 }
 
 [dir="rtl"] .link-more svg {
@@ -299,26 +458,34 @@ h3 {
 }
 
 [dir="rtl"] .link-more:hover svg {
-  transform: scaleX(-1) translateX(0.15em);
+  transform: scaleX(-1) translateX(0.2em);
 }
 
-/* ------------------------------------------------------- brand surface --- */
-
-/* The deep blue of the app icon and the App Store images. */
-.brand-surface {
-  background:
-    radial-gradient(120% 70% at 50% 0%, rgb(64 104 214 / 0.55) 0%, transparent 62%),
-    linear-gradient(180deg, #173685 0%, #0f2563 55%, #0a1a48 100%);
-  color: #ffffff;
-}
-
-.brand-night {
-  background:
-    radial-gradient(90% 55% at 50% 0%, rgb(43 82 190 / 0.5) 0%, transparent 70%),
-    radial-gradient(70% 45% at 50% 100%, rgb(23 54 133 / 0.45) 0%, transparent 70%),
-    #050a1c;
-  color: #ffffff;
-}
+/* Task colours for SVG and small swatches. */
+.fill-work { fill: var(--t-work); }
+.fill-client { fill: var(--t-client); }
+.fill-meetings { fill: var(--t-meetings); }
+.fill-study { fill: var(--t-study); }
+.fill-sport { fill: var(--t-sport); }
+.fill-reading { fill: var(--t-reading); }
+.fill-admin { fill: var(--t-admin); }
+.fill-social { fill: var(--t-social); }
+.stroke-work { stroke: var(--t-work); }
+.stroke-client { stroke: var(--t-client); }
+.stroke-meetings { stroke: var(--t-meetings); }
+.stroke-study { stroke: var(--t-study); }
+.stroke-sport { stroke: var(--t-sport); }
+.stroke-reading { stroke: var(--t-reading); }
+.stroke-admin { stroke: var(--t-admin); }
+.stroke-social { stroke: var(--t-social); }
+.bg-work { background-color: var(--t-work); }
+.bg-client { background-color: var(--t-client); }
+.bg-meetings { background-color: var(--t-meetings); }
+.bg-study { background-color: var(--t-study); }
+.bg-sport { background-color: var(--t-sport); }
+.bg-reading { background-color: var(--t-reading); }
+.bg-admin { background-color: var(--t-admin); }
+.bg-social { background-color: var(--t-social); }
 
 /* --------------------------------------------------------------- motion --- */
 
@@ -326,10 +493,10 @@ h3 {
    no-JS visitors still see every section. */
 .js .reveal {
   opacity: 0;
-  transform: translateY(28px);
+  transform: translateY(32px);
   transition:
     opacity 0.9s var(--ease-out-soft),
-    transform 1.1s var(--ease-out-soft);
+    transform 1.2s var(--ease-out-expo);
   transition-delay: var(--reveal-delay, 0ms);
 }
 
@@ -341,10 +508,10 @@ h3 {
 /* Images rise a little further and settle from a hair larger. */
 .js .reveal-media {
   opacity: 0;
-  transform: translateY(56px) scale(0.97);
+  transform: translateY(64px) scale(0.96);
   transition:
     opacity 1s var(--ease-out-soft),
-    transform 1.4s var(--ease-out-soft);
+    transform 1.5s var(--ease-out-expo);
   transition-delay: var(--reveal-delay, 0ms);
 }
 
@@ -358,42 +525,45 @@ h3 {
    Contentful Paint only counts it once it is opaque, a second late. Here it is
    there at first paint and only settles upward, in CSS alone. */
 .rise {
-  animation: rise 1s var(--ease-out-soft) both;
+  animation: rise 1.1s var(--ease-out-expo) both;
   animation-delay: var(--reveal-delay, 0ms);
 }
 
 .rise-media {
-  animation: rise-media 1.3s var(--ease-out-soft) both;
+  animation: rise-media 1.5s var(--ease-out-expo) both;
   animation-delay: var(--reveal-delay, 0ms);
 }
 
 @keyframes rise {
   from {
-    transform: translateY(18px);
+    transform: translateY(22px);
   }
 }
 
 @keyframes rise-media {
   from {
-    transform: translateY(40px) scale(0.98);
+    transform: translateY(48px) scale(0.97);
   }
 }
 
 /* Staggers without inline styles – the CSP allows none. */
 .delay-1 {
-  --reveal-delay: 80ms;
+  --reveal-delay: 90ms;
 }
 .delay-2 {
-  --reveal-delay: 160ms;
+  --reveal-delay: 180ms;
 }
 .delay-3 {
-  --reveal-delay: 240ms;
+  --reveal-delay: 270ms;
 }
 .delay-4 {
-  --reveal-delay: 320ms;
+  --reveal-delay: 360ms;
 }
 .delay-5 {
-  --reveal-delay: 400ms;
+  --reveal-delay: 450ms;
+}
+.delay-6 {
+  --reveal-delay: 540ms;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -421,7 +591,7 @@ h3 {
   }
 }
 
-/* Horizontal snap rail used by the screenshot gallery. */
+/* Horizontal snap rail. */
 .snap-rail {
   scrollbar-width: none;
 }

@@ -62,106 +62,73 @@ const alt = (id: string) => shots.find((s) => s.id === id)?.alt ?? '';
   title={t('meta.pro.title')}
   description={t('meta.pro.description')}
 >
-  <section class="relative overflow-hidden">
-    <div aria-hidden="true" class="pointer-events-none absolute inset-0 -z-10">
-      <div
-        class="absolute inset-x-0 top-0 h-[620px] bg-gradient-to-b from-brand-50 via-canvas to-canvas dark:from-brand-950/60 dark:via-canvas dark:to-canvas"
-      >
-      </div>
-      <div
-        class="absolute -top-32 left-1/2 h-[520px] w-[900px] -translate-x-1/2 rounded-full bg-brand-200/30 blur-[130px] dark:bg-brand-700/20"
-      >
+  <section class="pro-hero night relative overflow-hidden">
+    <div class="mx-auto max-w-4xl px-5 pt-14 text-center sm:px-8 sm:pt-20">
+      <Image
+        src={proMark}
+        alt=""
+        width={88}
+        height={88}
+        widths={[88, 176]}
+        sizes="88px"
+        loading="eager"
+        class="rise mx-auto h-[76px] w-[76px] rounded-[22.5%] shadow-[0_18px_40px_-14px_rgb(0_0_0/0.75)] ring-1 ring-white/10 sm:h-[88px] sm:w-[88px]"
+      />
+      <p class="rise delay-1 t-label mt-8">{pro.eyebrow}</p>
+      <h1 class="rise delay-2 t-hero mt-5">{pro.title}</h1>
+      <p class="rise delay-3 t-intro mx-auto mt-7 max-w-2xl text-muted">{pro.subtitle}</p>
+      <div class="rise delay-4 mt-9 flex justify-center">
+        <AppStoreButton label={t('appstore.download')} variant="onAccent" size="lg" />
       </div>
     </div>
 
-    <div class="mx-auto max-w-6xl px-5 pb-16 pt-14 sm:px-8 sm:pb-24 sm:pt-20">
-      <div class="grid items-center gap-14 lg:grid-cols-[1.05fr_0.95fr] lg:gap-8">
-        <div class="reveal text-center lg:text-start">
-          <Image
-            src={proMark}
-            alt=""
-            width={80}
-            height={80}
-            widths={[80, 160]}
-            sizes="80px"
-            loading="eager"
-            class="mx-auto h-20 w-20 rounded-[22%] shadow-lift ring-1 ring-black/5 lg:mx-0 dark:ring-white/10"
-          />
-          <p class="mt-7 text-[13px] font-semibold uppercase tracking-[0.14em] text-brand-600 dark:text-brand-300">
-            {pro.eyebrow}
-          </p>
-          <h1 class="text-display mt-4 text-[2.5rem] font-bold sm:text-5xl lg:text-[3.5rem]">{pro.title}</h1>
-          <p class="text-balance mx-auto mt-6 max-w-xl text-[17px] leading-relaxed text-muted sm:text-lg lg:mx-0">
-            {pro.subtitle}
-          </p>
-          <div class="mt-9 flex justify-center lg:justify-start">
-            <AppStoreButton label={t('appstore.download')} size="lg" />
-          </div>
-        </div>
-
-        <div class="reveal relative mx-auto w-full max-w-[340px]" data-reveal-delay="120">
-          <div
-            aria-hidden="true"
-            class="absolute inset-x-4 top-10 -z-10 h-3/4 rounded-full bg-brand-400/25 blur-[70px] dark:bg-brand-500/25"
-          >
-          </div>
-          <DeviceFrame
-            image={phoneScreen(lang, 'pro')}
-            alt={alt('pro')}
-            loading="eager"
-            class="ms-auto w-[78%]"
-            sizes="(min-width: 640px) 265px, 60vw"
-            widths={[240, 280, 480, 560]}
-          />
-          <WatchFrame
-            image={watchScreen(lang, 'running')}
-            alt=""
-            class="absolute bottom-6 start-0 w-[42%]"
-          />
-        </div>
-      </div>
+    <div class="pro-hero__stage rise-media delay-3" dir="ltr">
+      <div class="pro-hero__glow" aria-hidden="true"></div>
+      <WatchFrame image={watchScreen(lang, 'start')} alt="" class="pro-hero__watch pro-hero__watch--left" finish="silver" sizes="190px" loading="eager" />
+      <DeviceFrame
+        image={phoneScreen(lang, 'pro')}
+        alt={alt('pro')}
+        loading="eager"
+        finish="black"
+        class="pro-hero__phone"
+        sizes="(min-width: 1024px) 320px, 60vw"
+        widths={[240, 320, 480, 640]}
+      />
+      <WatchFrame image={watchScreen(lang, 'running')} alt="" class="pro-hero__watch pro-hero__watch--right" sizes="210px" loading="eager" />
     </div>
   </section>
 
-  <section class="bg-canvas-alt py-20 sm:py-28">
-    <div class="mx-auto max-w-6xl px-5 sm:px-8">
-      <h2 class="reveal text-display mx-auto mb-14 max-w-2xl text-center text-3xl font-bold sm:text-[2.75rem]">
-        {pro.featuresTitle}
-      </h2>
-      <div class="flex flex-wrap justify-center gap-4">
+  <section class="night py-20 sm:py-28">
+    <div class="wrap">
+      <h2 class="reveal t-section mb-12 max-w-3xl sm:mb-16">{pro.featuresTitle}</h2>
+      <div class="grid gap-x-8 gap-y-10 sm:grid-cols-2 lg:grid-cols-3">
         {
           pro.features.map((feature, i) => (
-            <div
-              class="reveal w-full rounded-3xl border border-line bg-surface p-7 sm:w-[calc(50%-0.5rem)] lg:w-[calc(33.333%-0.667rem)]"
-              data-reveal-delay={String((i % 3) * 70)}
-            >
-              <div class="mb-5 inline-flex h-11 w-11 items-center justify-center rounded-2xl bg-brand-50 text-brand-700 dark:bg-brand-700/25 dark:text-brand-200">
-                <svg
-                  width="21"
-                  height="21"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="1.7"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  aria-hidden="true"
-                  set:html={featureIcons[feature.id]}
-                />
-              </div>
-              <h3 class="text-[17px] font-semibold tracking-tight">{feature.title}</h3>
-              <p class="mt-2 text-[15px] leading-relaxed text-muted">{feature.body}</p>
+            <div class:list={['reveal border-t border-line-strong pt-6', `delay-${(i % 3) + 1}`]}>
+              <svg
+                class="h-7 w-7 text-accent"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.6"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+                set:html={featureIcons[feature.id]}
+              />
+              <h3 class="font-display mt-5 text-[21px] font-semibold tracking-[-0.025em]">{feature.title}</h3>
+              <p class="mt-2.5 text-[15.5px] leading-relaxed text-muted text-pretty">{feature.body}</p>
               {feature.id === 'style' && (
-                <div class="mt-5 flex flex-wrap gap-1.5" aria-hidden="true">
+                <div class="mt-5 flex flex-wrap gap-2" aria-hidden="true">
                   {icons.map((icon) => (
                     <Image
                       src={icon}
                       alt=""
-                      width={28}
-                      height={28}
-                      widths={[28, 56]}
-                      sizes="28px"
-                      class="h-7 w-7 rounded-[22%] ring-1 ring-black/5 dark:ring-white/10"
+                      width={32}
+                      height={32}
+                      widths={[32, 64]}
+                      sizes="32px"
+                      class="h-8 w-8 rounded-[22.5%] shadow-[0_4px_10px_-4px_rgb(0_0_0/0.6)] ring-1 ring-white/10"
                     />
                   ))}
                 </div>
@@ -173,49 +140,47 @@ const alt = (id: string) => shots.find((s) => s.id === id)?.alt ?? '';
     </div>
   </section>
 
-  <section id="plans" class="scroll-mt-20 py-20 sm:py-28">
-    <div class="mx-auto max-w-5xl px-5 sm:px-8">
-      <div class="reveal mx-auto mb-14 max-w-2xl text-center">
-        <h2 class="text-display text-3xl font-bold sm:text-[2.75rem]">{pro.plansTitle}</h2>
-        <p class="text-balance mt-5 text-[17px] leading-relaxed text-muted">{pro.plansSubtitle}</p>
+  <section id="plans" class="night scroll-mt-14 bg-canvas-alt py-20 sm:py-28">
+    <div class="wrap">
+      <div class="mx-auto mb-12 max-w-3xl text-center sm:mb-16">
+        <h2 class="reveal t-section">{pro.plansTitle}</h2>
+        <p class="reveal delay-1 t-intro mt-5 text-muted">{pro.plansSubtitle}</p>
       </div>
 
-      <div class="grid gap-4 md:grid-cols-3">
+      <div class="grid gap-4 md:grid-cols-3 lg:gap-5">
         {
-          pro.plans.map((plan) => (
+          pro.plans.map((plan, i) => (
             <div
               class:list={[
-                'reveal rounded-3xl border bg-surface p-7',
-                plan.id === 'yearly' ? 'border-accent ring-1 ring-accent' : 'border-line',
+                'reveal plan-card',
+                `delay-${i + 1}`,
+                plan.id === 'yearly' && 'plan-card--featured',
               ]}
             >
-              <div class="mb-5 inline-flex h-11 w-11 items-center justify-center rounded-2xl bg-brand-50 text-brand-700 dark:bg-brand-700/25 dark:text-brand-200">
-                <svg
-                  width="21"
-                  height="21"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="1.7"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  aria-hidden="true"
-                  set:html={planIcons[plan.id]}
-                />
-              </div>
-              <h3 class="text-xl font-semibold tracking-tight">{plan.title}</h3>
-              <p class="mt-2 text-[15px] leading-relaxed text-muted">{plan.body}</p>
+              <svg
+                class="h-8 w-8 text-accent"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.6"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+                set:html={planIcons[plan.id]}
+              />
+              <h3 class="font-display mt-6 text-[26px] font-semibold tracking-[-0.03em]">{plan.title}</h3>
+              <p class="mt-3 text-[15.5px] leading-relaxed text-muted text-pretty">{plan.body}</p>
             </div>
           ))
         }
       </div>
 
-      <ul class="reveal mt-10 grid gap-4 sm:grid-cols-3">
+      <ul class="reveal mt-12 grid gap-6 sm:grid-cols-3">
         {
           pro.notes.map((note, i) => (
             <li class="flex gap-3 text-[15px] leading-relaxed text-ink">
               <svg
-                class="mt-0.5 h-5 w-5 shrink-0 text-brand-500 dark:text-brand-300"
+                class="mt-0.5 h-5 w-5 shrink-0 text-accent"
                 viewBox="0 0 24 24"
                 fill="none"
                 stroke="currentColor"
@@ -231,7 +196,7 @@ const alt = (id: string) => shots.find((s) => s.id === id)?.alt ?? '';
         }
       </ul>
 
-      <div class="reveal mt-10 border-t border-line pt-6 text-center text-[13px] leading-relaxed text-subtle">
+      <div class="reveal mt-12 border-t border-line-strong pt-6 text-center text-[13px] leading-relaxed text-muted">
         <p class="mx-auto max-w-2xl">{pro.legal}</p>
         <p class="mt-3 flex flex-wrap justify-center gap-x-6 gap-y-2">
           <a href={TERMS_URL} target="_blank" rel="noopener" class="font-medium text-accent hover:underline">{pro.terms}</a>
@@ -241,19 +206,19 @@ const alt = (id: string) => shots.find((s) => s.id === id)?.alt ?? '';
     </div>
   </section>
 
-  <section class="bg-canvas-alt py-20 sm:py-24">
-    <div class="mx-auto grid max-w-5xl gap-4 px-5 sm:px-8 md:grid-cols-2">
-      <div class="reveal rounded-3xl border border-line bg-surface p-8">
-        <h2 class="text-2xl font-bold tracking-tight">{pro.freeTitle}</h2>
-        <p class="mt-4 text-[15px] leading-relaxed text-muted">{pro.freeBody}</p>
+  <section class="night py-20 sm:py-28">
+    <div class="wrap grid gap-4 md:grid-cols-2 lg:gap-5">
+      <div class="reveal rounded-[1.75rem] bg-surface p-8 sm:p-10">
+        <h2 class="t-title">{pro.freeTitle}</h2>
+        <p class="mt-5 text-[16px] leading-relaxed text-muted text-pretty">{pro.freeBody}</p>
       </div>
-      <div class="reveal rounded-3xl border border-line bg-surface p-8" data-reveal-delay="70">
-        <h2 class="text-2xl font-bold tracking-tight">{pro.howTitle}</h2>
-        <ol class="mt-5 space-y-4">
+      <div class="reveal delay-1 rounded-[1.75rem] bg-surface p-8 sm:p-10">
+        <h2 class="t-title">{pro.howTitle}</h2>
+        <ol class="mt-6 space-y-4">
           {
             pro.how.map((step, i) => (
-              <li class="flex gap-4 text-[15px] leading-relaxed text-muted">
-                <span class="grid h-7 w-7 shrink-0 place-items-center rounded-full bg-accent text-[13px] font-semibold text-on-accent">
+              <li class="flex gap-4 text-[16px] leading-relaxed text-muted">
+                <span class="grid h-7 w-7 shrink-0 place-items-center rounded-full bg-action text-[13px] font-semibold text-on-action">
                   {i + 1}
                 </span>
                 <span class="pt-0.5">{step}</span>
@@ -265,10 +230,10 @@ const alt = (id: string) => shots.find((s) => s.id === id)?.alt ?? '';
     </div>
   </section>
 
-  <section class="py-20 sm:py-28">
-    <div class="mx-auto max-w-3xl px-5 sm:px-8">
-      <h2 class="reveal text-display mb-12 text-center text-3xl font-bold sm:text-[2.5rem]">{pro.faqTitle}</h2>
-      <div class="reveal divide-y divide-line overflow-hidden rounded-3xl border border-line bg-surface">
+  <section class="night bg-canvas-alt py-20 sm:py-28">
+    <div class="wrap grid gap-10 lg:grid-cols-[minmax(0,0.8fr)_minmax(0,1.2fr)] lg:gap-16">
+      <h2 class="reveal t-section lg:sticky lg:top-24 lg:self-start">{pro.faqTitle}</h2>
+      <div class="reveal delay-1 divide-y divide-line-strong border-y border-line-strong">
         {questions.map((item) => <FaqEntry lang={lang} item={item} />)}
       </div>
     </div>
@@ -276,3 +241,80 @@ const alt = (id: string) => shots.find((s) => s.id === id)?.alt ?? '';
 
   <CTA lang={lang} title={pro.ctaTitle} subtitle={pro.ctaSubtitle} note="" />
 </Layout>
+
+<style>
+  .pro-hero__stage {
+    --pw: min(56vw, 250px);
+    position: relative;
+    height: calc(var(--pw) * 2.105 * 0.74);
+    margin-top: clamp(3rem, 6vw, 4.5rem);
+    overflow: hidden;
+  }
+
+  @media (min-width: 1024px) {
+    .pro-hero__stage {
+      --pw: 300px;
+    }
+  }
+
+  .pro-hero__glow {
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    width: min(52rem, 140vw);
+    height: 90%;
+    translate: -50% 0;
+    background: radial-gradient(50% 50% at 50% 50%, rgb(61 120 255 / 0.3), transparent 70%);
+  }
+
+  .pro-hero__stage :global(.pro-hero__phone) {
+    position: absolute;
+    z-index: 2;
+    left: calc(50% - var(--pw) / 2);
+    top: 0;
+    width: var(--pw);
+  }
+
+  .pro-hero__stage :global(.pro-hero__watch) {
+    position: absolute;
+    z-index: 3;
+    width: calc(var(--pw) * 0.62);
+    top: calc(var(--pw) * 0.62);
+  }
+
+  .pro-hero__stage :global(.pro-hero__watch--left) {
+    left: calc(50% - var(--pw) * 1.08);
+    width: calc(var(--pw) * 0.54);
+    top: calc(var(--pw) * 0.82);
+    z-index: 1;
+  }
+
+  .pro-hero__stage :global(.pro-hero__watch--right) {
+    left: calc(50% + var(--pw) * 0.42);
+  }
+
+  @media (max-width: 639px) {
+    .pro-hero__stage :global(.pro-hero__watch--left) {
+      display: none;
+    }
+
+    .pro-hero__stage :global(.pro-hero__watch--right) {
+      left: calc(50% + var(--pw) * 0.18);
+      width: calc(var(--pw) * 0.56);
+      top: calc(var(--pw) * 0.92);
+    }
+  }
+
+  .plan-card {
+    border-radius: 1.75rem;
+    background: var(--surface);
+    padding: 2rem 2rem 2.25rem;
+    box-shadow: 0 0 0 1px var(--line);
+  }
+
+  .plan-card--featured {
+    box-shadow:
+      0 0 0 2px var(--action),
+      0 30px 60px -36px rgb(36 87 214 / 0.55);
+  }
+</style>

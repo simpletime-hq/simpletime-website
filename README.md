@@ -17,7 +17,8 @@ npm run test:browser     # Playwright + axe against the built site
 ## Pages
 
 Every language has the same six pages: home, `/pro/`, `/faq/`, `/contact/`, `/privacy/` and `/imprint/`.
-The files in `src/pages/` are one-line wrappers around `src/components/pages/*`.
+The files in `src/pages/` are one-line wrappers around `src/components/pages/*`; the `ja` and `zh` ones
+also import their font stylesheet (`fonts-ja.css`, `fonts-zh.css`), so no other page loads those rules.
 
 ## Where the words live
 

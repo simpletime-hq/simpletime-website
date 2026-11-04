@@ -16,37 +16,23 @@ const entries = faqById(lang);
 const items = HOME_FAQ.map((id) => entries.get(id)).filter((item) => item !== undefined);
 ---
 
-<section id="faq" class="scroll-mt-20 bg-canvas-alt py-20 sm:py-28">
-  <div class="mx-auto max-w-3xl px-5 sm:px-8">
-    <div class="reveal mb-12 text-center">
-      <h2 class="text-display text-3xl font-bold sm:text-[2.5rem]">{faq.title}</h2>
-      <p class="text-balance mt-4 text-[17px] text-muted">{faq.subtitle}</p>
-    </div>
+<section id="faq" class="night scroll-mt-14">
+  <div class="wrap">
+    <div class="grid gap-12 border-t border-line py-24 sm:py-32 lg:grid-cols-12 lg:gap-16">
+      <div class="lg:sticky lg:top-24 lg:col-span-5 lg:self-start">
+        <h2 class="reveal t-section">{faq.title}</h2>
+        <p class="reveal delay-1 t-intro mt-6 text-muted">{faq.subtitle}</p>
+        <a href={`${langPrefix(lang)}/faq/`} class="reveal delay-2 link-more mt-8 text-[17px]">
+          {faq.button}
+          <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M2 6h8M6.5 2.5L10 6l-3.5 3.5"></path>
+          </svg>
+        </a>
+      </div>
 
-    <div class="reveal divide-y divide-line overflow-hidden rounded-3xl border border-line bg-surface">
-      {items.map((item) => <FaqEntry lang={lang} item={item} />)}
-    </div>
-
-    <div class="reveal mt-10 flex justify-center">
-      <a
-        href={`${langPrefix(lang)}/faq/`}
-        class="inline-flex items-center gap-2 rounded-full border border-line-strong bg-surface px-6 py-3 font-medium text-ink transition-colors hover:bg-surface-2"
-      >
-        {faq.button}
-        <svg
-          class="h-3.5 w-3.5 rtl:-scale-x-100"
-          viewBox="0 0 14 14"
-          fill="none"
-          stroke="currentColor"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          aria-hidden="true"
-        >
-          <path d="M3 7h8"></path>
-          <path d="M7 3l4 4-4 4"></path>
-        </svg>
-      </a>
+      <div class="reveal delay-1 faq-list divide-y divide-line-strong border-y border-line-strong lg:col-span-7">
+        {items.map((item) => <FaqEntry lang={lang} item={item} />)}
+      </div>
     </div>
   </div>
 </section>

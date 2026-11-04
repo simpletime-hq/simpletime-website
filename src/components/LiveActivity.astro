@@ -1,0 +1,62 @@
+---
+import type { Lang } from '../i18n/ui';
+import { useTranslations } from '../i18n/utils';
+
+interface Props {
+  lang: Lang;
+  class?: string;
+}
+
+const { lang, class: className = '' } = Astro.props;
+const t = useTranslations(lang);
+
+// The client project of the sample day, running for 42:05 when the page opens –
+// the task and time the tracking screenshot shows – and counting on from there.
+// No start time: each language's screenshots were taken at their own hour.
+const ELAPSED = 42 * 60 + 5;
+---
+
+{/*
+  Decorative: it repeats what the screenshot beside it shows, so screen
+  readers skip it rather than hearing a number change every second.
+*/}
+<div class:list={['live-card', className]} aria-hidden="true" data-live data-elapsed={ELAPSED}>
+  <div class="live-card__main">
+    <div class="live-card__task">
+      <svg class="live-card__icon" viewBox="0 0 24 24" fill="currentColor">
+        <path
+          d="M5.5 5h13A1.5 1.5 0 0 1 20 6.5v8.75a.75.75 0 0 1-.75.75H4.75a.75.75 0 0 1-.75-.75V6.5A1.5 1.5 0 0 1 5.5 5zm.5 2v7h12V7H6zM2.6 17.5h18.8c.33 0 .6.27.6.6 0 .77-.63 1.4-1.4 1.4H3.4c-.77 0-1.4-.63-1.4-1.4 0-.33.27-.6.6-.6z"
+        ></path>
+      </svg>
+      <span>{t('live.task')}</span>
+    </div>
+    <div class="live-card__timer" data-live-timer>0:42:05</div>
+  </div>
+  <span class="live-card__stop">
+    <svg viewBox="0 0 12 12" fill="currentColor"><rect x="1.5" y="1.5" width="9" height="9" rx="2"></rect></svg>
+    {t('live.stop')}
+  </span>
+</div>
+
+<script>
+  // Counts on from the time in the markup, on the beat of whole seconds.
+  const pad = (n: number) => String(n).padStart(2, '0');
+
+  document.querySelectorAll<HTMLElement>('[data-live]').forEach((card) => {
+    const timer = card.querySelector<HTMLElement>('[data-live-timer]');
+    if (!timer) return;
+    const start = Date.now() - Number(card.dataset.elapsed ?? 0) * 1000;
+
+    const tick = () => {
+      const seconds = Math.floor((Date.now() - start) / 1000);
+      const h = Math.floor(seconds / 3600);
+      const m = Math.floor((seconds % 3600) / 60);
+      timer.textContent = `${h}:${pad(m)}:${pad(seconds % 60)}`;
+    };
+    tick();
+    window.setTimeout(() => {
+      tick();
+      window.setInterval(tick, 1000);
+    }, 1000 - ((Date.now() - start) % 1000));
+  });
+</script>

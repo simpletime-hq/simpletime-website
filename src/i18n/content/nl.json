@@ -574,7 +574,8 @@
             "id": "export",
             "q": "Kan ik mijn gegevens exporteren?",
             "a": [
-              "Ja, altijd: als CSV-bestand met taak, notitie, duur, begin en einde (voor Excel, Numbers of elk ander analyseprogramma), als pdf-rapport of als volledige back-up in JSON."
+              "Ja, altijd: als CSV-bestand met taak, notitie, duur, begin en einde (voor Excel, Numbers of elk ander analyseprogramma), als pdf-rapport of als volledige back-up in JSON.",
+              "Onder Instellingen › Gegevens exporteren / importeren kies je de periode van het CSV-bestand: van vandaag tot de hele periode, of een eigen periode, zoals vorige maand."
             ]
           },
           {

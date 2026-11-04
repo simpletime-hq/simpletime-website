@@ -9,6 +9,8 @@ interface Props {
   sizes?: string;
   widths?: number[];
   loading?: 'lazy' | 'eager';
+  /** Colour of the band: silver, the icon's deep blue, or black. */
+  finish?: 'silver' | 'blue' | 'black';
   class?: string;
 }
 
@@ -18,47 +20,35 @@ const {
   sizes = '(min-width: 1024px) 320px, 70vw',
   widths = [280, 400, 560, 720],
   loading = 'lazy',
+  finish = 'silver',
   class: className = '',
 } = Astro.props;
+
+// The screens are prepared at the true 1320:2868 ratio by
+// scripts/prepare-screens.py, so the frame needs no aspect fixing here.
+// Its drawing lives in src/styles/devices.css.
 ---
 
-{/*
-  Corner radii are in `cqw` (percent of the frame's own width), not `%`.
-  A percentage border-radius resolves horizontally against width and
-  vertically against height, which on a tall element produces elliptical
-  corners. The radii below are concentric: outer = screen + bezel, with
-  the screen at iOS's 12.5% of screen width.
-
-  The screens are prepared at the true 1320:2868 ratio by
-  scripts/prepare-screens.py, so the frame needs no aspect fixing here.
-*/}
-<div class={`@container relative ${className}`}>
-  <div
-    class="relative rounded-[14.2cqw] bg-[#0c0d10] p-[2.2cqw] shadow-device ring-1 ring-black/20 dark:ring-white/10"
-  >
-    {/* Polished titanium edge catching light from the top left. */}
-    <div
-      aria-hidden="true"
-      class="pointer-events-none absolute inset-0 rounded-[14.2cqw] bg-gradient-to-br from-white/25 via-white/5 to-white/15"
-    >
-    </div>
-    {/* Hairline where the glass meets the band. */}
-    <div
-      aria-hidden="true"
-      class="pointer-events-none absolute inset-[1.4cqw] rounded-[12.8cqw] ring-1 ring-black/60"
-    >
-    </div>
-
-    <div class="relative overflow-hidden rounded-[12cqw] bg-white">
-      <Image
-        src={image}
-        alt={alt}
-        widths={widths}
-        sizes={sizes}
-        loading={loading}
-        decoding="async"
-        class="block h-auto w-full"
-      />
+<div class:list={['iphone', finish !== 'silver' && `iphone--${finish}`, className]}>
+  <span class="iphone__key iphone__key--action" aria-hidden="true"></span>
+  <span class="iphone__key iphone__key--up" aria-hidden="true"></span>
+  <span class="iphone__key iphone__key--down" aria-hidden="true"></span>
+  <span class="iphone__key iphone__key--side" aria-hidden="true"></span>
+  <span class="iphone__key iphone__key--camera" aria-hidden="true"></span>
+  <div class="iphone__body">
+    <div class="iphone__glass">
+      <div class="iphone__screen">
+        <Image
+          src={image}
+          alt={alt}
+          widths={widths}
+          sizes={sizes}
+          loading={loading}
+          fetchpriority={loading === 'eager' ? 'high' : undefined}
+          decoding="async"
+        />
+        <span class="iphone__island" aria-hidden="true"></span>
+      </div>
     </div>
   </div>
 </div>

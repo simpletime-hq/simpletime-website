@@ -1,11 +1,10 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import Hero from '../Hero.astro';
-import Showcase from '../Showcase.astro';
+import Story from '../Story.astro';
 import Features from '../Features.astro';
-import ProBand from '../ProBand.astro';
-import Gallery from '../Gallery.astro';
 import Audience from '../Audience.astro';
+import ProBand from '../ProBand.astro';
 import FAQ from '../FAQ.astro';
 import CTA from '../CTA.astro';
 import type { Lang } from '../../i18n/ui';
@@ -18,13 +17,17 @@ interface Props {
 const { lang } = Astro.props;
 ---
 
-<Layout lang={lang} path={getLocalizedPath(lang, '/')}>
+{/*
+  One day, top to bottom: the morning above the fold, the app through the day,
+  dusk for the people it is made for – and Pro, the questions and the close at
+  night.
+*/}
+<Layout lang={lang} path={getLocalizedPath(lang, '/')} dayProgress>
   <Hero lang={lang} />
-  <Showcase lang={lang} />
+  <Story lang={lang} />
   <Features lang={lang} />
-  <ProBand lang={lang} />
-  <Gallery lang={lang} />
   <Audience lang={lang} />
+  <ProBand lang={lang} />
   <FAQ lang={lang} />
   <CTA lang={lang} />
 </Layout>

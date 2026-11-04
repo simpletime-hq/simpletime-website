@@ -35,7 +35,10 @@ export default defineConfig({
     baseURL: 'http://127.0.0.1:4322',
     locale: 'en-US',
     timezoneId: 'UTC',
-    reducedMotion: 'reduce',
+    // A context option, so it goes under contextOptions: as a plain `use` key it
+    // was silently ignored, and entrance animations were still running while
+    // axe measured contrast.
+    contextOptions: { reducedMotion: 'reduce' },
     trace: 'retain-on-failure',
     screenshot: 'only-on-failure',
     video: 'off',

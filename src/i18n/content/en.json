@@ -574,7 +574,8 @@
             "id": "export",
             "q": "Can I export my data?",
             "a": [
-              "Yes, at any time: as a CSV file with task, note, duration, start and end – for Excel, Numbers or any analysis tool –, as a PDF report, or as a complete backup in JSON."
+              "Yes, at any time: as a CSV file with task, note, duration, start and end – for Excel, Numbers or any analysis tool –, as a PDF report, or as a complete backup in JSON.",
+              "Under Settings › Export / Import Data, choose the period for the CSV file – from today to all time, or your own, such as last month."
             ]
           },
           {

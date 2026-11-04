@@ -3,7 +3,7 @@ import { APP_STORE_URL } from '../i18n/utils';
 
 interface Props {
   label: string;
-  /** `solid` inverts with the theme; `onAccent` sits on a coloured panel. */
+  /** `solid` is Apple's black badge; `onAccent` sits on a coloured panel. */
   variant?: 'solid' | 'onAccent';
   size?: 'md' | 'lg';
   class?: string;
@@ -11,13 +11,15 @@ interface Props {
 
 const { label, variant = 'solid', size = 'md', class: className = '' } = Astro.props;
 
+// Apple's badge: black, a hairline in #a6a6a6, the logo and two lines. On the
+// deep blue panels it turns white, which Apple's guidelines allow as well.
 const base =
-  'inline-flex items-center gap-3 rounded-2xl font-medium transition-transform duration-200 hover:-translate-y-0.5 active:translate-y-0';
-const sizeClass = size === 'lg' ? 'px-6 py-3.5' : 'px-5 py-3';
+  'app-badge inline-flex items-center gap-2.5 rounded-[14px] font-medium transition-[transform,box-shadow] duration-300 hover:-translate-y-0.5 active:translate-y-0';
+const sizeClass = size === 'lg' ? 'ps-5 pe-6 py-3' : 'ps-4 pe-5 py-2.5';
 const colorClass =
   variant === 'onAccent'
-    ? 'bg-white text-slate-950 shadow-lift'
-    : 'bg-ink text-canvas shadow-lift';
+    ? 'bg-white text-[#0b0b0d] shadow-lift'
+    : 'bg-black text-white ring-1 ring-[#a6a6a6]/70 shadow-lift dark:ring-[#a6a6a6]';
 ---
 
 <a
@@ -27,15 +29,13 @@ const colorClass =
   aria-label={label}
   class={`${base} ${sizeClass} ${colorClass} ${className}`}
 >
-  <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+  <svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
     <path
       d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.54 4.08zM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25z"
     ></path>
   </svg>
-  <span class="flex flex-col items-start leading-none">
-    <span class="text-[10px] font-normal uppercase tracking-[0.12em] opacity-70">
-      Download on the
-    </span>
-    <span class="mt-1 text-[17px] font-semibold tracking-tight">App Store</span>
+  <span class="flex flex-col items-start leading-none" dir="ltr">
+    <span class="text-[11px] font-medium tracking-[0.01em] opacity-90">Download on the</span>
+    <span class="mt-[3px] text-[21px] font-semibold tracking-[-0.02em]">App Store</span>
   </span>
 </a>

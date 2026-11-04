@@ -76,10 +76,26 @@ test('browser and accessibility baseline', async ({ page }, testInfo) => {
     await expect(mobileMenu).toBeVisible();
     await page.keyboard.press('Tab');
     expect(await page.evaluate(() => document.querySelector('#mobile-menu')?.contains(document.activeElement) ?? false)).toBe(true);
+    // The menu covers the whole page, so Tab must stay in the header: past the
+    // last menu entry it used to walk through links nobody could see
+    // (WCAG 2.4.11 Focus Not Obscured).
+    const hidden = [];
+    for (let step = 0; step < 12; step++) {
+      await page.keyboard.press('Tab');
+      const target = await page.evaluate(() => {
+        const el = document.activeElement;
+        if (!el || el === document.body) return null;
+        return el.closest('header') ? null : `${el.tagName.toLowerCase()} "${(el.textContent ?? '').trim().slice(0, 40)}"`;
+      });
+      if (target) hidden.push(target);
+    }
+    expect(hidden, `focus behind the open menu on ${route}`).toEqual([]);
+    await mobileMenu.locator('a').first().focus();
     await page.keyboard.press('Escape');
     await expect(menuToggle).toHaveAttribute('aria-expanded', 'false');
     await expect(mobileMenu).toBeHidden();
     await expect(menuToggle).toBeFocused();
+    await expect(page.locator('main')).not.toHaveAttribute('inert');
   }
 
   const languageMenu = page.locator('details.lang-menu');

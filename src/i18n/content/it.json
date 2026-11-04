@@ -574,7 +574,8 @@
             "id": "export",
             "q": "Posso esportare i miei dati?",
             "a": [
-              "Sì, in qualsiasi momento: come file CSV con attività, nota, durata, inizio e fine – per Excel, Numbers o qualsiasi strumento di analisi –, come report PDF o come backup completo in JSON."
+              "Sì, in qualsiasi momento: come file CSV con attività, nota, durata, inizio e fine – per Excel, Numbers o qualsiasi strumento di analisi –, come report PDF o come backup completo in JSON.",
+              "In Impostazioni › Esporta / Importa dati scegli il periodo del file CSV – da oggi a tutto il periodo, oppure uno personalizzato, come il mese scorso."
             ]
           },
           {

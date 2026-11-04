@@ -46,6 +46,6 @@ export function langPrefix(lang: Lang): string {
 }
 
 export const APP_STORE_URL =
-  'https://apps.apple.com/us/app/simpletime-time-tracker/id6755532037';
+  'https://apps.apple.com/app/simpletime-time-tracker/id6755532037';
 
 export const CONTACT_EMAIL = 'contact@simple-time.app';

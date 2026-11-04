@@ -27,7 +27,7 @@ jobs:
       - name: Use Node
         uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
         with:
-          node-version: '22.23.2'
+          node-version: '22.23.4'
 
       - name: Install
         run: npm ci --ignore-scripts
@@ -55,7 +55,7 @@ jobs:
       - name: Use Node
         uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
         with:
-          node-version: '22.23.2'
+          node-version: '22.23.4'
 
       # The one and only audit network call. Everything after this is local
       # parsing of the JSON it produced.
@@ -175,7 +175,7 @@ jobs:
       - name: Use Node
         uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
         with:
-          node-version: '22.23.2'
+          node-version: '22.23.4'
 
       # The one and only audit network call. Everything after this is local
       # parsing of the JSON it produced.
@@ -321,7 +321,7 @@ jobs:
       - name: Use Node
         uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
         with:
-          node-version: '22.23.2'
+          node-version: '22.23.4'
 
       - name: Install dependencies
         run: npm ci --ignore-scripts

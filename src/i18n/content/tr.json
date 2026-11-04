@@ -574,7 +574,8 @@
             "id": "export",
             "q": "Verilerimi dışa aktarabilir miyim?",
             "a": [
-              "Evet, istediğin zaman: görev, not, süre, başlangıç ve bitiş içeren bir CSV dosyası olarak – Excel, Numbers ya da herhangi bir analiz aracı için –, PDF rapor olarak ya da JSON biçiminde eksiksiz bir yedek olarak."
+              "Evet, istediğin zaman: görev, not, süre, başlangıç ve bitiş içeren bir CSV dosyası olarak – Excel, Numbers ya da herhangi bir analiz aracı için –, PDF rapor olarak ya da JSON biçiminde eksiksiz bir yedek olarak.",
+              "Ayarlar › Verileri dışa/içe aktar bölümünde CSV dosyasının dönemini seç – bugünden tüm zamanlara ya da kendi belirlediğin bir aralık, örneğin geçen ay."
             ]
           },
           {

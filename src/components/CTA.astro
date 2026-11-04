@@ -2,6 +2,7 @@
 import type { Lang } from '../i18n/ui';
 import { useTranslations } from '../i18n/utils';
 import { getContent } from '../i18n/content';
+import { DAY, totals, duration } from '../i18n/day';
 import AppStoreButton from './AppStoreButton.astro';
 
 interface Props {
@@ -16,33 +17,103 @@ const { lang } = Astro.props;
 const t = useTranslations(lang);
 const { cta } = getContent(lang).home;
 const { title = cta.title, subtitle = cta.subtitle, note = cta.note } = Astro.props;
+
+// The day from the top of the page, summed up the way the Chart tab does it:
+// one ring, a slice per task, the longest first.
+const slices = totals(DAY);
+const total = slices.reduce((sum, s) => sum + s.minutes, 0);
+const R = 80;
+const C = 2 * Math.PI * R;
+const GAP = 3;
+let offset = 0;
+const segments = slices.map((s, i) => {
+  const length = (s.minutes / total) * C;
+  const segment = { task: s.task, cls: `cd-${i}`, dash: Math.max(length - GAP, 0.5), offset };
+  offset += length;
+  return segment;
+});
+
+// Final lengths as classes in a style block – no style attributes under the CSP.
+// They draw one after another once the ring scrolls into view.
+const css = segments
+  .map(
+    (s, i) =>
+      `.${s.cls}{stroke-dasharray:${s.dash.toFixed(2)} ${C.toFixed(2)};stroke-dashoffset:${(-s.offset).toFixed(2)};transition-delay:${200 + i * 110}ms}`,
+  )
+  .join('');
 ---
 
-<section class="px-5 py-20 sm:px-8 sm:py-24">
-  <div
-    class="reveal relative mx-auto max-w-5xl overflow-hidden rounded-[2.5rem] bg-gradient-to-br from-brand-800 via-brand-700 to-brand-600 px-6 py-16 text-center text-white sm:px-12 sm:py-20"
-  >
-    <div aria-hidden="true" class="pointer-events-none absolute inset-0">
-      <div
-        class="absolute -top-24 left-1/2 h-[380px] w-[600px] -translate-x-1/2 rounded-full bg-brand-400/30 blur-[100px]"
-      >
+<section class="cta night">
+  <div class="wrap">
+    <div class="grid items-center gap-16 border-t border-line py-24 sm:py-32 lg:grid-cols-12">
+      <div class="lg:col-span-7">
+        <h2 class="reveal t-section">{title}</h2>
+        <p class="reveal delay-1 t-intro mt-6 max-w-xl text-muted">{subtitle}</p>
+        <div class="reveal delay-2 mt-10">
+          <AppStoreButton label={t('appstore.download')} size="lg" variant="onAccent" />
+        </div>
+        {note && <p class="reveal delay-3 mt-8 text-[14px] text-muted">{note}</p>}
       </div>
-    </div>
 
-    <div class="relative">
-      <img
-        src="/logo.png"
-        alt=""
-        width="64"
-        height="64"
-        class="mx-auto mb-7 h-16 w-16 rounded-[22%] shadow-lg ring-1 ring-white/15"
-      />
-      <h2 class="text-display text-3xl font-bold sm:text-[2.75rem]">{title}</h2>
-      <p class="text-balance mx-auto mt-5 max-w-lg text-[17px] text-white/85">{subtitle}</p>
-      <div class="mt-9 flex justify-center">
-        <AppStoreButton label={t('appstore.download')} variant="onAccent" size="lg" />
+      <div class="reveal lg:col-span-5" aria-hidden="true">
+        <div class="cta-ring">
+          <svg viewBox="0 0 200 200">
+            <circle cx="100" cy="100" r={R} class="cta-ring__track" />
+            <g transform="rotate(-90 100 100)">
+              {segments.map((s) => <circle cx="100" cy="100" r={R} class:list={['cta-ring__slice', `stroke-${s.task}`, s.cls]} />)}
+            </g>
+          </svg>
+          <div class="cta-ring__center">
+            <span class="t-label">{t('day.today')}</span>
+            <span class="t-clock mt-2 text-[2.5rem] text-ink" dir="ltr">{duration(total)}</span>
+          </div>
+        </div>
       </div>
-      {note && <p class="mt-6 text-[13px] text-brand-100/85">{note}</p>}
     </div>
   </div>
 </section>
+<style is:inline set:html={css}></style>
+
+<style>
+  .cta-ring {
+    position: relative;
+    width: min(100%, 22rem);
+    margin-inline: auto;
+  }
+
+  .cta-ring svg {
+    display: block;
+    width: 100%;
+    height: auto;
+    overflow: visible;
+  }
+
+  .cta-ring__track {
+    fill: none;
+    stroke: var(--surface-2);
+    stroke-width: 26;
+  }
+
+  /* Longhands, so the delay of each slice from the style block above stays. */
+  .cta-ring__slice {
+    fill: none;
+    stroke-width: 26;
+    transition-property: stroke-dasharray;
+    transition-duration: 1.3s;
+    transition-timing-function: var(--ease-out-expo);
+  }
+
+  /* Before it is seen, every slice is empty – then they fill the ring in turn. */
+  :global(.js .reveal:not(.is-visible)) .cta-ring__slice {
+    stroke-dasharray: 0 1000;
+  }
+
+  .cta-ring__center {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+</style>

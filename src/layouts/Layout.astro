@@ -4,20 +4,7 @@ import Navbar from '../components/Navbar.astro';
 import Footer from '../components/Footer.astro';
 import { languages, type Lang } from '../i18n/ui';
 import { useTranslations, getAllLangPaths } from '../i18n/utils';
-import latinRegular from '@fontsource/inter/files/inter-latin-400-normal.woff2?url';
-import latinBold from '@fontsource/inter/files/inter-latin-700-normal.woff2?url';
-import cyrillicRegular from '@fontsource/inter/files/inter-cyrillic-400-normal.woff2?url';
-import cyrillicBold from '@fontsource/inter/files/inter-cyrillic-700-normal.woff2?url';
-import armenianRegular from '@fontsource/noto-sans-armenian/files/noto-sans-armenian-armenian-400-normal.woff2?url';
-import armenianBold from '@fontsource/noto-sans-armenian/files/noto-sans-armenian-armenian-700-normal.woff2?url';
-import arabicRegular from '@fontsource/noto-sans-arabic/files/noto-sans-arabic-arabic-400-normal.woff2?url';
-import arabicBold from '@fontsource/noto-sans-arabic/files/noto-sans-arabic-arabic-700-normal.woff2?url';
-import devanagariRegular from '@fontsource/noto-sans-devanagari/files/noto-sans-devanagari-devanagari-400-normal.woff2?url';
-import devanagariBold from '@fontsource/noto-sans-devanagari/files/noto-sans-devanagari-devanagari-700-normal.woff2?url';
-import greekRegular from '@fontsource/inter/files/inter-greek-400-normal.woff2?url';
-import greekBold from '@fontsource/inter/files/inter-greek-700-normal.woff2?url';
-import hebrewRegular from '@fontsource/noto-sans-hebrew/files/noto-sans-hebrew-hebrew-400-normal.woff2?url';
-import hebrewBold from '@fontsource/noto-sans-hebrew/files/noto-sans-hebrew-hebrew-700-normal.woff2?url';
+import displayLatin from '@fontsource-variable/mona-sans/files/mona-sans-latin-wdth-normal.woff2?url';
 
 interface Props {
   lang: Lang;
@@ -28,9 +15,11 @@ interface Props {
   jsonLd?: Record<string, unknown>[];
   /** The 404 has no real URL: skip canonical, hreflang and indexing. */
   noIndex?: boolean;
+  /** The day drawn along the header as the page is read – the home page. */
+  dayProgress?: boolean;
 }
 
-const { lang, title, description, path, jsonLd = [], noIndex = false } = Astro.props;
+const { lang, title, description, path, jsonLd = [], noIndex = false, dayProgress = false } = Astro.props;
 const t = useTranslations(lang);
 
 const metaTitle = title ?? t('meta.title');
@@ -65,23 +54,11 @@ const ogImage = new URL(lang === 'en' ? '/og.png' : `/og-${lang}.png`, site).toS
 const RTL_LOCALES = new Set<Lang>(['ar', 'he']);
 const dir = RTL_LOCALES.has(lang) ? 'rtl' : 'ltr';
 
-// Preload the script this locale's body copy is actually set in. The Latin
-// files still load on demand — the brand name stays Latin everywhere.
-//
-// Japanese and Chinese are deliberately absent: their fonts are split into
-// dozens of subsets and which ones a page needs is only known once the text
-// is laid out, so there is nothing sensible to preload. Their Latin preload
-// still covers the wordmark and the App Store button.
-const SCRIPT_FONTS: Partial<Record<Lang, [string, string]>> = {
-  ru: [cyrillicRegular, cyrillicBold],
-  uk: [cyrillicRegular, cyrillicBold],
-  hy: [armenianRegular, armenianBold],
-  ar: [arabicRegular, arabicBold],
-  hi: [devanagariRegular, devanagariBold],
-  el: [greekRegular, greekBold],
-  he: [hebrewRegular, hebrewBold],
-};
-const [preloadRegular, preloadBold] = SCRIPT_FONTS[lang] ?? [latinRegular, latinBold];
+// Body text needs no preload: Apple devices set it in their own system face
+// and never fetch Inter or Noto. The headlines are another matter – every
+// device sets them in Mona Sans, and the hero's arrives with the first bytes.
+// Latin only: other scripts fall back to the text face for their headlines.
+const LATIN = new Set<Lang>(['en', 'de', 'nl', 'sv', 'fr', 'it', 'es', 'pt', 'tr']);
 
 const appSchema = {
   '@context': 'https://schema.org',
@@ -115,10 +92,12 @@ const jsonLdPayload = JSON.stringify(schemas).replace(/</g, '\\u003c');
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#fbfbfd" media="(prefers-color-scheme: light)" />
-    <meta name="theme-color" content="#070910" media="(prefers-color-scheme: dark)" />
+    <meta name="theme-color" content="#f5f6fa" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#06080f" media="(prefers-color-scheme: dark)" />
     <title>{metaTitle}</title>
     <meta name="description" content={metaDescription} />
+    {/* Safari on iPhone and iPad shows its own "Get" / "Open" banner for the app. */}
+    <meta name="apple-itunes-app" content="app-id=6755532037" />
     {noIndex ? <meta name="robots" content="noindex" /> : <link rel="canonical" href={canonical} />}
     {/* Round in the browser tab; the Apple touch icon stays square because
         iOS applies its own mask and renders transparency as black. */}
@@ -126,10 +105,8 @@ const jsonLdPayload = JSON.stringify(schemas).replace(/</g, '\\u003c');
     <link rel="icon" type="image/png" href="/favicon-32.png" sizes="32x32" />
     <link rel="icon" type="image/png" href="/favicon-192.png" sizes="192x192" />
 
-    {/* The two weights above the fold — preloaded so the headline paints once. */}
-    <link rel="preload" as="font" type="font/woff2" href={preloadRegular} crossorigin="anonymous" />
-    <link rel="preload" as="font" type="font/woff2" href={preloadBold} crossorigin="anonymous" />
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    {LATIN.has(lang) && <link rel="preload" as="font" type="font/woff2" href={displayLatin} crossorigin="anonymous" />}
 
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="SimpleTime" />
@@ -164,15 +141,16 @@ const jsonLdPayload = JSON.stringify(schemas).replace(/</g, '\\u003c');
       (() => {
         const root = document.documentElement;
         root.classList.add('js');
+        let saved = null;
         try {
-          const saved = localStorage.getItem('theme');
-          const dark =
-            saved === 'dark' ||
-            (!saved && window.matchMedia('(prefers-color-scheme: dark)').matches);
-          root.classList.toggle('dark', dark);
+          saved = localStorage.getItem('theme');
         } catch {
-          /* localStorage unavailable — fall back to the light default. */
+          /* Storage blocked: no saved choice, so the OS setting decides. */
         }
+        const dark =
+          saved === 'dark' ||
+          (!saved && window.matchMedia('(prefers-color-scheme: dark)').matches);
+        root.classList.toggle('dark', dark);
       })();
     </script>
 
@@ -191,13 +169,13 @@ const jsonLdPayload = JSON.stringify(schemas).replace(/</g, '\\u003c');
   <body class="bg-canvas text-ink antialiased">
     <a
       href="#main"
-      class="sr-only focus:not-sr-only focus:fixed focus:start-4 focus:top-4 focus:z-[100] focus:rounded-xl focus:bg-accent focus:px-4 focus:py-2.5 focus:text-sm focus:font-medium focus:text-on-accent"
+      class="sr-only focus:not-sr-only focus:fixed focus:start-4 focus:top-4 focus:z-[100] focus:rounded-xl focus:bg-action focus:px-4 focus:py-2.5 focus:text-sm focus:font-medium focus:text-on-action"
     >
       {t('skip.content')}
     </a>
 
     {/* The 404 has no localised twin, so its language switch targets the home page. */}
-    <Navbar lang={lang} path={noIndex ? '/' : path} />
+    <Navbar lang={lang} path={noIndex ? '/' : path} dayProgress={dayProgress} />
     <main id="main">
       <slot />
     </main>
@@ -205,8 +183,9 @@ const jsonLdPayload = JSON.stringify(schemas).replace(/</g, '\\u003c');
 
     <script>
       // Reveal sections as they scroll into view. The `.js` class on <html>
-      // means no-JS visitors never see the hidden starting state.
-      const items = document.querySelectorAll<HTMLElement>('.reveal');
+      // means no-JS visitors never see the hidden starting state. Delays come
+      // from the `delay-*` classes in global.css – the CSP allows no inline styles.
+      const items = document.querySelectorAll<HTMLElement>('.reveal, .reveal-media');
       const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
       if (reduced || !('IntersectionObserver' in window)) {
@@ -216,13 +195,11 @@ const jsonLdPayload = JSON.stringify(schemas).replace(/</g, '\\u003c');
           (entries) => {
             entries.forEach((entry) => {
               if (!entry.isIntersecting) return;
-              const el = entry.target as HTMLElement;
-              const delay = Number(el.dataset.revealDelay ?? 0);
-              window.setTimeout(() => el.classList.add('is-visible'), delay);
-              observer.unobserve(el);
+              entry.target.classList.add('is-visible');
+              observer.unobserve(entry.target);
             });
           },
-          { rootMargin: '0px 0px -10% 0px', threshold: 0.05 },
+          { rootMargin: '0px 0px -8% 0px', threshold: 0.08 },
         );
         items.forEach((el) => observer.observe(el));
       }

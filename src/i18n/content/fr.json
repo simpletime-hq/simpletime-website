@@ -574,7 +574,8 @@
             "id": "export",
             "q": "Puis-je exporter mes données ?",
             "a": [
-              "Oui, à tout moment : en fichier CSV avec tâche, note, durée, début et fin – pour Excel, Numbers ou tout autre outil d’analyse –, en rapport PDF ou en sauvegarde complète au format JSON."
+              "Oui, à tout moment : en fichier CSV avec tâche, note, durée, début et fin – pour Excel, Numbers ou tout autre outil d’analyse –, en rapport PDF ou en sauvegarde complète au format JSON.",
+              "Dans Paramètres › Exporter / Importer des données, choisissez la période du fichier CSV – d’aujourd’hui à toute la période, ou une période personnalisée, comme le mois dernier."
             ]
           },
           {

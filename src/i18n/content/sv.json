@@ -574,7 +574,8 @@
             "id": "export",
             "q": "Kan jag exportera mina data?",
             "a": [
-              "Ja, när som helst: som CSV-fil med uppgift, anteckning, längd, start och slut (för Excel, Numbers eller vilket analysverktyg som helst), som PDF-rapport eller som fullständig säkerhetskopia i JSON."
+              "Ja, när som helst: som CSV-fil med uppgift, anteckning, längd, start och slut (för Excel, Numbers eller vilket analysverktyg som helst), som PDF-rapport eller som fullständig säkerhetskopia i JSON.",
+              "Under Inställningar › Exportera / importera data väljer du perioden för CSV-filen (från i dag till hela perioden, eller en egen, till exempel förra månaden)."
             ]
           },
           {

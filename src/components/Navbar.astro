@@ -1,14 +1,17 @@
 ---
 import type { Lang } from '../i18n/ui';
 import { useTranslations, APP_STORE_URL, langPrefix } from '../i18n/utils';
+import { DAY } from '../i18n/day';
 import LanguageMenu from './LanguageMenu.astro';
 
 interface Props {
   lang: Lang;
   path: string;
+  /** The day drawn along the bar's lower edge as the page scrolls – home only. */
+  dayProgress?: boolean;
 }
 
-const { lang, path } = Astro.props;
+const { lang, path, dayProgress = false } = Astro.props;
 const t = useTranslations(lang);
 const prefix = langPrefix(lang);
 const home = `${prefix}/`;
@@ -20,39 +23,42 @@ const links = [
   { href: `${prefix}/faq/`, label: t('nav.faq') },
   { href: contactPath, label: t('nav.contact') },
 ];
+
+// The same blocks as the hero's day, along the full width of the bar.
+const DAY_MINUTES = 24 * 60;
+const pct = (minutes: number) => `${((minutes / DAY_MINUTES) * 100).toFixed(3)}%`;
+const progressCss = dayProgress
+  ? DAY.map((b, i) => `.dp-${i}{inset-inline-start:${pct(b.start)};width:${pct(b.minutes)}}`).join('')
+  : '';
 ---
 
-<header
-  class="sticky top-0 z-50 border-b border-line/80 bg-canvas/80 backdrop-blur-xl backdrop-saturate-150"
->
-  <nav class="mx-auto flex h-16 max-w-6xl items-center justify-between px-5 sm:px-8">
-    <a
-      href={home}
-      class="flex items-center gap-2.5 font-semibold text-ink transition-opacity hover:opacity-70"
-    >
-      <img src="/logo.png" alt="" width="32" height="32" class="rounded-[9px]" />
-      <span class="text-[17px] tracking-tight">SimpleTime</span>
+<header class="site-header sticky top-0 z-50">
+  <nav class="wrap flex h-[56px] items-center justify-between gap-4">
+    <a href={home} class="flex shrink-0 items-center gap-2.5 text-ink transition-opacity hover:opacity-75">
+      <img src="/logo.png" alt="" width="28" height="28" class="h-7 w-7 rounded-[7px]" />
+      <span class="font-display text-[17px] font-semibold tracking-[-0.03em]">SimpleTime</span>
     </a>
 
-    <div class="hidden items-center gap-8 text-[15px] text-muted md:flex">
+    <div class="hidden items-center gap-9 text-[14px] lg:flex">
       {
         links.map((l) => (
-          <a href={l.href} class="transition-colors hover:text-ink">
+          <a href={l.href} class="nav-link text-ink/70 transition-colors hover:text-ink">
             {l.label}
           </a>
         ))
       }
     </div>
 
-    <div class="flex items-center gap-1 sm:gap-2">
+    <div class="flex items-center gap-0.5 sm:gap-1.5">
       <button
         type="button"
         id="theme-toggle"
-        class="grid h-9 w-9 place-items-center rounded-full text-muted transition-colors hover:bg-surface-2 hover:text-ink"
+        class="grid h-9 w-9 place-items-center sm:h-10 sm:w-10 rounded-full text-ink/70 transition-colors hover:bg-ink/5 hover:text-ink"
         aria-label={t('nav.theme')}
+        aria-pressed="false"
       >
         <svg
-          class="h-[18px] w-[18px] dark:hidden"
+          class="h-[17px] w-[17px] dark:hidden"
           viewBox="0 0 24 24"
           fill="none"
           stroke="currentColor"
@@ -63,7 +69,7 @@ const links = [
           <path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"></path>
         </svg>
         <svg
-          class="hidden h-[18px] w-[18px] dark:block"
+          class="hidden h-[17px] w-[17px] dark:block"
           viewBox="0 0 24 24"
           fill="none"
           stroke="currentColor"
@@ -83,7 +89,7 @@ const links = [
         href={APP_STORE_URL}
         target="_blank"
         rel="noopener"
-        class="ms-1 hidden rounded-full bg-accent px-4 py-2 text-[14px] font-medium text-on-accent transition-opacity hover:opacity-90 sm:inline-flex"
+        class="ms-2 hidden rounded-full bg-action px-4 py-2 text-[13px] font-medium text-on-action transition-colors hover:bg-action-hover sm:inline-flex"
       >
         {t('nav.appstore')}
       </a>
@@ -91,13 +97,13 @@ const links = [
       <button
         type="button"
         id="menu-toggle"
-        class="ms-0.5 grid h-9 w-9 place-items-center rounded-full text-muted transition-colors hover:bg-surface-2 hover:text-ink md:hidden"
+        class="ms-0.5 grid h-9 w-9 place-items-center sm:h-10 sm:w-10 rounded-full text-ink/70 transition-colors hover:bg-ink/5 hover:text-ink lg:hidden"
         aria-label={t('nav.menu')}
         aria-expanded="false"
         aria-controls="mobile-menu"
       >
         <svg
-          class="h-5 w-5"
+          class="h-[18px] w-[18px]"
           viewBox="0 0 24 24"
           fill="none"
           stroke="currentColor"
@@ -105,22 +111,32 @@ const links = [
           stroke-linecap="round"
           aria-hidden="true"
         >
-          <path id="menu-icon-open" d="M4 7h16M4 12h16M4 17h16"></path>
+          <path id="menu-icon-open" d="M4 8.5h16M4 15.5h16"></path>
           <path id="menu-icon-close" class="hidden" d="M6 6l12 12M18 6L6 18"></path>
         </svg>
       </button>
     </div>
   </nav>
 
-  <div id="mobile-menu" class="hidden border-t border-line bg-canvas md:hidden">
-    <div class="mx-auto max-w-6xl px-5 py-4 sm:px-8">
+  {
+    dayProgress && (
+      <div class="day-progress" aria-hidden="true">
+        {DAY.map((b, i) => (
+          <span class:list={['day-progress__block', `bg-${b.task}`, `dp-${i}`]} />
+        ))}
+      </div>
+    )
+  }
+
+  <div id="mobile-menu" class="mobile-menu hidden lg:hidden">
+    <div class="wrap pb-8 pt-4">
       <ul class="flex flex-col">
         {
           links.map((l) => (
             <li>
               <a
                 href={l.href}
-                class="block border-b border-line/70 py-3.5 text-[15px] text-muted transition-colors hover:text-ink"
+                class="font-display block border-b border-line py-4 text-[30px] font-semibold tracking-[-0.035em] text-ink transition-opacity hover:opacity-70"
               >
                 {l.label}
               </a>
@@ -128,25 +144,121 @@ const links = [
           ))
         }
       </ul>
-      <a
-        href={APP_STORE_URL}
-        target="_blank"
-        rel="noopener"
-        class="mt-5 block rounded-full bg-accent px-5 py-3 text-center text-[15px] font-medium text-on-accent"
-      >
+      <a href={APP_STORE_URL} target="_blank" rel="noopener" class="btn btn--primary mt-9 w-full">
         {t('nav.appstore')}
       </a>
-
     </div>
   </div>
 </header>
+{dayProgress && <style is:inline set:html={progressCss} />}
+
+<style>
+  /* A translucent bar: the page shows through, blurred and a little more
+     saturated, with a hairline that only appears once there is something
+     underneath to separate from. */
+  .site-header {
+    background: var(--nav-bg);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+    box-shadow: 0 1px 0 transparent;
+    transition: box-shadow 0.3s ease;
+  }
+
+  .site-header[data-scrolled] {
+    box-shadow: 0 1px 0 var(--line);
+  }
+
+  .nav-link {
+    position: relative;
+  }
+
+  .nav-link::after {
+    content: '';
+    position: absolute;
+    inset-inline: 0;
+    bottom: -0.35rem;
+    height: 1px;
+    background: currentColor;
+    transform: scaleX(0);
+    transform-origin: left center;
+    transition: transform 0.45s var(--ease-out-expo);
+  }
+
+  :global([dir='rtl']) .nav-link::after {
+    transform-origin: right center;
+  }
+
+  .nav-link:hover::after {
+    transform: scaleX(1);
+  }
+
+  /* The day along the lower edge, cut off where reading has got to, so the
+     blocks appear in the order the day had them. */
+  .day-progress {
+    position: absolute;
+    inset-inline: 0;
+    bottom: -1px;
+    height: 3px;
+    pointer-events: none;
+    clip-path: inset(0 calc((1 - var(--read, 0)) * 100%) 0 0);
+  }
+
+  :global([dir='rtl']) .day-progress {
+    clip-path: inset(0 0 0 calc((1 - var(--read, 0)) * 100%));
+  }
+
+  .day-progress__block {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+  }
+
+  /* Before the first scroll there is nothing to draw. */
+  :global(html:not(.js)) .day-progress {
+    display: none;
+  }
+
+  .mobile-menu {
+    height: calc(100dvh - 56px);
+    overflow-y: auto;
+    background: var(--canvas);
+  }
+
+  @keyframes menu-in {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+  }
+
+  .mobile-menu:not(.hidden) li {
+    animation: menu-in 0.55s var(--ease-out-expo) both;
+  }
+
+  .mobile-menu:not(.hidden) li:nth-child(2) {
+    animation-delay: 0.05s;
+  }
+
+  .mobile-menu:not(.hidden) li:nth-child(3) {
+    animation-delay: 0.1s;
+  }
+
+  .mobile-menu:not(.hidden) li:nth-child(4) {
+    animation-delay: 0.15s;
+  }
+</style>
 
 <script>
   const root = document.documentElement;
 
   // Theme toggle — persists the explicit choice, so it wins over the OS setting.
-  document.getElementById('theme-toggle')?.addEventListener('click', () => {
+  // aria-pressed tells screen readers whether dark mode is on; the script in
+  // <head> has already chosen the theme by the time this runs.
+  const themeToggle = document.getElementById('theme-toggle');
+  themeToggle?.setAttribute('aria-pressed', String(root.classList.contains('dark')));
+  themeToggle?.addEventListener('click', () => {
     const dark = root.classList.toggle('dark');
+    themeToggle?.setAttribute('aria-pressed', String(dark));
     try {
       localStorage.setItem('theme', dark ? 'dark' : 'light');
     } catch {
@@ -154,21 +266,83 @@ const links = [
     }
   });
 
+  // The hairline under the bar once the page has scrolled, and how far it has
+  // been read – one write per frame at most, and only a transform moves.
+  const header = document.querySelector<HTMLElement>('.site-header');
+  const progress = header?.querySelector<HTMLElement>('.day-progress');
+  let pending = false;
+  const update = () => {
+    pending = false;
+    header?.toggleAttribute('data-scrolled', window.scrollY > 4);
+    if (progress) {
+      const max = document.documentElement.scrollHeight - window.innerHeight;
+      const read = max > 0 ? Math.min(1, Math.max(0, window.scrollY / max)) : 1;
+      progress.style.setProperty('--read', read.toFixed(4));
+    }
+  };
+  update();
+  window.addEventListener(
+    'scroll',
+    () => {
+      if (pending) return;
+      pending = true;
+      requestAnimationFrame(update);
+    },
+    { passive: true },
+  );
+
+  // Over Pro, the questions and the footer the bar turns to night as well:
+  // a section counts once it reaches the bar's lower edge.
+  const nights = document.querySelectorAll<HTMLElement>('main .night, footer.night');
+  if (header && nights.length && 'IntersectionObserver' in window) {
+    const under = new Set<Element>();
+    const nightObserver = new IntersectionObserver(
+      (entries) => {
+        for (const entry of entries) {
+          if (entry.isIntersecting) under.add(entry.target);
+          else under.delete(entry.target);
+        }
+        header.classList.toggle('night', under.size > 0);
+      },
+      // A two-pixel band across the bar's lower edge – a section that starts
+      // right below the bar, like the Pro page's, counts from the first paint.
+      { rootMargin: `-${header.offsetHeight - 1}px 0px -${window.innerHeight - header.offsetHeight - 1}px 0px` },
+    );
+    nights.forEach((section) => nightObserver.observe(section));
+  }
+
   // Mobile menu
   const toggle = document.getElementById('menu-toggle');
   const menu = document.getElementById('mobile-menu');
   const iconOpen = document.getElementById('menu-icon-open');
   const iconClose = document.getElementById('menu-icon-close');
 
+  // Everything outside the header: skip link, page and footer. The open menu
+  // covers all of it, so it goes inert – Tab and screen readers must not
+  // wander through links nobody can see (WCAG 2.4.11).
+  const behindMenu = Array.from(document.body.children).filter(
+    (el) => el !== header && !(el instanceof HTMLScriptElement),
+  );
+
   const setMenu = (open: boolean) => {
     menu?.classList.toggle('hidden', !open);
     iconOpen?.classList.toggle('hidden', open);
     iconClose?.classList.toggle('hidden', !open);
     toggle?.setAttribute('aria-expanded', String(open));
+    // The page behind a full-screen menu should not scroll.
+    root.classList.toggle('overflow-hidden', open);
+    behindMenu.forEach((el) => el.toggleAttribute('inert', open));
   };
 
   toggle?.addEventListener('click', () => {
     setMenu(menu?.classList.contains('hidden') ?? true);
+  });
+
+  // The menu only exists below the lg breakpoint. When the window widens past
+  // it – a tablet turned sideways – the menu vanishes with the breakpoint and
+  // has to let go of the page as well.
+  window.matchMedia('(min-width: 64rem)').addEventListener('change', (e) => {
+    if (e.matches) setMenu(false);
   });
 
   // Close after following an in-page link, and on Escape.

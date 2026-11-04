@@ -49,14 +49,14 @@ const formatted = new Date(lastUpdated).toLocaleDateString(DATE_LOCALE[lang], {
       )
     }
 
-    <div class="mt-8 rounded-3xl border border-line bg-canvas-alt p-6 sm:p-8">
+    <div class="mt-8 rounded-[1.75rem] bg-canvas-alt p-7 sm:p-9 dark:bg-surface">
       <h2 class="text-lg font-semibold text-ink">{privacy.summaryTitle}</h2>
       <ul class="mt-4 space-y-3">
         {
           privacy.summary.map((point) => (
             <li class="flex gap-3 leading-relaxed text-muted">
               <svg
-                class="mt-1 h-4 w-4 shrink-0 text-brand-500 dark:text-brand-300"
+                class="mt-1 h-4 w-4 shrink-0 text-accent"
                 viewBox="0 0 24 24"
                 fill="none"
                 stroke="currentColor"

@@ -19,72 +19,44 @@ const links = {
   imprint: `${prefix}/imprint/`,
   privacy: `${prefix}/privacy/`,
 };
+
+const linkClass = 'inline-block py-1.5 text-muted transition-colors hover:text-ink';
 ---
 
-<footer class="border-t border-line bg-canvas-alt">
-  <div class="mx-auto max-w-6xl px-5 py-14 sm:px-8 sm:py-16">
-    <div class="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
-      <div class="lg:col-span-2">
-        <a href={links.home} class="inline-flex items-center gap-2.5">
-          <img src="/logo.png" alt="" width="36" height="36" class="rounded-[10px]" />
-          <span class="text-lg font-semibold tracking-tight text-ink">SimpleTime</span>
+{/* Every page ends at night, like the day on the home page. */}
+<footer class="night text-[14px]">
+  <div class="wrap pb-10 pt-16 sm:pt-20">
+    <div class="grid gap-12 border-t border-line pt-12 sm:grid-cols-2 lg:grid-cols-12">
+      <div class="lg:col-span-6">
+        <a href={links.home} class="inline-flex items-center gap-3 transition-opacity hover:opacity-80">
+          <img src="/logo.png" alt="" width="36" height="36" class="h-9 w-9 rounded-[9px]" />
+          <span class="font-display text-[19px] font-semibold tracking-[-0.03em] text-ink">SimpleTime</span>
         </a>
-        <p class="mt-4 max-w-xs text-[15px] leading-relaxed text-muted">{t('footer.tagline')}</p>
+        <p class="mt-5 max-w-sm text-[15px] leading-relaxed text-muted">{t('footer.tagline')}</p>
       </div>
 
-      <div>
-        <h2 class="text-[13px] font-semibold uppercase tracking-[0.1em] text-subtle">
-          {t('footer.product')}
-        </h2>
-        <ul class="mt-4 space-y-1.5 text-[15px]">
+      <div class="lg:col-span-3">
+        <h2 class="t-label">{t('footer.product')}</h2>
+        <ul class="mt-4 space-y-0.5">
           <li>
-            <a
-              href={APP_STORE_URL}
-              target="_blank"
-              rel="noopener"
-              class="inline-block py-1 text-muted transition-colors hover:text-ink">{t('footer.appstore')}</a
-            >
+            <a href={APP_STORE_URL} target="_blank" rel="noopener" class={linkClass}>{t('footer.appstore')}</a>
           </li>
-          <li>
-            <a href={links.pro} class="inline-block py-1 text-muted transition-colors hover:text-ink"
-              >{t('footer.pro')}</a
-            >
-          </li>
-          <li>
-            <a href={links.faq} class="inline-block py-1 text-muted transition-colors hover:text-ink"
-              >{t('nav.faq')}</a
-            >
-          </li>
-          <li>
-            <a href={links.contact} class="inline-block py-1 text-muted transition-colors hover:text-ink"
-              >{t('footer.contact')}</a
-            >
-          </li>
+          <li><a href={links.pro} class={linkClass}>{t('footer.pro')}</a></li>
+          <li><a href={links.faq} class={linkClass}>{t('nav.faq')}</a></li>
+          <li><a href={links.contact} class={linkClass}>{t('footer.contact')}</a></li>
         </ul>
       </div>
 
-      <div>
-        <h2 class="text-[13px] font-semibold uppercase tracking-[0.1em] text-subtle">
-          {t('footer.legal')}
-        </h2>
-        <ul class="mt-4 space-y-1.5 text-[15px]">
-          <li>
-            <a href={links.imprint} class="inline-block py-1 text-muted transition-colors hover:text-ink"
-              >{t('footer.imprint')}</a
-            >
-          </li>
-          <li>
-            <a href={links.privacy} class="inline-block py-1 text-muted transition-colors hover:text-ink"
-              >{t('footer.privacy')}</a
-            >
-          </li>
+      <div class="lg:col-span-3">
+        <h2 class="t-label">{t('footer.legal')}</h2>
+        <ul class="mt-4 space-y-0.5">
+          <li><a href={links.imprint} class={linkClass}>{t('footer.imprint')}</a></li>
+          <li><a href={links.privacy} class={linkClass}>{t('footer.privacy')}</a></li>
         </ul>
       </div>
     </div>
 
-    <div
-      class="mt-12 flex flex-col gap-3 border-t border-line pt-8 text-[13px] text-subtle sm:flex-row sm:items-center sm:justify-between"
-    >
+    <div class="mt-16 flex flex-col gap-3 border-t border-line pt-6 text-[13px] text-muted sm:flex-row sm:items-center sm:justify-between">
       <p>{t('footer.copyright', { year })}</p>
       <a href={`mailto:${CONTACT_EMAIL}`} class="transition-colors hover:text-ink">
         {CONTACT_EMAIL}

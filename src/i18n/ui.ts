@@ -32,7 +32,7 @@ export const ui = {
     'meta.contact.description':
       'Questions, feedback or a bug to report? Reach SimpleTime by email – every message is read and answered within a few working days.',
     'meta.privacy.description':
-      'How SimpleTime handles your data: no account, no analytics, no servers of ours. Your entries stay on your devices and in your private iCloud.',
+      'How SimpleTime handles your data: no account, no ads. Your entries stay on your devices and in your private iCloud.',
     'meta.imprint.description':
       'Legal notice for simple-time.app under § 5 DDG – operator, contact details and liability information for the SimpleTime app and website.',
     'meta.pro.title': 'SimpleTime Pro – Apple Watch, places, goals and more',
@@ -51,8 +51,15 @@ export const ui = {
     'nav.menu': 'Open menu',
     'nav.menu.close': 'Close menu',
     'nav.language': 'Language',
-    'nav.theme': 'Switch between light and dark',
+    'nav.theme': 'Dark Mode',
     'skip.content': 'Skip to content',
+
+    // The Live Activity in the hero – the app's own strings and sample task.
+    'live.task': 'Client Project',
+    'live.stop': 'Stop',
+
+    // Over the day in the hero and inside the ring at the end – the app's word.
+    'day.today': 'Today',
 
     'footer.tagline': 'One tap starts the clock.',
     'footer.legal': 'Legal',
@@ -93,12 +100,12 @@ export const ui = {
   de: {
     'meta.title': 'SimpleTime – Zeiterfassung für iPhone, iPad und Mac',
     'meta.description':
-      'Ein Tipp startet die Uhr. SimpleTime erfasst, womit du deine Zeit verbringst – ohne Konto, ohne Werbung, ohne Tracking. Deine Zeiten bleiben auf deinem Gerät und in deiner iCloud.',
+      'Ein Tipp startet die Uhr. SimpleTime erfasst deine Zeit – ohne Konto, ohne Werbung, ohne Tracking. Deine Zeiten bleiben auf deinem Gerät und in deiner iCloud.',
 
     'meta.contact.description':
       'Fragen, Rückmeldungen oder ein Fehler? Schreib SimpleTime eine E-Mail – jede Nachricht wird gelesen und innerhalb weniger Werktage beantwortet.',
     'meta.privacy.description':
-      'Wie SimpleTime mit deinen Daten umgeht: kein Konto, kein Analytics, keine eigenen Server. Deine Einträge bleiben auf deinen Geräten und in deiner privaten iCloud.',
+      'Wie SimpleTime mit deinen Daten umgeht: kein Konto, keine Werbung. Deine Einträge bleiben auf deinen Geräten und in deiner privaten iCloud.',
     'meta.imprint.description':
       'Impressum für simple-time.app nach § 5 DDG – Betreiber, Kontaktdaten und Haftungshinweise zur SimpleTime-App und zur Website.',
     'meta.pro.title': 'SimpleTime Pro – Apple Watch, Orte, Ziele und mehr',
@@ -117,8 +124,15 @@ export const ui = {
     'nav.menu': 'Menü öffnen',
     'nav.menu.close': 'Menü schließen',
     'nav.language': 'Sprache',
-    'nav.theme': 'Zwischen hell und dunkel wechseln',
+    'nav.theme': 'Dunkelmodus',
     'skip.content': 'Zum Inhalt springen',
+
+    // The Live Activity in the hero – the app's own strings and sample task.
+    'live.task': 'Kundenprojekt',
+    'live.stop': 'Stoppen',
+
+    // Over the day in the hero and inside the ring at the end – the app's word.
+    'day.today': 'Heute',
 
     'footer.tagline': 'Ein Tipp startet die Uhr.',
     'footer.legal': 'Rechtliches',
@@ -163,12 +177,12 @@ export const ui = {
     'meta.contact.description':
       'Une question, un retour ou un bug à signaler ? Écrivez à SimpleTime par e-mail — chaque message est lu et reçoit une réponse sous quelques jours ouvrés.',
     'meta.privacy.description':
-      'Comment SimpleTime traite vos données : aucun compte, aucun outil d’analyse, aucun serveur à nous. Vos entrées restent sur vos appareils et dans votre iCloud privé.',
+      'Comment SimpleTime traite vos données : aucun compte, aucune publicité. Vos entrées restent sur vos appareils et dans votre iCloud privé.',
     'meta.imprint.description':
       'Mentions légales de simple-time.app selon le § 5 DDG — éditeur, coordonnées et informations de responsabilité pour l’app et le site SimpleTime.',
     'meta.pro.title': 'SimpleTime Pro – Apple Watch, lieux, objectifs et plus encore',
     'meta.pro.description':
-      'SimpleTime reste gratuit. Pro ajoute l’app pour Apple Watch, bilans, lieux, objectifs, filtre de concentration et plus encore – au mois, à l’année ou une fois pour toutes.',
+      'SimpleTime reste gratuit. Pro ajoute l’app Apple Watch, bilans, lieux, objectifs, filtre de concentration et plus encore – au mois, à l’année ou une fois pour toutes.',
     'meta.faq.title': 'Questions fréquentes · SimpleTime',
     'meta.faq.description':
       'Réponses aux questions les plus fréquentes sur SimpleTime : suivi du temps, widgets et Siri, synchronisation iCloud et sauvegardes, confidentialité et SimpleTime Pro.',
@@ -182,8 +196,15 @@ export const ui = {
     'nav.menu': 'Ouvrir le menu',
     'nav.menu.close': 'Fermer le menu',
     'nav.language': 'Langue',
-    'nav.theme': 'Basculer entre clair et sombre',
+    'nav.theme': 'Mode sombre',
     'skip.content': 'Aller au contenu',
+
+    // The Live Activity in the hero – the app's own strings and sample task.
+    'live.task': 'Projet client',
+    'live.stop': 'Arrêter',
+
+    // Over the day in the hero and inside the ring at the end – the app's word.
+    'day.today': 'Aujourd’hui',
 
     'footer.tagline': 'Un geste lance le chrono.',
     'footer.legal': 'Informations légales',
@@ -228,7 +249,7 @@ export const ui = {
     'meta.contact.description':
       '¿Tienes una pregunta, un comentario o un fallo que informar? Escribe a SimpleTime por correo: leemos cada mensaje y respondemos en pocos días laborables.',
     'meta.privacy.description':
-      'Cómo trata SimpleTime tus datos: sin cuenta, sin analíticas, sin servidores nuestros. Tus entradas se quedan en tus dispositivos y en tu iCloud privado.',
+      'Cómo trata SimpleTime tus datos: sin cuenta, sin publicidad. Tus entradas se quedan en tus dispositivos y en tu iCloud privado.',
     'meta.imprint.description':
       'Aviso legal de simple-time.app según el § 5 DDG: titular, datos de contacto e información sobre responsabilidad de la app y el sitio de SimpleTime.',
     'meta.pro.title': 'SimpleTime Pro – Apple Watch, lugares, objetivos y más',
@@ -247,8 +268,15 @@ export const ui = {
     'nav.menu': 'Abrir menú',
     'nav.menu.close': 'Cerrar menú',
     'nav.language': 'Idioma',
-    'nav.theme': 'Cambiar entre claro y oscuro',
+    'nav.theme': 'Modo oscuro',
     'skip.content': 'Ir al contenido',
+
+    // The Live Activity in the hero – the app's own strings and sample task.
+    'live.task': 'Proyecto de cliente',
+    'live.stop': 'Detener',
+
+    // Over the day in the hero and inside the ring at the end – the app's word.
+    'day.today': 'Hoy',
 
     'footer.tagline': 'Un toque pone el reloj en marcha.',
     'footer.legal': 'Legal',
@@ -293,7 +321,7 @@ export const ui = {
     'meta.contact.description':
       'Hai una domanda, un suggerimento o un bug da segnalare? Scrivi a SimpleTime via e-mail: leggiamo ogni messaggio e rispondiamo in pochi giorni lavorativi.',
     'meta.privacy.description':
-      'Come SimpleTime tratta i tuoi dati: nessun account, nessuno strumento di analisi, nessun nostro server. Le tue voci restano sui tuoi dispositivi e nel tuo iCloud privato.',
+      'Come SimpleTime tratta i tuoi dati: nessun account, nessuna pubblicità. Le tue voci restano sui tuoi dispositivi e nel tuo iCloud privato.',
     'meta.imprint.description':
       'Note legali di simple-time.app ai sensi del § 5 DDG: titolare, contatti e informazioni sulla responsabilità per l’app e il sito SimpleTime.',
     'meta.pro.title': 'SimpleTime Pro – Apple Watch, luoghi, obiettivi e altro',
@@ -312,8 +340,15 @@ export const ui = {
     'nav.menu': 'Apri il menu',
     'nav.menu.close': 'Chiudi il menu',
     'nav.language': 'Lingua',
-    'nav.theme': 'Passa da chiaro a scuro',
+    'nav.theme': 'Modalità scura',
     'skip.content': 'Vai al contenuto',
+
+    // The Live Activity in the hero – the app's own strings and sample task.
+    'live.task': 'Progetto cliente',
+    'live.stop': 'Interrompi',
+
+    // Over the day in the hero and inside the ring at the end – the app's word.
+    'day.today': 'Oggi',
 
     'footer.tagline': 'Un tocco avvia il cronometro.',
     'footer.legal': 'Informazioni legali',
@@ -358,7 +393,7 @@ export const ui = {
     'meta.contact.description':
       'Есть вопрос, отзыв или сообщение об ошибке? Напишите SimpleTime по электронной почте — мы читаем каждое сообщение и отвечаем в течение нескольких рабочих дней.',
     'meta.privacy.description':
-      'Как SimpleTime обращается с вашими данными: без учётной записи, без аналитики, без собственных серверов. Ваши записи хранятся на ваших устройствах и в личном iCloud.',
+      'Как SimpleTime обращается с вашими данными: без учётной записи, без рекламы. Ваши записи хранятся на ваших устройствах и в личном iCloud.',
     'meta.imprint.description':
       'Выходные данные simple-time.app согласно § 5 DDG: владелец, контактные данные и сведения об ответственности за приложение и сайт SimpleTime.',
     'meta.pro.title': 'SimpleTime Pro – Apple Watch, места, цели и многое другое',
@@ -377,8 +412,15 @@ export const ui = {
     'nav.menu': 'Открыть меню',
     'nav.menu.close': 'Закрыть меню',
     'nav.language': 'Язык',
-    'nav.theme': 'Переключить светлую и тёмную тему',
+    'nav.theme': 'Тёмный режим',
     'skip.content': 'Перейти к содержимому',
+
+    // The Live Activity in the hero – the app's own strings and sample task.
+    'live.task': 'Проект клиента',
+    'live.stop': 'Остановить',
+
+    // Over the day in the hero and inside the ring at the end – the app's word.
+    'day.today': 'Сегодня',
 
     'footer.tagline': 'Одно касание запускает часы.',
     'footer.legal': 'Правовая информация',
@@ -423,7 +465,7 @@ export const ui = {
     'meta.contact.description':
       'Հարց, կարծիք կամ սխալի մասին հաղորդում ունե՞ք։ Գրեք SimpleTime-ին էլ․ փոստով․ մենք կարդում ենք յուրաքանչյուր նամակ և պատասխանում ենք մի քանի աշխատանքային օրվա ընթացքում։',
     'meta.privacy.description':
-      'Ինչպես է SimpleTime-ը վարվում ձեր տվյալների հետ՝ առանց հաշվի, վերլուծական գործիքների և մեր սերվերների։ Ձեր գրառումները մնում են ձեր սարքերում և անձնական iCloud-ում։',
+      'Ինչպես է SimpleTime-ը վարվում ձեր տվյալների հետ՝ առանց հաշվի և գովազդի։ Ձեր գրառումները մնում են ձեր սարքերում և անձնական iCloud-ում։',
     'meta.imprint.description':
       'simple-time.app-ի իրավական տվյալները § 5 DDG-ի համաձայն․ տիրապետող, կապի տվյալներ և պատասխանատվության մասին տեղեկություններ SimpleTime հավելվածի և կայքի համար։',
     'meta.pro.title': 'SimpleTime Pro – Apple Watch, վայրեր, նպատակներ և ավելին',
@@ -442,8 +484,15 @@ export const ui = {
     'nav.menu': 'Բացել ընտրացանկը',
     'nav.menu.close': 'Փակել ընտրացանկը',
     'nav.language': 'Լեզու',
-    'nav.theme': 'Փոխել լուսավոր և մուգ ձևը',
+    'nav.theme': 'Մուգ ռեժիմ',
     'skip.content': 'Անցնել բովանդակությանը',
+
+    // The Live Activity in the hero – the app's own strings and sample task.
+    'live.task': 'Հաճախորդի նախագիծ',
+    'live.stop': 'Կանգնեցնել',
+
+    // Over the day in the hero and inside the ring at the end – the app's word.
+    'day.today': 'Այսօր',
 
     'footer.tagline': 'Մեկ հպում՝ ժամանակը գնաց։',
     'footer.legal': 'Իրավական տեղեկություններ',
@@ -488,7 +537,7 @@ export const ui = {
     'meta.contact.description':
       'Tem uma pergunta, uma sugestão ou um erro a comunicar? Escreva ao SimpleTime por e-mail: lemos todas as mensagens e respondemos em poucos dias úteis.',
     'meta.privacy.description':
-      'Como o SimpleTime trata os seus dados: sem conta, sem análises, sem servidores nossos. Os seus registos ficam nos seus dispositivos e no seu iCloud privado.',
+      'Como o SimpleTime trata os seus dados: sem conta, sem publicidade. Os seus registos ficam nos seus dispositivos e no seu iCloud privado.',
     'meta.imprint.description':
       'Informação legal de simple-time.app nos termos do § 5 DDG: titular, contactos e informações de responsabilidade da aplicação e do site SimpleTime.',
     'meta.pro.title': 'SimpleTime Pro – Apple Watch, locais, metas e mais',
@@ -507,8 +556,15 @@ export const ui = {
     'nav.menu': 'Abrir o menu',
     'nav.menu.close': 'Fechar o menu',
     'nav.language': 'Idioma',
-    'nav.theme': 'Alternar entre claro e escuro',
+    'nav.theme': 'Modo escuro',
     'skip.content': 'Ir para o conteúdo',
+
+    // The Live Activity in the hero – the app's own strings and sample task.
+    'live.task': 'Projeto de cliente',
+    'live.stop': 'Parar',
+
+    // Over the day in the hero and inside the ring at the end – the app's word.
+    'day.today': 'Hoje',
 
     'footer.tagline': 'Um toque inicia o relógio.',
     'footer.legal': 'Informação legal',
@@ -553,7 +609,7 @@ export const ui = {
     'meta.contact.description':
       'Sorun, önerin ya da bildirmek istediğin bir hata mı var? SimpleTime’a e-posta yaz: her mesajı okuyor ve birkaç iş günü içinde yanıtlıyoruz.',
     'meta.privacy.description':
-      'SimpleTime verilerini nasıl işler: hesap yok, analiz yok, bize ait sunucu yok. Kayıtların cihazlarında ve sana özel iCloud alanında kalır.',
+      'SimpleTime verilerini nasıl işler: hesap yok, reklam yok. Kayıtların cihazlarında ve sana özel iCloud alanında kalır.',
     'meta.imprint.description':
       'simple-time.app için § 5 DDG uyarınca yasal bilgiler: sahibi, iletişim bilgileri ve SimpleTime uygulaması ile sitesine ilişkin sorumluluk bilgileri.',
     'meta.pro.title': 'SimpleTime Pro – Apple Watch, yerler, hedefler ve dahası',
@@ -572,8 +628,15 @@ export const ui = {
     'nav.menu': 'Menüyü aç',
     'nav.menu.close': 'Menüyü kapat',
     'nav.language': 'Dil',
-    'nav.theme': 'Açık ve koyu tema arasında geçiş yap',
+    'nav.theme': 'Koyu Mod',
     'skip.content': 'İçeriğe geç',
+
+    // The Live Activity in the hero – the app's own strings and sample task.
+    'live.task': 'Müşteri projesi',
+    'live.stop': 'Durdur',
+
+    // Over the day in the hero and inside the ring at the end – the app's word.
+    'day.today': 'Bugün',
 
     'footer.tagline': 'Tek dokunuş saati başlatır.',
     'footer.legal': 'Yasal bilgiler',
@@ -618,7 +681,7 @@ export const ui = {
     'meta.contact.description':
       'لديك سؤال أو ملاحظة أو خلل تريد الإبلاغ عنه؟ راسل SimpleTime بالبريد الإلكتروني: نقرأ كل رسالة ونردّ خلال أيام عمل قليلة.',
     'meta.privacy.description':
-      'كيف يتعامل SimpleTime مع بياناتك: بلا حساب، بلا تحليلات، بلا خوادم لنا. تبقى إدخالاتك على أجهزتك وفي iCloud الخاص بك.',
+      'كيف يتعامل SimpleTime مع بياناتك: بلا حساب، بلا إعلانات. تبقى إدخالاتك على أجهزتك وفي iCloud الخاص بك.',
     'meta.imprint.description':
       'البيانات القانونية لموقع simple-time.app وفقًا للمادة 5 من قانون DDG: المالك وبيانات الاتصال ومعلومات المسؤولية عن تطبيق SimpleTime وموقعه.',
     'meta.pro.title': 'SimpleTime Pro – Apple Watch والأماكن والأهداف والمزيد',
@@ -637,8 +700,15 @@ export const ui = {
     'nav.menu': 'فتح القائمة',
     'nav.menu.close': 'إغلاق القائمة',
     'nav.language': 'اللغة',
-    'nav.theme': 'التبديل بين الوضع الفاتح والداكن',
+    'nav.theme': 'النمط الداكن',
     'skip.content': 'الانتقال إلى المحتوى',
+
+    // The Live Activity in the hero – the app's own strings and sample task.
+    'live.task': 'مشروع العميل',
+    'live.stop': 'إيقاف',
+
+    // Over the day in the hero and inside the ring at the end – the app's word.
+    'day.today': 'اليوم',
 
     'footer.tagline': 'لمسة واحدة تُشغّل الساعة.',
     'footer.legal': 'معلومات قانونية',
@@ -683,7 +753,7 @@ export const ui = {
     'meta.contact.description':
       'ご質問、ご意見、不具合のご報告はありませんか。SimpleTime までメールでお知らせください。すべてのメッセージに目を通し、数営業日以内にお返事します。',
     'meta.privacy.description':
-      'SimpleTime のデータの扱い方：アカウントなし、解析なし、当方のサーバーなし。記録はお使いの端末と、ご自分のプライベートな iCloud に残ります。',
+      'SimpleTime のデータの扱い方：アカウントなし、広告なし。記録はお使いの端末と、ご自分のプライベートな iCloud に残ります。',
     'meta.imprint.description':
       'simple-time.app の運営者情報（ドイツ DDG 第5条）。運営者、連絡先、SimpleTime アプリおよびサイトに関する責任事項。',
     'meta.pro.title': 'SimpleTime Pro – Apple Watch、場所、目標など',
@@ -702,8 +772,15 @@ export const ui = {
     'nav.menu': 'メニューを開く',
     'nav.menu.close': 'メニューを閉じる',
     'nav.language': '言語',
-    'nav.theme': 'ライトとダークを切り替える',
+    'nav.theme': 'ダークモード',
     'skip.content': '本文へ移動',
+
+    // The Live Activity in the hero – the app's own strings and sample task.
+    'live.task': 'クライアント案件',
+    'live.stop': '停止',
+
+    // Over the day in the hero and inside the ring at the end – the app's word.
+    'day.today': '今日',
 
     'footer.tagline': 'ワンタップで計測開始。',
     'footer.legal': '法的情報',
@@ -747,7 +824,7 @@ export const ui = {
     'meta.contact.description':
       '有问题、建议或想反馈错误？请发邮件给 SimpleTime，我们会阅读每一封来信，并在几个工作日内回复。',
     'meta.privacy.description':
-      'SimpleTime 如何处理你的数据：无需账号，没有分析工具，没有我们的服务器。你的记录保存在你的设备和你的私人 iCloud 中。',
+      'SimpleTime 如何处理你的数据：无需账号，没有广告。你的记录保存在你的设备和你的私人 iCloud 中。',
     'meta.imprint.description':
       'simple-time.app 依据德国 DDG 第 5 条的法律声明：运营者、联系方式，以及 SimpleTime 应用与网站的责任说明。',
     'meta.pro.title': 'SimpleTime Pro – Apple Watch、地点、目标及更多',
@@ -766,8 +843,15 @@ export const ui = {
     'nav.menu': '打开菜单',
     'nav.menu.close': '关闭菜单',
     'nav.language': '语言',
-    'nav.theme': '切换浅色与深色',
+    'nav.theme': '深色模式',
     'skip.content': '跳到主要内容',
+
+    // The Live Activity in the hero – the app's own strings and sample task.
+    'live.task': '客户项目',
+    'live.stop': '停止',
+
+    // Over the day in the hero and inside the ring at the end – the app's word.
+    'day.today': '今天',
 
     'footer.tagline': '轻点一下，计时开始。',
     'footer.legal': '法律信息',
@@ -812,7 +896,7 @@ export const ui = {
     'meta.contact.description':
       'कोई सवाल, सुझाव या कोई गड़बड़ी बतानी है? SimpleTime को ईमेल लिखें — हम हर संदेश पढ़ते हैं और कुछ कार्यदिवसों में जवाब देते हैं।',
     'meta.privacy.description':
-      'SimpleTime आपके डेटा को कैसे संभालता है: कोई खाता नहीं, कोई ऐनालिटिक्स नहीं, हमारा कोई सर्वर नहीं। आपकी प्रविष्टियाँ आपके डिवाइस पर और आपके निजी iCloud में रहती हैं।',
+      'SimpleTime आपके डेटा को कैसे संभालता है: कोई खाता नहीं, कोई विज्ञापन नहीं। आपकी प्रविष्टियाँ आपके डिवाइस पर और आपके निजी iCloud में रहती हैं।',
     'meta.imprint.description':
       'simple-time.app की कानूनी जानकारी, जर्मन DDG की धारा 5 के अनुसार: संचालक, संपर्क विवरण और SimpleTime ऐप व वेबसाइट से जुड़ी उत्तरदायित्व जानकारी।',
     'meta.pro.title': 'SimpleTime Pro – Apple Watch, जगहें, लक्ष्य और बहुत कुछ',
@@ -831,8 +915,15 @@ export const ui = {
     'nav.menu': 'मेन्यू खोलें',
     'nav.menu.close': 'मेन्यू बंद करें',
     'nav.language': 'भाषा',
-    'nav.theme': 'हल्के और गहरे रंग के बीच बदलें',
+    'nav.theme': 'डार्क मोड',
     'skip.content': 'सामग्री पर जाएँ',
+
+    // The Live Activity in the hero – the app's own strings and sample task.
+    'live.task': 'क्लाइंट प्रोजेक्ट',
+    'live.stop': 'रोकें',
+
+    // Over the day in the hero and inside the ring at the end – the app's word.
+    'day.today': 'आज',
 
     'footer.tagline': 'एक टैप और घड़ी चालू।',
     'footer.legal': 'कानूनी जानकारी',
@@ -877,7 +968,7 @@ export const ui = {
     'meta.contact.description':
       'Een vraag, suggestie of bug om te melden? Mail SimpleTime — we lezen elk bericht en antwoorden binnen enkele werkdagen.',
     'meta.privacy.description':
-      'Hoe SimpleTime met je gegevens omgaat: geen account, geen analysetools, geen servers van ons. Je registraties blijven op je apparaten en in je persoonlijke iCloud.',
+      'Hoe SimpleTime met je gegevens omgaat: geen account, geen advertenties. Je registraties blijven op je apparaten en in je persoonlijke iCloud.',
     'meta.imprint.description':
       'Colofon van simple-time.app volgens § 5 DDG — exploitant, contactgegevens en aansprakelijkheidsinformatie voor de SimpleTime-app en de site.',
     'meta.pro.title': 'SimpleTime Pro – Apple Watch, locaties, doelen en meer',
@@ -896,8 +987,15 @@ export const ui = {
     'nav.menu': 'Menu openen',
     'nav.menu.close': 'Menu sluiten',
     'nav.language': 'Taal',
-    'nav.theme': 'Wisselen tussen licht en donker',
+    'nav.theme': 'Donkere modus',
     'skip.content': 'Naar de inhoud',
+
+    // The Live Activity in the hero – the app's own strings and sample task.
+    'live.task': 'Klantproject',
+    'live.stop': 'Stop',
+
+    // Over the day in the hero and inside the ring at the end – the app's word.
+    'day.today': 'Vandaag',
 
     'footer.tagline': 'Eén tik start de klok.',
     'footer.legal': 'Juridische informatie',
@@ -942,7 +1040,7 @@ export const ui = {
     'meta.contact.description':
       'Har du en fråga, en synpunkt eller ett fel att rapportera? Mejla SimpleTime – vi läser varje meddelande och svarar inom några arbetsdagar.',
     'meta.privacy.description':
-      'Så hanterar SimpleTime dina data: inget konto, inga analysverktyg, inga servrar hos oss. Dina tidposter stannar på dina enheter och i din privata iCloud.',
+      'Så hanterar SimpleTime dina data: inget konto, ingen reklam. Dina tidposter stannar på dina enheter och i din privata iCloud.',
     'meta.imprint.description':
       'Ansvarig utgivare för simple-time.app enligt § 5 DDG – innehavare, kontaktuppgifter och ansvarsinformation för appen och webbplatsen SimpleTime.',
     'meta.pro.title': 'SimpleTime Pro – Apple Watch, platser, mål och mer',
@@ -961,8 +1059,15 @@ export const ui = {
     'nav.menu': 'Öppna menyn',
     'nav.menu.close': 'Stäng menyn',
     'nav.language': 'Språk',
-    'nav.theme': 'Växla mellan ljust och mörkt',
+    'nav.theme': 'Mörkt läge',
     'skip.content': 'Hoppa till innehållet',
+
+    // The Live Activity in the hero – the app's own strings and sample task.
+    'live.task': 'Kundprojekt',
+    'live.stop': 'Stoppa',
+
+    // Over the day in the hero and inside the ring at the end – the app's word.
+    'day.today': 'I dag',
 
     'footer.tagline': 'Ett tryck startar klockan.',
     'footer.legal': 'Juridisk information',
@@ -1007,7 +1112,7 @@ export const ui = {
     'meta.contact.description':
       'Маєте запитання, відгук або повідомлення про помилку? Напишіть SimpleTime на електронну пошту — ми читаємо кожен лист і відповідаємо протягом кількох робочих днів.',
     'meta.privacy.description':
-      'Як SimpleTime поводиться з вашими даними: без облікового запису, без аналітики, без власних серверів. Ваші записи зберігаються на ваших пристроях і в особистому iCloud.',
+      'Як SimpleTime поводиться з вашими даними: без облікового запису, без реклами. Ваші записи зберігаються на ваших пристроях і в особистому iCloud.',
     'meta.imprint.description':
       'Вихідні дані simple-time.app згідно з § 5 DDG: власник, контактні дані та відомості про відповідальність щодо застосунку й сайту SimpleTime.',
     'meta.pro.title': 'SimpleTime Pro – Apple Watch, місця, цілі та багато іншого',
@@ -1026,8 +1131,15 @@ export const ui = {
     'nav.menu': 'Відкрити меню',
     'nav.menu.close': 'Закрити меню',
     'nav.language': 'Мова',
-    'nav.theme': 'Перемкнути світлу й темну тему',
+    'nav.theme': 'Темний режим',
     'skip.content': 'Перейти до вмісту',
+
+    // The Live Activity in the hero – the app's own strings and sample task.
+    'live.task': 'Проєкт клієнта',
+    'live.stop': 'Зупинити',
+
+    // Over the day in the hero and inside the ring at the end – the app's word.
+    'day.today': 'Сьогодні',
 
     'footer.tagline': 'Один дотик запускає годинник.',
     'footer.legal': 'Правова інформація',
@@ -1068,16 +1180,16 @@ export const ui = {
   el: {
     'meta.title': 'SimpleTime – Καταγραφή ώρας για iPhone, iPad και Mac',
     'meta.description':
-      'Ένα άγγιγμα ξεκινά το ρολόι. Το SimpleTime καταγράφει πού πάει ο χρόνος σου – χωρίς λογαριασμό, διαφημίσεις ή παρακολούθηση. Οι ώρες σου μένουν στη συσκευή και στο iCloud σου.',
+      'Το SimpleTime καταγράφει πού πάει ο χρόνος σου – χωρίς λογαριασμό, διαφημίσεις ή παρακολούθηση. Οι ώρες σου μένουν στη συσκευή και στο iCloud σου.',
     'meta.contact.description':
       'Έχετε μια ερώτηση, μια πρόταση ή ένα σφάλμα να αναφέρετε; Γράψτε στο SimpleTime με e-mail — διαβάζουμε κάθε μήνυμα και απαντάμε μέσα σε λίγες εργάσιμες ημέρες.',
     'meta.privacy.description':
-      'Πώς χειρίζεται το SimpleTime τα δεδομένα σου: χωρίς λογαριασμό, εργαλεία ανάλυσης ή δικούς μας διακομιστές. Οι εγγραφές σου μένουν στις συσκευές και στο ιδιωτικό σου iCloud.',
+      'Πώς χειρίζεται το SimpleTime τα δεδομένα σου: χωρίς λογαριασμό και διαφημίσεις. Οι εγγραφές σου μένουν στις συσκευές και στο iCloud σου.',
     'meta.imprint.description':
       'Νομικά στοιχεία του simple-time.app σύμφωνα με το § 5 DDG: κάτοχος, στοιχεία επικοινωνίας και πληροφορίες ευθύνης για την εφαρμογή και τον ιστότοπο SimpleTime.',
     'meta.pro.title': 'SimpleTime Pro – Apple Watch, μέρη, στόχοι και άλλα',
     'meta.pro.description':
-      'Το SimpleTime μένει δωρεάν. Το Pro προσθέτει την εφαρμογή για Apple Watch, ανασκοπήσεις, μέρη, στόχους, φίλτρο συγκέντρωσης και άλλα – μηνιαία, ετήσια ή μία φορά για πάντα.',
+      'Το SimpleTime μένει δωρεάν. Το Pro προσθέτει την εφαρμογή Apple Watch, ανασκοπήσεις, μέρη, στόχους, φίλτρο συγκέντρωσης κ.ά. – μηνιαία, ετήσια ή μία φορά για πάντα.',
     'meta.faq.title': 'Ερωτήσεις και απαντήσεις · SimpleTime',
     'meta.faq.description':
       'Απαντήσεις στις πιο συχνές ερωτήσεις για το SimpleTime: καταγραφή, widget και Siri, συγχρονισμός iCloud και αντίγραφα ασφαλείας, απόρρητο και SimpleTime Pro.',
@@ -1091,8 +1203,15 @@ export const ui = {
     'nav.menu': 'Άνοιγμα μενού',
     'nav.menu.close': 'Κλείσιμο μενού',
     'nav.language': 'Γλώσσα',
-    'nav.theme': 'Εναλλαγή ανοιχτού και σκούρου θέματος',
+    'nav.theme': 'Σκούρα εμφάνιση',
     'skip.content': 'Μετάβαση στο περιεχόμενο',
+
+    // The Live Activity in the hero – the app's own strings and sample task.
+    'live.task': 'Έργο πελάτη',
+    'live.stop': 'Διακοπή',
+
+    // Over the day in the hero and inside the ring at the end – the app's word.
+    'day.today': 'Σήμερα',
 
     'footer.tagline': 'Ένα άγγιγμα ξεκινά το ρολόι.',
     'footer.legal': 'Νομικές πληροφορίες',
@@ -1137,7 +1256,7 @@ export const ui = {
     'meta.contact.description':
       'יש לכם שאלה, הצעה או באג לדווח עליו? כתבו ל‑SimpleTime במייל — אנחנו קוראים כל הודעה ומשיבים בתוך כמה ימי עסקים.',
     'meta.privacy.description':
-      'איך SimpleTime מטפל בנתונים שלך: בלי חשבון, בלי אנליטיקה, בלי שרתים שלנו. הרשומות שלך נשארות במכשירים שלך וב‑iCloud הפרטי שלך.',
+      'איך SimpleTime מטפל בנתונים שלך: בלי חשבון, בלי פרסומות. הרשומות שלך נשארות במכשירים שלך וב‑iCloud הפרטי שלך.',
     'meta.imprint.description':
       'פרטים משפטיים של simple-time.app לפי § 5 DDG: בעלים, פרטי התקשרות ומידע על אחריות עבור אפליקציית SimpleTime והאתר.',
     'meta.pro.title': 'SimpleTime Pro – Apple Watch, מקומות, יעדים ועוד',
@@ -1156,8 +1275,15 @@ export const ui = {
     'nav.menu': 'פתיחת תפריט',
     'nav.menu.close': 'סגירת תפריט',
     'nav.language': 'שפה',
-    'nav.theme': 'מעבר בין מצב בהיר לכהה',
+    'nav.theme': 'תצוגה כהה',
     'skip.content': 'דילוג לתוכן',
+
+    // The Live Activity in the hero – the app's own strings and sample task.
+    'live.task': 'פרויקט לקוח',
+    'live.stop': 'עצירה',
+
+    // Over the day in the hero and inside the ring at the end – the app's word.
+    'day.today': 'היום',
 
     'footer.tagline': 'הקשה אחת מפעילה את השעון.',
     'footer.legal': 'מידע משפטי',

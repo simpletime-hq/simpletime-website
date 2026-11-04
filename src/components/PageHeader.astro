@@ -7,26 +7,29 @@ interface Props {
 const { title, subtitle } = Astro.props;
 ---
 
-<section class="relative overflow-hidden border-b border-line">
-  <div aria-hidden="true" class="pointer-events-none absolute inset-0 -z-10">
-    <div
-      class="absolute inset-0 bg-gradient-to-b from-brand-50 to-canvas dark:from-brand-950/60 dark:to-canvas"
-    >
-    </div>
-    <div
-      class="absolute -top-40 left-1/2 h-[400px] w-[760px] -translate-x-1/2 rounded-full bg-brand-200/35 blur-[120px] dark:bg-brand-700/20"
-    >
-    </div>
-  </div>
-
-  <div class="mx-auto max-w-3xl px-5 pb-16 pt-16 text-center sm:px-8 sm:pb-20 sm:pt-20">
-    <h1 class="text-display text-4xl font-bold sm:text-5xl">{title}</h1>
+{/*
+  The top of every inner page: the morning sky of the home page, and the
+  title on the same edge as the text below it – that column is 48rem wide
+  on every inner page.
+*/}
+<section class="page-header sky-dawn">
+  <div class="mx-auto max-w-3xl px-5 pb-10 pt-16 sm:px-8 sm:pb-14 sm:pt-24">
+    <h1 class="page-title rise t-section">{title}</h1>
     {
       subtitle && (
-        <p class="text-balance mx-auto mt-5 max-w-xl text-[17px] leading-relaxed text-muted">
+        <p class="rise delay-1 t-intro mt-6 max-w-2xl text-muted">
           {subtitle}
         </p>
       )
     }
   </div>
 </section>
+
+<style>
+  /* Long compounds – „Datenschutzerklärung“ – are hyphenated in the page's
+     language rather than broken anywhere inside the word. */
+  .page-title {
+    hyphens: auto;
+    -webkit-hyphens: auto;
+  }
+</style>

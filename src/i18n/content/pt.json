@@ -574,7 +574,8 @@
             "id": "export",
             "q": "Posso exportar os meus dados?",
             "a": [
-              "Sim, a qualquer momento: como ficheiro CSV com tarefa, nota, duração, início e fim – para o Excel, o Numbers ou qualquer ferramenta de análise –, como relatório PDF ou como cópia de segurança completa em JSON."
+              "Sim, a qualquer momento: como ficheiro CSV com tarefa, nota, duração, início e fim – para o Excel, o Numbers ou qualquer ferramenta de análise –, como relatório PDF ou como cópia de segurança completa em JSON.",
+              "Em Definições › Exportar / importar dados, escolha o período do ficheiro CSV – de «Hoje» a «Todo o período», ou um personalizado, como o mês passado."
             ]
           },
           {

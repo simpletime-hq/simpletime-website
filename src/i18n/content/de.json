@@ -574,7 +574,8 @@
             "id": "export",
             "q": "Kann ich meine Daten exportieren?",
             "a": [
-              "Ja, jederzeit: als CSV-Datei mit Aufgabe, Notiz, Dauer, Start und Ende – für Excel, Numbers oder jedes Auswertungswerkzeug –, als PDF-Bericht oder als vollständiges Backup im JSON-Format."
+              "Ja, jederzeit: als CSV-Datei mit Aufgabe, Notiz, Dauer, Start und Ende – für Excel, Numbers oder jedes Auswertungswerkzeug –, als PDF-Bericht oder als vollständiges Backup im JSON-Format.",
+              "Unter Einstellungen › Daten exportieren / importieren wählst du den Zeitraum der CSV-Datei – von heute bis zum gesamten Zeitraum oder einen eigenen, etwa den letzten Monat."
             ]
           },
           {

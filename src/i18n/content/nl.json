@@ -1,7 +1,7 @@
 {
   "store": {
     "lead": "SimpleTime registreert waar je tijd naartoe gaat. Eén tik start, één tik stopt.",
-    "promise": "Geen account, geen aanmelding, geen advertenties. Je uren blijven op je apparaat en in je iCloud.",
+    "promise": "Geen account, geen aanmelding, geen advertenties. Je uren blijven op je apparaat – en in je iCloud, als je dat wilt.",
     "sections": [
       {
         "id": "tracking",
@@ -39,7 +39,7 @@
         "points": [
           "Een pdf-rapport waarvan je de onderdelen zelf kiest en ordent",
           "CSV voor Excel en Numbers",
-          "Back-ups in iCloud Drive, automatisch en desgewenst met wachtwoord versleuteld"
+          "Back-upplannen: automatisch naar iCloud Drive, een map van de Bestanden-app zoals Dropbox of Google Drive, je eigen server of het apparaat – desgewenst met wachtwoord versleuteld"
         ]
       },
       {
@@ -66,8 +66,9 @@
         "title": "Je gegevens",
         "points": [
           "App-vergrendeling met Face ID, Touch ID of een eigen code",
+          "Jij kiest waar je gegevens staan: alleen op dit apparaat of in je iCloud",
           "Privacy op één pagina: alle toestemmingen en je gegevens op een rij",
-          "Geen accounts, geen servers van ons, geen advertenties, geen tracking",
+          "Geen account, geen advertenties, geen verkoop van je gegevens – we ontvangen alleen anonieme crashrapporten en gebruiksstatistieken, en die kun je uitzetten",
           "Wis alles in één keer – op het apparaat, in iCloud en in de back-ups"
         ]
       }
@@ -99,7 +100,7 @@
       "proof": [
         "Gratis te downloaden",
         "Geen account",
-        "Geen advertenties, geen tracking"
+        "Geen advertenties, geen gegevensverkoop"
       ]
     },
     "tour": {
@@ -163,7 +164,7 @@
     },
     "cta": {
       "title": "Klaar om te beginnen?",
-      "subtitle": "Gratis op iPhone, iPad en Mac. Geen account, geen advertenties, geen tracking.",
+      "subtitle": "Gratis op iPhone, iPad en Mac. Geen account, geen advertenties, geen verkoop van je gegevens.",
       "note": "De app voor Apple Watch hoort bij SimpleTime Pro."
     }
   },
@@ -296,7 +297,7 @@
     "terms": "Gebruiksvoorwaarden (EULA)",
     "privacy": "Privacybeleid",
     "freeTitle": "Wat gratis blijft",
-    "freeBody": "Alles wat je nodig hebt om te registreren: taken en subtaken, de dagweergave en de tijdlijn, grafieken en statistieken, het pdf-rapport en de CSV-export, widgets, de Live activiteit, het bedieningspaneel en Siri, iCloud-synchronisatie en back-ups, en de app-vergrendeling – in 41 talen. Geen account, geen advertenties, geen tracking.",
+    "freeBody": "Alles wat je nodig hebt om te registreren: taken en subtaken, de dagweergave en de tijdlijn, grafieken en statistieken, het pdf-rapport en de CSV-export, widgets, de Live activiteit, het bedieningspaneel en Siri, iCloud-synchronisatie en back-upplannen, en de app-vergrendeling – in 41 talen. Geen account, geen advertenties, geen verkoop van je gegevens.",
     "howTitle": "Zo krijg je Pro",
     "how": [
       "Open in SimpleTime Instellingen › SimpleTime Pro.",
@@ -328,7 +329,7 @@
             "id": "what-is",
             "q": "Wat is SimpleTime?",
             "a": [
-              "SimpleTime is een app voor tijdregistratie op iPhone, iPad en Mac. Eén tik start de klok, één tik stopt hem. Daarna laat SimpleTime zien waar je tijd naartoe gaat – als daglijst of tijdlijn, in grafieken en statistieken, en als pdf-rapport of CSV-bestand. Geen account, geen advertenties, geen tracking."
+              "SimpleTime is een app voor tijdregistratie op iPhone, iPad en Mac. Eén tik start de klok, één tik stopt hem. Daarna laat SimpleTime zien waar je tijd naartoe gaat – als daglijst of tijdlijn, in grafieken en statistieken, en als pdf-rapport of CSV-bestand. Geen account, geen advertenties, geen verkoop van je gegevens."
             ]
           },
           {
@@ -521,57 +522,57 @@
             "id": "sync",
             "q": "Synchroniseert SimpleTime tussen mijn apparaten?",
             "a": [
-              "Ja, automatisch via iCloud – op elk apparaat dat met hetzelfde Apple Account is ingelogd. Wanneer de synchronisatie loopt, bepaalt het systeem; de instellingen laten zien wanneer die voor het laatst liep, en daar kun je die ook controleren."
+              "Ja, via iCloud – op elk apparaat dat met hetzelfde Apple Account is ingelogd en onder Instellingen › Gegevens en synchronisatie iCloud gebruikt. Wanneer de synchronisatie loopt, bepaalt het systeem; dezelfde pagina laat zien wanneer die voor het laatst liep en kan meteen synchroniseren."
             ]
           },
           {
             "id": "without-icloud",
             "q": "Kan ik SimpleTime zonder iCloud gebruiken?",
             "a": [
-              "Ja. Zonder iCloud blijven je gegevens op dit ene apparaat. De synchronisatie zet je aan of uit in de iOS-instellingen onder je naam › iCloud. Zonder iCloud zijn back-ups die je exporteert en ergens veilig bewaart des te belangrijker."
+              "Ja. Kies in Instellingen › Gegevens en synchronisatie „Alleen op dit apparaat” – dan blijven je gegevens op dit ene apparaat. Des te belangrijker zijn dan back-ups: een back-upplan bewaart ze automatisch, bijvoorbeeld in een map van de Bestanden-app of op je eigen server."
             ]
           },
           {
             "id": "backups",
             "q": "Hoe werken back-ups?",
             "a": [
-              "Onder Instellingen › Gegevens exporteren / importeren zet je automatische back-ups aan – elk uur, dagelijks, wekelijks of maandelijks. SimpleTime slaat ze op als JSON-bestanden in iCloud Drive, in de map „SimpleTime/Backups”, en bewaart de laatste 20. Je kunt ook altijd zelf een back-up exporteren."
+              "Onder Instellingen › Back-ups maak je zoveel back-upplannen aan als je wilt. Elk plan heeft een plek – iCloud Drive, een map van de Bestanden-app zoals Dropbox of Google Drive, je eigen server via WebDAV of dit apparaat –, een schema van elk uur tot maandelijks, een bewaartermijn en desgewenst een wachtwoord. Op dezelfde pagina maak je ook op elk moment met de hand een back-up."
             ]
           },
           {
             "id": "backup-password",
             "q": "Kan ik mijn back-ups met een wachtwoord beveiligen?",
             "a": [
-              "Ja. Met een wachtwoord wordt het back-upbestand op je apparaat versleuteld voordat het wordt opgeslagen. Bewaar het wachtwoord goed: zonder wachtwoord kan niemand de back-up herstellen – jij niet en wij ook niet. Er is geen omweg."
+              "Ja. Stel je voor een plan een wachtwoord in, dan wordt elke back-up op je apparaat versleuteld voordat die wordt opgeslagen. Onthoud het wachtwoord goed: zonder kan niemand de back-up terugzetten – jij niet en wij ook niet. Er is geen andere weg."
             ]
           },
           {
             "id": "restore",
             "q": "Hoe herstel ik een back-up?",
             "a": [
-              "Via Instellingen › Gegevens exporteren / importeren › Back-up uit JSON importeren. Je bestaande gegevens blijven behouden en wat ontbreekt, wordt aangevuld. Wacht op een nieuw apparaat eerst tot de iCloud-synchronisatie je gegevens heeft geleverd – anders kunnen taken dubbel verschijnen."
+              "Onder Instellingen › Back-ups zet je een back-up terug – uit een van je plannen of uit een bestand. Je bestaande gegevens blijven behouden en wat ontbreekt, wordt aangevuld. Back-ups van SimpleTime 4.7 en eerder importeer je via Instellingen › Gegevens exporteren / importeren › Back-up uit JSON importeren. Wacht op een nieuw apparaat eerst tot de iCloud-synchronisatie je gegevens heeft geleverd – anders kunnen taken dubbel verschijnen."
             ]
           },
           {
             "id": "export",
             "q": "Kan ik mijn gegevens exporteren?",
             "a": [
-              "Ja, altijd: als CSV-bestand met taak, notitie, duur, begin en einde (voor Excel, Numbers of elk ander analyseprogramma), als pdf-rapport of als volledige back-up in JSON.",
-              "Onder Instellingen › Gegevens exporteren / importeren kies je de periode van het CSV-bestand: van vandaag tot de hele periode, of een eigen periode, zoals vorige maand."
+              "Ja, altijd: als CSV-bestand met taak, notitie, duur, begin en einde – voor Excel, Numbers of elk analyseprogramma –, als pdf-rapport of als volledige back-up.",
+              "Onder Instellingen › Gegevens exporteren / importeren kies je de periode van het CSV-bestand: van vandaag tot de hele periode, of een eigen periode, zoals vorige maand. Een back-up maak je onder Instellingen › Back-ups."
             ]
           },
           {
             "id": "import",
             "q": "Kan ik gegevens uit een andere app importeren?",
             "a": [
-              "Niet direct. SimpleTime importeert zijn eigen back-ups (JSON); CSV-bestanden uit andere apps kunnen niet worden geïmporteerd."
+              "Niet rechtstreeks. SimpleTime leest alleen zijn eigen back-ups; CSV-bestanden uit andere apps kun je niet inlezen."
             ]
           },
           {
             "id": "new-device",
             "q": "Hoe stap ik over op een nieuwe iPhone?",
             "a": [
-              "Log in met hetzelfde Apple Account en installeer SimpleTime – iCloud zet je registraties vanzelf terug. Gebruik je geen iCloud, exporteer dan op het oude apparaat een back-up en importeer die op het nieuwe. Locaties horen bij elk apparaat afzonderlijk en worden niet gesynchroniseerd."
+              "Log in met hetzelfde Apple Account en installeer SimpleTime – gebruik je iCloud (Instellingen › Gegevens en synchronisatie), dan komt je invoer vanzelf terug. Zonder iCloud maak je op het oude apparaat een back-up en zet je die op het nieuwe terug. Locaties horen bij het apparaat en worden niet gesynchroniseerd."
             ]
           }
         ]
@@ -584,14 +585,14 @@
             "id": "data-location",
             "q": "Waar worden mijn gegevens bewaard?",
             "a": [
-              "Op je apparaten en in je persoonlijke iCloud. Niemand anders kan ze lezen – ook wij niet. SimpleTime heeft geen eigen servers."
+              "Waar jij kiest: in Instellingen › Gegevens en synchronisatie kies je tussen „Alleen op dit apparaat” en je privé-iCloud. Niemand anders kan je invoer lezen – ook wij niet. Back-ups staan waar je back-upplannen ze neerzetten."
             ]
           },
           {
             "id": "tracking-me",
             "q": "Volgt SimpleTime mij?",
             "a": [
-              "Nee. Geen analysetools, geen advertenties, geen SDK’s van derden, geen gebruikersprofielen. De app stuurt je gegevens niet naar ons en ook niet naar iemand anders. De details vind je in ons [privacybeleid](@privacy)."
+              "Nee. SimpleTime toont geen advertenties, verkoopt geen gegevens, maakt geen gebruikersprofielen en volgt je niet via andere apps en websites. Zodat we fouten snel vinden, stuurt de app anonieme crashrapporten en gebruiksstatistieken naar onze eigen server – zonder apparaat-ID en nooit met je taken, tijden of notities. Uitzetten doe je onder Instellingen › Privacy › Overzicht en toestemmingen. De details staan in ons [privacybeleid](@privacy)."
             ]
           },
           {
@@ -619,14 +620,7 @@
             "id": "delete-all",
             "q": "Hoe verwijder ik al mijn gegevens?",
             "a": [
-              "In de instellingen onder Privacy › Alle gegevens verwijderen. Daarmee verwijder je alles in één keer – alle registraties en taken, de prullenmand, herinneringen, de back-ups in iCloud Drive, exports en instellingen – op dit apparaat, in iCloud en, zodra ze online zijn, op je andere apparaten. Dit kan niet ongedaan worden gemaakt."
-            ]
-          },
-          {
-            "id": "diagnostics",
-            "q": "Wat staat er onder Diagnose?",
-            "a": [
-              "Als SimpleTime crasht of vastloopt, geeft iOS de app daar een rapport over. De rapporten blijven op je apparaat en bevatten geen taken en geen tijden – alleen de plek in het programma waar het gebeurde. Als je wilt, kun je er een met ons delen: zo vinden we de fout."
+              "In de instellingen onder Privacy › Alle gegevens verwijderen. Daarmee verwijder je alles in één keer – alle invoer en taken, de prullenmand, herinneringen, de back-ups van je plannen en de oude back-ups in iCloud Drive, exports en instellingen – op dit apparaat, in iCloud en, zodra ze online zijn, op je andere apparaten. Dit kan niet ongedaan worden gemaakt."
             ]
           }
         ]
@@ -770,7 +764,7 @@
             "id": "feedback",
             "q": "Ik heb een fout gevonden of een idee – waar kan ik dat kwijt?",
             "a": [
-              "Mail ons op [contact@simple-time.app](mailto:contact@simple-time.app). Vermeld bij een fout graag je apparaatmodel en iOS-versie. Is SimpleTime gecrasht, dan helpt een rapport uit Instellingen › Diagnose enorm. Elk bericht wordt gelezen."
+              "Schrijf ons op [contact@simple-time.app](mailto:contact@simple-time.app). Vermeld bij een fout je apparaatmodel en de iOS-versie en beschrijf kort wat je aan het doen was. Elk bericht wordt gelezen."
             ]
           },
           {
@@ -790,8 +784,9 @@
     "translationNote": "Dit is een vertaling van het Duitse privacybeleid. Bij twijfel geldt [de Duitse versie](@privacy-de).",
     "summaryTitle": "In het kort",
     "summary": [
-      "Jouw tijd is van jou. SimpleTime heeft geen account nodig, toont geen advertenties en volgt je niet.",
-      "Je registraties staan op je apparaten en in je persoonlijke iCloud – niemand anders kan ze lezen, ook wij niet. SimpleTime heeft geen eigen servers.",
+      "Jouw tijd is van jou. SimpleTime heeft geen account nodig, toont geen advertenties en verkoopt je gegevens niet.",
+      "Je invoer staat op je apparaten en, als je daarvoor kiest, in je privé-iCloud – niemand anders kan die lezen, ook wij niet.",
+      "Zodat we fouten snel vinden, stuurt de app anonieme crashrapporten en gebruiksstatistieken – zonder apparaat-ID, nooit met je invoer en op elk moment uit te zetten.",
       "Deze website plaatst geen eigen cookies en laadt niets van derden. Hoeveel mensen hem bezoeken, tellen we anoniem met Atriya, onze eigen analysedienst."
     ],
     "sections": [
@@ -807,19 +802,21 @@
         "id": "app",
         "title": "De app SimpleTime",
         "paragraphs": [
-          "SimpleTime is zo gebouwd dat we je gegevens niet nodig hebben. Alles wat je invoert – taken, registraties met hun tijden en notities, doelen, herinneringen en instellingen – wordt op je apparaat opgeslagen. De app bevat geen analysetools, geen advertenties en geen SDK’s van derden, en stuurt je gegevens niet naar servers van ons: die zijn er niet. We hebben op geen enkel moment toegang tot je gegevens."
+          "SimpleTime is zo gebouwd dat we je gegevens niet nodig hebben. Alles wat je invoert – taken, invoer met tijden en notities, doelen, herinneringen en instellingen – wordt op je apparaat opgeslagen. De app bevat geen advertenties en geen SDK’s van derden. Je invoer stuurt ze naar geen enkele server van ons; we hebben er op geen enkel moment toegang toe. Wat de app anoniem over crashes en gebruik meldt, staat onder „Crashrapporten en gebruiksstatistieken”."
         ],
         "subsections": [
           {
-            "title": "iCloud-synchronisatie",
+            "title": "Waar je gegevens staan en iCloud-synchronisatie",
             "paragraphs": [
-              "Als je bij iCloud bent ingelogd, synchroniseert SimpleTime je gegevens tussen je apparaten via CloudKit van Apple, in de privédatabase van je iCloud-account. Apple verzendt en bewaart de gegevens versleuteld; het privacybeleid van Apple is van toepassing. Wij kunnen deze gegevens niet inzien en hebben er geen toegang toe. Je kunt de synchronisatie uitschakelen in de iOS-instellingen onder je naam › iCloud – je gegevens blijven dan op het apparaat."
+              "In Instellingen › Gegevens en synchronisatie kies je waar je gegevens staan: alleen op dit apparaat of in je iCloud. Gebruik je iCloud en heb je niets anders gekozen, dan gebruikt SimpleTime iCloud – zoals in eerdere versies. Een wijziging geldt vanaf de volgende keer dat de app start.",
+              "Met iCloud synchroniseert SimpleTime je gegevens tussen je apparaten via CloudKit van Apple, in de privédatabase van je iCloud-account. Apple verstuurt en bewaart de gegevens versleuteld; het privacybeleid van Apple is van toepassing. Wij kunnen deze gegevens niet inzien en hebben er geen toegang toe. Stap je over op „Alleen op dit apparaat”, dan blijven je gegevens in iCloud staan tot je ze daar verwijdert – SimpleTime biedt je dat na de overstap aan."
             ]
           },
           {
             "title": "Back-ups",
             "paragraphs": [
-              "Als je automatische back-ups aanzet of een back-up exporteert, slaat SimpleTime een bestand op met je taken, registraties en herinneringen – automatisch in je iCloud Drive (map „SimpleTime/Backups”) of op een plek die jij kiest. Als je een wachtwoord instelt, wordt het bestand op je apparaat versleuteld (AES-GCM) voordat het wordt opgeslagen; zonder het wachtwoord kan niemand het openen – ook wij niet. Van de automatische back-ups worden de laatste 20 bewaard."
+              "Onder Instellingen › Back-ups maak je back-upplannen aan. Elk plan bewaart je taken, je invoer met notities, je doelen en je herinneringen automatisch op de plek die jij kiest: in je iCloud Drive, in een map van de Bestanden-app – bijvoorbeeld bij Dropbox, Google Drive of op een usb-stick –, op je eigen server via WebDAV of alleen op dit apparaat. Voor iCloud Drive, Dropbox, Google Drive en andere aanbieders geldt hun privacybeleid; je back-ups bereiken ons nooit. De inloggegevens van een WebDAV-server worden bewaard in de sleutelhanger op je apparaat.",
+              "Stel je voor een plan een wachtwoord in, dan wordt elke back-up op je apparaat versleuteld voordat die wordt opgeslagen (AES-GCM met 256 bits, de sleutel afgeleid met PBKDF2); zonder het wachtwoord kan niemand hem openen – ook wij niet. Hoe lang een plan back-ups bewaart, bepaal je zelf. Een back-up die je met de hand maakt, gaat via het deelmenu naar de plek die jij kiest. Back-ups van SimpleTime 4.7 en eerder blijven in je iCloud Drive staan, in de map „SimpleTime/Backups”."
             ]
           },
           {
@@ -844,7 +841,7 @@
           {
             "title": "App-vergrendeling, Face ID en Touch ID",
             "paragraphs": [
-              "Als je de app-vergrendeling gebruikt, controleert iOS Face ID, Touch ID of de toegangscode van je apparaat; SimpleTime krijgt alleen te horen of de controle is gelukt. Je eigen code en het back-upwachtwoord worden bewaard in de sleutelhanger op je apparaat."
+              "Als je de app-vergrendeling gebruikt, controleert iOS Face ID, Touch ID of de toegangscode van je apparaat; SimpleTime krijgt alleen te horen of de controle is gelukt. Je eigen code en de inloggegevens van je back-ups worden bewaard in de sleutelhanger op je apparaat."
             ]
           },
           {
@@ -854,9 +851,13 @@
             ]
           },
           {
-            "title": "Diagnose",
+            "title": "Crashrapporten en gebruiksstatistieken",
             "paragraphs": [
-              "Als SimpleTime crasht of vastloopt, geeft iOS de app een diagnoserapport. Dat blijft op je apparaat, bevat geen taken en geen tijden, en verlaat je apparaat alleen als je het zelf deelt – bijvoorbeeld per e-mail met ons. Los daarvan geldt: als je hebt toegestaan dat je apparaat analysegegevens deelt met appontwikkelaars (iOS-instellingen › Privacy en beveiliging › Analyse en verbeteringen), stelt Apple ons crashrapporten en statistieken ter beschikking die jou niet identificeren."
+              "Zodat we fouten snel vinden en SimpleTime kunnen verbeteren, stuurt de app anonieme crashrapporten en gebruiksstatistieken naar Atriya, onze eigen analysedienst. Verstuurd worden: de crash- en vastloperrapporten die iOS of macOS aan de app geeft – met de plek in de code, de versie van de app en het systeem en het apparaatmodel –, wanneer de app wordt geopend en hoe lang die op de voorgrond staat, en welke schermen worden geopend en welke functies worden gebruikt, zoals „registratie gestart” of „rapport gemaakt”. Je taken, invoer, tijden, notities en namen worden nooit verstuurd.",
+              "SimpleTime slaat daarvoor niets op je apparaat op, ook geen kenmerk. Bij het versturen wordt onvermijdelijk je IP-adres meegestuurd. Onze server leidt daaruit alleen het land af en maakt samen met de systeemversie en het apparaatmodel een kenmerk dat maar één dag geldig is: een hash met een willekeurige dagsleutel, die de server uiterlijk na twee dagen verwijdert. Daarna kan het kenmerk niet meer aan een IP-adres worden gekoppeld. Het IP-adres zelf slaan we niet op. Zo zien we hoeveel apparaten SimpleTime op een dag gebruiken – jou herkennen of van dag tot dag volgen kunnen we niet.",
+              "De rechtsgrond is ons gerechtvaardigd belang bij een stabiele app zonder fouten en bij weten welke functies nodig zijn (art. 6 lid 1 sub f AVG). Je kunt altijd bezwaar maken: zet in Instellingen › Privacy › Overzicht en toestemmingen „Crashrapporten en statistieken versturen” uit; daarna verstuurt de app niets meer. Je keuze blijft ook na „Alle gegevens verwijderen” behouden.",
+              "Atriya beheren we zelf. De server staat bij IONOS SE, Elgendorfer Str. 57, 56410 Montabaur, Duitsland, in een datacenter in de Europese Unie; IONOS verwerkt de gegevens in onze opdracht. We werken er alleen samengevat mee en geven ze niet door. Zodra de dagsleutel is verwijderd, zijn de gegevens anoniem; we bewaren ze zonder vaste termijn.",
+              "Los daarvan geldt: als je hebt toegestaan dat je apparaat analysegegevens deelt met appontwikkelaars (iOS-instellingen › Privacy en beveiliging › Analyse en verbeteringen), stelt Apple ons crashrapporten en statistieken ter beschikking die jou niet identificeren."
             ]
           },
           {
@@ -874,13 +875,13 @@
           {
             "title": "Exporteren en delen",
             "paragraphs": [
-              "CSV-bestanden, pdf-rapporten, back-ups en afbeeldingen worden op je apparaat aangemaakt. Waar ze naartoe gaan, bepaal jij – in het deelmenu."
+              "CSV-bestanden, pdf-rapporten, back-ups en afbeeldingen worden op je apparaat aangemaakt. Waar ze naartoe gaan, bepaal jij – in het deelmenu of met een back-upplan."
             ]
           },
           {
             "title": "Je gegevens verwijderen",
             "paragraphs": [
-              "In de instellingen van de app verwijder je onder Privacy › Alle gegevens verwijderen in één keer alles wat SimpleTime heeft bewaard – op dit apparaat, in iCloud en in de back-ups in iCloud Drive; via iCloud bereikt het verwijderen ook je andere apparaten. Als je de app verwijdert, verdwijnen de gegevens ervan van dat apparaat."
+              "In de instellingen van de app onder Privacy › Alle gegevens verwijderen verwijder je in één keer alles wat SimpleTime heeft opgeslagen – op dit apparaat, in iCloud, de back-ups van je plannen waar ze ook staan en de oude back-ups in iCloud Drive; via iCloud bereikt het verwijderen ook je andere apparaten. De anonieme statistieken zijn aan geen enkel apparaat te koppelen en kunnen daarom niet gericht worden verwijderd. Verwijder je de app, dan verdwijnen de gegevens ervan van dat apparaat."
             ]
           }
         ]

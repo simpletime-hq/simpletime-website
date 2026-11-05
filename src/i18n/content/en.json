@@ -1,7 +1,7 @@
 {
   "store": {
     "lead": "SimpleTime tracks where your time goes. One tap starts it, one tap stops it.",
-    "promise": "No account, no sign-up, no ads. Your hours stay on your device and in your iCloud.",
+    "promise": "No account, no sign-up, no ads. Your hours stay on your device – and in your iCloud, if you want.",
     "sections": [
       {
         "id": "tracking",
@@ -39,7 +39,7 @@
         "points": [
           "A PDF report whose sections you choose and arrange yourself",
           "CSV for Excel and Numbers",
-          "Backups in iCloud Drive, automatic and password-encrypted if you want"
+          "Backup plans: automatically to iCloud Drive, a folder in the Files app such as Dropbox or Google Drive, your own server, or the device – password-encrypted if you want"
         ]
       },
       {
@@ -66,8 +66,9 @@
         "title": "Your data",
         "points": [
           "App lock with Face ID, Touch ID, or a code of your own",
+          "You choose where your data lives: only on this device or in your iCloud",
           "Privacy on one page: every permission and all your data at a glance",
-          "No accounts, no servers of ours, no ads, no tracking",
+          "No account, no ads, no selling of your data – all we receive are anonymous crash reports and usage statistics, and you can turn them off",
           "Erase everything at once – on the device, in iCloud, and in the backups"
         ]
       }
@@ -99,7 +100,7 @@
       "proof": [
         "Free to download",
         "No account",
-        "No ads, no tracking"
+        "No ads, no data selling"
       ]
     },
     "tour": {
@@ -163,7 +164,7 @@
     },
     "cta": {
       "title": "Ready to start tracking?",
-      "subtitle": "Free on iPhone, iPad and Mac. No account, no ads, no tracking.",
+      "subtitle": "Free on iPhone, iPad and Mac. No account, no ads, no selling of your data.",
       "note": "The Apple Watch app is part of SimpleTime Pro."
     }
   },
@@ -296,7 +297,7 @@
     "terms": "Terms of Use (EULA)",
     "privacy": "Privacy Policy",
     "freeTitle": "What stays free",
-    "freeBody": "Everything you need for tracking: tasks and subtasks, the day view and timeline, charts and statistics, the PDF report and CSV export, widgets, the Live Activity, Control Center and Siri, iCloud sync and backups, and the app lock – in 41 languages. No account, no ads, no tracking.",
+    "freeBody": "Everything you need for tracking: tasks and subtasks, the day view and timeline, charts and statistics, the PDF report and CSV export, widgets, the Live Activity, Control Center and Siri, iCloud sync and backup plans, and the app lock – in 41 languages. No account, no ads, no selling of your data.",
     "howTitle": "How to get Pro",
     "how": [
       "In SimpleTime, open Settings › SimpleTime Pro.",
@@ -328,7 +329,7 @@
             "id": "what-is",
             "q": "What is SimpleTime?",
             "a": [
-              "SimpleTime is a time tracker for iPhone, iPad and Mac. One tap starts the clock, one tap stops it. SimpleTime then shows you where your time goes – as a day list or timeline, in charts and statistics, and as a PDF report or CSV file. No account, no ads, no tracking."
+              "SimpleTime is a time tracker for iPhone, iPad and Mac. One tap starts the clock, one tap stops it. SimpleTime then shows you where your time goes – as a day list or timeline, in charts and statistics, and as a PDF report or CSV file. No account, no ads, no selling of your data."
             ]
           },
           {
@@ -521,57 +522,57 @@
             "id": "sync",
             "q": "Does SimpleTime sync between my devices?",
             "a": [
-              "Yes, automatically through iCloud – on every device that is signed in with the same Apple Account. When sync runs is decided by the system; the settings show when it last ran, and you can check it there."
+              "Yes, via iCloud – on every device signed in with the same Apple Account that uses iCloud under Settings › Data and sync. The system decides when sync runs; the same page shows when it last ran and can sync right away."
             ]
           },
           {
             "id": "without-icloud",
             "q": "Can I use SimpleTime without iCloud?",
             "a": [
-              "Yes. Without iCloud, your data stays on this one device. You can turn sync on or off in the iOS Settings under your name › iCloud. Without iCloud, backups that you export and keep somewhere safe are all the more important."
+              "Yes. Choose “Only on this device” in Settings under Data and sync – your data then stays on this one device. That makes backups all the more important: a backup plan saves them automatically, for example to a folder in the Files app or to your own server."
             ]
           },
           {
             "id": "backups",
             "q": "How do backups work?",
             "a": [
-              "Under Settings › Export / Import Data, you can turn on automatic backups – hourly, daily, weekly or monthly. SimpleTime saves them as JSON files in iCloud Drive, in the folder “SimpleTime/Backups”, and keeps the 20 most recent. You can also export a backup yourself at any time."
+              "Under Settings › Backups, you create as many backup plans as you like. Each plan has a place – iCloud Drive, a folder in the Files app such as Dropbox or Google Drive, your own server via WebDAV, or this device –, a schedule from hourly to monthly, a retention period and, if you like, a password. On the same page, you can also make a backup by hand at any time."
             ]
           },
           {
             "id": "backup-password",
             "q": "Can I protect my backups with a password?",
             "a": [
-              "Yes. With a password, the backup file is encrypted on your device before it’s saved. Keep the password safe: without it, nobody can restore the backup – not you, and not us. There is no way around it."
+              "Yes. If you set a password for a plan, every backup is encrypted on your device before it’s saved. Keep the password safe: without it, nobody can restore the backup – not you, not us. There’s no way around it."
             ]
           },
           {
             "id": "restore",
             "q": "How do I restore a backup?",
             "a": [
-              "Under Settings › Export / Import Data › Import backup from JSON. Your existing data stays, and anything missing is added. On a new device, wait until iCloud sync has delivered your data first – otherwise tasks can appear twice."
+              "Under Settings › Backups, you restore a backup – from one of your plans or from a file. Existing data is kept, and anything missing is added. Backups from SimpleTime 4.7 and earlier are imported under Settings › Export / Import Data › Import backup from JSON. On a new device, it’s best to wait until iCloud sync has delivered your data – otherwise tasks can end up duplicated."
             ]
           },
           {
             "id": "export",
             "q": "Can I export my data?",
             "a": [
-              "Yes, at any time: as a CSV file with task, note, duration, start and end – for Excel, Numbers or any analysis tool –, as a PDF report, or as a complete backup in JSON.",
-              "Under Settings › Export / Import Data, choose the period for the CSV file – from today to all time, or your own, such as last month."
+              "Yes, at any time: as a CSV file with task, note, duration, start and end – for Excel, Numbers or any analysis tool –, as a PDF report or as a complete backup.",
+              "Under Settings › Export / Import Data, you choose the period of the CSV file – from today to all time, or your own, such as last month. You make a backup under Settings › Backups."
             ]
           },
           {
             "id": "import",
             "q": "Can I import data from another app?",
             "a": [
-              "Not directly. SimpleTime imports its own backups (JSON); CSV files from other apps can’t be imported."
+              "Not directly. SimpleTime reads only its own backups; CSV files from other apps can’t be imported."
             ]
           },
           {
             "id": "new-device",
             "q": "How do I move to a new iPhone?",
             "a": [
-              "Sign in with the same Apple Account and install SimpleTime – iCloud brings your entries back by itself. If you don’t use iCloud, export a backup on the old device and import it on the new one. Places belong to each device and aren’t synced."
+              "Sign in with the same Apple Account and install SimpleTime – if you use iCloud (Settings › Data and sync), your entries come back on their own. Without iCloud, make a backup on the old device and restore it on the new one. Places belong to each device and aren’t synced."
             ]
           }
         ]
@@ -584,14 +585,14 @@
             "id": "data-location",
             "q": "Where is my data stored?",
             "a": [
-              "On your devices and in your private iCloud. Nobody else can read it – not even us. SimpleTime has no servers of its own."
+              "Wherever you choose: in Settings under Data and sync, you decide between “Only on this device” and your private iCloud. Nobody else can read your entries – not even us. Backups are stored wherever your backup plans put them."
             ]
           },
           {
             "id": "tracking-me",
             "q": "Does SimpleTime track me?",
             "a": [
-              "No. No analytics, no ads, no third-party SDKs, no user profiles. The app doesn’t send your data to us or to anyone else. You’ll find the details in our [privacy policy](@privacy)."
+              "No. SimpleTime shows no ads, sells no data, builds no user profiles and doesn’t follow you across other apps and websites. So we can find bugs quickly, the app sends anonymous crash reports and usage statistics to our own server – no device ID, and never your tasks, times or notes. You can turn this off under Settings › Privacy › Overview and Permissions. The details are in our [privacy policy](@privacy)."
             ]
           },
           {
@@ -619,14 +620,7 @@
             "id": "delete-all",
             "q": "How do I delete all my data?",
             "a": [
-              "In the settings under Privacy › Delete all data. It removes everything at once – all entries and tasks, the trash, reminders, the backups in iCloud Drive, exports and settings – on this device, in iCloud and, as soon as they’re online, on your other devices. This can’t be undone."
-            ]
-          },
-          {
-            "id": "diagnostics",
-            "q": "What’s under Diagnostics?",
-            "a": [
-              "If SimpleTime crashes or freezes, iOS gives the app a report about it. The reports stay on your device and contain no tasks and no times – only the place in the code where it happened. If you like, share one with us: it helps us find the bug."
+              "In Settings under Privacy › Delete all data. This removes everything at once – all entries and tasks, the trash, reminders, the backups of your plans and the old backups in iCloud Drive, exports and settings – on this device, in iCloud and, as soon as they’re online, on your other devices. It can’t be undone."
             ]
           }
         ]
@@ -770,7 +764,7 @@
             "id": "feedback",
             "q": "I found a bug or have an idea – where do I send it?",
             "a": [
-              "Write to us at [contact@simple-time.app](mailto:contact@simple-time.app). For a bug, please include your device model and iOS version. If SimpleTime crashed, a report from Settings › Diagnostics helps a lot. Every message is read."
+              "Write to us at [contact@simple-time.app](mailto:contact@simple-time.app). For a bug, please include your device model and iOS version and briefly describe what you were doing. Every message is read."
             ]
           },
           {
@@ -790,8 +784,9 @@
     "translationNote": "This is a translation of the German privacy policy. If in doubt, [the German version](@privacy-de) applies.",
     "summaryTitle": "In short",
     "summary": [
-      "Your time belongs to you. SimpleTime needs no account, shows no ads and doesn’t track you.",
-      "Your entries live on your devices and in your private iCloud – nobody else can read them, not even us. SimpleTime has no servers of its own.",
+      "Your time belongs to you. SimpleTime needs no account, shows no ads and doesn’t sell your data.",
+      "Your entries live on your devices and, if you choose, in your private iCloud – nobody else can read them, not even us.",
+      "So we can find bugs quickly, the app sends anonymous crash reports and usage statistics – no device ID, never your entries, and you can turn it off at any time.",
       "This website sets no cookies of its own and loads nothing from third parties. We count how many people visit it anonymously with Atriya, our own analytics service."
     ],
     "sections": [
@@ -807,19 +802,21 @@
         "id": "app",
         "title": "The SimpleTime app",
         "paragraphs": [
-          "SimpleTime is built so that we don’t need your data. Everything you enter – tasks, entries with their times and notes, goals, reminders and settings – is stored on your device. The app contains no analytics, no advertising and no third-party SDKs, and it doesn’t send your data to servers of ours: there are none. We have no access to your data at any time."
+          "SimpleTime is built so that we don’t need your data. Everything you enter – tasks, entries with their times and notes, goals, reminders and settings – is stored on your device. The app contains no advertising and no third-party SDKs. It doesn’t send your entries to any server of ours; we have no access to them at any time. What the app reports anonymously about crashes and usage is described under “Crash reports and usage statistics”."
         ],
         "subsections": [
           {
-            "title": "iCloud sync",
+            "title": "Where your data lives and iCloud sync",
             "paragraphs": [
-              "If you’re signed in to iCloud, SimpleTime syncs your data between your devices using Apple’s CloudKit, in the private database of your iCloud account. Apple transmits and stores the data encrypted; Apple’s privacy policy applies. We cannot see or access this data. You can turn sync off in the iOS Settings under your name › iCloud – your data then stays on the device."
+              "In Settings under Data and sync, you choose where your data lives: only on this device or in your iCloud. If you’re signed in to iCloud and haven’t chosen otherwise, SimpleTime uses iCloud – as in earlier versions. A change takes effect the next time the app starts.",
+              "With iCloud, SimpleTime syncs your data between your devices using Apple’s CloudKit, in the private database of your iCloud account. Apple transmits and stores the data encrypted; Apple’s privacy policy applies. We cannot see or access this data. If you switch to “Only on this device”, your data stays in iCloud until you delete it there – SimpleTime offers to do that after the switch."
             ]
           },
           {
             "title": "Backups",
             "paragraphs": [
-              "If you turn on automatic backups or export a backup, SimpleTime saves a file with your tasks, entries and reminders – automatically in your iCloud Drive (folder “SimpleTime/Backups”), or wherever you choose. If you set a password, the file is encrypted on your device (AES-GCM) before it’s saved; without the password, nobody can open it – including us. Of the automatic backups, the 20 most recent are kept."
+              "Under Settings › Backups, you create backup plans. Each plan automatically saves your tasks, entries with their notes, goals and reminders to the place you choose: your iCloud Drive, a folder in the Files app – for example on Dropbox, Google Drive or a USB drive –, your own server via WebDAV, or only this device. For iCloud Drive, Dropbox, Google Drive and other providers, their privacy policies apply; your backups never reach us. The login details for a WebDAV server are stored in the keychain on your device.",
+              "If you set a password for a plan, every backup is encrypted on your device before it’s saved (AES-GCM with 256 bits, the key derived with PBKDF2); without the password, nobody can open it – including us. You decide how long a plan keeps its backups. A backup you make by hand goes wherever you choose in the share sheet. Backups from SimpleTime 4.7 and earlier remain in your iCloud Drive in the folder “SimpleTime/Backups”."
             ]
           },
           {
@@ -844,7 +841,7 @@
           {
             "title": "App lock, Face ID and Touch ID",
             "paragraphs": [
-              "If you use the app lock, iOS checks Face ID, Touch ID or your device passcode; SimpleTime only learns whether the check succeeded. Your own code and the backup password are stored in the keychain on your device."
+              "If you use the app lock, iOS checks Face ID, Touch ID or your device passcode; SimpleTime only learns whether the check succeeded. Your own code and the login details of your backups are stored in the keychain on your device."
             ]
           },
           {
@@ -854,9 +851,13 @@
             ]
           },
           {
-            "title": "Diagnostics",
+            "title": "Crash reports and usage statistics",
             "paragraphs": [
-              "If SimpleTime crashes or freezes, iOS gives the app a diagnostic report. It stays on your device, contains no tasks and no times, and leaves your device only if you share it yourself – for example by email to us. Independently of this, if you’ve allowed your device to share analytics with app developers (iOS Settings › Privacy & Security › Analytics & Improvements), Apple provides us with crash reports and statistics that don’t identify you."
+              "So we can find bugs quickly and improve SimpleTime, the app sends anonymous crash reports and usage statistics to Atriya, our own analytics service. It sends: the crash and hang reports that iOS or macOS gives the app – with the place in the code, app and system version and device model –, when the app is opened and how long it stays in the foreground, and which screens are opened and which features are used, such as “tracking started” or “report created”. Your tasks, entries, times, notes and names are never sent.",
+              "SimpleTime stores nothing on your device for this, not even an identifier. Sending necessarily transmits your IP address. Our server derives only the country from it and, together with the system version and device model, forms an identifier that is valid for one day only: a hash with a random daily key, which the server deletes after two days at the latest. After that, the identifier can no longer be linked to an IP address. We don’t store the IP address itself. This lets us see how many devices use SimpleTime on a given day – we cannot recognize you or follow you from one day to the next.",
+              "The legal basis is our legitimate interest in a stable, bug-free app and in knowing which features are needed (Art. 6(1)(f) GDPR). You can object at any time: in Settings under Privacy › Overview and Permissions, turn off “Send Crash Reports and Statistics”; after that, the app sends nothing. Your choice remains even after “Delete all data”.",
+              "We run Atriya ourselves. The server is hosted by IONOS SE, Elgendorfer Str. 57, 56410 Montabaur, Germany, in a data center in the European Union; IONOS processes the data on our behalf. We only evaluate it in aggregate and don’t pass it on. Once the daily key is deleted, the data is anonymous; we keep it without a fixed time limit.",
+              "Independently of this, if you’ve allowed your device to share analytics with app developers (iOS Settings › Privacy & Security › Analytics & Improvements), Apple provides us with crash reports and statistics that don’t identify you."
             ]
           },
           {
@@ -874,13 +875,13 @@
           {
             "title": "Export and sharing",
             "paragraphs": [
-              "CSV files, PDF reports, backups and images are created on your device. Where they go is up to you – you decide in the share sheet."
+              "CSV files, PDF reports, backups and images are created on your device. Where they go is up to you – in the share sheet or with a backup plan."
             ]
           },
           {
             "title": "Deleting your data",
             "paragraphs": [
-              "In the app’s settings under Privacy › Delete all data, you remove everything SimpleTime has stored at once – on this device, in iCloud and in the backups in iCloud Drive; via iCloud, the deletion also reaches your other devices. Deleting the app removes its data from that device."
+              "In the app’s settings under Privacy › Delete all data, you remove everything SimpleTime has stored at once – on this device, in iCloud, the backups of your plans wherever they are, and the old backups in iCloud Drive; via iCloud, the deletion also reaches your other devices. The anonymous statistics can’t be linked to any device and therefore can’t be deleted selectively. Deleting the app removes its data from that device."
             ]
           }
         ]

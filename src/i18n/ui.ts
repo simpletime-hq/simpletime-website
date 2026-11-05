@@ -27,7 +27,7 @@ export const ui = {
   en: {
     'meta.title': 'SimpleTime – Time Tracker for iPhone, iPad and Mac',
     'meta.description':
-      'One tap starts the clock. SimpleTime tracks where your time goes – no account, no ads, no tracking. Your hours stay on your device and in your iCloud.',
+      'One tap starts the clock. SimpleTime tracks where your time goes – no account, no ads, no selling of your data. Your hours stay on your device and in your iCloud.',
 
     'meta.contact.description':
       'Questions, feedback or a bug to report? Reach SimpleTime by email – every message is read and answered within a few working days.',
@@ -101,7 +101,7 @@ export const ui = {
   de: {
     'meta.title': 'SimpleTime – Zeiterfassung für iPhone, iPad und Mac',
     'meta.description':
-      'Ein Tipp startet die Uhr. SimpleTime erfasst deine Zeit – ohne Konto, ohne Werbung, ohne Tracking. Deine Zeiten bleiben auf deinem Gerät und in deiner iCloud.',
+      'Ein Tipp startet die Uhr. SimpleTime erfasst deine Zeit – ohne Konto, ohne Werbung, ohne Verkauf deiner Daten. Deine Zeiten bleiben auf deinem Gerät und in deiner iCloud.',
 
     'meta.contact.description':
       'Fragen, Rückmeldungen oder ein Fehler? Schreib SimpleTime eine E-Mail – jede Nachricht wird gelesen und innerhalb weniger Werktage beantwortet.',
@@ -175,7 +175,7 @@ export const ui = {
   fr: {
     'meta.title': 'SimpleTime – Suivi du temps pour iPhone, iPad et Mac',
     'meta.description':
-      'Un geste lance le chrono. SimpleTime enregistre où passe votre temps, sans compte, sans publicité ni pistage. Vos heures restent sur votre appareil et dans votre iCloud.',
+      'Un geste lance le chrono. SimpleTime enregistre où passe votre temps, sans compte, sans publicité ni vente de vos données. Vos heures restent sur votre appareil et dans votre iCloud.',
     'meta.contact.description':
       'Une question, un retour ou un bug à signaler ? Écrivez à SimpleTime par e-mail — chaque message est lu et reçoit une réponse sous quelques jours ouvrés.',
     'meta.privacy.description':
@@ -248,7 +248,7 @@ export const ui = {
   es: {
     'meta.title': 'SimpleTime – Control de horas para iPhone, iPad y Mac',
     'meta.description':
-      'Un toque pone el reloj en marcha. SimpleTime registra en qué se va tu tiempo, sin cuenta, sin publicidad ni rastreo. Tus horas quedan en tu dispositivo y en tu iCloud.',
+      'Un toque pone el reloj en marcha. SimpleTime registra en qué se va tu tiempo, sin cuenta, sin publicidad ni venta de tus datos. Tus horas quedan en tu dispositivo y en tu iCloud.',
     'meta.contact.description':
       '¿Tienes una pregunta, un comentario o un fallo que informar? Escribe a SimpleTime por correo: leemos cada mensaje y respondemos en pocos días laborables.',
     'meta.privacy.description':
@@ -321,7 +321,7 @@ export const ui = {
   it: {
     'meta.title': 'SimpleTime – Ore e attività per iPhone, iPad e Mac',
     'meta.description':
-      'Un tocco avvia il cronometro. SimpleTime registra come passi il tempo, senza account, pubblicità né tracciamento. Le tue ore restano sul tuo dispositivo e nel tuo iCloud.',
+      'Un tocco avvia il cronometro. SimpleTime registra come passi il tempo, senza account, pubblicità né vendita dei tuoi dati. Le tue ore restano sul tuo dispositivo e nel tuo iCloud.',
     'meta.contact.description':
       'Hai una domanda, un suggerimento o un bug da segnalare? Scrivi a SimpleTime via e-mail: leggiamo ogni messaggio e rispondiamo in pochi giorni lavorativi.',
     'meta.privacy.description':
@@ -394,7 +394,7 @@ export const ui = {
   ru: {
     'meta.title': 'SimpleTime – учёт времени для iPhone, iPad и Mac',
     'meta.description':
-      'Одно касание запускает часы. SimpleTime записывает, на что уходит ваше время, — без учётной записи, рекламы и слежки. Ваши часы остаются на устройстве и в вашем iCloud.',
+      'Одно касание запускает часы. SimpleTime записывает, на что уходит ваше время, — без учётной записи, рекламы и продажи ваших данных. Ваши часы остаются на устройстве и в вашем iCloud.',
     'meta.contact.description':
       'Есть вопрос, отзыв или сообщение об ошибке? Напишите SimpleTime по электронной почте — мы читаем каждое сообщение и отвечаем в течение нескольких рабочих дней.',
     'meta.privacy.description':
@@ -467,7 +467,7 @@ export const ui = {
   hy: {
     'meta.title': 'SimpleTime – ժամանակի հաշվառում iPhone-ի, iPad-ի և Mac-ի համար',
     'meta.description':
-      'Մեկ հպում՝ ժամանակը գնաց։ SimpleTime-ը գրանցում է, թե ուր է գնում ձեր ժամանակը՝ առանց հաշվի, գովազդի և հետևման։ Ձեր ժամերը մնում են ձեր սարքում և ձեր iCloud-ում։',
+      'Մեկ հպում՝ ժամանակը գնաց։ SimpleTime-ը գրանցում է, թե ուր է գնում ձեր ժամանակը՝ առանց հաշվի, գովազդի և ձեր տվյալների վաճառքի։ Ձեր ժամերը մնում են ձեր սարքում և ձեր iCloud-ում։',
     'meta.contact.description':
       'Հարց, կարծիք կամ սխալի մասին հաղորդում ունե՞ք։ Գրեք SimpleTime-ին էլ․ փոստով․ մենք կարդում ենք յուրաքանչյուր նամակ և պատասխանում ենք մի քանի աշխատանքային օրվա ընթացքում։',
     'meta.privacy.description':
@@ -540,7 +540,7 @@ export const ui = {
   pt: {
     'meta.title': 'SimpleTime – Registo de horas para iPhone, iPad e Mac',
     'meta.description':
-      'Um toque inicia o relógio. O SimpleTime regista onde passa o seu tempo, sem conta, sem publicidade nem rastreio. As suas horas ficam no seu dispositivo e no seu iCloud.',
+      'Um toque inicia o relógio. O SimpleTime regista onde passa o seu tempo, sem conta, sem publicidade nem venda dos seus dados. As suas horas ficam no seu dispositivo e no seu iCloud.',
     'meta.contact.description':
       'Tem uma pergunta, uma sugestão ou um erro a comunicar? Escreva ao SimpleTime por e-mail: lemos todas as mensagens e respondemos em poucos dias úteis.',
     'meta.privacy.description':
@@ -613,7 +613,7 @@ export const ui = {
   tr: {
     'meta.title': 'SimpleTime – iPhone, iPad ve Mac için zaman takibi',
     'meta.description':
-      'Tek dokunuş saati başlatır. SimpleTime zamanının nereye gittiğini kaydeder – hesap yok, reklam yok, takip yok. Saatlerin cihazında ve kendi iCloud\'unda kalır.',
+      'Tek dokunuş saati başlatır. SimpleTime zamanının nereye gittiğini kaydeder – hesap yok, reklam yok, verilerin satılmaz. Saatlerin cihazında ve kendi iCloud\'unda kalır.',
     'meta.contact.description':
       'Sorun, önerin ya da bildirmek istediğin bir hata mı var? SimpleTime’a e-posta yaz: her mesajı okuyor ve birkaç iş günü içinde yanıtlıyoruz.',
     'meta.privacy.description':
@@ -686,7 +686,7 @@ export const ui = {
   ar: {
     'meta.title': 'SimpleTime – تتبّع الوقت على iPhone و iPad و Mac',
     'meta.description':
-      'لمسة واحدة تُشغّل الساعة. يسجّل SimpleTime أين يذهب وقتك – بلا حساب، بلا إعلانات، بلا تتبّع. تبقى ساعاتك على جهازك وفي iCloud الخاص بك.',
+      'لمسة واحدة تُشغّل الساعة. يسجّل SimpleTime أين يذهب وقتك – بلا حساب، بلا إعلانات، بلا بيع لبياناتك. تبقى ساعاتك على جهازك وفي iCloud الخاص بك.',
     'meta.contact.description':
       'لديك سؤال أو ملاحظة أو خلل تريد الإبلاغ عنه؟ راسل SimpleTime بالبريد الإلكتروني: نقرأ كل رسالة ونردّ خلال أيام عمل قليلة.',
     'meta.privacy.description':
@@ -759,7 +759,7 @@ export const ui = {
   ja: {
     'meta.title': 'SimpleTime – iPhone、iPad、Mac のための時間記録アプリ',
     'meta.description':
-      'ワンタップで計測開始。SimpleTime は、時間の使い道を記録します — アカウントなし、広告なし、追跡なし。記録は端末とご自分の iCloud に残ります。',
+      'ワンタップで計測開始。SimpleTime は、時間の使い道を記録します — アカウントなし、広告なし、データの販売なし。記録は端末とご自分の iCloud に残ります。',
     'meta.contact.description':
       'ご質問、ご意見、不具合のご報告はありませんか。SimpleTime までメールでお知らせください。すべてのメッセージに目を通し、数営業日以内にお返事します。',
     'meta.privacy.description':
@@ -831,7 +831,8 @@ export const ui = {
   },
   zh: {
     'meta.title': 'SimpleTime – 适用于 iPhone、iPad 和 Mac 的时间记录 App',
-    'meta.description': '轻点一下，计时开始。SimpleTime 记录你的时间去了哪里 — 无需账号，没有广告，没有追踪。你的时间留在设备和你自己的 iCloud 里。',
+    'meta.description':
+      '轻点一下，计时开始。SimpleTime 记录你的时间去了哪里 — 无需账号，没有广告，不出售你的数据。你的时间留在设备和你自己的 iCloud 里。',
     'meta.contact.description':
       '有问题、建议或想反馈错误？请发邮件给 SimpleTime，我们会阅读每一封来信，并在几个工作日内回复。',
     'meta.privacy.description':
@@ -904,7 +905,7 @@ export const ui = {
   hi: {
     'meta.title': 'SimpleTime – iPhone, iPad और Mac के लिए समय ट्रैकर',
     'meta.description':
-      'एक टैप और घड़ी चालू। SimpleTime दर्ज करता है कि आपका समय कहाँ जाता है – न खाता, न विज्ञापन, न ट्रैकिंग। आपके घंटे आपके डिवाइस और आपके अपने iCloud में रहते हैं।',
+      'एक टैप और घड़ी चालू। SimpleTime दर्ज करता है कि आपका समय कहाँ जाता है – न खाता, न विज्ञापन, न आपके डेटा की बिक्री। आपके घंटे आपके डिवाइस और आपके अपने iCloud में रहते हैं।',
     'meta.contact.description':
       'कोई सवाल, सुझाव या कोई गड़बड़ी बतानी है? SimpleTime को ईमेल लिखें — हम हर संदेश पढ़ते हैं और कुछ कार्यदिवसों में जवाब देते हैं।',
     'meta.privacy.description':
@@ -977,7 +978,7 @@ export const ui = {
   nl: {
     'meta.title': 'SimpleTime – Tijdregistratie voor iPhone, iPad en Mac',
     'meta.description':
-      'Eén tik start de klok. SimpleTime registreert waar je tijd naartoe gaat – geen account, geen advertenties, geen tracking. Je uren blijven op je apparaat en in je iCloud.',
+      'Eén tik start de klok. SimpleTime registreert waar je tijd naartoe gaat – geen account, geen advertenties, geen verkoop van je gegevens. Je uren blijven op je apparaat en in je iCloud.',
     'meta.contact.description':
       'Een vraag, suggestie of bug om te melden? Mail SimpleTime — we lezen elk bericht en antwoorden binnen enkele werkdagen.',
     'meta.privacy.description':
@@ -1050,7 +1051,7 @@ export const ui = {
   sv: {
     'meta.title': 'SimpleTime – Tidrapportering för iPhone, iPad och Mac',
     'meta.description':
-      'En tryckning startar tiden. SimpleTime registrerar vad din tid går till – inget konto, inga annonser, ingen spårning. Dina timmar stannar på din enhet och i ditt iCloud.',
+      'En tryckning startar tiden. SimpleTime registrerar vad din tid går till – inget konto, inga annonser, ingen försäljning av dina data. Dina timmar stannar på din enhet och i ditt iCloud.',
     'meta.contact.description':
       'Har du en fråga, en synpunkt eller ett fel att rapportera? Mejla SimpleTime – vi läser varje meddelande och svarar inom några arbetsdagar.',
     'meta.privacy.description':
@@ -1123,7 +1124,7 @@ export const ui = {
   uk: {
     'meta.title': 'SimpleTime – облік часу для iPhone, iPad і Mac',
     'meta.description':
-      'Один дотик запускає годинник. SimpleTime записує, на що йде ваш час, — без облікового запису, реклами й стеження. Ваші години лишаються на пристрої та у вашому iCloud.',
+      'Один дотик запускає годинник. SimpleTime записує, на що йде ваш час, — без облікового запису, реклами й продажу ваших даних. Ваші години лишаються на пристрої та у вашому iCloud.',
     'meta.contact.description':
       'Маєте запитання, відгук або повідомлення про помилку? Напишіть SimpleTime на електронну пошту — ми читаємо кожен лист і відповідаємо протягом кількох робочих днів.',
     'meta.privacy.description':
@@ -1196,7 +1197,7 @@ export const ui = {
   el: {
     'meta.title': 'SimpleTime – Καταγραφή ώρας για iPhone, iPad και Mac',
     'meta.description':
-      'Το SimpleTime καταγράφει πού πάει ο χρόνος σου – χωρίς λογαριασμό, διαφημίσεις ή παρακολούθηση. Οι ώρες σου μένουν στη συσκευή και στο iCloud σου.',
+      'Το SimpleTime καταγράφει πού πάει ο χρόνος σου – χωρίς λογαριασμό, διαφημίσεις ή πώληση των δεδομένων σου. Οι ώρες σου μένουν στη συσκευή και στο iCloud σου.',
     'meta.contact.description':
       'Έχετε μια ερώτηση, μια πρόταση ή ένα σφάλμα να αναφέρετε; Γράψτε στο SimpleTime με e-mail — διαβάζουμε κάθε μήνυμα και απαντάμε μέσα σε λίγες εργάσιμες ημέρες.',
     'meta.privacy.description':
@@ -1269,7 +1270,7 @@ export const ui = {
   he: {
     'meta.title': 'SimpleTime – מעקב זמן ל‑iPhone, ל‑iPad ול‑Mac',
     'meta.description':
-      'הקשה אחת מפעילה את השעון. SimpleTime מתעד לאן הולך הזמן שלך – בלי חשבון, בלי פרסומות, בלי מעקב. השעות שלך נשארות במכשיר שלך וב‑iCloud שלך.',
+      'הקשה אחת מפעילה את השעון. SimpleTime מתעד לאן הולך הזמן שלך – בלי חשבון, בלי פרסומות, בלי מכירת הנתונים שלך. השעות שלך נשארות במכשיר שלך וב‑iCloud שלך.',
     'meta.contact.description':
       'יש לכם שאלה, הצעה או באג לדווח עליו? כתבו ל‑SimpleTime במייל — אנחנו קוראים כל הודעה ומשיבים בתוך כמה ימי עסקים.',
     'meta.privacy.description':

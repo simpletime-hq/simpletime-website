@@ -1,0 +1,204 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import AppStoreButton from '../../components/AppStoreButton.astro';
+
+// Every /app/… address is a link into the app (Universal Links, see
+// public/.well-known/apple-app-site-association). With SimpleTime installed,
+// iOS and macOS open the app and this page never loads. Without it, the
+// browser lands here: public/_redirects serves this page for all of /app/*,
+// with status 200 and the address unchanged.
+//
+// Like the 404 it ships English and swaps to the visitor's language at
+// runtime – the address carries no language, so the browser's decides.
+const COPY = {
+  de: {
+    title: 'In SimpleTime öffnen',
+    body: 'Dieser Link öffnet eine Seite in SimpleTime – auf einem iPhone, iPad oder Mac, auf dem SimpleTime installiert ist.',
+    entry: 'Dieser Termin wurde mit SimpleTime erfasst. Auf einem iPhone, iPad oder Mac mit SimpleTime öffnet der Link den Eintrag.',
+    store: 'SimpleTime im App Store laden',
+    home: 'Mehr über SimpleTime',
+  },
+  nl: {
+    title: 'Openen in SimpleTime',
+    body: 'Deze link opent een pagina in SimpleTime – op een iPhone, iPad of Mac waarop SimpleTime is geïnstalleerd.',
+    entry: 'Deze activiteit is vastgelegd met SimpleTime. Op een iPhone, iPad of Mac met SimpleTime opent de link de registratie.',
+    store: 'SimpleTime downloaden in de App Store',
+    home: 'Meer over SimpleTime',
+  },
+  sv: {
+    title: 'Öppna i SimpleTime',
+    body: 'Den här länken öppnar en sida i SimpleTime – på en iPhone, iPad eller Mac där SimpleTime är installerat.',
+    entry: 'Den här aktiviteten registrerades med SimpleTime. På en iPhone, iPad eller Mac med SimpleTime öppnar länken posten.',
+    store: 'Hämta SimpleTime i App Store',
+    home: 'Mer om SimpleTime',
+  },
+  fr: {
+    title: 'Ouvrir dans SimpleTime',
+    body: 'Ce lien ouvre une page de SimpleTime – sur un iPhone, un iPad ou un Mac où SimpleTime est installé.',
+    entry: 'Cet évènement a été enregistré avec SimpleTime. Sur un iPhone, un iPad ou un Mac avec SimpleTime, le lien ouvre l’entrée.',
+    store: 'Télécharger SimpleTime sur l’App Store',
+    home: 'En savoir plus sur SimpleTime',
+  },
+  it: {
+    title: 'Apri in SimpleTime',
+    body: 'Questo link apre una pagina di SimpleTime su un iPhone, iPad o Mac su cui è installato SimpleTime.',
+    entry: 'Questo evento è stato registrato con SimpleTime. Su un iPhone, iPad o Mac con SimpleTime, il link apre la voce.',
+    store: 'Scarica SimpleTime dall’App Store',
+    home: 'Scopri SimpleTime',
+  },
+  es: {
+    title: 'Abrir en SimpleTime',
+    body: 'Este enlace abre una página de SimpleTime en un iPhone, iPad o Mac que tenga SimpleTime instalado.',
+    entry: 'Este evento se registró con SimpleTime. En un iPhone, iPad o Mac con SimpleTime, el enlace abre la entrada.',
+    store: 'Descargar SimpleTime en el App Store',
+    home: 'Más sobre SimpleTime',
+  },
+  pt: {
+    title: 'Abrir no SimpleTime',
+    body: 'Esta ligação abre uma página do SimpleTime num iPhone, iPad ou Mac com o SimpleTime instalado.',
+    entry: 'Este evento foi registado com o SimpleTime. Num iPhone, iPad ou Mac com o SimpleTime, a ligação abre o registo.',
+    store: 'Descarregar o SimpleTime na App Store',
+    home: 'Saber mais sobre o SimpleTime',
+  },
+  ru: {
+    title: 'Открыть в SimpleTime',
+    body: 'Эта ссылка открывает страницу в SimpleTime — на iPhone, iPad или Mac, где установлено приложение.',
+    entry: 'Это событие записано с помощью SimpleTime. На iPhone, iPad или Mac с SimpleTime ссылка откроет запись.',
+    store: 'Загрузить SimpleTime в App Store',
+    home: 'Подробнее о SimpleTime',
+  },
+  uk: {
+    title: 'Відкрити в SimpleTime',
+    body: 'Це посилання відкриває сторінку в SimpleTime — на iPhone, iPad або Mac, де встановлено застосунок.',
+    entry: 'Цю подію записано за допомогою SimpleTime. На iPhone, iPad або Mac із SimpleTime посилання відкриє запис.',
+    store: 'Завантажити SimpleTime з App Store',
+    home: 'Докладніше про SimpleTime',
+  },
+  el: {
+    title: 'Άνοιγμα στο SimpleTime',
+    body: 'Αυτός ο σύνδεσμος ανοίγει μια σελίδα στο SimpleTime – σε iPhone, iPad ή Mac όπου είναι εγκατεστημένο το SimpleTime.',
+    entry: 'Αυτό το γεγονός καταγράφηκε με το SimpleTime. Σε iPhone, iPad ή Mac με το SimpleTime, ο σύνδεσμος ανοίγει την εγγραφή.',
+    store: 'Λήψη του SimpleTime από το App Store',
+    home: 'Μάθετε για το SimpleTime',
+  },
+  tr: {
+    title: 'SimpleTime’da aç',
+    body: 'Bu bağlantı, SimpleTime’ın yüklü olduğu bir iPhone, iPad veya Mac’te SimpleTime’da bir sayfa açar.',
+    entry: 'Bu etkinlik SimpleTime ile kaydedildi. SimpleTime yüklü bir iPhone, iPad veya Mac’te bağlantı kaydı açar.',
+    store: 'SimpleTime’ı App Store’dan indir',
+    home: 'SimpleTime hakkında',
+  },
+  hy: {
+    title: 'Բացել SimpleTime-ում',
+    body: 'Այս հղումը բացում է էջ SimpleTime-ում՝ iPhone-ի, iPad-ի կամ Mac-ի վրա, որտեղ տեղադրված է SimpleTime-ը։',
+    entry: 'Այս իրադարձությունը գրանցվել է SimpleTime-ով։ SimpleTime-ով iPhone-ի, iPad-ի կամ Mac-ի վրա հղումը բացում է գրառումը։',
+    store: 'Ներբեռնել SimpleTime-ը App Store-ից',
+    home: 'SimpleTime-ի մասին',
+  },
+  ar: {
+    title: 'فتح في SimpleTime',
+    body: 'يفتح هذا الرابط صفحة في SimpleTime على جهاز iPhone أو iPad أو Mac مثبَّت عليه SimpleTime.',
+    entry: 'سُجّل هذا الحدث باستخدام SimpleTime. على جهاز iPhone أو iPad أو Mac عليه SimpleTime، يفتح الرابط السجل.',
+    store: 'تنزيل SimpleTime من App Store',
+    home: 'المزيد عن SimpleTime',
+  },
+  he: {
+    title: 'פתיחה ב-SimpleTime',
+    body: 'הקישור הזה פותח עמוד ב-SimpleTime – ב-iPhone, ב-iPad או ב-Mac שבהם SimpleTime מותקנת.',
+    entry: 'האירוע הזה תועד באמצעות SimpleTime. ב-iPhone, ב-iPad או ב-Mac עם SimpleTime, הקישור פותח את הרשומה.',
+    store: 'להורדת SimpleTime מה-App Store',
+    home: 'עוד על SimpleTime',
+  },
+  hi: {
+    title: 'SimpleTime में खोलें',
+    body: 'यह लिंक SimpleTime में एक पेज खोलता है – ऐसे iPhone, iPad या Mac पर जिसमें SimpleTime इंस्टॉल हो।',
+    entry: 'यह इवेंट SimpleTime से दर्ज किया गया था। SimpleTime वाले iPhone, iPad या Mac पर यह लिंक प्रविष्टि खोलता है।',
+    store: 'App Store से SimpleTime डाउनलोड करें',
+    home: 'SimpleTime के बारे में',
+  },
+  zh: {
+    title: '在 SimpleTime 中打开',
+    body: '此链接会在安装了 SimpleTime 的 iPhone、iPad 或 Mac 上打开 SimpleTime 中的页面。',
+    entry: '此日程由 SimpleTime 记录。在安装了 SimpleTime 的 iPhone、iPad 或 Mac 上，此链接会打开这条记录。',
+    store: '从 App Store 下载 SimpleTime',
+    home: '了解 SimpleTime',
+  },
+  ja: {
+    title: 'SimpleTime で開く',
+    body: 'このリンクは、SimpleTime がインストールされた iPhone、iPad、Mac で SimpleTime のページを開きます。',
+    entry: 'この予定は SimpleTime で記録されました。SimpleTime がある iPhone、iPad、Mac では、このリンクで記録が開きます。',
+    store: 'App Store で SimpleTime をダウンロード',
+    home: 'SimpleTime について',
+  },
+};
+
+const ENTRY_EN =
+  'This calendar event was recorded with SimpleTime. On an iPhone, iPad or Mac with SimpleTime, the link opens the entry.';
+---
+
+<Layout
+  lang="en"
+  path="/app/"
+  title="Open in SimpleTime"
+  description="This link opens a page in SimpleTime on an iPhone, iPad or Mac where SimpleTime is installed."
+  noIndex
+  analytics={false}
+>
+  <section class="ground-glow relative overflow-hidden">
+    <div class="mx-auto max-w-3xl px-5 py-28 text-center sm:px-8 sm:py-36">
+      <img src="/logo.png" alt="" width="96" height="96" class="mx-auto h-24 w-24 rounded-[22%] shadow-lift" />
+
+      <h1 id="app-title" class="t-title mt-8">Open in SimpleTime</h1>
+
+      <p id="app-body" class="t-intro mx-auto mt-5 max-w-md text-muted" data-entry={ENTRY_EN}>
+        This link opens a page in SimpleTime – on an iPhone, iPad or Mac where SimpleTime is installed.
+      </p>
+
+      <div class="mt-10 flex flex-wrap items-center justify-center gap-4">
+        <span id="app-store">
+          <AppStoreButton label="Download SimpleTime on the App Store" size="lg" />
+        </span>
+        <a id="app-home" href="/" class="btn btn--quiet">
+          <span id="app-home-label">About SimpleTime</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <script is:inline define:vars={{ COPY }}>
+    (function () {
+      // A calendar event links to its entry – say so instead of the general sentence.
+      var istEintrag = /^\/app\/entry\//.test(window.location.pathname);
+      var body = document.getElementById('app-body');
+      if (istEintrag) body.textContent = body.getAttribute('data-entry');
+
+      // Safari's banner hands the address to the app when it opens it. Only a plain
+      // /app/… path goes along: the banner reads comma-separated pairs, and a crafted
+      // address could otherwise slip in a different app-id.
+      var pfad = window.location.pathname;
+      var banner = document.querySelector('meta[name="apple-itunes-app"]');
+      if (banner && /^\/app\/[A-Za-z0-9\/-]*$/.test(pfad)) {
+        banner.setAttribute('content', 'app-id=6755532037, app-argument=https://simple-time.app' + pfad);
+      }
+
+      var sprachen = navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language || ''];
+      var code = null;
+      for (var i = 0; i < sprachen.length && !code; i++) {
+        var kurz = String(sprachen[i]).toLowerCase().split('-')[0];
+        if (COPY[kurz]) code = kurz;
+        if (kurz === 'en') break;
+      }
+      if (!code) return;
+      var copy = COPY[code];
+
+      document.documentElement.lang = code;
+      if (code === 'ar' || code === 'he') document.documentElement.dir = 'rtl';
+      document.title = copy.title;
+      document.getElementById('app-title').textContent = copy.title;
+      body.textContent = istEintrag ? copy.entry : copy.body;
+      document.querySelector('#app-store a').setAttribute('aria-label', copy.store);
+      document.getElementById('app-home').setAttribute('href', '/' + code + '/');
+      document.getElementById('app-home-label').textContent = copy.home;
+    })();
+  </script>
+</Layout>

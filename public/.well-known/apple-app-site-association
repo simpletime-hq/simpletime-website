@@ -1,0 +1,12 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["QJY67JVQP3.com.Luca.SimpleTime"],
+        "components": [
+          { "/": "/app/*", "comment": "Pages inside the app – AppLink in the app repository" }
+        ]
+      }
+    ]
+  }
+}

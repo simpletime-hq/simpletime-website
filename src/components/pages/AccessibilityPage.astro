@@ -1,0 +1,22 @@
+---
+import LegalDocument from '../LegalDocument.astro';
+import type { Lang } from '../../i18n/ui';
+import { useTranslations, getLocalizedPath } from '../../i18n/utils';
+import { getContent } from '../../i18n/content';
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+const t = useTranslations(lang);
+const { accessibility } = getContent(lang);
+---
+
+<LegalDocument
+  lang={lang}
+  doc={accessibility}
+  path={getLocalizedPath(lang, '/accessibility/')}
+  description={t('meta.accessibility.description')}
+  lastUpdated="2026-11-05"
+/>

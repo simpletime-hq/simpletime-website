@@ -1,7 +1,7 @@
 {
   "store": {
     "lead": "SimpleTime registrerar vad din tid går till. En tryckning startar, en tryckning stoppar.",
-    "promise": "Inget konto, ingen registrering, inga annonser. Dina timmar stannar på din enhet och i ditt iCloud.",
+    "promise": "Inget konto, ingen registrering, inga annonser. Dina timmar stannar på din enhet – och i ditt iCloud, om du vill.",
     "sections": [
       {
         "id": "tracking",
@@ -39,7 +39,7 @@
         "points": [
           "En PDF-rapport där du väljer och ordnar avsnitten själv",
           "CSV för Excel och Numbers",
-          "Säkerhetskopior i iCloud Drive, automatiska och krypterade med lösenord om du vill"
+          "Planer för säkerhetskopiering: automatiskt till iCloud Drive, en mapp i appen Filer som Dropbox eller Google Drive, din egen server eller enheten – krypterade med lösenord om du vill"
         ]
       },
       {
@@ -66,8 +66,9 @@
         "title": "Dina data",
         "points": [
           "Applås med Face ID, Touch ID eller en egen kod",
+          "Du väljer var dina data finns: bara på den här enheten eller i ditt iCloud",
           "Integritet på en sida: överblick över alla behörigheter och dina data",
-          "Inga konton, inga servrar hos oss, inga annonser, ingen spårning",
+          "Inget konto, inga annonser, ingen försäljning av dina data – vi tar bara emot anonyma kraschrapporter och användningsstatistik, och de går att stänga av",
           "Radera allt på en gång – på enheten, i iCloud och i säkerhetskopiorna"
         ]
       }
@@ -99,7 +100,7 @@
       "proof": [
         "Gratis att hämta",
         "Inget konto",
-        "Inga annonser, ingen spårning"
+        "Inga annonser, ingen dataförsäljning"
       ]
     },
     "tour": {
@@ -163,7 +164,7 @@
     },
     "cta": {
       "title": "Redo att sätta igång?",
-      "subtitle": "Gratis på iPhone, iPad och Mac. Inget konto, inga annonser, ingen spårning.",
+      "subtitle": "Gratis på iPhone, iPad och Mac. Inget konto, inga annonser, ingen försäljning av dina data.",
       "note": "Appen för Apple Watch hör till SimpleTime Pro."
     }
   },
@@ -296,7 +297,7 @@
     "terms": "Användarvillkor (EULA)",
     "privacy": "Integritetspolicy",
     "freeTitle": "Det här förblir gratis",
-    "freeBody": "Allt du behöver för att registrera: uppgifter och deluppgifter, dagsvyn och tidsaxeln, diagram och statistik, PDF-rapporten och CSV-exporten, widgetar, liveaktiviteten, Kontrollcenter och Siri, iCloud-synk och säkerhetskopior samt applåset – på 41 språk. Inget konto, inga annonser, ingen spårning.",
+    "freeBody": "Allt du behöver för att registrera: uppgifter och deluppgifter, dagsvyn och tidsaxeln, diagram och statistik, PDF-rapporten och CSV-exporten, widgetar, liveaktiviteten, Kontrollcenter och Siri, iCloud-synk och planer för säkerhetskopiering samt applåset – på 41 språk. Inget konto, inga annonser, ingen försäljning av dina data.",
     "howTitle": "Så får du Pro",
     "how": [
       "Öppna Inställningar › SimpleTime Pro i SimpleTime.",
@@ -328,7 +329,7 @@
             "id": "what-is",
             "q": "Vad är SimpleTime?",
             "a": [
-              "SimpleTime är en app för tidrapportering på iPhone, iPad och Mac. En tryckning startar tiden, en tryckning stoppar den. Sedan visar SimpleTime vad din tid går till – som daglista eller tidsaxel, i diagram och statistik och som PDF-rapport eller CSV-fil. Inget konto, inga annonser, ingen spårning."
+              "SimpleTime är en app för tidrapportering på iPhone, iPad och Mac. En tryckning startar tiden, en tryckning stoppar den. Sedan visar SimpleTime vad din tid går till – som daglista eller tidsaxel, i diagram och statistik och som PDF-rapport eller CSV-fil. Inget konto, inga annonser, ingen försäljning av dina data."
             ]
           },
           {
@@ -521,57 +522,57 @@
             "id": "sync",
             "q": "Synkar SimpleTime mellan mina enheter?",
             "a": [
-              "Ja, automatiskt via iCloud – på varje enhet som är inloggad med samma Apple-konto. När synken körs bestämmer systemet; inställningarna visar när den senast kördes, och där kan du också kontrollera den."
+              "Ja, via iCloud – på varje enhet som är inloggad med samma Apple-konto och använder iCloud under Inställningar › Data och synkronisering. När synken körs bestämmer systemet; samma sida visar när den senast kördes och kan synka direkt."
             ]
           },
           {
             "id": "without-icloud",
             "q": "Kan jag använda SimpleTime utan iCloud?",
             "a": [
-              "Ja. Utan iCloud stannar dina data på den här enheten. Du slår på eller av synken i iOS-inställningarna under ditt namn › iCloud. Utan iCloud är säkerhetskopior som du exporterar och förvarar på ett säkert ställe desto viktigare."
+              "Ja. Välj ”Bara på den här enheten” i Inställningar › Data och synkronisering – då stannar dina data på den här enda enheten. Desto viktigare blir säkerhetskopior: en plan för säkerhetskopiering sparar dem automatiskt, till exempel i en mapp i appen Filer eller på din egen server."
             ]
           },
           {
             "id": "backups",
             "q": "Hur fungerar säkerhetskopior?",
             "a": [
-              "Under Inställningar › Exportera / importera data slår du på automatiska säkerhetskopior – varje timme, dagligen, varje vecka eller varje månad. SimpleTime sparar dem som JSON-filer i iCloud Drive, i mappen ”SimpleTime/Backups”, och behåller de 20 senaste. Du kan också exportera en säkerhetskopia själv när som helst."
+              "Under Inställningar › Säkerhetskopior skapar du så många planer för säkerhetskopiering du vill. Varje plan har en plats – iCloud Drive, en mapp i appen Filer som Dropbox eller Google Drive, din egen server via WebDAV eller den här enheten –, ett schema från varje timme till varje månad, en lagringstid och, om du vill, ett lösenord. På samma sida kan du också göra en säkerhetskopia för hand när som helst."
             ]
           },
           {
             "id": "backup-password",
             "q": "Kan jag skydda mina säkerhetskopior med ett lösenord?",
             "a": [
-              "Ja. Med ett lösenord krypteras säkerhetskopian på din enhet innan den sparas. Förvara lösenordet väl: utan det kan ingen återställa säkerhetskopian – varken du eller vi. Det finns ingen väg runt."
+              "Ja. Anger du ett lösenord för en plan krypteras varje säkerhetskopia på din enhet innan den sparas. Kom ihåg lösenordet: utan det kan ingen återställa säkerhetskopian – varken du eller vi. Det finns ingen annan väg."
             ]
           },
           {
             "id": "restore",
             "q": "Hur återställer jag en säkerhetskopia?",
             "a": [
-              "Under Inställningar › Exportera / importera data › Importera säkerhetskopia från JSON. Befintliga data behålls och det som saknas fylls på. På en ny enhet väntar du först tills iCloud-synken har levererat dina data – annars kan uppgifter skapas två gånger."
+              "Under Inställningar › Säkerhetskopior återställer du en säkerhetskopia – från en av dina planer eller från en fil. Befintliga data behålls och det som saknas fylls på. Säkerhetskopior från SimpleTime 4.7 och tidigare importerar du under Inställningar › Exportera / importera data › Importera säkerhetskopia från JSON. På en ny enhet väntar du först tills iCloud-synken har levererat dina data – annars kan uppgifter skapas två gånger."
             ]
           },
           {
             "id": "export",
             "q": "Kan jag exportera mina data?",
             "a": [
-              "Ja, när som helst: som CSV-fil med uppgift, anteckning, längd, start och slut (för Excel, Numbers eller vilket analysverktyg som helst), som PDF-rapport eller som fullständig säkerhetskopia i JSON.",
-              "Under Inställningar › Exportera / importera data väljer du perioden för CSV-filen (från i dag till hela perioden, eller en egen, till exempel förra månaden)."
+              "Ja, när som helst: som CSV-fil med uppgift, anteckning, tid, start och slut – för Excel, Numbers eller vilket analysverktyg som helst –, som PDF-rapport eller som fullständig säkerhetskopia.",
+              "Under Inställningar › Exportera / importera data väljer du perioden för CSV-filen (från i dag till hela perioden, eller en egen, till exempel förra månaden). En säkerhetskopia gör du under Inställningar › Säkerhetskopior."
             ]
           },
           {
             "id": "import",
             "q": "Kan jag importera data från en annan app?",
             "a": [
-              "Inte direkt. SimpleTime importerar sina egna säkerhetskopior (JSON); CSV-filer från andra appar går inte att importera."
+              "Inte direkt. SimpleTime läser bara sina egna säkerhetskopior; CSV-filer från andra appar går inte att läsa in."
             ]
           },
           {
             "id": "new-device",
             "q": "Hur flyttar jag till en ny iPhone?",
             "a": [
-              "Logga in med samma Apple-konto och installera SimpleTime – iCloud hämtar tillbaka dina poster av sig själv. Om du inte använder iCloud exporterar du en säkerhetskopia på den gamla enheten och importerar den på den nya. Platser hör till varje enhet och synkas inte."
+              "Logga in med samma Apple-konto och installera SimpleTime – använder du iCloud (Inställningar › Data och synkronisering) kommer dina poster tillbaka av sig själva. Utan iCloud gör du en säkerhetskopia på den gamla enheten och återställer den på den nya. Platser hör till respektive enhet och synkas inte."
             ]
           }
         ]
@@ -584,14 +585,14 @@
             "id": "data-location",
             "q": "Var lagras mina data?",
             "a": [
-              "På dina enheter och i din privata iCloud. Ingen annan kan läsa dem – inte ens vi. SimpleTime har inga egna servrar."
+              "Där du väljer: i Inställningar › Data och synkronisering bestämmer du mellan ”Bara på den här enheten” och ditt privata iCloud. Ingen annan kan läsa dina poster – inte ens vi. Säkerhetskopior finns där dina planer för säkerhetskopiering lägger dem."
             ]
           },
           {
             "id": "tracking-me",
             "q": "Spårar SimpleTime mig?",
             "a": [
-              "Nej. Inga analysverktyg, inga annonser, inga SDK:er från tredje part, inga användarprofiler. Appen skickar inte dina data till oss eller till någon annan. Detaljerna finns i vår [integritetspolicy](@privacy)."
+              "Nej. SimpleTime visar inga annonser, säljer inga data, skapar inga användarprofiler och följer dig inte i andra appar och på andra webbplatser. För att vi snabbt ska hitta fel skickar appen anonyma kraschrapporter och användningsstatistik till vår egen server – utan enhets-ID och aldrig med dina uppgifter, tider eller anteckningar. Du stänger av det under Inställningar › Integritet › Översikt och behörigheter. Detaljerna finns i vår [integritetspolicy](@privacy)."
             ]
           },
           {
@@ -619,14 +620,7 @@
             "id": "delete-all",
             "q": "Hur raderar jag alla mina data?",
             "a": [
-              "I inställningarna under Integritet › Radera alla data. Där tar du bort allt på en gång – alla poster och uppgifter, papperskorgen, påminnelser, säkerhetskopiorna i iCloud Drive, exporter och inställningar – på den här enheten, i iCloud och, så snart de är online, på dina andra enheter. Det går inte att ångra."
-            ]
-          },
-          {
-            "id": "diagnostics",
-            "q": "Vad finns under Diagnostik?",
-            "a": [
-              "Om SimpleTime kraschar eller hänger sig ger iOS appen en rapport om det. Rapporterna stannar på din enhet och innehåller inga uppgifter och inga tider – bara stället i programmet där det hände. Om du vill kan du dela en med oss: det hjälper oss att hitta felet."
+              "I inställningarna under Integritet › Radera alla data. Där tar du bort allt på en gång – alla poster och uppgifter, papperskorgen, påminnelser, dina planers säkerhetskopior och de gamla säkerhetskopiorna i iCloud Drive, exporter och inställningar – på den här enheten, i iCloud och, så snart de är online, på dina andra enheter. Det går inte att ångra."
             ]
           }
         ]
@@ -770,7 +764,7 @@
             "id": "feedback",
             "q": "Jag har hittat ett fel eller har en idé – vart skickar jag det?",
             "a": [
-              "Skriv till oss på [contact@simple-time.app](mailto:contact@simple-time.app). Vid ett fel, ange gärna enhetsmodell och iOS-version. Om SimpleTime har kraschat hjälper en rapport från Inställningar › Diagnostik mycket. Vi läser varje meddelande."
+              "Skriv till oss på [contact@simple-time.app](mailto:contact@simple-time.app). Vid ett fel: ange gärna enhetsmodell och iOS-version och beskriv kort vad du höll på med. Varje meddelande läses."
             ]
           },
           {
@@ -790,8 +784,9 @@
     "translationNote": "Detta är en översättning av den tyska integritetspolicyn. Vid tveksamhet gäller [den tyska versionen](@privacy-de).",
     "summaryTitle": "I korthet",
     "summary": [
-      "Din tid är din. SimpleTime behöver inget konto, visar inga annonser och spårar dig inte.",
-      "Dina tidposter finns på dina enheter och i din privata iCloud – ingen annan kan läsa dem, inte ens vi. SimpleTime har inga egna servrar.",
+      "Din tid är din. SimpleTime behöver inget konto, visar inga annonser och säljer inte dina data.",
+      "Dina poster finns på dina enheter och, om du väljer det, i ditt privata iCloud – ingen annan kan läsa dem, inte ens vi.",
+      "För att vi snabbt ska hitta fel skickar appen anonyma kraschrapporter och användningsstatistik – utan enhets-ID, aldrig med dina poster och går att stänga av när som helst.",
       "Den här webbplatsen sätter inga egna cookies och laddar inget från tredje part. Hur många som besöker den räknar vi anonymt med Atriya, vår egen analystjänst."
     ],
     "sections": [
@@ -807,19 +802,21 @@
         "id": "app",
         "title": "Appen SimpleTime",
         "paragraphs": [
-          "SimpleTime är byggd så att vi inte behöver dina data. Allt du matar in – uppgifter, poster med sina tider och anteckningar, mål, påminnelser och inställningar – sparas på din enhet. Appen innehåller inga analysverktyg, ingen reklam och inga SDK:er från tredje part, och den skickar inte dina data till servrar hos oss: det finns inga. Vi har vid ingen tidpunkt tillgång till dina data."
+          "SimpleTime är byggt så att vi inte behöver dina data. Allt du skriver in – uppgifter, poster med tider och anteckningar, mål, påminnelser och inställningar – sparas på din enhet. Appen innehåller inga annonser och inga SDK:er från tredje part. Dina poster skickar den inte till någon server hos oss; vi har aldrig tillgång till dem. Vad appen anonymt rapporterar om krascher och användning står under ”Kraschrapporter och användningsstatistik”."
         ],
         "subsections": [
           {
-            "title": "iCloud-synkronisering",
+            "title": "Var dina data finns och iCloud-synk",
             "paragraphs": [
-              "Om du är inloggad på iCloud synkroniserar SimpleTime dina data mellan dina enheter med Apples CloudKit, i den privata databasen för ditt iCloud-konto. Apple överför och lagrar data i krypterad form; Apples integritetspolicy gäller. Vi kan varken se dessa data eller komma åt dem. Du kan stänga av synken i iOS-inställningarna under ditt namn › iCloud – dina data stannar då på enheten."
+              "I Inställningar › Data och synkronisering väljer du var dina data finns: bara på den här enheten eller i ditt iCloud. Använder du iCloud och har inte valt något annat, använder SimpleTime iCloud – som i tidigare versioner. En ändring gäller från nästa gång appen startar.",
+              "Med iCloud synkar SimpleTime dina data mellan dina enheter via Apples CloudKit, i den privata databasen i ditt iCloud-konto. Apple överför och lagrar data krypterat; Apples integritetspolicy gäller. Vi kan inte se dessa data eller komma åt dem. Byter du till ”Bara på den här enheten” finns dina data kvar i iCloud tills du raderar dem där – SimpleTime erbjuder det efter bytet."
             ]
           },
           {
             "title": "Säkerhetskopior",
             "paragraphs": [
-              "Om du slår på automatiska säkerhetskopior eller exporterar en säkerhetskopia sparar SimpleTime en fil med dina uppgifter, poster och påminnelser – automatiskt i din iCloud Drive (mappen ”SimpleTime/Backups”) eller där du själv väljer. Om du anger ett lösenord krypteras filen på din enhet (AES-GCM) innan den sparas; utan lösenordet kan ingen öppna den – inte heller vi. Av de automatiska säkerhetskopiorna behålls de 20 senaste."
+              "Under Inställningar › Säkerhetskopior skapar du planer för säkerhetskopiering. Varje plan sparar automatiskt dina uppgifter, dina poster med anteckningar, dina mål och dina påminnelser på den plats du väljer: i din iCloud Drive, i en mapp i appen Filer – till exempel hos Dropbox, Google Drive eller på ett USB-minne –, på din egen server via WebDAV eller bara på den här enheten. För iCloud Drive, Dropbox, Google Drive och andra tjänster gäller deras integritetspolicy; dina säkerhetskopior når aldrig oss. Inloggningsuppgifterna till en WebDAV-server sparas i nyckelringen på din enhet.",
+              "Anger du ett lösenord för en plan krypteras varje säkerhetskopia på din enhet innan den sparas (AES-GCM med 256 bitar, nyckeln härledd med PBKDF2); utan lösenordet kan ingen öppna den – inte ens vi. Hur länge en plan behåller säkerhetskopior bestämmer du själv. En säkerhetskopia du gör för hand går dit du väljer i delningsmenyn. Säkerhetskopior från SimpleTime 4.7 och tidigare finns kvar i din iCloud Drive, i mappen ”SimpleTime/Backups”."
             ]
           },
           {
@@ -844,7 +841,7 @@
           {
             "title": "Applås, Face ID och Touch ID",
             "paragraphs": [
-              "Om du använder applåset kontrollerar iOS Face ID, Touch ID eller enhetens lösenkod; SimpleTime får bara veta om kontrollen lyckades. Din egen kod och lösenordet för säkerhetskopior sparas i nyckelringen på din enhet."
+              "Om du använder applåset kontrollerar iOS Face ID, Touch ID eller enhetens lösenkod; SimpleTime får bara veta om kontrollen lyckades. Din egen kod och inloggningsuppgifterna till dina säkerhetskopior sparas i nyckelringen på din enhet."
             ]
           },
           {
@@ -854,9 +851,13 @@
             ]
           },
           {
-            "title": "Diagnostik",
+            "title": "Kraschrapporter och användningsstatistik",
             "paragraphs": [
-              "Om SimpleTime kraschar eller hänger sig ger iOS appen en diagnosrapport. Den stannar på din enhet, innehåller inga uppgifter och inga tider och lämnar din enhet bara om du själv delar den – till exempel via mejl till oss. Oberoende av detta gäller: om du har tillåtit att din enhet delar analysdata med apputvecklare (iOS-inställningar › Integritet och säkerhet › Analys och förbättringar) ger Apple oss kraschrapporter och statistik som inte identifierar dig."
+              "För att vi snabbt ska hitta fel och göra SimpleTime bättre skickar appen anonyma kraschrapporter och användningsstatistik till Atriya, vår egen analystjänst. Det som skickas är: krasch- och hängningsrapporterna som iOS eller macOS ger appen – med stället i koden, app- och systemversion och enhetsmodell –, när appen öppnas och hur länge den är i förgrunden, och vilka vyer som öppnas och vilka funktioner som används, till exempel ”tidtagning startad” eller ”rapport skapad”. Dina uppgifter, poster, tider, anteckningar och namn skickas aldrig.",
+              "SimpleTime sparar inget på din enhet för detta, inte ens en identifierare. När något skickas överförs oundvikligen din IP-adress. Vår server härleder bara landet ur den och bildar tillsammans med systemversion och enhetsmodell en identifierare som bara gäller i en dag: en hash med en slumpmässig dagsnyckel, som servern raderar senast efter två dagar. Därefter kan identifieraren inte längre kopplas till en IP-adress. Själva IP-adressen sparar vi inte. Så ser vi hur många enheter som använder SimpleTime en viss dag – känna igen dig eller följa dig från dag till dag kan vi inte.",
+              "Den rättsliga grunden är vårt berättigade intresse av en stabil, felfri app och av att veta vilka funktioner som behövs (art. 6.1 f GDPR). Du kan invända när som helst: stäng av ”Skicka kraschrapporter och statistik” i Inställningar › Integritet › Översikt och behörigheter; därefter skickar appen ingenting. Ditt val finns kvar även efter ”Radera alla data”.",
+              "Atriya driver vi själva. Servern finns hos IONOS SE, Elgendorfer Str. 57, 56410 Montabaur, Tyskland, i ett datacenter i Europeiska unionen; IONOS behandlar uppgifterna för vår räkning. Vi utvärderar dem bara sammanställda och lämnar inte ut dem. När dagsnyckeln är raderad är uppgifterna anonyma; vi sparar dem utan fast tidsgräns.",
+              "Oberoende av detta gäller: om du har tillåtit att din enhet delar analysdata med apputvecklare (iOS-inställningar › Integritet och säkerhet › Analys och förbättringar) ger Apple oss kraschrapporter och statistik som inte identifierar dig."
             ]
           },
           {
@@ -874,13 +875,13 @@
           {
             "title": "Export och delning",
             "paragraphs": [
-              "CSV-filer, PDF-rapporter, säkerhetskopior och bilder skapas på din enhet. Vart de tar vägen bestämmer du – i delningsmenyn."
+              "CSV-filer, PDF-rapporter, säkerhetskopior och bilder skapas på din enhet. Vart de tar vägen bestämmer du – i delningsmenyn eller med en plan för säkerhetskopiering."
             ]
           },
           {
             "title": "Radera dina data",
             "paragraphs": [
-              "I appens inställningar under Integritet › Radera alla data tar du bort allt som SimpleTime har sparat på en gång – på den här enheten, i iCloud och i säkerhetskopiorna i iCloud Drive; via iCloud når raderingen även dina andra enheter. Om du raderar appen försvinner dess data från den enheten."
+              "I appens inställningar under Integritet › Radera alla data tar du bort allt som SimpleTime har sparat på en gång – på den här enheten, i iCloud, dina planers säkerhetskopior var de än finns och de gamla säkerhetskopiorna i iCloud Drive; via iCloud når raderingen även dina andra enheter. Den anonyma statistiken kan inte kopplas till någon enhet och kan därför inte raderas riktat. Tar du bort appen försvinner dess data från den enheten."
             ]
           }
         ]
@@ -944,6 +945,127 @@
         "title": "Ändringar",
         "paragraphs": [
           "Vi uppdaterar den här integritetspolicyn när appen, webbplatsen eller lagen ändras. Datumet högst upp visar vilken version som gäller."
+        ]
+      }
+    ]
+  },
+  "terms": {
+    "title": "Användarvillkor",
+    "updated": "Senast uppdaterad",
+    "translationNote": "Detta är en översättning av de tyska användarvillkoren. Vid tveksamhet gäller [den tyska versionen](@terms-de).",
+    "summaryTitle": "I korthet",
+    "summary": [
+      "SimpleTime är gratis. Pro köper du i App Store, och där kan du när som helst säga upp prenumerationer.",
+      "Dina data är dina – säkerhetskopiera dem ändå, enklast med en plan för säkerhetskopiering.",
+      "Utöver dessa villkor gäller Apples licensavtal för appar från App Store."
+    ],
+    "sections": [
+      {
+        "id": "scope",
+        "title": "Tillämpningsområde",
+        "paragraphs": [
+          "Dessa villkor gäller för appen SimpleTime på iPhone, iPad, Mac och Apple Watch och för SimpleTime Pro. Leverantör är Luca Efinger, Friedrich-Ebert-Ring 16, 97072 Würzburg, Tyskland – mer under [ansvarig utgivare](@imprint).",
+          "Du hämtar SimpleTime från App Store. För det gäller Apples [licensavtal för licensierade appar](https://www.apple.com/legal/internet-services/itunes/dev/stdeula/) (standard-EULA). Den här sidan kompletterar det med vad som gäller för SimpleTime; där de motsäger varandra gäller standard-EULA."
+        ]
+      },
+      {
+        "id": "app",
+        "title": "Appen",
+        "paragraphs": [
+          "SimpleTime är gratis och fungerar utan konto – privat och i arbetet. Vi utvecklar appen vidare och kan då ändra, lägga till eller ta bort funktioner.",
+          "SimpleTime är ett verktyg för att registrera din egen tid. Om dina registreringar uppfyller lagkrav eller avtalskrav – till exempel för registrering av arbetstid eller för fakturering – kontrollerar du själv."
+        ]
+      },
+      {
+        "id": "pro",
+        "title": "SimpleTime Pro",
+        "paragraphs": [
+          "Pro finns per månad, per år eller som ett engångsköp för alltid. Apple sköter köp och betalning via App Store, och Apples villkor gäller. Priserna ser du i appen före köpet, inklusive moms.",
+          "Månads- och årsprenumerationer förnyas automatiskt tills du säger upp dem. Betalningen dras från ditt Apple-konto när du bekräftar köpet och vid varje förnyelse inom 24 timmar före periodens slut. Säger du upp minst 24 timmar före slutet av en period förnyas prenumerationen inte längre; Pro är aktivt till slutet av den betalda perioden. Prenumerationer hanterar och säger du upp i inställningarna för ditt Apple-konto.",
+          "Den som prenumererar för första gången kan prova gratis i en vecka. Säger du inte upp minst 24 timmar före slutet av provveckan börjar den betalda prenumerationen. Med Familjedelning kan upp till sex personer använda Pro.",
+          "Återbetalningar och en eventuell ångerrätt följer Apples villkor, eftersom Apple sköter köpet. Återbetalning begär du på [reportaproblem.apple.com](https://reportaproblem.apple.com)."
+        ]
+      },
+      {
+        "id": "data",
+        "title": "Dina data",
+        "paragraphs": [
+          "Det du skriver in i SimpleTime är ditt. Vi har ingen tillgång till det och kan därför inte heller återställa det åt dig. Säkerhetskopiera dina data regelbundet – SimpleTime hjälper dig med planer för säkerhetskopiering och export.",
+          "Hur vi hanterar data står i [integritetspolicyn](@privacy)."
+        ]
+      },
+      {
+        "id": "liability",
+        "title": "Ansvar",
+        "paragraphs": [
+          "Vi ansvarar obegränsat vid uppsåt och grov vårdslöshet, vid skada på liv, kropp eller hälsa och enligt den tyska produktansvarslagen. Vid lindrig vårdslöshet ansvarar vi bara om vi bryter mot en väsentlig skyldighet – en skyldighet vars fullgörande över huvud taget gör det möjligt att använda appen och som du får lita på –, och då bara för den förutsebara, typiska skadan.",
+          "För förlust av data ansvarar vi bara i den mån den hade uppstått även med regelbundna säkerhetskopior."
+        ]
+      },
+      {
+        "id": "law",
+        "title": "Tillämplig lag",
+        "paragraphs": [
+          "Tysk lag gäller, med undantag av FN:s konvention om avtal om internationella köp av varor. Använder du SimpleTime som konsument påverkas inte de tvingande konsumentskyddsreglerna i landet där du bor."
+        ]
+      },
+      {
+        "id": "changes",
+        "title": "Ändringar",
+        "paragraphs": [
+          "Vi uppdaterar dessa villkor när appen, vårt erbjudande eller lagen ändras. Datumet högst upp visar den gällande versionen. Frågor besvarar vi gärna på [contact@simple-time.app](mailto:contact@simple-time.app)."
+        ]
+      }
+    ]
+  },
+  "accessibility": {
+    "title": "Tillgänglighet",
+    "updated": "Senast uppdaterad",
+    "summaryTitle": "I korthet",
+    "summary": [
+      "SimpleTime fungerar med VoiceOver och stor text, på 41 språk.",
+      "Vid varje ändring kontrollerar vi automatiskt den här webbplatsen efter hinder.",
+      "Det som ännu inte är bra står nedan – och stöter du på ett hinder, skriv till oss."
+    ],
+    "sections": [
+      {
+        "id": "app",
+        "title": "Appen",
+        "paragraphs": [
+          "VoiceOver: knappar, diagram och tidsaxeln har etiketter som VoiceOver läser upp – på varje språk i appen.",
+          "Textstorlek: texten följer textstorleken i iOS upp till de största hjälpmedelsstorlekarna. Där väldigt stor text skulle täcka reglagen – i sidhuvudet och längs tidsaxeln – växer den bara upp till en gräns. Under Inställningar › Typsnitt ställer du dessutom in en egen textstorlek och fet text bara för SimpleTime.",
+          "Rörelse och färg: när ”Minska rörelse” är på tonar SimpleTime ned sina animeringar. Uppgifter känner du igen inte bara på färgen utan också på namn och symbol, och text är utformad för att vara läsbar i både ljust och mörkt utseende.",
+          "Språk: appen talar 41 språk, oberoende av enhetens språk – arabiska, hebreiska, persiska, pashto och urdu från höger till vänster."
+        ]
+      },
+      {
+        "id": "website",
+        "title": "Den här webbplatsen",
+        "paragraphs": [
+          "Vi bygger webbplatsen enligt Web Content Accessibility Guidelines (WCAG) 2.2, nivå AA: tydliga rubriker, alternativtext till bilder, tillräcklig kontrast i ljust och mörkt utseende, användning med tangentbord med synligt fokus och förstoring utan att innehåll försvinner.",
+          "Vid varje ändring kontrollerar ett automatiskt test sidorna med axe-core – på datorn och på mobilen, och på arabiska och hebreiska också från höger till vänster."
+        ]
+      },
+      {
+        "id": "limits",
+        "title": "Det här är inte bra än",
+        "paragraphs": [
+          "Vid de största textstorlekarna kan fältet med den pågående uppgiften klippa av text.",
+          "Diagrammen har ännu inga ljuddiagram för VoiceOver. Värdena finns dock också som text, i förklaringen och i statistiken."
+        ]
+      },
+      {
+        "id": "feedback",
+        "title": "Hittat ett hinder?",
+        "paragraphs": [
+          "Skriv till oss på [contact@simple-time.app](mailto:contact@simple-time.app) och beskriv kort var det tar stopp – i appen eller på den här webbplatsen. Vi svarar oftast inom några arbetsdagar och åtgärdar det vi kan i nästa uppdatering."
+        ]
+      },
+      {
+        "id": "about",
+        "title": "Om den här redogörelsen",
+        "paragraphs": [
+          "Redogörelsen bygger på våra egna kontroller av appen och webbplatsen – med VoiceOver, stor text och automatiska tester. Vi uppdaterar den när något ändras."
         ]
       }
     ]

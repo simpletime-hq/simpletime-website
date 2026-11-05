@@ -1,7 +1,7 @@
 {
   "store": {
     "lead": "SimpleTime zamanının nereye gittiğini kaydeder. Tek dokunuş başlatır, tek dokunuş durdurur.",
-    "promise": "Hesap yok, kayıt yok, reklam yok. Saatlerin cihazında ve kendi iCloud'unda kalır.",
+    "promise": "Hesap yok, kayıt yok, reklam yok. Saatlerin cihazında kalır – istersen kendi iCloud’unda da.",
     "sections": [
       {
         "id": "tracking",
@@ -39,7 +39,7 @@
         "points": [
           "Bölümlerini kendin seçip sıraladığın bir PDF rapor",
           "Excel ve Numbers için CSV",
-          "iCloud Drive'da yedekler, otomatik ve istersen parolayla şifreli"
+          "Yedekleme planları: otomatik olarak iCloud Drive’a, Dropbox ya da Google Drive gibi Dosyalar uygulamasındaki bir klasöre, kendi sunucuna ya da cihaza – istersen parolayla şifreli"
         ]
       },
       {
@@ -66,8 +66,9 @@
         "title": "Verilerin",
         "points": [
           "Face ID, Touch ID ya da kendi kodunla uygulama kilidi",
+          "Verilerinin nerede duracağını sen seçersin: yalnızca bu cihazda ya da iCloud’unda",
           "Gizlilik tek sayfada: tüm izinlere ve verilerine genel bakış",
-          "Hesap yok, bize ait sunucu yok, reklam yok, takip yok",
+          "Hesap yok, reklam yok, verilerin satılmaz – bize yalnızca anonim çökme raporları ve kullanım istatistikleri gelir, onları da kapatabilirsin",
           "Her şeyi tek seferde sil – cihazda, iCloud'da ve yedeklerde"
         ]
       }
@@ -99,7 +100,7 @@
       "proof": [
         "Ücretsiz indir",
         "Hesap yok",
-        "Reklam yok, takip yok"
+        "Reklam yok, veri satışı yok"
       ]
     },
     "tour": {
@@ -163,7 +164,7 @@
     },
     "cta": {
       "title": "Kayda başlamaya hazır mısın?",
-      "subtitle": "iPhone, iPad ve Mac'te ücretsiz. Hesap yok, reklam yok, takip yok.",
+      "subtitle": "iPhone, iPad ve Mac'te ücretsiz. Hesap yok, reklam yok, verilerin satılmaz.",
       "note": "Apple Watch uygulaması SimpleTime Pro'nun parçasıdır."
     }
   },
@@ -296,7 +297,7 @@
     "terms": "Kullanım koşulları (EULA)",
     "privacy": "Gizlilik politikası",
     "freeTitle": "Ücretsiz kalanlar",
-    "freeBody": "Kayıt için ihtiyacın olan her şey: görevler ve alt görevler, gün görünümü ve zaman çizelgesi, grafikler ve istatistikler, PDF rapor ve CSV dışa aktarma, widget'lar, Canlı Etkinlik, Denetim Merkezi ve Siri, iCloud eşitlemesi ve yedekler, uygulama kilidi – 41 dilde. Hesap yok, reklam yok, takip yok.",
+    "freeBody": "Kayıt için ihtiyacın olan her şey: görevler ve alt görevler, gün görünümü ve zaman çizelgesi, grafikler ve istatistikler, PDF rapor ve CSV dışa aktarma, widget'lar, Canlı Etkinlik, Denetim Merkezi ve Siri, iCloud eşitlemesi ve yedekleme planları, uygulama kilidi – 41 dilde. Hesap yok, reklam yok, verilerin satılmaz.",
     "howTitle": "Pro'yu nasıl alırsın",
     "how": [
       "SimpleTime'da Ayarlar › SimpleTime Pro'yu aç.",
@@ -328,7 +329,7 @@
             "id": "what-is",
             "q": "SimpleTime nedir?",
             "a": [
-              "SimpleTime; iPhone, iPad ve Mac için bir zaman takip uygulamasıdır. Tek dokunuş saati başlatır, tek dokunuş durdurur. Ardından SimpleTime sana zamanının nereye gittiğini gösterir – günlük liste ya da zaman çizelgesi olarak, grafiklerde ve istatistiklerde, PDF rapor ya da CSV dosyası olarak. Hesap yok, reklam yok, takip yok."
+              "SimpleTime; iPhone, iPad ve Mac için bir zaman takip uygulamasıdır. Tek dokunuş saati başlatır, tek dokunuş durdurur. Ardından SimpleTime sana zamanının nereye gittiğini gösterir – günlük liste ya da zaman çizelgesi olarak, grafiklerde ve istatistiklerde, PDF rapor ya da CSV dosyası olarak. Hesap yok, reklam yok, verilerin satılmaz."
             ]
           },
           {
@@ -521,57 +522,57 @@
             "id": "sync",
             "q": "SimpleTime cihazlarım arasında eşitleniyor mu?",
             "a": [
-              "Evet, iCloud üzerinden otomatik olarak – aynı Apple Hesabı ile oturum açılmış her cihazda. Eşitlemenin ne zaman yapılacağına sistem karar verir; ayarlar son eşitlemenin ne zaman olduğunu gösterir ve orada eşitlemeyi denetleyebilirsin."
+              "Evet, iCloud üzerinden – aynı Apple Hesabı ile oturum açılmış ve Ayarlar › Veriler ve eşzamanlama bölümünde iCloud kullanan her cihazda. Eşitlemenin ne zaman yapılacağına sistem karar verir; aynı sayfa son eşitlemenin ne zaman olduğunu gösterir ve hemen eşitleyebilir."
             ]
           },
           {
             "id": "without-icloud",
             "q": "SimpleTime'ı iCloud olmadan kullanabilir miyim?",
             "a": [
-              "Evet. iCloud olmadan verilerin yalnızca bu cihazda kalır. Eşitlemeyi iOS ayarlarında, adın › iCloud bölümünden açıp kapatabilirsin. iCloud olmadan, dışa aktarıp güvenli bir yerde sakladığın yedekler daha da önemlidir."
+              "Evet. Ayarlar › Veriler ve eşzamanlama bölümünde “Yalnızca bu aygıtta” seçeneğini seç – o zaman verilerin bu tek cihazda kalır. Bu durumda yedekler daha da önemlidir: bir yedekleme planı onları otomatik olarak kaydeder, örneğin Dosyalar uygulamasındaki bir klasöre ya da kendi sunucuna."
             ]
           },
           {
             "id": "backups",
             "q": "Yedekleme nasıl çalışır?",
             "a": [
-              "Ayarlar › Verileri dışa/içe aktar bölümünde otomatik yedeklemeyi açabilirsin – saatlik, günlük, haftalık ya da aylık. SimpleTime yedekleri iCloud Drive'da “SimpleTime/Backups” klasörüne JSON dosyaları olarak kaydeder ve en yeni 20 tanesini saklar. İstediğin zaman kendin de bir yedek dışa aktarabilirsin."
+              "Ayarlar › Yedekler bölümünde istediğin kadar yedekleme planı oluşturursun. Her planın bir yeri – iCloud Drive, Dropbox ya da Google Drive gibi Dosyalar uygulamasındaki bir klasör, WebDAV üzerinden kendi sunucun ya da bu cihaz –, saatlikten aylığa bir zamanlaması, bir saklama süresi ve istersen bir parolası vardır. Aynı sayfada istediğin an elle de yedek alabilirsin."
             ]
           },
           {
             "id": "backup-password",
             "q": "Yedeklerimi parolayla koruyabilir miyim?",
             "a": [
-              "Evet. Parola verirsen yedek dosyası kaydedilmeden önce cihazında şifrelenir. Parolayı iyi sakla: o olmadan yedeği kimse geri yükleyemez – ne sen ne de biz. Bunun bir yolu yok."
+              "Evet. Bir plan için parola belirlersen her yedek kaydedilmeden önce cihazında şifrelenir. Parolanı iyi sakla: o olmadan yedeği kimse geri yükleyemez – ne sen ne de biz. Başka bir yolu yoktur."
             ]
           },
           {
             "id": "restore",
             "q": "Bir yedeği nasıl geri yüklerim?",
             "a": [
-              "Ayarlar › Verileri dışa/içe aktar › JSON'dan yedek içe aktar. Mevcut verilerin kalır, eksikler tamamlanır. Yeni bir cihazda önce iCloud eşitlemesinin verilerini getirmesini bekle – yoksa görevler iki kez görünebilir."
+              "Ayarlar › Yedekler bölümünde bir yedeği geri yüklersin – planlarından birinden ya da bir dosyadan. Mevcut verilerin kalır, eksikler tamamlanır. SimpleTime 4.7 ve önceki sürümlerin yedeklerini Ayarlar › Verileri dışa/içe aktar › JSON'dan yedek içe aktar bölümünden içe aktarırsın. Yeni bir cihazda önce iCloud eşitlemesinin verilerini getirmesini bekle – yoksa görevler iki kez görünebilir."
             ]
           },
           {
             "id": "export",
             "q": "Verilerimi dışa aktarabilir miyim?",
             "a": [
-              "Evet, istediğin zaman: görev, not, süre, başlangıç ve bitiş içeren bir CSV dosyası olarak – Excel, Numbers ya da herhangi bir analiz aracı için –, PDF rapor olarak ya da JSON biçiminde eksiksiz bir yedek olarak.",
-              "Ayarlar › Verileri dışa/içe aktar bölümünde CSV dosyasının dönemini seç – bugünden tüm zamanlara ya da kendi belirlediğin bir aralık, örneğin geçen ay."
+              "Evet, istediğin zaman: görev, not, süre, başlangıç ve bitiş içeren bir CSV dosyası olarak – Excel, Numbers ya da herhangi bir analiz aracı için –, PDF rapor olarak ya da eksiksiz bir yedek olarak.",
+              "Ayarlar › Verileri dışa/içe aktar bölümünde CSV dosyasının dönemini seç – bugünden tüm zamanlara ya da kendi belirlediğin bir aralık, örneğin geçen ay. Yedeği Ayarlar › Yedekler bölümünde alırsın."
             ]
           },
           {
             "id": "import",
             "q": "Başka bir uygulamadan veri aktarabilir miyim?",
             "a": [
-              "Doğrudan değil. SimpleTime kendi yedeklerini (JSON) içe aktarır; diğer uygulamalardan gelen CSV dosyaları içe aktarılamaz."
+              "Doğrudan değil. SimpleTime yalnızca kendi yedeklerini okur; başka uygulamalardan gelen CSV dosyaları içe aktarılamaz."
             ]
           },
           {
             "id": "new-device",
             "q": "Yeni bir iPhone'a nasıl geçerim?",
             "a": [
-              "Aynı Apple Hesabı ile oturum aç ve SimpleTime'ı yükle – iCloud kayıtlarını kendiliğinden geri getirir. iCloud kullanmıyorsan eski cihazda bir yedek dışa aktar ve yenisinde içe aktar. Yerler her cihazın kendisine aittir ve eşitlenmez."
+              "Aynı Apple Hesabı ile oturum aç ve SimpleTime’ı yükle – iCloud kullanıyorsan (Ayarlar › Veriler ve eşzamanlama) kayıtların kendiliğinden geri gelir. iCloud olmadan eski cihazda bir yedek al ve yenisinde geri yükle. Yerler her cihaza aittir ve eşitlenmez."
             ]
           }
         ]
@@ -584,14 +585,14 @@
             "id": "data-location",
             "q": "Verilerim nerede saklanıyor?",
             "a": [
-              "Cihazlarında ve sana özel iCloud alanında. Onları başka kimse okuyamaz – biz bile. SimpleTime'ın kendi sunucuları yoktur."
+              "Senin seçtiğin yerde: Ayarlar › Veriler ve eşzamanlama bölümünde “Yalnızca bu aygıtta” ile kendi özel iCloud’un arasında karar verirsin. Kayıtlarını başka kimse okuyamaz – biz bile. Yedekler, yedekleme planlarının onları koyduğu yerde durur."
             ]
           },
           {
             "id": "tracking-me",
             "q": "SimpleTime beni takip ediyor mu?",
             "a": [
-              "Hayır. Analiz yok, reklam yok, üçüncü taraf SDK'ları yok, kullanıcı profili yok. Uygulama verilerini ne bize ne de başka birine gönderir. Ayrıntıları [gizlilik politikamızda](@privacy) bulabilirsin."
+              "Hayır. SimpleTime reklam göstermez, veri satmaz, kullanıcı profili oluşturmaz ve seni başka uygulamalarda ve web sitelerinde izlemez. Hataları hızla bulabilmemiz için uygulama, kendi sunucumuza anonim çökme raporları ve kullanım istatistikleri gönderir – cihaz kimliği olmadan ve asla görevlerin, sürelerin ya da notlarınla birlikte değil. Bunu Ayarlar › Gizlilik › Genel bakış ve izinler bölümünden kapatabilirsin. Ayrıntılar [gizlilik politikamızda](@privacy)."
             ]
           },
           {
@@ -619,14 +620,7 @@
             "id": "delete-all",
             "q": "Tüm verilerimi nasıl silerim?",
             "a": [
-              "Ayarlarda Gizlilik › Tüm verileri sil bölümünden. Bu, her şeyi tek seferde kaldırır – tüm kayıtları ve görevleri, çöpü, hatırlatıcıları, iCloud Drive'daki yedekleri, dışa aktarımları ve ayarları – bu cihazda, iCloud'da ve çevrimiçi olur olmaz diğer cihazlarında. Bu işlem geri alınamaz."
-            ]
-          },
-          {
-            "id": "diagnostics",
-            "q": "Tanılama bölümünde neler var?",
-            "a": [
-              "SimpleTime çökerse veya donarsa iOS bunu uygulamaya bir raporla bildirir. Raporlar cihazında kalır; içlerinde görev ya da süre yoktur – yalnızca programda sorunun oluştuğu yer bulunur. İstersen birini bizimle paylaş: hatayı bulmamıza yardımcı olur."
+              "Ayarlarda Gizlilik › Tüm verileri sil bölümünden. Böylece her şeyi tek seferde kaldırırsın – tüm kayıtları ve görevleri, çöp kutusunu, anımsatıcıları, planlarının yedeklerini ve iCloud Drive’daki eski yedekleri, dışa aktarmaları ve ayarları – bu cihazda, iCloud’da ve çevrimiçi olur olmaz diğer cihazlarında. Bu işlem geri alınamaz."
             ]
           }
         ]
@@ -770,7 +764,7 @@
             "id": "feedback",
             "q": "Bir hata buldum ya da bir fikrim var – nereye göndereyim?",
             "a": [
-              "Bize [contact@simple-time.app](mailto:contact@simple-time.app) adresinden yaz. Bir hata için lütfen cihaz modelini ve iOS sürümünü belirt. SimpleTime çöktüyse Ayarlar › Tanılama bölümünden bir rapor çok yardımcı olur. Her mesaj okunur."
+              "Bize [contact@simple-time.app](mailto:contact@simple-time.app) adresinden yaz. Bir hata için lütfen cihaz modelini ve iOS sürümünü belirt ve o sırada ne yaptığını kısaca anlat. Her mesaj okunur."
             ]
           },
           {
@@ -790,8 +784,9 @@
     "translationNote": "Bu, Almanca gizlilik politikasının bir çevirisidir. Şüphe durumunda [Almanca sürüm](@privacy-de) geçerlidir.",
     "summaryTitle": "Kısaca",
     "summary": [
-      "Zamanın sana ait. SimpleTime hesap gerektirmez, reklam göstermez ve seni takip etmez.",
-      "Kayıtların cihazlarında ve sana özel iCloud alanında durur – onları başka kimse okuyamaz, biz bile. SimpleTime'ın kendi sunucuları yoktur.",
+      "Zamanın sana ait. SimpleTime hesap gerektirmez, reklam göstermez ve verilerini satmaz.",
+      "Kayıtların cihazlarında ve istersen kendi özel iCloud’unda durur – onları başka kimse okuyamaz, biz bile.",
+      "Hataları hızla bulabilmemiz için uygulama anonim çökme raporları ve kullanım istatistikleri gönderir – cihaz kimliği olmadan, asla kayıtlarınla birlikte değil ve istediğin an kapatılabilir.",
       "Bu web sitesi kendine ait çerez yerleştirmez ve üçüncü taraflardan hiçbir şey yüklemez. Kaç kişinin ziyaret ettiğini kendi analiz hizmetimiz Atriya ile anonim olarak sayarız."
     ],
     "sections": [
@@ -807,19 +802,21 @@
         "id": "app",
         "title": "SimpleTime uygulaması",
         "paragraphs": [
-          "SimpleTime, verilerine ihtiyaç duymayacağımız şekilde tasarlanmıştır. Girdiğin her şey – görevler, süreleri ve notlarıyla kayıtlar, hedefler, hatırlatıcılar ve ayarlar – cihazında saklanır. Uygulama analiz aracı, reklam ya da üçüncü taraf SDK'sı içermez ve verilerini bize ait sunuculara göndermez: böyle sunucular yoktur. Verilerine hiçbir zaman erişimimiz yoktur."
+          "SimpleTime, verilerine ihtiyacımız olmayacak şekilde tasarlandı. Girdiğin her şey – görevler, süreleri ve notlarıyla kayıtlar, hedefler, anımsatıcılar ve ayarlar – cihazında saklanır. Uygulamada reklam ve üçüncü taraf SDK’ları yoktur. Kayıtlarını bize ait hiçbir sunucuya göndermez; onlara hiçbir zaman erişimimiz yoktur. Uygulamanın çökmeler ve kullanım hakkında anonim olarak neler bildirdiği “Çökme raporları ve kullanım istatistikleri” bölümünde anlatılır."
         ],
         "subsections": [
           {
-            "title": "iCloud eşitlemesi",
+            "title": "Verilerin nerede durduğu ve iCloud eşitlemesi",
             "paragraphs": [
-              "iCloud'da oturum açtıysan SimpleTime, verilerini Apple'ın CloudKit hizmetiyle, iCloud hesabının özel veritabanında cihazların arasında eşitler. Apple verileri şifreli olarak iletir ve saklar; Apple'ın gizlilik politikası geçerlidir. Bu verileri göremeyiz ve onlara erişemeyiz. Eşitlemeyi iOS ayarlarında, adın › iCloud bölümünden kapatabilirsin – verilerin o zaman cihazda kalır."
+              "Ayarlar › Veriler ve eşzamanlama bölümünde verilerinin nerede duracağını seçersin: yalnızca bu cihazda ya da iCloud’unda. iCloud kullanıyorsan ve başka bir seçim yapmadıysan SimpleTime, önceki sürümlerde olduğu gibi iCloud’u kullanır. Bir değişiklik, uygulamanın bir sonraki açılışından itibaren geçerli olur.",
+              "iCloud ile SimpleTime verilerini Apple’ın CloudKit’i aracılığıyla cihazların arasında eşitler – iCloud hesabının özel veritabanında. Apple verileri şifreli olarak aktarır ve saklar; Apple’ın gizlilik politikası geçerlidir. Bu verileri ne görebilir ne de onlara erişebiliriz. “Yalnızca bu aygıtta” seçeneğine geçersen verilerin, sen oradan silene kadar iCloud’da kalır – SimpleTime geçişten sonra bunu sana önerir."
             ]
           },
           {
             "title": "Yedekler",
             "paragraphs": [
-              "Otomatik yedeklemeyi açarsan ya da bir yedeği dışa aktarırsan SimpleTime görevlerini, kayıtlarını ve hatırlatıcılarını içeren bir dosya kaydeder – otomatik olarak iCloud Drive'ına (“SimpleTime/Backups” klasörü) ya da seçtiğin bir yere. Parola belirlersen dosya kaydedilmeden önce cihazında şifrelenir (AES-GCM); parola olmadan onu kimse açamaz – biz de. Otomatik yedeklerden en yeni 20 tanesi saklanır."
+              "Ayarlar › Yedekler bölümünde yedekleme planları oluşturursun. Her plan görevlerini, notlarıyla birlikte kayıtlarını, hedeflerini ve anımsatıcılarını seçtiğin yere otomatik olarak kaydeder: iCloud Drive’ına, Dosyalar uygulamasındaki bir klasöre – örneğin Dropbox’a, Google Drive’a ya da bir USB belleğe –, WebDAV üzerinden kendi sunucuna ya da yalnızca bu cihaza. iCloud Drive, Dropbox, Google Drive ve diğer hizmetler için onların gizlilik politikası geçerlidir; yedeklerin asla bize ulaşmaz. Bir WebDAV sunucusunun giriş bilgileri cihazındaki anahtar zincirinde saklanır.",
+              "Bir plan için parola belirlersen her yedek kaydedilmeden önce cihazında şifrelenir (256 bit AES-GCM, anahtar PBKDF2 ile türetilir); parola olmadan onu kimse açamaz – biz bile. Bir planın yedeklerini ne kadar süre tutacağına sen karar verirsin. Elle aldığın bir yedek, paylaşma menüsünde seçtiğin yere gider. SimpleTime 4.7 ve önceki sürümlerin yedekleri iCloud Drive’ında, “SimpleTime/Backups” klasöründe kalır."
             ]
           },
           {
@@ -844,7 +841,7 @@
           {
             "title": "Uygulama kilidi, Face ID ve Touch ID",
             "paragraphs": [
-              "Uygulama kilidini kullanırsan Face ID'yi, Touch ID'yi ya da cihaz kodunu iOS denetler; SimpleTime yalnızca denetimin başarılı olup olmadığını öğrenir. Kendi kodun ve yedek parolası cihazındaki anahtar zincirinde saklanır."
+              "Uygulama kilidini kullanırsan Face ID’yi, Touch ID’yi ya da cihaz kodunu iOS denetler; SimpleTime yalnızca denetimin başarılı olup olmadığını öğrenir. Kendi kodun ve yedeklerinin erişim bilgileri cihazındaki anahtar zincirinde saklanır."
             ]
           },
           {
@@ -854,9 +851,13 @@
             ]
           },
           {
-            "title": "Tanılama",
+            "title": "Çökme raporları ve kullanım istatistikleri",
             "paragraphs": [
-              "SimpleTime çökerse veya donarsa iOS uygulamaya bir tanılama raporu verir. Bu rapor cihazında kalır, görev ya da süre içermez ve yalnızca sen paylaşırsan cihazından çıkar – örneğin bize e-postayla. Bundan bağımsız olarak, cihazının analiz verilerini uygulama geliştiricileriyle paylaşmasına izin verdiysen (iOS'ta Ayarlar › Gizlilik ve Güvenlik › Analizler ve İyileştirmeler), Apple bize seni tanımlamayan çökme raporları ve istatistikler sağlar."
+              "Hataları hızla bulmak ve SimpleTime’ı iyileştirmek için uygulama, kendi analiz hizmetimiz Atriya’ya anonim çökme raporları ve kullanım istatistikleri gönderir. Gönderilenler şunlardır: iOS’un ya da macOS’un uygulamaya verdiği çökme ve donma raporları – koddaki yer, uygulama ve sistem sürümü ve cihaz modeliyle –, uygulamanın ne zaman açıldığı ve ne kadar süre ön planda kaldığı, hangi ekranların açıldığı ve hangi işlevlerin kullanıldığı, örneğin “kayıt başlatıldı” ya da “rapor oluşturuldu”. Görevlerin, kayıtların, sürelerin, notların ve adların asla gönderilmez.",
+              "SimpleTime bunun için cihazında hiçbir şey saklamaz, bir tanımlayıcı bile. Gönderim sırasında IP adresin kaçınılmaz olarak aktarılır. Sunucumuz bundan yalnızca ülkeyi çıkarır ve sistem sürümü ile cihaz modeliyle birlikte yalnızca bir gün geçerli olan bir tanımlayıcı oluşturur: rastgele bir günlük anahtarla hesaplanan bir hash; sunucu bu anahtarı en geç iki gün sonra siler. Ardından tanımlayıcı artık bir IP adresiyle ilişkilendirilemez. IP adresinin kendisini saklamayız. Böylece bir günde kaç cihazın SimpleTime kullandığını görürüz – seni tanıyamaz ya da günden güne takip edemeyiz.",
+              "Hukuki dayanak, kararlı ve hatasız bir uygulamaya ve hangi işlevlere ihtiyaç duyulduğunu bilmeye yönelik meşru menfaatimizdir (GDPR m. 6/1-f). İstediğin an itiraz edebilirsin: Ayarlar › Gizlilik › Genel bakış ve izinler bölümünde “Çökme raporlarını ve istatistikleri gönder” seçeneğini kapat; bundan sonra uygulama hiçbir şey göndermez. Seçimin “Tüm verileri sil” sonrasında da korunur.",
+              "Atriya’yı kendimiz işletiyoruz. Sunucu, IONOS SE, Elgendorfer Str. 57, 56410 Montabaur, Almanya bünyesinde, Avrupa Birliği’ndeki bir veri merkezinde barındırılır; IONOS verileri bizim adımıza işler. Verileri yalnızca toplu olarak değerlendiririz ve kimseyle paylaşmayız. Günlük anahtar silindikten sonra veriler anonimdir; onları sabit bir süre olmadan saklarız.",
+              "Bundan bağımsız olarak, cihazının analiz verilerini uygulama geliştiricileriyle paylaşmasına izin verdiysen (iOS’ta Ayarlar › Gizlilik ve Güvenlik › Analizler ve İyileştirmeler), Apple bize seni tanımlamayan çökme raporları ve istatistikler sağlar."
             ]
           },
           {
@@ -874,13 +875,13 @@
           {
             "title": "Dışa aktarma ve paylaşma",
             "paragraphs": [
-              "CSV dosyaları, PDF raporlar, yedekler ve görseller cihazında oluşturulur. Nereye gideceklerine sen karar verirsin – paylaşma menüsünde."
+              "CSV dosyaları, PDF raporlar, yedekler ve görseller cihazında oluşturulur. Nereye gideceklerine sen karar verirsin – paylaşma menüsünde ya da bir yedekleme planıyla."
             ]
           },
           {
             "title": "Verilerinin silinmesi",
             "paragraphs": [
-              "Uygulamanın ayarlarında Gizlilik › Tüm verileri sil ile SimpleTime'ın sakladığı her şeyi tek seferde kaldırırsın – bu cihazda, iCloud'da ve iCloud Drive'daki yedeklerde; silme işlemi iCloud üzerinden diğer cihazlarına da ulaşır. Uygulamayı silmek, onun verilerini o cihazdan kaldırır."
+              "Uygulamanın ayarlarında Gizlilik › Tüm verileri sil bölümünden SimpleTime’ın kaydettiği her şeyi tek seferde kaldırırsın – bu cihazda, iCloud’da, nerede olurlarsa olsunlar planlarının yedeklerini ve iCloud Drive’daki eski yedekleri; silme işlemi iCloud üzerinden diğer cihazlarına da ulaşır. Anonim istatistikler hiçbir cihazla ilişkilendirilemediği için hedefli olarak silinemez. Uygulamayı silersen verileri o cihazdan kaybolur."
             ]
           }
         ]
@@ -944,6 +945,127 @@
         "title": "Değişiklikler",
         "paragraphs": [
           "Uygulama, web sitesi ya da mevzuat değiştiğinde bu gizlilik politikasını güncelleriz. En üstteki tarih geçerli sürümü gösterir."
+        ]
+      }
+    ]
+  },
+  "terms": {
+    "title": "Kullanım koşulları",
+    "updated": "Son güncelleme",
+    "translationNote": "Bu, Almanca kullanım koşullarının bir çevirisidir. Şüphe durumunda [Almanca sürüm](@terms-de) geçerlidir.",
+    "summaryTitle": "Kısaca",
+    "summary": [
+      "SimpleTime ücretsizdir. Pro’yu App Store’dan satın alırsın ve abonelikleri istediğin an orada iptal edebilirsin.",
+      "Verilerin sana aittir – yine de onları yedekle, en kolayı bir yedekleme planıyla.",
+      "Bu koşullara ek olarak Apple’ın App Store uygulamaları için lisans sözleşmesi geçerlidir."
+    ],
+    "sections": [
+      {
+        "id": "scope",
+        "title": "Kapsam",
+        "paragraphs": [
+          "Bu koşullar iPhone, iPad, Mac ve Apple Watch’taki SimpleTime uygulaması ve SimpleTime Pro için geçerlidir. Sağlayıcı Luca Efinger, Friedrich-Ebert-Ring 16, 97072 Würzburg, Almanya’dır – ayrıntılar [künyede](@imprint).",
+          "SimpleTime’ı App Store’dan indirirsin. Bunun için Apple’ın [lisanslı uygulamalar için son kullanıcı lisans sözleşmesi](https://www.apple.com/legal/internet-services/itunes/dev/stdeula/) (standart EULA) geçerlidir. Bu sayfa onu SimpleTime için geçerli olanlarla tamamlar; ikisi çeliştiğinde standart EULA geçerlidir."
+        ]
+      },
+      {
+        "id": "app",
+        "title": "Uygulama",
+        "paragraphs": [
+          "SimpleTime ücretsizdir ve hesap olmadan çalışır – kişisel ve iş amaçlı kullanım için. Uygulamayı geliştirmeye devam ediyoruz ve bu sırada işlevleri değiştirebilir, ekleyebilir ya da kaldırabiliriz.",
+          "SimpleTime kendi zamanını kaydetmen için bir araçtır. Kayıtlarının yasal ya da sözleşmeden doğan gereklilikleri karşılayıp karşılamadığını – örneğin çalışma süresinin kaydı ya da faturalandırma için – kendin kontrol edersin."
+        ]
+      },
+      {
+        "id": "pro",
+        "title": "SimpleTime Pro",
+        "paragraphs": [
+          "Pro aylık, yıllık ya da tek seferlik bir satın almayla süresiz olarak sunulur. Satın alma ve ödemeyi Apple, App Store üzerinden yürütür ve Apple’ın koşulları geçerlidir. Fiyatları satın almadan önce uygulamada, KDV dahil olarak görürsün.",
+          "Aylık ve yıllık abonelikler sen iptal edene kadar otomatik olarak yenilenir. Ödeme, satın almayı onayladığında ve her yenilemede dönem bitmeden önceki 24 saat içinde Apple Hesabından tahsil edilir. Bir dönemin bitiminden en az 24 saat önce iptal edersen abonelik artık yenilenmez; Pro, ödenen dönemin sonuna kadar etkin kalır. Abonelikleri Apple Hesabının ayarlarında yönetir ve iptal edersin.",
+          "İlk kez abone olanlar bir hafta ücretsiz deneyebilir. Deneme haftasının bitiminden en az 24 saat önce iptal etmezsen ücretli abonelik başlar. Aile Paylaşımı ile en fazla altı kişi Pro kullanabilir.",
+          "Para iadeleri ve olası bir cayma hakkı, satın almayı Apple yürüttüğü için Apple’ın koşullarına tabidir. İadeyi [reportaproblem.apple.com](https://reportaproblem.apple.com) adresinden talep edebilirsin."
+        ]
+      },
+      {
+        "id": "data",
+        "title": "Verilerin",
+        "paragraphs": [
+          "SimpleTime’a girdiğin her şey sana aittir. Bunlara erişimimiz yoktur ve bu yüzden senin için geri de yükleyemeyiz. Verilerini düzenli olarak yedekle – SimpleTime yedekleme planları ve dışa aktarmayla sana yardımcı olur.",
+          "Verileri nasıl işlediğimiz [gizlilik politikasında](@privacy) anlatılır."
+        ]
+      },
+      {
+        "id": "liability",
+        "title": "Sorumluluk",
+        "paragraphs": [
+          "Kast ve ağır ihmal durumunda, yaşama, vücuda ya da sağlığa verilen zararlarda ve Alman Ürün Sorumluluğu Kanunu uyarınca sınırsız sorumluyuz. Hafif ihmalde yalnızca temel bir yükümlülüğü ihlal edersek sorumluyuz – yerine getirilmesi uygulamanın kullanılmasını mümkün kılan ve güvenebileceğin bir yükümlülük –, o zaman da yalnızca öngörülebilir, tipik zarar kadar.",
+          "Veri kaybından yalnızca düzenli yedeklemeyle de oluşacak ölçüde sorumluyuz."
+        ]
+      },
+      {
+        "id": "law",
+        "title": "Uygulanacak hukuk",
+        "paragraphs": [
+          "Birleşmiş Milletler Uluslararası Mal Satımına İlişkin Sözleşmeler Hakkında Antlaşma hariç olmak üzere Alman hukuku uygulanır. SimpleTime’ı tüketici olarak kullanıyorsan yaşadığın ülkenin emredici tüketici koruma kuralları geçerliliğini korur."
+        ]
+      },
+      {
+        "id": "changes",
+        "title": "Değişiklikler",
+        "paragraphs": [
+          "Uygulama, sunduklarımız ya da mevzuat değiştiğinde bu koşulları güncelleriz. Üstteki tarih geçerli sürümü gösterir. Soruların için bize [contact@simple-time.app](mailto:contact@simple-time.app) adresinden yaz."
+        ]
+      }
+    ]
+  },
+  "accessibility": {
+    "title": "Erişilebilirlik",
+    "updated": "Son güncelleme",
+    "summaryTitle": "Kısaca",
+    "summary": [
+      "SimpleTime, VoiceOver ve büyük metinle 41 dilde kullanılabilir.",
+      "Her değişiklikte bu web sitesini engellere karşı otomatik olarak denetliyoruz.",
+      "Henüz iyi olmayanlar aşağıda yazıyor – bir engelle karşılaşırsan bize yaz."
+    ],
+    "sections": [
+      {
+        "id": "app",
+        "title": "Uygulama",
+        "paragraphs": [
+          "VoiceOver: düğmelerin, grafiklerin ve zaman çizelgesinin VoiceOver’ın sesli okuduğu etiketleri vardır – uygulamanın her dilinde.",
+          "Metin boyutu: metin, iOS’taki metin boyutunu en büyük erişilebilirlik boyutlarına kadar izler. Çok büyük metnin denetimleri kapatacağı yerlerde – başlıkta ve zaman çizelgesi boyunca – yalnızca belirli bir sınıra kadar büyür. Ayarlar › Yazı tipi bölümünde ayrıca yalnızca SimpleTime için kendi metin boyutunu ve kalın metni ayarlarsın.",
+          "Hareket ve renk: “Hareketi Azalt” açıkken SimpleTime animasyonlarını yumuşatır. Görevleri yalnızca renklerinden değil, adlarından ve simgelerinden de ayırt edersin; metinler hem açık hem de koyu görünümde okunaklı kalacak şekilde tasarlanmıştır.",
+          "Diller: uygulama, cihazının dilinden bağımsız olarak 41 dil konuşur – Arapça, İbranice, Farsça, Peştuca ve Urduca sağdan sola."
+        ]
+      },
+      {
+        "id": "website",
+        "title": "Bu web sitesi",
+        "paragraphs": [
+          "Bu web sitesini Web İçeriği Erişilebilirlik Yönergeleri’ne (WCAG) 2.2, AA düzeyine göre oluşturuyoruz: açık başlıklar, görseller için alternatif metin, açık ve koyu görünümde yeterli kontrast, görünür odakla klavyeden kullanım ve içerik kaybı olmadan yakınlaştırma.",
+          "Her değişiklikte otomatik bir test, sayfaları axe-core ile denetler – bilgisayarda ve telefonda, Arapça ve İbranicede ayrıca sağdan sola."
+        ]
+      },
+      {
+        "id": "limits",
+        "title": "Henüz iyi olmayanlar",
+        "paragraphs": [
+          "En büyük metin boyutlarında, çalışan görevin çubuğu metni kesebilir.",
+          "Grafikler VoiceOver için henüz sesli grafik sunmuyor. Ancak değerleri metin olarak da açıklamada ve istatistiklerde yer alır."
+        ]
+      },
+      {
+        "id": "feedback",
+        "title": "Bir engel mi buldun?",
+        "paragraphs": [
+          "Bize [contact@simple-time.app](mailto:contact@simple-time.app) adresinden yaz ve nerede takıldığını kısaca anlat – uygulamada ya da bu web sitesinde. Genellikle birkaç iş günü içinde yanıt verir ve düzeltebildiğimizi bir sonraki güncellemede düzeltiriz."
+        ]
+      },
+      {
+        "id": "about",
+        "title": "Bu açıklama hakkında",
+        "paragraphs": [
+          "Bu açıklama, uygulamayı ve web sitesini kendi yaptığımız denetimlere dayanır – VoiceOver, büyük metin ve otomatik testlerle. Bir şey değiştiğinde onu güncelleriz."
         ]
       }
     ]

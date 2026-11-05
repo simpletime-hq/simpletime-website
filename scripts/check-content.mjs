@@ -4,7 +4,8 @@
  *
  * The copy lives in two places: src/i18n/ui.ts (navigation, page titles, the
  * contact page and the imprint) and src/i18n/content/<lang>.json (the App Store
- * text, home page, Pro page, FAQ and privacy policy). A missing key does not
+ * text, home page, Pro page, FAQ, privacy policy, terms of use and accessibility
+ * statement). A missing key does not
  * break the build – the page just shows English, or nothing – so this is the
  * place that notices.
  *
@@ -24,7 +25,9 @@ const { ui, languages } = await import(join(ROOT, 'src/i18n/ui.ts'));
 
 const LINK = /\[([^\]]+)\]\(([^)\s]+)\)/g;
 const PLACEHOLDER = /\{[a-z]+\}/g;
-const INTERNAL = new Set(['@home', '@pro', '@faq', '@contact', '@privacy', '@privacy-de']);
+const INTERNAL = new Set([
+  '@home', '@pro', '@faq', '@contact', '@privacy', '@privacy-de', '@terms', '@terms-de', '@accessibility', '@imprint',
+]);
 
 const problems = [];
 const langs = Object.keys(languages);

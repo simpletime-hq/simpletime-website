@@ -1,7 +1,7 @@
 {
   "store": {
     "lead": "SimpleTime registra come passi il tuo tempo. Un tocco avvia, un tocco ferma.",
-    "promise": "Nessun account, nessuna registrazione, nessuna pubblicità. Le tue ore restano sul tuo dispositivo e nel tuo iCloud.",
+    "promise": "Nessun account, nessuna registrazione, nessuna pubblicità. Le tue ore restano sul tuo dispositivo – e nel tuo iCloud, se vuoi.",
     "sections": [
       {
         "id": "tracking",
@@ -39,7 +39,7 @@
         "points": [
           "Un report PDF di cui scegli e ordini tu le sezioni",
           "CSV per Excel e Numbers",
-          "Backup in iCloud Drive, automatici e cifrati con password se vuoi"
+          "Piani di backup: automatici in iCloud Drive, in una cartella dell’app File come Dropbox o Google Drive, sul tuo server o sul dispositivo – cifrati con password se vuoi"
         ]
       },
       {
@@ -66,8 +66,9 @@
         "title": "I tuoi dati",
         "points": [
           "Blocco con Face ID, Touch ID o un codice tuo",
+          "Scegli tu dove si trovano i tuoi dati: solo su questo dispositivo o nel tuo iCloud",
           "Privacy in una sola pagina: tutti i permessi e i tuoi dati a colpo d'occhio",
-          "Nessun account, nessun nostro server, nessuna pubblicità, nessun tracciamento",
+          "Nessun account, nessuna pubblicità, nessuna vendita dei tuoi dati – riceviamo solo rapporti sugli arresti anomali e statistiche d’uso anonimi, disattivabili",
           "Cancella tutto in una volta – sul dispositivo, in iCloud e nei backup"
         ]
       }
@@ -99,7 +100,7 @@
       "proof": [
         "Download gratuito",
         "Nessun account",
-        "Nessuna pubblicità, nessun tracciamento"
+        "Nessuna pubblicità, nessuna vendita di dati"
       ]
     },
     "tour": {
@@ -163,7 +164,7 @@
     },
     "cta": {
       "title": "Pronto a iniziare?",
-      "subtitle": "Gratis su iPhone, iPad e Mac. Nessun account, nessuna pubblicità, nessun tracciamento.",
+      "subtitle": "Gratis su iPhone, iPad e Mac. Nessun account, nessuna pubblicità, nessuna vendita dei tuoi dati.",
       "note": "L’app per Apple Watch fa parte di SimpleTime Pro."
     }
   },
@@ -296,7 +297,7 @@
     "terms": "Condizioni d’uso (EULA)",
     "privacy": "Informativa sulla privacy",
     "freeTitle": "Cosa resta gratuito",
-    "freeBody": "Tutto ciò che ti serve per registrare il tempo: attività e sotto-attività, vista del giorno e linea del tempo, grafici e statistiche, report PDF ed esportazione CSV, widget, attività in tempo reale, centro di controllo e Siri, sincronizzazione iCloud e backup, e il blocco dell’app – in 41 lingue. Nessun account, nessuna pubblicità, nessun tracciamento.",
+    "freeBody": "Tutto ciò che ti serve per registrare il tempo: attività e sotto-attività, vista del giorno e linea del tempo, grafici e statistiche, report PDF ed esportazione CSV, widget, attività in tempo reale, centro di controllo e Siri, sincronizzazione iCloud e piani di backup, e il blocco dell’app – in 41 lingue. Nessun account, nessuna pubblicità, nessuna vendita dei tuoi dati.",
     "howTitle": "Come ottenere Pro",
     "how": [
       "In SimpleTime, apri Impostazioni › SimpleTime Pro.",
@@ -328,7 +329,7 @@
             "id": "what-is",
             "q": "Che cos’è SimpleTime?",
             "a": [
-              "SimpleTime è un’app per registrare il tempo su iPhone, iPad e Mac. Un tocco avvia il cronometro, un tocco lo ferma. Poi SimpleTime ti mostra dove finisce il tuo tempo – come elenco del giorno o linea del tempo, in grafici e statistiche, e come report PDF o file CSV. Nessun account, nessuna pubblicità, nessun tracciamento."
+              "SimpleTime è un’app per registrare il tempo su iPhone, iPad e Mac. Un tocco avvia il cronometro, un tocco lo ferma. Poi SimpleTime ti mostra dove finisce il tuo tempo – come elenco del giorno o linea del tempo, in grafici e statistiche, e come report PDF o file CSV. Nessun account, nessuna pubblicità, nessuna vendita dei tuoi dati."
             ]
           },
           {
@@ -521,57 +522,57 @@
             "id": "sync",
             "q": "SimpleTime si sincronizza tra i miei dispositivi?",
             "a": [
-              "Sì, automaticamente tramite iCloud – su ogni dispositivo connesso con lo stesso Apple Account. Quando avviene la sincronizzazione lo decide il sistema; nelle impostazioni vedi quando è avvenuta l’ultima volta e puoi verificarla lì."
+              "Sì, tramite iCloud – su ogni dispositivo connesso con lo stesso Apple Account che usa iCloud in Impostazioni › Dati e sincronizzazione. Quando avviene la sincronizzazione lo decide il sistema; la stessa pagina mostra quando è avvenuta l’ultima volta e permette di sincronizzare subito."
             ]
           },
           {
             "id": "without-icloud",
             "q": "Posso usare SimpleTime senza iCloud?",
             "a": [
-              "Sì. Senza iCloud, i tuoi dati restano solo su questo dispositivo. Puoi attivare o disattivare la sincronizzazione in Impostazioni › il tuo nome › iCloud. Senza iCloud, i backup che esporti e conservi al sicuro sono ancora più importanti."
+              "Sì. Scegli «Solo su questo dispositivo» in Impostazioni › Dati e sincronizzazione: i tuoi dati restano così su questo solo dispositivo. Tanto più importanti diventano i backup: un piano di backup li salva automaticamente, ad esempio in una cartella dell’app File o sul tuo server."
             ]
           },
           {
             "id": "backups",
             "q": "Come funzionano i backup?",
             "a": [
-              "In Impostazioni › Esporta / Importa dati puoi attivare i backup automatici – ogni ora, ogni giorno, ogni settimana o ogni mese. SimpleTime li salva come file JSON in iCloud Drive, nella cartella «SimpleTime/Backups», e conserva gli ultimi 20. Puoi anche esportare un backup manualmente, in qualsiasi momento."
+              "In Impostazioni › Backup crei tutti i piani di backup che vuoi. Ogni piano ha un luogo – iCloud Drive, una cartella dell’app File come Dropbox o Google Drive, il tuo server tramite WebDAV o questo dispositivo –, una frequenza da ogni ora a ogni mese, una durata di conservazione e, se vuoi, una password. Nella stessa pagina puoi anche fare un backup a mano in qualsiasi momento."
             ]
           },
           {
             "id": "backup-password",
             "q": "Posso proteggere i backup con una password?",
             "a": [
-              "Sì. Con una password, il file di backup viene cifrato sul tuo dispositivo prima di essere salvato. Conserva bene la password: senza di essa nessuno può ripristinare il backup – né tu né noi. Non esiste alcuna alternativa."
+              "Sì. Se imposti una password per un piano, ogni backup viene cifrato sul tuo dispositivo prima di essere salvato. Conserva bene la password: senza di essa nessuno può ripristinare il backup, né tu né noi. Non c’è altro modo per recuperarla."
             ]
           },
           {
             "id": "restore",
             "q": "Come ripristino un backup?",
             "a": [
-              "In Impostazioni › Esporta / Importa dati › Importa backup da JSON. I dati esistenti restano invariati e quelli mancanti vengono aggiunti. Su un nuovo dispositivo, aspetta prima che la sincronizzazione iCloud abbia consegnato i tuoi dati – altrimenti le attività possono comparire due volte."
+              "In Impostazioni › Backup ripristini un backup – da uno dei tuoi piani o da un file. I dati esistenti restano invariati e quelli mancanti vengono aggiunti. I backup di SimpleTime 4.7 e versioni precedenti si importano in Impostazioni › Esporta / Importa dati › Importa backup da JSON. Su un nuovo dispositivo, aspetta prima che la sincronizzazione iCloud abbia consegnato i tuoi dati – altrimenti le attività possono comparire due volte."
             ]
           },
           {
             "id": "export",
             "q": "Posso esportare i miei dati?",
             "a": [
-              "Sì, in qualsiasi momento: come file CSV con attività, nota, durata, inizio e fine – per Excel, Numbers o qualsiasi strumento di analisi –, come report PDF o come backup completo in JSON.",
-              "In Impostazioni › Esporta / Importa dati scegli il periodo del file CSV – da oggi a tutto il periodo, oppure uno personalizzato, come il mese scorso."
+              "Sì, in qualsiasi momento: come file CSV con attività, nota, durata, inizio e fine – per Excel, Numbers o qualsiasi strumento di analisi –, come report PDF o come backup completo.",
+              "In Impostazioni › Esporta / Importa dati scegli il periodo del file CSV – da oggi a tutto il periodo, oppure uno personalizzato, come il mese scorso. Un backup lo fai in Impostazioni › Backup."
             ]
           },
           {
             "id": "import",
             "q": "Posso importare dati da un’altra app?",
             "a": [
-              "Non direttamente. SimpleTime importa i propri backup (JSON); i file CSV di altre app non si possono importare."
+              "Non direttamente. SimpleTime legge solo i propri backup; i file CSV di altre app non si possono importare."
             ]
           },
           {
             "id": "new-device",
             "q": "Come passo a un nuovo iPhone?",
             "a": [
-              "Accedi con lo stesso Apple Account e installa SimpleTime – iCloud riporta le tue voci da solo. Se non usi iCloud, esporta un backup sul vecchio dispositivo e importalo su quello nuovo. I luoghi appartengono al singolo dispositivo e non vengono sincronizzati."
+              "Accedi con lo stesso Apple Account e installa SimpleTime – se usi iCloud (Impostazioni › Dati e sincronizzazione), le tue voci tornano da sole. Senza iCloud, fai un backup sul vecchio dispositivo e ripristinalo su quello nuovo. I luoghi appartengono a ciascun dispositivo e non vengono sincronizzati."
             ]
           }
         ]
@@ -584,14 +585,14 @@
             "id": "data-location",
             "q": "Dove vengono salvati i miei dati?",
             "a": [
-              "Sui tuoi dispositivi e nel tuo iCloud privato. Nessun altro può leggerli – nemmeno noi. SimpleTime non ha server propri."
+              "Dove scegli tu: in Impostazioni › Dati e sincronizzazione decidi tra «Solo su questo dispositivo» e il tuo iCloud privato. Nessun altro può leggere le tue voci, nemmeno noi. I backup si trovano dove li salvano i tuoi piani di backup."
             ]
           },
           {
             "id": "tracking-me",
             "q": "SimpleTime mi traccia?",
             "a": [
-              "No. Nessuno strumento di analisi, nessuna pubblicità, nessun SDK di terze parti, nessun profilo utente. L’app non invia i tuoi dati né a noi né a nessun altro. Trovi i dettagli nella nostra [informativa sulla privacy](@privacy)."
+              "No. SimpleTime non mostra pubblicità, non vende dati, non crea profili utente e non ti segue attraverso altre app e siti web. Per trovare rapidamente gli errori, l’app invia rapporti sugli arresti anomali e statistiche d’uso anonimi al nostro server: senza ID del dispositivo e mai con le tue attività, i tuoi tempi o le tue note. Puoi disattivarlo in Impostazioni › Privacy › Panoramica e permessi. I dettagli sono nella nostra [informativa sulla privacy](@privacy)."
             ]
           },
           {
@@ -619,14 +620,7 @@
             "id": "delete-all",
             "q": "Come elimino tutti i miei dati?",
             "a": [
-              "Nelle impostazioni, in Privacy › Elimina tutti i dati. Così rimuovi tutto in una volta – tutte le voci e le attività, il cestino, i promemoria, i backup in iCloud Drive, le esportazioni e le impostazioni – su questo dispositivo, in iCloud e, appena sono online, sugli altri tuoi dispositivi. L’operazione non è reversibile."
-            ]
-          },
-          {
-            "id": "diagnostics",
-            "q": "Cosa c’è in Diagnostica?",
-            "a": [
-              "Se SimpleTime si chiude inaspettatamente o si blocca, iOS fornisce all’app un rapporto. I rapporti restano sul tuo dispositivo e non contengono attività né tempi – solo il punto del programma in cui è successo. Se vuoi, condividine uno con noi: ci aiuta a trovare l’errore."
+              "Nelle impostazioni, in Privacy › Elimina tutti i dati. Così rimuovi tutto in una volta – tutte le voci e le attività, il cestino, i promemoria, i backup dei tuoi piani e i vecchi backup in iCloud Drive, le esportazioni e le impostazioni – su questo dispositivo, in iCloud e, appena sono online, sugli altri tuoi dispositivi. L’operazione non è reversibile."
             ]
           }
         ]
@@ -770,7 +764,7 @@
             "id": "feedback",
             "q": "Ho trovato un errore o ho un’idea – a chi scrivo?",
             "a": [
-              "Scrivici a [contact@simple-time.app](mailto:contact@simple-time.app). Per un errore, indica per favore il modello del dispositivo e la versione di iOS. Dopo un arresto anomalo, un rapporto da Impostazioni › Diagnostica aiuta molto. Leggiamo ogni messaggio."
+              "Scrivici a [contact@simple-time.app](mailto:contact@simple-time.app). Per un errore, indica per favore il modello del dispositivo e la versione di iOS e descrivi in breve cosa stavi facendo. Leggiamo ogni messaggio."
             ]
           },
           {
@@ -790,8 +784,9 @@
     "translationNote": "Questa è una traduzione dell’informativa sulla privacy tedesca. In caso di dubbio fa fede [la versione tedesca](@privacy-de).",
     "summaryTitle": "In breve",
     "summary": [
-      "Il tuo tempo ti appartiene. SimpleTime non richiede alcun account, non mostra pubblicità e non ti traccia.",
-      "Le tue voci si trovano sui tuoi dispositivi e nel tuo iCloud privato: nessun altro può leggerle, nemmeno noi. SimpleTime non ha server propri.",
+      "Il tuo tempo ti appartiene. SimpleTime non richiede alcun account, non mostra pubblicità e non vende i tuoi dati.",
+      "Le tue voci si trovano sui tuoi dispositivi e, se lo scegli, nel tuo iCloud privato: nessun altro può leggerle, nemmeno noi.",
+      "Per trovare rapidamente gli errori, l’app invia rapporti sugli arresti anomali e statistiche d’uso anonimi: senza ID del dispositivo, mai con le tue voci e disattivabili in qualsiasi momento.",
       "Questo sito non imposta cookie propri e non carica nulla da terze parti. Contiamo in modo anonimo quante persone lo visitano con Atriya, il nostro servizio di analisi."
     ],
     "sections": [
@@ -807,19 +802,21 @@
         "id": "app",
         "title": "L’app SimpleTime",
         "paragraphs": [
-          "SimpleTime è progettato in modo da non aver bisogno dei tuoi dati. Tutto ciò che inserisci – attività, voci con i loro orari e le loro note, obiettivi, promemoria e impostazioni – viene salvato sul tuo dispositivo. L’app non contiene strumenti di analisi, pubblicità né SDK di terze parti, e non invia i tuoi dati a server nostri: non ne esistono. Non abbiamo in nessun momento accesso ai tuoi dati."
+          "SimpleTime è fatto in modo che non ci servano i tuoi dati. Tutto ciò che inserisci – attività, voci con i loro tempi e le loro note, obiettivi, promemoria e impostazioni – viene salvato sul tuo dispositivo. L’app non contiene pubblicità né SDK di terze parti. Non invia le tue voci a nessun nostro server; non abbiamo mai accesso a esse. Ciò che l’app comunica in forma anonima su arresti anomali e utilizzo è descritto in «Rapporti sugli arresti anomali e statistiche d’uso»."
         ],
         "subsections": [
           {
-            "title": "Sincronizzazione iCloud",
+            "title": "Dove si trovano i dati e sincronizzazione iCloud",
             "paragraphs": [
-              "Se hai eseguito l’accesso a iCloud, SimpleTime sincronizza i tuoi dati tra i tuoi dispositivi tramite CloudKit di Apple, nel database privato del tuo account iCloud. Apple trasmette e conserva i dati in forma cifrata; si applica l’informativa sulla privacy di Apple. Non possiamo né vedere questi dati né accedervi. Puoi disattivare la sincronizzazione in Impostazioni › il tuo nome › iCloud – i tuoi dati restano allora sul dispositivo."
+              "In Impostazioni › Dati e sincronizzazione scegli dove si trovano i tuoi dati: solo su questo dispositivo o nel tuo iCloud. Se usi iCloud e non hai scelto altro, SimpleTime usa iCloud, come nelle versioni precedenti. Un cambio vale dal prossimo avvio dell’app.",
+              "Con iCloud, SimpleTime sincronizza i tuoi dati tra i tuoi dispositivi tramite CloudKit di Apple, nel database privato del tuo account iCloud. Apple trasmette e conserva i dati in forma cifrata; si applica l’informativa sulla privacy di Apple. Non possiamo vedere questi dati né accedervi. Se passi a «Solo su questo dispositivo», i tuoi dati restano in iCloud finché non li elimini lì: SimpleTime te lo propone dopo il cambio."
             ]
           },
           {
             "title": "Backup",
             "paragraphs": [
-              "Se attivi i backup automatici o esporti un backup, SimpleTime salva un file con le tue attività, le tue voci e i tuoi promemoria – automaticamente nel tuo iCloud Drive (cartella «SimpleTime/Backups») oppure dove scegli tu. Se imposti una password, il file viene cifrato sul tuo dispositivo (AES-GCM) prima di essere salvato; senza la password nessuno può aprirlo – nemmeno noi. Dei backup automatici vengono conservati gli ultimi 20."
+              "In Impostazioni › Backup crei dei piani di backup. Ogni piano salva automaticamente le tue attività, le voci con le loro note, gli obiettivi e i promemoria nel luogo che scegli: nel tuo iCloud Drive, in una cartella dell’app File – ad esempio su Dropbox, Google Drive o una chiavetta USB –, sul tuo server tramite WebDAV o solo su questo dispositivo. Per iCloud Drive, Dropbox, Google Drive e gli altri servizi vale la loro informativa sulla privacy; i tuoi backup non arrivano mai a noi. I dati di accesso di un server WebDAV sono conservati nel portachiavi del tuo dispositivo.",
+              "Se imposti una password per un piano, ogni backup viene cifrato sul tuo dispositivo prima di essere salvato (AES-GCM a 256 bit, chiave derivata con PBKDF2); senza la password nessuno può aprirlo, nemmeno noi. Decidi tu per quanto tempo un piano conserva i suoi backup. Un backup fatto a mano va dove scegli tu, nel menu di condivisione. I backup di SimpleTime 4.7 e versioni precedenti restano nel tuo iCloud Drive, nella cartella «SimpleTime/Backups»."
             ]
           },
           {
@@ -844,7 +841,7 @@
           {
             "title": "Blocco dell’app, Face ID e Touch ID",
             "paragraphs": [
-              "Se usi il blocco dell’app, iOS verifica Face ID, Touch ID o il codice del dispositivo; SimpleTime viene a sapere solo se la verifica è riuscita. Il tuo codice personale e la password dei backup sono conservati nel portachiavi del tuo dispositivo."
+              "Se usi il blocco dell’app, iOS verifica Face ID, Touch ID o il codice del dispositivo; SimpleTime viene a sapere solo se la verifica è riuscita. Il tuo codice personale e i dati di accesso dei tuoi backup sono conservati nel portachiavi del tuo dispositivo."
             ]
           },
           {
@@ -854,9 +851,13 @@
             ]
           },
           {
-            "title": "Diagnostica",
+            "title": "Rapporti sugli arresti anomali e statistiche d’uso",
             "paragraphs": [
-              "Se SimpleTime si chiude inaspettatamente o si blocca, iOS fornisce all’app un rapporto di diagnostica. Resta sul tuo dispositivo, non contiene attività né tempi e lascia il dispositivo solo se lo condividi tu – ad esempio inviandocelo via e-mail. Indipendentemente da ciò, se hai consentito al tuo dispositivo di condividere dati di analisi con gli sviluppatori di app (Impostazioni › Privacy e sicurezza › Analisi e miglioramenti), Apple ci fornisce rapporti sugli arresti anomali e statistiche che non ti identificano."
+              "Per trovare rapidamente gli errori e migliorare SimpleTime, l’app invia rapporti sugli arresti anomali e statistiche d’uso anonimi ad Atriya, il nostro servizio di analisi. Vengono inviati: i rapporti su arresti anomali e blocchi che iOS o macOS forniscono all’app – con il punto del codice, la versione dell’app e del sistema e il modello del dispositivo –, quando l’app viene aperta e per quanto tempo resta in primo piano, e quali schermate vengono aperte e quali funzioni usate, ad esempio «registrazione avviata» o «report creato». Le tue attività, voci, tempi, note e nomi non vengono mai inviati.",
+              "Per questo SimpleTime non salva nulla sul tuo dispositivo, nemmeno un identificativo. Con l’invio viene trasmesso necessariamente il tuo indirizzo IP. Il nostro server ne ricava solo il paese e, insieme alla versione del sistema e al modello del dispositivo, forma un identificativo valido per un solo giorno: un hash con una chiave giornaliera casuale, che il server cancella al più tardi dopo due giorni. Dopo di che l’identificativo non può più essere ricondotto a un indirizzo IP. L’indirizzo IP in sé non lo salviamo. Così vediamo quanti dispositivi usano SimpleTime in un giorno: non possiamo riconoscerti né seguirti da un giorno all’altro.",
+              "La base giuridica è il nostro legittimo interesse a un’app stabile e senza errori e a sapere quali funzioni servono (art. 6, par. 1, lett. f) del GDPR). Puoi opporti in qualsiasi momento: in Impostazioni › Privacy › Panoramica e permessi disattiva «Invia rapporti sugli arresti e statistiche»; da quel momento l’app non invia più nulla. La tua scelta resta valida anche dopo «Elimina tutti i dati».",
+              "Atriya lo gestiamo noi. Il server è ospitato da IONOS SE, Elgendorfer Str. 57, 56410 Montabaur, Germania, in un data center nell’Unione europea; IONOS tratta i dati per nostro conto. Li analizziamo solo in forma aggregata e non li cediamo a nessuno. Una volta cancellata la chiave giornaliera, i dati sono anonimi; li conserviamo senza un termine fisso.",
+              "Indipendentemente da ciò, se hai consentito al tuo dispositivo di condividere dati di analisi con gli sviluppatori di app (Impostazioni › Privacy e sicurezza › Analisi e miglioramenti), Apple ci fornisce rapporti sugli arresti anomali e statistiche che non ti identificano."
             ]
           },
           {
@@ -874,13 +875,13 @@
           {
             "title": "Esportazione e condivisione",
             "paragraphs": [
-              "File CSV, report PDF, backup e immagini vengono creati sul tuo dispositivo. Dove finiscono lo decidi tu – nel menu di condivisione."
+              "File CSV, report PDF, backup e immagini vengono creati sul tuo dispositivo. Dove finiscono lo decidi tu – nel menu di condivisione o con un piano di backup."
             ]
           },
           {
             "title": "Eliminazione dei tuoi dati",
             "paragraphs": [
-              "Nell’app, in Impostazioni › Privacy › Elimina tutti i dati, rimuovi in una volta tutto ciò che SimpleTime ha salvato – su questo dispositivo, in iCloud e nei backup in iCloud Drive; tramite iCloud, l’eliminazione raggiunge anche gli altri tuoi dispositivi. Se elimini l’app, i suoi dati vengono rimossi da quel dispositivo."
+              "Nelle impostazioni dell’app, in Privacy › Elimina tutti i dati, rimuovi in una volta tutto ciò che SimpleTime ha salvato: su questo dispositivo, in iCloud, i backup dei tuoi piani ovunque si trovino e i vecchi backup in iCloud Drive; tramite iCloud, l’eliminazione raggiunge anche gli altri tuoi dispositivi. Le statistiche anonime non possono essere ricondotte a nessun dispositivo e quindi non possono essere eliminate in modo mirato. Se elimini l’app, i suoi dati scompaiono da quel dispositivo."
             ]
           }
         ]
@@ -944,6 +945,127 @@
         "title": "Modifiche",
         "paragraphs": [
           "Aggiorniamo questa informativa sulla privacy quando cambiano l’app, il sito web o la normativa. La data in alto indica la versione in vigore."
+        ]
+      }
+    ]
+  },
+  "terms": {
+    "title": "Condizioni d’uso",
+    "updated": "Ultimo aggiornamento",
+    "translationNote": "Questa è una traduzione delle condizioni d’uso tedesche. In caso di dubbio fa fede [la versione tedesca](@terms-de).",
+    "summaryTitle": "In breve",
+    "summary": [
+      "SimpleTime è gratuito. Pro lo acquisti nell’App Store, dove puoi disdire gli abbonamenti in qualsiasi momento.",
+      "I tuoi dati ti appartengono – conviene comunque farne il backup, nel modo più semplice con un piano di backup.",
+      "Oltre a queste condizioni vale il contratto di licenza di Apple per le app dell’App Store."
+    ],
+    "sections": [
+      {
+        "id": "scope",
+        "title": "Ambito di applicazione",
+        "paragraphs": [
+          "Queste condizioni valgono per l’app SimpleTime su iPhone, iPad, Mac e Apple Watch e per SimpleTime Pro. Il fornitore è Luca Efinger, Friedrich-Ebert-Ring 16, 97072 Würzburg, Germania – maggiori dettagli nelle [note legali](@imprint).",
+          "SimpleTime si scarica dall’App Store. Vale il [contratto di licenza di Apple per le app concesse in licenza](https://www.apple.com/legal/internet-services/itunes/dev/stdeula/) (EULA standard). Questa pagina lo integra con ciò che vale per SimpleTime; se i due si contraddicono, prevale l’EULA standard."
+        ]
+      },
+      {
+        "id": "app",
+        "title": "L’app",
+        "paragraphs": [
+          "SimpleTime è gratuito e funziona senza account, per uso personale e professionale. Continuiamo a sviluppare l’app e nel farlo possiamo modificare, aggiungere o rimuovere funzioni.",
+          "SimpleTime è uno strumento per registrare il tuo tempo. Se le tue registrazioni soddisfano requisiti di legge o contrattuali – ad esempio per la rilevazione dell’orario di lavoro o per la fatturazione – lo verifichi tu."
+        ]
+      },
+      {
+        "id": "pro",
+        "title": "SimpleTime Pro",
+        "paragraphs": [
+          "Pro è disponibile al mese, all’anno o con un acquisto unico per sempre. Apple gestisce acquisto e pagamento tramite l’App Store, e valgono le condizioni di Apple. Vedi i prezzi nell’app prima dell’acquisto, IVA inclusa.",
+          "Gli abbonamenti mensile e annuale si rinnovano automaticamente finché non li disdici. Il pagamento viene addebitato sul tuo Apple Account alla conferma dell’acquisto e a ogni rinnovo entro le 24 ore precedenti la fine del periodo. Se disdici almeno 24 ore prima della fine di un periodo, l’abbonamento non si rinnova più; Pro resta attivo fino alla fine del periodo pagato. Gestisci e disdici gli abbonamenti nelle impostazioni del tuo Apple Account.",
+          "Chi si abbona per la prima volta può provarlo gratis per una settimana. Se non disdici almeno 24 ore prima della fine della settimana di prova, inizia l’abbonamento a pagamento. Con In famiglia, fino a sei persone possono usare Pro.",
+          "Rimborsi ed eventuale diritto di recesso seguono le condizioni di Apple, perché è Apple a gestire l’acquisto. Puoi richiedere un rimborso su [reportaproblem.apple.com](https://reportaproblem.apple.com)."
+        ]
+      },
+      {
+        "id": "data",
+        "title": "I tuoi dati",
+        "paragraphs": [
+          "Ciò che inserisci in SimpleTime ti appartiene. Non vi abbiamo accesso e quindi non possiamo ripristinarlo per te. Fai regolarmente il backup dei tuoi dati – SimpleTime ti aiuta con i piani di backup e l’esportazione.",
+          "Come trattiamo i dati è spiegato nell’[informativa sulla privacy](@privacy)."
+        ]
+      },
+      {
+        "id": "liability",
+        "title": "Responsabilità",
+        "paragraphs": [
+          "Rispondiamo senza limiti in caso di dolo e colpa grave, di lesioni alla vita, all’integrità fisica o alla salute e ai sensi della legge tedesca sulla responsabilità per danno da prodotti. In caso di colpa lieve rispondiamo solo se violiamo un obbligo essenziale – un obbligo il cui adempimento rende possibile l’uso dell’app e sul quale puoi fare affidamento – e solo entro il danno prevedibile e tipico.",
+          "Per la perdita di dati rispondiamo solo nella misura in cui si sarebbe verificata anche con backup regolari."
+        ]
+      },
+      {
+        "id": "law",
+        "title": "Legge applicabile",
+        "paragraphs": [
+          "Si applica il diritto tedesco, con esclusione della Convenzione delle Nazioni Unite sui contratti di compravendita internazionale di merci. Se usi SimpleTime come consumatore o consumatrice, restano salve le norme imperative a tutela dei consumatori del paese in cui vivi."
+        ]
+      },
+      {
+        "id": "changes",
+        "title": "Modifiche",
+        "paragraphs": [
+          "Aggiorniamo queste condizioni quando cambiano l’app, la nostra offerta o la legge. La data in alto indica la versione in vigore. Per domande scrivici a [contact@simple-time.app](mailto:contact@simple-time.app)."
+        ]
+      }
+    ]
+  },
+  "accessibility": {
+    "title": "Accessibilità",
+    "updated": "Ultimo aggiornamento",
+    "summaryTitle": "In breve",
+    "summary": [
+      "SimpleTime si usa con VoiceOver e con il testo grande, in 41 lingue.",
+      "A ogni modifica verifichiamo automaticamente che questo sito non abbia barriere.",
+      "Ciò che non va ancora bene è indicato qui sotto – e se trovi una barriera, scrivici."
+    ],
+    "sections": [
+      {
+        "id": "app",
+        "title": "L’app",
+        "paragraphs": [
+          "VoiceOver: pulsanti, grafici e linea del tempo hanno etichette che VoiceOver legge ad alta voce, in ogni lingua dell’app.",
+          "Dimensioni del testo: il testo segue le dimensioni impostate in iOS fino alle più grandi per l’accessibilità. Dove un testo molto grande coprirebbe i comandi – nell’intestazione e lungo la linea del tempo –, cresce solo fino a un limite. In Impostazioni › Carattere puoi anche impostare una dimensione del testo e il grassetto solo per SimpleTime.",
+          "Movimento e colori: se «Riduci movimento» è attivo, SimpleTime attenua le sue animazioni. Riconosci le attività non solo dal colore, ma anche dal nome e dal simbolo, e i testi sono pensati per restare leggibili con l’aspetto chiaro e con quello scuro.",
+          "Lingue: l’app parla 41 lingue, indipendentemente dalla lingua del dispositivo; arabo, ebraico, persiano, pashto e urdu da destra a sinistra."
+        ]
+      },
+      {
+        "id": "website",
+        "title": "Questo sito",
+        "paragraphs": [
+          "Realizziamo questo sito secondo le Linee guida per l’accessibilità dei contenuti Web (WCAG) 2.2, livello AA: titoli chiari, testi alternativi per le immagini, contrasti sufficienti con l’aspetto chiaro e scuro, uso da tastiera con un focus visibile e ingrandimento senza perdita di contenuti.",
+          "A ogni modifica un test automatico controlla le pagine con axe-core – su computer e su smartphone, e in arabo ed ebraico anche da destra a sinistra."
+        ]
+      },
+      {
+        "id": "limits",
+        "title": "Cosa non va ancora bene",
+        "paragraphs": [
+          "Con le dimensioni di testo più grandi, la barra dell’attività in corso può tagliare il testo.",
+          "I grafici non offrono ancora i grafici audio per VoiceOver. I loro valori compaiono però anche come testo, nella legenda e nelle statistiche."
+        ]
+      },
+      {
+        "id": "feedback",
+        "title": "Hai trovato una barriera?",
+        "paragraphs": [
+          "Scrivici a [contact@simple-time.app](mailto:contact@simple-time.app) e descrivi in breve dove si blocca, nell’app o su questo sito. Di solito rispondiamo entro pochi giorni lavorativi e correggiamo ciò che possiamo con il prossimo aggiornamento."
+        ]
+      },
+      {
+        "id": "about",
+        "title": "Su questa dichiarazione",
+        "paragraphs": [
+          "Questa dichiarazione si basa sulle nostre verifiche dell’app e del sito, con VoiceOver, testo grande e test automatici. La aggiorniamo quando qualcosa cambia."
         ]
       }
     ]

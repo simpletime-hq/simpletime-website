@@ -1033,7 +1033,7 @@
         "title": "La app",
         "paragraphs": [
           "VoiceOver: los botones, los gráficos y la línea de tiempo tienen etiquetas que VoiceOver lee en voz alta, en todos los idiomas de la app.",
-          "Tamaño del texto: el texto sigue el tamaño de iOS hasta los tamaños de accesibilidad más grandes. Donde un texto muy grande taparía los controles – en la cabecera y a lo largo de la línea de tiempo –, solo crece hasta un límite.",
+          "Tamaño del texto: el texto sigue el tamaño de iOS hasta los tamaños de accesibilidad más grandes. Donde un texto muy grande taparía los controles – en la cabecera y a lo largo de la línea de tiempo –, solo crece hasta un límite. En Ajustes › Tipografía también puedes ajustar un tamaño de texto propio y texto en negrita solo para SimpleTime.",
           "Movimiento y color: con «Reducir movimiento» activado, SimpleTime suaviza sus animaciones. Distingues las tareas no solo por su color, sino también por su nombre y su símbolo, y los textos están pensados para leerse bien con apariencia clara y oscura.",
           "Idiomas: la app habla 41 idiomas, con independencia del idioma de tu dispositivo; árabe, hebreo, persa, pastún y urdu, de derecha a izquierda."
         ]

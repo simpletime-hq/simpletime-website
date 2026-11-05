@@ -1033,7 +1033,7 @@
         "title": "Appen",
         "paragraphs": [
           "VoiceOver: knappar, diagram och tidsaxeln har etiketter som VoiceOver läser upp – på varje språk i appen.",
-          "Textstorlek: texten följer textstorleken i iOS upp till de största hjälpmedelsstorlekarna. Där väldigt stor text skulle täcka reglagen – i sidhuvudet och längs tidsaxeln – växer den bara upp till en gräns.",
+          "Textstorlek: texten följer textstorleken i iOS upp till de största hjälpmedelsstorlekarna. Där väldigt stor text skulle täcka reglagen – i sidhuvudet och längs tidsaxeln – växer den bara upp till en gräns. Under Inställningar › Typsnitt ställer du dessutom in en egen textstorlek och fet text bara för SimpleTime.",
           "Rörelse och färg: när ”Minska rörelse” är på tonar SimpleTime ned sina animeringar. Uppgifter känner du igen inte bara på färgen utan också på namn och symbol, och text är utformad för att vara läsbar i både ljust och mörkt utseende.",
           "Språk: appen talar 41 språk, oberoende av enhetens språk – arabiska, hebreiska, persiska, pashto och urdu från höger till vänster."
         ]

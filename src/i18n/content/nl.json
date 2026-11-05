@@ -1033,7 +1033,7 @@
         "title": "De app",
         "paragraphs": [
           "VoiceOver: knoppen, grafieken en de tijdlijn hebben labels die VoiceOver voorleest – in elke taal van de app.",
-          "Tekstgrootte: tekst volgt de tekstgrootte van iOS tot de grootste toegankelijkheidsgroottes. Waar heel grote tekst de bediening zou bedekken – in de kopbalk en langs de tijdlijn –, groeit die maar tot een grens.",
+          "Tekstgrootte: tekst volgt de tekstgrootte van iOS tot de grootste toegankelijkheidsgroottes. Waar heel grote tekst de bediening zou bedekken – in de kopbalk en langs de tijdlijn –, groeit die maar tot een grens. Onder Instellingen › Lettertype stel je bovendien een eigen tekstgrootte en vette tekst in, alleen voor SimpleTime.",
           "Beweging en kleur: staat „Verminder beweging” aan, dan zwakt SimpleTime zijn animaties af. Taken herken je niet alleen aan hun kleur, maar ook aan naam en symbool, en tekst is ontworpen om leesbaar te blijven in de lichte en de donkere weergave.",
           "Talen: de app spreekt 41 talen, los van de taal van je apparaat – Arabisch, Hebreeuws, Perzisch, Pasjtoe en Urdu van rechts naar links."
         ]

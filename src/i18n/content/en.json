@@ -1033,7 +1033,7 @@
         "title": "The app",
         "paragraphs": [
           "VoiceOver: buttons, charts and the timeline have labels that VoiceOver reads aloud – in every language of the app.",
-          "Text size: text follows the iOS text size up to the largest accessibility sizes. Where very large text would cover the controls – in the header and along the timeline –, it grows only up to a limit.",
+          "Text size: text follows the iOS text size up to the largest accessibility sizes. Where very large text would cover the controls – in the header and along the timeline –, it grows only up to a limit. Under Settings › Font, you can also set your own text size and bold text just for SimpleTime.",
           "Motion and color: when Reduce Motion is on, SimpleTime tones down its animations. You can tell tasks apart not only by their color but also by name and symbol, and text is designed to stay readable in both light and dark appearance.",
           "Languages: the app speaks 41 languages, independent of your device’s language – Arabic, Hebrew, Persian, Pashto and Urdu from right to left."
         ]

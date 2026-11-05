@@ -948,5 +948,126 @@
         ]
       }
     ]
+  },
+  "terms": {
+    "title": "使用条款",
+    "updated": "最后更新",
+    "translationNote": "本文是德语使用条款的译本。如有疑问，以[德语版本](@terms-de)为准。",
+    "summaryTitle": "简而言之",
+    "summary": [
+      "SimpleTime 是免费的。你可以在 App Store 购买 Pro，也可以随时在那里取消订阅。",
+      "你的数据属于你 — 但仍请备份，最简单的方法是使用备份计划。",
+      "除这些条款外，还适用 Apple 针对 App Store App 的许可协议。"
+    ],
+    "sections": [
+      {
+        "id": "scope",
+        "title": "适用范围",
+        "paragraphs": [
+          "这些条款适用于 iPhone、iPad、Mac 和 Apple Watch 上的 SimpleTime App 以及 SimpleTime Pro。提供者为 Luca Efinger，Friedrich-Ebert-Ring 16, 97072 Würzburg，德国 — 详见[法律声明](@imprint)。",
+          "你从 App Store 获取 SimpleTime。它适用 Apple 的[许可应用程序最终用户许可协议](https://www.apple.com/legal/internet-services/itunes/dev/stdeula/)（标准 EULA）。本页面补充适用于 SimpleTime 的内容；如两者冲突，以标准 EULA 为准。"
+        ]
+      },
+      {
+        "id": "app",
+        "title": "App",
+        "paragraphs": [
+          "SimpleTime 免费，无需账号即可使用 — 适用于个人和工作。我们会继续开发这款 App，并可能在此过程中更改、添加或移除功能。",
+          "SimpleTime 是记录你自己时间的工具。你的记录是否符合法律或合同的要求 — 例如在工时记录或开具账单方面 — 需要你自己核实。"
+        ]
+      },
+      {
+        "id": "pro",
+        "title": "SimpleTime Pro",
+        "paragraphs": [
+          "Pro 提供按月、按年或一次性永久购买的方式。购买和付款由 Apple 通过 App Store 处理，并适用 Apple 的条款。购买前你可以在 App 中看到价格，均含税。",
+          "月度和年度订阅会自动续订，直到你取消为止。确认购买时以及每次续订时（在当期结束前 24 小时内），款项将从你的 Apple 账户中扣除。如果你在当期结束前至少 24 小时取消，订阅将不再续订；Pro 会保持有效，直到已付费期间结束。你可以在 Apple 账户的设置中管理和取消订阅。",
+          "首次订阅的用户可以免费试用一周。如果你没有在试用周结束前至少 24 小时取消，付费订阅就会开始。通过家人共享，最多六人可以使用 Pro。",
+          "退款以及可能的撤回权适用 Apple 的条款，因为购买由 Apple 处理。你可以在 [reportaproblem.apple.com](https://reportaproblem.apple.com) 申请退款。"
+        ]
+      },
+      {
+        "id": "data",
+        "title": "你的数据",
+        "paragraphs": [
+          "你在 SimpleTime 中输入的内容属于你。我们无法访问这些内容，因此也无法替你恢复。请定期备份你的数据 — SimpleTime 通过备份计划和导出为你提供帮助。",
+          "我们如何处理数据，请见[隐私政策](@privacy)。"
+        ]
+      },
+      {
+        "id": "liability",
+        "title": "责任",
+        "paragraphs": [
+          "对于故意和重大过失、对生命、身体或健康造成的损害，以及依据德国《产品责任法》，我们承担无限责任。对于轻微过失，只有当我们违反了一项基本义务时才承担责任 — 即履行该义务才使 App 的使用成为可能、且你可以信赖的义务 — 并且仅以可预见的典型损害为限。",
+          "对于数据丢失，我们仅在即使定期备份也会发生的范围内承担责任。"
+        ]
+      },
+      {
+        "id": "law",
+        "title": "适用法律",
+        "paragraphs": [
+          "适用德国法律，但排除《联合国国际货物销售合同公约》。如果你以消费者身份使用 SimpleTime，你居住国家的强制性消费者保护规定仍然有效。"
+        ]
+      },
+      {
+        "id": "changes",
+        "title": "变更",
+        "paragraphs": [
+          "当 App、我们的服务或法律发生变化时，我们会更新这些条款。页面顶部的日期表示当前有效的版本。如有疑问，请写信至 [contact@simple-time.app](mailto:contact@simple-time.app)。"
+        ]
+      }
+    ]
+  },
+  "accessibility": {
+    "title": "辅助功能",
+    "updated": "最后更新",
+    "summaryTitle": "简而言之",
+    "summary": [
+      "SimpleTime 支持旁白和大字体，提供 41 种语言。",
+      "每次更改时，我们都会自动检查本网站是否存在障碍。",
+      "尚不完善之处列在下方 — 如果你遇到障碍，请写信给我们。"
+    ],
+    "sections": [
+      {
+        "id": "app",
+        "title": "App",
+        "paragraphs": [
+          "旁白：按钮、图表和时间轴都有标签，旁白会朗读出来 — App 的每种语言都是如此。",
+          "文字大小：文字会跟随 iOS 的文字大小设置，直到最大的辅助功能尺寸。在文字过大会遮挡控件的地方（页眉和时间轴沿线），文字只会放大到一定限度。",
+          "动态效果和颜色：开启“减弱动态效果”后，SimpleTime 会减弱自己的动画。你不仅可以通过颜色，还可以通过名称和符号区分任务；文字在浅色和深色外观下都设计得清晰易读。",
+          "语言：App 支持 41 种语言，不受设备语言影响 — 阿拉伯语、希伯来语、波斯语、普什图语和乌尔都语从右向左显示。"
+        ]
+      },
+      {
+        "id": "website",
+        "title": "本网站",
+        "paragraphs": [
+          "我们按照《Web 内容无障碍指南》(WCAG) 2.2 AA 级构建本网站：清晰的标题、图片的替代文字、浅色和深色外观下足够的对比度、带有可见焦点的键盘操作，以及不丢失内容的缩放。",
+          "每次更改时，都会有自动测试用 axe-core 检查各个页面 — 在电脑和手机上，阿拉伯语和希伯来语页面还会检查从右向左的显示。"
+        ]
+      },
+      {
+        "id": "limits",
+        "title": "尚不完善之处",
+        "paragraphs": [
+          "在最大的文字尺寸下，正在运行任务的横栏可能会截断文字。",
+          "图表目前还没有为旁白提供音频图表。不过，图表的数值也以文字形式显示在图例和统计中。"
+        ]
+      },
+      {
+        "id": "feedback",
+        "title": "遇到障碍了？",
+        "paragraphs": [
+          "请写信至 [contact@simple-time.app](mailto:contact@simple-time.app)，简要描述问题出在哪里 — 在 App 中还是在本网站上。我们通常会在几个工作日内回复，并在下次更新中修复我们能修复的问题。"
+        ]
+      },
+      {
+        "id": "about",
+        "title": "关于本声明",
+        "paragraphs": [
+          "本声明基于我们自己对 App 和网站的检查 — 使用旁白、大字体和自动测试。情况有变时，我们会更新本声明。"
+        ]
+      }
+    ]
   }
 }

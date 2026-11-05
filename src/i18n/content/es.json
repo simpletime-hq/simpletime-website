@@ -948,5 +948,126 @@
         ]
       }
     ]
+  },
+  "terms": {
+    "title": "Condiciones de uso",
+    "updated": "Última actualización",
+    "translationNote": "Esta es una traducción de las condiciones de uso alemanas. En caso de duda, prevalece [la versión alemana](@terms-de).",
+    "summaryTitle": "En resumen",
+    "summary": [
+      "SimpleTime es gratis. Pro lo compras en el App Store, y allí puedes cancelar las suscripciones cuando quieras.",
+      "Tus datos son tuyos; aun así, haz copias de seguridad – lo más fácil, con un plan de copia de seguridad.",
+      "Además de estas condiciones, se aplica el contrato de licencia de Apple para las apps del App Store."
+    ],
+    "sections": [
+      {
+        "id": "scope",
+        "title": "Ámbito de aplicación",
+        "paragraphs": [
+          "Estas condiciones se aplican a la app SimpleTime en iPhone, iPad, Mac y Apple Watch y a SimpleTime Pro. El proveedor es Luca Efinger, Friedrich-Ebert-Ring 16, 97072 Würzburg, Alemania; más información en el [aviso legal](@imprint).",
+          "SimpleTime se descarga del App Store. Se le aplica el [contrato de licencia de Apple para apps con licencia](https://www.apple.com/legal/internet-services/itunes/dev/stdeula/) (EULA estándar). Esta página lo completa con lo que rige para SimpleTime; si ambos se contradicen, prevalece el EULA estándar."
+        ]
+      },
+      {
+        "id": "app",
+        "title": "La app",
+        "paragraphs": [
+          "SimpleTime es gratis y funciona sin cuenta, para uso personal y profesional. Seguimos desarrollando la app y, al hacerlo, podemos cambiar, añadir o quitar funciones.",
+          "SimpleTime es una herramienta para registrar tu propio tiempo. Si tus registros cumplen requisitos legales o contractuales – por ejemplo, para el registro de la jornada laboral o para facturar –, lo compruebas tú."
+        ]
+      },
+      {
+        "id": "pro",
+        "title": "SimpleTime Pro",
+        "paragraphs": [
+          "Pro está disponible al mes, al año o con un pago único para siempre. Apple gestiona la compra y el pago a través del App Store, y se aplican sus condiciones. Ves los precios en la app antes de comprar, con el IVA incluido.",
+          "Las suscripciones mensual y anual se renuevan automáticamente hasta que las canceles. El pago se carga en tu Cuenta de Apple al confirmar la compra y en cada renovación dentro de las 24 horas anteriores al final del periodo. Si cancelas al menos 24 horas antes del final de un periodo, la suscripción ya no se renueva; Pro sigue activo hasta el final del periodo pagado. Gestionas y cancelas las suscripciones en los ajustes de tu Cuenta de Apple.",
+          "Quien se suscribe por primera vez puede probarlo gratis una semana. Si no cancelas al menos 24 horas antes de que acabe la semana de prueba, empieza la suscripción de pago. Con En familia, hasta seis personas pueden usar Pro.",
+          "Los reembolsos y un posible derecho de desistimiento se rigen por las condiciones de Apple, ya que Apple gestiona la compra. Puedes solicitar un reembolso en [reportaproblem.apple.com](https://reportaproblem.apple.com)."
+        ]
+      },
+      {
+        "id": "data",
+        "title": "Tus datos",
+        "paragraphs": [
+          "Lo que introduces en SimpleTime es tuyo. No tenemos acceso a ello y, por tanto, no podemos restaurarlo por ti. Haz copias de seguridad con regularidad; SimpleTime te ayuda con los planes de copia de seguridad y la exportación.",
+          "Cómo tratamos los datos se explica en la [política de privacidad](@privacy)."
+        ]
+      },
+      {
+        "id": "liability",
+        "title": "Responsabilidad",
+        "paragraphs": [
+          "Respondemos sin limitación en caso de dolo y negligencia grave, de daños a la vida, la integridad física o la salud, y conforme a la ley alemana de responsabilidad por productos defectuosos. En caso de negligencia leve, solo respondemos si incumplimos una obligación esencial – aquella cuyo cumplimiento hace posible el uso de la app y en la que puedes confiar –, y solo hasta el daño previsible y típico.",
+          "Por la pérdida de datos solo respondemos en la medida en que también se habría producido con copias de seguridad regulares."
+        ]
+      },
+      {
+        "id": "law",
+        "title": "Derecho aplicable",
+        "paragraphs": [
+          "Se aplica el derecho alemán, con exclusión de la Convención de las Naciones Unidas sobre los Contratos de Compraventa Internacional de Mercaderías. Si usas SimpleTime como consumidor o consumidora, las normas imperativas de protección de los consumidores del país en el que vives no se ven afectadas."
+        ]
+      },
+      {
+        "id": "changes",
+        "title": "Cambios",
+        "paragraphs": [
+          "Actualizamos estas condiciones cuando cambian la app, nuestra oferta o la ley. La fecha de arriba indica la versión vigente. Si tienes preguntas, escríbenos a [contact@simple-time.app](mailto:contact@simple-time.app)."
+        ]
+      }
+    ]
+  },
+  "accessibility": {
+    "title": "Accesibilidad",
+    "updated": "Última actualización",
+    "summaryTitle": "En resumen",
+    "summary": [
+      "SimpleTime funciona con VoiceOver y con texto grande, en 41 idiomas.",
+      "Con cada cambio comprobamos automáticamente que esta web no tenga barreras.",
+      "Lo que aún no está bien aparece abajo; y si te encuentras con una barrera, escríbenos."
+    ],
+    "sections": [
+      {
+        "id": "app",
+        "title": "La app",
+        "paragraphs": [
+          "VoiceOver: los botones, los gráficos y la línea de tiempo tienen etiquetas que VoiceOver lee en voz alta, en todos los idiomas de la app.",
+          "Tamaño del texto: el texto sigue el tamaño de iOS hasta los tamaños de accesibilidad más grandes. Donde un texto muy grande taparía los controles – en la cabecera y a lo largo de la línea de tiempo –, solo crece hasta un límite.",
+          "Movimiento y color: con «Reducir movimiento» activado, SimpleTime suaviza sus animaciones. Distingues las tareas no solo por su color, sino también por su nombre y su símbolo, y los textos están pensados para leerse bien con apariencia clara y oscura.",
+          "Idiomas: la app habla 41 idiomas, con independencia del idioma de tu dispositivo; árabe, hebreo, persa, pastún y urdu, de derecha a izquierda."
+        ]
+      },
+      {
+        "id": "website",
+        "title": "Esta web",
+        "paragraphs": [
+          "Diseñamos esta web conforme a las Pautas de Accesibilidad para el Contenido Web (WCAG) 2.2, nivel AA: títulos claros, textos alternativos para las imágenes, contraste suficiente con apariencia clara y oscura, uso con teclado con un foco visible y zoom sin perder contenido.",
+          "Con cada cambio, una prueba automática revisa las páginas con axe-core – en ordenador y en móvil, y en árabe y hebreo también de derecha a izquierda."
+        ]
+      },
+      {
+        "id": "limits",
+        "title": "Lo que aún no está bien",
+        "paragraphs": [
+          "Con los tamaños de texto más grandes, la barra de la tarea en curso puede cortar texto.",
+          "Los gráficos aún no ofrecen gráficos de audio para VoiceOver. Sus valores aparecen también como texto, en la leyenda y en las estadísticas."
+        ]
+      },
+      {
+        "id": "feedback",
+        "title": "¿Has encontrado una barrera?",
+        "paragraphs": [
+          "Escríbenos a [contact@simple-time.app](mailto:contact@simple-time.app) y cuéntanos brevemente dónde falla, en la app o en esta web. Solemos responder en pocos días laborables y corregimos lo que podemos en la siguiente actualización."
+        ]
+      },
+      {
+        "id": "about",
+        "title": "Sobre esta declaración",
+        "paragraphs": [
+          "Esta declaración se basa en nuestras propias comprobaciones de la app y de la web, con VoiceOver, texto grande y pruebas automáticas. La actualizamos cuando algo cambia."
+        ]
+      }
+    ]
   }
 }

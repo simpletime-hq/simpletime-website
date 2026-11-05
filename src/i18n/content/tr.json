@@ -948,5 +948,126 @@
         ]
       }
     ]
+  },
+  "terms": {
+    "title": "Kullanım koşulları",
+    "updated": "Son güncelleme",
+    "translationNote": "Bu, Almanca kullanım koşullarının bir çevirisidir. Şüphe durumunda [Almanca sürüm](@terms-de) geçerlidir.",
+    "summaryTitle": "Kısaca",
+    "summary": [
+      "SimpleTime ücretsizdir. Pro’yu App Store’dan satın alırsın ve abonelikleri istediğin an orada iptal edebilirsin.",
+      "Verilerin sana aittir – yine de onları yedekle, en kolayı bir yedekleme planıyla.",
+      "Bu koşullara ek olarak Apple’ın App Store uygulamaları için lisans sözleşmesi geçerlidir."
+    ],
+    "sections": [
+      {
+        "id": "scope",
+        "title": "Kapsam",
+        "paragraphs": [
+          "Bu koşullar iPhone, iPad, Mac ve Apple Watch’taki SimpleTime uygulaması ve SimpleTime Pro için geçerlidir. Sağlayıcı Luca Efinger, Friedrich-Ebert-Ring 16, 97072 Würzburg, Almanya’dır – ayrıntılar [künyede](@imprint).",
+          "SimpleTime’ı App Store’dan indirirsin. Bunun için Apple’ın [lisanslı uygulamalar için son kullanıcı lisans sözleşmesi](https://www.apple.com/legal/internet-services/itunes/dev/stdeula/) (standart EULA) geçerlidir. Bu sayfa onu SimpleTime için geçerli olanlarla tamamlar; ikisi çeliştiğinde standart EULA geçerlidir."
+        ]
+      },
+      {
+        "id": "app",
+        "title": "Uygulama",
+        "paragraphs": [
+          "SimpleTime ücretsizdir ve hesap olmadan çalışır – kişisel ve iş amaçlı kullanım için. Uygulamayı geliştirmeye devam ediyoruz ve bu sırada işlevleri değiştirebilir, ekleyebilir ya da kaldırabiliriz.",
+          "SimpleTime kendi zamanını kaydetmen için bir araçtır. Kayıtlarının yasal ya da sözleşmeden doğan gereklilikleri karşılayıp karşılamadığını – örneğin çalışma süresinin kaydı ya da faturalandırma için – kendin kontrol edersin."
+        ]
+      },
+      {
+        "id": "pro",
+        "title": "SimpleTime Pro",
+        "paragraphs": [
+          "Pro aylık, yıllık ya da tek seferlik bir satın almayla süresiz olarak sunulur. Satın alma ve ödemeyi Apple, App Store üzerinden yürütür ve Apple’ın koşulları geçerlidir. Fiyatları satın almadan önce uygulamada, KDV dahil olarak görürsün.",
+          "Aylık ve yıllık abonelikler sen iptal edene kadar otomatik olarak yenilenir. Ödeme, satın almayı onayladığında ve her yenilemede dönem bitmeden önceki 24 saat içinde Apple Hesabından tahsil edilir. Bir dönemin bitiminden en az 24 saat önce iptal edersen abonelik artık yenilenmez; Pro, ödenen dönemin sonuna kadar etkin kalır. Abonelikleri Apple Hesabının ayarlarında yönetir ve iptal edersin.",
+          "İlk kez abone olanlar bir hafta ücretsiz deneyebilir. Deneme haftasının bitiminden en az 24 saat önce iptal etmezsen ücretli abonelik başlar. Aile Paylaşımı ile en fazla altı kişi Pro kullanabilir.",
+          "Para iadeleri ve olası bir cayma hakkı, satın almayı Apple yürüttüğü için Apple’ın koşullarına tabidir. İadeyi [reportaproblem.apple.com](https://reportaproblem.apple.com) adresinden talep edebilirsin."
+        ]
+      },
+      {
+        "id": "data",
+        "title": "Verilerin",
+        "paragraphs": [
+          "SimpleTime’a girdiğin her şey sana aittir. Bunlara erişimimiz yoktur ve bu yüzden senin için geri de yükleyemeyiz. Verilerini düzenli olarak yedekle – SimpleTime yedekleme planları ve dışa aktarmayla sana yardımcı olur.",
+          "Verileri nasıl işlediğimiz [gizlilik politikasında](@privacy) anlatılır."
+        ]
+      },
+      {
+        "id": "liability",
+        "title": "Sorumluluk",
+        "paragraphs": [
+          "Kast ve ağır ihmal durumunda, yaşama, vücuda ya da sağlığa verilen zararlarda ve Alman Ürün Sorumluluğu Kanunu uyarınca sınırsız sorumluyuz. Hafif ihmalde yalnızca temel bir yükümlülüğü ihlal edersek sorumluyuz – yerine getirilmesi uygulamanın kullanılmasını mümkün kılan ve güvenebileceğin bir yükümlülük –, o zaman da yalnızca öngörülebilir, tipik zarar kadar.",
+          "Veri kaybından yalnızca düzenli yedeklemeyle de oluşacak ölçüde sorumluyuz."
+        ]
+      },
+      {
+        "id": "law",
+        "title": "Uygulanacak hukuk",
+        "paragraphs": [
+          "Birleşmiş Milletler Uluslararası Mal Satımına İlişkin Sözleşmeler Hakkında Antlaşma hariç olmak üzere Alman hukuku uygulanır. SimpleTime’ı tüketici olarak kullanıyorsan yaşadığın ülkenin emredici tüketici koruma kuralları geçerliliğini korur."
+        ]
+      },
+      {
+        "id": "changes",
+        "title": "Değişiklikler",
+        "paragraphs": [
+          "Uygulama, sunduklarımız ya da mevzuat değiştiğinde bu koşulları güncelleriz. Üstteki tarih geçerli sürümü gösterir. Soruların için bize [contact@simple-time.app](mailto:contact@simple-time.app) adresinden yaz."
+        ]
+      }
+    ]
+  },
+  "accessibility": {
+    "title": "Erişilebilirlik",
+    "updated": "Son güncelleme",
+    "summaryTitle": "Kısaca",
+    "summary": [
+      "SimpleTime, VoiceOver ve büyük metinle 41 dilde kullanılabilir.",
+      "Her değişiklikte bu web sitesini engellere karşı otomatik olarak denetliyoruz.",
+      "Henüz iyi olmayanlar aşağıda yazıyor – bir engelle karşılaşırsan bize yaz."
+    ],
+    "sections": [
+      {
+        "id": "app",
+        "title": "Uygulama",
+        "paragraphs": [
+          "VoiceOver: düğmelerin, grafiklerin ve zaman çizelgesinin VoiceOver’ın sesli okuduğu etiketleri vardır – uygulamanın her dilinde.",
+          "Metin boyutu: metin, iOS’taki metin boyutunu en büyük erişilebilirlik boyutlarına kadar izler. Çok büyük metnin denetimleri kapatacağı yerlerde – başlıkta ve zaman çizelgesi boyunca – yalnızca belirli bir sınıra kadar büyür.",
+          "Hareket ve renk: “Hareketi Azalt” açıkken SimpleTime animasyonlarını yumuşatır. Görevleri yalnızca renklerinden değil, adlarından ve simgelerinden de ayırt edersin; metinler hem açık hem de koyu görünümde okunaklı kalacak şekilde tasarlanmıştır.",
+          "Diller: uygulama, cihazının dilinden bağımsız olarak 41 dil konuşur – Arapça, İbranice, Farsça, Peştuca ve Urduca sağdan sola."
+        ]
+      },
+      {
+        "id": "website",
+        "title": "Bu web sitesi",
+        "paragraphs": [
+          "Bu web sitesini Web İçeriği Erişilebilirlik Yönergeleri’ne (WCAG) 2.2, AA düzeyine göre oluşturuyoruz: açık başlıklar, görseller için alternatif metin, açık ve koyu görünümde yeterli kontrast, görünür odakla klavyeden kullanım ve içerik kaybı olmadan yakınlaştırma.",
+          "Her değişiklikte otomatik bir test, sayfaları axe-core ile denetler – bilgisayarda ve telefonda, Arapça ve İbranicede ayrıca sağdan sola."
+        ]
+      },
+      {
+        "id": "limits",
+        "title": "Henüz iyi olmayanlar",
+        "paragraphs": [
+          "En büyük metin boyutlarında, çalışan görevin çubuğu metni kesebilir.",
+          "Grafikler VoiceOver için henüz sesli grafik sunmuyor. Ancak değerleri metin olarak da açıklamada ve istatistiklerde yer alır."
+        ]
+      },
+      {
+        "id": "feedback",
+        "title": "Bir engel mi buldun?",
+        "paragraphs": [
+          "Bize [contact@simple-time.app](mailto:contact@simple-time.app) adresinden yaz ve nerede takıldığını kısaca anlat – uygulamada ya da bu web sitesinde. Genellikle birkaç iş günü içinde yanıt verir ve düzeltebildiğimizi bir sonraki güncellemede düzeltiriz."
+        ]
+      },
+      {
+        "id": "about",
+        "title": "Bu açıklama hakkında",
+        "paragraphs": [
+          "Bu açıklama, uygulamayı ve web sitesini kendi yaptığımız denetimlere dayanır – VoiceOver, büyük metin ve otomatik testlerle. Bir şey değiştiğinde onu güncelleriz."
+        ]
+      }
+    ]
   }
 }

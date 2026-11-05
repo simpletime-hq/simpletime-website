@@ -18,6 +18,8 @@ const links = {
   contact: `${prefix}/contact/`,
   imprint: `${prefix}/imprint/`,
   privacy: `${prefix}/privacy/`,
+  terms: `${prefix}/terms/`,
+  accessibility: `${prefix}/accessibility/`,
 };
 
 const linkClass = 'inline-block py-1.5 text-muted transition-colors hover:text-ink';
@@ -52,6 +54,8 @@ const linkClass = 'inline-block py-1.5 text-muted transition-colors hover:text-i
         <ul class="mt-4 space-y-0.5">
           <li><a href={links.imprint} class={linkClass}>{t('footer.imprint')}</a></li>
           <li><a href={links.privacy} class={linkClass}>{t('footer.privacy')}</a></li>
+          <li><a href={links.terms} class={linkClass}>{t('footer.terms')}</a></li>
+          <li><a href={links.accessibility} class={linkClass}>{t('footer.accessibility')}</a></li>
         </ul>
       </div>
     </div>

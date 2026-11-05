@@ -61,6 +61,9 @@ export default defineConfig({
     scenario('pro-mobile', '/pro/', 200, 'en', 'ltr', mobile),
     scenario('hebrew-pro-desktop', '/he/pro/', 200, 'he', 'rtl', desktop),
     scenario('contact-mobile', '/contact/', 200, 'en', 'ltr', mobile),
+    scenario('terms-desktop', '/terms/', 200, 'en', 'ltr', desktop),
+    scenario('arabic-terms-mobile', '/ar/terms/', 200, 'ar', 'rtl', mobile),
+    scenario('german-accessibility-mobile', '/de/accessibility/', 200, 'de', 'ltr', mobile),
     scenario('not-found-desktop', '/**stweb004_probe**/', 404, 'en', 'ltr', desktop),
   ],
 });

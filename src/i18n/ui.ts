@@ -35,6 +35,10 @@ export const ui = {
       'How SimpleTime handles your data: no account, no ads. Your entries stay on your devices and in your private iCloud.',
     'meta.imprint.description':
       'Legal notice for simple-time.app under § 5 DDG – operator, contact details and liability information for the SimpleTime app and website.',
+    'meta.terms.description':
+      'The terms of use for SimpleTime: a free app, SimpleTime Pro through the App Store, subscriptions and the free week, your data, liability and applicable law.',
+    'meta.accessibility.description':
+      'How accessible SimpleTime and this website are: VoiceOver, large text, 41 languages, automated checks – and what isn’t good yet.',
     'meta.pro.title': 'SimpleTime Pro – Apple Watch, places, goals and more',
     'meta.pro.description':
       'SimpleTime stays free. Pro adds the Apple Watch app, reviews, places, goals, a focus filter and more – monthly, yearly or once for good.',
@@ -70,6 +74,8 @@ export const ui = {
     'footer.contact': 'Contact',
     'footer.imprint': 'Imprint',
     'footer.privacy': 'Privacy',
+    'footer.terms': 'Terms of Use',
+    'footer.accessibility': 'Accessibility',
     'footer.copyright': '© {year} Luca Efinger. All rights reserved.',
 
     'contact.title': 'Contact',
@@ -109,6 +115,10 @@ export const ui = {
       'Wie SimpleTime mit deinen Daten umgeht: kein Konto, keine Werbung. Deine Einträge bleiben auf deinen Geräten und in deiner privaten iCloud.',
     'meta.imprint.description':
       'Impressum für simple-time.app nach § 5 DDG – Betreiber, Kontaktdaten und Haftungshinweise zur SimpleTime-App und zur Website.',
+    'meta.terms.description':
+      'Die Nutzungsbedingungen von SimpleTime: kostenlose App, SimpleTime Pro über den App Store, Abos und Testwoche, deine Daten, Haftung und anwendbares Recht.',
+    'meta.accessibility.description':
+      'Wie zugänglich SimpleTime und diese Website sind: VoiceOver, große Schrift, 41 Sprachen, automatische Prüfungen – und was noch nicht gut ist.',
     'meta.pro.title': 'SimpleTime Pro – Apple Watch, Orte, Ziele und mehr',
     'meta.pro.description':
       'SimpleTime bleibt kostenlos. Pro bringt die Apple-Watch-App, Rückblicke, Orte, Ziele, den Fokusfilter und mehr – im Monat, im Jahr oder einmalig für immer.',
@@ -144,6 +154,8 @@ export const ui = {
     'footer.contact': 'Kontakt',
     'footer.imprint': 'Impressum',
     'footer.privacy': 'Datenschutz',
+    'footer.terms': 'Nutzungsbedingungen',
+    'footer.accessibility': 'Barrierefreiheit',
     'footer.copyright': '© {year} Luca Efinger. Alle Rechte vorbehalten.',
 
     'contact.title': 'Kontakt',
@@ -182,6 +194,10 @@ export const ui = {
       'Comment SimpleTime traite vos données : aucun compte, aucune publicité. Vos entrées restent sur vos appareils et dans votre iCloud privé.',
     'meta.imprint.description':
       'Mentions légales de simple-time.app selon le § 5 DDG — éditeur, coordonnées et informations de responsabilité pour l’app et le site SimpleTime.',
+    'meta.terms.description':
+      'Les conditions d’utilisation de SimpleTime : une app gratuite, SimpleTime Pro via l’App Store, abonnements et semaine d’essai, vos données, responsabilité et droit applicable.',
+    'meta.accessibility.description':
+      'Le niveau d’accessibilité de SimpleTime et de ce site : VoiceOver, grands caractères, 41 langues, vérifications automatiques – et ce qui n’est pas encore au point.',
     'meta.pro.title': 'SimpleTime Pro – Apple Watch, lieux, objectifs et plus encore',
     'meta.pro.description':
       'SimpleTime reste gratuit. Pro ajoute l’app Apple Watch, bilans, lieux, objectifs, filtre de concentration et plus encore – au mois, à l’année ou une fois pour toutes.',
@@ -217,6 +233,8 @@ export const ui = {
     'footer.contact': 'Contact',
     'footer.imprint': 'Mentions légales',
     'footer.privacy': 'Confidentialité',
+    'footer.terms': 'Conditions d’utilisation',
+    'footer.accessibility': 'Accessibilité',
     'footer.copyright': '© {year} Luca Efinger. Tous droits réservés.',
 
     'contact.title': 'Contact',
@@ -255,6 +273,10 @@ export const ui = {
       'Cómo trata SimpleTime tus datos: sin cuenta, sin publicidad. Tus entradas se quedan en tus dispositivos y en tu iCloud privado.',
     'meta.imprint.description':
       'Aviso legal de simple-time.app según el § 5 DDG: titular, datos de contacto e información sobre responsabilidad de la app y el sitio de SimpleTime.',
+    'meta.terms.description':
+      'Las condiciones de uso de SimpleTime: una app gratuita, SimpleTime Pro a través del App Store, suscripciones y semana de prueba, tus datos, responsabilidad y derecho aplicable.',
+    'meta.accessibility.description':
+      'Lo accesibles que son SimpleTime y esta web: VoiceOver, texto grande, 41 idiomas, comprobaciones automáticas y lo que aún no está bien.',
     'meta.pro.title': 'SimpleTime Pro – Apple Watch, lugares, objetivos y más',
     'meta.pro.description':
       'SimpleTime sigue siendo gratis. Pro añade la app para Apple Watch, resúmenes, lugares, objetivos, el filtro de concentración y más – por mes, por año o de por vida.',
@@ -290,6 +312,8 @@ export const ui = {
     'footer.contact': 'Contacto',
     'footer.imprint': 'Aviso legal',
     'footer.privacy': 'Privacidad',
+    'footer.terms': 'Condiciones de uso',
+    'footer.accessibility': 'Accesibilidad',
     'footer.copyright': '© {year} Luca Efinger. Todos los derechos reservados.',
 
     'contact.title': 'Contacto',
@@ -328,6 +352,10 @@ export const ui = {
       'Come SimpleTime tratta i tuoi dati: nessun account, nessuna pubblicità. Le tue voci restano sui tuoi dispositivi e nel tuo iCloud privato.',
     'meta.imprint.description':
       'Note legali di simple-time.app ai sensi del § 5 DDG: titolare, contatti e informazioni sulla responsabilità per l’app e il sito SimpleTime.',
+    'meta.terms.description':
+      'Le condizioni d’uso di SimpleTime: un’app gratuita, SimpleTime Pro tramite l’App Store, abbonamenti e settimana di prova, i tuoi dati, responsabilità e legge applicabile.',
+    'meta.accessibility.description':
+      'Quanto sono accessibili SimpleTime e questo sito: VoiceOver, testo grande, 41 lingue, controlli automatici – e cosa non va ancora bene.',
     'meta.pro.title': 'SimpleTime Pro – Apple Watch, luoghi, obiettivi e altro',
     'meta.pro.description':
       'SimpleTime resta gratuito. Pro aggiunge l’app per Apple Watch, riepiloghi, luoghi, obiettivi, filtro Full Immersion e altro – al mese, all’anno o una volta per sempre.',
@@ -363,6 +391,8 @@ export const ui = {
     'footer.contact': 'Contatti',
     'footer.imprint': 'Note legali',
     'footer.privacy': 'Privacy',
+    'footer.terms': 'Condizioni d’uso',
+    'footer.accessibility': 'Accessibilità',
     'footer.copyright': '© {year} Luca Efinger. Tutti i diritti riservati.',
 
     'contact.title': 'Contatti',
@@ -401,6 +431,10 @@ export const ui = {
       'Как SimpleTime обращается с вашими данными: без учётной записи, без рекламы. Ваши записи хранятся на ваших устройствах и в личном iCloud.',
     'meta.imprint.description':
       'Выходные данные simple-time.app согласно § 5 DDG: владелец, контактные данные и сведения об ответственности за приложение и сайт SimpleTime.',
+    'meta.terms.description':
+      'Условия использования SimpleTime: бесплатное приложение, SimpleTime Pro через App Store, подписки и пробная неделя, ваши данные, ответственность и применимое право.',
+    'meta.accessibility.description':
+      'Насколько доступны SimpleTime и этот сайт: VoiceOver, крупный текст, 41 язык, автоматические проверки — и что пока не так.',
     'meta.pro.title': 'SimpleTime Pro – Apple Watch, места, цели и многое другое',
     'meta.pro.description':
       'SimpleTime остаётся бесплатным. Pro добавляет приложение для Apple Watch, итоги, места, цели, фильтр фокусирования и многое другое — на месяц, на год или навсегда.',
@@ -436,6 +470,8 @@ export const ui = {
     'footer.contact': 'Контакты',
     'footer.imprint': 'Выходные данные',
     'footer.privacy': 'Конфиденциальность',
+    'footer.terms': 'Условия использования',
+    'footer.accessibility': 'Доступность',
     'footer.copyright': '© {year} Luca Efinger. Все права защищены.',
 
     'contact.title': 'Контакты',
@@ -474,6 +510,10 @@ export const ui = {
       'Ինչպես է SimpleTime-ը վարվում ձեր տվյալների հետ՝ առանց հաշվի և գովազդի։ Ձեր գրառումները մնում են ձեր սարքերում և անձնական iCloud-ում։',
     'meta.imprint.description':
       'simple-time.app-ի իրավական տվյալները § 5 DDG-ի համաձայն․ տիրապետող, կապի տվյալներ և պատասխանատվության մասին տեղեկություններ SimpleTime հավելվածի և կայքի համար։',
+    'meta.terms.description':
+      'SimpleTime-ի օգտագործման պայմանները՝ անվճար հավելված, SimpleTime Pro App Store-ի միջոցով, բաժանորդագրություններ և փորձնական շաբաթ, ձեր տվյալները, պատասխանատվություն և կիրառելի իրավունք։',
+    'meta.accessibility.description':
+      'Որքանով են մատչելի SimpleTime-ը և այս կայքը՝ VoiceOver, խոշոր տեքստ, 41 լեզու, ավտոմատ ստուգումներ, և ինչը դեռ լավ չէ։',
     'meta.pro.title': 'SimpleTime Pro – Apple Watch, վայրեր, նպատակներ և ավելին',
     'meta.pro.description':
       'SimpleTime-ը մնում է անվճար։ Pro-ն ավելացնում է Apple Watch-ի հավելվածը, ամփոփումներ, վայրեր, նպատակներ, կենտրոնացման զտիչ և ավելին՝ ամսական, տարեկան կամ ցմահ։',
@@ -509,6 +549,8 @@ export const ui = {
     'footer.contact': 'Կապ',
     'footer.imprint': 'Իրավական տվյալներ',
     'footer.privacy': 'Գաղտնիություն',
+    'footer.terms': 'Օգտագործման պայմաններ',
+    'footer.accessibility': 'Մատչելիություն',
     'footer.copyright': '© {year} Luca Efinger։ Բոլոր իրավունքները պաշտպանված են։',
 
     'contact.title': 'Կապ',
@@ -547,6 +589,10 @@ export const ui = {
       'Como o SimpleTime trata os seus dados: sem conta, sem publicidade. Os seus registos ficam nos seus dispositivos e no seu iCloud privado.',
     'meta.imprint.description':
       'Informação legal de simple-time.app nos termos do § 5 DDG: titular, contactos e informações de responsabilidade da aplicação e do site SimpleTime.',
+    'meta.terms.description':
+      'As condições de utilização do SimpleTime: uma app gratuita, o SimpleTime Pro através da App Store, subscrições e semana de experiência, os seus dados, responsabilidade e lei aplicável.',
+    'meta.accessibility.description':
+      'Quão acessíveis são o SimpleTime e este site: VoiceOver, texto grande, 41 idiomas, verificações automáticas – e o que ainda não está bem.',
     'meta.pro.title': 'SimpleTime Pro – Apple Watch, locais, metas e mais',
     'meta.pro.description':
       'O SimpleTime continua gratuito. O Pro acrescenta a app para o Apple Watch, resumos, locais, metas, o filtro de concentração e mais – ao mês, ao ano ou para sempre.',
@@ -582,6 +628,8 @@ export const ui = {
     'footer.contact': 'Contacto',
     'footer.imprint': 'Ficha legal',
     'footer.privacy': 'Privacidade',
+    'footer.terms': 'Condições de utilização',
+    'footer.accessibility': 'Acessibilidade',
     'footer.copyright': '© {year} Luca Efinger. Todos os direitos reservados.',
 
     'contact.title': 'Contacto',
@@ -620,6 +668,10 @@ export const ui = {
       'SimpleTime verilerini nasıl işler: hesap yok, reklam yok. Kayıtların cihazlarında ve sana özel iCloud alanında kalır.',
     'meta.imprint.description':
       'simple-time.app için § 5 DDG uyarınca yasal bilgiler: sahibi, iletişim bilgileri ve SimpleTime uygulaması ile sitesine ilişkin sorumluluk bilgileri.',
+    'meta.terms.description':
+      'SimpleTime kullanım koşulları: ücretsiz bir uygulama, App Store üzerinden SimpleTime Pro, abonelikler ve deneme haftası, verilerin, sorumluluk ve uygulanacak hukuk.',
+    'meta.accessibility.description':
+      'SimpleTime ve bu web sitesi ne kadar erişilebilir: VoiceOver, büyük metin, 41 dil, otomatik denetimler – ve henüz iyi olmayanlar.',
     'meta.pro.title': 'SimpleTime Pro – Apple Watch, yerler, hedefler ve dahası',
     'meta.pro.description':
       'SimpleTime ücretsiz kalır. Pro; Apple Watch uygulamasını, özetleri, yerleri, hedefleri, odak filtresini ve dahasını ekler – aylık, yıllık ya da tek seferde sonsuza dek.',
@@ -655,6 +707,8 @@ export const ui = {
     'footer.contact': 'İletişim',
     'footer.imprint': 'Künye',
     'footer.privacy': 'Gizlilik',
+    'footer.terms': 'Kullanım koşulları',
+    'footer.accessibility': 'Erişilebilirlik',
     'footer.copyright': '© {year} Luca Efinger. Tüm hakları saklıdır.',
 
     'contact.title': 'İletişim',
@@ -693,6 +747,10 @@ export const ui = {
       'كيف يتعامل SimpleTime مع بياناتك: بلا حساب، بلا إعلانات. تبقى إدخالاتك على أجهزتك وفي iCloud الخاص بك.',
     'meta.imprint.description':
       'البيانات القانونية لموقع simple-time.app وفقًا للمادة 5 من قانون DDG: المالك وبيانات الاتصال ومعلومات المسؤولية عن تطبيق SimpleTime وموقعه.',
+    'meta.terms.description':
+      'شروط استخدام SimpleTime: تطبيق مجاني، وSimpleTime Pro عبر App Store، والاشتراكات وأسبوع التجربة، وبياناتك، والمسؤولية، والقانون الواجب التطبيق.',
+    'meta.accessibility.description':
+      'مدى إمكانية الوصول إلى SimpleTime وهذا الموقع: VoiceOver، والنص الكبير، و41 لغة، والفحوص التلقائية – وما ليس جيدًا بعد.',
     'meta.pro.title': 'SimpleTime Pro – Apple Watch والأماكن والأهداف والمزيد',
     'meta.pro.description':
       'يبقى SimpleTime مجانيًا. ويضيف Pro تطبيق Apple Watch والملخّصات والأماكن والأهداف ومُرشِّح التركيز والمزيد – شهريًا أو سنويًا أو مرة واحدة إلى الأبد.',
@@ -728,6 +786,8 @@ export const ui = {
     'footer.contact': 'اتصل بنا',
     'footer.imprint': 'البيانات القانونية',
     'footer.privacy': 'الخصوصية',
+    'footer.terms': 'شروط الاستخدام',
+    'footer.accessibility': 'إمكانية الوصول',
     'footer.copyright': '© {year} Luca Efinger. جميع الحقوق محفوظة.',
 
     'contact.title': 'اتصل بنا',
@@ -766,6 +826,10 @@ export const ui = {
       'SimpleTime のデータの扱い方：アカウントなし、広告なし。記録はお使いの端末と、ご自分のプライベートな iCloud に残ります。',
     'meta.imprint.description':
       'simple-time.app の運営者情報（ドイツ DDG 第5条）。運営者、連絡先、SimpleTime アプリおよびサイトに関する責任事項。',
+    'meta.terms.description':
+      'SimpleTime の利用規約：無料のアプリ、App Store で購入する SimpleTime Pro、サブスクリプションと無料期間、データ、責任、準拠法。',
+    'meta.accessibility.description':
+      'SimpleTime とこのウェブサイトのアクセシビリティ：VoiceOver、大きな文字、41 言語、自動チェック — そして、まだ十分でない点。',
     'meta.pro.title': 'SimpleTime Pro – Apple Watch、場所、目標など',
     'meta.pro.description':
       'SimpleTime は無料のままです。Pro では Apple Watch アプリ、振り返り、場所、目標、集中モードフィルタなどが加わります — 月額・年額・買い切りから選べます。',
@@ -801,6 +865,8 @@ export const ui = {
     'footer.contact': 'お問い合わせ',
     'footer.imprint': '運営者情報',
     'footer.privacy': 'プライバシー',
+    'footer.terms': '利用規約',
+    'footer.accessibility': 'アクセシビリティ',
     'footer.copyright': '© {year} Luca Efinger. All rights reserved.',
 
     'contact.title': 'お問い合わせ',
@@ -839,6 +905,10 @@ export const ui = {
       'SimpleTime 如何处理你的数据：无需账号，没有广告。你的记录保存在你的设备和你的私人 iCloud 中。',
     'meta.imprint.description':
       'simple-time.app 依据德国 DDG 第 5 条的法律声明：运营者、联系方式，以及 SimpleTime 应用与网站的责任说明。',
+    'meta.terms.description':
+      'SimpleTime 使用条款：免费 App、通过 App Store 购买的 SimpleTime Pro、订阅和试用周、你的数据、责任和适用法律。',
+    'meta.accessibility.description':
+      'SimpleTime 和本网站的无障碍程度：旁白、大字体、41 种语言、自动检查 — 以及尚不完善之处。',
     'meta.pro.title': 'SimpleTime Pro – Apple Watch、地点、目标及更多',
     'meta.pro.description':
       'SimpleTime 保持免费。Pro 另外提供 Apple Watch App、回顾、地点、目标、专注过滤器等功能 — 可按月、按年或一次买断。',
@@ -874,6 +944,8 @@ export const ui = {
     'footer.contact': '联系我们',
     'footer.imprint': '法律声明',
     'footer.privacy': '隐私',
+    'footer.terms': '使用条款',
+    'footer.accessibility': '辅助功能',
     'footer.copyright': '© {year} Luca Efinger. 保留所有权利。',
 
     'contact.title': '联系我们',
@@ -912,6 +984,10 @@ export const ui = {
       'SimpleTime आपके डेटा को कैसे संभालता है: कोई खाता नहीं, कोई विज्ञापन नहीं। आपकी प्रविष्टियाँ आपके डिवाइस पर और आपके निजी iCloud में रहती हैं।',
     'meta.imprint.description':
       'simple-time.app की कानूनी जानकारी, जर्मन DDG की धारा 5 के अनुसार: संचालक, संपर्क विवरण और SimpleTime ऐप व वेबसाइट से जुड़ी उत्तरदायित्व जानकारी।',
+    'meta.terms.description':
+      'SimpleTime की उपयोग की शर्तें: मुफ़्त ऐप, App Store के ज़रिए SimpleTime Pro, सदस्यताएँ और ट्रायल हफ़्ता, आपका डेटा, दायित्व और लागू कानून।',
+    'meta.accessibility.description':
+      'SimpleTime और यह वेबसाइट कितने सुलभ हैं: VoiceOver, बड़ा टेक्स्ट, 41 भाषाएँ, स्वचालित जाँच – और जो अभी ठीक नहीं है।',
     'meta.pro.title': 'SimpleTime Pro – Apple Watch, जगहें, लक्ष्य और बहुत कुछ',
     'meta.pro.description':
       'SimpleTime मुफ़्त रहता है। Pro जोड़ता है: Apple Watch ऐप, समीक्षाएँ, जगहें, लक्ष्य, फ़ोकस फ़िल्टर और बहुत कुछ – मासिक, वार्षिक या एक बार हमेशा के लिए।',
@@ -947,6 +1023,8 @@ export const ui = {
     'footer.contact': 'संपर्क',
     'footer.imprint': 'कानूनी सूचना',
     'footer.privacy': 'निजता',
+    'footer.terms': 'उपयोग की शर्तें',
+    'footer.accessibility': 'सुलभता',
     'footer.copyright': '© {year} Luca Efinger. सर्वाधिकार सुरक्षित।',
 
     'contact.title': 'संपर्क',
@@ -985,6 +1063,10 @@ export const ui = {
       'Hoe SimpleTime met je gegevens omgaat: geen account, geen advertenties. Je registraties blijven op je apparaten en in je persoonlijke iCloud.',
     'meta.imprint.description':
       'Colofon van simple-time.app volgens § 5 DDG — exploitant, contactgegevens en aansprakelijkheidsinformatie voor de SimpleTime-app en de site.',
+    'meta.terms.description':
+      'De gebruiksvoorwaarden van SimpleTime: een gratis app, SimpleTime Pro via de App Store, abonnementen en proefweek, je gegevens, aansprakelijkheid en toepasselijk recht.',
+    'meta.accessibility.description':
+      'Hoe toegankelijk SimpleTime en deze website zijn: VoiceOver, grote tekst, 41 talen, automatische controles – en wat nog niet goed is.',
     'meta.pro.title': 'SimpleTime Pro – Apple Watch, locaties, doelen en meer',
     'meta.pro.description':
       'SimpleTime blijft gratis. Met Pro krijg je de app voor Apple Watch, terugblikken, locaties, doelen, een focusfilter en meer – per maand, per jaar of eenmalig.',
@@ -1020,6 +1102,8 @@ export const ui = {
     'footer.contact': 'Contact',
     'footer.imprint': 'Colofon',
     'footer.privacy': 'Privacy',
+    'footer.terms': 'Gebruiksvoorwaarden',
+    'footer.accessibility': 'Toegankelijkheid',
     'footer.copyright': '© {year} Luca Efinger. Alle rechten voorbehouden.',
 
     'contact.title': 'Contact',
@@ -1058,6 +1142,10 @@ export const ui = {
       'Så hanterar SimpleTime dina data: inget konto, ingen reklam. Dina tidposter stannar på dina enheter och i din privata iCloud.',
     'meta.imprint.description':
       'Ansvarig utgivare för simple-time.app enligt § 5 DDG – innehavare, kontaktuppgifter och ansvarsinformation för appen och webbplatsen SimpleTime.',
+    'meta.terms.description':
+      'Användarvillkoren för SimpleTime: en gratis app, SimpleTime Pro via App Store, prenumerationer och provvecka, dina data, ansvar och tillämplig lag.',
+    'meta.accessibility.description':
+      'Hur tillgängliga SimpleTime och den här webbplatsen är: VoiceOver, stor text, 41 språk, automatiska kontroller – och det som inte är bra än.',
     'meta.pro.title': 'SimpleTime Pro – Apple Watch, platser, mål och mer',
     'meta.pro.description':
       'SimpleTime förblir gratis. Pro lägger till appen för Apple Watch, tillbakablickar, platser, mål, ett fokusfilter och mer – per månad, per år eller en gång för alltid.',
@@ -1093,6 +1181,8 @@ export const ui = {
     'footer.contact': 'Kontakt',
     'footer.imprint': 'Ansvarig utgivare',
     'footer.privacy': 'Integritet',
+    'footer.terms': 'Användarvillkor',
+    'footer.accessibility': 'Tillgänglighet',
     'footer.copyright': '© {year} Luca Efinger. Med ensamrätt.',
 
     'contact.title': 'Kontakt',
@@ -1131,6 +1221,10 @@ export const ui = {
       'Як SimpleTime поводиться з вашими даними: без облікового запису, без реклами. Ваші записи зберігаються на ваших пристроях і в особистому iCloud.',
     'meta.imprint.description':
       'Вихідні дані simple-time.app згідно з § 5 DDG: власник, контактні дані та відомості про відповідальність щодо застосунку й сайту SimpleTime.',
+    'meta.terms.description':
+      'Умови використання SimpleTime: безкоштовний застосунок, SimpleTime Pro через App Store, підписки й пробний тиждень, ваші дані, відповідальність і застосовне право.',
+    'meta.accessibility.description':
+      'Наскільки доступні SimpleTime і цей сайт: VoiceOver, великий текст, 41 мова, автоматичні перевірки — і що поки не так.',
     'meta.pro.title': 'SimpleTime Pro – Apple Watch, місця, цілі та багато іншого',
     'meta.pro.description':
       'SimpleTime лишається безкоштовним. Pro додає застосунок для Apple Watch, підсумки, місця, цілі, фокус-фільтр та багато іншого — на місяць, на рік або назавжди.',
@@ -1166,6 +1260,8 @@ export const ui = {
     'footer.contact': 'Контакти',
     'footer.imprint': 'Вихідні дані',
     'footer.privacy': 'Конфіденційність',
+    'footer.terms': 'Умови використання',
+    'footer.accessibility': 'Доступність',
     'footer.copyright': '© {year} Luca Efinger. Усі права захищено.',
 
     'contact.title': 'Контакти',
@@ -1204,6 +1300,10 @@ export const ui = {
       'Πώς χειρίζεται το SimpleTime τα δεδομένα σου: χωρίς λογαριασμό και διαφημίσεις. Οι εγγραφές σου μένουν στις συσκευές και στο iCloud σου.',
     'meta.imprint.description':
       'Νομικά στοιχεία του simple-time.app σύμφωνα με το § 5 DDG: κάτοχος, στοιχεία επικοινωνίας και πληροφορίες ευθύνης για την εφαρμογή και τον ιστότοπο SimpleTime.',
+    'meta.terms.description':
+      'Οι όροι χρήσης του SimpleTime: μια δωρεάν εφαρμογή, το SimpleTime Pro μέσω του App Store, συνδρομές και δοκιμαστική εβδομάδα, τα δεδομένα σου, ευθύνη και εφαρμοστέο δίκαιο.',
+    'meta.accessibility.description':
+      'Πόσο προσβάσιμα είναι το SimpleTime και αυτός ο ιστότοπος: VoiceOver, μεγάλο κείμενο, 41 γλώσσες, αυτόματοι έλεγχοι – και τι δεν είναι ακόμη καλό.',
     'meta.pro.title': 'SimpleTime Pro – Apple Watch, μέρη, στόχοι και άλλα',
     'meta.pro.description':
       'Το SimpleTime μένει δωρεάν. Το Pro προσθέτει την εφαρμογή Apple Watch, ανασκοπήσεις, μέρη, στόχους, φίλτρο συγκέντρωσης κ.ά. – μηνιαία, ετήσια ή μία φορά για πάντα.',
@@ -1239,6 +1339,8 @@ export const ui = {
     'footer.contact': 'Επικοινωνία',
     'footer.imprint': 'Νομικά στοιχεία',
     'footer.privacy': 'Απόρρητο',
+    'footer.terms': 'Όροι χρήσης',
+    'footer.accessibility': 'Προσβασιμότητα',
     'footer.copyright': '© {year} Luca Efinger. Με επιφύλαξη παντός δικαιώματος.',
 
     'contact.title': 'Επικοινωνία',
@@ -1277,6 +1379,10 @@ export const ui = {
       'איך SimpleTime מטפל בנתונים שלך: בלי חשבון, בלי פרסומות. הרשומות שלך נשארות במכשירים שלך וב‑iCloud הפרטי שלך.',
     'meta.imprint.description':
       'פרטים משפטיים של simple-time.app לפי § 5 DDG: בעלים, פרטי התקשרות ומידע על אחריות עבור אפליקציית SimpleTime והאתר.',
+    'meta.terms.description':
+      'תנאי השימוש של SimpleTime: אפליקציה בחינם, SimpleTime Pro דרך ה‑App Store, מינויים ושבוע ניסיון, הנתונים שלך, אחריות והדין החל.',
+    'meta.accessibility.description':
+      'עד כמה SimpleTime והאתר הזה נגישים: VoiceOver, טקסט גדול, 41 שפות, בדיקות אוטומטיות – ומה שעוד לא טוב.',
     'meta.pro.title': 'SimpleTime Pro – Apple Watch, מקומות, יעדים ועוד',
     'meta.pro.description':
       'SimpleTime נשאר חינם. Pro מוסיף את אפליקציית ה‑Apple Watch, סיכומים, מקומות, יעדים, מסנן מיקוד ועוד – לחודש, לשנה או פעם אחת לתמיד.',
@@ -1312,6 +1418,8 @@ export const ui = {
     'footer.contact': 'צור קשר',
     'footer.imprint': 'פרטים משפטיים',
     'footer.privacy': 'פרטיות',
+    'footer.terms': 'תנאי שימוש',
+    'footer.accessibility': 'נגישות',
     'footer.copyright': '© {year} Luca Efinger. כל הזכויות שמורות.',
 
     'contact.title': 'צור קשר',

@@ -948,5 +948,126 @@
         ]
       }
     ]
+  },
+  "terms": {
+    "title": "Gebruiksvoorwaarden",
+    "updated": "Laatst bijgewerkt",
+    "translationNote": "Dit is een vertaling van de Duitse gebruiksvoorwaarden. Bij twijfel geldt [de Duitse versie](@terms-de).",
+    "summaryTitle": "In het kort",
+    "summary": [
+      "SimpleTime is gratis. Pro koop je via de App Store, en abonnementen zeg je daar op elk moment op.",
+      "Je gegevens zijn van jou – maak er toch back-ups van, het makkelijkst met een back-upplan.",
+      "Naast deze voorwaarden geldt de licentieovereenkomst van Apple voor apps uit de App Store."
+    ],
+    "sections": [
+      {
+        "id": "scope",
+        "title": "Toepassingsgebied",
+        "paragraphs": [
+          "Deze voorwaarden gelden voor de app SimpleTime op iPhone, iPad, Mac en Apple Watch en voor SimpleTime Pro. Aanbieder is Luca Efinger, Friedrich-Ebert-Ring 16, 97072 Würzburg, Duitsland – meer in het [colofon](@imprint).",
+          "Je haalt SimpleTime uit de App Store. Daarvoor geldt de [licentieovereenkomst van Apple voor gelicentieerde apps](https://www.apple.com/legal/internet-services/itunes/dev/stdeula/) (standaard-EULA). Deze pagina vult die aan met wat voor SimpleTime geldt; waar beide elkaar tegenspreken, gaat de standaard-EULA voor."
+        ]
+      },
+      {
+        "id": "app",
+        "title": "De app",
+        "paragraphs": [
+          "SimpleTime is gratis en werkt zonder account – privé en zakelijk. We ontwikkelen de app verder en kunnen daarbij functies wijzigen, toevoegen of verwijderen.",
+          "SimpleTime is een hulpmiddel om je eigen tijd te registreren. Of je registraties voldoen aan wettelijke of contractuele eisen – bijvoorbeeld voor de registratie van werktijd of voor facturering –, controleer je zelf."
+        ]
+      },
+      {
+        "id": "pro",
+        "title": "SimpleTime Pro",
+        "paragraphs": [
+          "Pro is er per maand, per jaar of eenmalig voor altijd. Apple regelt aankoop en betaling via de App Store, en de voorwaarden van Apple zijn van toepassing. De prijzen zie je vóór de aankoop in de app, inclusief btw.",
+          "Maand- en jaarabonnementen worden automatisch verlengd tot je opzegt. De betaling wordt bij de bevestiging van de aankoop van je Apple Account afgeschreven en bij elke verlenging binnen 24 uur vóór het einde van de periode. Zeg je minstens 24 uur vóór het einde van een periode op, dan wordt het abonnement niet meer verlengd; Pro blijft actief tot het einde van de betaalde periode. Abonnementen beheer en zeg je op in de instellingen van je Apple Account.",
+          "Wie voor het eerst een abonnement neemt, kan een week gratis proberen. Zeg je niet minstens 24 uur vóór het einde van de proefweek op, dan begint het betaalde abonnement. Met Delen met gezin kunnen tot zes personen Pro gebruiken.",
+          "Terugbetalingen en een eventueel herroepingsrecht volgen de voorwaarden van Apple, omdat Apple de aankoop afhandelt. Een terugbetaling vraag je aan via [reportaproblem.apple.com](https://reportaproblem.apple.com)."
+        ]
+      },
+      {
+        "id": "data",
+        "title": "Je gegevens",
+        "paragraphs": [
+          "Wat je in SimpleTime invoert, is van jou. We hebben er geen toegang toe en kunnen het daarom ook niet voor je terugzetten. Maak regelmatig back-ups van je gegevens – SimpleTime helpt je met back-upplannen en de export.",
+          "Hoe we met gegevens omgaan, staat in het [privacybeleid](@privacy)."
+        ]
+      },
+      {
+        "id": "liability",
+        "title": "Aansprakelijkheid",
+        "paragraphs": [
+          "We zijn onbeperkt aansprakelijk bij opzet en grove nalatigheid, bij letsel aan leven, lichaam of gezondheid en op grond van de Duitse productaansprakelijkheidswet. Bij lichte nalatigheid zijn we alleen aansprakelijk als we een wezenlijke verplichting schenden – een verplichting waarvan de nakoming het gebruik van de app pas mogelijk maakt en waarop je mag vertrouwen –, en dan alleen voor de voorzienbare, typische schade.",
+          "Voor verlies van gegevens zijn we alleen aansprakelijk voor zover dat ook bij regelmatige back-ups zou zijn ontstaan."
+        ]
+      },
+      {
+        "id": "law",
+        "title": "Toepasselijk recht",
+        "paragraphs": [
+          "Op deze voorwaarden is Duits recht van toepassing, met uitsluiting van het Weens Koopverdrag. Gebruik je SimpleTime als consument, dan blijven de dwingende consumentenbeschermingsregels van het land waar je woont van kracht."
+        ]
+      },
+      {
+        "id": "changes",
+        "title": "Wijzigingen",
+        "paragraphs": [
+          "We passen deze voorwaarden aan als de app, ons aanbod of de wetgeving verandert. De datum bovenaan geeft de geldende versie aan. Vragen beantwoorden we graag via [contact@simple-time.app](mailto:contact@simple-time.app)."
+        ]
+      }
+    ]
+  },
+  "accessibility": {
+    "title": "Toegankelijkheid",
+    "updated": "Laatst bijgewerkt",
+    "summaryTitle": "In het kort",
+    "summary": [
+      "SimpleTime werkt met VoiceOver en grote tekst, in 41 talen.",
+      "Bij elke wijziging controleren we deze website automatisch op drempels.",
+      "Wat nog niet goed is, staat hieronder – en loop je tegen een drempel aan, schrijf ons dan."
+    ],
+    "sections": [
+      {
+        "id": "app",
+        "title": "De app",
+        "paragraphs": [
+          "VoiceOver: knoppen, grafieken en de tijdlijn hebben labels die VoiceOver voorleest – in elke taal van de app.",
+          "Tekstgrootte: tekst volgt de tekstgrootte van iOS tot de grootste toegankelijkheidsgroottes. Waar heel grote tekst de bediening zou bedekken – in de kopbalk en langs de tijdlijn –, groeit die maar tot een grens.",
+          "Beweging en kleur: staat „Verminder beweging” aan, dan zwakt SimpleTime zijn animaties af. Taken herken je niet alleen aan hun kleur, maar ook aan naam en symbool, en tekst is ontworpen om leesbaar te blijven in de lichte en de donkere weergave.",
+          "Talen: de app spreekt 41 talen, los van de taal van je apparaat – Arabisch, Hebreeuws, Perzisch, Pasjtoe en Urdu van rechts naar links."
+        ]
+      },
+      {
+        "id": "website",
+        "title": "Deze website",
+        "paragraphs": [
+          "We bouwen deze website volgens de Web Content Accessibility Guidelines (WCAG) 2.2, niveau AA: duidelijke koppen, alternatieve tekst bij afbeeldingen, voldoende contrast in de lichte en donkere weergave, bediening met het toetsenbord met een zichtbare focus en inzoomen zonder verlies van inhoud.",
+          "Bij elke wijziging controleert een automatische test de pagina’s met axe-core – op de computer en op de smartphone, en in het Arabisch en Hebreeuws ook van rechts naar links."
+        ]
+      },
+      {
+        "id": "limits",
+        "title": "Wat nog niet goed is",
+        "paragraphs": [
+          "Bij de grootste tekstgroottes kan de balk met de lopende taak tekst afsnijden.",
+          "De grafieken bieden nog geen audiografieken voor VoiceOver. Hun waarden staan wel ook als tekst in de legenda en in de statistieken."
+        ]
+      },
+      {
+        "id": "feedback",
+        "title": "Een drempel gevonden?",
+        "paragraphs": [
+          "Schrijf ons op [contact@simple-time.app](mailto:contact@simple-time.app) en beschrijf kort waar het vastloopt – in de app of op deze website. We antwoorden meestal binnen een paar werkdagen en lossen op wat we kunnen in de volgende update."
+        ]
+      },
+      {
+        "id": "about",
+        "title": "Over deze verklaring",
+        "paragraphs": [
+          "Deze verklaring is gebaseerd op onze eigen controles van de app en de website – met VoiceOver, grote tekst en automatische tests. We werken hem bij als er iets verandert."
+        ]
+      }
+    ]
   }
 }

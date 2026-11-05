@@ -4,7 +4,8 @@ import { langPrefix } from './utils';
 
 /**
  * Everything a visitor reads about the app, per language: the App Store text,
- * the home page, the Pro page, the FAQ and the privacy policy.
+ * the home page, the Pro page, the FAQ, the privacy policy, the terms of use
+ * and the accessibility statement.
  *
  * `store` is the App Store description of that language, split into its
  * parts – the home page and the Pro page show those sentences word for word,
@@ -65,6 +66,10 @@ function resolve(target: string, lang: Lang): { href: string; external: boolean 
     '@contact': `${prefix}/contact/`,
     '@privacy': `${prefix}/privacy/`,
     '@privacy-de': '/de/privacy/',
+    '@terms': `${prefix}/terms/`,
+    '@terms-de': '/de/terms/',
+    '@accessibility': `${prefix}/accessibility/`,
+    '@imprint': `${prefix}/imprint/`,
   };
   if (target in internal) return { href: internal[target], external: false };
   if (target.startsWith('mailto:')) return { href: target, external: false };

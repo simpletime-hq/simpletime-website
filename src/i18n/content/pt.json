@@ -786,7 +786,7 @@
     "summaryTitle": "Em resumo",
     "summary": [
       "O seu tempo pertence-lhe. O SimpleTime não precisa de conta, não mostra publicidade e não vende os seus dados.",
-      "Os seus registos ficam nos seus dispositivos e, se assim o escolher, no seu iCloud privado – mais ninguém os pode ler, nem mesmo nós.",
+      "Os seus registos ficam nos seus dispositivos e, se assim o escolher, no seu iCloud privado ou como eventos no seu calendário – nós não os conseguimos ler.",
       "Para encontrarmos erros depressa, a app envia relatórios de falhas e estatísticas de utilização anónimos – sem ID do dispositivo, nunca com os seus registos e com possibilidade de os desativar a qualquer momento.",
       "Este site não coloca cookies próprios e não carrega nada de terceiros. Contamos de forma anónima quantas pessoas o visitam com o Atriya, o nosso próprio serviço de análise."
     ],
@@ -825,6 +825,15 @@
             "paragraphs": [
               "O SimpleTime só pede acesso à sua localização se configurar locais – uma funcionalidade do SimpleTime Pro. O iOS vigia então as zonas que definiu e avisa a app quando chega ou sai; o SimpleTime usa esta informação exclusivamente para iniciar ou parar a tarefa correspondente. Os seus locais são guardados apenas neste dispositivo e não são sincronizados. O SimpleTime não guarda qualquer histórico dos sítios onde esteve e não transmite a sua localização a ninguém.",
               "Quando pesquisa um endereço ou usa o mapa no editor de locais, a pesquisa e o mapa são fornecidos pelos Mapas da Apple; aplica-se a política de privacidade da Apple. Pode retirar o acesso à sua localização a qualquer momento nas Definições do iOS."
+            ]
+          },
+          {
+            "title": "Calendário",
+            "paragraphs": [
+              "O SimpleTime só pede acesso aos seus calendários se ativar “Registos no Calendário” – uma funcionalidade do SimpleTime Pro. A app inscreve então cada registo terminado como evento: com o nome da tarefa, a nota, o início e o fim e uma ligação pela qual reconhece os seus eventos. Os eventos ficam num calendário próprio, “SimpleTime”, ou no calendário que escolher – se quiser, um diferente por tarefa. Se alterar um registo ou o mover para o lixo, o evento acompanha.",
+              "Para lhe mostrar os seus calendários à escolha e criar tarefas a partir deles, o SimpleTime lê os respetivos nomes e cores. Para encontrar os próprios eventos, percorre os eventos dos seus calendários – os dos últimos 90 dias na sincronização, os dos últimos quatro anos em “Apagar todos os dados”. O SimpleTime não guarda, não altera nem transmite quaisquer outros eventos.",
+              "O local onde os eventos ficam depende do seu calendário: se pertencer ao iCloud, à Google, ao Exchange ou a outra conta, a sua app Calendário sincroniza os eventos com esse fornecedor, e aplica-se a respetiva política de privacidade. Quem partilhar um calendário consigo vê os eventos que o SimpleTime lá inscreve. Os eventos mostram os nomes das suas tarefas mesmo com o bloqueio da app ativo.",
+              "Se desativar a funcionalidade, o SimpleTime não inscreve nada de novo; os eventos existentes ficam até os apagar. Pode retirar o acesso aos seus calendários em qualquer momento nas Definições do iOS e, no Mac, nas Definições do Sistema, em Privacidade e segurança."
             ]
           },
           {
@@ -882,7 +891,7 @@
           {
             "title": "Apagar os seus dados",
             "paragraphs": [
-              "Nas definições da app, em Privacidade › Apagar todos os dados, remove de uma vez tudo o que o SimpleTime guardou – neste dispositivo, no iCloud, as cópias dos seus planos onde quer que estejam e as cópias antigas no iCloud Drive; através do iCloud, a eliminação chega também aos seus outros dispositivos. As estatísticas anónimas não podem ser associadas a nenhum dispositivo e, por isso, não podem ser apagadas de forma seletiva. Se apagar a app, os dados dela desaparecem desse dispositivo."
+              "Nas definições da app, em Privacidade › Apagar todos os dados, remove de uma vez tudo o que o SimpleTime guardou – neste dispositivo, no iCloud, as cópias dos seus planos onde quer que estejam, as cópias antigas no iCloud Drive e os eventos que o SimpleTime inscreveu nos seus calendários; através do iCloud, a eliminação chega também aos seus outros dispositivos. As estatísticas anónimas não podem ser associadas a nenhum dispositivo e, por isso, não podem ser apagadas de forma seletiva. Se apagar a app, os dados dela desaparecem desse dispositivo."
             ]
           }
         ]
@@ -917,6 +926,12 @@
               "Para podermos contar as visitas sem o reconhecer, o Atriya gera, a partir do endereço IP, da identificação do navegador e de uma chave diária aleatória, um identificador válido apenas durante um dia. Depois, a chave diária é apagada e o identificador deixa de poder ser associado a si ou a um endereço IP. O seu endereço IP propriamente dito não o guardamos.",
               "O servidor está alojado na IONOS SE, Elgendorfer Str. 57, 56410 Montabaur, Alemanha, num centro de dados na União Europeia; a IONOS trata os dados em nosso nome. Só os analisamos de forma agregada e não os transmitimos a ninguém. Depois de apagada a chave diária, as estatísticas são anónimas; conservamo-las sem prazo fixo.",
               "O fundamento jurídico é o nosso interesse legítimo em melhorar o site (art. 6.º, n.º 1, alínea f), do RGPD). Como nada é guardado nem lido no seu dispositivo, não é necessário consentimento (§ 25 TDDDG). Se não quiser ser contado, ative Do Not Track ou Global Privacy Control no seu navegador: nesse caso, o Atriya não regista nada."
+            ]
+          },
+          {
+            "title": "Ligações para a app",
+            "paragraphs": [
+              "Os endereços em simple-time.app/app/ – por exemplo, a ligação num evento que o SimpleTime inscreveu no seu calendário – abrem o SimpleTime no sítio certo, se a app estiver instalada. O seu dispositivo fica a saber se a app pode abrir essas ligações através de um ficheiro deste site, que a Apple obtém e lhe entrega; com isso, não ficamos a saber nada sobre si. Sem a app, nesses endereços o site mostra uma página que explica para onde leva a ligação. Aí, o Atriya não conta visitas, porque o endereço pode conter o identificador de um registo."
             ]
           },
           {

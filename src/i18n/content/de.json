@@ -786,7 +786,7 @@
     "summaryTitle": "Kurz gesagt",
     "summary": [
       "Deine Zeit gehört dir. SimpleTime braucht kein Konto, zeigt keine Werbung und verkauft deine Daten nicht.",
-      "Deine Einträge liegen auf deinen Geräten und, wenn du es so wählst, in deiner privaten iCloud – niemand sonst kann sie lesen, auch wir nicht.",
+      "Deine Einträge liegen auf deinen Geräten und, wenn du es so wählst, in deiner privaten iCloud oder als Termine in deinem Kalender – wir können sie nicht lesen.",
       "Damit wir Fehler schnell finden, sendet die App anonyme Absturzberichte und Nutzungszahlen – ohne Geräte-ID, nie mit deinen Einträgen und jederzeit abschaltbar.",
       "Diese Website setzt keine eigenen Cookies und lädt nichts von Dritten. Wie viele Menschen sie besuchen, zählen wir anonym mit Atriya, unserem eigenen Analytics-Dienst."
     ],
@@ -825,6 +825,15 @@
             "paragraphs": [
               "Nur wenn du Orte einrichtest – eine Funktion von SimpleTime Pro –, fragt SimpleTime nach dem Zugriff auf deinen Standort. iOS überwacht dann die Bereiche, die du festgelegt hast, und meldet der App Ankommen und Gehen; SimpleTime nutzt das ausschließlich, um die passende Aufgabe zu starten oder zu stoppen. Deine Orte werden nur auf diesem Gerät gespeichert und nicht abgeglichen. SimpleTime führt kein Protokoll darüber, wo du warst, und gibt deinen Standort nicht weiter.",
               "Suchst du im Ort-Editor nach einer Adresse oder nutzt du die Karte, laufen Suche und Karte über Apple Karten; es gilt die Datenschutzerklärung von Apple. Den Zugriff auf deinen Standort kannst du jederzeit in den iOS-Einstellungen zurücknehmen."
+            ]
+          },
+          {
+            "title": "Kalender",
+            "paragraphs": [
+              "Nur wenn du „Einträge im Kalender“ einschaltest – eine Funktion von SimpleTime Pro –, fragt SimpleTime nach dem Zugriff auf deine Kalender. Die App trägt dann jeden beendeten Eintrag als Termin ein: mit dem Namen der Aufgabe, der Notiz, Beginn und Ende und einem Link, an dem sie ihre Termine wiedererkennt. Die Termine stehen in einem eigenen Kalender „SimpleTime“ oder in dem Kalender, den du wählst – auf Wunsch je Aufgabe in einem anderen. Änderst du einen Eintrag oder legst ihn in den Papierkorb, zieht der Termin nach.",
+              "Um dir deine Kalender zur Auswahl zu zeigen und Aufgaben aus ihnen anzulegen, liest SimpleTime ihre Namen und Farben. Um seine eigenen Termine zu finden, durchsucht es die Termine deiner Kalender – beim Abgleich die der letzten 90 Tage, bei „Alle Daten löschen“ die der letzten vier Jahre. Andere Termine speichert, ändert und übermittelt SimpleTime nicht.",
+              "Wo die Termine liegen, bestimmt dein Kalender: Gehört er zu iCloud, Google, Exchange oder einem anderen Konto, gleicht deine Kalender-App die Termine mit diesem Anbieter ab; es gilt dessen Datenschutzerklärung. Wer einen Kalender mit dir teilt, sieht die Termine, die SimpleTime dort einträgt. Die Termine zeigen die Namen deiner Aufgaben auch, wenn die App-Sperre an ist.",
+              "Schaltest du die Funktion aus, trägt SimpleTime nichts Neues mehr ein; vorhandene Termine bleiben, bis du sie löschst. Den Zugriff auf deine Kalender kannst du jederzeit in den iOS-Einstellungen zurücknehmen, auf dem Mac in den Systemeinstellungen unter Datenschutz & Sicherheit."
             ]
           },
           {
@@ -882,7 +891,7 @@
           {
             "title": "Löschen deiner Daten",
             "paragraphs": [
-              "In den Einstellungen der App unter Datenschutz › Alle Daten löschen entfernst du alles, was SimpleTime gespeichert hat, auf einmal – auf diesem Gerät, in iCloud, die Backups deiner Pläne an ihren Orten und die alten Backups in iCloud Drive; über iCloud erreicht die Löschung auch deine anderen Geräte. Die anonyme Statistik lässt sich keinem Gerät zuordnen und deshalb nicht gezielt löschen. Löschst du die App, verschwinden ihre Daten von diesem Gerät."
+              "In den Einstellungen der App unter Datenschutz › Alle Daten löschen entfernst du alles, was SimpleTime gespeichert hat, auf einmal – auf diesem Gerät, in iCloud, die Backups deiner Pläne an ihren Orten, die alten Backups in iCloud Drive und die Termine, die SimpleTime in deine Kalender eingetragen hat; über iCloud erreicht die Löschung auch deine anderen Geräte. Die anonyme Statistik lässt sich keinem Gerät zuordnen und deshalb nicht gezielt löschen. Löschst du die App, verschwinden ihre Daten von diesem Gerät."
             ]
           }
         ]
@@ -917,6 +926,12 @@
               "Damit wir Besuche zählen können, ohne dich wiederzuerkennen, bildet Atriya aus IP-Adresse, Browser-Kennung und einem zufälligen Tagesschlüssel eine Kennung, die nur einen Tag gilt. Danach wird der Tagesschlüssel gelöscht, und die Kennung lässt sich weder dir noch einer IP-Adresse zuordnen. Deine IP-Adresse selbst speichern wir nicht.",
               "Der Server steht bei der IONOS SE, Elgendorfer Str. 57, 56410 Montabaur, in einem Rechenzentrum in der Europäischen Union; IONOS verarbeitet die Daten in unserem Auftrag. Wir werten sie nur zusammengefasst aus und geben sie nicht weiter. Ist der Tagesschlüssel gelöscht, ist die Statistik anonym; wir bewahren sie ohne feste Frist auf.",
               "Rechtsgrundlage ist unser berechtigtes Interesse, die Website zu verbessern (Art. 6 Abs. 1 lit. f DSGVO). Da nichts auf deinem Gerät gespeichert oder ausgelesen wird, ist keine Einwilligung nötig (§ 25 TDDDG). Möchtest du nicht gezählt werden, schalte in deinem Browser „Do Not Track“ oder „Global Privacy Control“ ein – dann erfasst Atriya nichts."
+            ]
+          },
+          {
+            "title": "Links in die App",
+            "paragraphs": [
+              "Adressen unter simple-time.app/app/ – etwa der Link in einem Termin, den SimpleTime in deinen Kalender eingetragen hat – öffnen SimpleTime an der passenden Stelle, wenn die App installiert ist. Ob die App solche Links öffnen darf, erfährt dein Gerät aus einer Datei dieser Website, die Apple abruft und ihm zustellt; über dich erfahren wir dabei nichts. Ohne die App zeigt die Website unter diesen Adressen eine Seite, die erklärt, wohin der Link führt. Dort zählt Atriya keine Besuche, weil die Adresse die Kennung eines Eintrags enthalten kann."
             ]
           },
           {

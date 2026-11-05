@@ -786,7 +786,7 @@
     "summaryTitle": "In het kort",
     "summary": [
       "Jouw tijd is van jou. SimpleTime heeft geen account nodig, toont geen advertenties en verkoopt je gegevens niet.",
-      "Je invoer staat op je apparaten en, als je daarvoor kiest, in je privé-iCloud – niemand anders kan die lezen, ook wij niet.",
+      "Je invoer staat op je apparaten en, als je daarvoor kiest, in je privé-iCloud of als activiteiten in je agenda – wij kunnen die niet lezen.",
       "Zodat we fouten snel vinden, stuurt de app anonieme crashrapporten en gebruiksstatistieken – zonder apparaat-ID, nooit met je invoer en op elk moment uit te zetten.",
       "Deze website plaatst geen eigen cookies en laadt niets van derden. Hoeveel mensen hem bezoeken, tellen we anoniem met Atriya, onze eigen analysedienst."
     ],
@@ -825,6 +825,15 @@
             "paragraphs": [
               "Alleen als je locaties instelt – een functie van SimpleTime Pro – vraagt SimpleTime om toegang tot je locatie. iOS bewaakt dan de gebieden die je hebt vastgelegd en laat de app weten wanneer je aankomt of vertrekt; SimpleTime gebruikt dit uitsluitend om de bijbehorende taak te starten of te stoppen. Je locaties worden alleen op dit apparaat bewaard en niet gesynchroniseerd. SimpleTime houdt niet bij waar je bent geweest en geeft je locatie niet door.",
               "Als je in de locatie-editor naar een adres zoekt of de kaart gebruikt, worden de zoekfunctie en de kaart geleverd door Apple Kaarten; het privacybeleid van Apple is van toepassing. Je kunt de toegang tot je locatie altijd intrekken in de iOS-instellingen."
+            ]
+          },
+          {
+            "title": "Agenda",
+            "paragraphs": [
+              "Alleen als je ‘Registraties in Agenda’ inschakelt – een functie van SimpleTime Pro – vraagt SimpleTime om toegang tot je agenda’s. De app zet dan elke afgeronde registratie als activiteit in je agenda: met de naam van de taak, de notitie, begin en einde en een link waaraan SimpleTime de eigen activiteiten herkent. De activiteiten staan in een eigen agenda ‘SimpleTime’ of in de agenda die je kiest – desgewenst per taak een andere. Pas je een registratie aan of zet je die in de prullenmand, dan past de activiteit zich aan.",
+              "Om je je agenda’s te laten kiezen en er taken van te maken, leest SimpleTime hun namen en kleuren. Om de eigen activiteiten te vinden, doorzoekt SimpleTime de activiteiten in je agenda’s – bij het bijwerken die van de laatste 90 dagen, bij ‘Alle gegevens verwijderen’ die van de laatste vier jaar. Andere activiteiten bewaart, wijzigt en verstuurt SimpleTime niet.",
+              "Waar de activiteiten staan, bepaalt je agenda: hoort die bij iCloud, Google, Exchange of een ander account, dan synchroniseert je agenda-app de activiteiten met die aanbieder, en geldt diens privacyverklaring. Wie een agenda met je deelt, ziet de activiteiten die SimpleTime daarin zet. De activiteiten tonen de namen van je taken, ook als de app-vergrendeling aan staat.",
+              "Schakel je de functie uit, dan zet SimpleTime er niets nieuws meer in; bestaande activiteiten blijven staan tot je ze verwijdert. De toegang tot je agenda’s kun je altijd intrekken in de iOS-instellingen, en op de Mac in Systeeminstellingen onder Privacy en beveiliging."
             ]
           },
           {
@@ -882,7 +891,7 @@
           {
             "title": "Je gegevens verwijderen",
             "paragraphs": [
-              "In de instellingen van de app onder Privacy › Alle gegevens verwijderen verwijder je in één keer alles wat SimpleTime heeft opgeslagen – op dit apparaat, in iCloud, de back-ups van je plannen waar ze ook staan en de oude back-ups in iCloud Drive; via iCloud bereikt het verwijderen ook je andere apparaten. De anonieme statistieken zijn aan geen enkel apparaat te koppelen en kunnen daarom niet gericht worden verwijderd. Verwijder je de app, dan verdwijnen de gegevens ervan van dat apparaat."
+              "In de instellingen van de app onder Privacy › Alle gegevens verwijderen verwijder je in één keer alles wat SimpleTime heeft opgeslagen – op dit apparaat, in iCloud, de back-ups van je plannen waar ze ook staan, de oude back-ups in iCloud Drive en de activiteiten die SimpleTime in je agenda’s heeft gezet; via iCloud bereikt het verwijderen ook je andere apparaten. De anonieme statistieken zijn aan geen enkel apparaat te koppelen en kunnen daarom niet gericht worden verwijderd. Verwijder je de app, dan verdwijnen de gegevens ervan van dat apparaat."
             ]
           }
         ]
@@ -917,6 +926,12 @@
               "Zodat we bezoeken kunnen tellen zonder je te herkennen, maakt Atriya uit het IP-adres, de identificatie van je browser en een willekeurige dagsleutel een kenmerk dat maar één dag geldig is. Daarna wordt de dagsleutel verwijderd en kan het kenmerk niet meer aan jou of aan een IP-adres worden gekoppeld. Je IP-adres zelf slaan we niet op.",
               "De server staat bij IONOS SE, Elgendorfer Str. 57, 56410 Montabaur, Duitsland, in een datacenter in de Europese Unie; IONOS verwerkt de gegevens in onze opdracht. We bekijken ze alleen samengevat en geven ze niet door. Zodra de dagsleutel is verwijderd, zijn de statistieken anoniem; we bewaren ze zonder vaste termijn.",
               "De rechtsgrond is ons gerechtvaardigd belang om de website te verbeteren (art. 6 lid 1 sub f AVG). Omdat er niets op je apparaat wordt opgeslagen of uitgelezen, is geen toestemming nodig (§ 25 TDDDG). Wil je niet meegeteld worden, zet dan Do Not Track of Global Privacy Control aan in je browser – Atriya registreert dan niets."
+            ]
+          },
+          {
+            "title": "Links naar de app",
+            "paragraphs": [
+              "Adressen onder simple-time.app/app/ – zoals de link in een activiteit die SimpleTime in je agenda heeft gezet – openen SimpleTime op de juiste plek als de app is geïnstalleerd. Of de app zulke links mag openen, leest je apparaat in een bestand op deze website dat Apple ophaalt en aan je apparaat doorgeeft; over jou komen wij daarbij niets te weten. Zonder de app toont de website op deze adressen een pagina die uitlegt waar de link naartoe leidt. Daar telt Atriya geen bezoeken, omdat het adres de ID van een registratie kan bevatten."
             ]
           },
           {

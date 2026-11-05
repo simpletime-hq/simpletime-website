@@ -786,7 +786,7 @@
     "summaryTitle": "In short",
     "summary": [
       "Your time belongs to you. SimpleTime needs no account, shows no ads and doesn’t sell your data.",
-      "Your entries live on your devices and, if you choose, in your private iCloud – nobody else can read them, not even us.",
+      "Your entries live on your devices and, if you choose, in your private iCloud or as events in your calendar – we can’t read them.",
       "So we can find bugs quickly, the app sends anonymous crash reports and usage statistics – no device ID, never your entries, and you can turn it off at any time.",
       "This website sets no cookies of its own and loads nothing from third parties. We count how many people visit it anonymously with Atriya, our own analytics service."
     ],
@@ -825,6 +825,15 @@
             "paragraphs": [
               "Only if you set up places – a feature of SimpleTime Pro – does SimpleTime ask for access to your location. iOS then monitors the areas you defined and tells the app when you arrive or leave; SimpleTime uses this solely to start or stop the matching task. Your places are stored only on this device and aren’t synced. SimpleTime keeps no record of where you’ve been and doesn’t pass your location on.",
               "When you search for an address or use the map in the place editor, the search and the map are provided by Apple Maps; Apple’s privacy policy applies. You can withdraw access to your location at any time in the iOS Settings."
+            ]
+          },
+          {
+            "title": "Calendar",
+            "paragraphs": [
+              "Only if you turn on “Entries in Calendar” – a feature of SimpleTime Pro – does SimpleTime ask for access to your calendars. The app then adds every finished entry as an event: with the task’s name, the note, start and end, and a link by which it recognises its events. The events go into a calendar of their own, “SimpleTime”, or into the calendar you choose – a different one per task, if you like. If you change an entry or move it to the trash, the event follows.",
+              "To show you your calendars to choose from and to create tasks from them, SimpleTime reads their names and colours. To find its own events, it searches the events in your calendars – those of the last 90 days when it syncs, those of the last four years for “Delete all data”. SimpleTime does not store, change or transmit any other events.",
+              "Where the events are kept is up to your calendar: if it belongs to iCloud, Google, Exchange or another account, your calendar app syncs the events with that provider, and that provider’s privacy policy applies. Anyone who shares a calendar with you sees the events SimpleTime adds to it. The events show the names of your tasks even when the app lock is on.",
+              "If you turn the feature off, SimpleTime adds nothing new; existing events stay until you delete them. You can withdraw access to your calendars at any time in iOS Settings, and on the Mac in System Settings under Privacy & Security."
             ]
           },
           {
@@ -882,7 +891,7 @@
           {
             "title": "Deleting your data",
             "paragraphs": [
-              "In the app’s settings under Privacy › Delete all data, you remove everything SimpleTime has stored at once – on this device, in iCloud, the backups of your plans wherever they are, and the old backups in iCloud Drive; via iCloud, the deletion also reaches your other devices. The anonymous statistics can’t be linked to any device and therefore can’t be deleted selectively. Deleting the app removes its data from that device."
+              "In the app’s settings under Privacy › Delete all data, you remove everything SimpleTime has stored at once – on this device, in iCloud, the backups of your plans wherever they are, the old backups in iCloud Drive, and the events SimpleTime has added to your calendars; via iCloud, the deletion also reaches your other devices. The anonymous statistics can’t be linked to any device and therefore can’t be deleted selectively. Deleting the app removes its data from that device."
             ]
           }
         ]
@@ -917,6 +926,12 @@
               "So that we can count visits without recognising you, Atriya derives an identifier from your IP address, your browser’s identification and a random daily key, valid for one day only. The daily key is then deleted, after which the identifier can’t be linked to you or to an IP address. We don’t store your IP address itself.",
               "The server is hosted by IONOS SE, Elgendorfer Str. 57, 56410 Montabaur, Germany, in a data centre in the European Union; IONOS processes the data on our behalf. We only look at it in aggregate and don’t pass it on. Once the daily key has been deleted, the statistics are anonymous; we keep them without a fixed time limit.",
               "The legal basis is our legitimate interest in improving the website (Art. 6 (1) (f) GDPR). As nothing is stored on or read from your device, no consent is needed (§ 25 TDDDG). If you don’t want to be counted, turn on Do Not Track or Global Privacy Control in your browser – Atriya then records nothing."
+            ]
+          },
+          {
+            "title": "Links into the app",
+            "paragraphs": [
+              "Addresses under simple-time.app/app/ – such as the link in an event SimpleTime has added to your calendar – open SimpleTime at the right place if the app is installed. Your device learns whether the app may open such links from a file on this website, which Apple fetches and delivers to it; we learn nothing about you in the process. Without the app, the website shows a page at these addresses that explains where the link leads. Atriya does not count visits there, because the address can contain the ID of an entry."
             ]
           },
           {

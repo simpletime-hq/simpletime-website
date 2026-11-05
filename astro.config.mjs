@@ -4,7 +4,9 @@ import tailwindcss from '@tailwindcss/vite';
 
 export default defineConfig({
   site: 'https://simple-time.app',
-  integrations: [sitemap()],
+  // /app/ is the page behind links into the app (see src/pages/app/index.astro) –
+  // a utility page with noindex, not a page to find.
+  integrations: [sitemap({ filter: (page) => !new URL(page).pathname.startsWith('/app/') })],
   vite: {
     plugins: [tailwindcss()],
     build: {

@@ -7,9 +7,9 @@
         "id": "tracking",
         "title": "Enregistrer",
         "points": [
-          "Un geste lance et arrête – dans l'app, depuis l'écran d'accueil, depuis le centre de contrôle, depuis la recherche de l'iPhone ou avec Siri",
+          "Un geste lance et arrête – dans l'app, depuis l'écran d'accueil, le centre de contrôle, la recherche de l'iPhone ou avec Siri",
           "Des tâches avec sous-tâches, aussi imbriquées que votre travail",
-          "Oublié de lancer ? Ajoutez les heures après coup et modifiez-les quand vous voulez",
+          "Oublié de lancer ? Ajoutez les heures après coup, modifiables à tout moment",
           "Couleur, symbole, favoris et un ordre que vous décidez"
         ]
       },
@@ -30,7 +30,7 @@
           "Jour, semaine, mois, année",
           "Statistiques : comparaison avec la période précédente, évolution, répartition sur la journée, entrée la plus longue et la plus courte",
           "Chaque tâche avec ses propres chiffres – première entrée, la plus longue, cette semaine, cette année",
-          "Partagez n'importe quel graphique en image"
+          "Partagez chaque graphique en image"
         ]
       },
       {
@@ -47,7 +47,7 @@
         "title": "Widgets et Siri",
         "points": [
           "Aujourd'hui, tâche en cours et semaine sur votre écran d'accueil",
-          "Le temps qui défile sur l'écran verrouillé et dans la Dynamic Island",
+          "Le temps qui défile sur l'écran verrouillé et la Dynamic Island",
           "Un interrupteur dans le centre de contrôle qui lance et arrête le suivi",
           "Siri et Raccourcis : lancer, arrêter ou demander ce qui tourne"
         ]
@@ -66,8 +66,8 @@
         "title": "Vos données",
         "points": [
           "Verrouillage par Face ID, Touch ID ou un code à vous",
-          "Vous choisissez où vont vos données : sur cet appareil uniquement ou dans votre iCloud",
-          "Confidentialité sur une seule page : toutes les autorisations et vos données d'un coup d'œil",
+          "Vos données sur cet appareil uniquement ou dans votre iCloud – au choix",
+          "Confidentialité sur une page : toutes les autorisations et vos données d'un coup d'œil",
           "Aucun compte, aucune publicité, aucune vente de vos données – nous ne recevons que des rapports de plantage et statistiques anonymes, désactivables",
           "Tout effacer d'un coup – sur l'appareil, dans iCloud et dans les sauvegardes"
         ]
@@ -77,17 +77,18 @@
       "title": "SimpleTime Pro",
       "intro": "Tout ce qui précède reste gratuit. Pro ajoute :",
       "points": [
-        "Apple Watch : démarrer et arrêter au poignet, démarrer plus tôt, votre journée, votre semaine et vos objectifs d’un coup d’œil – avec le temps qui défile sur le cadran",
-        "Bilans : votre semaine, votre mois et votre année en cartes – à feuilleter et à partager",
-        "Lieux : les tâches démarrent d'elles-mêmes à votre arrivée – après un délai d'attente, si vous le souhaitez",
+        "Apple Watch : démarrer et arrêter au poignet, démarrer plus tôt, journée, semaine et objectifs d’un coup d’œil – avec le temps qui défile sur le cadran",
+        "Bilans : semaine, mois et année en cartes – à feuilleter et à partager",
+        "Lieux : les tâches démarrent d'elles-mêmes à votre arrivée – après un délai, si vous voulez",
+        "Calendrier : vos entrées dans votre calendrier – et des tâches depuis vos calendriers « Travail » ou « Famille »",
         "L'année d'un coup d'œil : chaque jour de l'année en une image, avec vos séries",
         "Des objectifs par tâche – pour le jour, la semaine ou le mois",
         "Filtre de concentration : le focus travail s'active, la liste ne montre que le travail, le chrono tourne déjà",
         "Un widget de démarrage rapide que vous composez",
         "Sept couleurs d'accent ou la vôtre, plus seize icônes d'app",
-        "Des sections supplémentaires dans le rapport PDF : évolution, répartition, comparaison, objectifs"
+        "Plus de sections dans le rapport PDF : évolution, répartition, comparaison, objectifs"
       ],
-      "pricing": "Pro existe au mois, à l'année ou une fois pour toutes. Les nouveaux abonnés profitent d'une semaine gratuite, et avec le partage familial, jusqu'à six personnes peuvent utiliser Pro. Les prix sont indiqués dans l'app. Les formules mensuelle et annuelle se renouvellent automatiquement jusqu'à résiliation, possible à tout moment dans les réglages de l'App Store. Ce qui viendra plus tard est inclus."
+      "pricing": "Pro existe au mois, à l'année ou une fois pour toutes. Les nouveaux abonnés ont une semaine gratuite, et avec le partage familial, jusqu'à six personnes peuvent utiliser Pro. Les prix sont indiqués dans l'app. Les formules mensuelle et annuelle se renouvellent automatiquement jusqu'à résiliation, possible à tout moment dans les réglages de l'App Store. Ce qui viendra plus tard est inclus."
     },
     "closing": "Pour toutes celles et ceux qui veulent savoir où passe vraiment leur temps – au travail, dans les études, à l'entraînement ou pour eux-mêmes."
   },

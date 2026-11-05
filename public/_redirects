@@ -1,0 +1,5 @@
+# Links into the app (Universal Links, see /.well-known/apple-app-site-association).
+# With SimpleTime installed, iOS and macOS open the app and never ask for these.
+# Without it, every /app/… address shows the one page that explains where it leads –
+# with status 200 and the address unchanged.
+/app/* /app/ 200

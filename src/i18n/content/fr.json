@@ -1,7 +1,7 @@
 {
   "store": {
     "lead": "SimpleTime enregistre ce à quoi vous passez votre temps. Un geste lance, un geste arrête.",
-    "promise": "Aucun compte, aucune inscription, aucune publicité. Vos heures restent sur votre appareil – et dans votre iCloud, si vous le souhaitez.",
+    "promise": "Aucun compte, aucune inscription, aucune publicité. Vos heures restent sur votre appareil – et dans votre iCloud si vous voulez.",
     "sections": [
       {
         "id": "tracking",
@@ -39,7 +39,7 @@
         "points": [
           "Un rapport PDF dont vous choisissez et ordonnez vous-même les sections",
           "CSV pour Excel et Numbers",
-          "Plans de sauvegarde : automatiquement dans iCloud Drive, un dossier de l’app Fichiers comme Dropbox ou Google Drive, votre propre serveur ou l’appareil – chiffrés par mot de passe si vous le souhaitez"
+          "Plans de sauvegarde : automatiques vers iCloud Drive, un dossier de l’app Fichiers (Dropbox, Google Drive…), votre serveur ou l’appareil – chiffrés par mot de passe si vous voulez"
         ]
       },
       {
@@ -66,9 +66,9 @@
         "title": "Vos données",
         "points": [
           "Verrouillage par Face ID, Touch ID ou un code à vous",
-          "Vous choisissez où se trouvent vos données : sur cet appareil uniquement ou dans votre iCloud",
+          "Vous choisissez où vont vos données : sur cet appareil uniquement ou dans votre iCloud",
           "Confidentialité sur une seule page : toutes les autorisations et vos données d'un coup d'œil",
-          "Aucun compte, aucune publicité, aucune vente de vos données – nous ne recevons que des rapports de plantage et des statistiques d’utilisation anonymes, désactivables",
+          "Aucun compte, aucune publicité, aucune vente de vos données – nous ne recevons que des rapports de plantage et statistiques anonymes, désactivables",
           "Tout effacer d'un coup – sur l'appareil, dans iCloud et dans les sauvegardes"
         ]
       }

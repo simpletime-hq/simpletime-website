@@ -51,7 +51,27 @@ async function parseHeaders() {
   return rules;
 }
 
+/**
+ * The 200 rewrites from _redirects – Cloudflare serves the target and keeps the
+ * address, as for every link into the app (/app/* /app/ 200). Without them the
+ * page behind those links could only be tested at /app/ itself.
+ */
+async function parseRewrites() {
+  let raw = '';
+  try {
+    raw = await readFile(join(DIST, '_redirects'), 'utf8');
+  } catch {
+    return [];
+  }
+  return raw
+    .split('\n')
+    .map((line) => line.trim().split(/\s+/))
+    .filter(([from, to, status]) => from && !from.startsWith('#') && to && status === '200')
+    .map(([from, to]) => ({ from, to }));
+}
+
 const rules = await parseHeaders();
+const rewrites = await parseRewrites();
 
 const matches = (pattern, path) =>
   pattern.endsWith('*') ? path.startsWith(pattern.slice(0, -1)) : pattern === path;
@@ -70,13 +90,17 @@ async function resolve(urlPath) {
 
 createServer(async (req, res) => {
   const path = decodeURIComponent(new URL(req.url, 'http://x').pathname);
-  const file = await resolve(path);
+  const rewrite = (await resolve(path)) ? null : rewrites.find((r) => matches(r.from, path));
+  const file = await resolve(rewrite ? rewrite.to : path);
 
+  // Like Cloudflare: a header that several matching rules set is joined with ", ".
+  const headers = {};
   for (const rule of rules) {
     if (matches(rule.pattern, path)) {
-      for (const [k, v] of Object.entries(rule.headers)) res.setHeader(k, v);
+      for (const [k, v] of Object.entries(rule.headers)) headers[k] = headers[k] ? `${headers[k]}, ${v}` : v;
     }
   }
+  for (const [k, v] of Object.entries(headers)) res.setHeader(k, v);
 
   if (!file) {
     const notFound = await resolve('/404.html');

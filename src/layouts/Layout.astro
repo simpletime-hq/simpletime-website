@@ -18,9 +18,14 @@ interface Props {
   /** Count visits with Atriya. Off where the address itself says too much –
       the page behind links into the app carries an entry's ID in its path. */
   analytics?: boolean;
+  /** Send no referrer from this page – the same pages: otherwise the next page's
+      visitor statistics would record the address with the entry's ID. */
+  noReferrer?: boolean;
 }
 
-const { lang, title, description, path, jsonLd = [], noIndex = false, analytics = true } = Astro.props;
+const {
+  lang, title, description, path, jsonLd = [], noIndex = false, analytics = true, noReferrer = false,
+} = Astro.props;
 const t = useTranslations(lang);
 
 const metaTitle = title ?? t('meta.title');
@@ -92,6 +97,7 @@ const jsonLdPayload = JSON.stringify(schemas).replace(/</g, '\\u003c');
 <html lang={lang} dir={dir} class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
+    {noReferrer && <meta name="referrer" content="no-referrer" />}
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#f5f6fa" media="(prefers-color-scheme: light)" />
     <meta name="theme-color" content="#06080f" media="(prefers-color-scheme: dark)" />

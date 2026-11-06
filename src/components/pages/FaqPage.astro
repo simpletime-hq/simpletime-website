@@ -219,11 +219,18 @@ const faqSchema = {
   }
 
   // A link to /faq/#sync opens that answer, so support mails can point at one.
+  // A malformed escape such as `#%` is ignored: it used to throw before the
+  // listener below existed, and every later anchor stopped opening its answer.
   const openFromHash = () => {
-    const id = decodeURIComponent(window.location.hash.slice(1));
+    let id = '';
+    try {
+      id = decodeURIComponent(window.location.hash.slice(1));
+    } catch {
+      return;
+    }
     const target = id ? document.getElementById(id) : null;
     if (target instanceof HTMLDetailsElement) target.open = true;
   };
-  openFromHash();
   window.addEventListener('hashchange', openFromHash);
+  openFromHash();
 </script>

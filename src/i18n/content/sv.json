@@ -786,7 +786,7 @@
     "summaryTitle": "I korthet",
     "summary": [
       "Din tid är din. SimpleTime behöver inget konto, visar inga annonser och säljer inte dina data.",
-      "Dina poster finns på dina enheter och, om du väljer det, i ditt privata iCloud – ingen annan kan läsa dem, inte ens vi.",
+      "Dina poster finns på dina enheter och, om du väljer det, i ditt privata iCloud eller som aktiviteter i din kalender – vi kan inte läsa dem.",
       "För att vi snabbt ska hitta fel skickar appen anonyma kraschrapporter och användningsstatistik – utan enhets-ID, aldrig med dina poster och går att stänga av när som helst.",
       "Den här webbplatsen sätter inga egna cookies och laddar inget från tredje part. Hur många som besöker den räknar vi anonymt med Atriya, vår egen analystjänst."
     ],
@@ -825,6 +825,15 @@
             "paragraphs": [
               "Endast om du ställer in platser – en funktion i SimpleTime Pro – ber SimpleTime om åtkomst till din plats. iOS bevakar då de områden du har angett och meddelar appen när du kommer fram eller går därifrån; SimpleTime använder detta enbart för att starta eller stoppa den tillhörande uppgiften. Dina platser sparas bara på den här enheten och synkas inte. SimpleTime sparar ingen historik över var du har varit och lämnar inte ut din plats.",
               "När du söker efter en adress eller använder kartan i platsredigeraren tillhandahålls sökningen och kartan av Apple Kartor; Apples integritetspolicy gäller. Du kan när som helst dra tillbaka åtkomsten till din plats i iOS-inställningarna."
+            ]
+          },
+          {
+            "title": "Kalender",
+            "paragraphs": [
+              "Endast om du slår på ”Poster i Kalender” – en funktion i SimpleTime Pro – ber SimpleTime om åtkomst till dina kalendrar. Appen lägger då in varje avslutad post som en aktivitet: med uppgiftens namn, anteckningen, början och slut samt en länk som appen känner igen sina aktiviteter på. Aktiviteterna hamnar i en egen kalender, ”SimpleTime”, eller i den kalender du väljer – om du vill en annan för varje uppgift. Ändrar du en post eller lägger den i papperskorgen följer aktiviteten med.",
+              "För att visa dina kalendrar att välja bland och skapa uppgifter av dem läser SimpleTime deras namn och färger. För att hitta sina egna aktiviteter söker appen igenom aktiviteterna i dina kalendrar – vid synkroniseringen de senaste 90 dagarnas, vid ”Radera alla data” de senaste fyra årens. Andra aktiviteter sparar, ändrar eller överför SimpleTime inte.",
+              "Var aktiviteterna lagras bestämmer din kalender: hör den till iCloud, Google, Exchange eller ett annat konto synkroniserar din kalenderapp aktiviteterna med den leverantören, och dess integritetspolicy gäller. Den som delar en kalender med dig ser de aktiviteter som SimpleTime lägger in där. Aktiviteterna visar namnen på dina uppgifter även när applåset är på.",
+              "Stänger du av funktionen lägger SimpleTime inte in något nytt; befintliga aktiviteter finns kvar tills du raderar dem. Åtkomsten till dina kalendrar kan du när som helst dra tillbaka i iOS-inställningarna, och på Mac i Systeminställningar under Integritet och säkerhet."
             ]
           },
           {
@@ -882,7 +891,7 @@
           {
             "title": "Radera dina data",
             "paragraphs": [
-              "I appens inställningar under Integritet › Radera alla data tar du bort allt som SimpleTime har sparat på en gång – på den här enheten, i iCloud, dina planers säkerhetskopior var de än finns och de gamla säkerhetskopiorna i iCloud Drive; via iCloud når raderingen även dina andra enheter. Den anonyma statistiken kan inte kopplas till någon enhet och kan därför inte raderas riktat. Tar du bort appen försvinner dess data från den enheten."
+              "I appens inställningar under Integritet › Radera alla data tar du bort allt som SimpleTime har sparat på en gång – på den här enheten, i iCloud, dina planers säkerhetskopior var de än finns, de gamla säkerhetskopiorna i iCloud Drive och de aktiviteter som SimpleTime har lagt in i dina kalendrar; via iCloud når raderingen även dina andra enheter. Den anonyma statistiken kan inte kopplas till någon enhet och kan därför inte raderas riktat. Tar du bort appen försvinner dess data från den enheten."
             ]
           }
         ]
@@ -917,6 +926,12 @@
               "För att kunna räkna besök utan att känna igen dig skapar Atriya en identifierare av IP-adressen, webbläsarens identifiering och en slumpmässig dagsnyckel, som bara gäller i en dag. Sedan raderas dagsnyckeln, och identifieraren kan inte längre kopplas till dig eller till en IP-adress. Själva IP-adressen sparar vi inte.",
               "Servern finns hos IONOS SE, Elgendorfer Str. 57, 56410 Montabaur, Tyskland, i ett datacenter inom Europeiska unionen; IONOS behandlar uppgifterna för vår räkning. Vi tittar bara på dem sammanställda och lämnar inte ut dem. När dagsnyckeln har raderats är statistiken anonym; vi sparar den utan fast tidsgräns.",
               "Den rättsliga grunden är vårt berättigade intresse av att förbättra webbplatsen (art. 6.1 f GDPR). Eftersom inget sparas på eller läses från din enhet behövs inget samtycke (§ 25 TDDDG). Vill du inte räknas, slå på Do Not Track eller Global Privacy Control i din webbläsare – då registrerar Atriya ingenting."
+            ]
+          },
+          {
+            "title": "Länkar till appen",
+            "paragraphs": [
+              "Adresser under simple-time.app/app/ – till exempel länken i en aktivitet som SimpleTime har lagt in i din kalender – öppnar SimpleTime på rätt ställe om appen är installerad. Om appen får öppna sådana länkar får din enhet veta genom en fil på den här webbplatsen, som Apple hämtar och levererar till den; om dig får vi inte veta något. Utan appen visar webbplatsen på dessa adresser en sida som förklarar vart länken leder. Där räknar Atriya inga besök, eftersom adressen kan innehålla ID:t för en post."
             ]
           },
           {

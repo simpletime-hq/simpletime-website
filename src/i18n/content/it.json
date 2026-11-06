@@ -786,7 +786,7 @@
     "summaryTitle": "In breve",
     "summary": [
       "Il tuo tempo ti appartiene. SimpleTime non richiede alcun account, non mostra pubblicità e non vende i tuoi dati.",
-      "Le tue voci si trovano sui tuoi dispositivi e, se lo scegli, nel tuo iCloud privato: nessun altro può leggerle, nemmeno noi.",
+      "Le tue voci si trovano sui tuoi dispositivi e, se lo scegli, nel tuo iCloud privato o come eventi nel tuo calendario: noi non possiamo leggerle.",
       "Per trovare rapidamente gli errori, l’app invia rapporti sugli arresti anomali e statistiche d’uso anonimi: senza ID del dispositivo, mai con le tue voci e disattivabili in qualsiasi momento.",
       "Questo sito non imposta cookie propri e non carica nulla da terze parti. Contiamo in modo anonimo quante persone lo visitano con Atriya, il nostro servizio di analisi."
     ],
@@ -825,6 +825,15 @@
             "paragraphs": [
               "SimpleTime chiede l’accesso alla tua posizione solo se configuri dei luoghi – una funzione di SimpleTime Pro. iOS controlla allora le aree che hai definito e segnala all’app quando arrivi o te ne vai; SimpleTime usa questa informazione esclusivamente per avviare o fermare l’attività corrispondente. I tuoi luoghi sono salvati solo su questo dispositivo e non vengono sincronizzati. SimpleTime non conserva alcuno storico dei tuoi spostamenti e non trasmette la tua posizione ad altri.",
               "Quando cerchi un indirizzo o usi la mappa nell’editor del luogo, la ricerca e la mappa sono fornite da Mappe di Apple; si applica l’informativa sulla privacy di Apple. Puoi revocare l’accesso alla tua posizione in qualsiasi momento nell’app Impostazioni."
+            ]
+          },
+          {
+            "title": "Calendario",
+            "paragraphs": [
+              "SimpleTime chiede l’accesso ai tuoi calendari solo se attivi “Voci in Calendario” – una funzione di SimpleTime Pro. L’app inserisce allora ogni voce conclusa come evento: con il nome dell’attività, la nota, l’inizio e la fine e un link da cui riconosce i propri eventi. Gli eventi finiscono in un calendario a parte, “SimpleTime”, o nel calendario che scegli – se vuoi, uno diverso per ogni attività. Se modifichi una voce o la sposti nel cestino, l’evento la segue.",
+              "Per mostrarti i calendari tra cui scegliere e creare attività a partire da essi, SimpleTime ne legge i nomi e i colori. Per trovare i propri eventi, cerca tra gli eventi dei tuoi calendari: quelli degli ultimi 90 giorni durante l’aggiornamento, quelli degli ultimi quattro anni per “Elimina tutti i dati”. SimpleTime non salva, non modifica e non trasmette nessun altro evento.",
+              "Dove si trovano gli eventi dipende dal tuo calendario: se appartiene a iCloud, Google, Exchange o a un altro account, la tua app Calendario sincronizza gli eventi con quel fornitore, e vale la sua informativa sulla privacy. Chi condivide un calendario con te vede gli eventi che SimpleTime vi inserisce. Gli eventi mostrano i nomi delle tue attività anche quando il blocco dell’app è attivo.",
+              "Se disattivi la funzione, SimpleTime non inserisce più nulla di nuovo; gli eventi esistenti restano finché non li elimini. Puoi revocare l’accesso ai tuoi calendari in qualsiasi momento nelle Impostazioni di iOS e, sul Mac, in Impostazioni di Sistema, sotto Privacy e sicurezza."
             ]
           },
           {
@@ -882,7 +891,7 @@
           {
             "title": "Eliminazione dei tuoi dati",
             "paragraphs": [
-              "Nelle impostazioni dell’app, in Privacy › Elimina tutti i dati, rimuovi in una volta tutto ciò che SimpleTime ha salvato: su questo dispositivo, in iCloud, i backup dei tuoi piani ovunque si trovino e i vecchi backup in iCloud Drive; tramite iCloud, l’eliminazione raggiunge anche gli altri tuoi dispositivi. Le statistiche anonime non possono essere ricondotte a nessun dispositivo e quindi non possono essere eliminate in modo mirato. Se elimini l’app, i suoi dati scompaiono da quel dispositivo."
+              "Nelle impostazioni dell’app, in Privacy › Elimina tutti i dati, rimuovi in una volta tutto ciò che SimpleTime ha salvato: su questo dispositivo, in iCloud, i backup dei tuoi piani ovunque si trovino, i vecchi backup in iCloud Drive e gli eventi che SimpleTime ha inserito nei tuoi calendari; tramite iCloud, l’eliminazione raggiunge anche gli altri tuoi dispositivi. Le statistiche anonime non possono essere ricondotte a nessun dispositivo e quindi non possono essere eliminate in modo mirato. Se elimini l’app, i suoi dati scompaiono da quel dispositivo."
             ]
           }
         ]
@@ -917,6 +926,12 @@
               "Per poter contare le visite senza riconoscerti, Atriya ricava dall’indirizzo IP, dall’identificativo del browser e da una chiave giornaliera casuale un identificativo valido per un solo giorno. Poi la chiave giornaliera viene cancellata e l’identificativo non può più essere ricondotto né a te né a un indirizzo IP. Il tuo indirizzo IP in sé non lo salviamo.",
               "Il server è ospitato da IONOS SE, Elgendorfer Str. 57, 56410 Montabaur, Germania, in un data center nell’Unione europea; IONOS tratta i dati per nostro conto. Li analizziamo solo in forma aggregata e non li cediamo a nessuno. Una volta cancellata la chiave giornaliera, le statistiche sono anonime; le conserviamo senza un termine fisso.",
               "La base giuridica è il nostro legittimo interesse a migliorare il sito (art. 6, par. 1, lett. f) del GDPR). Poiché nel tuo dispositivo non viene salvato né letto nulla, non serve alcun consenso (§ 25 TDDDG). Se non vuoi essere contato, attiva Do Not Track o Global Privacy Control nel tuo browser: in quel caso Atriya non rileva nulla."
+            ]
+          },
+          {
+            "title": "Link verso l’app",
+            "paragraphs": [
+              "Gli indirizzi sotto simple-time.app/app/ – per esempio il link in un evento che SimpleTime ha inserito nel tuo calendario – aprono SimpleTime nel punto giusto se l’app è installata. Il tuo dispositivo sa se l’app può aprire questi link grazie a un file di questo sito, che Apple scarica e gli consegna; di te, in questo modo, non veniamo a sapere nulla. Senza l’app, a questi indirizzi il sito mostra una pagina che spiega dove porta il link. Lì Atriya non conta le visite, perché l’indirizzo può contenere l’identificativo di una voce."
             ]
           },
           {

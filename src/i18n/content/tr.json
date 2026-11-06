@@ -786,7 +786,7 @@
     "summaryTitle": "Kısaca",
     "summary": [
       "Zamanın sana ait. SimpleTime hesap gerektirmez, reklam göstermez ve verilerini satmaz.",
-      "Kayıtların cihazlarında ve istersen kendi özel iCloud’unda durur – onları başka kimse okuyamaz, biz bile.",
+      "Kayıtların cihazlarında ve istersen kendi özel iCloud’unda ya da takviminde etkinlik olarak durur – biz onları okuyamayız.",
       "Hataları hızla bulabilmemiz için uygulama anonim çökme raporları ve kullanım istatistikleri gönderir – cihaz kimliği olmadan, asla kayıtlarınla birlikte değil ve istediğin an kapatılabilir.",
       "Bu web sitesi kendine ait çerez yerleştirmez ve üçüncü taraflardan hiçbir şey yüklemez. Kaç kişinin ziyaret ettiğini kendi analiz hizmetimiz Atriya ile anonim olarak sayarız."
     ],
@@ -825,6 +825,15 @@
             "paragraphs": [
               "SimpleTime yalnızca yerler ayarladığında konumuna erişim ister; yerler bir SimpleTime Pro özelliğidir. iOS o zaman belirlediğin alanları izler ve vardığında ya da ayrıldığında uygulamaya haber verir; SimpleTime bunu yalnızca ilgili görevi başlatmak ya da durdurmak için kullanır. Yerlerin yalnızca bu cihazda saklanır ve eşitlenmez. SimpleTime nerelerde bulunduğunun kaydını tutmaz ve konumunu başkalarına aktarmaz.",
               "Yer düzenleme ekranında bir adres aradığında ya da haritayı kullandığında arama ve harita Apple Haritalar tarafından sağlanır; Apple'ın gizlilik politikası geçerlidir. Konumuna erişim iznini iOS ayarlarından istediğin zaman geri alabilirsin."
+            ]
+          },
+          {
+            "title": "Takvim",
+            "paragraphs": [
+              "SimpleTime takvimlerine erişimi yalnızca “Takvimdeki kayıtlar” seçeneğini açtığında ister; bu bir SimpleTime Pro özelliğidir. Uygulama o zaman biten her kaydı bir etkinlik olarak ekler: görevin adı, not, başlangıç ve bitiş ile uygulamanın kendi etkinliklerini tanıdığı bir bağlantıyla. Etkinlikler ayrı bir “SimpleTime” takvimine ya da seçtiğin takvime gider – istersen her görev için başka birine. Bir kaydı değiştirdiğinde ya da çöp kutusuna taşıdığında etkinlik de onu izler.",
+              "Takvimlerini seçmen için göstermek ve onlardan görev oluşturmak üzere SimpleTime takvimlerin adlarını ve renklerini okur. Kendi etkinliklerini bulmak için takvimlerindeki etkinliklere bakar – eşzamanlamada son 90 günün, “Tüm verileri sil”de son dört yılın etkinliklerine. Başka etkinlikleri SimpleTime kaydetmez, değiştirmez ve aktarmaz.",
+              "Etkinliklerin nerede durduğunu takvimin belirler: iCloud, Google, Exchange ya da başka bir hesaba aitse takvim uygulaman etkinlikleri o sağlayıcıyla eşzamanlar ve onun gizlilik politikası geçerli olur. Seninle bir takvimi paylaşan herkes SimpleTime’ın oraya eklediği etkinlikleri görür. Etkinlikler, uygulama kilidi açıkken bile görevlerinin adlarını gösterir.",
+              "Özelliği kapatırsan SimpleTime yeni bir şey eklemez; mevcut etkinlikler sen silene kadar kalır. Takvimlerine erişimi istediğin zaman iOS ayarlarından, Mac’te ise Sistem Ayarları’nda Gizlilik ve Güvenlik bölümünden geri alabilirsin."
             ]
           },
           {
@@ -882,7 +891,7 @@
           {
             "title": "Verilerinin silinmesi",
             "paragraphs": [
-              "Uygulamanın ayarlarında Gizlilik › Tüm verileri sil bölümünden SimpleTime’ın kaydettiği her şeyi tek seferde kaldırırsın – bu cihazda, iCloud’da, nerede olurlarsa olsunlar planlarının yedeklerini ve iCloud Drive’daki eski yedekleri; silme işlemi iCloud üzerinden diğer cihazlarına da ulaşır. Anonim istatistikler hiçbir cihazla ilişkilendirilemediği için hedefli olarak silinemez. Uygulamayı silersen verileri o cihazdan kaybolur."
+              "Uygulamanın ayarlarında Gizlilik › Tüm verileri sil bölümünden SimpleTime’ın kaydettiği her şeyi tek seferde kaldırırsın – bu cihazda, iCloud’da, nerede olurlarsa olsunlar planlarının yedeklerini, iCloud Drive’daki eski yedekleri ve SimpleTime’ın takvimlerine eklediği etkinlikleri; silme işlemi iCloud üzerinden diğer cihazlarına da ulaşır. Anonim istatistikler hiçbir cihazla ilişkilendirilemediği için hedefli olarak silinemez. Uygulamayı silersen verileri o cihazdan kaybolur."
             ]
           }
         ]
@@ -917,6 +926,12 @@
               "Seni tanımadan ziyaretleri sayabilmek için Atriya; IP adresi, tarayıcı kimliği ve rastgele bir günlük anahtardan yalnızca bir gün geçerli olan bir tanımlayıcı oluşturur. Ardından günlük anahtar silinir ve tanımlayıcı artık ne seninle ne de bir IP adresiyle ilişkilendirilebilir. IP adresinin kendisini saklamayız.",
               "Sunucu, Avrupa Birliği'ndeki bir veri merkezinde IONOS SE, Elgendorfer Str. 57, 56410 Montabaur, Almanya bünyesinde bulunur; IONOS verileri bizim adımıza işler. Verileri yalnızca toplu olarak değerlendiririz ve kimseyle paylaşmayız. Günlük anahtar silindikten sonra istatistikler anonimdir; bunları belirli bir süre sınırı olmadan saklarız.",
               "Hukuki dayanak, web sitesini iyileştirmeye yönelik meşru menfaatimizdir (GDPR m. 6/1-f). Cihazına hiçbir şey kaydedilmediği ve cihazından hiçbir şey okunmadığı için onay gerekmez (§ 25 TDDDG). Sayılmak istemiyorsan tarayıcında Do Not Track veya Global Privacy Control'ü aç; o zaman Atriya hiçbir şey kaydetmez."
+            ]
+          },
+          {
+            "title": "Uygulamaya giden bağlantılar",
+            "paragraphs": [
+              "simple-time.app/app/ altındaki adresler – örneğin SimpleTime’ın takvimine eklediği bir etkinlikteki bağlantı – uygulama yüklüyse SimpleTime’ı doğru yerde açar. Uygulamanın bu tür bağlantıları açıp açamayacağını cihazın, bu web sitesinde bulunan ve Apple’ın alıp cihaza ilettiği bir dosyadan öğrenir; bu sırada senin hakkında hiçbir şey öğrenmeyiz. Uygulama yoksa web sitesi bu adreslerde bağlantının nereye gittiğini açıklayan bir sayfa gösterir. Atriya orada ziyaret saymaz, çünkü adres bir kaydın kimliğini içerebilir."
             ]
           },
           {

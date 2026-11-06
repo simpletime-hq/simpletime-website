@@ -93,7 +93,8 @@ createServer(async (req, res) => {
   const rewrite = (await resolve(path)) ? null : rewrites.find((r) => matches(r.from, path));
   const file = await resolve(rewrite ? rewrite.to : path);
 
-  // Like Cloudflare: a header that several matching rules set is joined with ", ".
+  // A header that several matching rules set: Cloudflare sends one line per rule, and
+  // HTTP reads that as one comma-separated list – which is what goes out here.
   const headers = {};
   for (const rule of rules) {
     if (matches(rule.pattern, path)) {

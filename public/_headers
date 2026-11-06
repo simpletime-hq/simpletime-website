@@ -10,8 +10,8 @@
 # Links into the app carry an entry's ID in their path (/app/entry/<id>/). Every
 # link from that page – home, language, footer – would hand the full address on as
 # the referrer, and the visitor statistics on the next page recorded it. Cloudflare
-# joins this with the site-wide value above; browsers use the last policy they know,
-# so it is no-referrer. The page also says so in a <meta> tag.
+# sends this after the site-wide value above; browsers read both as one list and use
+# the last policy they know, so it is no-referrer. The page also says so in a <meta> tag.
 /app/*
   Referrer-Policy: no-referrer
 

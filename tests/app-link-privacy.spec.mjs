@@ -35,7 +35,8 @@ test('an entry link leaks its ID neither as path nor as referrer', async ({ page
 
   const response = await page.goto(ENTRY);
   expect(response?.status(), 'served like /app/, address unchanged').toBe(200);
-  expect(response?.headers()['referrer-policy']).toMatch(/(^|,\s*)no-referrer$/);
+  // One list either way: joined here, two lines from Cloudflare.
+  expect(response?.headers()['referrer-policy']).toMatch(/(^|[,\n]\s*)no-referrer$/);
   await expect(page.locator('meta[name="referrer"]')).toHaveAttribute('content', 'no-referrer');
   expect(await page.locator('script[src*="atriya"]').count(), 'no statistics on this page').toBe(0);
 

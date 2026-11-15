@@ -1048,8 +1048,8 @@
         "id": "app",
         "title": "Appen",
         "paragraphs": [
-          "VoiceOver: knappar, diagram och tidsaxeln har etiketter som VoiceOver läser upp – på varje språk i appen.",
-          "Textstorlek: texten följer textstorleken i iOS upp till de största hjälpmedelsstorlekarna. Där väldigt stor text skulle täcka reglagen – i sidhuvudet och längs tidsaxeln – växer den bara upp till en gräns. Under Inställningar › Typsnitt ställer du dessutom in en egen textstorlek och fet text bara för SimpleTime.",
+          "VoiceOver: knappar, diagram och tidsaxeln har etiketter som VoiceOver läser upp – på varje språk i appen. Du kan dessutom lyssna på diagrammen som ljudgraf: VoiceOver spelar upp värdena som toner och läser upp dem.",
+          "Textstorlek: texten följer textstorleken i iOS upp till de största hjälpmedelsstorlekarna. Där väldigt stor text skulle täcka reglagen – i sidhuvudet och längs tidsaxeln – växer den bara upp till en gräns. Vid de största storlekarna visar fältet med den pågående uppgiften namn och tid under varandra, så att inget klipps av. Under Inställningar › Typsnitt ställer du dessutom in en egen textstorlek och fet text bara för SimpleTime.",
           "Rörelse och färg: när ”Minska rörelse” är på tonar SimpleTime ned sina animeringar. Uppgifter känner du igen inte bara på färgen utan också på namn och symbol, och text är utformad för att vara läsbar i både ljust och mörkt utseende.",
           "Språk: appen talar 41 språk, oberoende av enhetens språk – arabiska, hebreiska, persiska, pashto och urdu från höger till vänster."
         ]
@@ -1066,8 +1066,7 @@
         "id": "limits",
         "title": "Det här är inte bra än",
         "paragraphs": [
-          "Vid de största textstorlekarna kan fältet med den pågående uppgiften klippa av text.",
-          "Diagrammen har ännu inga ljuddiagram för VoiceOver. Värdena finns dock också som text, i förklaringen och i statistiken."
+          "Just nu känner vi inte till några hinder. De två punkter som stod här fram till version 4.8 – avklippt text i fältet med den pågående uppgiften vid de största textstorlekarna och diagram utan ljudgraf för VoiceOver – är åtgärdade sedan version 4.9."
         ]
       },
       {

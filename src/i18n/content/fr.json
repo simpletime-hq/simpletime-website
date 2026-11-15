@@ -1048,8 +1048,8 @@
         "id": "app",
         "title": "L’app",
         "paragraphs": [
-          "VoiceOver : les boutons, les graphiques et la frise ont des libellés que VoiceOver lit à voix haute – dans chaque langue de l’app.",
-          "Taille du texte : le texte suit la taille définie dans iOS, jusqu’aux plus grandes tailles d’accessibilité. Là où un texte très grand masquerait les commandes – dans l’en-tête et le long de la frise –, il ne grandit que jusqu’à une limite. Dans Paramètres › Police, vous pouvez aussi régler une taille de texte et le texte en gras rien que pour SimpleTime.",
+          "VoiceOver : les boutons, les graphiques et la frise ont des libellés que VoiceOver lit à voix haute – dans chaque langue de l’app. Les graphiques peuvent aussi s’écouter avec Graphique audio : VoiceOver joue leurs valeurs sous forme de sons et les lit à voix haute.",
+          "Taille du texte : le texte suit la taille définie dans iOS, jusqu’aux plus grandes tailles d’accessibilité. Là où un texte très grand masquerait les commandes – dans l’en-tête et le long de la frise –, il ne grandit que jusqu’à une limite. Aux plus grandes tailles, la barre de la tâche en cours affiche le nom et la durée l’un sous l’autre, pour que rien ne soit coupé. Dans Paramètres › Police, vous pouvez aussi régler une taille de texte et le texte en gras rien que pour SimpleTime.",
           "Mouvements et couleurs : lorsque « Réduire les animations » est activé, SimpleTime atténue ses animations. Vous distinguez les tâches non seulement par leur couleur, mais aussi par leur nom et leur symbole, et les textes restent lisibles en apparence claire comme sombre.",
           "Langues : l’app parle 41 langues, indépendamment de la langue de votre appareil – l’arabe, l’hébreu, le persan, le pachto et l’ourdou de droite à gauche."
         ]
@@ -1066,8 +1066,7 @@
         "id": "limits",
         "title": "Ce qui n’est pas encore au point",
         "paragraphs": [
-          "Aux plus grandes tailles de texte, la barre de la tâche en cours peut couper du texte.",
-          "Les graphiques ne proposent pas encore de graphiques audio pour VoiceOver. Leurs valeurs figurent aussi sous forme de texte, dans la légende et dans les statistiques."
+          "Nous n’avons connaissance d’aucun obstacle à ce jour. Les deux points qui figuraient ici jusqu’à la version 4.8 – texte coupé dans la barre de la tâche en cours aux plus grandes tailles de texte et graphiques sans Graphique audio pour VoiceOver – sont corrigés depuis la version 4.9."
         ]
       },
       {

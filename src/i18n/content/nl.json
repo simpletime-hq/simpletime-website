@@ -1053,8 +1053,8 @@
         "id": "app",
         "title": "De app",
         "paragraphs": [
-          "VoiceOver: knoppen, grafieken en de tijdlijn hebben labels die VoiceOver voorleest – in elke taal van de app.",
-          "Tekstgrootte: tekst volgt de tekstgrootte van iOS tot de grootste toegankelijkheidsgroottes. Waar heel grote tekst de bediening zou bedekken – in de kopbalk en langs de tijdlijn –, groeit die maar tot een grens. Onder Instellingen › Lettertype stel je bovendien een eigen tekstgrootte en vette tekst in, alleen voor SimpleTime.",
+          "VoiceOver: knoppen, grafieken en de tijdlijn hebben labels die VoiceOver voorleest – in elke taal van de app. De grafieken kun je bovendien als audiografiek beluisteren: VoiceOver speelt hun waarden af als tonen en leest ze voor.",
+          "Tekstgrootte: tekst volgt de tekstgrootte van iOS tot de grootste toegankelijkheidsgroottes. Waar heel grote tekst de bediening zou bedekken – in de kopbalk en langs de tijdlijn –, groeit die maar tot een grens. Bij de grootste groottes zet de balk met de lopende taak naam en duur onder elkaar, zodat er niets wordt afgesneden. Onder Instellingen › Lettertype stel je bovendien een eigen tekstgrootte en vette tekst in, alleen voor SimpleTime.",
           "Beweging en kleur: staat „Verminder beweging” aan, dan zwakt SimpleTime zijn animaties af. Taken herken je niet alleen aan hun kleur, maar ook aan naam en symbool, en tekst is ontworpen om leesbaar te blijven in de lichte en de donkere weergave.",
           "Talen: de app spreekt 41 talen, los van de taal van je apparaat – Arabisch, Hebreeuws, Perzisch, Pasjtoe en Urdu van rechts naar links."
         ]
@@ -1071,8 +1071,7 @@
         "id": "limits",
         "title": "Wat nog niet goed is",
         "paragraphs": [
-          "Bij de grootste tekstgroottes kan de balk met de lopende taak tekst afsnijden.",
-          "De grafieken bieden nog geen audiografieken voor VoiceOver. Hun waarden staan wel ook als tekst in de legenda en in de statistieken."
+          "Op dit moment is ons geen enkele barrière bekend. De twee punten die hier tot versie 4.8 stonden – afgesneden tekst in de balk met de lopende taak bij de grootste tekstgroottes en grafieken zonder audiografiek voor VoiceOver – zijn sinds versie 4.9 opgelost."
         ]
       },
       {

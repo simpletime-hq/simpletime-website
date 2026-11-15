@@ -1053,8 +1053,8 @@
         "id": "app",
         "title": "Uygulama",
         "paragraphs": [
-          "VoiceOver: düğmelerin, grafiklerin ve zaman çizelgesinin VoiceOver’ın sesli okuduğu etiketleri vardır – uygulamanın her dilinde.",
-          "Metin boyutu: metin, iOS’taki metin boyutunu en büyük erişilebilirlik boyutlarına kadar izler. Çok büyük metnin denetimleri kapatacağı yerlerde – başlıkta ve zaman çizelgesi boyunca – yalnızca belirli bir sınıra kadar büyür. Ayarlar › Yazı tipi bölümünde ayrıca yalnızca SimpleTime için kendi metin boyutunu ve kalın metni ayarlarsın.",
+          "VoiceOver: düğmelerin, grafiklerin ve zaman çizelgesinin VoiceOver’ın sesli okuduğu etiketleri vardır – uygulamanın her dilinde. Grafikleri ayrıca Sesli Grafik olarak dinleyebilirsin: VoiceOver değerlerini ses olarak çalar ve sesli okur.",
+          "Metin boyutu: metin, iOS’taki metin boyutunu en büyük erişilebilirlik boyutlarına kadar izler. Çok büyük metnin denetimleri kapatacağı yerlerde – başlıkta ve zaman çizelgesi boyunca – yalnızca belirli bir sınıra kadar büyür. En büyük boyutlarda çalışan görevin çubuğu, adı ve süreyi alt alta gösterir; böylece hiçbir şey kesilmez. Ayarlar › Yazı tipi bölümünde ayrıca yalnızca SimpleTime için kendi metin boyutunu ve kalın metni ayarlarsın.",
           "Hareket ve renk: “Hareketi Azalt” açıkken SimpleTime animasyonlarını yumuşatır. Görevleri yalnızca renklerinden değil, adlarından ve simgelerinden de ayırt edersin; metinler hem açık hem de koyu görünümde okunaklı kalacak şekilde tasarlanmıştır.",
           "Diller: uygulama, cihazının dilinden bağımsız olarak 41 dil konuşur – Arapça, İbranice, Farsça, Peştuca ve Urduca sağdan sola."
         ]
@@ -1071,8 +1071,7 @@
         "id": "limits",
         "title": "Henüz iyi olmayanlar",
         "paragraphs": [
-          "En büyük metin boyutlarında, çalışan görevin çubuğu metni kesebilir.",
-          "Grafikler VoiceOver için henüz sesli grafik sunmuyor. Ancak değerleri metin olarak da açıklamada ve istatistiklerde yer alır."
+          "Şu anda bildiğimiz bir engel yok. 4.8 sürümüne kadar burada yer alan iki nokta – en büyük metin boyutlarında çalışan görevin çubuğunda kesilen metin ve VoiceOver için Sesli Grafik sunmayan grafikler – 4.9 sürümünden beri düzeltildi."
         ]
       },
       {

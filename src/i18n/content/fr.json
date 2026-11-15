@@ -235,6 +235,11 @@
         "body": "Les tâches démarrent d’elles-mêmes à votre arrivée – après un délai d’attente, si vous le souhaitez, pour que rien ne se lance quand vous ne faites que passer."
       },
       {
+        "id": "calendar",
+        "title": "Calendrier",
+        "body": "Vos entrées dans votre calendrier – et des tâches depuis vos calendriers « Travail » ou « Famille »."
+      },
+      {
         "id": "year",
         "title": "L’année en un coup d’œil",
         "body": "Chaque jour de l’année en une image, avec votre série en cours et la plus longue."

@@ -235,6 +235,11 @@
         "body": "Le attività partono da sole quando arrivi – se vuoi, solo dopo un tempo di attesa, così non si avvia nulla quando sei solo di passaggio."
       },
       {
+        "id": "calendar",
+        "title": "Calendario",
+        "body": "Ogni voce come evento nel tuo calendario, più attività dai calendari come “Lavoro” o “Famiglia”."
+      },
+      {
         "id": "year",
         "title": "L’anno a colpo d’occhio",
         "body": "Ogni giorno dell’anno in un’immagine, con la serie in corso e la più lunga."

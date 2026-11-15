@@ -235,6 +235,11 @@
         "body": "Tasks start on their own when you arrive – after a waiting time, if you like, so nothing starts when you just drive past."
       },
       {
+        "id": "calendar",
+        "title": "Calendar",
+        "body": "Every entry as an event in your calendar – plus tasks from calendars like “Work” or “Family”."
+      },
+      {
         "id": "year",
         "title": "Year at a glance",
         "body": "Every day of the year as one picture, with your current and your longest streak."

@@ -235,6 +235,11 @@
         "body": "Uppgifter startar av sig själva när du kommer fram – efter en väntetid, om du vill, så att inget drar i gång när du bara passerar förbi."
       },
       {
+        "id": "calendar",
+        "title": "Kalender",
+        "body": "Varje post som en aktivitet i din kalender – plus uppgifter från kalendrar som ”Jobb” eller ”Familj”."
+      },
+      {
         "id": "year",
         "title": "Året på en gång",
         "body": "Varje dag på året som en bild, med din pågående och din längsta serie."

@@ -235,6 +235,11 @@
         "body": "Görevler vardığında kendiliğinden başlar – istersen bir bekleme süresinden sonra; böylece yalnızca yanından geçerken hiçbir şey başlamaz."
       },
       {
+        "id": "calendar",
+        "title": "Takvim",
+        "body": "Her kayıt takviminde bir etkinlik olarak – ayrıca “İş” ya da “Aile” gibi takvimlerden görevler."
+      },
+      {
         "id": "year",
         "title": "Yıla bir bakışta",
         "body": "Yılın her günü tek bir görselde, süren serinle ve en uzun serinle."

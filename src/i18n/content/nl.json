@@ -235,6 +235,11 @@
         "body": "Taken starten vanzelf als je aankomt – desgewenst pas na een wachttijd, zodat er niets start als je alleen voorbijkomt."
       },
       {
+        "id": "calendar",
+        "title": "Agenda",
+        "body": "Elke registratie als activiteit in je agenda – plus taken uit agenda’s zoals ‘Werk’ of ‘Gezin’."
+      },
+      {
         "id": "year",
         "title": "Het jaar in één beeld",
         "body": "Elke dag van het jaar als één afbeelding, met je lopende en je langste reeks."

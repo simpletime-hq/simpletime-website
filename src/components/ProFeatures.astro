@@ -17,7 +17,7 @@ const feature = (id: string) => {
   if (!found) throw new Error(`Pro section: feature "${id}" is missing in ${lang}`);
   return found;
 };
-const tiles = ['year', 'goals', 'reviews', 'places', 'focus', 'style', 'widget'].map(feature);
+const tiles = ['year', 'goals', 'reviews', 'places', 'focus', 'style', 'widget', 'calendar'].map(feature);
 const more = ['watch', 'report', 'future'].map(feature);
 
 const iconFiles = import.meta.glob<{ default: ImageMetadata }>('../assets/pro/icon-*.webp', { eager: true });
@@ -62,6 +62,27 @@ const week = [5.2, 6.8, 4.9, 7.4, 6.1, 2.2, 1.4];
 const weekCss = week.map((h, i) => `.wb-${i}{height:${((h / 7.4) * 100).toFixed(1)}%;transition-delay:${150 + i * 60}ms}`).join('');
 
 const accents = ['#173685', '#0f766e', '#6d28d9', '#475569', '#15803d', '#9f1239', '#3f3f46'];
+
+// A working week in the calendar: every entry an event, in the colour of its
+// task – from the top of the day to the bottom, the way a week view draws it.
+const calendar = [
+  [['work', 0.06, 0.4], ['sport', 0.72, 0.88]],
+  [['client', 0.14, 0.52], ['reading', 0.76, 0.92]],
+  [['work', 0.04, 0.3], ['meetings', 0.38, 0.6]],
+  [['client', 0.2, 0.46], ['work', 0.54, 0.8]],
+  [['work', 0.1, 0.34], ['social', 0.62, 0.9]],
+] as const;
+let eventCount = 0;
+const calendarDays = calendar.map((day) => day.map(([task, from, to]) => ({ task, from, to, n: eventCount++ })));
+const calendarCss = calendarDays
+  .flat()
+  .map(
+    (e) =>
+      // Two classes: the scoped rule that sets the transition carries an attribute,
+      // and a single class would lose its delay to it.
+      `.pro-calendar__event.ce-${e.n}{top:${(e.from * 100).toFixed(1)}%;height:${((e.to - e.from) * 100).toFixed(1)}%;transition-delay:${200 + e.n * 70}ms}`,
+  )
+  .join('');
 ---
 
 <div class="pro-bento mt-14 lg:mt-20">
@@ -153,6 +174,24 @@ const accents = ['#173685', '#0f766e', '#6d28d9', '#475569', '#15803d', '#9f1239
               <span class="pro-quick__button bg-reading" />
             </span>
           )}
+          {tile.id === 'calendar' && (
+            <div class="pro-calendar">
+              <span class="pro-calendar__badge">
+                <svg viewBox="0 0 24 24" fill="currentColor" fill-rule="evenodd">
+                  <path d="M7 2.75a.75.75 0 0 1 .75.75V5h8.5V3.5a.75.75 0 0 1 1.5 0V5h.75A2.5 2.5 0 0 1 21 7.5v11a2.5 2.5 0 0 1-2.5 2.5h-13A2.5 2.5 0 0 1 3 18.5v-11A2.5 2.5 0 0 1 5.5 5h.75V3.5A.75.75 0 0 1 7 2.75zM4.5 10v8.5a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1V10zM7 12.25h2.5v2.25H7zm3.75 0h2.5v2.25h-2.5zm3.75 0H17v2.25h-2.5zM7 16h2.5v2.25H7zm3.75 0h2.5v2.25h-2.5z" />
+                </svg>
+              </span>
+              <span class="pro-calendar__week">
+                {calendarDays.map((day) => (
+                  <span class="pro-calendar__day">
+                    {day.map((e) => (
+                      <span class:list={['pro-calendar__event', `bg-${e.task}`, `ce-${e.n}`]} />
+                    ))}
+                  </span>
+                ))}
+              </span>
+            </div>
+          )}
         </div>
         <div class="pro-tile__text">
           <h3 class="tile-title">{tile.title}</h3>
@@ -173,7 +212,7 @@ const accents = ['#173685', '#0f766e', '#6d28d9', '#475569', '#15803d', '#9f1239
     ))
   }
 </ul>
-<style is:inline set:html={goalCss + weekCss + accents.map((c, i) => `.ac-${i}{background:${c}}`).join('')}></style>
+<style is:inline set:html={goalCss + weekCss + calendarCss + accents.map((c, i) => `.ac-${i}{background:${c}}`).join('')}></style>
 
 <style>
 
@@ -190,6 +229,11 @@ const accents = ['#173685', '#0f766e', '#6d28d9', '#475569', '#15803d', '#9f1239
     .pro-tile--year {
       grid-column: 1 / -1;
     }
+
+    /* Seven tiles after the year: the calendar takes the last row on its own. */
+    .pro-tile--calendar {
+      grid-column: 1 / -1;
+    }
   }
 
   @media (min-width: 1024px) {
@@ -202,16 +246,15 @@ const accents = ['#173685', '#0f766e', '#6d28d9', '#475569', '#15803d', '#9f1239
       grid-column: span 4;
     }
 
+    /* Year and goals, then two rows of three. */
     .pro-tile--goals,
     .pro-tile--reviews,
     .pro-tile--places,
-    .pro-tile--focus {
-      grid-column: span 2;
-    }
-
+    .pro-tile--focus,
     .pro-tile--style,
-    .pro-tile--widget {
-      grid-column: span 3;
+    .pro-tile--widget,
+    .pro-tile--calendar {
+      grid-column: span 2;
     }
   }
 
@@ -467,16 +510,11 @@ const accents = ['#173685', '#0f766e', '#6d28d9', '#475569', '#15803d', '#9f1239
     justify-items: center;
   }
 
+  /* Two rows of four – the tile is a third of the row on wide screens, too. */
   .pro-style__icons {
     display: grid;
     grid-template-columns: repeat(4, 3.25rem);
     gap: 0.75rem;
-  }
-
-  @media (min-width: 1280px) {
-    .pro-style__icons {
-      grid-template-columns: repeat(8, 3.25rem);
-    }
   }
 
   .pro-style :global(.pro-style__icon) {
@@ -525,6 +563,63 @@ const accents = ['#173685', '#0f766e', '#6d28d9', '#475569', '#15803d', '#9f1239
     translate: 12% 0;
     border-block: 0.5rem solid transparent;
     border-inline-start: 0.75rem solid #fff;
+  }
+
+  /* Calendar: a working week, every entry an event in the colour of its task. */
+  .pro-calendar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.9rem;
+    width: 100%;
+  }
+
+  .pro-calendar__badge {
+    display: grid;
+    place-items: center;
+    width: 2.75rem;
+    height: 2.75rem;
+    border-radius: 50%;
+    background: #ff3b30;
+    color: #fff;
+  }
+
+  .pro-calendar__badge svg {
+    width: 1.3rem;
+    height: 1.3rem;
+  }
+
+  .pro-calendar__week {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 0.35rem;
+    width: min(100%, 13.5rem);
+    height: 6.25rem;
+    padding: 0.45rem;
+    border-radius: 0.9rem;
+    background: var(--surface);
+    box-shadow: 0 0 0 1px var(--line);
+  }
+
+  .pro-calendar__day {
+    position: relative;
+    border-radius: 0.35rem;
+    background: repeating-linear-gradient(to bottom, transparent 0 calc(25% - 1px), var(--line) calc(25% - 1px) 25%);
+  }
+
+  .pro-calendar__event {
+    position: absolute;
+    inset-inline: 0;
+    border-radius: 0.3rem;
+    transform-origin: top;
+    transition:
+      scale 0.9s var(--ease-out-expo),
+      opacity 0.5s ease;
+  }
+
+  :global(.js) .reveal:not(.is-visible) .pro-calendar__event {
+    scale: 1 0;
+    opacity: 0;
   }
 
   .pro-more__item {

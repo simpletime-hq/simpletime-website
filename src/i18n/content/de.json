@@ -235,6 +235,11 @@
         "body": "Aufgaben starten von selbst, wenn du ankommst – auf Wunsch erst nach einer Wartezeit, damit beim Vorbeifahren nichts startet."
       },
       {
+        "id": "calendar",
+        "title": "Kalender",
+        "body": "Jeder Eintrag als Termin in deinem Kalender – dazu Aufgaben aus Kalendern wie „Arbeit“ oder „Familie“."
+      },
+      {
         "id": "year",
         "title": "Jahr im Überblick",
         "body": "Jeder Tag des Jahres als ein Bild, mit deiner laufenden und deiner längsten Serie."

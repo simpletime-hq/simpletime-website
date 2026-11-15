@@ -235,6 +235,11 @@
         "body": "As tarefas começam sozinhas quando chega – se quiser, só após um tempo de espera, para que nada arranque se apenas passar por lá."
       },
       {
+        "id": "calendar",
+        "title": "Calendário",
+        "body": "Cada registo como evento no seu calendário – e tarefas a partir de calendários como “Trabalho” ou “Família”."
+      },
+      {
         "id": "year",
         "title": "O ano num relance",
         "body": "Cada dia do ano numa imagem, com a sua sequência atual e a mais longa."

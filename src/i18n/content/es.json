@@ -235,6 +235,11 @@
         "body": "Las tareas se inician solas al llegar – si quieres, tras un tiempo de espera, para que nada arranque al pasar de largo."
       },
       {
+        "id": "calendar",
+        "title": "Calendario",
+        "body": "Cada entrada como evento en tu calendario, y tareas a partir de calendarios como «Trabajo» o «Familia»."
+      },
+      {
         "id": "year",
         "title": "El año de un vistazo",
         "body": "Cada día del año en una imagen, con tu racha actual y la más larga."

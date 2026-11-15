@@ -1048,8 +1048,8 @@
         "id": "app",
         "title": "L’app",
         "paragraphs": [
-          "VoiceOver: pulsanti, grafici e linea del tempo hanno etichette che VoiceOver legge ad alta voce, in ogni lingua dell’app.",
-          "Dimensioni del testo: il testo segue le dimensioni impostate in iOS fino alle più grandi per l’accessibilità. Dove un testo molto grande coprirebbe i comandi – nell’intestazione e lungo la linea del tempo –, cresce solo fino a un limite. In Impostazioni › Carattere puoi anche impostare una dimensione del testo e il grassetto solo per SimpleTime.",
+          "VoiceOver: pulsanti, grafici e linea del tempo hanno etichette che VoiceOver legge ad alta voce, in ogni lingua dell’app. I grafici si possono anche ascoltare con Grafico audio: VoiceOver riproduce i loro valori come suoni e li legge ad alta voce.",
+          "Dimensioni del testo: il testo segue le dimensioni impostate in iOS fino alle più grandi per l’accessibilità. Dove un testo molto grande coprirebbe i comandi – nell’intestazione e lungo la linea del tempo –, cresce solo fino a un limite. Alle dimensioni più grandi, la barra dell’attività in corso mostra nome e durata uno sotto l’altro, così non viene tagliato nulla. In Impostazioni › Carattere puoi anche impostare una dimensione del testo e il grassetto solo per SimpleTime.",
           "Movimento e colori: se «Riduci movimento» è attivo, SimpleTime attenua le sue animazioni. Riconosci le attività non solo dal colore, ma anche dal nome e dal simbolo, e i testi sono pensati per restare leggibili con l’aspetto chiaro e con quello scuro.",
           "Lingue: l’app parla 41 lingue, indipendentemente dalla lingua del dispositivo; arabo, ebraico, persiano, pashto e urdu da destra a sinistra."
         ]
@@ -1066,8 +1066,7 @@
         "id": "limits",
         "title": "Cosa non va ancora bene",
         "paragraphs": [
-          "Con le dimensioni di testo più grandi, la barra dell’attività in corso può tagliare il testo.",
-          "I grafici non offrono ancora i grafici audio per VoiceOver. I loro valori compaiono però anche come testo, nella legenda e nelle statistiche."
+          "Al momento non conosciamo alcuna barriera. I due punti indicati qui fino alla versione 4.8 – testo tagliato nella barra dell’attività in corso con le dimensioni di testo più grandi e grafici senza Grafico audio per VoiceOver – sono risolti dalla versione 4.9."
         ]
       },
       {

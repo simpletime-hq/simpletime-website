@@ -1048,8 +1048,8 @@
         "id": "app",
         "title": "The app",
         "paragraphs": [
-          "VoiceOver: buttons, charts and the timeline have labels that VoiceOver reads aloud – in every language of the app.",
-          "Text size: text follows the iOS text size up to the largest accessibility sizes. Where very large text would cover the controls – in the header and along the timeline –, it grows only up to a limit. Under Settings › Font, you can also set your own text size and bold text just for SimpleTime.",
+          "VoiceOver: buttons, charts and the timeline have labels that VoiceOver reads aloud – in every language of the app. You can also listen to the charts as an Audio Graph: VoiceOver plays their values as tones and reads them aloud.",
+          "Text size: text follows the iOS text size up to the largest accessibility sizes. Where very large text would cover the controls – in the header and along the timeline –, it grows only up to a limit. At the largest sizes, the bar with the running task shows name and duration one below the other, so nothing is cut off. Under Settings › Font, you can also set your own text size and bold text just for SimpleTime.",
           "Motion and color: when Reduce Motion is on, SimpleTime tones down its animations. You can tell tasks apart not only by their color but also by name and symbol, and text is designed to stay readable in both light and dark appearance.",
           "Languages: the app speaks 41 languages, independent of your device’s language – Arabic, Hebrew, Persian, Pashto and Urdu from right to left."
         ]
@@ -1066,8 +1066,7 @@
         "id": "limits",
         "title": "What isn’t good yet",
         "paragraphs": [
-          "At the largest text sizes, the bar with the running task can cut off text.",
-          "The charts don’t offer audio graphs for VoiceOver yet. Their values are also shown as text, in the legend and in the statistics."
+          "We currently know of no barriers. The two points listed here up to version 4.8 – text cut off in the bar with the running task at the largest text sizes, and charts without an Audio Graph for VoiceOver – have been fixed since version 4.9."
         ]
       },
       {

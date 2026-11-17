@@ -351,7 +351,7 @@
             "id": "account",
             "q": "¿Necesito una cuenta?",
             "a": [
-              "No. No hay registro ni inicio de sesión – abres la app y empiezas. Si usas iCloud, la sincronización pasa por tu propia Cuenta de Apple, que nosotros nunca vemos."
+              "No. Abres la app y empiezas – sin registrarte. Si usas iCloud, la sincronización pasa por tu propia Cuenta de Apple, que nosotros nunca vemos. Si quieres, puedes iniciar sesión con LaCodea ID, nuestra cuenta para todas las apps de LaCodea. En ese caso guardamos tu cuenta y tus compras de SimpleTime Pro, pero nunca tus entradas."
             ]
           },
           {

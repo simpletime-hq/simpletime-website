@@ -351,7 +351,7 @@
             "id": "account",
             "q": "Ai-je besoin d’un compte ?",
             "a": [
-              "Non. Il n’y a ni inscription ni connexion – vous ouvrez l’app et vous commencez. Si vous utilisez iCloud, la synchronisation passe par votre propre compte Apple, que nous ne voyons jamais."
+              "Non. Vous ouvrez l’app et vous commencez – sans inscription. Si vous utilisez iCloud, la synchronisation passe par votre propre compte Apple, que nous ne voyons jamais. Si vous le souhaitez, vous pouvez vous connecter avec LaCodea ID, notre compte pour toutes les apps LaCodea. Nous enregistrons alors votre compte et vos achats de SimpleTime Pro – jamais vos entrées."
             ]
           },
           {

@@ -351,7 +351,7 @@
             "id": "account",
             "q": "Behöver jag ett konto?",
             "a": [
-              "Nej. Du behöver varken registrera dig eller logga in – du öppnar appen och sätter igång. Om du använder iCloud sker synken via ditt eget Apple-konto, som vi aldrig ser."
+              "Nej. Du öppnar appen och sätter igång – utan att registrera dig. Om du använder iCloud sker synken via ditt eget Apple-konto, som vi aldrig ser. Om du vill kan du logga in med LaCodea ID, vårt konto för alla appar från LaCodea. Då sparar vi ditt konto och dina köp av SimpleTime Pro – aldrig dina poster."
             ]
           },
           {

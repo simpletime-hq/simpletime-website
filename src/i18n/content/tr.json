@@ -351,7 +351,7 @@
             "id": "account",
             "q": "Hesap gerekiyor mu?",
             "a": [
-              "Hayır. Üyelik de oturum açma da yok – uygulamayı açar ve başlarsın. iCloud kullanıyorsan eşitleme kendi Apple Hesabın üzerinden yapılır; biz onu hiç görmeyiz."
+              "Hayır. Üyelik gerekmez – uygulamayı açar ve başlarsın. iCloud kullanıyorsan eşitleme kendi Apple Hesabın üzerinden yapılır; biz onu hiç görmeyiz. İstersen LaCodea’nın tüm uygulamaları için hesabımız olan LaCodea ID ile giriş yapabilirsin. O zaman hesabını ve SimpleTime Pro satın almalarını saklarız – kayıtlarını asla."
             ]
           },
           {

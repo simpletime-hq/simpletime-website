@@ -882,7 +882,7 @@
             "title": "LaCodea ID（可选）",
             "paragraphs": [
               "SimpleTime 无需账户即可使用。不过，你可以在设置中使用 LaCodea ID 登录，这是适用于所有 LaCodea App 的账户 — 登录方式包括“通过 Apple 登录”、通行密钥或电子邮件验证码。LaCodea ID 由我们自己运营；在这里，控制者同样是我们。",
-              "为了你的账户，我们会保存你的电子邮件地址、你的姓名（如果你填写了姓名，或“通过 Apple 登录”提供了姓名）、你的账户标识符、你的登录方式和通行密钥（仅其公开部分），以及你通过该账户使用了哪些 LaCodea App、最后一次使用是在何时。使用“通过 Apple 登录”时，你可以隐藏你的电子邮件地址；这样我们只会收到 Apple 提供的转发地址。登录验证码和有关你账户安全的通知（例如有新的登录时）由我们通过 Resend（Plus Five Five, Inc.，美国）以电子邮件发送；Resend 已获得 EU-U.S. Data Privacy Framework 认证，并适用欧盟标准合同条款。账户数据存放在 Supabase, Inc. 位于美因河畔法兰克福的数据中心；Supabase 代表我们处理这些数据。",
+              "为了你的账户，我们会保存你的电子邮件地址、你的姓名（如果你填写了姓名，或“通过 Apple 登录”提供了姓名）、你的账户标识符、你的登录方式和通行密钥（仅其公开部分），以及你通过该账户使用了哪些 LaCodea App、最后一次使用是在何时。使用“通过 Apple 登录”时，你可以隐藏你的电子邮件地址；这样我们只会收到 Apple 提供的转发地址。登录验证码和有关你账户安全的通知（例如有新的登录时）由我们通过 Resend（Plus Five Five, Inc.，美国）以电子邮件发送；Resend 已获得 EU-U.S. Data Privacy Framework 认证，并适用欧盟标准合同条款。账户数据存放在 Supabase Pte. Ltd.（65 Chulia Street #38-02/03, OCBC Centre, Singapore 049513）位于美因河畔法兰克福的数据中心；Supabase 代表我们处理这些数据。由于 Supabase 的注册地在新加坡，并在美国等国家使用次级处理者，因此无法排除从这些国家访问数据的可能；对此适用欧盟标准合同条款（GDPR 第 46 条第 2 款 (c) 项）。",
               "LaCodea ID 不会获得你的任务、记录、时间和备注。法律依据是履行与你账户相关的合同（GDPR 第 6 条第 1 款 (b) 项）。更多信息请见 LaCodea ID 的隐私政策：[lacodea.com/privacy](https://lacodea.com/privacy#lacodea-id)",
               "在设置中的账户页面，你可以退出登录、取消 SimpleTime 与你账户的关联，或删除 LaCodea ID 及其全部数据。"
             ]

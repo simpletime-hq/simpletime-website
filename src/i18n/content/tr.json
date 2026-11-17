@@ -1,13 +1,14 @@
 {
   "store": {
     "lead": "SimpleTime zamanının nereye gittiğini kaydeder. Tek dokunuş başlatır, tek dokunuş durdurur.",
-    "promise": "Hesap yok, kayıt yok, reklam yok. Saatlerin cihazında kalır – istersen kendi iCloud’unda da.",
+    "promise": "Hesap gerekmez, reklam yok. Saatlerin cihazında kalır – istersen kendi iCloud’unda da.",
     "sections": [
       {
         "id": "tracking",
         "title": "Kayıt",
         "points": [
           "Tek dokunuş başlatır ve durdurur – uygulamada, ana ekrandan, Denetim Merkezi'nden, iPhone aramasından ya da Siri ile",
+          "Sabit saatler: dersleri ya da vardiyaları bir kez oluştur – SimpleTime onları her hafta kendiliğinden ekler",
           "Alt görevleriyle birlikte görevler, işin kadar derin",
           "Başlatmayı unuttun mu? Zamanı sonradan gir ve istediğin an değiştir",
           "Renk, simge, favoriler ve senin belirlediğin bir sıra"
@@ -68,7 +69,8 @@
           "Face ID, Touch ID ya da kendi kodunla uygulama kilidi",
           "Verilerinin nerede duracağını sen seçersin: yalnızca bu cihazda ya da iCloud’unda",
           "Gizlilik tek sayfada: tüm izinlere ve verilerine genel bakış",
-          "Hesap yok, reklam yok, verilerin satılmaz – bize yalnızca anonim çökme raporları ve kullanım istatistikleri gelir, onları da kapatabilirsin",
+          "İstersen LaCodea ID, tüm LaCodea uygulamaları için tek hesap – SimpleTime onsuz da çalışır",
+          "Reklam yok, verilerin satılmaz – hesap olmadan bize yalnızca anonim çökme raporları ve kullanım istatistikleri gelir, onları da kapatabilirsin",
           "Her şeyi tek seferde sil – cihazda, iCloud'da ve yedeklerde"
         ]
       }
@@ -792,6 +794,7 @@
     "summary": [
       "Zamanın sana ait. SimpleTime hesap gerektirmez, reklam göstermez ve verilerini satmaz.",
       "Kayıtların cihazlarında ve istersen kendi özel iCloud’unda ya da takviminde etkinlik olarak durur – biz onları okuyamayız.",
+      "İstersen LaCodea’nın tüm uygulamaları için hesabımız olan LaCodea ID ile giriş yapabilirsin. O zaman hesabını ve SimpleTime Pro satın almalarını saklarız – kayıtlarını asla.",
       "Hataları hızla bulabilmemiz için uygulama anonim çökme raporları ve kullanım istatistikleri gönderir – cihaz kimliği olmadan, asla kayıtlarınla birlikte değil ve istediğin an kapatılabilir.",
       "Bu web sitesi kendine ait çerez yerleştirmez ve üçüncü taraflardan hiçbir şey yüklemez. Kaç kişinin ziyaret ettiğini kendi analiz hizmetimiz Atriya ile anonim olarak sayarız."
     ],
@@ -808,7 +811,7 @@
         "id": "app",
         "title": "SimpleTime uygulaması",
         "paragraphs": [
-          "SimpleTime, verilerine ihtiyacımız olmayacak şekilde tasarlandı. Girdiğin her şey – görevler, süreleri ve notlarıyla kayıtlar, hedefler, anımsatıcılar ve ayarlar – cihazında saklanır. Uygulamada reklam ve üçüncü taraf SDK’ları yoktur. Kayıtlarını bize ait hiçbir sunucuya göndermez; onlara hiçbir zaman erişimimiz yoktur. Uygulamanın çökmeler ve kullanım hakkında anonim olarak neler bildirdiği “Çökme raporları ve kullanım istatistikleri” bölümünde anlatılır."
+          "SimpleTime, verilerine ihtiyacımız olmayacak şekilde tasarlandı. Girdiğin her şey – görevler, süreleri ve notlarıyla kayıtlar, sabit saatler, hedefler, anımsatıcılar ve ayarlar – cihazında saklanır. Uygulamada reklam ve üçüncü taraf SDK’ları yoktur. Kayıtlarını bize ait hiçbir sunucuya göndermez; onlara hiçbir zaman erişimimiz yoktur. Uygulamanın çökmeler ve kullanım hakkında anonim olarak neler bildirdiği “Çökme raporları ve kullanım istatistikleri” bölümünde anlatılır. İsteğe bağlı olarak giriş yaptığında nelerin eklendiği ise “LaCodea ID” ve “Satın almalar” bölümlerinde anlatılır."
         ],
         "subsections": [
           {
@@ -821,8 +824,8 @@
           {
             "title": "Yedekler",
             "paragraphs": [
-              "Ayarlar › Yedekler bölümünde yedekleme planları oluşturursun. Her plan görevlerini, notlarıyla birlikte kayıtlarını, hedeflerini ve anımsatıcılarını seçtiğin yere otomatik olarak kaydeder: iCloud Drive’ına, Dosyalar uygulamasındaki bir klasöre – örneğin Dropbox’a, Google Drive’a ya da bir USB belleğe –, WebDAV üzerinden kendi sunucuna ya da yalnızca bu cihaza. iCloud Drive, Dropbox, Google Drive ve diğer hizmetler için onların gizlilik politikası geçerlidir; yedeklerin asla bize ulaşmaz. Bir WebDAV sunucusunun giriş bilgileri cihazındaki anahtar zincirinde saklanır.",
-              "Bir plan için parola belirlersen her yedek kaydedilmeden önce cihazında şifrelenir (256 bit AES-GCM, anahtar PBKDF2 ile türetilir); parola olmadan onu kimse açamaz – biz bile. Bir planın yedeklerini ne kadar süre tutacağına sen karar verirsin. Elle aldığın bir yedek, paylaşma menüsünde seçtiğin yere gider. SimpleTime 4.7 ve önceki sürümlerin yedekleri iCloud Drive’ında, “SimpleTime/Backups” klasöründe kalır."
+              "Ayarlar › Yedekler bölümünde yedekleme planları oluşturursun. Her plan görevlerini, notlarıyla birlikte kayıtlarını, hedeflerini ve anımsatıcılarını seçtiğin yere otomatik olarak kaydeder: iCloud Drive’ına, Dosyalar uygulamasındaki bir klasöre – örneğin Dropbox’a, Google Drive’a ya da bir USB belleğe –, WebDAV üzerinden kendi sunucuna ya da yalnızca bu cihaza. iCloud Drive, Dropbox, Google Drive ve diğer hizmetler için onların gizlilik politikası geçerlidir; yedeklerin asla bize ulaşmaz. Bir WebDAV sunucusunun giriş bilgileri cihazındaki anahtar zincirinde saklanır. “Yalnızca bu aygıtta” yedekleri uygulamanın klasöründe durur; bu klasörü Dosyalar uygulamasında da görürsün.",
+              "Bir plan için parola belirlersen her yedek kaydedilmeden önce cihazında şifrelenir (256 bit AES-GCM, anahtar PBKDF2 ile türetilir); parola olmadan onu kimse açamaz – biz bile. Parola olmadan, yedeğin bulunduğu yere erişimi olan herkes onu okuyabilir – “Yalnızca bu aygıtta” seçeneğinde, uygulama kilidi etkin olsa bile cihazının kilidini açan herkes. Bir planın yedeklerini ne kadar süre tutacağına sen karar verirsin. Elle aldığın bir yedek, paylaşma menüsünde seçtiğin yere gider. SimpleTime 4.7 ve önceki sürümlerin yedekleri iCloud Drive’ında, “SimpleTime/Backups” klasöründe kalır."
             ]
           },
           {
@@ -876,9 +879,20 @@
             ]
           },
           {
+            "title": "LaCodea ID (isteğe bağlı)",
+            "paragraphs": [
+              "SimpleTime hesap olmadan çalışır. Ancak ayarlarda, LaCodea’nın tüm uygulamaları için hesap olan LaCodea ID ile giriş yapabilirsin – “Apple ile Giriş Yap”, bir geçiş anahtarı ya da e-postayla gelen bir kodla. LaCodea ID’yi kendimiz işletiyoruz; burada da veri sorumlusu biziz.",
+              "Hesabın için e-posta adresini, adını (girersen ya da “Apple ile Giriş Yap” iletirse), hesabının tanımlayıcısını, giriş yöntemlerini ve geçiş anahtarlarını (yalnızca herkese açık kısımlarını), ayrıca hesapla hangi LaCodea uygulamalarını kullandığını ve en son ne zaman kullandığını saklarız. “Apple ile Giriş Yap” ile e-posta adresini gizleyebilirsin; o zaman yalnızca Apple’ın bir yönlendirme adresini alırız. Giriş kodlarını ve hesabının güvenliğiyle ilgili bildirimleri – örneğin yeni bir girişte – Resend (Plus Five Five, Inc., ABD) üzerinden e-postayla göndeririz; Resend, EU-U.S. Data Privacy Framework kapsamında sertifikalıdır ve AB standart sözleşme maddeleri geçerlidir. Hesabın verileri Supabase, Inc. bünyesinde, Frankfurt am Main’deki bir veri merkezinde durur; Supabase verileri bizim adımıza işler.",
+              "Görevlerin, kayıtların, sürelerin ve notların LaCodea ID’ye gitmez. Hukuki dayanak, hesabına ilişkin sözleşmenin ifasıdır (GDPR m. 6/1-b). Daha fazla bilgi LaCodea ID’nin gizlilik politikasında: [lacodea.com/privacy](https://lacodea.com/privacy#lacodea-id)",
+              "Ayarlardaki hesap sayfanda çıkış yapabilir, SimpleTime’ın hesabınla bağlantısını kesebilir ya da LaCodea ID’yi tüm verileriyle birlikte silebilirsin."
+            ]
+          },
+          {
             "title": "Satın almalar",
             "paragraphs": [
-              "SimpleTime Pro, App Store üzerinden satın alınır. Ödemeyi ve aboneliği Apple yürütür; biz hiçbir ödeme bilgisi ve senin hakkında hiçbir kişisel veri almayız. Uygulama App Store'a yalnızca Pro'nun etkin olup olmadığını sorar. Apple'dan kişisel veri içermeyen satış raporları alırız."
+              "SimpleTime Pro, App Store üzerinden satın alınır. Ödemeyi ve aboneliği Apple yürütür; ödeme bilgilerini hiçbir zaman almayız. Giriş yapmadıysan uygulama App Store’a yalnızca Pro’nun etkin olup olmadığını sorar ve Apple’dan kişisel veri içermeyen satış raporları alırız.",
+              "LaCodea ID ile giriş yaptıysan bir satın alma hesabına ait olur. Satın alma sırasında SimpleTime hesabının tanımlayıcısını Apple’a iletir ve uygulama satın almalarını LaCodea ID’ye bildirir – ürün, satın alma tarihi, süre, fiyat, para birimi ve ülke bilgilerini içeren, Apple tarafından imzalanmış işlemi. Buna, işlemin senin cihazından geldiğinin doğrulanabilmesi için Apple’ın bu amaçla sağladığı bir cihaz tanımlayıcısı eklenir; bu tanımlayıcı yalnızca bu doğrulama için kullanılır ve saklanmaz. LaCodea ID her bildirimi Apple’da doğrular ve Apple’dan yenilemeler, iptaller ve geri ödemeler hakkında bildirimler alır. Böylece LaCodea ID’nin “Abonelikler” sayfası hangi aboneliklerin olduğunu gösterir – LaCodea’nın her uygulamasında ve account.lacodea.com’da. Hukuki dayanak GDPR m. 6/1-b hükmüdür.",
+              "Apple’daki bir satın almanın tanımlayıcısını son durumuyla birlikte en fazla 13 ay saklarız; hesabın silindikten sonra da – ama artık hesabınla bağlantısı olmadan. Böylece aynı satın almayla ilgili daha eski bildirimleri tanıyabiliriz."
             ]
           },
           {
@@ -896,7 +910,7 @@
           {
             "title": "Verilerinin silinmesi",
             "paragraphs": [
-              "Uygulamanın ayarlarında Gizlilik › Tüm verileri sil bölümünden SimpleTime’ın kaydettiği her şeyi tek seferde kaldırırsın – bu cihazda, iCloud’da, nerede olurlarsa olsunlar planlarının yedeklerini, iCloud Drive’daki eski yedekleri ve SimpleTime’ın takvimlerine eklediği etkinlikleri; silme işlemi iCloud üzerinden diğer cihazlarına da ulaşır. Anonim istatistikler hiçbir cihazla ilişkilendirilemediği için hedefli olarak silinemez. Uygulamayı silersen verileri o cihazdan kaybolur."
+              "Uygulamanın ayarlarında Gizlilik › Tüm verileri sil bölümünden SimpleTime’ın kaydettiği her şeyi tek seferde kaldırırsın – bu cihazda, iCloud’da, nerede olurlarsa olsunlar planlarının yedeklerini, iCloud Drive’daki eski yedekleri ve SimpleTime’ın takvimlerine eklediği etkinlikleri; silme işlemi iCloud üzerinden diğer cihazlarına da ulaşır. Anonim istatistikler hiçbir cihazla ilişkilendirilemediği için hedefli olarak silinemez. Uygulamayı silersen verileri o cihazdan kaybolur. LaCodea ID’deki hesabın bundan etkilenmez; onu hesabının sayfasında silebilirsin."
             ]
           }
         ]
@@ -957,7 +971,7 @@
         "id": "rights",
         "title": "Hakların",
         "paragraphs": [
-          "Verilerine erişim hakkına (GDPR m. 15), verilerinin düzeltilmesini (m. 16) ya da silinmesini (m. 17) ve işlenmesinin kısıtlanmasını (m. 18) isteme hakkına, veri taşınabilirliği hakkına (m. 20) ve meşru menfaatlere dayanan işlemeye itiraz etme hakkına (m. 21) sahipsin. Bu hakları kullanmak için bize yazman yeterli. Uygulama bizde senin hakkında hiçbir şey saklamadığı için bir talep genellikle e-postalarla ya da bu web sitesiyle ilgilidir; uygulamadaki verilerini istediğin zaman kendin görüntüleyebilir, dışa aktarabilir ve silebilirsin.",
+          "Verilerine erişim hakkına (GDPR m. 15), verilerinin düzeltilmesini (m. 16) ya da silinmesini (m. 17) ve işlenmesinin kısıtlanmasını (m. 18) isteme hakkına, veri taşınabilirliği hakkına (m. 20) ve meşru menfaatlere dayanan işlemeye itiraz etme hakkına (m. 21) sahipsin. Bu hakları kullanmak için bize yazman yeterli. LaCodea ID olmadan uygulama bizde senin hakkında hiçbir şey saklamaz; bu durumda bir talep genellikle e-postalarla ya da bu web sitesiyle ilgilidir. Uygulamadaki verilerini istediğin zaman kendin görüntüleyebilir, dışa aktarabilir ve silebilirsin; LaCodea ID hesabının verilerini ise account.lacodea.com’da görüntüleyebilir, indirebilir ve silebilirsin.",
           "Ayrıca bir veri koruma denetim makamına şikâyette bulunma hakkın vardır – örneğin Bavyera Eyaleti Veri Koruma Denetim Dairesi'ne (BayLDA), Promenade 18, 91522 Ansbach, Almanya."
         ]
       },

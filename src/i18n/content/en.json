@@ -1,13 +1,14 @@
 {
   "store": {
     "lead": "SimpleTime tracks where your time goes. One tap starts it, one tap stops it.",
-    "promise": "No account, no sign-up, no ads. Your hours stay on your device – and in your iCloud, if you want.",
+    "promise": "No account needed, no ads. Your hours stay on your device – and in your iCloud, if you want.",
     "sections": [
       {
         "id": "tracking",
         "title": "Tracking",
         "points": [
           "One tap starts and stops – in the app, from the Home Screen, from Control Center, from iPhone search, or with Siri",
+          "Fixed Times: set up classes or shifts once – SimpleTime enters them every week by itself",
           "Tasks with subtasks, nested as deeply as your work is",
           "Forgot to start? Add time afterwards and edit it whenever you like",
           "Colour, symbol, favourites, and an order you set yourself"
@@ -68,7 +69,8 @@
           "App lock with Face ID, Touch ID, or a code of your own",
           "You choose where your data lives: only on this device or in your iCloud",
           "Privacy on one page: every permission and all your data at a glance",
-          "No account, no ads, no selling of your data – all we receive are anonymous crash reports and usage statistics, and you can turn them off",
+          "If you like, the LaCodea ID, one account for all LaCodea apps – SimpleTime works without it, too",
+          "No ads, no selling of your data – without an account, all we receive are anonymous crash reports and usage statistics, and you can turn them off",
           "Erase everything at once – on the device, in iCloud, and in the backups"
         ]
       }
@@ -792,6 +794,7 @@
     "summary": [
       "Your time belongs to you. SimpleTime needs no account, shows no ads and doesn’t sell your data.",
       "Your entries live on your devices and, if you choose, in your private iCloud or as events in your calendar – we can’t read them.",
+      "If you like, you can sign in with the LaCodea ID, our account for all LaCodea apps. We then store your account and your SimpleTime Pro purchases – never your entries.",
       "So we can find bugs quickly, the app sends anonymous crash reports and usage statistics – no device ID, never your entries, and you can turn it off at any time.",
       "This website sets no cookies of its own and loads nothing from third parties. We count how many people visit it anonymously with Atriya, our own analytics service."
     ],
@@ -808,7 +811,7 @@
         "id": "app",
         "title": "The SimpleTime app",
         "paragraphs": [
-          "SimpleTime is built so that we don’t need your data. Everything you enter – tasks, entries with their times and notes, goals, reminders and settings – is stored on your device. The app contains no advertising and no third-party SDKs. It doesn’t send your entries to any server of ours; we have no access to them at any time. What the app reports anonymously about crashes and usage is described under “Crash reports and usage statistics”."
+          "SimpleTime is built so that we don’t need your data. Everything you enter – tasks, entries with their times and notes, fixed times, goals, reminders and settings – is stored on your device. The app contains no advertising and no third-party SDKs. It doesn’t send your entries to any server of ours; we have no access to them at any time. What the app reports anonymously about crashes and usage is described under “Crash reports and usage statistics”; what an optional sign-in adds, under “LaCodea ID” and “Purchases”."
         ],
         "subsections": [
           {
@@ -821,8 +824,8 @@
           {
             "title": "Backups",
             "paragraphs": [
-              "Under Settings › Backups, you create backup plans. Each plan automatically saves your tasks, entries with their notes, goals and reminders to the place you choose: your iCloud Drive, a folder in the Files app – for example on Dropbox, Google Drive or a USB drive –, your own server via WebDAV, or only this device. For iCloud Drive, Dropbox, Google Drive and other providers, their privacy policies apply; your backups never reach us. The login details for a WebDAV server are stored in the keychain on your device.",
-              "If you set a password for a plan, every backup is encrypted on your device before it’s saved (AES-GCM with 256 bits, the key derived with PBKDF2); without the password, nobody can open it – including us. You decide how long a plan keeps its backups. A backup you make by hand goes wherever you choose in the share sheet. Backups from SimpleTime 4.7 and earlier remain in your iCloud Drive in the folder “SimpleTime/Backups”."
+              "Under Settings › Backups, you create backup plans. Each plan automatically saves your tasks, entries with their notes, goals and reminders to the place you choose: your iCloud Drive, a folder in the Files app – for example on Dropbox, Google Drive or a USB drive –, your own server via WebDAV, or only this device. For iCloud Drive, Dropbox, Google Drive and other providers, their privacy policies apply; your backups never reach us. The login details for a WebDAV server are stored in the keychain on your device. Backups saved “Only on this device” are kept in the app’s folder, which you can also see in the Files app.",
+              "If you set a password for a plan, every backup is encrypted on your device before it’s saved (AES-GCM with 256 bits, the key derived with PBKDF2); without the password, nobody can open it – including us. Without a password, anyone with access to its location can read a backup – with “Only on this device”, anyone who unlocks your device, even when the app lock is on. You decide how long a plan keeps its backups. A backup you make by hand goes wherever you choose in the share sheet. Backups from SimpleTime 4.7 and earlier remain in your iCloud Drive in the folder “SimpleTime/Backups”."
             ]
           },
           {
@@ -876,9 +879,20 @@
             ]
           },
           {
+            "title": "LaCodea ID (optional)",
+            "paragraphs": [
+              "SimpleTime works without an account. In Settings, however, you can sign in with the LaCodea ID, the account for all LaCodea apps – with “Sign in with Apple”, a passkey or a code by email. We run the LaCodea ID ourselves; here, too, we are the controller.",
+              "For your account, we store your email address, your name if you enter it or “Sign in with Apple” passes it on, your account’s identifier, your sign-in methods and passkeys (only their public part), and which LaCodea apps you use with the account and when you last did. With “Sign in with Apple”, you can hide your email address; we then only receive a relay address from Apple. We send sign-in codes and notices about the security of your account – for example when there’s a new sign-in – by email via Resend (Plus Five Five, Inc., USA); Resend is certified under the EU-U.S. Data Privacy Framework, and the EU Standard Contractual Clauses apply. The account data is stored with Supabase, Inc. in a data center in Frankfurt am Main, Germany; Supabase processes it on our behalf.",
+              "The LaCodea ID doesn’t receive your tasks, entries, times or notes. The legal basis is the performance of the contract for your account (Art. 6(1)(b) GDPR). You can find out more in the privacy policy of the LaCodea ID: [lacodea.com/privacy](https://lacodea.com/privacy#lacodea-id)",
+              "On your account’s page in Settings, you can sign out, disconnect SimpleTime from your account or delete the LaCodea ID with all its data."
+            ]
+          },
+          {
             "title": "Purchases",
             "paragraphs": [
-              "SimpleTime Pro is bought through the App Store. Apple handles the payment and the subscription; we receive no payment details and no personal data about you. The app only asks the App Store whether Pro is active. From Apple, we receive sales reports without personal data."
+              "SimpleTime Pro is bought through the App Store. Apple handles the payment and the subscription; we never receive payment details. Without signing in, the app only asks the App Store whether Pro is active, and we receive sales reports from Apple without personal data.",
+              "If you’re signed in with the LaCodea ID, a purchase belongs to your account: when you buy, SimpleTime passes your account’s identifier to Apple, and the app reports your purchases to the LaCodea ID – the transaction signed by Apple with product, purchase date, term, price, currency and country. Added to this is a device identifier that Apple provides for this purpose, so that it can be checked that the transaction comes from your device; it serves only this check and isn’t stored. The LaCodea ID verifies every report with Apple and receives notifications from Apple about renewals, cancellations and refunds. This is how the LaCodea ID’s “Subscriptions” page shows which subscriptions you have – in every LaCodea app and at account.lacodea.com. The legal basis is Art. 6(1)(b) GDPR.",
+              "We keep the identifier of a purchase at Apple, with its latest status, for up to 13 months, even after you delete your account – then without any link to it. This lets us recognize older reports about the same purchase."
             ]
           },
           {
@@ -896,7 +910,7 @@
           {
             "title": "Deleting your data",
             "paragraphs": [
-              "In the app’s settings under Privacy › Delete all data, you remove everything SimpleTime has stored at once – on this device, in iCloud, the backups of your plans wherever they are, the old backups in iCloud Drive, and the events SimpleTime has added to your calendars; via iCloud, the deletion also reaches your other devices. The anonymous statistics can’t be linked to any device and therefore can’t be deleted selectively. Deleting the app removes its data from that device."
+              "In the app’s settings under Privacy › Delete all data, you remove everything SimpleTime has stored at once – on this device, in iCloud, the backups of your plans wherever they are, the old backups in iCloud Drive, and the events SimpleTime has added to your calendars; via iCloud, the deletion also reaches your other devices. The anonymous statistics can’t be linked to any device and therefore can’t be deleted selectively. Deleting the app removes its data from that device. Your LaCodea ID account isn’t affected by this; you delete it on your account’s page."
             ]
           }
         ]
@@ -957,7 +971,7 @@
         "id": "rights",
         "title": "Your rights",
         "paragraphs": [
-          "You have the right to access your data (Art. 15 GDPR), to have it corrected (Art. 16) or erased (Art. 17), to restrict its processing (Art. 18), to data portability (Art. 20), and to object to processing based on legitimate interests (Art. 21). To exercise these rights, simply write to us. Because the app doesn’t store anything about you with us, a request usually concerns emails or this website; you can view, export and delete your app data yourself at any time.",
+          "You have the right to access your data (Art. 15 GDPR), to have it corrected (Art. 16) or erased (Art. 17), to restrict its processing (Art. 18), to data portability (Art. 20), and to object to processing based on legitimate interests (Art. 21). To exercise these rights, simply write to us. Without a LaCodea ID, the app doesn’t store anything about you with us; a request then usually concerns emails or this website. You can view, export and delete your app data yourself at any time, and view, download and delete the data of your LaCodea ID account at account.lacodea.com.",
           "You also have the right to lodge a complaint with a data protection supervisory authority – for example the Bavarian State Office for Data Protection Supervision (BayLDA), Promenade 18, 91522 Ansbach, Germany."
         ]
       },

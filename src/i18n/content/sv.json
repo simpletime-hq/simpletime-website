@@ -1,13 +1,14 @@
 {
   "store": {
     "lead": "SimpleTime registrerar vad din tid går till. En tryckning startar, en tryckning stoppar.",
-    "promise": "Inget konto, ingen registrering, inga annonser. Dina timmar stannar på din enhet – och i ditt iCloud, om du vill.",
+    "promise": "Inget konto behövs, inga annonser. Dina timmar stannar på din enhet – och i ditt iCloud, om du vill.",
     "sections": [
       {
         "id": "tracking",
         "title": "Registrera",
         "points": [
           "En tryckning startar och stoppar – i appen, från hemskärmen, från kontrollcenter, från sökningen på iPhone eller med Siri",
+          "Fasta tider: lägg till lektioner eller arbetspass en gång – SimpleTime lägger in dem varje vecka av sig själv",
           "Uppgifter med deluppgifter, så djupt nästlade som ditt arbete är",
           "Glömde du starta? Fyll i tiden i efterhand och ändra den när du vill",
           "Färg, symbol, favoriter och en ordning som du bestämmer"
@@ -68,7 +69,8 @@
           "Applås med Face ID, Touch ID eller en egen kod",
           "Du väljer var dina data finns: bara på den här enheten eller i ditt iCloud",
           "Integritet på en sida: överblick över alla behörigheter och dina data",
-          "Inget konto, inga annonser, ingen försäljning av dina data – vi tar bara emot anonyma kraschrapporter och användningsstatistik, och de går att stänga av",
+          "Om du vill: LaCodea ID, ett konto för alla LaCodea-appar – SimpleTime fungerar även utan",
+          "Inga annonser, ingen försäljning av dina data – utan konto tar vi bara emot anonyma kraschrapporter och användningsstatistik, och de går att stänga av",
           "Radera allt på en gång – på enheten, i iCloud och i säkerhetskopiorna"
         ]
       }
@@ -349,7 +351,7 @@
             "id": "account",
             "q": "Behöver jag ett konto?",
             "a": [
-              "Nej. Du behöver varken registrera dig eller logga in – du öppnar appen och sätter igång. Om du använder iCloud sker synken via ditt eget Apple-konto, som vi aldrig ser."
+              "Nej. Du öppnar appen och sätter igång – utan att registrera dig. Om du använder iCloud sker synken via ditt eget Apple-konto, som vi aldrig ser. Om du vill kan du logga in med LaCodea ID, vårt konto för alla appar från LaCodea. Då sparar vi ditt konto och dina köp av SimpleTime Pro – aldrig dina poster."
             ]
           },
           {
@@ -639,7 +641,7 @@
             "id": "pro-includes",
             "q": "Vad ingår i SimpleTime Pro?",
             "a": [
-              "Appen för Apple Watch, tillbakablickar på din vecka, din månad och ditt år, platser, året på en gång, mål, fokusfiltret, en snabbstartswidget, sju dekorfärger eller en egen plus sexton appsymboler, och fler avsnitt i PDF-rapporten. Det som tillkommer senare ingår. [Allt om SimpleTime Pro](@pro)"
+              "Appen för Apple Watch, tillbakablickar på din vecka, din månad och ditt år, platser, dina poster som aktiviteter i kalendern, året på en gång, mål, fokusfiltret, en snabbstartswidget, sju dekorfärger eller en egen plus sexton appsymboler, och fler avsnitt i PDF-rapporten. Det som tillkommer senare ingår. [Allt om SimpleTime Pro](@pro)"
             ]
           },
           {
@@ -792,6 +794,7 @@
     "summary": [
       "Din tid är din. SimpleTime behöver inget konto, visar inga annonser och säljer inte dina data.",
       "Dina poster finns på dina enheter och, om du väljer det, i ditt privata iCloud eller som aktiviteter i din kalender – vi kan inte läsa dem.",
+      "Om du vill kan du logga in med LaCodea ID, vårt konto för alla appar från LaCodea. Då sparar vi ditt konto och dina köp av SimpleTime Pro – aldrig dina poster.",
       "För att vi snabbt ska hitta fel skickar appen anonyma kraschrapporter och användningsstatistik – utan enhets-ID, aldrig med dina poster och går att stänga av när som helst.",
       "Den här webbplatsen sätter inga egna cookies och laddar inget från tredje part. Hur många som besöker den räknar vi anonymt med Atriya, vår egen analystjänst."
     ],
@@ -808,7 +811,7 @@
         "id": "app",
         "title": "Appen SimpleTime",
         "paragraphs": [
-          "SimpleTime är byggt så att vi inte behöver dina data. Allt du skriver in – uppgifter, poster med tider och anteckningar, mål, påminnelser och inställningar – sparas på din enhet. Appen innehåller inga annonser och inga SDK:er från tredje part. Dina poster skickar den inte till någon server hos oss; vi har aldrig tillgång till dem. Vad appen anonymt rapporterar om krascher och användning står under ”Kraschrapporter och användningsstatistik”."
+          "SimpleTime är byggt så att vi inte behöver dina data. Allt du skriver in – uppgifter, poster med tider och anteckningar, fasta tider, mål, påminnelser och inställningar – sparas på din enhet. Appen innehåller inga annonser och inga SDK:er från tredje part. Dina poster skickar den inte till någon server hos oss; vi har aldrig tillgång till dem. Vad appen anonymt rapporterar om krascher och användning står under ”Kraschrapporter och användningsstatistik”; vad som tillkommer om du väljer att logga in, under ”LaCodea ID” och ”Köp”."
         ],
         "subsections": [
           {
@@ -821,8 +824,8 @@
           {
             "title": "Säkerhetskopior",
             "paragraphs": [
-              "Under Inställningar › Säkerhetskopior skapar du planer för säkerhetskopiering. Varje plan sparar automatiskt dina uppgifter, dina poster med anteckningar, dina mål och dina påminnelser på den plats du väljer: i din iCloud Drive, i en mapp i appen Filer – till exempel hos Dropbox, Google Drive eller på ett USB-minne –, på din egen server via WebDAV eller bara på den här enheten. För iCloud Drive, Dropbox, Google Drive och andra tjänster gäller deras integritetspolicy; dina säkerhetskopior når aldrig oss. Inloggningsuppgifterna till en WebDAV-server sparas i nyckelringen på din enhet.",
-              "Anger du ett lösenord för en plan krypteras varje säkerhetskopia på din enhet innan den sparas (AES-GCM med 256 bitar, nyckeln härledd med PBKDF2); utan lösenordet kan ingen öppna den – inte ens vi. Hur länge en plan behåller säkerhetskopior bestämmer du själv. En säkerhetskopia du gör för hand går dit du väljer i delningsmenyn. Säkerhetskopior från SimpleTime 4.7 och tidigare finns kvar i din iCloud Drive, i mappen ”SimpleTime/Backups”."
+              "Under Inställningar › Säkerhetskopior skapar du planer för säkerhetskopiering. Varje plan sparar automatiskt dina uppgifter, dina poster med anteckningar, dina mål och dina påminnelser på den plats du väljer: i din iCloud Drive, i en mapp i appen Filer – till exempel hos Dropbox, Google Drive eller på ett USB-minne –, på din egen server via WebDAV eller bara på den här enheten. För iCloud Drive, Dropbox, Google Drive och andra tjänster gäller deras integritetspolicy; dina säkerhetskopior når aldrig oss. Inloggningsuppgifterna till en WebDAV-server sparas i nyckelringen på din enhet. Säkerhetskopior med ”Bara på den här enheten” ligger i appens mapp, som du också ser i appen Filer.",
+              "Anger du ett lösenord för en plan krypteras varje säkerhetskopia på din enhet innan den sparas (AES-GCM med 256 bitar, nyckeln härledd med PBKDF2); utan lösenordet kan ingen öppna den – inte ens vi. Utan lösenord kan den som har tillgång till platsen läsa en säkerhetskopia – med ”Bara på den här enheten” alla som låser upp din enhet, även när applåset är på. Hur länge en plan behåller säkerhetskopior bestämmer du själv. En säkerhetskopia du gör för hand går dit du väljer i delningsmenyn. Säkerhetskopior från SimpleTime 4.7 och tidigare finns kvar i din iCloud Drive, i mappen ”SimpleTime/Backups”."
             ]
           },
           {
@@ -876,9 +879,20 @@
             ]
           },
           {
+            "title": "LaCodea ID (frivilligt)",
+            "paragraphs": [
+              "SimpleTime fungerar utan konto. I inställningarna kan du dock logga in med LaCodea ID, kontot för alla appar från LaCodea – med ”Logga in med Apple”, en nyckel eller en kod via e-post. LaCodea ID driver vi själva; även här är vi personuppgiftsansvariga.",
+              "För ditt konto sparar vi din e-postadress, ditt namn om du anger det eller om ”Logga in med Apple” överför det, ditt kontos identifierare, dina inloggningsmetoder och nycklar (bara den offentliga delen av dem) samt vilka appar från LaCodea du använder med kontot och när senast. Med ”Logga in med Apple” kan du dölja din e-postadress; då får vi bara en vidarebefordringsadress från Apple. Inloggningskoder och meddelanden om ditt kontos säkerhet – till exempel vid en ny inloggning – skickar vi via e-post genom Resend (Plus Five Five, Inc., USA); Resend är certifierat enligt EU-U.S. Data Privacy Framework, och EU:s standardavtalsklausuler gäller. Kontots data lagras hos Supabase Pte. Ltd., 65 Chulia Street #38-02/03, OCBC Centre, Singapore 049513, i ett datacenter i Frankfurt am Main; Supabase behandlar dem för vår räkning. Eftersom Supabase har sitt säte i Singapore och anlitar underbiträden, bland annat i USA, kan åtkomst från dessa länder inte uteslutas; för detta gäller EU:s standardavtalsklausuler (art. 46.2 c GDPR).",
+              "Dina uppgifter, poster, tider och anteckningar får LaCodea ID inte. Den rättsliga grunden är fullgörandet av avtalet om ditt konto (art. 6.1 b GDPR). Mer information finns i integritetspolicyn för LaCodea ID: [lacodea.com/privacy](https://lacodea.com/privacy#lacodea-id)",
+              "På ditt kontos sida i inställningarna loggar du ut, kopplar bort SimpleTime från ditt konto eller raderar LaCodea ID med alla dess data."
+            ]
+          },
+          {
             "title": "Köp",
             "paragraphs": [
-              "SimpleTime Pro köps via App Store. Apple sköter betalningen och prenumerationen; vi får inga betalningsuppgifter och inga personuppgifter om dig. Appen frågar bara App Store om Pro är aktivt. Från Apple får vi försäljningsrapporter utan personuppgifter."
+              "SimpleTime Pro köps via App Store. Apple sköter betalningen och prenumerationen; betalningsuppgifter får vi aldrig. Utan inloggning frågar appen bara App Store om Pro är aktivt, och från Apple får vi försäljningsrapporter utan personuppgifter.",
+              "Är du inloggad med LaCodea ID hör ett köp till ditt konto: vid köpet lämnar SimpleTime ditt kontos identifierare till Apple, och appen rapporterar dina köp till LaCodea ID – den av Apple signerade transaktionen med produkt, köpdatum, löptid, pris, valuta och land. Till detta kommer ett enhets-ID som Apple tillhandahåller för att det ska gå att kontrollera att transaktionen kommer från din enhet; det används bara för denna kontroll och sparas inte. LaCodea ID bekräftar varje rapport hos Apple och får meddelanden från Apple om förnyelser, uppsägningar och återbetalningar. Så visar sidan ”Abonnemang” i LaCodea ID vilka abonnemang du har – i alla appar från LaCodea och på account.lacodea.com. Den rättsliga grunden är art. 6.1 b GDPR.",
+              "Identifieraren för ett köp hos Apple sparar vi med dess senaste status i upp till 13 månader, även efter att ditt konto har raderats – då utan koppling till kontot. På så sätt känner vi igen äldre rapporter om samma köp."
             ]
           },
           {
@@ -896,7 +910,7 @@
           {
             "title": "Radera dina data",
             "paragraphs": [
-              "I appens inställningar under Integritet › Radera alla data tar du bort allt som SimpleTime har sparat på en gång – på den här enheten, i iCloud, dina planers säkerhetskopior var de än finns, de gamla säkerhetskopiorna i iCloud Drive och de aktiviteter som SimpleTime har lagt in i dina kalendrar; via iCloud når raderingen även dina andra enheter. Den anonyma statistiken kan inte kopplas till någon enhet och kan därför inte raderas riktat. Tar du bort appen försvinner dess data från den enheten."
+              "I appens inställningar under Integritet › Radera alla data tar du bort allt som SimpleTime har sparat på en gång – på den här enheten, i iCloud, dina planers säkerhetskopior var de än finns, de gamla säkerhetskopiorna i iCloud Drive och de aktiviteter som SimpleTime har lagt in i dina kalendrar; via iCloud når raderingen även dina andra enheter. Den anonyma statistiken kan inte kopplas till någon enhet och kan därför inte raderas riktat. Tar du bort appen försvinner dess data från den enheten. Ditt konto hos LaCodea ID påverkas inte; det raderar du på ditt kontos sida."
             ]
           }
         ]
@@ -957,7 +971,7 @@
         "id": "rights",
         "title": "Dina rättigheter",
         "paragraphs": [
-          "Du har rätt att få tillgång till dina data (art. 15 GDPR), att få dem rättade (art. 16) eller raderade (art. 17), att begränsa behandlingen av dem (art. 18), till dataportabilitet (art. 20) och att invända mot behandling som grundar sig på berättigade intressen (art. 21). För att utöva dessa rättigheter skriver du helt enkelt till oss. Eftersom appen inte sparar något om dig hos oss gäller en begäran oftast e-post eller den här webbplatsen; dina data i appen kan du själv visa, exportera och radera när som helst.",
+          "Du har rätt att få tillgång till dina data (art. 15 GDPR), att få dem rättade (art. 16) eller raderade (art. 17), att begränsa behandlingen av dem (art. 18), till dataportabilitet (art. 20) och att invända mot behandling som grundar sig på berättigade intressen (art. 21). För att utöva dessa rättigheter skriver du helt enkelt till oss. Utan LaCodea ID sparar appen inget om dig hos oss; en begäran gäller då oftast e-post eller den här webbplatsen. Dina data i appen kan du själv visa, exportera och radera när som helst, och ditt kontos data hos LaCodea ID kan du visa, ladda ner och radera på account.lacodea.com.",
           "Du har också rätt att lämna in ett klagomål till en tillsynsmyndighet för dataskydd – till exempel Bayerns delstatliga myndighet för tillsyn över dataskydd (BayLDA), Promenade 18, 91522 Ansbach, Tyskland."
         ]
       },

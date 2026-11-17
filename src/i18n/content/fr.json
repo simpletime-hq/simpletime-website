@@ -1,14 +1,15 @@
 {
   "store": {
     "lead": "SimpleTime enregistre ce à quoi vous passez votre temps. Un geste lance, un geste arrête.",
-    "promise": "Aucun compte, aucune inscription, aucune publicité. Vos heures restent sur votre appareil – et dans votre iCloud si vous voulez.",
+    "promise": "Aucun compte requis, aucune publicité. Vos heures restent sur votre appareil – et dans votre iCloud si vous voulez.",
     "sections": [
       {
         "id": "tracking",
         "title": "Enregistrer",
         "points": [
           "Un geste lance et arrête – dans l'app, depuis l'écran d'accueil, le centre de contrôle, la recherche de l'iPhone ou avec Siri",
-          "Des tâches avec sous-tâches, aussi imbriquées que votre travail",
+          "Horaires fixes : saisis une fois, ajoutés chaque semaine",
+          "Tâches avec sous-tâches, aussi imbriquées que votre travail",
           "Oublié de lancer ? Ajoutez les heures après coup, modifiables à tout moment",
           "Couleur, symbole, favoris et un ordre que vous décidez"
         ]
@@ -17,19 +18,19 @@
         "id": "day",
         "title": "Votre journée",
         "points": [
-          "Une liste ou une frise de 0 à 24 h, avec un repère sur l'heure actuelle",
-          "Des notes sur chaque entrée",
-          "La comparaison avec hier, directement en haut"
+          "Liste ou frise de 0 à 24 h, avec un repère sur l'heure actuelle",
+          "Notes sur chaque entrée",
+          "La comparaison avec hier, en haut"
         ]
       },
       {
         "id": "insights",
         "title": "Analyser",
         "points": [
-          "Des camemberts par tâche et par productivité",
+          "Camemberts par tâche et par productivité",
           "Jour, semaine, mois, année",
           "Statistiques : comparaison avec la période précédente, évolution, répartition sur la journée, entrée la plus longue et la plus courte",
-          "Chaque tâche avec ses propres chiffres – première entrée, la plus longue, cette semaine, cette année",
+          "Chaque tâche avec ses chiffres – première entrée, la plus longue, cette semaine, cette année",
           "Partagez chaque graphique en image"
         ]
       },
@@ -37,18 +38,18 @@
         "id": "reports",
         "title": "Rapports et export",
         "points": [
-          "Un rapport PDF dont vous choisissez et ordonnez vous-même les sections",
+          "Un rapport PDF dont vous choisissez et ordonnez les sections",
           "CSV pour Excel et Numbers",
-          "Plans de sauvegarde : automatiques vers iCloud Drive, un dossier de l’app Fichiers (Dropbox, Google Drive…), votre serveur ou l’appareil – chiffrés par mot de passe si vous voulez"
+          "Plans de sauvegarde : automatiques vers iCloud Drive, un dossier de l’app Fichiers (Dropbox, Google Drive…), votre serveur ou l’appareil – chiffrés par mot de passe au choix"
         ]
       },
       {
         "id": "widgets",
         "title": "Widgets et Siri",
         "points": [
-          "Aujourd'hui, tâche en cours et semaine sur votre écran d'accueil",
+          "Aujourd'hui, tâche en cours et semaine sur l'écran d'accueil",
           "Le temps qui défile sur l'écran verrouillé et la Dynamic Island",
-          "Un interrupteur dans le centre de contrôle qui lance et arrête le suivi",
+          "Un interrupteur du centre de contrôle qui lance et arrête le suivi",
           "Siri et Raccourcis : lancer, arrêter ou demander ce qui tourne"
         ]
       },
@@ -57,7 +58,7 @@
         "title": "Sur tous vos appareils",
         "points": [
           "iPhone, iPad et Mac, synchronisés via iCloud",
-          "41 langues, indépendamment de la langue de votre appareil",
+          "41 langues, indépendamment de celle de votre appareil",
           "VoiceOver et Dynamic Type dans toute l'app"
         ]
       },
@@ -68,8 +69,9 @@
           "Verrouillage par Face ID, Touch ID ou un code à vous",
           "Vos données sur cet appareil uniquement ou dans votre iCloud – au choix",
           "Confidentialité sur une page : toutes les autorisations et vos données d'un coup d'œil",
-          "Aucun compte, aucune publicité, aucune vente de vos données – nous ne recevons que des rapports de plantage et statistiques anonymes, désactivables",
-          "Tout effacer d'un coup – sur l'appareil, dans iCloud et dans les sauvegardes"
+          "LaCodea ID facultatif : un compte pour toutes les apps LaCodea",
+          "Aucune publicité ni vente de vos données – sans compte, nous ne recevons que des rapports de plantage et statistiques anonymes, désactivables",
+          "Tout effacer d'un coup – sur l'appareil, dans iCloud et les sauvegardes"
         ]
       }
     ],
@@ -79,10 +81,10 @@
       "points": [
         "Apple Watch : démarrer et arrêter au poignet, démarrer plus tôt, journée, semaine et objectifs d’un coup d’œil – avec le temps qui défile sur le cadran",
         "Bilans : semaine, mois et année en cartes – à feuilleter et à partager",
-        "Lieux : les tâches démarrent d'elles-mêmes à votre arrivée – après un délai, si vous voulez",
+        "Lieux : les tâches démarrent d'elles-mêmes à votre arrivée – après un délai, au choix",
         "Calendrier : vos entrées dans votre calendrier – et des tâches depuis vos calendriers « Travail » ou « Famille »",
         "L'année d'un coup d'œil : chaque jour de l'année en une image, avec vos séries",
-        "Des objectifs par tâche – pour le jour, la semaine ou le mois",
+        "Objectifs par tâche – pour le jour, la semaine ou le mois",
         "Filtre de concentration : le focus travail s'active, la liste ne montre que le travail, le chrono tourne déjà",
         "Un widget de démarrage rapide que vous composez",
         "Sept couleurs d'accent ou la vôtre, plus seize icônes d'app",
@@ -90,7 +92,7 @@
       ],
       "pricing": "Pro existe au mois, à l'année ou une fois pour toutes. Les nouveaux abonnés ont une semaine gratuite, et avec le partage familial, jusqu'à six personnes peuvent utiliser Pro. Les prix sont indiqués dans l'app. Les formules mensuelle et annuelle se renouvellent automatiquement jusqu'à résiliation, possible à tout moment dans les réglages de l'App Store. Ce qui viendra plus tard est inclus."
     },
-    "closing": "Pour toutes celles et ceux qui veulent savoir où passe vraiment leur temps – au travail, dans les études, à l'entraînement ou pour eux-mêmes."
+    "closing": "Pour celles et ceux qui veulent savoir où passe vraiment leur temps – au travail, dans les études, à l'entraînement ou pour eux-mêmes."
   },
   "home": {
     "hero": {
@@ -349,7 +351,7 @@
             "id": "account",
             "q": "Ai-je besoin d’un compte ?",
             "a": [
-              "Non. Il n’y a ni inscription ni connexion – vous ouvrez l’app et vous commencez. Si vous utilisez iCloud, la synchronisation passe par votre propre compte Apple, que nous ne voyons jamais."
+              "Non. Vous ouvrez l’app et vous commencez – sans inscription. Si vous utilisez iCloud, la synchronisation passe par votre propre compte Apple, que nous ne voyons jamais. Si vous le souhaitez, vous pouvez vous connecter avec LaCodea ID, notre compte pour toutes les apps LaCodea. Nous enregistrons alors votre compte et vos achats de SimpleTime Pro – jamais vos entrées."
             ]
           },
           {
@@ -639,7 +641,7 @@
             "id": "pro-includes",
             "q": "Que comprend SimpleTime Pro ?",
             "a": [
-              "L’app pour Apple Watch, les bilans de votre semaine, de votre mois et de votre année, les lieux, l’année en un coup d’œil, les objectifs, le filtre de concentration, un widget de démarrage rapide, sept couleurs d’accent ou la vôtre plus seize icônes d’app, et des sections supplémentaires dans le rapport PDF. Ce qui viendra plus tard est inclus. [Tout sur SimpleTime Pro](@pro)"
+              "L’app pour Apple Watch, les bilans de votre semaine, de votre mois et de votre année, les lieux, vos entrées comme événements dans votre calendrier, l’année en un coup d’œil, les objectifs, le filtre de concentration, un widget de démarrage rapide, sept couleurs d’accent ou la vôtre plus seize icônes d’app, et des sections supplémentaires dans le rapport PDF. Ce qui viendra plus tard est inclus. [Tout sur SimpleTime Pro](@pro)"
             ]
           },
           {
@@ -792,6 +794,7 @@
     "summary": [
       "Votre temps vous appartient. SimpleTime ne nécessite aucun compte, n’affiche aucune publicité et ne vend pas vos données.",
       "Vos entrées se trouvent sur vos appareils et, si vous le choisissez, dans votre iCloud privé ou en évènements dans votre calendrier – nous ne pouvons pas les lire.",
+      "Si vous le souhaitez, vous pouvez vous connecter avec LaCodea ID, notre compte pour toutes les apps LaCodea. Nous enregistrons alors votre compte et vos achats de SimpleTime Pro – jamais vos entrées.",
       "Pour que nous trouvions vite les bugs, l’app envoie des rapports de plantage et des statistiques d’utilisation anonymes – sans identifiant d’appareil, jamais avec vos entrées, et désactivables à tout moment.",
       "Ce site ne dépose lui-même aucun cookie et ne charge rien depuis des tiers. Nous comptons ses visiteurs de manière anonyme avec Atriya, notre propre service d’analyse."
     ],
@@ -808,7 +811,7 @@
         "id": "app",
         "title": "L’app SimpleTime",
         "paragraphs": [
-          "SimpleTime est conçu pour que nous n’ayons pas besoin de vos données. Tout ce que vous saisissez – tâches, entrées avec leurs durées et leurs notes, objectifs, rappels et réglages – est enregistré sur votre appareil. L’app ne contient ni publicité ni SDK tiers. Elle n’envoie vos entrées à aucun serveur à nous ; nous n’y avons jamais accès. Ce que l’app transmet de manière anonyme sur les plantages et l’utilisation est décrit sous « Rapports de plantage et statistiques d’utilisation »."
+          "SimpleTime est conçu pour que nous n’ayons pas besoin de vos données. Tout ce que vous saisissez – tâches, entrées avec leurs durées et leurs notes, horaires fixes, objectifs, rappels et réglages – est enregistré sur votre appareil. L’app ne contient ni publicité ni SDK tiers. Elle n’envoie vos entrées à aucun serveur à nous ; nous n’y avons jamais accès. Ce que l’app transmet de manière anonyme sur les plantages et l’utilisation est décrit sous « Rapports de plantage et statistiques d’utilisation » ; ce qui s’y ajoute si vous choisissez de vous connecter, sous « LaCodea ID » et « Achats »."
         ],
         "subsections": [
           {
@@ -821,8 +824,8 @@
           {
             "title": "Sauvegardes",
             "paragraphs": [
-              "Sous Paramètres › Sauvegardes, vous créez des plans de sauvegarde. Chaque plan enregistre automatiquement vos tâches, vos entrées avec leurs notes, vos objectifs et vos rappels à l’endroit de votre choix : dans votre iCloud Drive, dans un dossier de l’app Fichiers – par exemple sur Dropbox, Google Drive ou une clé USB –, sur votre propre serveur via WebDAV ou uniquement sur cet appareil. Pour iCloud Drive, Dropbox, Google Drive et les autres services, leur politique de confidentialité s’applique ; vos sauvegardes ne nous parviennent jamais. Les identifiants d’un serveur WebDAV sont stockés dans le trousseau de votre appareil.",
-              "Si vous définissez un mot de passe pour un plan, chaque sauvegarde est chiffrée sur votre appareil avant d’être enregistrée (AES-GCM 256 bits, clé dérivée avec PBKDF2) ; sans le mot de passe, personne ne peut l’ouvrir – pas même nous. Vous décidez combien de temps un plan conserve ses sauvegardes. Une sauvegarde faite à la main va où vous le choisissez, via le menu de partage. Les sauvegardes de SimpleTime 4.7 et des versions antérieures restent dans votre iCloud Drive, dans le dossier « SimpleTime/Backups »."
+              "Sous Paramètres › Sauvegardes, vous créez des plans de sauvegarde. Chaque plan enregistre automatiquement vos tâches, vos entrées avec leurs notes, vos objectifs et vos rappels à l’endroit de votre choix : dans votre iCloud Drive, dans un dossier de l’app Fichiers – par exemple sur Dropbox, Google Drive ou une clé USB –, sur votre propre serveur via WebDAV ou uniquement sur cet appareil. Pour iCloud Drive, Dropbox, Google Drive et les autres services, leur politique de confidentialité s’applique ; vos sauvegardes ne nous parviennent jamais. Les identifiants d’un serveur WebDAV sont stockés dans le trousseau de votre appareil. Les sauvegardes « Sur cet appareil uniquement » se trouvent dans le dossier de l’app, que vous voyez aussi dans l’app Fichiers.",
+              "Si vous définissez un mot de passe pour un plan, chaque sauvegarde est chiffrée sur votre appareil avant d’être enregistrée (AES-GCM 256 bits, clé dérivée avec PBKDF2) ; sans le mot de passe, personne ne peut l’ouvrir – pas même nous. Sans mot de passe, toute personne qui a accès à son emplacement peut lire une sauvegarde – pour « Sur cet appareil uniquement », toute personne qui déverrouille votre appareil, même lorsque le verrouillage de l’app est activé. Vous décidez combien de temps un plan conserve ses sauvegardes. Une sauvegarde faite à la main va où vous le choisissez, via le menu de partage. Les sauvegardes de SimpleTime 4.7 et des versions antérieures restent dans votre iCloud Drive, dans le dossier « SimpleTime/Backups »."
             ]
           },
           {
@@ -876,9 +879,20 @@
             ]
           },
           {
+            "title": "LaCodea ID (facultatif)",
+            "paragraphs": [
+              "SimpleTime fonctionne sans compte. Dans Paramètres, vous pouvez toutefois vous connecter avec LaCodea ID, le compte pour toutes les apps LaCodea – avec « Se connecter avec Apple », une clé d’accès ou un code par e-mail. Nous exploitons nous-mêmes le LaCodea ID ; là aussi, nous sommes le responsable du traitement.",
+              "Pour votre compte, nous enregistrons votre adresse e-mail, votre nom si vous l’indiquez ou si « Se connecter avec Apple » le transmet, l’identifiant de votre compte, vos modes de connexion et vos clés d’accès (uniquement leur partie publique), ainsi que les apps LaCodea que vous utilisez avec ce compte et la date de leur dernière utilisation. Avec « Se connecter avec Apple », vous pouvez masquer votre adresse e-mail ; nous ne recevons alors qu’une adresse relais d’Apple. Nous envoyons les codes de connexion et les avis concernant la sécurité de votre compte – par exemple lors d’une nouvelle connexion – par e-mail via Resend (Plus Five Five, Inc., États-Unis) ; Resend est certifiée au titre de l’EU-U.S. Data Privacy Framework, et les clauses contractuelles types de l’UE s’appliquent. Les données du compte sont stockées chez Supabase Pte. Ltd., 65 Chulia Street #38-02/03, OCBC Centre, Singapore 049513, dans un centre de données situé à Francfort-sur-le-Main, en Allemagne ; Supabase les traite pour notre compte. Supabase ayant son siège à Singapour et faisant appel à des sous-traitants ultérieurs, notamment aux États-Unis, un accès depuis ces pays ne peut être exclu ; les clauses contractuelles types de l’UE s’appliquent à cet égard (art. 46, par. 2, point c), du RGPD).",
+              "Le LaCodea ID ne reçoit ni vos tâches, ni vos entrées, ni vos durées, ni vos notes. La base juridique est l’exécution du contrat relatif à votre compte (art. 6, par. 1, point b), du RGPD). Pour en savoir plus, consultez la politique de confidentialité du LaCodea ID : [lacodea.com/privacy](https://lacodea.com/privacy#lacodea-id)",
+              "Sur la page de votre compte, dans Paramètres, vous vous déconnectez, dissociez SimpleTime de votre compte ou supprimez le LaCodea ID avec toutes ses données."
+            ]
+          },
+          {
             "title": "Achats",
             "paragraphs": [
-              "SimpleTime Pro s’achète via l’App Store. Apple gère le paiement et l’abonnement ; nous ne recevons aucune donnée de paiement ni aucune donnée personnelle vous concernant. L’app demande seulement à l’App Store si Pro est actif. D’Apple, nous recevons des rapports de ventes sans données personnelles."
+              "SimpleTime Pro s’achète via l’App Store. Apple gère le paiement et l’abonnement ; nous ne recevons jamais de données de paiement. Sans connexion, l’app demande seulement à l’App Store si Pro est actif, et nous recevons d’Apple des rapports de ventes sans données personnelles.",
+              "Si vous êtes connecté avec LaCodea ID, un achat est rattaché à votre compte : lors de l’achat, SimpleTime transmet à Apple l’identifiant de votre compte, et l’app signale vos achats au LaCodea ID – la transaction signée par Apple, avec le produit, la date d’achat, la durée, le prix, la devise et le pays. S’y ajoute un identifiant d’appareil qu’Apple fournit à cet effet, afin que l’on puisse vérifier que la transaction provient de votre appareil ; il ne sert qu’à cette vérification et n’est pas enregistré. Le LaCodea ID vérifie chaque signalement auprès d’Apple et reçoit d’Apple des notifications concernant les renouvellements, les résiliations et les remboursements. Ainsi, la page « Abonnements » du LaCodea ID indique quels abonnements vous avez – dans chaque app LaCodea et sur account.lacodea.com. La base juridique est l’art. 6, par. 1, point b), du RGPD.",
+              "Nous conservons l’identifiant d’un achat chez Apple, avec son dernier état, jusqu’à 13 mois, même après la suppression de votre compte – il n’est alors plus rattaché à celui-ci. Nous reconnaissons ainsi les signalements plus anciens concernant le même achat."
             ]
           },
           {
@@ -896,7 +910,7 @@
           {
             "title": "Suppression de vos données",
             "paragraphs": [
-              "Dans les paramètres de l’app, sous Confidentialité › Supprimer toutes les données, vous effacez d’un coup tout ce que SimpleTime a enregistré – sur cet appareil, dans iCloud, les sauvegardes de vos plans là où elles se trouvent, les anciennes sauvegardes dans iCloud Drive et les évènements que SimpleTime a inscrits dans vos calendriers ; via iCloud, la suppression atteint aussi vos autres appareils. Les statistiques anonymes ne peuvent être rattachées à aucun appareil et ne peuvent donc pas être supprimées de manière ciblée. Si vous supprimez l’app, ses données disparaissent de cet appareil."
+              "Dans les paramètres de l’app, sous Confidentialité › Supprimer toutes les données, vous effacez d’un coup tout ce que SimpleTime a enregistré – sur cet appareil, dans iCloud, les sauvegardes de vos plans là où elles se trouvent, les anciennes sauvegardes dans iCloud Drive et les évènements que SimpleTime a inscrits dans vos calendriers ; via iCloud, la suppression atteint aussi vos autres appareils. Les statistiques anonymes ne peuvent être rattachées à aucun appareil et ne peuvent donc pas être supprimées de manière ciblée. Si vous supprimez l’app, ses données disparaissent de cet appareil. Votre compte LaCodea ID n’en est pas affecté ; vous le supprimez sur la page de votre compte."
             ]
           }
         ]
@@ -957,7 +971,7 @@
         "id": "rights",
         "title": "Vos droits",
         "paragraphs": [
-          "Vous disposez d’un droit d’accès à vos données (art. 15 du RGPD), d’un droit de rectification (art. 16) ou d’effacement (art. 17), d’un droit à la limitation du traitement (art. 18), d’un droit à la portabilité des données (art. 20) et d’un droit d’opposition au traitement fondé sur des intérêts légitimes (art. 21). Pour exercer ces droits, écrivez-nous simplement. Comme l’app ne stocke rien vous concernant chez nous, une demande porte généralement sur des e-mails ou sur ce site ; vous pouvez consulter, exporter et supprimer vous-même à tout moment les données de l’app.",
+          "Vous disposez d’un droit d’accès à vos données (art. 15 du RGPD), d’un droit de rectification (art. 16) ou d’effacement (art. 17), d’un droit à la limitation du traitement (art. 18), d’un droit à la portabilité des données (art. 20) et d’un droit d’opposition au traitement fondé sur des intérêts légitimes (art. 21). Pour exercer ces droits, écrivez-nous simplement. Sans LaCodea ID, l’app ne stocke rien vous concernant chez nous ; une demande porte alors généralement sur des e-mails ou sur ce site. Vous pouvez consulter, exporter et supprimer vous-même à tout moment les données de l’app, et consulter, télécharger et supprimer celles de votre compte LaCodea ID sur account.lacodea.com.",
           "Vous avez également le droit d’introduire une réclamation auprès d’une autorité de contrôle de la protection des données – par exemple auprès de l’Office bavarois de contrôle de la protection des données (BayLDA), Promenade 18, 91522 Ansbach, Allemagne."
         ]
       },

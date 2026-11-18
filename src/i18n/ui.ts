@@ -57,6 +57,8 @@ export const ui = {
     'nav.menu.close': 'Close menu',
     'nav.language': 'Language',
     'nav.theme': 'Dark Mode',
+    'nav.main': 'Main navigation',
+    'nav.download': 'Get',
     'skip.content': 'Skip to content',
 
     // The Live Activity in the hero – the app's own strings and sample task.
@@ -137,6 +139,8 @@ export const ui = {
     'nav.menu.close': 'Menü schließen',
     'nav.language': 'Sprache',
     'nav.theme': 'Dunkelmodus',
+    'nav.main': 'Hauptnavigation',
+    'nav.download': 'Laden',
     'skip.content': 'Zum Inhalt springen',
 
     // The Live Activity in the hero – the app's own strings and sample task.
@@ -216,6 +220,8 @@ export const ui = {
     'nav.menu.close': 'Fermer le menu',
     'nav.language': 'Langue',
     'nav.theme': 'Mode sombre',
+    'nav.main': 'Navigation principale',
+    'nav.download': 'Obtenir',
     'skip.content': 'Aller au contenu',
 
     // The Live Activity in the hero – the app's own strings and sample task.
@@ -295,6 +301,8 @@ export const ui = {
     'nav.menu.close': 'Cerrar menú',
     'nav.language': 'Idioma',
     'nav.theme': 'Modo oscuro',
+    'nav.main': 'Navegación principal',
+    'nav.download': 'Obtener',
     'skip.content': 'Ir al contenido',
 
     // The Live Activity in the hero – the app's own strings and sample task.
@@ -374,6 +382,8 @@ export const ui = {
     'nav.menu.close': 'Chiudi il menu',
     'nav.language': 'Lingua',
     'nav.theme': 'Modalità scura',
+    'nav.main': 'Navigazione principale',
+    'nav.download': 'Ottieni',
     'skip.content': 'Vai al contenuto',
 
     // The Live Activity in the hero – the app's own strings and sample task.
@@ -453,6 +463,8 @@ export const ui = {
     'nav.menu.close': 'Закрыть меню',
     'nav.language': 'Язык',
     'nav.theme': 'Тёмный режим',
+    'nav.main': 'Основная навигация',
+    'nav.download': 'Загрузить',
     'skip.content': 'Перейти к содержимому',
 
     // The Live Activity in the hero – the app's own strings and sample task.
@@ -532,6 +544,8 @@ export const ui = {
     'nav.menu.close': 'Փակել ընտրացանկը',
     'nav.language': 'Լեզու',
     'nav.theme': 'Մուգ ռեժիմ',
+    'nav.main': 'Հիմնական նավարկություն',
+    'nav.download': 'Ստանալ',
     'skip.content': 'Անցնել բովանդակությանը',
 
     // The Live Activity in the hero – the app's own strings and sample task.
@@ -611,6 +625,8 @@ export const ui = {
     'nav.menu.close': 'Fechar o menu',
     'nav.language': 'Idioma',
     'nav.theme': 'Modo escuro',
+    'nav.main': 'Navegação principal',
+    'nav.download': 'Obter',
     'skip.content': 'Ir para o conteúdo',
 
     // The Live Activity in the hero – the app's own strings and sample task.
@@ -690,6 +706,8 @@ export const ui = {
     'nav.menu.close': 'Menüyü kapat',
     'nav.language': 'Dil',
     'nav.theme': 'Koyu Mod',
+    'nav.main': 'Ana gezinme',
+    'nav.download': 'Al',
     'skip.content': 'İçeriğe geç',
 
     // The Live Activity in the hero – the app's own strings and sample task.
@@ -769,6 +787,8 @@ export const ui = {
     'nav.menu.close': 'إغلاق القائمة',
     'nav.language': 'اللغة',
     'nav.theme': 'النمط الداكن',
+    'nav.main': 'التنقل الرئيسي',
+    'nav.download': 'الحصول',
     'skip.content': 'الانتقال إلى المحتوى',
 
     // The Live Activity in the hero – the app's own strings and sample task.
@@ -848,6 +868,8 @@ export const ui = {
     'nav.menu.close': 'メニューを閉じる',
     'nav.language': '言語',
     'nav.theme': 'ダークモード',
+    'nav.main': 'メインナビゲーション',
+    'nav.download': '入手',
     'skip.content': '本文へ移動',
 
     // The Live Activity in the hero – the app's own strings and sample task.
@@ -927,6 +949,8 @@ export const ui = {
     'nav.menu.close': '关闭菜单',
     'nav.language': '语言',
     'nav.theme': '深色模式',
+    'nav.main': '主导航',
+    'nav.download': '获取',
     'skip.content': '跳到主要内容',
 
     // The Live Activity in the hero – the app's own strings and sample task.
@@ -1006,6 +1030,8 @@ export const ui = {
     'nav.menu.close': 'मेन्यू बंद करें',
     'nav.language': 'भाषा',
     'nav.theme': 'डार्क मोड',
+    'nav.main': 'मुख्य नेविगेशन',
+    'nav.download': 'पाएँ',
     'skip.content': 'सामग्री पर जाएँ',
 
     // The Live Activity in the hero – the app's own strings and sample task.
@@ -1085,6 +1111,8 @@ export const ui = {
     'nav.menu.close': 'Menu sluiten',
     'nav.language': 'Taal',
     'nav.theme': 'Donkere modus',
+    'nav.main': 'Hoofdnavigatie',
+    'nav.download': 'Download',
     'skip.content': 'Naar de inhoud',
 
     // The Live Activity in the hero – the app's own strings and sample task.
@@ -1164,6 +1192,8 @@ export const ui = {
     'nav.menu.close': 'Stäng menyn',
     'nav.language': 'Språk',
     'nav.theme': 'Mörkt läge',
+    'nav.main': 'Huvudnavigering',
+    'nav.download': 'Hämta',
     'skip.content': 'Hoppa till innehållet',
 
     // The Live Activity in the hero – the app's own strings and sample task.
@@ -1243,6 +1273,8 @@ export const ui = {
     'nav.menu.close': 'Закрити меню',
     'nav.language': 'Мова',
     'nav.theme': 'Темний режим',
+    'nav.main': 'Головна навігація',
+    'nav.download': 'Завантажити',
     'skip.content': 'Перейти до вмісту',
 
     // The Live Activity in the hero – the app's own strings and sample task.
@@ -1322,6 +1354,8 @@ export const ui = {
     'nav.menu.close': 'Κλείσιμο μενού',
     'nav.language': 'Γλώσσα',
     'nav.theme': 'Σκούρα εμφάνιση',
+    'nav.main': 'Κύρια πλοήγηση',
+    'nav.download': 'Λήψη',
     'skip.content': 'Μετάβαση στο περιεχόμενο',
 
     // The Live Activity in the hero – the app's own strings and sample task.
@@ -1401,6 +1435,8 @@ export const ui = {
     'nav.menu.close': 'סגירת תפריט',
     'nav.language': 'שפה',
     'nav.theme': 'תצוגה כהה',
+    'nav.main': 'ניווט ראשי',
+    'nav.download': 'קבל',
     'skip.content': 'דילוג לתוכן',
 
     // The Live Activity in the hero – the app's own strings and sample task.

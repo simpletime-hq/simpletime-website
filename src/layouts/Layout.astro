@@ -85,12 +85,17 @@ const appSchema = {
   },
 };
 
-const schemas = [appSchema, ...jsonLd];
+// One object with one "@context" and the schemas in an "@graph" – not a bare
+// array. Safari (or something running in it) reads `data["@context"]` of the
+// top-level value and threw on the array for 36 visitors in November 2026
+// ("undefined is not an object (evaluating 'r["@context"].toLowerCase')").
+const withoutContext = ({ '@context': _context, ...schema }: Record<string, unknown>) => schema;
+const graph = { '@context': 'https://schema.org', '@graph': [appSchema, ...jsonLd].map(withoutContext) };
 
 // JSON.stringify does not escape "<", so a "</script>" inside any value
 // would close the tag early. No current string contains one, but escaping
 // removes the class of bug rather than relying on that staying true.
-const jsonLdPayload = JSON.stringify(schemas).replace(/</g, '\\u003c');
+const jsonLdPayload = JSON.stringify(graph).replace(/</g, '\\u003c');
 ---
 
 <!doctype html>

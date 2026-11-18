@@ -127,6 +127,44 @@ test('with storage blocked, the OS dark setting still applies', async ({ browser
   await context.close();
 });
 
+test('on phones the bar keeps to brand, download and menu; theme and language sit in the menu', async ({ browser }) => {
+  const context = await browser.newContext({ ...PHONE, colorScheme: 'light', reducedMotion: 'reduce' });
+  const page = await context.newPage();
+  await page.goto(`${ORIGIN}/de/`);
+  await expect(page.locator('#theme-toggle')).toBeHidden();
+  await expect(page.locator('header nav details.lang-menu')).toBeHidden();
+  await expect(page.locator('header nav .cta')).toBeVisible();
+  await expect(page.locator('#menu-toggle')).toBeVisible();
+
+  await page.locator('#menu-toggle').click();
+  const themeSwitch = page.locator('#mobile-menu [data-theme-toggle]');
+  await expect(themeSwitch).toHaveAccessibleName('Dunkelmodus');
+  await expect(themeSwitch).toHaveAttribute('aria-pressed', 'false');
+  await themeSwitch.click();
+  await expect(page.locator('html')).toHaveClass(/\bdark\b/);
+  await expect(themeSwitch).toHaveAttribute('aria-pressed', 'true');
+  // The bar's switch, hidden here, says the same once the window widens.
+  await expect(page.locator('#theme-toggle')).toHaveAttribute('aria-pressed', 'true');
+  await expect(page.locator('#mobile-menu details.lang-menu summary')).toHaveAccessibleName('Sprache: Deutsch');
+  await context.close();
+});
+
+// The menu needs the script to open. Without it the language list – the only
+// way to the other languages – stays in the bar, and the buttons that would do
+// nothing are not shown.
+test('without JavaScript the language list stays in the bar on phones', async ({ browser }) => {
+  const context = await browser.newContext({ ...PHONE, javaScriptEnabled: false });
+  const page = await context.newPage();
+  await page.goto(`${ORIGIN}/uk/`);
+  await expect(page.locator('header nav details.lang-menu')).toBeVisible();
+  await expect(page.locator('#menu-toggle')).toBeHidden();
+  await expect(page.locator('#theme-toggle')).toBeHidden();
+  const capsule = await page.locator('header nav').boundingBox();
+  const language = await page.locator('header nav details.lang-menu').boundingBox();
+  expect(language.x + language.width).toBeLessThanOrEqual(capsule.x + capsule.width);
+  await context.close();
+});
+
 test('the full-screen menu lets go of the page when it closes or the window widens', async ({ browser }) => {
   const context = await browser.newContext({ ...PHONE, reducedMotion: 'reduce' });
   const page = await context.newPage();

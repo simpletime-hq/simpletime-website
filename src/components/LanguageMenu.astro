@@ -126,7 +126,8 @@ const options = (Object.keys(languages) as Lang[]).map((code) => ({
 
 <script>
   // Native <details> already opens and closes by keyboard; this only adds
-  // the dismissal behaviour people expect from a dropdown.
+  // the dismissal behaviour people expect from a dropdown – for this menu and
+  // the language list in the phone menu, which shares the class.
   const menus = document.querySelectorAll<HTMLDetailsElement>('.lang-menu');
 
   document.addEventListener('click', (event) => {
@@ -141,6 +142,8 @@ const options = (Object.keys(languages) as Lang[]).map((code) => ({
       if (!menu.open) return;
       menu.open = false;
       menu.querySelector('summary')?.focus();
+      // Handled: the phone menu around the list stays open for this Escape.
+      event.preventDefault();
     });
   });
 </script>

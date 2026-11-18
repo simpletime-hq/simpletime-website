@@ -1,7 +1,8 @@
 ---
-import type { Lang } from '../i18n/ui';
-import { useTranslations, APP_STORE_URL, langPrefix } from '../i18n/utils';
+import { languages, type Lang } from '../i18n/ui';
+import { useTranslations, APP_STORE_URL, langPrefix, getAllLangPaths } from '../i18n/utils';
 import LanguageMenu from './LanguageMenu.astro';
+import AppStoreButton from './AppStoreButton.astro';
 
 interface Props {
   lang: Lang;
@@ -12,223 +13,787 @@ const { lang, path } = Astro.props;
 const t = useTranslations(lang);
 const prefix = langPrefix(lang);
 const home = `${prefix}/`;
+const onHome = path === home || path === '/';
 
 // The home page's sections in their order, then the pages of their own.
-// Contact sits in the footer, with the legal pages.
+// Contact sits in the footer, with the legal pages. `section` names the home
+// page section the bar follows while scrolling – Pro and the questions have one
+// too, a short version of their own page; `page` marks a page of its own.
 const links = [
-  { href: `${home}#features`, label: t('nav.features') },
-  { href: `${home}#devices`, label: t('nav.devices') },
-  { href: `${home}#privacy`, label: t('nav.privacy') },
-  { href: `${prefix}/pro/`, label: t('nav.pro') },
-  { href: `${prefix}/faq/`, label: t('nav.faq') },
+  { href: `${home}#features`, label: t('nav.features'), section: 'features', icon: 'features' },
+  { href: `${home}#devices`, label: t('nav.devices'), section: 'devices', icon: 'devices' },
+  { href: `${home}#privacy`, label: t('nav.privacy'), section: 'privacy', icon: 'privacy' },
+  { href: `${prefix}/pro/`, label: t('nav.pro'), section: 'pro', page: `${prefix}/pro/`, icon: 'pro' },
+  { href: `${prefix}/faq/`, label: t('nav.faq'), section: 'faq', page: `${prefix}/faq/`, icon: 'faq' },
 ];
 
+const isCurrent = (l: (typeof links)[number]) => l.page === path;
+
+// On phones the language list moves into the menu – the same page in every
+// language, so switching keeps the visitor where they are.
+const langPaths = getAllLangPaths(path);
+const languageOptions = (Object.keys(languages) as Lang[]).map((code) => ({
+  code,
+  name: languages[code],
+  href: langPaths[code],
+  current: code === lang,
+}));
+
+// Stroke icons for the menu rows, drawn on a 24 grid like SF Symbols.
+const icons: Record<string, string> = {
+  features: 'M4 5.5h7v7H4zM13 5.5h7v4h-7zM13 11.5h7v7h-7zM4 14.5h7v4H4z',
+  devices: 'M3.5 6.5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2V12M2.5 17.5h9M16.5 9.5h3a1.5 1.5 0 0 1 1.5 1.5v7.5a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 15 18.5V11a1.5 1.5 0 0 1 1.5-1.5z',
+  privacy: 'M12 3l7 3v5.5c0 4.2-2.9 7.9-7 9-4.1-1.1-7-4.8-7-9V6l7-3zM9 12l2.2 2.2L15.5 10',
+  pro: 'M12 3.5l2.5 5.2 5.7.8-4.1 4 1 5.7L12 16.5l-5.1 2.7 1-5.7-4.1-4 5.7-.8z',
+  faq: 'M12 20.5a8.5 8.5 0 1 0-7.6-4.7L3.5 20.5l4.7-.9A8.5 8.5 0 0 0 12 20.5zM9.6 9.6a2.5 2.5 0 1 1 3.4 2.3c-.6.3-1 .8-1 1.5v.4M12 16.6v.1',
+};
 ---
 
 <header class="site-header sticky top-0 z-50">
-  <nav class="wrap flex h-[56px] items-center justify-between gap-4">
-    <a href={home} class="flex shrink-0 items-center gap-2.5 text-ink transition-opacity hover:opacity-75">
-      <img src="/logo.png" alt="" width="28" height="28" class="h-7 w-7 rounded-[7px]" />
-      <span class="font-display text-[17px] font-semibold tracking-[-0.03em]">SimpleTime</span>
+  <nav class="capsule" aria-label={t('nav.main')}>
+    <a href={home} class="brand">
+      <img src="/logo.png" alt="" width="28" height="28" class="brand__icon" />
+      <span class="brand__name font-display">SimpleTime</span>
     </a>
 
-    <div class="hidden items-center gap-9 text-[14px] lg:flex">
+    <div class="links hidden lg:flex" data-links>
+      <span class="links__pill" aria-hidden="true" data-pill></span>
       {
         links.map((l) => (
-          <a href={l.href} class="nav-link text-ink/70 transition-colors hover:text-ink">
+          <a
+            href={l.href}
+            class="links__item"
+            data-section={onHome ? l.section : undefined}
+            aria-current={isCurrent(l) ? 'page' : undefined}
+            data-active={isCurrent(l) ? '' : undefined}
+          >
             {l.label}
           </a>
         ))
       }
     </div>
 
-    <div class="flex items-center gap-0.5 sm:gap-1.5">
+    <div class="tools">
       <button
         type="button"
         id="theme-toggle"
-        class="grid h-9 w-9 place-items-center sm:h-10 sm:w-10 rounded-full text-ink/70 transition-colors hover:bg-ink/5 hover:text-ink"
+        class="tool tool--theme"
+        data-theme-toggle
         aria-label={t('nav.theme')}
         aria-pressed="false"
       >
-        <svg
-          class="h-[17px] w-[17px] dark:hidden"
-          viewBox="0 0 24 24"
-          fill="none"
-          stroke="currentColor"
-          stroke-width="1.8"
-          stroke-linecap="round"
-          aria-hidden="true"
-        >
+        <svg class="h-[17px] w-[17px] dark:hidden" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true">
           <path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"></path>
         </svg>
-        <svg
-          class="hidden h-[17px] w-[17px] dark:block"
-          viewBox="0 0 24 24"
-          fill="none"
-          stroke="currentColor"
-          stroke-width="1.8"
-          stroke-linecap="round"
-          aria-hidden="true"
-        >
+        <svg class="hidden h-[17px] w-[17px] dark:block" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true">
           <circle cx="12" cy="12" r="4.2"></circle>
-          <path d="M12 2v2.4M12 19.6V22M4.2 4.2l1.7 1.7M18.1 18.1l1.7 1.7M2 12h2.4M19.6 12H22M4.2 19.8l1.7-1.7M18.1 5.9l1.7-1.7"
-          ></path>
+          <path d="M12 2v2.4M12 19.6V22M4.2 4.2l1.7 1.7M18.1 18.1l1.7 1.7M2 12h2.4M19.6 12H22M4.2 19.8l1.7-1.7M18.1 5.9l1.7-1.7"></path>
         </svg>
       </button>
 
-      <LanguageMenu lang={lang} path={path} />
+      <div class="bar-lang">
+        <LanguageMenu lang={lang} path={path} />
+      </div>
 
-      <a
-        href={APP_STORE_URL}
-        target="_blank"
-        rel="noopener"
-        class="ms-2 hidden rounded-full bg-action px-4 py-2 text-[13px] font-medium text-on-action transition-colors hover:bg-action-hover sm:inline-flex"
-      >
-        {t('nav.appstore')}
+      <a href={APP_STORE_URL} target="_blank" rel="noopener" class="cta" data-cta>
+        <span>{t('nav.download')}</span>
+        <svg class="cta__arrow" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M8 3v8.5M4.5 8l3.5 3.5L11.5 8"></path>
+        </svg>
       </a>
 
       <button
         type="button"
         id="menu-toggle"
-        class="ms-0.5 grid h-9 w-9 place-items-center sm:h-10 sm:w-10 rounded-full text-ink/70 transition-colors hover:bg-ink/5 hover:text-ink lg:hidden"
+        class="tool tool--menu"
         aria-label={t('nav.menu')}
         aria-expanded="false"
         aria-controls="mobile-menu"
+        data-label-open={t('nav.menu')}
+        data-label-close={t('nav.menu.close')}
       >
-        <svg
-          class="h-[18px] w-[18px]"
-          viewBox="0 0 24 24"
-          fill="none"
-          stroke="currentColor"
-          stroke-width="1.8"
-          stroke-linecap="round"
-          aria-hidden="true"
-        >
-          <path id="menu-icon-open" d="M4 8.5h16M4 15.5h16"></path>
-          <path id="menu-icon-close" class="hidden" d="M6 6l12 12M18 6L6 18"></path>
-        </svg>
+        <span class="burger" aria-hidden="true"><span></span><span></span></span>
       </button>
     </div>
   </nav>
 
+  <div class="sheet-backdrop hidden" data-backdrop aria-hidden="true"></div>
 
-  <div id="mobile-menu" class="mobile-menu hidden lg:hidden">
-    <div class="wrap pb-8 pt-4">
-      <ul class="flex flex-col">
-        {
-          links.map((l) => (
-            <li>
-              <a
-                href={l.href}
-                class="font-display block border-b border-line py-4 text-[30px] font-semibold tracking-[-0.035em] text-ink transition-opacity hover:opacity-70"
-              >
-                {l.label}
-              </a>
-            </li>
-          ))
-        }
-      </ul>
-      <a href={APP_STORE_URL} target="_blank" rel="noopener" class="btn btn--primary mt-9 w-full">
-        {t('nav.appstore')}
-      </a>
+  <div id="mobile-menu" class="sheet hidden">
+    <ul class="sheet__list">
+      {
+        links.map((l) => (
+          <li>
+            <a href={l.href} class="sheet__row" aria-current={isCurrent(l) ? 'page' : undefined}>
+              <span class:list={['sheet__icon', `sheet__icon--${l.icon}`]} aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+                  <path d={icons[l.icon]}></path>
+                </svg>
+              </span>
+              <span class="sheet__label">{l.label}</span>
+              <svg class="sheet__chevron" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M4.5 3L7.5 6l-3 3"></path>
+              </svg>
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+    {/* Phones only: from 40rem the capsule has room for both itself. */}
+    <div class="sheet__prefs">
+      <details class="lang-menu sheet-lang">
+        <summary class="sheet__row sheet__row--pref" aria-label={`${t('nav.language')}: ${languages[lang]}`}>
+          <span class="sheet__icon sheet__icon--language" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="8.5"></circle>
+              <path d="M3.6 9.5h16.8M3.6 14.5h16.8M12 3.5c2.3 2.4 3.4 5.2 3.4 8.5s-1.1 6.1-3.4 8.5c-2.3-2.4-3.4-5.2-3.4-8.5s1.1-6.1 3.4-8.5z"></path>
+            </svg>
+          </span>
+          <span class="sheet__label sheet__label--pref">{t('nav.language')}</span>
+          <span class="sheet__value">{languages[lang]}</span>
+          <svg class="sheet__chevron sheet__chevron--down" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M3 4.5L6 7.5l3-3"></path>
+          </svg>
+        </summary>
+        <ul class="sheet-lang__grid">
+          {
+            languageOptions.map((o) => (
+              <li>
+                <a
+                  href={o.href}
+                  hreflang={o.code}
+                  lang={o.code}
+                  aria-current={o.current ? 'true' : undefined}
+                  class="sheet-lang__item"
+                >
+                  <span>{o.name}</span>
+                  {o.current && (
+                    <svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                      <path d="M2.5 7.4l3 3L11.5 4" />
+                    </svg>
+                  )}
+                </a>
+              </li>
+            ))
+          }
+        </ul>
+      </details>
+
+      <button type="button" class="sheet__row sheet__row--pref" data-theme-toggle aria-pressed="false">
+        <span class="sheet__icon sheet__icon--theme" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M20 13.4A8 8 0 1 1 10.6 4a6.2 6.2 0 0 0 9.4 9.4z"></path>
+          </svg>
+        </span>
+        <span class="sheet__label sheet__label--pref">{t('nav.theme')}</span>
+        <span class="switch" aria-hidden="true"></span>
+      </button>
+    </div>
+
+    <div class="sheet__store">
+      <AppStoreButton label={t('appstore.download')} />
     </div>
   </div>
 </header>
 
 <style>
-  /* A translucent bar: the page shows through, blurred and a little more
-     saturated, with a hairline that only appears once there is something
-     underneath to separate from. */
+  /* The bar floats: a capsule of frosted glass with a little air above it,
+     the page passing underneath. Nothing but the capsule paints – the header
+     box itself stays clear, also over the night sections. */
   .site-header {
-    background: var(--nav-bg);
-    -webkit-backdrop-filter: saturate(180%) blur(20px);
-    backdrop-filter: saturate(180%) blur(20px);
-    box-shadow: 0 1px 0 transparent;
-    transition: box-shadow 0.3s ease;
+    background: transparent;
+    padding: 0.625rem 0.625rem 0;
+    pointer-events: none;
   }
 
-  .site-header[data-scrolled] {
-    box-shadow: 0 1px 0 var(--line);
-  }
-
-  .nav-link {
-    position: relative;
-  }
-
-  .nav-link::after {
-    content: '';
-    position: absolute;
-    inset-inline: 0;
-    bottom: -0.35rem;
-    height: 1px;
-    background: currentColor;
-    transform: scaleX(0);
-    transform-origin: left center;
-    transition: transform 0.45s var(--ease-out-expo);
-  }
-
-  :global([dir='rtl']) .nav-link::after {
-    transform-origin: right center;
-  }
-
-  .nav-link:hover::after {
-    transform: scaleX(1);
-  }
-
-  .mobile-menu {
-    height: calc(100dvh - 56px);
-    overflow-y: auto;
-    background: var(--canvas);
-  }
-
-  @keyframes menu-in {
-    from {
-      opacity: 0;
-      transform: translateY(-10px);
+  @media (min-width: 40rem) {
+    .site-header {
+      padding: 0.75rem 1rem 0;
     }
   }
 
-  .mobile-menu:not(.hidden) li {
-    animation: menu-in 0.55s var(--ease-out-expo) both;
+  .capsule {
+    pointer-events: auto;
+    position: relative;
+    margin-inline: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75rem;
+    max-width: 70rem;
+    height: 3.25rem;
+    padding-inline: 0.75rem 0.375rem;
+    border-radius: 999px;
+    background: var(--nav-bg);
+    -webkit-backdrop-filter: saturate(180%) blur(22px);
+    backdrop-filter: saturate(180%) blur(22px);
+    box-shadow:
+      inset 0 0 0 1px var(--capsule-edge),
+      0 1px 2px rgb(8 14 30 / 0.04),
+      0 12px 32px -18px rgb(8 14 30 / 0.28);
+    transition:
+      height 0.45s var(--ease-out-expo),
+      max-width 0.45s var(--ease-out-expo),
+      box-shadow 0.45s var(--ease-out-expo),
+      background-color 0.3s ease;
   }
 
-  .mobile-menu:not(.hidden) li:nth-child(2) {
-    animation-delay: 0.05s;
+  @media (min-width: 64rem) {
+    .capsule {
+      height: 3.5rem;
+      padding-inline: 1.125rem 0.5rem;
+    }
+
+    /* Once the page moves, the capsule draws in a little and lifts off. */
+    .site-header[data-scrolled] .capsule {
+      height: 3.25rem;
+      max-width: 64rem;
+    }
   }
 
-  .mobile-menu:not(.hidden) li:nth-child(3) {
-    animation-delay: 0.1s;
+  /* With the menu open the page behind is dimmed; the capsule turns as opaque
+     as the menu, rather than showing the grey through its glass. */
+  .site-header[data-menu-open] .capsule {
+    background: var(--sheet-bg);
   }
 
-  .mobile-menu:not(.hidden) li:nth-child(4) {
-    animation-delay: 0.15s;
+  .site-header[data-scrolled] .capsule {
+    box-shadow:
+      inset 0 0 0 1px var(--capsule-edge),
+      0 2px 4px rgb(8 14 30 / 0.05),
+      0 18px 40px -18px rgb(8 14 30 / 0.36);
+  }
+
+  .brand {
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    gap: 0.625rem;
+    color: var(--ink);
+    border-radius: 999px;
+    transition: opacity 0.2s ease;
+  }
+
+  .brand:hover {
+    opacity: 0.78;
+  }
+
+  .brand__icon {
+    width: 1.75rem;
+    height: 1.75rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 2px rgb(8 14 30 / 0.18);
+  }
+
+  .brand__name {
+    font-size: 1.0625rem;
+    font-weight: 600;
+    letter-spacing: -0.03em;
+  }
+
+  /* The links share one pill that glides to whatever the pointer is on and
+     comes back to where the visitor is – the section on the home page, the
+     page itself elsewhere. */
+  .links {
+    position: relative;
+    align-items: center;
+    gap: 0.125rem;
+    font-size: 0.875rem;
+  }
+
+  .links__item {
+    position: relative;
+    z-index: 1;
+    padding: 0.5rem 0.95rem;
+    border-radius: 999px;
+    color: var(--ink-2);
+    transition: color 0.25s ease;
+  }
+
+  .links__item:hover,
+  .links__item[data-active] {
+    color: var(--ink);
+  }
+
+  .links__pill {
+    position: absolute;
+    inset-block: 0;
+    inset-inline-start: 0;
+    width: 0;
+    border-radius: 999px;
+    background: var(--pill);
+    opacity: 0;
+    transform: translateX(var(--pill-x, 0px));
+    transition:
+      transform 0.5s var(--ease-out-expo),
+      width 0.5s var(--ease-out-expo),
+      opacity 0.25s ease;
+  }
+
+  .links[data-pill-on] .links__pill {
+    opacity: 1;
+  }
+
+  .links:not([data-pill-ready]) .links__pill {
+    transition: none;
+  }
+
+  .tools {
+    display: flex;
+    align-items: center;
+    gap: 0.125rem;
+  }
+
+  .tool {
+    display: grid;
+    place-items: center;
+    width: 2.375rem;
+    height: 2.375rem;
+    border-radius: 999px;
+    color: var(--ink-2);
+    transition:
+      background-color 0.2s ease,
+      color 0.2s ease;
+  }
+
+  .tool:hover {
+    background: var(--pill);
+    color: var(--ink);
+  }
+
+  /* Phones get the brand, the download pill and the menu; theme and language
+     move into the menu. That needs the script – without it the menu cannot
+     open, so the language list stays in the bar and the theme switch, which
+     does nothing without a script, goes. (The breakpoints live here because
+     Tailwind's utilities sit in a cascade layer and lose to `.tool` above.) */
+  .tool--theme,
+  .tool--menu {
+    display: none;
+  }
+
+  @media (min-width: 40rem) {
+    :global(.js) .tool--theme {
+      display: grid;
+    }
+  }
+
+  @media (max-width: 63.99rem) {
+    :global(.js) .tool--menu {
+      display: grid;
+    }
+  }
+
+  @media (max-width: 39.99rem) {
+    :global(.js) .bar-lang {
+      display: none;
+    }
+
+    /* Without the script the language list keeps the room; the hero has the
+       App Store button anyway. */
+    :global(html:not(.js)) .cta {
+      display: none;
+    }
+  }
+
+  .cta {
+    margin-inline-start: 0.375rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.375rem;
+    height: 2.375rem;
+    padding-inline: 1rem 0.875rem;
+    border-radius: 999px;
+    background: var(--action);
+    color: var(--on-action);
+    font-size: 0.8125rem;
+    font-weight: 600;
+    letter-spacing: -0.005em;
+    white-space: nowrap;
+    box-shadow: 0 1px 2px rgb(8 14 30 / 0.16);
+    transition:
+      background-color 0.2s ease,
+      transform 0.2s ease;
+  }
+
+  .cta:hover {
+    background: var(--action-hover);
+  }
+
+  .cta:active {
+    transform: scale(0.97);
+  }
+
+  .cta__arrow {
+    width: 0.875rem;
+    height: 0.875rem;
+    transition: transform 0.35s var(--ease-out-expo);
+  }
+
+  .cta:hover .cta__arrow {
+    transform: translateY(1.5px);
+  }
+
+  /* Very narrow phones: the download pill gives way to the menu. */
+  @media (max-width: 22.4rem) {
+    .cta {
+      display: none;
+    }
+  }
+
+  /* Two strokes that cross when the menu opens. */
+  .burger {
+    position: relative;
+    display: block;
+    width: 1.125rem;
+    height: 0.75rem;
+  }
+
+  .burger span {
+    position: absolute;
+    inset-inline: 0;
+    height: 1.7px;
+    border-radius: 2px;
+    background: currentColor;
+    transition:
+      transform 0.45s var(--ease-out-expo),
+      top 0.45s var(--ease-out-expo);
+  }
+
+  .burger span:first-child {
+    top: 0.125rem;
+  }
+
+  .burger span:last-child {
+    top: 0.53rem;
+  }
+
+  [aria-expanded='true'] .burger span:first-child {
+    top: 0.33rem;
+    transform: rotate(45deg);
+  }
+
+  [aria-expanded='true'] .burger span:last-child {
+    top: 0.33rem;
+    transform: rotate(-45deg);
+  }
+
+  /* The phone menu: a card that drops from the capsule, over a dimmed page. */
+  .sheet-backdrop {
+    pointer-events: auto;
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    background: rgb(4 8 20 / 0.42);
+    -webkit-backdrop-filter: blur(6px);
+    backdrop-filter: blur(6px);
+    animation: fade-in 0.35s ease both;
+  }
+
+  .sheet {
+    pointer-events: auto;
+    position: relative;
+    margin: 0.5rem auto 0;
+    max-width: 70rem;
+    max-height: calc(100dvh - 5rem);
+    overflow-y: auto;
+    padding: 0.5rem;
+    border-radius: 1.75rem;
+    background: var(--sheet-bg);
+    -webkit-backdrop-filter: saturate(180%) blur(28px);
+    backdrop-filter: saturate(180%) blur(28px);
+    box-shadow:
+      inset 0 0 0 1px var(--capsule-edge),
+      0 28px 60px -24px rgb(4 8 20 / 0.5);
+    transform-origin: top center;
+    animation: sheet-in 0.5s var(--ease-out-expo) both;
+  }
+
+  .sheet__list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sheet__row {
+    display: flex;
+    align-items: center;
+    gap: 0.875rem;
+    min-height: 3.5rem;
+    padding-block: 0.5rem;
+    padding-inline: 0.625rem 0.875rem;
+    border-radius: 1.25rem;
+    color: var(--ink);
+    transition: background-color 0.2s ease;
+  }
+
+  .sheet__row:hover,
+  .sheet__row[aria-current] {
+    background: var(--pill);
+  }
+
+  .sheet__icon {
+    display: grid;
+    flex-shrink: 0;
+    place-items: center;
+    width: 2.375rem;
+    height: 2.375rem;
+    border-radius: 0.75rem;
+    color: #fff;
+    background: var(--icon-bg);
+    box-shadow: inset 0 1px 0 rgb(255 255 255 / 0.22), 0 4px 10px -4px var(--icon-bg);
+  }
+
+  .sheet__icon svg {
+    width: 1.25rem;
+    height: 1.25rem;
+  }
+
+  .sheet__icon--features { --icon-bg: #2a5cd6; }
+  .sheet__icon--devices { --icon-bg: #5856d6; }
+  .sheet__icon--privacy { --icon-bg: #1f8a5b; }
+  .sheet__icon--pro { --icon-bg: #2f6bff; }
+  .sheet__icon--faq { --icon-bg: #d9761a; }
+  .sheet__icon--language { --icon-bg: #1a8fa8; }
+  .sheet__icon--theme { --icon-bg: #343a6e; }
+
+  .sheet__label {
+    flex: 1;
+    font-family: var(--font-display);
+    font-size: 1.1875rem;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+  }
+
+  .sheet__chevron {
+    width: 0.75rem;
+    height: 0.75rem;
+    color: var(--subtle);
+  }
+
+  :global([dir='rtl']) .sheet__chevron {
+    transform: scaleX(-1);
+  }
+
+  /* Language and theme: a group of their own, like a settings section. */
+  .sheet__prefs {
+    margin: 0.375rem 0.125rem 0;
+    padding: 0.25rem;
+    border-radius: 1.375rem;
+    background: var(--pill);
+  }
+
+  @media (min-width: 40rem) {
+    .sheet__prefs {
+      display: none;
+    }
+  }
+
+  .sheet__row--pref {
+    width: 100%;
+    min-height: 3.25rem;
+    cursor: pointer;
+    text-align: start;
+    list-style: none;
+  }
+
+  .sheet__row--pref::-webkit-details-marker {
+    display: none;
+  }
+
+  .sheet__label--pref {
+    font-family: var(--font-sans);
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: -0.01em;
+  }
+
+  .sheet__value {
+    color: var(--muted);
+    font-size: 0.9375rem;
+  }
+
+  .sheet__chevron--down {
+    transition: transform 0.35s var(--ease-out-expo);
+  }
+
+  .sheet-lang[open] .sheet__chevron--down {
+    transform: rotate(180deg);
+  }
+
+  .sheet-lang__grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.125rem;
+    padding: 0.125rem 0.25rem 0.375rem;
+  }
+
+  .sheet-lang__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+    min-height: 2.75rem;
+    padding-inline: 0.875rem 0.75rem;
+    border-radius: 0.875rem;
+    color: var(--ink-2);
+    font-size: 0.9375rem;
+    transition: background-color 0.2s ease;
+  }
+
+  .sheet-lang__item:hover {
+    background: var(--pill);
+  }
+
+  .sheet-lang__item[aria-current] {
+    background: var(--surface);
+    color: var(--ink);
+    font-weight: 600;
+    box-shadow: 0 1px 2px rgb(8 14 30 / 0.08);
+  }
+
+  .sheet-lang__item svg {
+    flex-shrink: 0;
+    width: 0.875rem;
+    height: 0.875rem;
+    color: var(--accent);
+  }
+
+  .sheet-lang[open] .sheet-lang__grid {
+    animation: row-in 0.4s var(--ease-out-expo) both;
+  }
+
+  /* The theme switch, drawn like the one in Settings. */
+  .switch {
+    --switch-off: rgb(120 120 128 / 0.2);
+    position: relative;
+    flex-shrink: 0;
+    width: 3.1875rem;
+    height: 1.9375rem;
+    border-radius: 999px;
+    background: var(--switch-off);
+    transition: background-color 0.25s ease;
+  }
+
+  :global(.dark) .switch,
+  :global(.night) .switch {
+    --switch-off: rgb(120 120 128 / 0.4);
+  }
+
+  .switch::after {
+    content: '';
+    position: absolute;
+    top: 0.125rem;
+    inset-inline-start: 0.125rem;
+    width: 1.6875rem;
+    height: 1.6875rem;
+    border-radius: 50%;
+    background: #fff;
+    box-shadow:
+      0 3px 8px rgb(0 0 0 / 0.15),
+      0 3px 1px rgb(0 0 0 / 0.06);
+    transition: transform 0.35s var(--ease-out-expo);
+  }
+
+  [aria-pressed='true'] .switch {
+    background: var(--t-sport);
+  }
+
+  [aria-pressed='true'] .switch::after {
+    transform: translateX(1.25rem);
+  }
+
+  :global([dir='rtl']) [aria-pressed='true'] .switch::after {
+    transform: translateX(-1.25rem);
+  }
+
+  .sheet__store {
+    display: flex;
+    justify-content: center;
+    margin: 0.5rem 0.25rem 0.375rem;
+    padding: 1rem 0 0.625rem;
+    border-top: 1px solid var(--line);
+  }
+
+  .sheet:not(.hidden) .sheet__list > li {
+    animation: row-in 0.5s var(--ease-out-expo) both;
+  }
+
+  .sheet:not(.hidden) .sheet__list > li:nth-child(2) { animation-delay: 0.03s; }
+  .sheet:not(.hidden) .sheet__list > li:nth-child(3) { animation-delay: 0.06s; }
+  .sheet:not(.hidden) .sheet__list > li:nth-child(4) { animation-delay: 0.09s; }
+  .sheet:not(.hidden) .sheet__list > li:nth-child(5) { animation-delay: 0.12s; }
+
+  @keyframes sheet-in {
+    from {
+      opacity: 0;
+      transform: translateY(-8px) scale(0.98);
+    }
+  }
+
+  @keyframes row-in {
+    from {
+      opacity: 0;
+      transform: translateY(-6px);
+    }
+  }
+
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .capsule,
+    .links__pill,
+    .burger span,
+    .cta__arrow,
+    .sheet__chevron--down,
+    .switch,
+    .switch::after {
+      transition: none;
+    }
+
+    .sheet,
+    .sheet-backdrop,
+    .sheet:not(.hidden) .sheet__list > li,
+    .sheet-lang[open] .sheet-lang__grid {
+      animation: none;
+    }
   }
 </style>
 
 <script>
   const root = document.documentElement;
 
-  // Theme toggle — persists the explicit choice, so it wins over the OS setting.
-  // aria-pressed tells screen readers whether dark mode is on; the script in
-  // <head> has already chosen the theme by the time this runs.
-  const themeToggle = document.getElementById('theme-toggle');
-  themeToggle?.setAttribute('aria-pressed', String(root.classList.contains('dark')));
-  themeToggle?.addEventListener('click', () => {
-    const dark = root.classList.toggle('dark');
-    themeToggle?.setAttribute('aria-pressed', String(dark));
-    try {
-      localStorage.setItem('theme', dark ? 'dark' : 'light');
-    } catch {
-      /* Private mode: the choice simply does not persist. */
-    }
-  });
+  // Theme switches – the one in the bar and the one in the phone menu. The
+  // explicit choice persists, so it wins over the OS setting. aria-pressed tells
+  // screen readers whether dark mode is on; the script in <head> has already
+  // chosen the theme by the time this runs.
+  const themeToggles = document.querySelectorAll<HTMLElement>('[data-theme-toggle]');
+  const showTheme = () => {
+    const dark = root.classList.contains('dark');
+    themeToggles.forEach((b) => b.setAttribute('aria-pressed', String(dark)));
+  };
+  showTheme();
+  themeToggles.forEach((b) =>
+    b.addEventListener('click', () => {
+      const dark = root.classList.toggle('dark');
+      showTheme();
+      try {
+        localStorage.setItem('theme', dark ? 'dark' : 'light');
+      } catch {
+        /* Private mode: the choice simply does not persist. */
+      }
+    }),
+  );
 
-  // The hairline under the bar once the page has scrolled – one write per frame at most.
+  // Lifted once the page has scrolled – one write per frame at most.
   const header = document.querySelector<HTMLElement>('.site-header');
+  const capsule = header?.querySelector<HTMLElement>('.capsule');
   let pending = false;
   const update = () => {
     pending = false;
-    header?.toggleAttribute('data-scrolled', window.scrollY > 4);
+    header?.toggleAttribute('data-scrolled', window.scrollY > 8);
   };
   update();
   window.addEventListener(
@@ -241,11 +806,22 @@ const links = [
     { passive: true },
   );
 
-  // Over Pro, the questions and the footer the bar turns to night as well:
-  // a section counts once it reaches the bar's lower edge.
+  // Over Pro, the questions and the footer the capsule turns to night as well:
+  // a section counts once it reaches the capsule's lower edge.
+  const nightBand = (edge: number, viewport: number) => {
+    // Both insets clamped to zero: in a link preview or a hidden tab the bar or
+    // the window can measure 0, and "--1px" made the constructor throw for 47
+    // visitors in November 2026 ("rootMargin must be specified as an absolute
+    // length or a percentage").
+    const top = Math.max(0, Math.round(edge) - 1);
+    const bottom = Math.max(0, Math.round(viewport - edge) - 1);
+    return `-${top}px 0px -${bottom}px 0px`;
+  };
+
   const nights = document.querySelectorAll<HTMLElement>('main .night, footer.night');
-  if (header && nights.length && 'IntersectionObserver' in window) {
+  if (header && capsule && nights.length && 'IntersectionObserver' in window) {
     const under = new Set<Element>();
+    const edge = capsule.getBoundingClientRect().bottom;
     const nightObserver = new IntersectionObserver(
       (entries) => {
         for (const entry of entries) {
@@ -254,32 +830,93 @@ const links = [
         }
         header.classList.toggle('night', under.size > 0);
       },
-      // A two-pixel band across the bar's lower edge – a section that starts
-      // right below the bar, like the Pro page's, counts from the first paint.
-      { rootMargin: `-${header.offsetHeight - 1}px 0px -${window.innerHeight - header.offsetHeight - 1}px 0px` },
+      { rootMargin: nightBand(edge, window.innerHeight) },
     );
     nights.forEach((section) => nightObserver.observe(section));
   }
 
-  // Mobile menu
+  // The gliding pill under the links.
+  const links = document.querySelector<HTMLElement>('[data-links]');
+  const pill = links?.querySelector<HTMLElement>('[data-pill]');
+  const items = Array.from(links?.querySelectorAll<HTMLAnchorElement>('.links__item') ?? []);
+  const rtl = root.dir === 'rtl';
+
+  const placePill = (target: HTMLElement | null | undefined) => {
+    if (!links || !pill) return;
+    if (!target) {
+      links.removeAttribute('data-pill-on');
+      return;
+    }
+    const box = links.getBoundingClientRect();
+    const r = target.getBoundingClientRect();
+    const x = rtl ? r.right - box.right : r.left - box.left;
+    pill.style.setProperty('--pill-x', `${x}px`);
+    pill.style.width = `${r.width}px`;
+    links.setAttribute('data-pill-on', '');
+  };
+
+  const activeItem = () => items.find((a) => a.hasAttribute('data-active'));
+
+  if (links && pill && items.length) {
+    placePill(activeItem());
+    requestAnimationFrame(() => links.setAttribute('data-pill-ready', ''));
+    items.forEach((a) => {
+      a.addEventListener('mouseenter', () => placePill(a));
+      a.addEventListener('focus', () => placePill(a));
+    });
+    links.addEventListener('mouseleave', () => placePill(activeItem()));
+    links.addEventListener('focusout', (e) => {
+      if (!links.contains(e.relatedTarget as Node | null)) placePill(activeItem());
+    });
+    window.addEventListener('resize', () => placePill(activeItem()), { passive: true });
+    // Webfonts change the links' widths once they arrive.
+    document.fonts?.ready.then(() => placePill(activeItem()));
+  }
+
+  // On the home page the bar follows the section in the middle of the window.
+  const tracked = items.filter((a) => a.dataset.section);
+  if (tracked.length && 'IntersectionObserver' in window) {
+    const sectionObserver = new IntersectionObserver(
+      (entries) => {
+        for (const entry of entries) {
+          const link = tracked.find((a) => a.dataset.section === entry.target.id);
+          if (!link) continue;
+          if (entry.isIntersecting) {
+            tracked.forEach((a) => a.toggleAttribute('data-active', a === link));
+          } else if (link.hasAttribute('data-active')) {
+            link.removeAttribute('data-active');
+          }
+        }
+        if (!links?.matches(':hover')) placePill(activeItem());
+      },
+      { rootMargin: '-45% 0px -50% 0px' },
+    );
+    tracked.forEach((a) => {
+      const section = document.getElementById(a.dataset.section ?? '');
+      if (section) sectionObserver.observe(section);
+    });
+  }
+
+  // Phone menu
   const toggle = document.getElementById('menu-toggle');
   const menu = document.getElementById('mobile-menu');
-  const iconOpen = document.getElementById('menu-icon-open');
-  const iconClose = document.getElementById('menu-icon-close');
+  const backdrop = document.querySelector<HTMLElement>('[data-backdrop]');
 
   // Everything outside the header: skip link, page and footer. The open menu
-  // covers all of it, so it goes inert – Tab and screen readers must not
-  // wander through links nobody can see (WCAG 2.4.11).
+  // covers it, so it goes inert – Tab and screen readers must not wander
+  // through links nobody can use (WCAG 2.4.11).
   const behindMenu = Array.from(document.body.children).filter(
     (el) => el !== header && !(el instanceof HTMLScriptElement),
   );
 
   const setMenu = (open: boolean) => {
     menu?.classList.toggle('hidden', !open);
-    iconOpen?.classList.toggle('hidden', open);
-    iconClose?.classList.toggle('hidden', !open);
+    backdrop?.classList.toggle('hidden', !open);
     toggle?.setAttribute('aria-expanded', String(open));
-    // The page behind a full-screen menu should not scroll.
+    header?.toggleAttribute('data-menu-open', open);
+    const label = open ? toggle?.dataset.labelClose : toggle?.dataset.labelOpen;
+    if (label) toggle?.setAttribute('aria-label', label);
+    // The page behind the menu should not scroll.
     root.classList.toggle('overflow-hidden', open);
     behindMenu.forEach((el) => el.toggleAttribute('inert', open));
   };
@@ -287,6 +924,7 @@ const links = [
   toggle?.addEventListener('click', () => {
     setMenu(menu?.classList.contains('hidden') ?? true);
   });
+  backdrop?.addEventListener('click', () => setMenu(false));
 
   // The menu only exists below the lg breakpoint. When the window widens past
   // it – a tablet turned sideways – the menu vanishes with the breakpoint and
@@ -295,12 +933,13 @@ const links = [
     if (e.matches) setMenu(false);
   });
 
-  // Close after following an in-page link, and on Escape.
+  // Close after following a link, and on Escape. On the window, not the
+  // document: the language list in the menu handles Escape on the document
+  // first and marks the event, so one Escape closes the list, the next the menu.
   menu?.querySelectorAll('a').forEach((a) => a.addEventListener('click', () => setMenu(false)));
-  document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape' && !menu?.classList.contains('hidden')) {
-      setMenu(false);
-      toggle?.focus();
-    }
+  window.addEventListener('keydown', (e) => {
+    if (e.key !== 'Escape' || e.defaultPrevented || menu?.classList.contains('hidden')) return;
+    setMenu(false);
+    toggle?.focus();
   });
 </script>

@@ -85,12 +85,17 @@ const appSchema = {
   },
 };
 
-const schemas = [appSchema, ...jsonLd];
+// One object with one "@context" and the schemas in an "@graph" – not a bare
+// array. Safari (or something running in it) reads `data["@context"]` of the
+// top-level value and threw on the array for 36 visitors in November 2026
+// ("undefined is not an object (evaluating 'r["@context"].toLowerCase')").
+const withoutContext = ({ '@context': _context, ...schema }: Record<string, unknown>) => schema;
+const graph = { '@context': 'https://schema.org', '@graph': [appSchema, ...jsonLd].map(withoutContext) };
 
 // JSON.stringify does not escape "<", so a "</script>" inside any value
 // would close the tag early. No current string contains one, but escaping
 // removes the class of bug rather than relying on that staying true.
-const jsonLdPayload = JSON.stringify(schemas).replace(/</g, '\\u003c');
+const jsonLdPayload = JSON.stringify(graph).replace(/</g, '\\u003c');
 ---
 
 <!doctype html>
@@ -113,6 +118,10 @@ const jsonLdPayload = JSON.stringify(schemas).replace(/</g, '\\u003c');
     <link rel="icon" type="image/png" href="/favicon-192.png" sizes="192x192" />
 
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    {/* Name, icons and colours when the site is added to a home screen – on
+        Android mostly. The app itself comes from the App Store; the site stays
+        a site ("display": "browser"). */}
+    <link rel="manifest" href="/manifest.webmanifest" />
     {LATIN.has(lang) && <link rel="preload" as="font" type="font/woff2" href={displayLatin} crossorigin="anonymous" />}
 
     <meta property="og:type" content="website" />

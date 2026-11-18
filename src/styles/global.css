@@ -91,7 +91,10 @@
   --action: #0c1426;
   --action-hover: #273047;
   --on-action: #ffffff;
-  --nav-bg: rgb(245 246 250 / 0.74);
+  --nav-bg: rgb(247 248 252 / 0.72);
+  --capsule-edge: rgb(12 20 38 / 0.08);
+  --pill: rgb(12 20 38 / 0.06);
+  --sheet-bg: rgb(250 251 253 / 0.94);
   --glow: rgb(36 87 214 / 0.16);
 
   /* The app's task colours – iOS system colours, as in the screenshots. */
@@ -123,7 +126,10 @@
   --action: #eef1f8;
   --action-hover: #ffffff;
   --on-action: #0c1426;
-  --nav-bg: rgb(8 10 18 / 0.72);
+  --nav-bg: rgb(12 15 26 / 0.7);
+  --capsule-edge: rgb(255 255 255 / 0.09);
+  --pill: rgb(255 255 255 / 0.08);
+  --sheet-bg: rgb(14 17 28 / 0.92);
   --glow: rgb(80 130 255 / 0.22);
 
 
@@ -157,7 +163,10 @@
   --action: #ffffff;
   --action-hover: #e7ecfb;
   --on-action: #0c1426;
-  --nav-bg: rgb(6 10 28 / 0.74);
+  --nav-bg: rgb(10 16 40 / 0.7);
+  --capsule-edge: rgb(255 255 255 / 0.1);
+  --pill: rgb(255 255 255 / 0.09);
+  --sheet-bg: rgb(10 16 40 / 0.92);
   --t-work: #0a84ff;
   --t-client: #5e5ce6;
   --t-meetings: #40c8e0;
@@ -196,7 +205,7 @@ html {
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
   /* Sticky header offset for in-page anchors. */
-  scroll-padding-top: 4.5rem;
+  scroll-padding-top: 5.5rem;
   /* Lets <details> animate to and from its natural height where supported. */
   interpolate-size: allow-keywords;
 }
@@ -206,6 +215,31 @@ body {
   background-color: var(--canvas);
   color: var(--ink);
   letter-spacing: -0.003em;
+}
+
+/* The bar floats over the top of the page (Navbar.astro): the header pulls
+   the page up by its own height, and the first section reaches up behind the
+   capsule – its ground under the glass, its content where it was. Without
+   this, the canvas showed as a band above the night sections. */
+:root {
+  --header-h: 3.875rem;
+}
+
+@media (min-width: 40rem) {
+  :root {
+    --header-h: 4rem;
+  }
+}
+
+@media (min-width: 64rem) {
+  :root {
+    --header-h: 4.25rem;
+  }
+}
+
+main > :first-child {
+  border-top: var(--header-h) solid transparent;
+  background-origin: border-box;
 }
 
 /* --------------------------------------------------------------- type --- */
@@ -607,21 +641,24 @@ h3 {
 
 .eyebrow {
   display: inline-flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 0.6rem;
   font-family: var(--font-display);
   font-size: 0.875rem;
   font-weight: 620;
   font-stretch: 110%;
   letter-spacing: 0.05em;
+  line-height: 1.35;
   text-transform: uppercase;
   color: var(--accent);
 }
 
+/* The square sits on the first line, also when a long eyebrow wraps. */
 .eyebrow::before {
   content: "";
   width: 0.5rem;
   height: 0.5rem;
+  margin-top: calc((1.35em - 0.5rem) / 2);
   flex: none;
   border-radius: 0.15rem;
   background: currentColor;

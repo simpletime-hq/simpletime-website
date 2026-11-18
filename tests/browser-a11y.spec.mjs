@@ -98,28 +98,51 @@ test('browser and accessibility baseline', async ({ page }, testInfo) => {
     await expect(page.locator('main')).not.toHaveAttribute('inert');
   }
 
-  const languageMenu = page.locator('details.lang-menu');
+  // The language list: in the bar on wide windows. On phones it sits in the
+  // menu, so the menu opens first – and Escape closes the list, then the menu.
+  const openMenu = async () => {
+    if (!mobile) return;
+    await page.locator('#menu-toggle').click();
+    await expect(page.locator('#mobile-menu')).toBeVisible();
+  };
+  const languageMenu = page.locator(mobile ? '#mobile-menu details.lang-menu' : 'header nav details.lang-menu');
   const languageSummary = languageMenu.locator('summary');
+  await openMenu();
   await languageSummary.focus();
   await page.keyboard.press('Enter');
   await expect(languageMenu).toHaveAttribute('open', '');
   await page.keyboard.press('Tab');
-  expect(await page.evaluate(() => document.querySelector('details.lang-menu')?.contains(document.activeElement) ?? false)).toBe(true);
+  expect(await languageMenu.evaluate((menu) => menu.contains(document.activeElement))).toBe(true);
   await page.keyboard.press('Escape');
   await expect(languageMenu).not.toHaveAttribute('open', '');
   await expect(languageSummary).toBeFocused();
+  if (mobile) {
+    await expect(page.locator('#mobile-menu'), 'the menu stays open for the first Escape').toBeVisible();
+    await page.keyboard.press('Escape');
+    await expect(page.locator('#mobile-menu')).toBeHidden();
+  }
 
   if (lang === 'ar') {
+    await openMenu();
+    await languageSummary.focus();
     await page.keyboard.press('Enter');
-    const alignment = await page.evaluate(() => {
-      const menu = document.querySelector('details.lang-menu');
-      const panel = document.querySelector('.lang-panel');
-      if (!menu || !panel) return null;
-      return { menuLeft: menu.getBoundingClientRect().left, panelLeft: panel.getBoundingClientRect().left };
-    });
-    expect(alignment, 'Arabic language panel geometry').not.toBeNull();
-    expect(Math.abs(alignment.panelLeft - alignment.menuLeft), 'Arabic language panel logical-end alignment').toBeLessThanOrEqual(1);
+    const alignment = await languageMenu.evaluate((menu, phone) => {
+      if (phone) {
+        // Right to left: the first language starts at the list's right edge.
+        const grid = menu.querySelector('.sheet-lang__grid');
+        const first = grid?.querySelector('a');
+        if (!grid || !first) return null;
+        return { edge: grid.getBoundingClientRect().right, item: first.getBoundingClientRect().right, tolerance: 8 };
+      }
+      // The panel hangs from the menu's logical end, its left edge in RTL.
+      const panel = menu.querySelector('.lang-panel');
+      if (!panel) return null;
+      return { edge: menu.getBoundingClientRect().left, item: panel.getBoundingClientRect().left, tolerance: 1 };
+    }, mobile);
+    expect(alignment, 'Arabic language list geometry').not.toBeNull();
+    expect(Math.abs(alignment.item - alignment.edge), 'Arabic language list logical alignment').toBeLessThanOrEqual(alignment.tolerance);
     await page.keyboard.press('Escape');
+    if (mobile) await page.keyboard.press('Escape');
   }
 
   const axe = await new AxeBuilder({ page }).analyze();

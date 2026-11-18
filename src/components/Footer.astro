@@ -1,4 +1,6 @@
 ---
+import { Image } from 'astro:assets';
+import logo from '../assets/brand/logo.png';
 import type { Lang } from '../i18n/ui';
 import { useTranslations, APP_STORE_URL, CONTACT_EMAIL, langPrefix } from '../i18n/utils';
 
@@ -31,7 +33,7 @@ const linkClass = 'inline-block py-1.5 text-muted transition-colors hover:text-i
     <div class="grid gap-12 border-t border-line pt-12 sm:grid-cols-2 lg:grid-cols-12">
       <div class="lg:col-span-6">
         <a href={links.home} class="inline-flex items-center gap-3 transition-opacity hover:opacity-80">
-          <img src="/logo.png" alt="" width="36" height="36" class="h-9 w-9 rounded-[9px]" />
+          <Image src={logo} alt="" width={36} height={36} densities={[1, 2, 3]} class="h-9 w-9 rounded-[9px]" />
           <span class="font-display text-[19px] font-semibold tracking-[-0.03em] text-ink">SimpleTime</span>
         </a>
         <p class="mt-5 max-w-sm text-[15px] leading-relaxed text-muted">{t('footer.tagline')}</p>

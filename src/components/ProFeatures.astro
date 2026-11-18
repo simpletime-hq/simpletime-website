@@ -6,19 +6,24 @@ import { getContent } from '../i18n/content';
 
 interface Props {
   lang: Lang;
+  /** The home page: five tiles, two rows on a wide screen – all of Pro is on /pro/. */
+  compact?: boolean;
 }
 
 // What SimpleTime Pro adds, each part drawn the way the app shows it – the copy
 // of the Pro page. Used on the home page and on /pro/, on a night ground.
-const { lang } = Astro.props;
+const { lang, compact = false } = Astro.props;
 const { pro } = getContent(lang);
 const feature = (id: string) => {
   const found = pro.features.find((f) => f.id === id);
   if (!found) throw new Error(`Pro section: feature "${id}" is missing in ${lang}`);
   return found;
 };
-const tiles = ['year', 'goals', 'reviews', 'places', 'focus', 'style', 'widget', 'calendar'].map(feature);
-const more = ['watch', 'report', 'future'].map(feature);
+const tiles = (compact
+  ? ['year', 'goals', 'reviews', 'places', 'calendar']
+  : ['year', 'goals', 'reviews', 'places', 'focus', 'style', 'widget', 'calendar']
+).map(feature);
+const more = compact ? [] : ['watch', 'report', 'future'].map(feature);
 
 const iconFiles = import.meta.glob<{ default: ImageMetadata }>('../assets/pro/icon-*.webp', { eager: true });
 const icons = ['standard', 'petrol', 'violet', 'slate', 'forest', 'burgundy', 'graphite', 'espresso'].map(
@@ -85,7 +90,7 @@ const calendarCss = calendarDays
   .join('');
 ---
 
-<div class="pro-bento mt-14 lg:mt-20">
+<div class:list={['pro-bento mt-14 lg:mt-20', compact && 'pro-bento--compact']}>
   {
     tiles.map((tile, i) => (
       <article class:list={['tile pro-tile reveal', `pro-tile--${tile.id}`, `delay-${(i % 3) + 1}`]}>
@@ -202,16 +207,18 @@ const calendarCss = calendarDays
   }
 </div>
 
-<ul class="pro-more mt-4 grid gap-4 lg:mt-5 lg:grid-cols-3 lg:gap-5">
-  {
-    more.map((item, i) => (
-      <li class:list={['pro-more__item reveal', `delay-${i + 1}`]}>
-        <h3 class="tile-title">{item.title}</h3>
-        <p class="tile-body mt-2">{item.body}</p>
-      </li>
-    ))
-  }
-</ul>
+{
+  more.length > 0 && (
+    <ul class="pro-more mt-4 grid gap-4 lg:mt-5 lg:grid-cols-3 lg:gap-5">
+      {more.map((item, i) => (
+        <li class:list={['pro-more__item reveal', `delay-${i + 1}`]}>
+          <h3 class="tile-title">{item.title}</h3>
+          <p class="tile-body mt-2">{item.body}</p>
+        </li>
+      ))}
+    </ul>
+  )
+}
 <style is:inline set:html={goalCss + weekCss + calendarCss + accents.map((c, i) => `.ac-${i}{background:${c}}`).join('')}></style>
 
 <style>
@@ -234,6 +241,11 @@ const calendarCss = calendarDays
     .pro-tile--calendar {
       grid-column: 1 / -1;
     }
+
+    /* Four after the year on the home page: two even rows. */
+    .pro-bento--compact .pro-tile--calendar {
+      grid-column: auto;
+    }
   }
 
   @media (min-width: 1024px) {
@@ -253,7 +265,8 @@ const calendarCss = calendarDays
     .pro-tile--focus,
     .pro-tile--style,
     .pro-tile--widget,
-    .pro-tile--calendar {
+    .pro-tile--calendar,
+    .pro-bento--compact .pro-tile--calendar {
       grid-column: span 2;
     }
   }

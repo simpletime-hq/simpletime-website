@@ -38,6 +38,7 @@ export const PRO_FAQ = [
   'trial',
   'family',
   'restore-purchase',
+  'pro-other-device',
   'cancel',
   'lifetime-switch',
   'pro-ends',

@@ -1,0 +1,49 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import type { Lang } from '../../i18n/ui';
+import { useTranslations, langPrefix } from '../../i18n/utils';
+
+interface Props {
+  lang: Lang;
+}
+
+// One 404 per language. Cloudflare serves the nearest 404.html to the address
+// that was not found (assets.not_found_handling "404-page"), so /de/… gets
+// dist/de/404.html – scripts/move-404.mjs puts each page there after the build.
+// Until November 2026 there was one English page that swapped its words at
+// runtime; bar and footer stayed English, and the document said lang="en".
+const { lang } = Astro.props;
+const t = useTranslations(lang);
+---
+
+<Layout lang={lang} path={`${langPrefix(lang)}/404/`} title={`404 · ${t('notfound.title')} · SimpleTime`} noIndex>
+  <section class="ground-glow relative overflow-hidden">
+    <div class="mx-auto max-w-3xl px-5 py-28 text-center sm:px-8 sm:py-36">
+      {/* 404 as a time of day – the clock of the app, stopped at 4:04. */}
+      <p class="t-clock text-[96px] text-ink sm:text-[148px]" aria-hidden="true" dir="ltr">4:04</p>
+
+      <h1 class="t-title mt-4">{t('notfound.title')}</h1>
+
+      <p class="t-intro mx-auto mt-5 max-w-md text-muted">{t('notfound.body')}</p>
+
+      <div class="mt-10 flex justify-center">
+        <a href={`${langPrefix(lang)}/`} class="btn btn--primary">
+          <svg
+            class="h-4 w-4 rtl:-scale-x-100"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            aria-hidden="true"
+          >
+            <path d="M19 12H5"></path>
+            <path d="m12 19-7-7 7-7"></path>
+          </svg>
+          <span>{t('notfound.home')}</span>
+        </a>
+      </div>
+    </div>
+  </section>
+</Layout>

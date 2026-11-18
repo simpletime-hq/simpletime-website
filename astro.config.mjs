@@ -6,7 +6,15 @@ export default defineConfig({
   site: 'https://simple-time.app',
   // /app/ is the page behind links into the app (see src/pages/app/index.astro) –
   // a utility page with noindex, not a page to find.
-  integrations: [sitemap({ filter: (page) => !new URL(page).pathname.startsWith('/app/') })],
+  // The 404 pages (one per language, see src/components/pages/NotFoundPage.astro) are no pages to find either.
+  integrations: [
+    sitemap({
+      filter: (page) => {
+        const { pathname } = new URL(page);
+        return !pathname.startsWith('/app/') && !/\/404\/?$/.test(pathname);
+      },
+    }),
+  ],
   vite: {
     plugins: [tailwindcss()],
     build: {

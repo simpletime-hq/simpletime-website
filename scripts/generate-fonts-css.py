@@ -16,6 +16,13 @@ visitor a download.
 All faces are declared under the family name 'Inter' so components never
 switch font-family; the browser picks the file by unicode-range.
 
+font-display: optional, not swap. Apple devices never load these faces; on
+Android and Windows the text first appears in Roboto or Segoe UI, and with
+swap it re-wrapped when Inter arrived – PageSpeed measured a layout shift of
+0.11 on the home page (16.11.2026), the App Store button jumping down.
+With optional a page keeps whatever it first painted with; the file still
+loads and the next page uses it from the cache.
+
 Japanese and Chinese go to files of their own, fonts-ja.css and
 fonts-zh.css, imported only by the /ja/ and /zh/ pages. Their 217 faces
 were 81 % of the render-blocking stylesheet on every page of the site,
@@ -158,7 +165,7 @@ for label, pkg, subset, css_name, template, family, variable, shared in SOURCES:
                 f"  font-family: '{family}';",
                 "  font-style: normal;",
                 "  font-weight: 100 900;",
-                "  font-display: swap;",
+                "  font-display: optional;",
                 # Fontsource writes format('woff2-variations'), a proposed syntax
                 # browsers never settled on — Chrome treats it as unknown and
                 # skips the source, so no Japanese font loads at all. woff2 is
@@ -176,7 +183,7 @@ for label, pkg, subset, css_name, template, family, variable, shared in SOURCES:
                     f"  font-family: '{family}';",
                     "  font-style: normal;",
                     f"  font-weight: {weight};",
-                    "  font-display: swap;",
+                    "  font-display: optional;",
                     f"  src: url('../../node_modules/{pkg}/files/{template.format(w=weight)}') format('woff2');",
                     f"  unicode-range: {spec};",
                     "}",

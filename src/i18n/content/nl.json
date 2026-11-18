@@ -337,14 +337,14 @@
             "id": "what-is",
             "q": "Wat is SimpleTime?",
             "a": [
-              "SimpleTime is een app voor tijdregistratie op iPhone, iPad en Mac. Eén tik start de klok, één tik stopt hem. Daarna laat SimpleTime zien waar je tijd naartoe gaat – als daglijst of tijdlijn, in grafieken en statistieken, en als pdf-rapport of CSV-bestand. Geen account, geen advertenties, geen verkoop van je gegevens."
+              "SimpleTime is een app voor tijdregistratie op iPhone, iPad en Mac. Eén tik start de klok, één tik stopt hem. Daarna laat SimpleTime zien waar je tijd naartoe gaat – als daglijst of tijdlijn, in grafieken en statistieken, en als pdf-rapport of CSV-bestand. Geen account nodig, geen advertenties, geen verkoop van je gegevens."
             ]
           },
           {
             "id": "free",
             "q": "Is SimpleTime gratis?",
             "a": [
-              "Ja. SimpleTime downloaden is gratis, en alles wat je nodig hebt om te registreren ook: taken en subtaken, de dagweergave, grafieken en statistieken, rapporten en export, widgets, iCloud-synchronisatie en back-ups. SimpleTime Pro is optioneel; daarmee krijg je de app voor Apple Watch, terugblikken, locaties, doelen en meer. [Alles over SimpleTime Pro](@pro)"
+              "Ja. SimpleTime downloaden is gratis, en alles wat je nodig hebt om te registreren ook: taken en subtaken, vaste tijden, de dagweergave, grafieken en statistieken, rapporten en export, widgets, synchronisatie via iCloud of LaCodea ID, en back-ups. SimpleTime Pro is optioneel; daarmee krijg je de app voor Apple Watch, terugblikken, locaties, doelen en meer. [Alles over SimpleTime Pro](@pro)"
             ]
           },
           {
@@ -355,10 +355,17 @@
             ]
           },
           {
+            "id": "lacodea-id",
+            "q": "Wat is LaCodea ID?",
+            "a": [
+              "LaCodea ID is ons optionele account voor alle apps van LaCodea. Je logt helemaal bovenaan in de instellingen in – met „Log in met Apple”, een passkey of een code per e-mail. Daarmee kun je end-to-end versleuteld synchroniseren via LaCodea ID, en geldt een aankoop van SimpleTime Pro op elk apparaat waarop je bent ingelogd; SimpleTime werkt echter ook prima zonder."
+            ]
+          },
+          {
             "id": "devices",
             "q": "Op welke apparaten werkt SimpleTime?",
             "a": [
-              "Op iPhone en iPad met iOS 26 of iPadOS 26 of nieuwer, en op Mac-computers met Apple silicon. De app voor Apple Watch hoort bij SimpleTime Pro en vereist watchOS 26. Met hetzelfde Apple Account of dezelfde LaCodea ID blijven je registraties op al deze apparaten gesynchroniseerd."
+              "Op iPhone en iPad met iOS 26 of iPadOS 26 of nieuwer, en op Mac-computers met macOS 26 of nieuwer. De app voor Apple Watch hoort bij SimpleTime Pro en vereist watchOS 26. Kies je onder Instellingen › Gegevens en synchronisatie iCloud of LaCodea ID, dan blijven je registraties gesynchroniseerd op alle apparaten met hetzelfde Apple Account of dezelfde LaCodea ID."
             ]
           },
           {
@@ -407,6 +414,20 @@
             "q": "Ik ben vergeten te starten – kan ik tijd achteraf invoeren?",
             "a": [
               "Ja. Voeg in het tabblad Dag een nieuwe registratie toe met begin en einde, of tik op een bestaande om die te wijzigen. Registraties kunnen niet overlappen: SimpleTime laat het weten als een periode botst met een andere registratie. Bij een registratie die nog loopt, kun je de start ook terugzetten – tot het einde van de vorige registratie."
+            ]
+          },
+          {
+            "id": "fixed-times",
+            "q": "Wat zijn vaste tijden?",
+            "a": [
+              "Terugkerende tijden zoals lessen, diensten of spreekuren stel je één keer in: taak, weekdagen, begin en einde, elke week of elke twee weken, desgewenst met een einddatum. Zodra een tijd voorbij is, voegt SimpleTime die zelf toe als registratie – op elk apparaat waarop je SimpleTime opent, en toch maar één keer. Je registreert alleen nog wat erbij komt; je vindt het onder Instellingen › Registratie › Vaste tijden, zonder Pro."
+            ]
+          },
+          {
+            "id": "fixed-times-pause",
+            "q": "Kan ik vaste tijden pauzeren of wijzigen?",
+            "a": [
+              "Ja. Voor schoolvakanties, vakantie of ziekte stel je onder Instellingen › Registratie › Vaste tijden met „Pauze inlassen” een pauze in waarin SimpleTime niets registreert; een afzonderlijke tijd zet je uit met de bijbehorende schakelaar. Wat al is geregistreerd, wijzig of verwijder je zoals elke andere registratie, en wijzig of verwijder je een vaste tijd, dan blijft wat al is geregistreerd gewoon staan. Overlapt een vaste tijd met een registratie die al bestaat, dan registreert SimpleTime hem niet."
             ]
           },
           {
@@ -468,7 +489,7 @@
             "id": "productivity",
             "q": "Wat is de productiviteitsscore?",
             "a": [
-              "Je kunt elke taak een categorie geven: productief, onproductief, noodzakelijk – of niet meetellen. De score laat zien hoeveel van je geregistreerde tijd productief of noodzakelijk was: (productief + noodzakelijk) ÷ totale tijd × 100."
+              "Je kunt elke taak een categorie geven: productief, onproductief, noodzakelijk – of niet meetellen. De score laat zien hoeveel van je beoordeelde tijd productief of noodzakelijk was: (productief + noodzakelijk) ÷ (productief + onproductief + noodzakelijk) × 100. Tijd zonder indeling of met „Niet meetellen” telt niet mee."
             ]
           },
           {
@@ -482,7 +503,7 @@
             "id": "pdf-report",
             "q": "Hoe maak ik een pdf-rapport?",
             "a": [
-              "Kies onder Instellingen › Rapport exporteren een periode (van vandaag tot de hele periode, of een eigen periode), zet de onderdelen aan die je wilt en sleep ze in de juiste volgorde. SimpleTime maakt de pdf met elke taak en subtaak, klaar om te delen of te bewaren. SimpleTime Pro voegt extra onderdelen toe: verloop, dagverdeling, vergelijking en doelen.",
+              "Kies onder Instellingen › Rapport exporteren een periode (van vandaag tot de hele periode, of een eigen periode), zet de onderdelen aan die je wilt en sleep ze in de juiste volgorde. SimpleTime maakt de pdf met elke taak en subtaak, klaar om te delen of te bewaren. SimpleTime Pro voegt extra onderdelen toe: „Verloop”, „Verdeling over de dag”, „Vergelijking” en „Doelen”.",
               "Voor urenstaten is er het onderdeel ‘Alle registraties’: elke registratie dag voor dag met start, einde, taak en notitie, plus dagtotalen, een eindtotaal en decimale uren – ideaal om je uren met je loonstrook te vergelijken. Het is gratis, ook zonder Pro, en staat standaard aan."
             ]
           }
@@ -519,6 +540,20 @@
             "a": [
               "Met een focusfilter volgt SimpleTime je focus: gaat „Werk” aan, dan toont de takenlijst alleen je werkcategorie – en de registratie kan met de focus beginnen en eindigen. Instellen doe je in de iOS-instellingen onder Focus › je focus › Focusfilters › Voeg filter toe › SimpleTime. Het focusfilter hoort bij SimpleTime Pro."
             ]
+          },
+          {
+            "id": "calendar-entries",
+            "q": "Kan SimpleTime mijn registraties in mijn agenda zetten?",
+            "a": [
+              "Ja, met SimpleTime Pro: zet onder Instellingen › Agenda „Registraties in Agenda” aan, dan verschijnt elke afgeronde registratie als activiteit – in een eigen agenda „SimpleTime” of in een agenda naar keuze, desgewenst per taak. Wijzig of verwijder je een registratie, dan verandert de activiteit mee, en de link in de activiteit opent de registratie in SimpleTime. Met „Taken uit agenda’s” worden agenda’s zoals „Werk” taken; activiteiten die al in je agenda staan, worden echter geen registraties. De activiteiten worden bewaard bij de aanbieder van je agenda en tonen de namen van je taken aan iedereen met wie je de agenda deelt – ook als de app-vergrendeling aan staat."
+            ]
+          },
+          {
+            "id": "menu-bar",
+            "q": "Kan ik SimpleTime op de Mac vanuit de menubalk bedienen?",
+            "a": [
+              "Ja. Een stopwatch in de menubalk laat zien of er een taak loopt; klik erop om taken te starten, te stoppen of te wisselen zonder het venster te openen. Aan- en uitzetten doe je onder Instellingen › Menubalk › Toon in menubalk. Is de app-vergrendeling ingesteld, dan toont het menu geen taaknamen en biedt het alleen Stop aan."
+            ]
           }
         ]
       },
@@ -530,14 +565,35 @@
             "id": "sync",
             "q": "Synchroniseert SimpleTime tussen mijn apparaten?",
             "a": [
-              "Ja, via iCloud of via LaCodea ID – dat kies je onder Instellingen › Gegevens en synchronisatie. Met iCloud synchroniseert elk apparaat dat met hetzelfde Apple Account is ingelogd; wanneer de synchronisatie loopt, bepaalt het systeem, en dezelfde pagina laat zien wanneer die voor het laatst liep en kan meteen synchroniseren. Met LaCodea ID synchroniseert elk apparaat waarop je met dezelfde LaCodea ID bent ingelogd, ook met een ander Apple Account – end-to-end versleuteld en, als de app open is, na ongeveer een seconde."
+              "Ja, via iCloud of via LaCodea ID – dat kies je op elk apparaat onder Instellingen › Gegevens en synchronisatie. Met iCloud synchroniseert elk apparaat dat met hetzelfde Apple Account is ingelogd; wanneer, bepaalt het systeem – afdwingen kun je de synchronisatie niet, maar dezelfde pagina laat zien wanneer die voor het laatst liep. Met LaCodea ID synchroniseert elk apparaat waarop je met dezelfde LaCodea ID bent ingelogd en die hebt gekozen, ook met een ander Apple Account – end-to-end versleuteld en, als de app open is, na ongeveer een seconde."
             ]
           },
           {
             "id": "without-icloud",
             "q": "Kan ik SimpleTime zonder iCloud gebruiken?",
             "a": [
-              "Ja. Kies in Instellingen › Gegevens en synchronisatie „Alleen op dit apparaat” – dan blijven je gegevens op dit ene apparaat. Des te belangrijker zijn dan back-ups: een back-upplan bewaart ze automatisch, bijvoorbeeld in een map van de Bestanden-app of op je eigen server."
+              "Ja. Kies in Instellingen › Gegevens en synchronisatie „Alleen op dit apparaat” – dan blijven je gegevens op dit ene apparaat. Des te belangrijker zijn dan back-ups: een back-upplan bewaart ze automatisch, bijvoorbeeld in een map van de Bestanden-app of op je eigen server. Wil je zonder iCloud toch meerdere apparaten synchroniseren, kies daar dan LaCodea ID; een apparaat zonder je iCloud-sleutelhanger vraagt dan één keer om je herstelsleutel."
+            ]
+          },
+          {
+            "id": "switch-storage",
+            "q": "Hoe wijzig ik waar mijn gegevens staan?",
+            "a": [
+              "Tik onder Instellingen › Gegevens en synchronisatie op de gewenste plek en daarna op „Stap over naar iCloud”, „Stap over naar LaCodea ID” of „Alleen op dit apparaat houden”; voor LaCodea ID log je daarbij in. Voordat je overstapt naar iCloud of LaCodea ID, maakt SimpleTime een veiligheidskopie van dit apparaat, en staan daar al gegevens, dan kies je tussen „Samenvoegen” en „Gebruik de gegevens van …”. De overstap geldt alleen voor dit apparaat, meestal vanaf de volgende start van de app – je andere apparaten blijven synchroniseren zoals voorheen, tot je ook daar overstapt. Daarna biedt SimpleTime aan om de gegevens op de oude plek te verwijderen; anders blijven ze daar staan."
+            ]
+          },
+          {
+            "id": "recovery-key",
+            "q": "Wat is de herstelsleutel?",
+            "a": [
+              "Met LaCodea ID als opslaglocatie versleutelt SimpleTime je gegevens end-to-end; de sleutel krijgen je Apple-apparaten meestal vanzelf via de iCloud-sleutelhanger. Een apparaat zonder die sleutel – bijvoorbeeld met een ander Apple Account – heeft één keer je herstelsleutel van 24 letters en cijfers nodig. Je vindt hem onder Instellingen › Gegevens en synchronisatie › Herstelsleutel, na Face ID of je apparaatcode; tot je hebt bevestigd dat je hem hebt bewaard, herinnert de pagina „Beveiliging” je eraan. Bewaar hem in je wachtwoordmanager of op papier – zonder de sleutel en zonder je apparaten kan niemand je gegevens openen, ook wij niet."
+            ]
+          },
+          {
+            "id": "recovery-key-lost",
+            "q": "Ik ben mijn herstelsleutel kwijt – wat nu?",
+            "a": [
+              "Op een apparaat dat je gegevens nog kan lezen, toont SimpleTime hem onder Instellingen › Gegevens en synchronisatie › Herstelsleutel met „Toon herstelsleutel” nog een keer – of je maakt daar een nieuwe aan, waarna de oude niet meer geldt. Kan geen van je apparaten de gegevens nog openen, dan kan niemand ze herstellen – ook wij niet. Tik dan bij het invoeren op „Ik ben mijn herstelsleutel kwijt” en begin opnieuw met de gegevens van dit apparaat; wat alleen op de server of op je andere apparaten stond, gaat daarbij verloren."
             ]
           },
           {
@@ -555,10 +611,17 @@
             ]
           },
           {
+            "id": "backup-files",
+            "q": "Waar vind ik mijn back-ups?",
+            "a": [
+              "De back-ups van een plan „Alleen op dit apparaat” vind je ook in de Bestanden-app onder „Op mijn iPhone” (of „Op mijn iPad”) › SimpleTime › Backups, die van een plan in iCloud Drive onder iCloud Drive › SimpleTime › Backups. Plannen voor een map van de Bestanden-app of je eigen server zetten ze waar je hebt gekozen. Geef zulke plannen het liefst een wachtwoord: zonder kan iedereen met toegang tot de plek een back-up openen – op het apparaat iedereen die het ontgrendelt, ook als de app-vergrendeling aan staat."
+            ]
+          },
+          {
             "id": "restore",
             "q": "Hoe herstel ik een back-up?",
             "a": [
-              "Onder Instellingen › Back-ups zet je een back-up terug – uit een van je plannen of uit een bestand. Je bestaande gegevens blijven behouden en wat ontbreekt, wordt aangevuld. Back-ups van SimpleTime 4.7 en eerder importeer je via Instellingen › Gegevens exporteren / importeren › Back-up uit JSON importeren. Wacht op een nieuw apparaat eerst tot de iCloud-synchronisatie je gegevens heeft geleverd – anders kunnen taken dubbel verschijnen."
+              "Onder Instellingen › Back-ups zet je een back-up terug – uit een van je plannen of uit een bestand. Je bestaande gegevens blijven behouden en wat ontbreekt, wordt aangevuld. Back-ups van SimpleTime 4.7 en eerder importeer je via Instellingen › Gegevens exporteren / importeren › Back-up uit JSON importeren. Wacht op een nieuw apparaat eerst tot de synchronisatie via iCloud of LaCodea ID je gegevens heeft geleverd – anders kunnen taken dubbel verschijnen."
             ]
           },
           {
@@ -567,6 +630,13 @@
             "a": [
               "Ja, altijd: als CSV-bestand met taak, notitie, duur, begin en einde – voor Excel, Numbers of elk analyseprogramma –, als pdf-rapport of als volledige back-up.",
               "Onder Instellingen › Gegevens exporteren / importeren kies je de periode van het CSV-bestand: van vandaag tot de hele periode, of een eigen periode, zoals vorige maand. Een back-up maak je onder Instellingen › Back-ups."
+            ]
+          },
+          {
+            "id": "timesheet",
+            "q": "Hoe krijg ik mijn uren voor een urenstaat?",
+            "a": [
+              "Als pdf: kies onder Instellingen › Rapport exporteren de periode, bijvoorbeeld „Vorige maand”, en laat het onderdeel „Alle registraties” aanstaan – het toont elke registratie met start, einde, taak en notitie, plus dagtotalen, een eindtotaal en decimale uren. Als tabel: kies onder Instellingen › Gegevens exporteren / importeren de periode en tik op „Gegevens als CSV exporteren” – één regel per registratie met datum, start, einde, taak, duur, decimale uren en notitie, voor Excel of Numbers. Beide zijn gratis, en registraties uit vaste tijden tellen mee zoals alle andere."
             ]
           },
           {
@@ -580,7 +650,7 @@
             "id": "new-device",
             "q": "Hoe stap ik over op een nieuwe iPhone?",
             "a": [
-              "Log in met hetzelfde Apple Account en installeer SimpleTime – gebruik je iCloud (Instellingen › Gegevens en synchronisatie), dan komt je invoer vanzelf terug. Gebruik je LaCodea ID, dan log je op het nieuwe apparaat daarmee in en kies je LaCodea ID onder Gegevens en synchronisatie; afhankelijk van het apparaat vraagt de app om je herstelsleutel. Anders maak je op het oude apparaat een back-up en zet je die op het nieuwe terug. Locaties horen bij het apparaat en worden niet gesynchroniseerd."
+              "Log in met hetzelfde Apple Account en installeer SimpleTime – gebruik je iCloud (Instellingen › Gegevens en synchronisatie), dan komt je invoer vanzelf terug. Gebruik je LaCodea ID, dan log je op het nieuwe apparaat daarmee in en kies je LaCodea ID onder Gegevens en synchronisatie; krijgt het apparaat de sleutel niet vanzelf via je iCloud-sleutelhanger, dan vraagt de app één keer om je herstelsleutel. Anders maak je op het oude apparaat een back-up en zet je die op het nieuwe terug. Locaties horen bij het apparaat en worden niet gesynchroniseerd."
             ]
           }
         ]
@@ -593,7 +663,14 @@
             "id": "data-location",
             "q": "Waar worden mijn gegevens bewaard?",
             "a": [
-              "Waar jij kiest: in Instellingen › Gegevens en synchronisatie kies je tussen „Alleen op dit apparaat”, je privé-iCloud en LaCodea ID, waar je gegevens end-to-end versleuteld zijn. Niemand anders kan je invoer lezen – ook wij niet. Back-ups staan waar je back-upplannen ze neerzetten."
+              "Waar jij kiest: in Instellingen › Gegevens en synchronisatie kies je tussen „Alleen op dit apparaat”, je privé-iCloud, waar Apple je gegevens versleutelt, en LaCodea ID, waar ze end-to-end versleuteld zijn – op geen van deze plekken kunnen wij je invoer lezen. Back-ups staan waar je back-upplannen ze neerzetten; zonder wachtwoord kan iedereen met toegang tot die plek ze lezen. Zet je met Pro „Registraties in Agenda” aan, dan staan afgeronde registraties bovendien als activiteiten in je agenda – zichtbaar voor de aanbieder ervan en voor iedereen met wie je die agenda deelt."
+            ]
+          },
+          {
+            "id": "lacodea-id-privacy",
+            "q": "Wie kan mijn registraties lezen bij synchronisatie via LaCodea ID?",
+            "a": [
+              "Alleen je apparaten. SimpleTime versleutelt taken, registraties met tijden en notities, vaste tijden, doelen en herinneringen op je apparaat (AES-GCM met 256 bits) voordat ze naar de eigen server van SimpleTime gaan – de sleutel hebben alleen je apparaten, wij niet. De server ziet alleen hoeveel records van welk type er zijn, hoe groot ze ongeveer zijn, wanneer ze zijn geschreven en of ze zijn verwijderd; hij staat in een datacenter in Frankfurt am Main. De details staan in ons [privacybeleid](@privacy)."
             ]
           },
           {
@@ -607,7 +684,7 @@
             "id": "permissions",
             "q": "Om welke toestemmingen vraagt SimpleTime?",
             "a": [
-              "Alleen wat een functie nodig heeft, en pas als je die gebruikt: meldingen voor herinneringen en locatiemeldingen, je locatie voor de functie Locaties, foto’s toevoegen om afbeeldingen te bewaren, en Face ID of Touch ID voor de app-vergrendeling. In de instellingen onder Privacy › Overzicht en toestemmingen zie je ze allemaal met hun huidige status."
+              "Alleen wat een functie nodig heeft, en pas als je die gebruikt: meldingen voor herinneringen en locatiemeldingen, je locatie voor de functie Locaties, je agenda’s voor „Registraties in Agenda”, foto’s toevoegen om afbeeldingen te bewaren, en Face ID of Touch ID voor de app-vergrendeling. In de instellingen onder Privacy › Overzicht en toestemmingen zie je ze allemaal met hun huidige status."
             ]
           },
           {
@@ -621,14 +698,28 @@
             "id": "app-lock",
             "q": "Hoe werkt de app-vergrendeling?",
             "a": [
-              "Onder Instellingen › App-vergrendeling kies je of SimpleTime opent met je iPhone-toegangscode – inclusief Face ID of Touch ID – of met een eigen code. In de appkiezer blijft SimpleTime afgedekt, en taaknamen verschijnen niet meer in de zoekfunctie van de iPhone of bij het appsymbool. Belangrijk: vergeet je je eigen code, dan kom je alleen weer in de app door hem te verwijderen en opnieuw te installeren."
+              "Onder Instellingen › App-vergrendeling kies je of SimpleTime opent met Face ID of Touch ID en je apparaatcode, of met een eigen code – cijfers of een wachtwoord. In de appkiezer blijft SimpleTime afgedekt, en taaknamen verschijnen niet meer in de zoekfunctie van de iPhone of bij het appsymbool; wat meldingen, widgets en de Apple Watch tonen, stel je in onder „Buiten de app”. Voor het geval je je eigen code vergeet, kun je vooraf „Vergeten code herstellen met apparaatcode” aanzetten of een noodwachtwoord instellen. Zonder een van beide kom je alleen weer in de app door hem te verwijderen en opnieuw te installeren – en wat alleen op dit apparaat stond, is dan zonder back-up verloren."
+            ]
+          },
+          {
+            "id": "security-overview",
+            "q": "Wat laat de pagina „Beveiliging” zien?",
+            "a": [
+              "Onder Instellingen › Beveiliging › Overzicht zie je in één oogopslag hoe goed je gegevens zijn beschermd: apparaatcode, app-vergrendeling, automatische en versleutelde back-ups en waar je gegevens staan – met LaCodea ID ook end-to-end-versleuteling en de herstelsleutel. Wat nog ontbreekt, staat onder „Aanbevolen”; elk punt legt uit hoe het je beschermt en brengt je waar nodig naar de juiste instelling."
             ]
           },
           {
             "id": "delete-all",
             "q": "Hoe verwijder ik al mijn gegevens?",
             "a": [
-              "In de instellingen onder Privacy › Alle gegevens verwijderen. Daarmee verwijder je alles in één keer – alle invoer en taken, de prullenmand, herinneringen, de back-ups van je plannen en de oude back-ups in iCloud Drive, exports en instellingen – op dit apparaat, in iCloud en, zodra ze online zijn, op je andere apparaten. Dit kan niet ongedaan worden gemaakt."
+              "In de instellingen onder Privacy › Alle gegevens verwijderen verwijder je alles in één keer – invoer en taken, de prullenmand, herinneringen, de back-ups van je plannen en de oude back-ups in iCloud Drive, exports, instellingen en de activiteiten die SimpleTime in je agenda heeft gezet. Er wordt verwijderd op dit apparaat, in iCloud en, als je via LaCodea ID synchroniseert, op de server; via iCloud bereikt het verwijderen ook je andere apparaten zodra ze online zijn. Synchroniseer je via LaCodea ID, dan houden je andere apparaten hun gegevens – verwijder ze daar ook –, en je account bij LaCodea ID blijft bestaan. Dit kan niet ongedaan worden gemaakt."
+            ]
+          },
+          {
+            "id": "lacodea-id-delete",
+            "q": "Hoe log ik uit of verwijder ik mijn LaCodea ID?",
+            "a": [
+              "Tik helemaal bovenaan in de instellingen op je LaCodea ID: „Log uit” logt je op dit apparaat uit bij alle apps van LaCodea – je gegevens blijven hier en synchroniseren weer zodra je inlogt. „Ontkoppel SimpleTime” maakt alleen SimpleTime los van je account, „Verwijder LaCodea ID” verwijdert het account voor alle apps van LaCodea – dat kan ook op account.lacodea.com. Bij ontkoppelen en bij verwijderen wist de server van SimpleTime je gesynchroniseerde gegevens daar; wat op je apparaten of in iCloud staat, blijft. Een abonnement via Apple loopt door tot je het opzegt in de instellingen van je apparaat."
             ]
           }
         ]
@@ -641,7 +732,7 @@
             "id": "pro-includes",
             "q": "Wat zit er in SimpleTime Pro?",
             "a": [
-              "De app voor Apple Watch, terugblikken op je week, maand en jaar, locaties, je registraties als activiteiten in je agenda, het jaar in één beeld, doelen, het focusfilter, een snelstart-widget, zeven accentkleuren of een eigen plus zestien app-symbolen, en extra onderdelen in het pdf-rapport. Wat er later bij komt, zit erbij. [Alles over SimpleTime Pro](@pro)"
+              "De app voor Apple Watch, terugblikken op je week, maand en jaar, locaties, je registraties als activiteiten in je agenda, het jaar in één beeld, doelen, het focusfilter, een snelstart-widget, zeven accentkleuren of een eigen, zes lettertypen, zestien app-symbolen, en extra onderdelen in het pdf-rapport. Wat er later bij komt, zit erbij. [Alles over SimpleTime Pro](@pro)"
             ]
           },
           {
@@ -673,10 +764,17 @@
             ]
           },
           {
+            "id": "pro-other-device",
+            "q": "Ik heb Pro gekocht – waarom ontbreekt het op mijn andere apparaat?",
+            "a": [
+              "Met hetzelfde Apple Account tik je daar onder Instellingen › SimpleTime Pro op „Herstel aankopen”. Met een ander Apple Account log je op beide apparaten in met dezelfde LaCodea ID; heb je Pro gekocht voordat je inlogde, log dan ook met je LaCodea ID in op een apparaat met het Apple Account waarmee je het hebt gekocht – van daaruit meldt SimpleTime de aankoop aan je account. Daarna staat op de Pro-pagina van het andere apparaat „Via je LaCodea ID”."
+            ]
+          },
+          {
             "id": "cancel",
             "q": "Hoe zeg ik mijn abonnement op?",
             "a": [
-              "In je App Store-instellingen – op de iPhone onder Instellingen › je naam › Abonnementen – of in de app op de Pro-pagina onder Abonnement beheren. Pro blijft actief tot het einde van de periode die je al hebt betaald."
+              "In je App Store-instellingen – op de iPhone onder Instellingen › je naam › Abonnementen – of in de app op de Pro-pagina onder Abonnement beheren. Dat kan alleen op een apparaat met het Apple Account waarmee je het abonnement hebt afgesloten; heb je Pro via je LaCodea ID, dan noemt de Pro-pagina die apparaten. Pro blijft actief tot het einde van de periode die je al hebt betaald, en ook het verwijderen van je LaCodea ID beëindigt een abonnement niet."
             ]
           },
           {
@@ -697,7 +795,7 @@
             "id": "pro-offline",
             "q": "Heeft Pro een internetverbinding nodig?",
             "a": [
-              "Nee. SimpleTime controleert je aankoop bij de App Store wanneer dat kan. Zonder verbinding blijft Pro werken – tot twee weken zonder contact."
+              "Nee. SimpleTime controleert je aankoop bij de App Store – en, als je met LaCodea ID bent ingelogd, ook bij je account – wanneer dat kan. Zonder verbinding blijft Pro werken – tot twee weken zonder contact."
             ]
           }
         ]
@@ -744,7 +842,7 @@
             "id": "look",
             "q": "Kan ik het uiterlijk van SimpleTime aanpassen?",
             "a": [
-              "Ja: licht, donker of volgens het systeem, en drie regelhoogtes voor de takenlijst. Met SimpleTime Pro krijg je er zeven accentkleuren of een eigen kleur bij – die loopt door knoppen, schakelaars en grafieken – en zestien app-symbolen."
+              "Ja: licht, donker of volgens het systeem, drie regelhoogtes voor de takenlijst en onder Instellingen › Lettertype een eigen tekstgrootte en vette tekst. Met SimpleTime Pro krijg je er zeven accentkleuren of een eigen kleur bij – die loopt door knoppen, schakelaars en grafieken –, zes lettertypen en zestien app-symbolen."
             ]
           },
           {
@@ -766,6 +864,13 @@
             "q": "Is er een versie voor Android, Windows of het web?",
             "a": [
               "Nee. SimpleTime is gemaakt voor iPhone, iPad, Mac en Apple Watch. Je gegevens kun je altijd als CSV exporteren."
+            ]
+          },
+          {
+            "id": "account-web",
+            "q": "Wat kan ik doen op account.lacodea.com?",
+            "a": [
+              "Daar beheer je je LaCodea ID in de browser: je inlogmethoden, je abonnementen, het downloaden van je accountgegevens en het verwijderen van het account – in SimpleTime bereik je hetzelfde account helemaal bovenaan in de instellingen. Je registraties zie je daar niet: die bestaan alleen in SimpleTime op iPhone, iPad, Mac en Apple Watch. Bij synchronisatie via LaCodea ID staan ze end-to-end versleuteld op de server van SimpleTime – LaCodea ID zelf krijgt ze nooit."
             ]
           },
           {

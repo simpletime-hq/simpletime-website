@@ -337,14 +337,14 @@
             "id": "what-is",
             "q": "What is SimpleTime?",
             "a": [
-              "SimpleTime is a time tracker for iPhone, iPad and Mac. One tap starts the clock, one tap stops it. SimpleTime then shows you where your time goes – as a day list or timeline, in charts and statistics, and as a PDF report or CSV file. No account, no ads, no selling of your data."
+              "SimpleTime is a time tracker for iPhone, iPad and Mac. One tap starts the clock, one tap stops it. SimpleTime then shows you where your time goes – as a day list or timeline, in charts and statistics, and as a PDF report or CSV file. No account needed, no ads, no selling of your data."
             ]
           },
           {
             "id": "free",
             "q": "Is SimpleTime free?",
             "a": [
-              "Yes. Downloading SimpleTime is free, and so is everything you need for tracking: tasks and subtasks, the day view, charts and statistics, reports and export, widgets, iCloud sync and backups. SimpleTime Pro is optional and adds the Apple Watch app, reviews, places, goals and more. [All about SimpleTime Pro](@pro)"
+              "Yes. Downloading SimpleTime is free, and so is everything you need for tracking: tasks and subtasks, fixed times, the day view, charts and statistics, reports and export, widgets, sync through iCloud or the LaCodea ID, and backups. SimpleTime Pro is optional and adds the Apple Watch app, reviews, places, goals and more. [All about SimpleTime Pro](@pro)"
             ]
           },
           {
@@ -355,10 +355,17 @@
             ]
           },
           {
+            "id": "lacodea-id",
+            "q": "What is the LaCodea ID?",
+            "a": [
+              "The LaCodea ID is our optional account for all LaCodea apps. You sign in at the top of Settings – with Apple, a passkey or a code by email. With it, you can sync end-to-end encrypted through the LaCodea ID, and a SimpleTime Pro purchase applies on every device you’re signed in on; SimpleTime still works fine without it."
+            ]
+          },
+          {
             "id": "devices",
             "q": "Which devices does SimpleTime run on?",
             "a": [
-              "On iPhone and iPad with iOS 26 or iPadOS 26 or later, and on Macs with Apple silicon. The Apple Watch app is part of SimpleTime Pro and needs watchOS 26. With the same Apple Account or the same LaCodea ID, your entries stay in sync on all of them."
+              "On iPhone and iPad with iOS 26 or iPadOS 26 or later, and on Macs with macOS 26 or later. The Apple Watch app is part of SimpleTime Pro and needs watchOS 26. If you choose iCloud or the LaCodea ID under Settings › Data and sync, your entries stay in sync on all devices with the same Apple Account or the same LaCodea ID."
             ]
           },
           {
@@ -410,6 +417,20 @@
             ]
           },
           {
+            "id": "fixed-times",
+            "q": "What are fixed times?",
+            "a": [
+              "Recurring times like classes, shifts or office hours are set up once: task, weekdays, start and end, every week or every other week, with an end date if you like. As soon as a time is over, SimpleTime enters it by itself – on every device where you open SimpleTime, and still only once. You only track what comes on top; you’ll find it under Settings › Tracking › Fixed Times, no Pro needed."
+            ]
+          },
+          {
+            "id": "fixed-times-pause",
+            "q": "Can I pause or change fixed times?",
+            "a": [
+              "Yes. For school holidays, time off or illness, add a pause under Settings › Tracking › Fixed Times with “Add Pause” – SimpleTime enters nothing during it; you can switch off a single time with its switch. Entries already made can be changed or deleted like any other, and if you change or delete a fixed time, what’s already entered stays. If a fixed time overlaps an entry that already exists, SimpleTime doesn’t enter it."
+            ]
+          },
+          {
             "id": "subtasks",
             "q": "How do subtasks work?",
             "a": [
@@ -434,7 +455,7 @@
             "id": "notes",
             "q": "Can I add notes to entries?",
             "a": [
-              "Yes, every entry can carry a note – what you worked on, or who you met. Notes are shown in the day view and are included in the CSV export and in backups."
+              "Yes, every entry can carry a note – what you worked on, or who you worked with. Notes are shown in the day view and are included in the CSV export and in backups."
             ]
           },
           {
@@ -468,7 +489,7 @@
             "id": "productivity",
             "q": "What is the productivity score?",
             "a": [
-              "You can give each task a category: productive, unproductive, necessary – or leave it out. The score shows how much of your tracked time was productive or necessary: (productive + necessary) ÷ total time × 100."
+              "You can give each task a category: productive, unproductive, necessary – or leave it out. The score shows how much of your rated time was productive or necessary: (productive + necessary) ÷ (productive + unproductive + necessary) × 100. Time with no assignment or set to “Exclude from productivity” doesn’t count."
             ]
           },
           {
@@ -482,8 +503,8 @@
             "id": "pdf-report",
             "q": "How do I create a PDF report?",
             "a": [
-              "Under Settings › Export Report, choose a period – from today to all time, or your own – pick the sections you want and drag them into order. SimpleTime creates the PDF with every task and subtask, ready to share or save. SimpleTime Pro adds extra sections: trend, daily spread, comparison and goals.",
-              "For timesheets there's the “All entries” section: every entry day by day with start, end, task and note, plus daily totals, a grand total and decimal hours – perfect for checking your hours against your payslip. It's free, no Pro needed, and switched on by default."
+              "Under Settings › Export Report, choose a period – from today to all time, or your own – pick the sections you want and drag them into order. SimpleTime creates the PDF with every task and subtask, ready to share or save. SimpleTime Pro adds extra sections: “Over time”, “Across the day”, “Comparison” and “Goals”.",
+              "For timesheets there’s the “All entries” section: every entry day by day with start, end, task and note, plus daily totals, a grand total and decimal hours – perfect for checking your hours against your payslip. It’s free, no Pro needed, and switched on by default."
             ]
           }
         ]
@@ -519,6 +540,20 @@
             "a": [
               "With a focus filter, SimpleTime follows your Focus: when “Work” turns on, the task list shows only your work category – and tracking can start and end with the Focus. You set it up in the iOS Settings under Focus › your Focus › Focus Filters › Add Filter › SimpleTime. The focus filter is part of SimpleTime Pro."
             ]
+          },
+          {
+            "id": "calendar-entries",
+            "q": "Can SimpleTime put my entries in my calendar?",
+            "a": [
+              "Yes, with SimpleTime Pro: turn on “Entries in Calendar” under Settings › Calendar, and every finished entry appears as an event – in its own “SimpleTime” calendar or one you choose, per task if you like. When you change or delete an entry, the event follows, and the link in the event opens the entry in SimpleTime. “Tasks from Calendars” turns calendars like “Work” into tasks; events already in your calendar don’t become entries, though. The events are stored with your calendar’s provider and show your task names to everyone you share the calendar with – even with the app lock on."
+            ]
+          },
+          {
+            "id": "menu-bar",
+            "q": "Can I use SimpleTime from the menu bar on my Mac?",
+            "a": [
+              "Yes. A stopwatch in the menu bar shows whether a task is running; click it to start, stop or switch tasks without opening the window. You turn it on or off under Settings › Menu Bar › Show in Menu Bar. With the app lock set up, the menu shows no task names and only offers Stop."
+            ]
           }
         ]
       },
@@ -530,14 +565,35 @@
             "id": "sync",
             "q": "Does SimpleTime sync between my devices?",
             "a": [
-              "Yes, via iCloud or via the LaCodea ID – you choose which under Settings › Data and sync. With iCloud, every device signed in with the same Apple Account syncs; the system decides when sync runs, and the same page shows when it last ran and can sync right away. With the LaCodea ID, every device on which you’re signed in with the same LaCodea ID syncs, even with a different Apple Account – end-to-end encrypted and, if the app is open, in about a second."
+              "Yes, via iCloud or via the LaCodea ID – you choose which on each device under Settings › Data and sync. With iCloud, every device signed in with the same Apple Account syncs; the system decides when – sync can’t be forced, but the same page shows when it last ran. With the LaCodea ID, every device on which you’re signed in with the same LaCodea ID and have chosen it syncs, even with a different Apple Account – end-to-end encrypted and, if the app is open, in about a second."
             ]
           },
           {
             "id": "without-icloud",
             "q": "Can I use SimpleTime without iCloud?",
             "a": [
-              "Yes. Choose “Only on this device” in Settings under Data and sync – your data then stays on this one device. That makes backups all the more important: a backup plan saves them automatically, for example to a folder in the Files app or to your own server."
+              "Yes. Choose “Only on this device” in Settings under Data and sync – your data then stays on this one device. That makes backups all the more important: a backup plan saves them automatically, for example to a folder in the Files app or to your own server. If you’d still like to sync several devices without iCloud, choose the LaCodea ID there; a device without your iCloud Keychain then asks once for your recovery key."
+            ]
+          },
+          {
+            "id": "switch-storage",
+            "q": "How do I change where my data lives?",
+            "a": [
+              "Under Settings › Data and sync, tap where your data should live, then “Switch to iCloud”, “Switch to LaCodea ID” or “Keep only on this device”; for the LaCodea ID, you sign in along the way. Before switching to iCloud or the LaCodea ID, SimpleTime makes a safety copy of this device, and if there’s already data there, you choose between “Merge” and “Use the data from …”. The switch only applies to this device, usually from the next launch of the app – your other devices keep syncing as before until you switch there too. Afterwards, SimpleTime offers to delete the data at the old place; otherwise it stays there."
+            ]
+          },
+          {
+            "id": "recovery-key",
+            "q": "What is the recovery key?",
+            "a": [
+              "With the LaCodea ID as your storage location, SimpleTime encrypts your data end-to-end; your Apple devices usually get the key by themselves through iCloud Keychain. A device without your iCloud Keychain – with a different Apple Account, for example – needs your recovery key once: 24 letters and digits. You find it under Settings › Data and sync › Recovery key, after Face ID or your device passcode; until you confirm that you’ve saved it, the Security page reminds you. Keep it in your password manager or on paper – without it and without your devices, nobody can open your data, not even us."
+            ]
+          },
+          {
+            "id": "recovery-key-lost",
+            "q": "I’ve lost my recovery key – what now?",
+            "a": [
+              "On a device that can still read your data, SimpleTime shows it again under Settings › Data and sync › Recovery key with “Show recovery key” – or you create a new one there, and the old one stops working. If none of your devices can open the data any more, nobody can recover it – not even us. Then tap “I lost my recovery key” when you’re asked for it and start over with the data on this device; anything that was only on the server or on your other devices is lost."
             ]
           },
           {
@@ -555,10 +611,17 @@
             ]
           },
           {
+            "id": "backup-files",
+            "q": "Where do I find my backups?",
+            "a": [
+              "Backups of a plan set to “Only on this device” also appear in the Files app under “On My iPhone” (or “On My iPad”) › SimpleTime › Backups, and those of an iCloud Drive plan under iCloud Drive › SimpleTime › Backups. Plans for a folder in the Files app or your own server put them where you chose. It’s best to give your plans a password: without one, anyone with access to the place can open a backup – on the device, anyone who unlocks it, even with the app lock on."
+            ]
+          },
+          {
             "id": "restore",
             "q": "How do I restore a backup?",
             "a": [
-              "Under Settings › Backups, you restore a backup – from one of your plans or from a file. Existing data is kept, and anything missing is added. Backups from SimpleTime 4.7 and earlier are imported under Settings › Export / Import Data › Import backup from JSON. On a new device, it’s best to wait until iCloud sync has delivered your data – otherwise tasks can end up duplicated."
+              "Under Settings › Backups, you restore a backup – from one of your plans or from a file. Existing data is kept, and anything missing is added. Backups from SimpleTime 4.7 and earlier are imported under Settings › Export / Import Data › Import backup from JSON. On a new device, it’s best to wait until sync through iCloud or the LaCodea ID has delivered your data – otherwise tasks can end up duplicated."
             ]
           },
           {
@@ -567,6 +630,13 @@
             "a": [
               "Yes, at any time: as a CSV file with task, note, duration, start and end – for Excel, Numbers or any analysis tool –, as a PDF report or as a complete backup.",
               "Under Settings › Export / Import Data, you choose the period of the CSV file – from today to all time, or your own, such as last month. You make a backup under Settings › Backups."
+            ]
+          },
+          {
+            "id": "timesheet",
+            "q": "How do I get my hours for a timesheet?",
+            "a": [
+              "As a PDF: under Settings › Export Report, choose the period – “Last Month”, for example – and leave the “All entries” section on; it lists every entry with start, end, task and note, plus daily totals, a grand total and decimal hours. As a spreadsheet: under Settings › Export / Import Data, choose the period and tap “Export data as CSV” – one row per entry with date, start, end, task, duration, decimal hours and note, for Excel or Numbers. Both are free, and entries from fixed times count like any other."
             ]
           },
           {
@@ -580,7 +650,7 @@
             "id": "new-device",
             "q": "How do I move to a new iPhone?",
             "a": [
-              "Sign in with the same Apple Account and install SimpleTime – if you use iCloud (Settings › Data and sync), your entries come back on their own. If you use the LaCodea ID, sign in with it on the new device and choose it under Data and sync; depending on the device, the app asks for your recovery key. Otherwise, make a backup on the old device and restore it on the new one. Places belong to each device and aren’t synced."
+              "Sign in with the same Apple Account and install SimpleTime – if you use iCloud (Settings › Data and sync), your entries come back on their own. If you use the LaCodea ID, sign in with it on the new device and choose it under Data and sync; if the device doesn’t get the key through your iCloud Keychain by itself, the app asks once for your recovery key. Otherwise, make a backup on the old device and restore it on the new one. Places belong to each device and aren’t synced."
             ]
           }
         ]
@@ -593,7 +663,14 @@
             "id": "data-location",
             "q": "Where is my data stored?",
             "a": [
-              "Wherever you choose: in Settings under Data and sync, you decide between “Only on this device”, your private iCloud and the LaCodea ID, where your data is end-to-end encrypted. Nobody else can read your entries – not even us. Backups are stored wherever your backup plans put them."
+              "Wherever you choose: in Settings under Data and sync, you decide between “Only on this device”, your private iCloud, where Apple encrypts it, and the LaCodea ID, where it’s end-to-end encrypted – we can’t read your entries in any of these places. Backups are stored wherever your backup plans put them; without a password, anyone with access to that place can read them. If you turn on “Entries in Calendar” with Pro, finished entries also appear as events in your calendar – visible to its provider and to everyone you share it with."
+            ]
+          },
+          {
+            "id": "lacodea-id-privacy",
+            "q": "Who can read my entries when I sync through the LaCodea ID?",
+            "a": [
+              "Only your devices. SimpleTime encrypts tasks, entries with their times and notes, fixed times, goals and reminders on your device (AES-GCM with 256 bits) before they go to SimpleTime’s own server – only your devices have the key, not us. The server only sees how many records of which kind there are, roughly how big they are, when they were written and whether they were deleted; it’s in a data centre in Frankfurt am Main. The details are in our [privacy policy](@privacy)."
             ]
           },
           {
@@ -607,7 +684,7 @@
             "id": "permissions",
             "q": "Which permissions does SimpleTime ask for?",
             "a": [
-              "Only what a feature needs, and only when you use it: notifications for reminders and place notices, your location for places, adding photos to save images, and Face ID or Touch ID for the app lock. In the settings under Privacy › Overview and Permissions, you see each one with its current status."
+              "Only what a feature needs, and only when you use it: notifications for reminders and place notices, your location for places, your calendars for “Entries in Calendar”, adding photos to save images, and Face ID or Touch ID for the app lock. In the settings under Privacy › Overview and Permissions, you see each one with its current status."
             ]
           },
           {
@@ -621,14 +698,28 @@
             "id": "app-lock",
             "q": "How does the app lock work?",
             "a": [
-              "Under Settings › App lock, you choose whether SimpleTime opens with your iPhone passcode – including Face ID or Touch ID – or with a code of your own. In the app switcher, SimpleTime stays covered, and task names no longer appear in iPhone search or on the app icon. Important: if you forget your own code, the only way back into the app is to delete and reinstall it."
+              "Under Settings › App lock, you choose whether SimpleTime opens with Face ID or Touch ID and your device passcode, or with a code of your own – digits or a password. In the app switcher, SimpleTime stays covered, and task names no longer appear in iPhone search or on the app icon; under “Outside the App”, you choose what notifications, widgets and the Apple Watch show. In case you forget your own code, you can turn on “Reset forgotten code with device passcode” beforehand or set an emergency password. Without either, the only way back is to delete and reinstall the app – and anything that was only on this device is lost unless you have a backup."
+            ]
+          },
+          {
+            "id": "security-overview",
+            "q": "What does the Security page show?",
+            "a": [
+              "Under Settings › Security › Overview, you see at a glance how well your data is protected: device passcode, app lock, automatic and encrypted backups and where your data lives – with the LaCodea ID, also end-to-end encryption and your recovery key. Anything still missing is listed under “Recommended”; each item explains how it protects you and, where needed, takes you to the right setting."
             ]
           },
           {
             "id": "delete-all",
             "q": "How do I delete all my data?",
             "a": [
-              "In Settings under Privacy › Delete all data. This removes everything at once – all entries and tasks, the trash, reminders, the backups of your plans and the old backups in iCloud Drive, exports and settings – on this device, in iCloud and, as soon as they’re online, on your other devices. It can’t be undone."
+              "In Settings under Privacy › Delete all data, you remove everything at once – entries and tasks, the trash, reminders, the backups of your plans and the old backups in iCloud Drive, exports, settings and the events SimpleTime added to your calendar. It’s deleted on this device, in iCloud and – if you sync through the LaCodea ID – on the server; through iCloud, the deletion also reaches your other devices as soon as they’re online. If you sync through the LaCodea ID, your other devices keep their data – delete it there too – and your LaCodea ID account stays. It can’t be undone."
+            ]
+          },
+          {
+            "id": "lacodea-id-delete",
+            "q": "How do I sign out or delete my LaCodea ID?",
+            "a": [
+              "Tap your LaCodea ID at the top of Settings: “Sign Out” signs you out of all LaCodea apps on this device – your data stays here and syncs again as soon as you sign in. “Disconnect SimpleTime” only detaches SimpleTime from your account; “Delete LaCodea ID” deletes the account for all LaCodea apps – you can also do that at account.lacodea.com. Whether you disconnect or delete, SimpleTime’s server deletes your synced data there; anything on your devices or in iCloud stays. A subscription through Apple keeps running until you cancel it in your device settings."
             ]
           }
         ]
@@ -641,7 +732,7 @@
             "id": "pro-includes",
             "q": "What does SimpleTime Pro include?",
             "a": [
-              "The Apple Watch app, reviews of your week, month and year, places, your entries as events in your calendar, the year at a glance, goals, the focus filter, a quick-start widget, seven accent colours or one of your own plus sixteen app icons, and extra sections in the PDF report. Whatever comes later is included. [All about SimpleTime Pro](@pro)"
+              "The Apple Watch app, reviews of your week, month and year, places, your entries as events in your calendar, the year at a glance, goals, the focus filter, a quick-start widget, seven accent colours or one of your own, six fonts, sixteen app icons and extra sections in the PDF report. Whatever comes later is included. [All about SimpleTime Pro](@pro)"
             ]
           },
           {
@@ -673,10 +764,17 @@
             ]
           },
           {
+            "id": "pro-other-device",
+            "q": "I bought Pro – why is it missing on my other device?",
+            "a": [
+              "With the same Apple Account, tap “Restore” there under Settings › SimpleTime Pro. With a different Apple Account, sign in with the same LaCodea ID on both devices; if you bought Pro before signing in, also sign in with your LaCodea ID on a device with the Apple Account you bought it with – SimpleTime reports the purchase to your account from there. The Pro page on the other device then says “Through your LaCodea ID”."
+            ]
+          },
+          {
             "id": "cancel",
             "q": "How do I cancel my subscription?",
             "a": [
-              "In your App Store settings – on iPhone under Settings › your name › Subscriptions – or in the app on the Pro page under Manage subscription. Pro stays active until the end of the period you’ve already paid for."
+              "In your App Store settings – on iPhone under Settings › your name › Subscriptions – or in the app on the Pro page under Manage subscription. This only works on a device with the Apple Account you subscribed with; if you have Pro through your LaCodea ID, the Pro page names those devices. Pro stays active until the end of the period you’ve already paid for, and deleting your LaCodea ID doesn’t end a subscription either."
             ]
           },
           {
@@ -697,7 +795,7 @@
             "id": "pro-offline",
             "q": "Does Pro need an internet connection?",
             "a": [
-              "No. SimpleTime checks your purchase with the App Store whenever it can. Without a connection, Pro keeps working – for up to two weeks without contact."
+              "No. SimpleTime checks your purchase with the App Store – and, if you’re signed in with the LaCodea ID, with your account too – whenever it can. Without a connection, Pro keeps working – for up to two weeks without contact."
             ]
           }
         ]
@@ -744,7 +842,7 @@
             "id": "look",
             "q": "Can I change how SimpleTime looks?",
             "a": [
-              "Yes: light, dark or following the system, and three row heights for the task list. With SimpleTime Pro, you also get seven accent colours or one of your own – it runs through buttons, switches and charts – and sixteen app icons."
+              "Yes: light, dark or following the system, three row heights for the task list, and under Settings › Font a text size of your own and bold text. With SimpleTime Pro, you also get seven accent colours or one of your own – it runs through buttons, switches and charts –, six fonts and sixteen app icons."
             ]
           },
           {
@@ -766,6 +864,13 @@
             "q": "Is there a version for Android, Windows or the web?",
             "a": [
               "No. SimpleTime is made for iPhone, iPad, Mac and Apple Watch. You can export your data as CSV at any time."
+            ]
+          },
+          {
+            "id": "account-web",
+            "q": "What can I do at account.lacodea.com?",
+            "a": [
+              "There you manage your LaCodea ID in the browser: your sign-in methods, your subscriptions, downloading your account data and deleting the account – in SimpleTime, you reach the same account at the top of Settings. You won’t see your entries there: they only exist in SimpleTime on iPhone, iPad, Mac and Apple Watch. If you sync through the LaCodea ID, they’re end-to-end encrypted on SimpleTime’s server – the LaCodea ID itself never gets them."
             ]
           },
           {

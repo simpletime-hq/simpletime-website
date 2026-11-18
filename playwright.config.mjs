@@ -65,6 +65,7 @@ export default defineConfig({
     scenario('arabic-terms-mobile', '/ar/terms/', 200, 'ar', 'rtl', mobile),
     scenario('german-accessibility-mobile', '/de/accessibility/', 200, 'de', 'ltr', mobile),
     scenario('not-found-desktop', '/**stweb004_probe**/', 404, 'en', 'ltr', desktop),
+    scenario('german-not-found-mobile', '/de/**stweb004_probe**/', 404, 'de', 'ltr', mobile),
     // The page behind links into the app (/app/…), for visitors without SimpleTime.
     scenario('app-link-mobile', '/app/', 200, 'en', 'ltr', mobile),
     scenario('app-link-desktop', '/app/', 200, 'en', 'ltr', desktop),

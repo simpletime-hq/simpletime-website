@@ -337,14 +337,14 @@
             "id": "what-is",
             "q": "Vad är SimpleTime?",
             "a": [
-              "SimpleTime är en app för tidrapportering på iPhone, iPad och Mac. En tryckning startar tiden, en tryckning stoppar den. Sedan visar SimpleTime vad din tid går till – som daglista eller tidsaxel, i diagram och statistik och som PDF-rapport eller CSV-fil. Inget konto, inga annonser, ingen försäljning av dina data."
+              "SimpleTime är en app för tidrapportering på iPhone, iPad och Mac. En tryckning startar tiden, en tryckning stoppar den. Sedan visar SimpleTime vad din tid går till – som daglista eller tidsaxel, i diagram och statistik och som PDF-rapport eller CSV-fil. Inget konto behövs, inga annonser, ingen försäljning av dina data."
             ]
           },
           {
             "id": "free",
             "q": "Är SimpleTime gratis?",
             "a": [
-              "Ja. SimpleTime är gratis att hämta, och det är allt du behöver för att registrera också: uppgifter och deluppgifter, dagsvyn, diagram och statistik, rapporter och export, widgetar, iCloud-synk och säkerhetskopior. SimpleTime Pro är frivilligt och lägger till appen för Apple Watch, tillbakablickar, platser, mål och mer. [Allt om SimpleTime Pro](@pro)"
+              "Ja. SimpleTime är gratis att hämta, och det är allt du behöver för att registrera också: uppgifter och deluppgifter, fasta tider, dagsvyn, diagram och statistik, rapporter och export, widgetar, synk via iCloud eller LaCodea ID och säkerhetskopior. SimpleTime Pro är frivilligt och lägger till appen för Apple Watch, tillbakablickar, platser, mål och mer. [Allt om SimpleTime Pro](@pro)"
             ]
           },
           {
@@ -355,10 +355,17 @@
             ]
           },
           {
+            "id": "lacodea-id",
+            "q": "Vad är LaCodea ID?",
+            "a": [
+              "LaCodea ID är vårt frivilliga konto för alla appar från LaCodea. Du loggar in högst upp i inställningarna – med ”Logga in med Apple”, en nyckel eller en kod via e-post. Med det kan du synka totalsträckskrypterat via LaCodea ID, och ett köp av SimpleTime Pro gäller på varje enhet där du är inloggad; men SimpleTime fungerar lika bra helt utan."
+            ]
+          },
+          {
             "id": "devices",
             "q": "Vilka enheter fungerar SimpleTime på?",
             "a": [
-              "På iPhone och iPad med iOS 26 eller iPadOS 26 eller senare, och på Mac-datorer med Apple-chip. Appen för Apple Watch hör till SimpleTime Pro och kräver watchOS 26. Med samma Apple-konto eller samma LaCodea ID hålls dina poster synkade på alla dessa enheter."
+              "På iPhone och iPad med iOS 26 eller iPadOS 26 eller senare, och på Mac-datorer med macOS 26 eller senare. Appen för Apple Watch hör till SimpleTime Pro och kräver watchOS 26. Väljer du iCloud eller LaCodea ID under Inställningar › Data och synkronisering hålls dina poster synkade på alla enheter med samma Apple-konto eller samma LaCodea ID."
             ]
           },
           {
@@ -407,6 +414,20 @@
             "q": "Jag glömde att starta – kan jag fylla i tid i efterhand?",
             "a": [
               "Ja. På fliken Dag lägger du till en ny post med start och slut, eller trycker på en befintlig post för att ändra den. Poster kan inte överlappa: SimpleTime säger till om en period krockar med en annan post. För en registrering som fortfarande pågår kan du också flytta starten bakåt – till slutet av föregående post."
+            ]
+          },
+          {
+            "id": "fixed-times",
+            "q": "Vad är fasta tider?",
+            "a": [
+              "Återkommande tider som lektioner, arbetspass eller mottagningstider lägger du in en gång: uppgift, veckodagar, start och slut, varje vecka eller varannan vecka, om du vill med ett slutdatum. Så snart en tid är över lägger SimpleTime själv in den som en post – på varje enhet där du öppnar SimpleTime, och ändå bara en gång. Du registrerar bara det som tillkommer; du hittar det under Inställningar › Registrering › Fasta tider, utan Pro."
+            ]
+          },
+          {
+            "id": "fixed-times-pause",
+            "q": "Kan jag pausa eller ändra fasta tider?",
+            "a": [
+              "Ja. Vid lov, semester eller sjukdom lägger du in en paus under Inställningar › Registrering › Fasta tider med ”Lägg in paus”, och under pausen lägger SimpleTime inte in något; en enskild tid stänger du av med dess reglage. Det som redan har lagts in ändrar eller raderar du som vilken annan post som helst, och ändrar eller raderar du en fast tid ligger det som redan har lagts in kvar. Överlappar en fast tid en post som redan finns lägger SimpleTime inte in den."
             ]
           },
           {
@@ -468,7 +489,7 @@
             "id": "productivity",
             "q": "Vad är produktivitetspoängen?",
             "a": [
-              "Du kan ge varje uppgift en kategori: produktiv, improduktiv, nödvändig – eller låta den inte räknas med. Poängen visar hur mycket av din registrerade tid som var produktiv eller nödvändig: (produktiv + nödvändig) ÷ total tid × 100."
+              "Du kan ge varje uppgift en kategori: produktiv, improduktiv, nödvändig – eller låta den inte räknas med. Poängen visar hur mycket av din bedömda tid som var produktiv eller nödvändig: (produktiv + nödvändig) ÷ (produktiv + improduktiv + nödvändig) × 100. Tid utan indelning eller med ”Räkna inte med” räknas inte."
             ]
           },
           {
@@ -482,7 +503,7 @@
             "id": "pdf-report",
             "q": "Hur skapar jag en PDF-rapport?",
             "a": [
-              "Under Inställningar › Exportera rapport väljer du en period (från i dag till hela perioden, eller en egen), slår på de avsnitt du vill ha och drar dem i rätt ordning. SimpleTime skapar PDF:en med varje uppgift och deluppgift, redo att dela eller spara. SimpleTime Pro lägger till fler avsnitt: förlopp, dygnsfördelning, jämförelse och mål.",
+              "Under Inställningar › Exportera rapport väljer du en period (från i dag till hela perioden, eller en egen), slår på de avsnitt du vill ha och drar dem i rätt ordning. SimpleTime skapar PDF:en med varje uppgift och deluppgift, redo att dela eller spara. SimpleTime Pro lägger till fler avsnitt: ”Förlopp”, ”Fördelning över dygnet”, ”Jämförelse” och ”Mål”.",
               "För tidrapporter finns avsnittet ”Alla poster”: varje post dag för dag med start, slut, uppgift och anteckning, plus dagssummor, totalsumma och decimaltimmar – perfekt för att stämma av timmarna mot lönebeskedet. Det är gratis, även utan Pro, och påslaget från början."
             ]
           }
@@ -519,6 +540,20 @@
             "a": [
               "Med ett fokusfilter följer SimpleTime ditt fokus: när ”Arbete” slås på visar uppgiftslistan bara din arbetskategori – och registreringen kan starta och sluta med fokuset. Du ställer in det i iOS-inställningarna under Fokus › ditt fokus › Fokusfilter › Lägg till filter › SimpleTime. Fokusfiltret hör till SimpleTime Pro."
             ]
+          },
+          {
+            "id": "calendar-entries",
+            "q": "Kan SimpleTime lägga in mina poster i kalendern?",
+            "a": [
+              "Ja, med SimpleTime Pro: slå på ”Poster i Kalender” under Inställningar › Kalender, så visas varje avslutad post som en aktivitet – i en egen kalender, ”SimpleTime”, eller i en som du väljer, om du vill per uppgift. Ändrar eller raderar du en post följer aktiviteten med, och länken i aktiviteten öppnar posten i SimpleTime. Med ”Uppgifter från kalendrar” blir kalendrar som ”Arbete” till uppgifter; aktiviteter som redan finns i kalendern blir dock inga poster. Aktiviteterna lagras hos din kalenders leverantör och visar dina uppgifters namn för alla du delar kalendern med – även när applåset är på."
+            ]
+          },
+          {
+            "id": "menu-bar",
+            "q": "Kan jag styra SimpleTime från menyraden på Mac?",
+            "a": [
+              "Ja. Ett tidtagarur i menyraden visar om en uppgift pågår; klicka på det för att starta, stoppa eller byta uppgift utan att öppna fönstret. Du slår på och av det under Inställningar › Menyrad › Visa i menyrad. Är applåset inställt visar menyn inga uppgiftsnamn och erbjuder bara Stoppa."
+            ]
           }
         ]
       },
@@ -530,14 +565,35 @@
             "id": "sync",
             "q": "Synkar SimpleTime mellan mina enheter?",
             "a": [
-              "Ja, via iCloud eller via LaCodea ID – det väljer du under Inställningar › Data och synkronisering. Med iCloud synkar varje enhet som är inloggad med samma Apple-konto; när synken körs bestämmer systemet, och samma sida visar när den senast kördes och kan synka direkt. Med LaCodea ID synkar varje enhet där du är inloggad med samma LaCodea ID, även med ett annat Apple-konto – totalsträckskrypterat och, när appen är öppen, efter ungefär en sekund."
+              "Ja, via iCloud eller via LaCodea ID – det väljer du på varje enhet under Inställningar › Data och synkronisering. Med iCloud synkar varje enhet som är inloggad med samma Apple-konto; när bestämmer systemet – synken går inte att tvinga fram, men samma sida visar när den senast kördes. Med LaCodea ID synkar varje enhet där du är inloggad med samma LaCodea ID och har valt det, även med ett annat Apple-konto – totalsträckskrypterat och, när appen är öppen, efter ungefär en sekund."
             ]
           },
           {
             "id": "without-icloud",
             "q": "Kan jag använda SimpleTime utan iCloud?",
             "a": [
-              "Ja. Välj ”Bara på den här enheten” i Inställningar › Data och synkronisering – då stannar dina data på den här enda enheten. Desto viktigare blir säkerhetskopior: en plan för säkerhetskopiering sparar dem automatiskt, till exempel i en mapp i appen Filer eller på din egen server."
+              "Ja. Välj ”Bara på den här enheten” i Inställningar › Data och synkronisering – då stannar dina data på den här enda enheten. Desto viktigare blir säkerhetskopior: en plan för säkerhetskopiering sparar dem automatiskt, till exempel i en mapp i appen Filer eller på din egen server. Vill du ändå synka flera enheter utan iCloud väljer du LaCodea ID där; en enhet utan din iCloud-nyckelring frågar då en gång efter din återställningsnyckel."
+            ]
+          },
+          {
+            "id": "switch-storage",
+            "q": "Hur byter jag var mina data lagras?",
+            "a": [
+              "Under Inställningar › Data och synkronisering trycker du på den plats du vill ha och sedan på ”Byt till iCloud”, ”Byt till LaCodea ID” eller ”Behåll bara på den här enheten”; för LaCodea ID loggar du in samtidigt. Innan du byter till iCloud eller LaCodea ID gör SimpleTime en reservkopia av den här enheten, och finns det redan data där väljer du mellan ”Slå ihop” och ”Använd datan från …”. Bytet gäller bara den här enheten, oftast från nästa gång appen startar – dina andra enheter fortsätter att synka som tidigare tills du byter även där. Efteråt erbjuder SimpleTime att radera dina data på den gamla platsen; annars ligger de kvar där."
+            ]
+          },
+          {
+            "id": "recovery-key",
+            "q": "Vad är återställningsnyckeln?",
+            "a": [
+              "Med LaCodea ID som lagringsplats totalsträckskrypterar SimpleTime dina data; nyckeln får dina Apple-enheter oftast av sig själva via iCloud-nyckelringen. En enhet utan den – till exempel med ett annat Apple-konto – behöver en gång din återställningsnyckel på 24 bokstäver och siffror. Du hittar den under Inställningar › Data och synkronisering › Återställningsnyckel, efter Face ID eller enhetens lösenkod; tills du har bekräftat att du har sparat den påminner sidan ”Säkerhet” dig om det. Förvara den i din lösenordshanterare eller på papper – utan den och utan dina enheter kan ingen öppna dina data, inte ens vi."
+            ]
+          },
+          {
+            "id": "recovery-key-lost",
+            "q": "Jag har tappat bort min återställningsnyckel – vad gör jag nu?",
+            "a": [
+              "På en enhet som fortfarande kan läsa dina data visar SimpleTime den igen under Inställningar › Data och synkronisering › Återställningsnyckel med ”Visa återställningsnyckel” – eller så skapar du en ny där, och då gäller den gamla inte längre. Kan ingen av dina enheter öppna dina data längre kan ingen återställa dem – inte ens vi. Tryck då på ”Jag har tappat bort min återställningsnyckel” när du ombeds ange den och börja om med data från den här enheten; det som bara fanns på servern eller på dina andra enheter går då förlorat."
             ]
           },
           {
@@ -555,10 +611,17 @@
             ]
           },
           {
+            "id": "backup-files",
+            "q": "Var hittar jag mina säkerhetskopior?",
+            "a": [
+              "Säkerhetskopiorna från en plan med ”Bara på den här enheten” hittar du också i appen Filer under ”På min iPhone” (eller ”På min iPad”) › SimpleTime › Backups, och de från en plan i iCloud Drive under iCloud Drive › SimpleTime › Backups. Planer för en mapp i appen Filer eller din egen server lägger dem där du har valt. Ge helst sådana planer ett lösenord: utan det kan alla som har åtkomst till platsen öppna en säkerhetskopia – på enheten alla som låser upp den, även när applåset är på."
+            ]
+          },
+          {
             "id": "restore",
             "q": "Hur återställer jag en säkerhetskopia?",
             "a": [
-              "Under Inställningar › Säkerhetskopior återställer du en säkerhetskopia – från en av dina planer eller från en fil. Befintliga data behålls och det som saknas fylls på. Säkerhetskopior från SimpleTime 4.7 och tidigare importerar du under Inställningar › Exportera / importera data › Importera säkerhetskopia från JSON. På en ny enhet väntar du först tills iCloud-synken har levererat dina data – annars kan uppgifter skapas två gånger."
+              "Under Inställningar › Säkerhetskopior återställer du en säkerhetskopia – från en av dina planer eller från en fil. Befintliga data behålls och det som saknas fylls på. Säkerhetskopior från SimpleTime 4.7 och tidigare importerar du under Inställningar › Exportera / importera data › Importera säkerhetskopia från JSON. På en ny enhet väntar du först tills synken via iCloud eller LaCodea ID har levererat dina data – annars kan uppgifter skapas två gånger."
             ]
           },
           {
@@ -567,6 +630,13 @@
             "a": [
               "Ja, när som helst: som CSV-fil med uppgift, anteckning, tid, start och slut – för Excel, Numbers eller vilket analysverktyg som helst –, som PDF-rapport eller som fullständig säkerhetskopia.",
               "Under Inställningar › Exportera / importera data väljer du perioden för CSV-filen (från i dag till hela perioden, eller en egen, till exempel förra månaden). En säkerhetskopia gör du under Inställningar › Säkerhetskopior."
+            ]
+          },
+          {
+            "id": "timesheet",
+            "q": "Hur får jag fram mina timmar till tidrapporten?",
+            "a": [
+              "Som PDF: under Inställningar › Exportera rapport väljer du perioden, till exempel ”Förra månaden”, och låter avsnittet ”Alla poster” vara påslaget – det listar varje post med start, slut, uppgift och anteckning, plus dagssummor, totalsumma och decimaltimmar. Som tabell: under Inställningar › Exportera / importera data väljer du perioden och trycker på ”Exportera data som CSV” – en rad per post med datum, start, slut, uppgift, längd, decimaltimmar och anteckning, för Excel eller Numbers. Båda är gratis, och poster från fasta tider räknas som alla andra."
             ]
           },
           {
@@ -580,7 +650,7 @@
             "id": "new-device",
             "q": "Hur flyttar jag till en ny iPhone?",
             "a": [
-              "Logga in med samma Apple-konto och installera SimpleTime – använder du iCloud (Inställningar › Data och synkronisering) kommer dina poster tillbaka av sig själva. Använder du LaCodea ID loggar du in med det på den nya enheten och väljer det under Data och synkronisering; beroende på enhet frågar appen efter din återställningsnyckel. Annars gör du en säkerhetskopia på den gamla enheten och återställer den på den nya. Platser hör till respektive enhet och synkas inte."
+              "Logga in med samma Apple-konto och installera SimpleTime – använder du iCloud (Inställningar › Data och synkronisering) kommer dina poster tillbaka av sig själva. Använder du LaCodea ID loggar du in med det på den nya enheten och väljer det under Data och synkronisering; får enheten inte nyckeln av sig själv via din iCloud-nyckelring frågar appen en gång efter din återställningsnyckel. Annars gör du en säkerhetskopia på den gamla enheten och återställer den på den nya. Platser hör till respektive enhet och synkas inte."
             ]
           }
         ]
@@ -593,7 +663,14 @@
             "id": "data-location",
             "q": "Var lagras mina data?",
             "a": [
-              "Där du väljer: i Inställningar › Data och synkronisering bestämmer du mellan ”Bara på den här enheten”, ditt privata iCloud och LaCodea ID, där dina data är totalsträckskrypterade. Ingen annan kan läsa dina poster – inte ens vi. Säkerhetskopior finns där dina planer för säkerhetskopiering lägger dem."
+              "Där du väljer: i Inställningar › Data och synkronisering bestämmer du mellan ”Bara på den här enheten”, ditt privata iCloud, där Apple krypterar dina data, och LaCodea ID, där de är totalsträckskrypterade – vi kan inte läsa dina poster på någon av dessa platser. Säkerhetskopior finns där dina planer för säkerhetskopiering lägger dem; utan lösenord kan alla som har åtkomst till platsen läsa dem. Slår du på ”Poster i Kalender” med Pro visas avslutade poster dessutom som aktiviteter i din kalender – synliga för kalenderns leverantör och för alla du delar den med."
+            ]
+          },
+          {
+            "id": "lacodea-id-privacy",
+            "q": "Vem kan läsa mina poster när jag synkar via LaCodea ID?",
+            "a": [
+              "Bara dina enheter. SimpleTime krypterar uppgifter, poster med tider och anteckningar, fasta tider, mål och påminnelser på din enhet (AES-GCM med 256 bitar) innan de skickas till SimpleTimes egen server – nyckeln har bara dina enheter, inte vi. Servern ser bara hur många dataposter av vilken typ det finns, ungefär hur stora de är, när de skrevs och om de har raderats; den finns i ett datacenter i Frankfurt am Main. Detaljerna finns i vår [integritetspolicy](@privacy)."
             ]
           },
           {
@@ -607,7 +684,7 @@
             "id": "permissions",
             "q": "Vilka behörigheter ber SimpleTime om?",
             "a": [
-              "Bara det som en funktion behöver, och först när du använder den: notiser för påminnelser och platsnotiser, din plats för funktionen Platser, att lägga till i Bilder när du sparar en bild, och Face ID eller Touch ID för applåset. I inställningarna under Integritet › Översikt och behörigheter ser du var och en med sin aktuella status."
+              "Bara det som en funktion behöver, och först när du använder den: notiser för påminnelser och platsnotiser, din plats för funktionen Platser, dina kalendrar för ”Poster i Kalender”, att lägga till i Bilder när du sparar en bild, och Face ID eller Touch ID för applåset. I inställningarna under Integritet › Översikt och behörigheter ser du var och en med sin aktuella status."
             ]
           },
           {
@@ -621,14 +698,28 @@
             "id": "app-lock",
             "q": "Hur fungerar applåset?",
             "a": [
-              "Under Inställningar › Applås väljer du om SimpleTime ska öppnas med din iPhone-lösenkod – inklusive Face ID eller Touch ID – eller med en egen kod. I appväxlaren förblir SimpleTime övertäckt, och uppgiftsnamn visas inte längre i sökningen på iPhone eller vid appsymbolen. Viktigt: glömmer du din egen kod kommer du bara tillbaka in i appen genom att radera appen och installera om den."
+              "Under Inställningar › Applås väljer du om SimpleTime ska öppnas med Face ID eller Touch ID och enhetens lösenkod eller med en egen kod – siffror eller ett lösenord. I appväxlaren förblir SimpleTime övertäckt, och uppgiftsnamn visas inte längre i sökningen på iPhone eller vid appsymbolen; vad notiser, widgetar och Apple Watch visar bestämmer du under ”Utanför appen”. Om du skulle glömma din egen kod kan du i förväg slå på ”Återställ glömd kod med enhetens lösenkod” eller ange ett nödlösenord. Utan något av dem kommer du bara tillbaka in i appen genom att radera appen och installera om den – och det som bara fanns på den här enheten är då förlorat om du inte har en säkerhetskopia."
+            ]
+          },
+          {
+            "id": "security-overview",
+            "q": "Vad visar sidan ”Säkerhet”?",
+            "a": [
+              "Under Inställningar › Säkerhet › Översikt ser du direkt hur väl dina data är skyddade: enhetens lösenkod, applås, automatiska och krypterade säkerhetskopior och var dina data lagras – med LaCodea ID även totalsträckskryptering och återställningsnyckel. Det som fortfarande saknas står under ”Rekommenderat”; varje punkt förklarar hur den skyddar dig och tar dig vid behov till rätt inställning."
             ]
           },
           {
             "id": "delete-all",
             "q": "Hur raderar jag alla mina data?",
             "a": [
-              "I inställningarna under Integritet › Radera alla data. Där tar du bort allt på en gång – alla poster och uppgifter, papperskorgen, påminnelser, dina planers säkerhetskopior och de gamla säkerhetskopiorna i iCloud Drive, exporter och inställningar – på den här enheten, i iCloud och, så snart de är online, på dina andra enheter. Det går inte att ångra."
+              "I inställningarna under Integritet › Radera alla data tar du bort allt på en gång – poster och uppgifter, papperskorgen, påminnelser, dina planers säkerhetskopior och de gamla säkerhetskopiorna i iCloud Drive, exporter, inställningar och de aktiviteter som SimpleTime har lagt in i din kalender. Det raderas på den här enheten, i iCloud och, om du synkar via LaCodea ID, på servern; via iCloud når raderingen även dina andra enheter så snart de är online. Synkar du via LaCodea ID behåller dina andra enheter sina data – radera dem där också –, och ditt konto hos LaCodea ID finns kvar. Det går inte att ångra."
+            ]
+          },
+          {
+            "id": "lacodea-id-delete",
+            "q": "Hur loggar jag ut eller raderar mitt LaCodea ID?",
+            "a": [
+              "Tryck på ditt LaCodea ID högst upp i inställningarna: ”Logga ut” loggar ut dig från alla appar från LaCodea på den här enheten – dina data finns kvar här och synkar igen så snart du loggar in. ”Koppla bort SimpleTime” kopplar bara loss SimpleTime från ditt konto, ”Radera LaCodea ID” raderar kontot för alla appar från LaCodea – det går också på account.lacodea.com. Både när du kopplar bort och när du raderar tar SimpleTimes server bort dina synkade data där; det som finns på dina enheter eller i iCloud finns kvar. En prenumeration via Apple fortsätter tills du säger upp den i enhetens inställningar."
             ]
           }
         ]
@@ -641,7 +732,7 @@
             "id": "pro-includes",
             "q": "Vad ingår i SimpleTime Pro?",
             "a": [
-              "Appen för Apple Watch, tillbakablickar på din vecka, din månad och ditt år, platser, dina poster som aktiviteter i kalendern, året på en gång, mål, fokusfiltret, en snabbstartswidget, sju dekorfärger eller en egen plus sexton appsymboler, och fler avsnitt i PDF-rapporten. Det som tillkommer senare ingår. [Allt om SimpleTime Pro](@pro)"
+              "Appen för Apple Watch, tillbakablickar på din vecka, din månad och ditt år, platser, dina poster som aktiviteter i kalendern, året på en gång, mål, fokusfiltret, en snabbstartswidget, sju dekorfärger eller en egen, sex typsnitt, sexton appsymboler, och fler avsnitt i PDF-rapporten. Det som tillkommer senare ingår. [Allt om SimpleTime Pro](@pro)"
             ]
           },
           {
@@ -673,10 +764,17 @@
             ]
           },
           {
+            "id": "pro-other-device",
+            "q": "Jag har köpt Pro – varför saknas det på min andra enhet?",
+            "a": [
+              "Med samma Apple-konto trycker du där på ”Återställ köp” under Inställningar › SimpleTime Pro. Med ett annat Apple-konto loggar du in med samma LaCodea ID på båda enheterna; har du köpt Pro innan du loggade in loggar du även in med ditt LaCodea ID på en enhet med det Apple-konto som du köpte med – därifrån rapporterar SimpleTime köpet till ditt konto. Sedan står det ”Via LaCodea ID” på den andra enhetens Pro-sida."
+            ]
+          },
+          {
             "id": "cancel",
             "q": "Hur säger jag upp min prenumeration?",
             "a": [
-              "I dina App Store-inställningar – på iPhone under Inställningar › ditt namn › Abonnemang – eller i appen på Pro-sidan under Hantera prenumerationen. Pro förblir aktivt till slutet av den period du redan har betalat för."
+              "I dina App Store-inställningar – på iPhone under Inställningar › ditt namn › Abonnemang – eller i appen på Pro-sidan under Hantera prenumerationen. Det går bara på en enhet med det Apple-konto som du tecknade prenumerationen med; har du Pro via ditt LaCodea ID visar Pro-sidan vilka enheter det gäller. Pro förblir aktivt till slutet av den period du redan har betalat för, och en prenumeration avslutas inte heller om du raderar ditt LaCodea ID."
             ]
           },
           {
@@ -697,7 +795,7 @@
             "id": "pro-offline",
             "q": "Behöver Pro en internetanslutning?",
             "a": [
-              "Nej. SimpleTime kontrollerar ditt köp hos App Store när det går. Utan anslutning fortsätter Pro att fungera – i upp till två veckor utan kontakt."
+              "Nej. SimpleTime kontrollerar ditt köp hos App Store – och, om du är inloggad med LaCodea ID, även hos ditt konto – när det går. Utan anslutning fortsätter Pro att fungera – i upp till två veckor utan kontakt."
             ]
           }
         ]
@@ -744,7 +842,7 @@
             "id": "look",
             "q": "Kan jag ändra hur SimpleTime ser ut?",
             "a": [
-              "Ja: ljust, mörkt eller enligt systemet, och tre radhöjder för uppgiftslistan. Med SimpleTime Pro får du också sju dekorfärger eller en egen – den går genom knappar, reglage och diagram – och sexton appsymboler."
+              "Ja: ljust, mörkt eller enligt systemet, tre radhöjder för uppgiftslistan och under Inställningar › Typsnitt en egen textstorlek och fet text. Med SimpleTime Pro får du också sju dekorfärger eller en egen – den går genom knappar, reglage och diagram –, sex typsnitt och sexton appsymboler."
             ]
           },
           {
@@ -766,6 +864,13 @@
             "q": "Finns det en version för Android, Windows eller webben?",
             "a": [
               "Nej. SimpleTime är gjord för iPhone, iPad, Mac och Apple Watch. Du kan när som helst exportera dina data som CSV."
+            ]
+          },
+          {
+            "id": "account-web",
+            "q": "Vad kan jag göra på account.lacodea.com?",
+            "a": [
+              "Där hanterar du ditt LaCodea ID i webbläsaren: dina inloggningsmetoder, dina abonnemang, nedladdning av dina kontodata och radering av kontot – i SimpleTime når du samma konto högst upp i inställningarna. Dina poster ser du inte där: de finns bara i SimpleTime på iPhone, iPad, Mac och Apple Watch. Synkar du via LaCodea ID ligger de totalsträckskrypterade på SimpleTimes server – LaCodea ID självt får dem aldrig."
             ]
           },
           {

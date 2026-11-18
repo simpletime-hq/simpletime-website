@@ -255,6 +255,12 @@ const alt = (id: string) => shots.find((s) => s.id === id)?.alt ?? '';
       width: calc(var(--pw) * 0.56);
       top: calc(var(--pw) * 0.92);
     }
+
+    /* Here the watch sits over the phone's screen, and the band fading out
+       above it turned grey over the white – it keeps the one below. */
+    .pro-hero__stage :global(.pro-hero__watch--right .watch__strap--top) {
+      display: none;
+    }
   }
 
   .plan-card {

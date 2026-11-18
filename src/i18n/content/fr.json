@@ -351,14 +351,14 @@
             "id": "account",
             "q": "Ai-je besoin d’un compte ?",
             "a": [
-              "Non. Vous ouvrez l’app et vous commencez – sans inscription. Si vous utilisez iCloud, la synchronisation passe par votre propre compte Apple, que nous ne voyons jamais. Si vous le souhaitez, vous pouvez vous connecter avec LaCodea ID, notre compte pour toutes les apps LaCodea. Nous enregistrons alors votre compte et vos achats de SimpleTime Pro – jamais vos entrées."
+              "Non. Vous ouvrez l’app et vous commencez – sans inscription. Si vous utilisez iCloud, la synchronisation passe par votre propre compte Apple, que nous ne voyons jamais. Si vous le souhaitez, vous pouvez vous connecter avec LaCodea ID, notre compte pour toutes les apps LaCodea. Nous enregistrons alors votre compte et vos achats de SimpleTime Pro – vos entrées uniquement si, sous Données et synchronisation, vous choisissez le LaCodea ID comme emplacement de stockage, et alors chiffrées de bout en bout."
             ]
           },
           {
             "id": "devices",
             "q": "Sur quels appareils SimpleTime fonctionne-t-il ?",
             "a": [
-              "Sur iPhone et iPad à partir d’iOS 26 ou d’iPadOS 26, et sur les Mac dotés d’une puce Apple. L’app pour Apple Watch fait partie de SimpleTime Pro et nécessite watchOS 26. Avec le même compte Apple, vos entrées restent synchronisées sur tous ces appareils."
+              "Sur iPhone et iPad à partir d’iOS 26 ou d’iPadOS 26, et sur les Mac dotés d’une puce Apple. L’app pour Apple Watch fait partie de SimpleTime Pro et nécessite watchOS 26. Avec le même compte Apple ou le même LaCodea ID, vos entrées restent synchronisées sur tous ces appareils."
             ]
           },
           {
@@ -530,7 +530,7 @@
             "id": "sync",
             "q": "SimpleTime se synchronise-t-il entre mes appareils ?",
             "a": [
-              "Oui, via iCloud – sur chaque appareil connecté au même compte Apple qui utilise iCloud sous Paramètres › Données et synchronisation. C’est le système qui décide du moment de la synchronisation ; la même page indique quand elle a eu lieu pour la dernière fois et permet de synchroniser tout de suite."
+              "Oui, via iCloud ou via LaCodea ID – vous le choisissez sous Paramètres › Données et synchronisation. Avec iCloud, chaque appareil connecté au même compte Apple se synchronise ; c’est le système qui décide du moment de la synchronisation, et la même page indique quand elle a eu lieu pour la dernière fois et permet de synchroniser tout de suite. Avec LaCodea ID, chaque appareil sur lequel vous êtes connecté au même LaCodea ID se synchronise, y compris avec un autre compte Apple – avec un chiffrement de bout en bout et, si l’app est ouverte, au bout d’une seconde environ."
             ]
           },
           {
@@ -580,7 +580,7 @@
             "id": "new-device",
             "q": "Comment passer à un nouvel iPhone ?",
             "a": [
-              "Connectez-vous avec le même compte Apple et installez SimpleTime – si vous utilisez iCloud (Paramètres › Données et synchronisation), vos entrées reviennent d’elles-mêmes. Sans iCloud, faites une sauvegarde sur l’ancien appareil et restaurez-la sur le nouveau. Les lieux sont propres à chaque appareil et ne sont pas synchronisés."
+              "Connectez-vous avec le même compte Apple et installez SimpleTime – si vous utilisez iCloud (Paramètres › Données et synchronisation), vos entrées reviennent d’elles-mêmes. Si vous utilisez le LaCodea ID, connectez-vous avec celui-ci sur le nouvel appareil et choisissez-le sous Données et synchronisation ; selon l’appareil, l’app vous demande votre clé de secours. Sinon, faites une sauvegarde sur l’ancien appareil et restaurez-la sur le nouveau. Les lieux sont propres à chaque appareil et ne sont pas synchronisés."
             ]
           }
         ]
@@ -593,7 +593,7 @@
             "id": "data-location",
             "q": "Où mes données sont-elles stockées ?",
             "a": [
-              "Là où vous le choisissez : dans Paramètres, sous Données et synchronisation, vous décidez entre « Sur cet appareil uniquement » et votre iCloud privé. Personne d’autre ne peut lire vos entrées – pas même nous. Les sauvegardes se trouvent là où vos plans de sauvegarde les enregistrent."
+              "Là où vous le choisissez : dans Paramètres, sous Données et synchronisation, vous décidez entre « Sur cet appareil uniquement », votre iCloud privé et le LaCodea ID, où vos données sont chiffrées de bout en bout. Personne d’autre ne peut lire vos entrées – pas même nous. Les sauvegardes se trouvent là où vos plans de sauvegarde les enregistrent."
             ]
           },
           {
@@ -669,7 +669,7 @@
             "id": "restore-purchase",
             "q": "Comment obtenir Pro sur mes autres appareils ?",
             "a": [
-              "Pro est lié à votre compte Apple. Sur vos autres appareils connectés au même compte, il est généralement débloqué automatiquement. Sinon, touchez Restaurer sur la page Pro, dans Paramètres › SimpleTime Pro."
+              "Pro est lié à votre compte Apple. Sur vos autres appareils connectés au même compte, il est généralement débloqué automatiquement. Sinon, touchez Restaurer sur la page Pro, dans Paramètres › SimpleTime Pro. Si vous êtes connecté avec LaCodea ID, vous avez Pro sur chaque appareil utilisant le même LaCodea ID, y compris avec un autre compte Apple. La page Pro indique alors où vous avez souscrit l’abonnement – c’est seulement là que vous pouvez le modifier."
             ]
           },
           {
@@ -793,8 +793,8 @@
     "summaryTitle": "En bref",
     "summary": [
       "Votre temps vous appartient. SimpleTime ne nécessite aucun compte, n’affiche aucune publicité et ne vend pas vos données.",
-      "Vos entrées se trouvent sur vos appareils et, si vous le choisissez, dans votre iCloud privé ou en évènements dans votre calendrier – nous ne pouvons pas les lire.",
-      "Si vous le souhaitez, vous pouvez vous connecter avec LaCodea ID, notre compte pour toutes les apps LaCodea. Nous enregistrons alors votre compte et vos achats de SimpleTime Pro – jamais vos entrées.",
+      "Vos entrées se trouvent sur vos appareils et, si vous le choisissez, dans votre iCloud privé, chiffrées de bout en bout auprès du LaCodea ID ou en évènements dans votre calendrier – nous ne pouvons pas les lire.",
+      "Si vous le souhaitez, vous pouvez vous connecter avec LaCodea ID, notre compte pour toutes les apps LaCodea. Nous enregistrons alors votre compte et vos achats de SimpleTime Pro. Vos entrées, uniquement si vous choisissez le LaCodea ID comme emplacement de vos données – et alors chiffrées de sorte que seuls vos appareils puissent les ouvrir.",
       "Pour que nous trouvions vite les bugs, l’app envoie des rapports de plantage et des statistiques d’utilisation anonymes – sans identifiant d’appareil, jamais avec vos entrées, et désactivables à tout moment.",
       "Ce site ne dépose lui-même aucun cookie et ne charge rien depuis des tiers. Nous comptons ses visiteurs de manière anonyme avec Atriya, notre propre service d’analyse."
     ],
@@ -811,14 +811,23 @@
         "id": "app",
         "title": "L’app SimpleTime",
         "paragraphs": [
-          "SimpleTime est conçu pour que nous n’ayons pas besoin de vos données. Tout ce que vous saisissez – tâches, entrées avec leurs durées et leurs notes, horaires fixes, objectifs, rappels et réglages – est enregistré sur votre appareil. L’app ne contient ni publicité ni SDK tiers. Elle n’envoie vos entrées à aucun serveur à nous ; nous n’y avons jamais accès. Ce que l’app transmet de manière anonyme sur les plantages et l’utilisation est décrit sous « Rapports de plantage et statistiques d’utilisation » ; ce qui s’y ajoute si vous choisissez de vous connecter, sous « LaCodea ID » et « Achats »."
+          "SimpleTime est conçu pour que nous n’ayons pas besoin de vos données. Tout ce que vous saisissez – tâches, entrées avec leurs durées et leurs notes, horaires fixes, objectifs, rappels et réglages – est enregistré sur votre appareil. L’app ne contient ni publicité ni SDK tiers. Elle n’envoie vos entrées à un serveur à nous que si vous choisissez le LaCodea ID comme emplacement de vos données – et alors chiffrées de bout en bout ; nous ne pouvons jamais les lire. Ce que l’app transmet de manière anonyme sur les plantages et l’utilisation est décrit sous « Rapports de plantage et statistiques d’utilisation » ; ce qui s’y ajoute si vous choisissez de vous connecter, sous « LaCodea ID », « Synchronisation via LaCodea ID » et « Achats »."
         ],
         "subsections": [
           {
             "title": "Emplacement des données et synchronisation iCloud",
             "paragraphs": [
-              "Dans Paramètres, sous Données et synchronisation, vous choisissez où se trouvent vos données : sur cet appareil uniquement ou dans votre iCloud. Si vous utilisez iCloud et n’avez rien choisi d’autre, SimpleTime utilise iCloud – comme dans les versions précédentes. Un changement prend effet au prochain démarrage de l’app.",
+              "Dans Paramètres, sous Données et synchronisation, vous choisissez où se trouvent vos données : sur cet appareil uniquement, dans votre iCloud ou auprès du LaCodea ID (voir « Synchronisation via LaCodea ID »). Si vous utilisez iCloud et n’avez rien choisi d’autre, SimpleTime utilise iCloud – comme dans les versions précédentes. Un changement prend effet au prochain démarrage de l’app.",
               "Avec iCloud, SimpleTime synchronise vos données entre vos appareils grâce à CloudKit d’Apple, dans la base de données privée de votre compte iCloud. Apple transmet et stocke les données de manière chiffrée ; la politique de confidentialité d’Apple s’applique. Nous ne pouvons ni voir ces données ni y accéder. Si vous passez à « Sur cet appareil uniquement », vos données restent dans iCloud jusqu’à ce que vous les y supprimiez – SimpleTime vous le propose après le changement."
+            ]
+          },
+          {
+            "title": "Synchronisation via LaCodea ID",
+            "paragraphs": [
+              "Si vous choisissez le LaCodea ID sous Données et synchronisation, SimpleTime synchronise vos données entre vos appareils via un serveur propre à SimpleTime. Pour cela, vous devez être connecté avec LaCodea ID.",
+              "Tout ce que SimpleTime y envoie – tâches, entrées avec leurs durées et leurs notes, horaires fixes, objectifs et rappels – est chiffré au préalable sur votre appareil (AES-GCM 256 bits). Seuls vos appareils en possèdent la clé : elle se trouve dans votre trousseau iCloud et, verrouillée par votre clé de secours, sur le serveur. L’app vous montre la clé de secours pour que vous la conserviez en lieu sûr ; sans elle, personne ne peut ouvrir la clé – pas même nous. Si vous perdez la clé de secours et l’accès à tous vos appareils, les données sur le serveur ne peuvent plus être lues.",
+              "Le serveur ne peut pas ouvrir vos données. Il voit seulement combien d’enregistrements appartiennent à chaque compte et, pour chacun d’eux, de quel type il s’agit (tâche, entrée, objectif ou rappel), quelle est approximativement sa taille, s’il a été supprimé et quand il a été écrit. Le serveur est hébergé par Supabase Pte. Ltd., 65 Chulia Street #38-02/03, OCBC Centre, Singapore 049513, dans un centre de données situé à Francfort-sur-le-Main, en Allemagne ; Supabase traite les données pour notre compte, et pour un accès depuis Singapour ou les États-Unis, les clauses contractuelles types de l’UE s’appliquent (art. 46, par. 2, point c), du RGPD). La base juridique est l’exécution du contrat relatif à la synchronisation, que vous utilisez en choisissant cet emplacement (art. 6, par. 1, point b), du RGPD).",
+              "Si vous changez d’emplacement, SimpleTime vous propose de supprimer vos données sur le serveur. Elles y sont également supprimées avec « Supprimer toutes les données » dans l’app, lorsque vous dissociez SimpleTime de votre LaCodea ID et lorsque vous supprimez le LaCodea ID."
             ]
           },
           {
@@ -883,7 +892,7 @@
             "paragraphs": [
               "SimpleTime fonctionne sans compte. Dans Paramètres, vous pouvez toutefois vous connecter avec LaCodea ID, le compte pour toutes les apps LaCodea – avec « Se connecter avec Apple », une clé d’accès ou un code par e-mail. Nous exploitons nous-mêmes le LaCodea ID ; là aussi, nous sommes le responsable du traitement.",
               "Pour votre compte, nous enregistrons votre adresse e-mail, votre nom si vous l’indiquez ou si « Se connecter avec Apple » le transmet, l’identifiant de votre compte, vos modes de connexion et vos clés d’accès (uniquement leur partie publique), ainsi que les apps LaCodea que vous utilisez avec ce compte et la date de leur dernière utilisation. Avec « Se connecter avec Apple », vous pouvez masquer votre adresse e-mail ; nous ne recevons alors qu’une adresse relais d’Apple. Nous envoyons les codes de connexion et les avis concernant la sécurité de votre compte – par exemple lors d’une nouvelle connexion – par e-mail via Resend (Plus Five Five, Inc., États-Unis) ; Resend est certifiée au titre de l’EU-U.S. Data Privacy Framework, et les clauses contractuelles types de l’UE s’appliquent. Les données du compte sont stockées chez Supabase Pte. Ltd., 65 Chulia Street #38-02/03, OCBC Centre, Singapore 049513, dans un centre de données situé à Francfort-sur-le-Main, en Allemagne ; Supabase les traite pour notre compte. Supabase ayant son siège à Singapour et faisant appel à des sous-traitants ultérieurs, notamment aux États-Unis, un accès depuis ces pays ne peut être exclu ; les clauses contractuelles types de l’UE s’appliquent à cet égard (art. 46, par. 2, point c), du RGPD).",
-              "Le LaCodea ID ne reçoit ni vos tâches, ni vos entrées, ni vos durées, ni vos notes. La base juridique est l’exécution du contrat relatif à votre compte (art. 6, par. 1, point b), du RGPD). Pour en savoir plus, consultez la politique de confidentialité du LaCodea ID : [lacodea.com/privacy](https://lacodea.com/privacy#lacodea-id)",
+              "Le LaCodea ID ne reçoit ni vos tâches, ni vos entrées, ni vos durées, ni vos notes – pas même lors de la synchronisation par son intermédiaire : celle-ci passe, chiffrée de bout en bout, par un serveur propre à SimpleTime (voir « Synchronisation via LaCodea ID »). La base juridique est l’exécution du contrat relatif à votre compte (art. 6, par. 1, point b), du RGPD). Pour en savoir plus, consultez la politique de confidentialité du LaCodea ID : [lacodea.com/privacy](https://lacodea.com/privacy#lacodea-id)",
               "Sur la page de votre compte, dans Paramètres, vous vous déconnectez, dissociez SimpleTime de votre compte ou supprimez le LaCodea ID avec toutes ses données."
             ]
           },
@@ -891,7 +900,8 @@
             "title": "Achats",
             "paragraphs": [
               "SimpleTime Pro s’achète via l’App Store. Apple gère le paiement et l’abonnement ; nous ne recevons jamais de données de paiement. Sans connexion, l’app demande seulement à l’App Store si Pro est actif, et nous recevons d’Apple des rapports de ventes sans données personnelles.",
-              "Si vous êtes connecté avec LaCodea ID, un achat est rattaché à votre compte : lors de l’achat, SimpleTime transmet à Apple l’identifiant de votre compte, et l’app signale vos achats au LaCodea ID – la transaction signée par Apple, avec le produit, la date d’achat, la durée, le prix, la devise et le pays. S’y ajoute un identifiant d’appareil qu’Apple fournit à cet effet, afin que l’on puisse vérifier que la transaction provient de votre appareil ; il ne sert qu’à cette vérification et n’est pas enregistré. Le LaCodea ID vérifie chaque signalement auprès d’Apple et reçoit d’Apple des notifications concernant les renouvellements, les résiliations et les remboursements. Ainsi, la page « Abonnements » du LaCodea ID indique quels abonnements vous avez – dans chaque app LaCodea et sur account.lacodea.com. La base juridique est l’art. 6, par. 1, point b), du RGPD.",
+              "Si vous êtes connecté avec LaCodea ID, un achat est rattaché à votre compte : lors de l’achat, SimpleTime transmet à Apple l’identifiant de votre compte, et l’app signale vos achats au LaCodea ID – la transaction signée par Apple, avec le produit, la date d’achat, la durée, le prix, la devise et le pays. S’y ajoutent un identifiant d’appareil qu’Apple fournit à cet effet, afin que l’on puisse vérifier que la transaction provient de votre appareil, ainsi que le type et le modèle de votre appareil (par exemple « iPhone18,1 », affiché comme « iPhone 17 Pro ») – jamais son nom. Le LaCodea ID vérifie chaque signalement auprès d’Apple et reçoit d’Apple des notifications concernant les renouvellements, les résiliations et les remboursements. Ainsi, la page « Abonnements » du LaCodea ID indique quels abonnements vous avez – dans chaque app LaCodea et sur account.lacodea.com.",
+              "Un abonnement ne peut être modifié ou résilié que sur un appareil connecté au compte Apple avec lequel vous l’avez souscrit. Pour que vous sachiez de quel appareil il s’agit, le LaCodea ID enregistre, pour chaque achat, les appareils depuis lesquels SimpleTime l’a signalé : le type et le modèle, si l’achat y provient du partage familial et quand l’appareil l’a signalé pour la première et pour la dernière fois – l’identifiant d’appareil fourni par Apple uniquement sous forme d’empreinte, afin de reconnaître « cet appareil ». La page « Abonnements » et la page Pro de SimpleTime vous montrent ces appareils. Ces informations sont supprimées avec l’achat et au plus tard 13 mois après le dernier signalement de l’appareil. La base juridique est l’art. 6, par. 1, point b), du RGPD.",
               "Nous conservons l’identifiant d’un achat chez Apple, avec son dernier état, jusqu’à 13 mois, même après la suppression de votre compte – il n’est alors plus rattaché à celui-ci. Nous reconnaissons ainsi les signalements plus anciens concernant le même achat."
             ]
           },
@@ -910,7 +920,7 @@
           {
             "title": "Suppression de vos données",
             "paragraphs": [
-              "Dans les paramètres de l’app, sous Confidentialité › Supprimer toutes les données, vous effacez d’un coup tout ce que SimpleTime a enregistré – sur cet appareil, dans iCloud, les sauvegardes de vos plans là où elles se trouvent, les anciennes sauvegardes dans iCloud Drive et les évènements que SimpleTime a inscrits dans vos calendriers ; via iCloud, la suppression atteint aussi vos autres appareils. Les statistiques anonymes ne peuvent être rattachées à aucun appareil et ne peuvent donc pas être supprimées de manière ciblée. Si vous supprimez l’app, ses données disparaissent de cet appareil. Votre compte LaCodea ID n’en est pas affecté ; vous le supprimez sur la page de votre compte."
+              "Dans les paramètres de l’app, sous Confidentialité › Supprimer toutes les données, vous effacez d’un coup tout ce que SimpleTime a enregistré – sur cet appareil, dans iCloud, sur le serveur en cas de synchronisation via LaCodea ID, les sauvegardes de vos plans là où elles se trouvent, les anciennes sauvegardes dans iCloud Drive et les évènements que SimpleTime a inscrits dans vos calendriers ; via iCloud, la suppression atteint aussi vos autres appareils. En cas de synchronisation via LaCodea ID, vos autres appareils conservent leurs données – vous les y supprimez de la même façon. Les statistiques anonymes ne peuvent être rattachées à aucun appareil et ne peuvent donc pas être supprimées de manière ciblée. Si vous supprimez l’app, ses données disparaissent de cet appareil. Votre compte LaCodea ID n’en est pas affecté ; vous le supprimez sur la page de votre compte."
             ]
           }
         ]

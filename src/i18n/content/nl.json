@@ -351,14 +351,14 @@
             "id": "account",
             "q": "Heb ik een account nodig?",
             "a": [
-              "Nee. Je opent de app en begint – zonder je ergens aan te melden. Gebruik je iCloud, dan loopt de synchronisatie via je eigen Apple Account, dat wij nooit te zien krijgen. Als je wilt, kun je inloggen met LaCodea ID, ons account voor alle apps van LaCodea. Dan slaan we je account en je aankopen van SimpleTime Pro op – je invoer nooit."
+              "Nee. Je opent de app en begint – zonder je ergens aan te melden. Gebruik je iCloud, dan loopt de synchronisatie via je eigen Apple Account, dat wij nooit te zien krijgen. Als je wilt, kun je inloggen met LaCodea ID, ons account voor alle apps van LaCodea. Dan slaan we je account en je aankopen van SimpleTime Pro op – je invoer alleen als je onder Gegevens en synchronisatie LaCodea ID als opslaglocatie kiest, en dan end-to-end versleuteld."
             ]
           },
           {
             "id": "devices",
             "q": "Op welke apparaten werkt SimpleTime?",
             "a": [
-              "Op iPhone en iPad met iOS 26 of iPadOS 26 of nieuwer, en op Mac-computers met Apple silicon. De app voor Apple Watch hoort bij SimpleTime Pro en vereist watchOS 26. Met hetzelfde Apple Account blijven je registraties op al deze apparaten gesynchroniseerd."
+              "Op iPhone en iPad met iOS 26 of iPadOS 26 of nieuwer, en op Mac-computers met Apple silicon. De app voor Apple Watch hoort bij SimpleTime Pro en vereist watchOS 26. Met hetzelfde Apple Account of dezelfde LaCodea ID blijven je registraties op al deze apparaten gesynchroniseerd."
             ]
           },
           {
@@ -530,7 +530,7 @@
             "id": "sync",
             "q": "Synchroniseert SimpleTime tussen mijn apparaten?",
             "a": [
-              "Ja, via iCloud – op elk apparaat dat met hetzelfde Apple Account is ingelogd en onder Instellingen › Gegevens en synchronisatie iCloud gebruikt. Wanneer de synchronisatie loopt, bepaalt het systeem; dezelfde pagina laat zien wanneer die voor het laatst liep en kan meteen synchroniseren."
+              "Ja, via iCloud of via LaCodea ID – dat kies je onder Instellingen › Gegevens en synchronisatie. Met iCloud synchroniseert elk apparaat dat met hetzelfde Apple Account is ingelogd; wanneer de synchronisatie loopt, bepaalt het systeem, en dezelfde pagina laat zien wanneer die voor het laatst liep en kan meteen synchroniseren. Met LaCodea ID synchroniseert elk apparaat waarop je met dezelfde LaCodea ID bent ingelogd, ook met een ander Apple Account – end-to-end versleuteld en, als de app open is, na ongeveer een seconde."
             ]
           },
           {
@@ -580,7 +580,7 @@
             "id": "new-device",
             "q": "Hoe stap ik over op een nieuwe iPhone?",
             "a": [
-              "Log in met hetzelfde Apple Account en installeer SimpleTime – gebruik je iCloud (Instellingen › Gegevens en synchronisatie), dan komt je invoer vanzelf terug. Zonder iCloud maak je op het oude apparaat een back-up en zet je die op het nieuwe terug. Locaties horen bij het apparaat en worden niet gesynchroniseerd."
+              "Log in met hetzelfde Apple Account en installeer SimpleTime – gebruik je iCloud (Instellingen › Gegevens en synchronisatie), dan komt je invoer vanzelf terug. Gebruik je LaCodea ID, dan log je op het nieuwe apparaat daarmee in en kies je LaCodea ID onder Gegevens en synchronisatie; afhankelijk van het apparaat vraagt de app om je herstelsleutel. Anders maak je op het oude apparaat een back-up en zet je die op het nieuwe terug. Locaties horen bij het apparaat en worden niet gesynchroniseerd."
             ]
           }
         ]
@@ -593,7 +593,7 @@
             "id": "data-location",
             "q": "Waar worden mijn gegevens bewaard?",
             "a": [
-              "Waar jij kiest: in Instellingen › Gegevens en synchronisatie kies je tussen „Alleen op dit apparaat” en je privé-iCloud. Niemand anders kan je invoer lezen – ook wij niet. Back-ups staan waar je back-upplannen ze neerzetten."
+              "Waar jij kiest: in Instellingen › Gegevens en synchronisatie kies je tussen „Alleen op dit apparaat”, je privé-iCloud en LaCodea ID, waar je gegevens end-to-end versleuteld zijn. Niemand anders kan je invoer lezen – ook wij niet. Back-ups staan waar je back-upplannen ze neerzetten."
             ]
           },
           {
@@ -669,7 +669,7 @@
             "id": "restore-purchase",
             "q": "Hoe krijg ik Pro op mijn andere apparaten?",
             "a": [
-              "Pro hoort bij je Apple Account. Op je andere apparaten met hetzelfde account is het meestal vanzelf ontgrendeld. Zo niet, tik dan op de Pro-pagina onder Instellingen › SimpleTime Pro op Herstel aankopen."
+              "Pro hoort bij je Apple Account. Op je andere apparaten met hetzelfde account is het meestal vanzelf ontgrendeld. Zo niet, tik dan op de Pro-pagina onder Instellingen › SimpleTime Pro op Herstel aankopen. Ben je ingelogd met LaCodea ID, dan heb je Pro op elk apparaat met dezelfde LaCodea ID, ook met een ander Apple Account. De Pro-pagina laat dan zien waar je het abonnement hebt afgesloten – alleen daar kun je het wijzigen."
             ]
           },
           {
@@ -793,8 +793,8 @@
     "summaryTitle": "In het kort",
     "summary": [
       "Jouw tijd is van jou. SimpleTime heeft geen account nodig, toont geen advertenties en verkoopt je gegevens niet.",
-      "Je invoer staat op je apparaten en, als je daarvoor kiest, in je privé-iCloud of als activiteiten in je agenda – wij kunnen die niet lezen.",
-      "Als je wilt, kun je inloggen met LaCodea ID, ons account voor alle apps van LaCodea. Dan slaan we je account en je aankopen van SimpleTime Pro op – je invoer nooit.",
+      "Je invoer staat op je apparaten en, als je daarvoor kiest, in je privé-iCloud, end-to-end versleuteld bij LaCodea ID of als activiteiten in je agenda – wij kunnen die niet lezen.",
+      "Als je wilt, kun je inloggen met LaCodea ID, ons account voor alle apps van LaCodea. Dan slaan we je account en je aankopen van SimpleTime Pro op. Je invoer slaan we alleen op als je LaCodea ID als opslaglocatie kiest – en dan zo versleuteld dat alleen je apparaten die kunnen openen.",
       "Zodat we fouten snel vinden, stuurt de app anonieme crashrapporten en gebruiksstatistieken – zonder apparaat-ID, nooit met je invoer en op elk moment uit te zetten.",
       "Deze website plaatst geen eigen cookies en laadt niets van derden. Hoeveel mensen hem bezoeken, tellen we anoniem met Atriya, onze eigen analysedienst."
     ],
@@ -811,14 +811,23 @@
         "id": "app",
         "title": "De app SimpleTime",
         "paragraphs": [
-          "SimpleTime is zo gebouwd dat we je gegevens niet nodig hebben. Alles wat je invoert – taken, invoer met tijden en notities, vaste tijden, doelen, herinneringen en instellingen – wordt op je apparaat opgeslagen. De app bevat geen advertenties en geen SDK’s van derden. Je invoer stuurt ze naar geen enkele server van ons; we hebben er op geen enkel moment toegang toe. Wat de app anoniem over crashes en gebruik meldt, staat onder „Crashrapporten en gebruiksstatistieken”; wat er bij komt als je ervoor kiest in te loggen, onder „LaCodea ID” en „Aankopen”."
+          "SimpleTime is zo gebouwd dat we je gegevens niet nodig hebben. Alles wat je invoert – taken, invoer met tijden en notities, vaste tijden, doelen, herinneringen en instellingen – wordt op je apparaat opgeslagen. De app bevat geen advertenties en geen SDK’s van derden. Je invoer stuurt ze alleen naar een server van ons als je LaCodea ID als opslaglocatie kiest – en dan end-to-end versleuteld; we kunnen die op geen enkel moment lezen. Wat de app anoniem over crashes en gebruik meldt, staat onder „Crashrapporten en gebruiksstatistieken”; wat er bij komt als je ervoor kiest in te loggen, onder „LaCodea ID”, „Synchronisatie via LaCodea ID” en „Aankopen”."
         ],
         "subsections": [
           {
             "title": "Waar je gegevens staan en iCloud-synchronisatie",
             "paragraphs": [
-              "In Instellingen › Gegevens en synchronisatie kies je waar je gegevens staan: alleen op dit apparaat of in je iCloud. Gebruik je iCloud en heb je niets anders gekozen, dan gebruikt SimpleTime iCloud – zoals in eerdere versies. Een wijziging geldt vanaf de volgende keer dat de app start.",
+              "In Instellingen › Gegevens en synchronisatie kies je waar je gegevens staan: alleen op dit apparaat, in je iCloud of bij LaCodea ID (zie „Synchronisatie via LaCodea ID”). Gebruik je iCloud en heb je niets anders gekozen, dan gebruikt SimpleTime iCloud – zoals in eerdere versies. Een wijziging geldt vanaf de volgende keer dat de app start.",
               "Met iCloud synchroniseert SimpleTime je gegevens tussen je apparaten via CloudKit van Apple, in de privédatabase van je iCloud-account. Apple verstuurt en bewaart de gegevens versleuteld; het privacybeleid van Apple is van toepassing. Wij kunnen deze gegevens niet inzien en hebben er geen toegang toe. Stap je over op „Alleen op dit apparaat”, dan blijven je gegevens in iCloud staan tot je ze daar verwijdert – SimpleTime biedt je dat na de overstap aan."
+            ]
+          },
+          {
+            "title": "Synchronisatie via LaCodea ID",
+            "paragraphs": [
+              "Kies je onder Gegevens en synchronisatie voor LaCodea ID, dan synchroniseert SimpleTime je gegevens tussen je apparaten via een eigen server van SimpleTime. Daarvoor moet je met LaCodea ID zijn ingelogd.",
+              "Alles wat SimpleTime daarheen stuurt – taken, invoer met tijden en notities, vaste tijden, doelen en herinneringen – wordt vooraf op je apparaat versleuteld (AES-GCM met 256 bits). De sleutel daarvoor hebben alleen je apparaten: die staat in je iCloud-sleutelhanger en, vergrendeld met je herstelsleutel, op de server. De herstelsleutel laat de app je zien, zodat je hem veilig bewaart; zonder de herstelsleutel kan niemand de sleutel openen – ook wij niet. Raak je de herstelsleutel en de toegang tot al je apparaten kwijt, dan zijn de gegevens op de server niet meer te lezen.",
+              "De server kan je gegevens niet openen. Hij ziet alleen hoeveel records bij welk account horen en per record welk type het is (taak, registratie, doel of herinnering), hoe groot het ongeveer is, of het is verwijderd en wanneer het is geschreven. De server staat bij Supabase Pte. Ltd., 65 Chulia Street #38-02/03, OCBC Centre, Singapore 049513, in een datacenter in Frankfurt am Main; Supabase verwerkt de gegevens in onze opdracht, en voor toegang vanuit Singapore of de VS gelden de standaardcontractbepalingen van de EU (art. 46 lid 2 sub c AVG). De rechtsgrond is de uitvoering van de overeenkomst over de synchronisatie die je gebruikt door de opslaglocatie te kiezen (art. 6 lid 1 sub b AVG).",
+              "Wijzig je de opslaglocatie, dan biedt SimpleTime je aan om je gegevens op de server te verwijderen. Met „Alle gegevens verwijderen” in de app, met het ontkoppelen van SimpleTime van je LaCodea ID en met het verwijderen van LaCodea ID worden ze daar ook verwijderd."
             ]
           },
           {
@@ -883,7 +892,7 @@
             "paragraphs": [
               "SimpleTime werkt zonder account. In de instellingen kun je wel inloggen met LaCodea ID, het account voor alle apps van LaCodea – met „Log in met Apple”, een passkey of een code per e-mail. LaCodea ID beheren we zelf; ook hier zijn wij de verwerkingsverantwoordelijke.",
               "Voor je account bewaren we je e-mailadres, je naam als je die opgeeft of als „Log in met Apple” die doorgeeft, de ID van je account, je inlogmethoden en passkeys (alleen het openbare deel ervan), en welke apps van LaCodea je met het account gebruikt en wanneer voor het laatst. Bij „Log in met Apple” kun je je e-mailadres verbergen; dan ontvangen we alleen een doorstuuradres van Apple. Inlogcodes en meldingen over de beveiliging van je account – bijvoorbeeld bij een nieuwe aanmelding – sturen we per e-mail via Resend (Plus Five Five, Inc., VS); Resend is gecertificeerd onder het EU-U.S. Data Privacy Framework, en de standaardcontractbepalingen van de EU zijn van toepassing. De gegevens van het account staan bij Supabase Pte. Ltd., 65 Chulia Street #38-02/03, OCBC Centre, Singapore 049513, in een datacenter in Frankfurt am Main; Supabase verwerkt ze in onze opdracht. Omdat Supabase in Singapore is gevestigd en subverwerkers inzet, onder meer in de VS, is toegang vanuit deze landen niet uitgesloten; daarvoor gelden de standaardcontractbepalingen van de EU (art. 46 lid 2 sub c AVG).",
-              "Je taken, invoer, tijden en notities krijgt LaCodea ID niet. De rechtsgrond is de uitvoering van de overeenkomst over je account (art. 6 lid 1 sub b AVG). Meer hierover staat in het privacybeleid van LaCodea ID: [lacodea.com/privacy](https://lacodea.com/privacy#lacodea-id)",
+              "Je taken, invoer, tijden en notities krijgt LaCodea ID niet – ook niet bij synchronisatie via LaCodea ID: die verloopt via een eigen server van SimpleTime, end-to-end versleuteld (zie „Synchronisatie via LaCodea ID”). De rechtsgrond is de uitvoering van de overeenkomst over je account (art. 6 lid 1 sub b AVG). Meer hierover staat in het privacybeleid van LaCodea ID: [lacodea.com/privacy](https://lacodea.com/privacy#lacodea-id)",
               "Op de pagina van je account in de instellingen log je uit, ontkoppel je SimpleTime van je account of verwijder je LaCodea ID met alle bijbehorende gegevens."
             ]
           },
@@ -891,7 +900,8 @@
             "title": "Aankopen",
             "paragraphs": [
               "SimpleTime Pro wordt via de App Store gekocht. Apple handelt de betaling en het abonnement af; betaalgegevens ontvangen we nooit. Ben je niet ingelogd, dan vraagt de app de App Store alleen of Pro actief is, en ontvangen we van Apple verkooprapporten zonder persoonsgegevens.",
-              "Ben je ingelogd met LaCodea ID, dan hoort een aankoop bij je account: bij de aankoop geeft SimpleTime de ID van je account door aan Apple, en de app meldt je aankopen aan LaCodea ID – de door Apple ondertekende transactie met product, aankoopdatum, looptijd, prijs, valuta en land. Daarbij komt een apparaat-ID die Apple hiervoor beschikbaar stelt, zodat kan worden gecontroleerd dat de transactie van jouw apparaat komt; die dient alleen voor deze controle en wordt niet opgeslagen. LaCodea ID controleert elke melding bij Apple en ontvangt van Apple berichten over verlengingen, opzeggingen en terugbetalingen. Zo toont de pagina „Abonnementen” van LaCodea ID welke abonnementen je hebt – in elke app van LaCodea en op account.lacodea.com. De rechtsgrond is art. 6 lid 1 sub b AVG.",
+              "Ben je ingelogd met LaCodea ID, dan hoort een aankoop bij je account: bij de aankoop geeft SimpleTime de ID van je account door aan Apple, en de app meldt je aankopen aan LaCodea ID – de door Apple ondertekende transactie met product, aankoopdatum, looptijd, prijs, valuta en land. Daarbij komen een apparaat-ID die Apple hiervoor beschikbaar stelt, zodat kan worden gecontroleerd dat de transactie van jouw apparaat komt, en het type en het model van je apparaat (bijvoorbeeld „iPhone18,1”, weergegeven als „iPhone 17 Pro”) – nooit de naam ervan. LaCodea ID controleert elke melding bij Apple en ontvangt van Apple berichten over verlengingen, opzeggingen en terugbetalingen. Zo toont de pagina „Abonnementen” van LaCodea ID welke abonnementen je hebt – in elke app van LaCodea en op account.lacodea.com.",
+              "Een abonnement kun je alleen wijzigen of opzeggen op een apparaat met het Apple Account waarmee je het hebt afgesloten. Zodat je weet waar dat is, bewaart LaCodea ID bij elke aankoop de apparaten van waaruit SimpleTime de aankoop heeft gemeld: type en model, of de aankoop daar uit Delen met gezin komt en wanneer het apparaat de aankoop voor het eerst en voor het laatst heeft gemeld – de apparaat-ID van Apple alleen als hash, om „dit apparaat” te herkennen. De pagina „Abonnementen” en de Pro-pagina van SimpleTime laten je deze apparaten zien. Deze gegevens worden met de aankoop verwijderd en uiterlijk 13 maanden na de laatste melding van het apparaat. De rechtsgrond is art. 6 lid 1 sub b AVG.",
               "De ID van een aankoop bij Apple bewaren we met de laatste status ervan maximaal 13 maanden, ook nadat je account is verwijderd – dan zonder verband met je account. Zo herkennen we oudere meldingen over dezelfde aankoop."
             ]
           },
@@ -910,7 +920,7 @@
           {
             "title": "Je gegevens verwijderen",
             "paragraphs": [
-              "In de instellingen van de app onder Privacy › Alle gegevens verwijderen verwijder je in één keer alles wat SimpleTime heeft opgeslagen – op dit apparaat, in iCloud, de back-ups van je plannen waar ze ook staan, de oude back-ups in iCloud Drive en de activiteiten die SimpleTime in je agenda’s heeft gezet; via iCloud bereikt het verwijderen ook je andere apparaten. De anonieme statistieken zijn aan geen enkel apparaat te koppelen en kunnen daarom niet gericht worden verwijderd. Verwijder je de app, dan verdwijnen de gegevens ervan van dat apparaat. Je account bij LaCodea ID blijft daarbij onaangetast; dat verwijder je op de pagina van je account."
+              "In de instellingen van de app onder Privacy › Alle gegevens verwijderen verwijder je in één keer alles wat SimpleTime heeft opgeslagen – op dit apparaat, in iCloud, bij synchronisatie via LaCodea ID op de server, de back-ups van je plannen waar ze ook staan, de oude back-ups in iCloud Drive en de activiteiten die SimpleTime in je agenda’s heeft gezet; via iCloud bereikt het verwijderen ook je andere apparaten. Bij synchronisatie via LaCodea ID houden je andere apparaten hun gegevens – daar verwijder je ze op dezelfde manier. De anonieme statistieken zijn aan geen enkel apparaat te koppelen en kunnen daarom niet gericht worden verwijderd. Verwijder je de app, dan verdwijnen de gegevens ervan van dat apparaat. Je account bij LaCodea ID blijft daarbij onaangetast; dat verwijder je op de pagina van je account."
             ]
           }
         ]

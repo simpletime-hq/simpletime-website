@@ -217,6 +217,31 @@ body {
   letter-spacing: -0.003em;
 }
 
+/* The bar floats over the top of the page (Navbar.astro): the header pulls
+   the page up by its own height, and the first section reaches up behind the
+   capsule – its ground under the glass, its content where it was. Without
+   this, the canvas showed as a band above the night sections. */
+:root {
+  --header-h: 3.875rem;
+}
+
+@media (min-width: 40rem) {
+  :root {
+    --header-h: 4rem;
+  }
+}
+
+@media (min-width: 64rem) {
+  :root {
+    --header-h: 4.25rem;
+  }
+}
+
+main > :first-child {
+  border-top: var(--header-h) solid transparent;
+  background-origin: border-box;
+}
+
 /* --------------------------------------------------------------- type --- */
 
 .font-display,
@@ -616,21 +641,24 @@ h3 {
 
 .eyebrow {
   display: inline-flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 0.6rem;
   font-family: var(--font-display);
   font-size: 0.875rem;
   font-weight: 620;
   font-stretch: 110%;
   letter-spacing: 0.05em;
+  line-height: 1.35;
   text-transform: uppercase;
   color: var(--accent);
 }
 
+/* The square sits on the first line, also when a long eyebrow wraps. */
 .eyebrow::before {
   content: "";
   width: 0.5rem;
   height: 0.5rem;
+  margin-top: calc((1.35em - 0.5rem) / 2);
   flex: none;
   border-radius: 0.15rem;
   background: currentColor;

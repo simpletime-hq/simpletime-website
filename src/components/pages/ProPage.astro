@@ -4,13 +4,14 @@ import Layout from '../../layouts/Layout.astro';
 import AppStoreButton from '../AppStoreButton.astro';
 import DeviceFrame from '../DeviceFrame.astro';
 import WatchFrame from '../WatchFrame.astro';
+import WatchFace from '../WatchFace.astro';
 import FaqEntry from '../FaqEntry.astro';
 import CTA from '../CTA.astro';
 import ProFeatures from '../ProFeatures.astro';
 import type { Lang } from '../../i18n/ui';
 import { useTranslations, getLocalizedPath, langPrefix } from '../../i18n/utils';
 import { getContent, faqById, PRO_FAQ, TERMS_URL } from '../../i18n/content';
-import { phoneScreen, watchScreen } from '../../i18n/screens';
+import { phoneScreen } from '../../i18n/screens';
 import proMark from '../../assets/pro/mark.webp';
 
 interface Props {
@@ -65,7 +66,9 @@ const alt = (id: string) => shots.find((s) => s.id === id)?.alt ?? '';
 
     <div class="pro-hero__stage rise-media delay-3" dir="ltr">
       <div class="pro-hero__glow" aria-hidden="true"></div>
-      <WatchFrame image={watchScreen(lang, 'start')} alt="" class="pro-hero__watch pro-hero__watch--left" finish="silver" sizes="190px" loading="eager" />
+      <WatchFrame class="pro-hero__watch pro-hero__watch--left" finish="silver">
+        <WatchFace lang={lang} screen="today" />
+      </WatchFrame>
       <DeviceFrame
         image={phoneScreen(lang, 'pro')}
         alt={alt('pro')}
@@ -75,7 +78,9 @@ const alt = (id: string) => shots.find((s) => s.id === id)?.alt ?? '';
         sizes="(min-width: 1024px) 320px, 60vw"
         widths={[240, 320, 480, 640]}
       />
-      <WatchFrame image={watchScreen(lang, 'running')} alt="" class="pro-hero__watch pro-hero__watch--right" sizes="210px" loading="eager" />
+      <WatchFrame class="pro-hero__watch pro-hero__watch--right">
+        <WatchFace lang={lang} />
+      </WatchFrame>
     </div>
   </section>
 

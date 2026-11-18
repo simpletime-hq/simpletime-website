@@ -37,20 +37,20 @@ const ticks = Array.from({ length: 60 }, (_, i) => {
 ---
 
 <section class="hero relative overflow-x-clip">
-  <div class="wrap relative grid items-center gap-x-12 gap-y-20 pb-24 pt-12 sm:pt-16 lg:grid-cols-12 lg:pb-32 lg:pt-16">
-    <div class="relative z-10 lg:col-span-7">
+  <div class="wrap hero-grid relative pb-20 pt-8 sm:pb-24 sm:pt-16 lg:pb-32 lg:pt-16">
+    <div class="hero-copy relative z-10">
       <p class="eyebrow rise">{hero.eyebrow}</p>
-      <h1 class="t-hero rise delay-1 mt-6">
+      <h1 class="t-hero rise delay-1 mt-5 sm:mt-6">
         <span class="block">{hero.titleLead}</span>
         <span class="block">{hero.titleAccent}</span>
       </h1>
 
       {/* The first two paragraphs of the App Store description, word for word. */}
-      <p class="rise delay-2 t-intro mt-8 max-w-[34rem] text-muted">
+      <p class="rise delay-2 t-intro mt-6 max-w-[34rem] text-muted sm:mt-8">
         {`${store.lead}${sentenceGap}${store.promise}`}
       </p>
 
-      <div class="rise delay-3 mt-10 flex flex-wrap items-center gap-x-8 gap-y-5">
+      <div class="rise delay-3 mt-8 flex flex-wrap items-center gap-x-8 gap-y-5 sm:mt-10">
         <AppStoreButton label={t('appstore.download')} size="lg" />
         <a href="#features" class="link-more text-[17px]">
           {hero.cta}
@@ -59,13 +59,13 @@ const ticks = Array.from({ length: 60 }, (_, i) => {
           </svg>
         </a>
       </div>
-
-      <ul class="rise delay-4 hero-proof mt-12 flex flex-wrap gap-x-3 gap-y-1.5 text-[15px] text-muted">
-        {hero.proof.map((item) => <li>{item}</li>)}
-      </ul>
     </div>
 
-    <div class="relative lg:col-span-5">
+    <ul class="rise delay-4 hero-proof flex flex-wrap gap-x-3 gap-y-1.5 text-[15px] text-muted">
+      {hero.proof.map((item) => <li>{item}</li>)}
+    </ul>
+
+    <div class="hero-visual relative">
       <div class="hero-stage">
         <svg class="hero-dial rise-media" viewBox="0 0 400 400" aria-hidden="true">
           <circle cx="200" cy="200" r="150" class="hero-dial__face" />
@@ -99,6 +99,53 @@ const ticks = Array.from({ length: 60 }, (_, i) => {
     background:
       radial-gradient(60rem 36rem at 85% 30%, var(--glow), transparent 70%),
       var(--canvas);
+  }
+
+  /* Phones: the words, the phone, then the promises under it – so the product
+     is in the first screenful. From 1024px the promises go back under the
+     words and the phone stands beside both. */
+  .hero-grid {
+    display: grid;
+    grid-template-areas: 'copy' 'visual' 'proof';
+    row-gap: 3rem;
+  }
+
+  .hero-copy {
+    grid-area: copy;
+  }
+
+  .hero-visual {
+    grid-area: visual;
+  }
+
+  .hero-proof {
+    grid-area: proof;
+    justify-content: center;
+    margin-top: -0.25rem;
+  }
+
+  @media (min-width: 1024px) {
+    .hero-grid {
+      grid-template-columns: minmax(0, 7fr) minmax(0, 5fr);
+      grid-template-areas:
+        'copy visual'
+        'proof visual';
+      column-gap: 3rem;
+    }
+
+    .hero-copy {
+      align-self: end;
+    }
+
+    .hero-proof {
+      align-self: start;
+      justify-content: flex-start;
+      margin-top: 0;
+    }
+
+    .hero-visual {
+      align-self: center;
+    }
   }
 
   /* The dot belongs to the item before it, so a wrapped line never starts with one. */

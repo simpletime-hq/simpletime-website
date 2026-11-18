@@ -1,0 +1,426 @@
+---
+import type { Lang } from '../i18n/ui';
+import { useTranslations } from '../i18n/utils';
+import { DAY, duration, taskName, totals, type TaskKey } from '../i18n/day';
+import { WATCH, watchDigits, watchDir } from '../i18n/watch';
+
+interface Props {
+  lang: Lang;
+  /** The running page (ContentView.swift) or the day (HeuteSeite.swift). */
+  screen?: 'running' | 'today';
+}
+
+// Two pages of the watch app, drawn rather than photographed: the 416 × 496
+// screenshots went soft on phones with three pixels to the point, and these
+// stay sharp at every size and speak every language the site does – Armenian
+// too, which had no screenshots of its own.
+//
+// The sample day of the rest of the page: it is 18:47, the client project has
+// been running since 18:05 (42:05 when the page opens, counting on, as in the
+// Live Activity), and the day comes to 9:02, as in the Today widget.
+const { lang, screen = 'running' } = Astro.props;
+const t = useTranslations(lang);
+const watch = WATCH[lang];
+const dir = watchDir(lang);
+
+const ELAPSED = 42 * 60 + 5;
+
+// The watch lets a line shrink rather than wrap (minimumScaleFactor); here a
+// step or two down for the longer languages – French "Aujourd’hui · …".
+const today = `${t('day.today')} · ${watch.total}`;
+const todaySize = today.length > 24 ? 'is-longer' : today.length > 21 ? 'is-long' : undefined;
+const totalSize = watch.total.length > 14 ? 'is-long' : undefined;
+
+// The day page: the tasks of the sample day, longest first, in the watch's
+// colours (the dark variants of the app's task colours). The band is an SVG –
+// its parts' widths are attributes there, and the CSP allows no style="".
+const COLOR: Record<TaskKey, string> = {
+  client: '#5e5ce6',
+  work: '#0a84ff',
+  study: '#ff9f0a',
+  sport: '#30d158',
+  admin: '#ac8e68',
+  meetings: '#40c8e0',
+  social: '#ff375f',
+  reading: '#bf5af2',
+};
+const day = totals(DAY);
+const running = DAY.find((b) => b.running)?.task;
+
+const BAND = 1000;
+const GAP = 11;
+const sum = day.reduce((s, d) => s + d.minutes, 0);
+const usable = BAND - GAP * (day.length - 1);
+let at = 0;
+const band = day.map((d) => {
+  const width = Math.max(6, (usable * d.minutes) / sum);
+  const x = dir === 'rtl' ? BAND - at - width : at;
+  at += width + GAP;
+  return { x: x.toFixed(1), width: width.toFixed(1), color: COLOR[d.task] };
+});
+---
+
+{/* Decorative, like the Live Activity: it repeats what the text beside it says. */}
+{
+  screen === 'running' ? (
+    <div class="wface wface--running" dir={dir} aria-hidden="true" data-live data-elapsed={ELAPSED}>
+      <span class="wface__clock">{watch.clock}</span>
+      <span class="wface__dots">
+        <i class="is-on" />
+        <i />
+        <i />
+        <i />
+      </span>
+
+      <div class="wface__body">
+        <div class="wface__task">
+          <span class="wface__icon">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path d="M5.5 5h13A1.5 1.5 0 0 1 20 6.5v8.75a.75.75 0 0 1-.75.75H4.75a.75.75 0 0 1-.75-.75V6.5A1.5 1.5 0 0 1 5.5 5zm.5 2v7h12V7H6zM2.6 17.5h18.8c.33 0 .6.27.6.6 0 .77-.63 1.4-1.4 1.4H3.4c-.77 0-1.4-.63-1.4-1.4 0-.33.27-.6.6-.6z" />
+            </svg>
+          </span>
+          <span class="wface__names">
+            <span class="wface__name">{t('live.task')}</span>
+            <span class="wface__path">{taskName(lang, 'work')}</span>
+          </span>
+        </div>
+
+        <span class="wface__gap wface__gap--wide" />
+        <span class="wface__timer" data-live-timer data-live-short data-live-digits={lang === 'ar' ? 'arab' : undefined}>
+          {watchDigits(lang, '42:05')}
+        </span>
+        <span class:list={['wface__today', todaySize]}>{today}</span>
+        <span class="wface__gap" />
+
+        <span class="wface__stop">
+          <svg viewBox="0 0 12 12" fill="currentColor">
+            <rect x="1" y="1" width="10" height="10" rx="2" />
+          </svg>
+          {t('live.stop')}
+        </span>
+      </div>
+    </div>
+  ) : (
+    <div class="wface wface--today" dir={dir} aria-hidden="true">
+      <span class="wface__clock">{watch.clock}</span>
+      <span class="wface__title">{t('day.today')}</span>
+      <span class="wface__dots wface__dots--scroll">
+        <i />
+        <i class="is-on" />
+        <i />
+      </span>
+
+      <div class="wface__day">
+        <span class:list={['wface__total', totalSize]}>{watch.total}</span>
+        <span class="wface__band">
+          <svg viewBox={`0 0 ${BAND} 20`} preserveAspectRatio="none">
+            {band.map((b) => (
+              <rect x={b.x} y="0" width={b.width} height="20" fill={b.color} />
+            ))}
+          </svg>
+        </span>
+        <ul class="wface__rows">
+          {day.map((d) => (
+            <li>
+              <span class:list={['wface__dot', `dot--${d.task}`, d.task === running && 'is-running']} />
+              <span class="wface__row-name">{taskName(lang, d.task)}</span>
+              <span class="wface__row-time" dir="ltr">{duration(d.minutes)}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </div>
+  )
+}
+
+<script>
+  import '../scripts/live-timer';
+</script>
+
+<style>
+  /* Measured on the 416 × 496 screenshots: 1 cqw is 4.16 of their pixels. The
+     face mirrors in Arabic and Hebrew, as watchOS does – only the page dots
+     stay by the crown. The face is the container and has no padding of its
+     own: container units measure its content box. */
+  .wface {
+    container-type: inline-size;
+    position: relative;
+    aspect-ratio: 416 / 496;
+    overflow: hidden;
+    color: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, system-ui, 'Segoe UI', sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* The running task's colour, strong at the top and fading into black – the
+     app's containerBackground, farbe.opacity(0.7) to farbe.opacity(0.18). */
+  .wface--running {
+    background:
+      linear-gradient(180deg, rgb(94 92 230 / 0.7), rgb(94 92 230 / 0.18)),
+      #000;
+  }
+
+  /* The day page: the accent colour at 16 %, nearly black. */
+  .wface--today {
+    background: linear-gradient(180deg, rgb(14 18 28), rgb(2 4 6));
+  }
+
+  .wface__clock {
+    position: absolute;
+    top: 8.4cqw;
+    inset-inline-end: 7.4cqw;
+    font-size: 8.2cqw;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    font-variant-numeric: tabular-nums;
+    line-height: 1;
+  }
+
+  .wface__dots {
+    position: absolute;
+    top: 25.5cqw;
+    right: 1.4cqw;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5cqw;
+  }
+
+  .wface__dots i {
+    width: 2.4cqw;
+    height: 2.4cqw;
+    border-radius: 999px;
+    background: rgb(255 255 255 / 0.38);
+  }
+
+  .wface__dots i.is-on {
+    background: #fff;
+  }
+
+  /* On a page that scrolls, the current page's dot is the scroll bar. */
+  .wface__dots--scroll {
+    top: 23cqw;
+    gap: 0.9cqw;
+  }
+
+  .wface__dots--scroll i.is-on {
+    height: 17.3cqw;
+  }
+
+  /* ------------------------------------------------------- running page --- */
+
+  .wface__body {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    padding-block: 20.7cqw 16.3cqw;
+    padding-inline: 2.9cqw 11.5cqw;
+  }
+
+  .wface__task {
+    display: flex;
+    align-items: center;
+    gap: 4cqw;
+  }
+
+  .wface__icon {
+    display: grid;
+    flex-shrink: 0;
+    place-items: center;
+    width: 14.9cqw;
+    height: 14.9cqw;
+    border-radius: 50%;
+    background: linear-gradient(180deg, #8381f8, #6866ef);
+    box-shadow: inset 0 0.3cqw 0 rgb(255 255 255 / 0.18);
+  }
+
+  .wface__icon svg {
+    width: 8cqw;
+    height: 8cqw;
+  }
+
+  .wface__names {
+    display: flex;
+    min-width: 0;
+    flex-direction: column;
+  }
+
+  /* Two lines at most, as on the watch (lineLimit 2). */
+  .wface__name {
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    font-size: 7cqw;
+    font-weight: 600;
+    line-height: 1.12;
+  }
+
+  .wface__path,
+  .wface__today,
+  .wface__row-time {
+    color: rgb(235 235 245 / 0.6);
+  }
+
+  .wface__path,
+  .wface__today {
+    font-size: 7cqw;
+    line-height: 1.2;
+    white-space: nowrap;
+  }
+
+  .wface__today.is-long {
+    font-size: 6.3cqw;
+  }
+
+  .wface__today.is-longer {
+    font-size: 5.6cqw;
+  }
+
+  .wface__gap {
+    flex: 1;
+  }
+
+  .wface__gap--wide {
+    flex: 2;
+  }
+
+  .wface__timer,
+  .wface__total {
+    font-family: ui-rounded, -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+    font-weight: 600;
+    font-variant-numeric: tabular-nums;
+    letter-spacing: -0.01em;
+  }
+
+  .wface__timer {
+    font-size: 19cqw;
+    line-height: 1.04;
+  }
+
+  .wface__today {
+    margin-top: 2.4cqw;
+  }
+
+  /* The red of a destructive button on watchOS, over the dimmed task colour. */
+  .wface__stop {
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    gap: 2.6cqw;
+    height: 24.8cqw;
+    border-radius: 999px;
+    background: linear-gradient(180deg, rgb(92 39 76), rgb(86 36 63));
+    color: #ff453a;
+    font-size: 8.2cqw;
+    font-weight: 500;
+    white-space: nowrap;
+  }
+
+  .wface__stop svg {
+    width: 7cqw;
+    height: 7cqw;
+  }
+
+  /* ----------------------------------------------------------- day page --- */
+
+  /* The page title sits under the time, as watchOS sets it. */
+  .wface__title {
+    position: absolute;
+    top: 18.6cqw;
+    inset-inline-end: 7.4cqw;
+    color: #8fabf5;
+    font-size: 7.7cqw;
+    font-weight: 600;
+    line-height: 1.1;
+  }
+
+  .wface__day {
+    position: absolute;
+    inset: 31.5cqw 0 0;
+    padding-inline: 3.8cqw 8cqw;
+  }
+
+  .wface__total {
+    display: block;
+    font-size: 13.4cqw;
+    line-height: 1.12;
+    white-space: nowrap;
+  }
+
+  .wface__total.is-long {
+    font-size: 11.6cqw;
+  }
+
+  /* The day as one band, split by task, 2 points between the parts. */
+  .wface__band {
+    display: block;
+    height: 4.8cqw;
+    margin-top: 4.8cqw;
+    margin-inline-end: -4cqw;
+    overflow: hidden;
+    border-radius: 999px;
+  }
+
+  .wface__band svg {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+  .wface__rows {
+    display: flex;
+    flex-direction: column;
+    gap: 3.8cqw;
+    margin-top: 7.5cqw;
+  }
+
+  .wface__rows li {
+    display: flex;
+    align-items: center;
+    gap: 3.8cqw;
+    font-size: 7.3cqw;
+    line-height: 1.05;
+  }
+
+  .wface__dot {
+    position: relative;
+    flex-shrink: 0;
+    width: 4.4cqw;
+    height: 4.4cqw;
+    border-radius: 50%;
+    background: var(--dot);
+  }
+
+  /* What runs has a quiet ring around its dot. */
+  .wface__dot.is-running::after {
+    content: '';
+    position: absolute;
+    inset: -1.6cqw;
+    border: 1cqw solid var(--dot);
+    border-radius: 50%;
+    opacity: 0.5;
+  }
+
+  .wface__row-name {
+    flex: 1;
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .wface__row-time {
+    font-variant-numeric: tabular-nums;
+  }
+
+  .dot--client { --dot: #5e5ce6; }
+  .dot--work { --dot: #0a84ff; }
+  .dot--study { --dot: #ff9f0a; }
+  .dot--sport { --dot: #30d158; }
+  .dot--admin { --dot: #ac8e68; }
+  .dot--meetings { --dot: #40c8e0; }
+  .dot--social { --dot: #ff375f; }
+  .dot--reading { --dot: #bf5af2; }
+</style>

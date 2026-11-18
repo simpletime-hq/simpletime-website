@@ -2,10 +2,11 @@
 import type { Lang } from '../i18n/ui';
 import { useTranslations } from '../i18n/utils';
 import { getContent } from '../i18n/content';
-import { ipadScreen, macScreen, watchScreen } from '../i18n/screens';
+import { ipadScreen, macScreen } from '../i18n/screens';
 import MacFrame from './MacFrame.astro';
 import IpadFrame from './IpadFrame.astro';
 import WatchFrame from './WatchFrame.astro';
+import WatchFace from './WatchFace.astro';
 import WidgetToday from './WidgetToday.astro';
 import WidgetRunning from './WidgetRunning.astro';
 import LockScreen from './LockScreen.astro';
@@ -64,7 +65,9 @@ const languageNumber = languageCount.match(/\d+/)?.[0] ?? '41';
           {watch && <p class="bento-lead">{watch.body}</p>}
         </div>
         <div class="bento-watch__stage">
-          <WatchFrame image={watchScreen(lang, 'running')} alt="" sizes="(min-width: 1024px) 220px, 46vw" />
+          <WatchFrame>
+            <WatchFace lang={lang} />
+          </WatchFrame>
         </div>
       </article>
 

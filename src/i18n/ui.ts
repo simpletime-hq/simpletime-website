@@ -59,6 +59,9 @@ export const ui = {
     'nav.theme': 'Dark Mode',
     'nav.main': 'Main navigation',
     'nav.download': 'Get',
+    'notfound.title': 'Page not found',
+    'notfound.body': 'The page you’re looking for doesn’t exist or has been moved.',
+    'notfound.home': 'Back to home',
     'skip.content': 'Skip to content',
 
     // The Live Activity in the hero – the app's own strings and sample task.
@@ -141,6 +144,9 @@ export const ui = {
     'nav.theme': 'Dunkelmodus',
     'nav.main': 'Hauptnavigation',
     'nav.download': 'Laden',
+    'notfound.title': 'Seite nicht gefunden',
+    'notfound.body': 'Die Seite, die du suchst, existiert nicht oder wurde verschoben.',
+    'notfound.home': 'Zurück zur Startseite',
     'skip.content': 'Zum Inhalt springen',
 
     // The Live Activity in the hero – the app's own strings and sample task.
@@ -222,6 +228,9 @@ export const ui = {
     'nav.theme': 'Mode sombre',
     'nav.main': 'Navigation principale',
     'nav.download': 'Obtenir',
+    'notfound.title': 'Page introuvable',
+    'notfound.body': 'La page que vous cherchez n’existe pas ou a été déplacée.',
+    'notfound.home': 'Retour à l’accueil',
     'skip.content': 'Aller au contenu',
 
     // The Live Activity in the hero – the app's own strings and sample task.
@@ -303,6 +312,9 @@ export const ui = {
     'nav.theme': 'Modo oscuro',
     'nav.main': 'Navegación principal',
     'nav.download': 'Obtener',
+    'notfound.title': 'Página no encontrada',
+    'notfound.body': 'La página que buscas no existe o se ha movido.',
+    'notfound.home': 'Volver al inicio',
     'skip.content': 'Ir al contenido',
 
     // The Live Activity in the hero – the app's own strings and sample task.
@@ -384,6 +396,9 @@ export const ui = {
     'nav.theme': 'Modalità scura',
     'nav.main': 'Navigazione principale',
     'nav.download': 'Ottieni',
+    'notfound.title': 'Pagina non trovata',
+    'notfound.body': 'La pagina che cerchi non esiste o è stata spostata.',
+    'notfound.home': 'Torna alla pagina iniziale',
     'skip.content': 'Vai al contenuto',
 
     // The Live Activity in the hero – the app's own strings and sample task.
@@ -465,6 +480,9 @@ export const ui = {
     'nav.theme': 'Тёмный режим',
     'nav.main': 'Основная навигация',
     'nav.download': 'Загрузить',
+    'notfound.title': 'Страница не найдена',
+    'notfound.body': 'Страница, которую вы ищете, не существует или была перемещена.',
+    'notfound.home': 'Вернуться на главную',
     'skip.content': 'Перейти к содержимому',
 
     // The Live Activity in the hero – the app's own strings and sample task.
@@ -546,6 +564,9 @@ export const ui = {
     'nav.theme': 'Մուգ ռեժիմ',
     'nav.main': 'Հիմնական նավարկություն',
     'nav.download': 'Ստանալ',
+    'notfound.title': 'Էջը չի գտնվել',
+    'notfound.body': 'Ձեր փնտրած էջը գոյություն չունի կամ տեղափոխվել է։',
+    'notfound.home': 'Վերադառնալ գլխավոր էջ',
     'skip.content': 'Անցնել բովանդակությանը',
 
     // The Live Activity in the hero – the app's own strings and sample task.
@@ -627,6 +648,9 @@ export const ui = {
     'nav.theme': 'Modo escuro',
     'nav.main': 'Navegação principal',
     'nav.download': 'Obter',
+    'notfound.title': 'Página não encontrada',
+    'notfound.body': 'A página que procura não existe ou foi movida.',
+    'notfound.home': 'Voltar à página inicial',
     'skip.content': 'Ir para o conteúdo',
 
     // The Live Activity in the hero – the app's own strings and sample task.
@@ -708,6 +732,9 @@ export const ui = {
     'nav.theme': 'Koyu Mod',
     'nav.main': 'Ana gezinme',
     'nav.download': 'Al',
+    'notfound.title': 'Sayfa bulunamadı',
+    'notfound.body': 'Aradığın sayfa yok ya da taşınmış.',
+    'notfound.home': 'Ana sayfaya dön',
     'skip.content': 'İçeriğe geç',
 
     // The Live Activity in the hero – the app's own strings and sample task.
@@ -789,6 +816,9 @@ export const ui = {
     'nav.theme': 'النمط الداكن',
     'nav.main': 'التنقل الرئيسي',
     'nav.download': 'الحصول',
+    'notfound.title': 'الصفحة غير موجودة',
+    'notfound.body': 'الصفحة التي تبحث عنها غير موجودة أو نُقلت إلى مكان آخر.',
+    'notfound.home': 'العودة إلى الصفحة الرئيسية',
     'skip.content': 'الانتقال إلى المحتوى',
 
     // The Live Activity in the hero – the app's own strings and sample task.
@@ -870,6 +900,9 @@ export const ui = {
     'nav.theme': 'ダークモード',
     'nav.main': 'メインナビゲーション',
     'nav.download': '入手',
+    'notfound.title': 'ページが見つかりません',
+    'notfound.body': 'お探しのページは存在しないか、移動した可能性があります。',
+    'notfound.home': 'ホームに戻る',
     'skip.content': '本文へ移動',
 
     // The Live Activity in the hero – the app's own strings and sample task.
@@ -951,6 +984,9 @@ export const ui = {
     'nav.theme': '深色模式',
     'nav.main': '主导航',
     'nav.download': '获取',
+    'notfound.title': '找不到页面',
+    'notfound.body': '你要找的页面不存在或已被移动。',
+    'notfound.home': '返回首页',
     'skip.content': '跳到主要内容',
 
     // The Live Activity in the hero – the app's own strings and sample task.
@@ -1032,6 +1068,9 @@ export const ui = {
     'nav.theme': 'डार्क मोड',
     'nav.main': 'मुख्य नेविगेशन',
     'nav.download': 'पाएँ',
+    'notfound.title': 'पृष्ठ नहीं मिला',
+    'notfound.body': 'आप जो पृष्ठ खोज रहे हैं, वह मौजूद नहीं है या कहीं और ले जाया गया है।',
+    'notfound.home': 'मुख्य पृष्ठ पर लौटें',
     'skip.content': 'सामग्री पर जाएँ',
 
     // The Live Activity in the hero – the app's own strings and sample task.
@@ -1113,6 +1152,9 @@ export const ui = {
     'nav.theme': 'Donkere modus',
     'nav.main': 'Hoofdnavigatie',
     'nav.download': 'Download',
+    'notfound.title': 'Pagina niet gevonden',
+    'notfound.body': 'De pagina die je zoekt bestaat niet of is verplaatst.',
+    'notfound.home': 'Terug naar de startpagina',
     'skip.content': 'Naar de inhoud',
 
     // The Live Activity in the hero – the app's own strings and sample task.
@@ -1194,6 +1236,9 @@ export const ui = {
     'nav.theme': 'Mörkt läge',
     'nav.main': 'Huvudnavigering',
     'nav.download': 'Hämta',
+    'notfound.title': 'Sidan hittades inte',
+    'notfound.body': 'Sidan du letar efter finns inte eller har flyttats.',
+    'notfound.home': 'Tillbaka till startsidan',
     'skip.content': 'Hoppa till innehållet',
 
     // The Live Activity in the hero – the app's own strings and sample task.
@@ -1275,6 +1320,9 @@ export const ui = {
     'nav.theme': 'Темний режим',
     'nav.main': 'Головна навігація',
     'nav.download': 'Завантажити',
+    'notfound.title': 'Сторінку не знайдено',
+    'notfound.body': 'Сторінка, яку ви шукаєте, не існує або її переміщено.',
+    'notfound.home': 'Повернутися на головну',
     'skip.content': 'Перейти до вмісту',
 
     // The Live Activity in the hero – the app's own strings and sample task.
@@ -1356,6 +1404,9 @@ export const ui = {
     'nav.theme': 'Σκούρα εμφάνιση',
     'nav.main': 'Κύρια πλοήγηση',
     'nav.download': 'Λήψη',
+    'notfound.title': 'Η σελίδα δεν βρέθηκε',
+    'notfound.body': 'Η σελίδα που αναζητάτε δεν υπάρχει ή έχει μετακινηθεί.',
+    'notfound.home': 'Επιστροφή στην αρχική σελίδα',
     'skip.content': 'Μετάβαση στο περιεχόμενο',
 
     // The Live Activity in the hero – the app's own strings and sample task.
@@ -1437,6 +1488,9 @@ export const ui = {
     'nav.theme': 'תצוגה כהה',
     'nav.main': 'ניווט ראשי',
     'nav.download': 'קבל',
+    'notfound.title': 'הדף לא נמצא',
+    'notfound.body': 'הדף שחיפשתם לא קיים או שהועבר למקום אחר.',
+    'notfound.home': 'חזרה לדף הבית',
     'skip.content': 'דילוג לתוכן',
 
     // The Live Activity in the hero – the app's own strings and sample task.

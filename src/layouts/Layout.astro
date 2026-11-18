@@ -118,6 +118,10 @@ const jsonLdPayload = JSON.stringify(graph).replace(/</g, '\\u003c');
     <link rel="icon" type="image/png" href="/favicon-192.png" sizes="192x192" />
 
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    {/* Name, icons and colours when the site is added to a home screen – on
+        Android mostly. The app itself comes from the App Store; the site stays
+        a site ("display": "browser"). */}
+    <link rel="manifest" href="/manifest.webmanifest" />
     {LATIN.has(lang) && <link rel="preload" as="font" type="font/woff2" href={displayLatin} crossorigin="anonymous" />}
 
     <meta property="og:type" content="website" />

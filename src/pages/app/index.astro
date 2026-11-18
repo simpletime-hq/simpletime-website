@@ -1,4 +1,6 @@
 ---
+import { Image } from 'astro:assets';
+import logo from '../../assets/brand/logo.png';
 import Layout from '../../layouts/Layout.astro';
 import AppStoreButton from '../../components/AppStoreButton.astro';
 
@@ -147,7 +149,7 @@ const ENTRY_EN =
 >
   <section class="ground-glow relative overflow-hidden">
     <div class="mx-auto max-w-3xl px-5 py-28 text-center sm:px-8 sm:py-36">
-      <img src="/logo.png" alt="" width="96" height="96" class="mx-auto h-24 w-24 rounded-[22%] shadow-lift" />
+      <Image src={logo} alt="" width={96} height={96} densities={[1, 2, 3]} loading="eager" class="mx-auto h-24 w-24 rounded-[22%] shadow-lift" />
 
       <h1 id="app-title" class="t-title mt-8">Open in SimpleTime</h1>
 

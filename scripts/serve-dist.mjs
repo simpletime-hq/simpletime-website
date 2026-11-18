@@ -20,6 +20,7 @@ const TYPES = {
   '.css': 'text/css; charset=utf-8',
   '.js': 'text/javascript; charset=utf-8',
   '.json': 'application/json',
+  '.webmanifest': 'application/manifest+json',
   '.xml': 'application/xml',
   '.png': 'image/png',
   '.webp': 'image/webp',
@@ -104,7 +105,13 @@ createServer(async (req, res) => {
   for (const [k, v] of Object.entries(headers)) res.setHeader(k, v);
 
   if (!file) {
-    const notFound = await resolve('/404.html');
+    // As Cloudflare does (not_found_handling "404-page"): the nearest 404.html,
+    // from the requested folder up to the root – /de/… gets the German one.
+    const folders = decodeURIComponent(new URL(req.url, 'http://x').pathname).split('/').slice(1, -1);
+    let notFound = null;
+    for (let depth = folders.length; depth >= 0 && !notFound; depth--) {
+      notFound = await resolve(`/${[...folders.slice(0, depth), '404.html'].join('/')}`);
+    }
     res.writeHead(404, { 'Content-Type': TYPES['.html'] });
     res.end(notFound ? await readFile(notFound) : 'Not found');
     return;

@@ -9,7 +9,7 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "postbuild": "node scripts/csp-headers.mjs",
+    "postbuild": "node scripts/move-404.mjs && node scripts/csp-headers.mjs",
     "test:browser": "playwright test",
     "check:content": "node scripts/check-content.mjs"
   },

@@ -1,4 +1,6 @@
 ---
+import { Image } from 'astro:assets';
+import logo from '../assets/brand/logo.png';
 import { languages, type Lang } from '../i18n/ui';
 import { useTranslations, APP_STORE_URL, langPrefix, getAllLangPaths } from '../i18n/utils';
 import LanguageMenu from './LanguageMenu.astro';
@@ -52,7 +54,7 @@ const icons: Record<string, string> = {
 <header class="site-header sticky top-0 z-50">
   <nav class="capsule" aria-label={t('nav.main')}>
     <a href={home} class="brand">
-      <img src="/logo.png" alt="" width="28" height="28" class="brand__icon" />
+      <Image src={logo} alt="" width={28} height={28} densities={[1, 2, 3]} loading="eager" class="brand__icon" />
       <span class="brand__name font-display">SimpleTime</span>
     </a>
 

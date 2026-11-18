@@ -139,12 +139,19 @@ const chapters = (
 
   .tour-steps {
     display: grid;
-    gap: 6.5rem;
+    gap: 4.5rem;
   }
 
+  /* Phones and tablets: the top of the screen, where the chapter's point is,
+     fading out below – four whole phones made this the longest part of the
+     page (4,900 px on a phone). */
   .tour-step__phone {
     width: min(72vw, 19rem);
-    margin: 3.5rem auto 0;
+    margin: 2.5rem auto 0;
+    aspect-ratio: 1 / 1.3;
+    overflow: hidden;
+    -webkit-mask-image: linear-gradient(to bottom, #000 70%, transparent);
+    mask-image: linear-gradient(to bottom, #000 70%, transparent);
   }
 
   .tour-stage {

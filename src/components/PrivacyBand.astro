@@ -1,4 +1,6 @@
 ---
+import { Image } from 'astro:assets';
+import logo from '../assets/brand/logo.png';
 import type { Lang } from '../i18n/ui';
 import { useTranslations, langPrefix } from '../i18n/utils';
 import { getContent } from '../i18n/content';
@@ -51,7 +53,7 @@ const items = [
 
       {/* The app's own lock: its icon, the code being typed, the keypad. */}
       <div class="applock tile reveal-media delay-2" aria-hidden="true">
-        <img src="/logo.png" alt="" width="56" height="56" class="applock__icon" />
+        <Image src={logo} alt="" width={56} height={56} densities={[1, 2, 3]} class="applock__icon" />
         <span class="applock__dots"><i></i><i></i><i></i><i></i></span>
         <span class="applock__keys">
           {['1', '2', '3', '4', '5', '6', '7', '8', '9', '', '0', ''].map((key) => (

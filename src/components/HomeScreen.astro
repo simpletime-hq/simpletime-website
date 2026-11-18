@@ -1,0 +1,301 @@
+---
+import type { Lang } from '../i18n/ui';
+import { useTranslations } from '../i18n/utils';
+import WidgetToday from './WidgetToday.astro';
+
+interface Props {
+  lang: Lang;
+}
+
+// A piece of a Home Screen: the Today and Active widgets side by side, the
+// Week widget below – drawn after SimpleTimeWidgets (TodayWidget,
+// ActiveTaskWidget, WeekWidget), in the app's own words. The sample day of the
+// page: Saturday 5 September 2026, 18:47, the client project running since
+// 18:05, 9:02 so far today.
+const { lang } = Astro.props;
+const t = useTranslations(lang);
+
+const ELAPSED = 42 * 60 + 5;
+
+// The last seven days up to the sample day, in minutes – a working week, a
+// quiet Sunday, a long Saturday.
+const WEEK = [70, 465, 500, 395, 530, 340, 542];
+const DAYS = WEEK.map((minutes, i) => {
+  const date = new Date(Date.UTC(2026, 7, 30 + i, 12));
+  return {
+    minutes,
+    label: new Intl.DateTimeFormat(lang, { weekday: 'narrow', timeZone: 'UTC' }).format(date),
+    today: i === WEEK.length - 1,
+  };
+});
+const total = WEEK.reduce((a, b) => a + b, 0);
+const peak = Math.max(...WEEK);
+// TimeFormatting.hoursMinutes: "%02dh %02dm" – the widget's own, unlocalised form.
+const hm = (minutes: number) =>
+  `${String(Math.floor(minutes / 60)).padStart(2, '0')}h ${String(minutes % 60).padStart(2, '0')}m`;
+// Bar heights as classes: the CSP allows no style="".
+const barCss = DAYS.map((d, i) => `.hs-bar-${i}{height:${Math.max(6, (d.minutes / peak) * 100).toFixed(1)}%}`).join('');
+---
+
+<div class="hs" aria-hidden="true">
+  <div class="hs__grid">
+    <WidgetToday lang={lang} id="home" />
+
+    <div class="hs-small" data-live data-elapsed={ELAPSED}>
+      <div class="hs-small__face">
+        <div class="hs-small__head">
+          <span class="hs-small__stop">
+            <svg viewBox="0 0 12 12" fill="currentColor"><rect x="2.5" y="2.5" width="7" height="7" rx="1.4"></rect></svg>
+          </span>
+          <span class="hs-small__label">{t('widget.active')}</span>
+        </div>
+        <span class="hs-small__name">{t('live.task')}</span>
+        <span class="hs-small__timer" dir="ltr" data-live-timer>0:42:05</span>
+        <span class="hs-small__since">{t('widget.since')} <span dir="ltr">18:05</span></span>
+      </div>
+    </div>
+
+    <div class="hs-week">
+      <div class="hs-week__face">
+        <span class="hs-week__title">{t('widget.week')}</span>
+        <div class="hs-week__stats">
+          <span class="hs-week__stat">
+            <span class="hs-week__caption">{t('widget.week.total')}</span>
+            <span class="hs-week__value hs-week__value--big" dir="ltr">{hm(total)}</span>
+          </span>
+          <span class="hs-week__stat">
+            <span class="hs-week__caption">{t('widget.week.average')}</span>
+            <span class="hs-week__value" dir="ltr">{hm(Math.round(total / 7))}</span>
+          </span>
+        </div>
+        <div class="hs-week__bars">
+          {
+            DAYS.map((d, i) => (
+              <span class:list={['hs-week__day', d.today && 'is-today']}>
+                <span class="hs-week__track">
+                  <i class={`hs-bar-${i}`} />
+                </span>
+                <span class="hs-week__letter">{d.label}</span>
+              </span>
+            ))
+          }
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<style is:inline set:html={barCss}></style>
+
+<script>
+  import '../scripts/live-timer';
+</script>
+
+<style>
+  /* A Home Screen: widgets on a soft wallpaper, spaced as iOS spaces them –
+     two small ones are as wide as one medium. */
+  .hs {
+    container-type: inline-size;
+    width: 100%;
+  }
+
+  .hs__grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 6.6cqw;
+  }
+
+  .hs-week {
+    grid-column: 1 / -1;
+  }
+
+  /* --------------------------------------------- small: Active (ActiveTaskWidget) --- */
+
+  .hs-small {
+    container-type: inline-size;
+  }
+
+  .hs-small__face,
+  .hs-week__face {
+    color: #0b0b0d;
+    background: #fff;
+    box-shadow:
+      0 0 0 1px rgb(12 20 38 / 0.05),
+      0 3cqw 9cqw -2cqw rgb(12 20 38 / 0.22);
+  }
+
+  :global(.dark) .hs-small__face,
+  :global(.night) .hs-small__face,
+  :global(.dark) .hs-week__face,
+  :global(.night) .hs-week__face {
+    color: #fff;
+    background: #1c1c1e;
+    box-shadow: 0 0 0 1px rgb(255 255 255 / 0.06);
+  }
+
+  .hs-small__face {
+    display: flex;
+    aspect-ratio: 1;
+    flex-direction: column;
+    padding: 9cqw;
+    border-radius: 23cqw;
+  }
+
+  .hs-small__head {
+    display: flex;
+    align-items: center;
+    gap: 3.5cqw;
+  }
+
+  /* The stop button in a light tint of the task colour, the glyph black. */
+  .hs-small__stop {
+    display: grid;
+    place-items: center;
+    width: 11.8cqw;
+    height: 11.8cqw;
+    border-radius: 50%;
+    background: #b9b8f6;
+    color: #000;
+  }
+
+  .hs-small__stop svg {
+    width: 6.4cqw;
+    height: 6.4cqw;
+  }
+
+  /* iOS's secondary grey, a shade darker: at 60 % it missed 4.5 : 1 on white. */
+  .hs-small__label,
+  .hs-small__since,
+  .hs-week__caption {
+    color: rgb(60 60 67 / 0.8);
+  }
+
+  :global(.dark) :is(.hs-small__label, .hs-small__since, .hs-week__caption),
+  :global(.night) :is(.hs-small__label, .hs-small__since, .hs-week__caption) {
+    color: rgb(235 235 245 / 0.6);
+  }
+
+  .hs-small__label {
+    font-size: 6.6cqw;
+    font-weight: 600;
+  }
+
+  .hs-small__name {
+    display: -webkit-box;
+    margin-top: 4.5cqw;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    font-size: 8.8cqw;
+    font-weight: 600;
+    line-height: 1.18;
+  }
+
+  .hs-small__timer {
+    margin-top: auto;
+    font-family: var(--font-rounded);
+    font-size: 16.5cqw;
+    font-weight: 600;
+    font-variant-numeric: tabular-nums;
+    letter-spacing: -0.02em;
+    line-height: 1.1;
+    color: #5e5ce6;
+  }
+
+  .hs-small__since {
+    margin-top: 1.5cqw;
+    font-size: 6.6cqw;
+    font-weight: 500;
+  }
+
+  /* --------------------------------------------- medium: last 7 days (WeekWidget) --- */
+
+  .hs-week__face {
+    container-type: inline-size;
+    display: flex;
+    flex-direction: column;
+    aspect-ratio: 2.14;
+    padding: 4.4cqw 4.6cqw 3.6cqw;
+    border-radius: 10.8cqw;
+  }
+
+  .hs-week__title {
+    font-size: 3.3cqw;
+    font-weight: 650;
+    color: #5856d6;
+  }
+
+  .hs-week__stats {
+    display: flex;
+    align-items: baseline;
+    gap: 4cqw;
+    margin-top: 1.4cqw;
+  }
+
+  .hs-week__stat {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hs-week__caption {
+    font-size: 2.6cqw;
+  }
+
+  .hs-week__value {
+    font-family: var(--font-rounded);
+    font-size: 5cqw;
+    font-weight: 600;
+    font-variant-numeric: tabular-nums;
+    line-height: 1.1;
+  }
+
+  .hs-week__value--big {
+    font-size: 7.2cqw;
+  }
+
+  /* Seven bars of fixed width, the day's in the running task's colour. */
+  .hs-week__bars {
+    display: flex;
+    flex: 1;
+    margin-top: 1.6cqw;
+  }
+
+  .hs-week__day {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.2cqw;
+  }
+
+  .hs-week__track {
+    display: flex;
+    flex: 1;
+    align-items: flex-end;
+  }
+
+  .hs-week__track i {
+    display: block;
+    width: 3.9cqw;
+    border-radius: 1.1cqw;
+    background: rgb(94 92 230 / 0.3);
+  }
+
+  .is-today .hs-week__track i {
+    background: linear-gradient(180deg, #8381f2, #5e5ce6);
+  }
+
+  .hs-week__letter {
+    font-size: 2.5cqw;
+    color: rgb(60 60 67 / 0.8);
+  }
+
+  :global(.dark) .hs-week__letter,
+  :global(.night) .hs-week__letter {
+    color: rgb(235 235 245 / 0.6);
+  }
+
+  .is-today .hs-week__letter {
+    font-weight: 700;
+    color: #5e5ce6;
+  }
+</style>

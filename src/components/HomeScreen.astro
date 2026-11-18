@@ -207,6 +207,12 @@ const barCss = DAYS.map((d, i) => `.hs-bar-${i}{height:${Math.max(6, (d.minutes 
     font-weight: 500;
   }
 
+  /* iOS's dark indigo reads at 3 : 1 on the widget's black – a lighter tint for text. */
+  :global(.dark) :is(.hs-small__timer, .hs-week__title, .is-today .hs-week__letter),
+  :global(.night) :is(.hs-small__timer, .hs-week__title, .is-today .hs-week__letter) {
+    color: #8f8df7;
+  }
+
   /* --------------------------------------------- medium: last 7 days (WeekWidget) --- */
 
   .hs-week__face {

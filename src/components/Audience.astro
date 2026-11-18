@@ -104,16 +104,19 @@ const ringCss = days.map((d) => d.chart.css).join('');
 
     .day__ring {
       align-self: center;
+      width: 5.6rem;
+      height: 5.6rem;
     }
   }
 
+  /* Wide enough that a total like 10:05 keeps clear of the ring. */
   .day__ring {
     position: relative;
     display: grid;
     flex-shrink: 0;
     place-items: center;
-    width: 4.4rem;
-    height: 4.4rem;
+    width: 4.9rem;
+    height: 4.9rem;
   }
 
   .day__ring svg {
@@ -124,11 +127,11 @@ const ringCss = days.map((d) => d.chart.css).join('');
   .day__track {
     fill: none;
     stroke: rgb(120 120 128 / 0.14);
-    stroke-width: 13;
+    stroke-width: 11;
   }
 
   .day__ring :global(.ring-slice) {
-    stroke-width: 13;
+    stroke-width: 11;
   }
 
   .day__total {

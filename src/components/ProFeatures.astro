@@ -3,7 +3,7 @@ import { Image } from 'astro:assets';
 import type { ImageMetadata } from 'astro';
 import type { Lang } from '../i18n/ui';
 import { getContent } from '../i18n/content';
-import { clock, taskName, type TaskKey } from '../i18n/day';
+import { DAY, clock, taskName, type TaskKey } from '../i18n/day';
 import { placeNotice } from '../i18n/places';
 import logo from '../assets/brand/logo.png';
 
@@ -71,45 +71,76 @@ const weekCss = week.map((h, i) => `.wb-${i}{height:${((h / 7.4) * 100).toFixed(
 
 const accents = ['#173685', '#0f766e', '#6d28d9', '#475569', '#15803d', '#9f1239', '#3f3f46'];
 
-// A working week in the calendar: every entry an event, in the colour of its
-// task – from the top of the day to the bottom, the way a week view draws it.
-const calendar = [
-  [['work', 0.06, 0.4], ['sport', 0.72, 0.88]],
-  [['client', 0.14, 0.52], ['reading', 0.76, 0.92]],
-  [['work', 0.04, 0.3], ['meetings', 0.38, 0.6]],
-  [['client', 0.2, 0.46], ['work', 0.54, 0.8]],
-  [['work', 0.1, 0.34], ['social', 0.62, 0.9]],
-] as const;
-let eventCount = 0;
-const calendarDays = calendar.map((day) => day.map(([task, from, to]) => ({ task, from, to, n: eventCount++ })));
-const calendarCss = calendarDays
-  .flat()
-  .map(
-    (e) =>
-      // Two classes: the scoped rule that sets the transition carries an attribute,
-      // and a single class would lose its delay to it.
-      `.cal__event.ce-${e.n}{top:${(e.from * 100).toFixed(1)}%;height:${((e.to - e.from) * 100).toFixed(1)}%;transition-delay:${200 + e.n * 70}ms}`,
-  )
-  .join('');
-
-// The week of the sample day (Monday 31 August to Friday 4 September 2026),
-// 8:00 to 20:00, headed as the Calendar app heads it: weekday and date.
-const calendarHead = [0, 1, 2, 3, 4].map((i) => {
-  const date = new Date(Date.UTC(2026, 7, 31 + i, 12));
+// Calendar: the page's sample day (Saturday 5 September 2026) in the Calendar
+// app's day view on an iPhone – the week above with the day ringed, the
+// afternoon below, every entry an event in its task's colour. Names get the
+// whole width, so they fit in every language. SimpleTime writes an entry once
+// it has ended (Kalender.swift), so only finished ones are there.
+const SAMPLE_DAY = Date.UTC(2026, 8, 5, 12);
+const CAL_FROM = 13 * 60;
+const CAL_TO = 17 * 60 + 30;
+const twelveHours = new Intl.DateTimeFormat(lang, { hour: 'numeric' }).resolvedOptions().hourCycle?.startsWith('h1');
+// The week starts where the visitor's calendar starts it: Monday in German,
+// Sunday in English, Saturday in Arabic.
+const weekStart = (() => {
+  const locale = new Intl.Locale(lang === 'pt' ? 'pt-PT' : lang) as Intl.Locale & {
+    getWeekInfo?: () => { firstDay: number };
+    weekInfo?: { firstDay: number };
+  };
+  return (locale.getWeekInfo?.() ?? locale.weekInfo)?.firstDay ?? 1;
+})();
+const toSample = (6 - weekStart + 7) % 7; // days from the week's first day to the Saturday
+const calendarWeek = Array.from({ length: 7 }, (_, i) => {
+  const date = new Date(SAMPLE_DAY + (i - toSample) * 86_400_000);
   return {
-    weekday: new Intl.DateTimeFormat(lang, { weekday: 'short', timeZone: 'UTC' }).format(date).replace(/\.$/, ''),
+    letter: new Intl.DateTimeFormat(lang, { weekday: 'narrow', timeZone: 'UTC' }).format(date),
     day: new Intl.DateTimeFormat(lang, { day: 'numeric', timeZone: 'UTC', numberingSystem: 'latn' }).format(date),
+    today: i === toSample,
   };
 });
-const twelveHours = new Intl.DateTimeFormat(lang, { hour: 'numeric' }).resolvedOptions().hourCycle?.startsWith('h1');
-const calendarHours = [9, 12, 15, 18].map((h) =>
-  new Intl.DateTimeFormat(lang, {
-    hour: twelveHours ? 'numeric' : '2-digit',
-    minute: twelveHours ? undefined : '2-digit',
-    timeZone: 'UTC',
-    numberingSystem: 'latn',
-  }).format(new Date(Date.UTC(2026, 0, 7, h))),
+const calendarTitle = new Intl.DateTimeFormat(lang, { dateStyle: 'full', timeZone: 'UTC', numberingSystem: 'latn' }).format(
+  new Date(SAMPLE_DAY),
 );
+// Hour labels and times as the Calendar app writes them: "14:00" and "14:05–15:50", "2 PM" and "2:05 – 3:50 PM".
+const hourFormat = new Intl.DateTimeFormat(lang, {
+  hour: twelveHours ? 'numeric' : '2-digit',
+  minute: twelveHours ? undefined : '2-digit',
+  timeZone: 'UTC',
+  numberingSystem: 'latn',
+});
+const timeFormat = new Intl.DateTimeFormat(lang, {
+  hour: twelveHours ? 'numeric' : '2-digit',
+  minute: '2-digit',
+  timeZone: 'UTC',
+  numberingSystem: 'latn',
+});
+const at = (minutes: number) => new Date(Date.UTC(2026, 0, 7, Math.floor(minutes / 60), minutes % 60));
+const share = (minutes: number) => (minutes / (CAL_TO - CAL_FROM)) * 100;
+const calendarHours = [13, 14, 15, 16, 17].map((h) => ({ label: hourFormat.format(at(h * 60)), top: share(h * 60 - CAL_FROM) }));
+const calendarEvents = DAY.filter((b) => !b.running && b.start >= CAL_FROM && b.start + b.minutes <= CAL_TO).map((b, n) => ({
+  task: b.task,
+  n,
+  // Twenty minutes is a sliver; from half an hour the name fits, from an hour the time under it.
+  name: b.minutes >= 30,
+  time:
+    b.minutes >= 60
+      ? twelveHours
+        ? timeFormat.formatRange(at(b.start), at(b.start + b.minutes))
+        : `${timeFormat.format(at(b.start))}–${timeFormat.format(at(b.start + b.minutes))}`
+      : undefined,
+  top: share(b.start - CAL_FROM),
+  height: share(b.minutes),
+}));
+const calendarCss =
+  calendarHours.map((h, i) => `.cal__hour.ch-${i}{top:${h.top.toFixed(2)}%}`).join('') +
+  calendarEvents
+    .map(
+      (e) =>
+        // Two classes: the scoped rule that sets the transition carries an attribute,
+        // and a single class would lose its delay to it.
+        `.cal__event.ce-${e.n}{top:${e.top.toFixed(2)}%;height:${e.height.toFixed(2)}%;transition-delay:${200 + e.n * 90}ms}`,
+    )
+    .join('');
 
 // The quick-start widget (QuickStartWidget.swift): a list of tasks, each with
 // its button – the running one with a stop and its name in bold.
@@ -246,30 +277,29 @@ const arrival = placeNotice(lang, taskName(lang, 'work'), clock(lang, 8 * 60 + 2
           )}
           {tile.id === 'calendar' && (
             <div class="cal">
-              <span class="cal__head">
-                <span />
-                {calendarHead.map((d) => (
-                  <span class="cal__dayhead">
-                    <span class="cal__weekday">{d.weekday}</span>
-                    <span class="cal__date">{d.day}</span>
+              <span class="cal__week">
+                {calendarWeek.map((d) => (
+                  <span class:list={['cal__day', d.today && 'is-today']}>
+                    <span class="cal__letter">{d.letter}</span>
+                    <span class="cal__num">{d.day}</span>
                   </span>
                 ))}
               </span>
+              <span class="cal__title">{calendarTitle}</span>
               <span class="cal__body">
                 <span class="cal__hours">
-                  {calendarHours.map((h) => (
-                    <span>{h}</span>
+                  {calendarHours.map((h, i) => (
+                    <span class={`cal__hour ch-${i}`}>{h.label}</span>
                   ))}
                 </span>
-                {calendarDays.map((day) => (
-                  <span class="cal__col">
-                    {day.map((e) => (
-                      <span class:list={['cal__event', `ev-${e.task}`, `ce-${e.n}`]}>
-                        <span>{taskName(lang, e.task)}</span>
-                      </span>
-                    ))}
-                  </span>
-                ))}
+                <span class="cal__events">
+                  {calendarEvents.map((e) => (
+                    <span class:list={['cal__event', `ev-${e.task}`, `ce-${e.n}`]}>
+                      {e.name && <span class="cal__name">{taskName(lang, e.task)}</span>}
+                      {e.time && <span class="cal__time">{e.time}</span>}
+                    </span>
+                  ))}
+                </span>
               </span>
             </div>
           )}
@@ -811,125 +841,143 @@ const arrival = placeNotice(lang, taskName(lang, 'work'), clock(lang, 8 * 60 + 2
     white-space: nowrap;
   }
 
-  /* Calendar: the week view of the Calendar app, every entry an event in the
-     colour of its task, its name inside. */
+  /* Calendar: the Calendar app's day view on an iPhone – the week with the day
+     ringed in red, the date, the afternoon's events in their tasks' colours.
+     Sized to fit the 12rem a picture has inside its padding. */
   .cal {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: min(100%, 21rem);
     overflow: hidden;
     border-radius: 0.85rem;
     background: var(--surface);
     box-shadow: 0 0 0 1px var(--line);
   }
 
-  .cal__head,
-  .cal__body {
+  .cal__week {
     display: grid;
-    grid-template-columns: 2.1rem repeat(5, minmax(0, 1fr));
+    grid-template-columns: repeat(7, minmax(0, 1fr));
+    padding: 0.45rem 0.45rem 0.1rem;
   }
 
-  .cal__head {
-    padding: 0.4rem 0.35rem 0.3rem 0;
-    border-bottom: 1px solid var(--line);
-  }
-
-  .cal__dayhead {
+  .cal__day {
     display: flex;
     flex-direction: column;
     align-items: center;
-    line-height: 1.15;
+    gap: 0.2rem;
+    line-height: 1;
   }
 
-  .cal__weekday {
-    font-size: 0.5625rem;
+  .cal__letter {
+    font-size: 0.5rem;
     font-weight: 600;
-    text-transform: uppercase;
     color: var(--muted);
   }
 
-  .cal__date {
-    font-size: 0.8125rem;
-    font-weight: 650;
+  .cal__num {
+    display: grid;
+    place-items: center;
+    width: 1.3rem;
+    height: 1.3rem;
+    border-radius: 50%;
+    font-size: 0.75rem;
+    font-weight: 600;
+    font-variant-numeric: tabular-nums;
+    color: var(--ink);
+  }
+
+  /* Today in the Calendar app's red, a shade deeper so the white number reads. */
+  .cal__day.is-today .cal__num {
+    background: #d70015;
+    color: #fff;
+  }
+
+  .cal__title {
+    padding: 0.15rem 0.75rem 0.35rem;
+    border-bottom: 1px solid var(--line);
+    font-size: 0.625rem;
+    font-weight: 600;
+    line-height: 1.4;
+    text-align: center;
     color: var(--ink);
   }
 
   .cal__body {
     position: relative;
-    height: 7.6rem;
-    padding-inline-end: 0.35rem;
+    height: 6.9rem;
+    margin: 0.5rem 0.7rem 0.55rem;
   }
 
-  /* Hour lines at 9, 12, 15 and 18 – the day runs from 8 to 20. */
-  .cal__hours {
+  .cal__hours,
+  .cal__events {
     position: absolute;
-    inset: 0;
+    inset-block: 0;
+  }
+
+  .cal__hours {
+    inset-inline: 0;
     pointer-events: none;
   }
 
-  .cal__hours span {
+  /* An hour: its label, then its line across the day. */
+  .cal__hour {
     position: absolute;
     inset-inline: 0;
     display: flex;
     align-items: center;
-    gap: 0.3rem;
+    gap: 0.35rem;
     font-size: 0.5rem;
     color: var(--subtle);
     translate: 0 -50%;
     font-variant-numeric: tabular-nums;
   }
 
-  .cal__hours span::after {
+  .cal__hour::after {
     content: '';
     flex: 1;
     height: 1px;
     background: var(--line);
   }
 
-  .cal__hours span:nth-child(1) { top: 8.33%; }
-  .cal__hours span:nth-child(2) { top: 33.33%; }
-  .cal__hours span:nth-child(3) { top: 58.33%; }
-  .cal__hours span:nth-child(4) { top: 83.33%; }
-
-  .cal__hours span {
-    padding-inline-start: 0.25rem;
-    width: 100%;
-  }
-
-  .cal__col {
-    position: relative;
-    margin-inline: 0.1rem;
-  }
-
-  /* The hour lines are out of the flow; the first day starts after the gutter. */
-  .cal__hours + .cal__col {
-    grid-column: 2;
+  /* The events start after the widest label ("12 μ.μ."). */
+  .cal__events {
+    inset-inline: 2.6rem 0;
   }
 
   .cal__event {
     --c: var(--t-work);
     position: absolute;
     inset-inline: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.05rem;
     overflow: hidden;
-    padding: 0.12rem 0.18rem;
-    border-inline-start: 0.16rem solid var(--c);
-    border-radius: 0.25rem;
+    padding: 0.14rem 0.4rem;
+    border-inline-start: 0.18rem solid var(--c);
+    border-radius: 0.3rem;
     background: color-mix(in srgb, var(--c) 20%, var(--surface));
     color: color-mix(in srgb, var(--c) 72%, var(--ink));
-    font-size: 0.5rem;
+    font-size: 0.5625rem;
     font-weight: 650;
-    line-height: 1.15;
+    line-height: 1.2;
     transform-origin: top;
     transition:
       scale 0.9s var(--ease-out-expo),
       opacity 0.5s ease;
   }
 
-  .cal__event span {
-    display: block;
+  .cal__name,
+  .cal__time {
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+  }
+
+  .cal__time {
+    font-size: 0.5rem;
+    font-weight: 500;
+    font-variant-numeric: tabular-nums;
+    color: color-mix(in srgb, var(--c) 50%, var(--ink));
   }
 
   .ev-work { --c: var(--t-work); }

@@ -14,10 +14,12 @@ const mobile = {
   hasTouch: true,
 };
 
-const scenario = (name, route, expectedStatus, lang, dir, device) => ({
+// `extra` adds context options such as the colour scheme, so `device` stays the
+// object the tests compare against to tell phones from desktops.
+const scenario = (name, route, expectedStatus, lang, dir, device, extra = {}) => ({
   name,
   metadata: { route, expectedStatus, lang, dir, mobile: device === mobile },
-  use: { ...device, browserName: 'chromium' },
+  use: { ...device, ...extra, browserName: 'chromium' },
 });
 
 export default defineConfig({
@@ -69,5 +71,10 @@ export default defineConfig({
     // The page behind links into the app (/app/…), for visitors without SimpleTime.
     scenario('app-link-mobile', '/app/', 200, 'en', 'ltr', mobile),
     scenario('app-link-desktop', '/app/', 200, 'en', 'ltr', desktop),
+    // Dark mode, where the drawn widgets and tiles change their colours: iOS's
+    // indigo once read at 3 : 1 on the widgets' black and only light was tested.
+    scenario('german-home-dark-desktop', '/de/', 200, 'de', 'ltr', desktop, { colorScheme: 'dark' }),
+    scenario('home-dark-mobile', '/', 200, 'en', 'ltr', mobile, { colorScheme: 'dark' }),
+    scenario('german-pro-dark-desktop', '/de/pro/', 200, 'de', 'ltr', desktop, { colorScheme: 'dark' }),
   ],
 });

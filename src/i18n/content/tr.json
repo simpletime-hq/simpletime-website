@@ -341,6 +341,13 @@
             ]
           },
           {
+            "id": "first-steps",
+            "q": "Nasıl başlarım?",
+            "a": [
+              "Bir görev oluşturmak için Kayıt sekmesinde +'ya dokun – ad, renk ve simgeyle. Yanındaki üçgene dokun, saat işlemeye başlar; durdurmak için Durdur'a dokun. İlk açılışta kısa bir tur sana en önemli düğmeleri gösterir. Turu istediğin zaman Ayarlar › Turu yeniden göster ile tekrar izleyebilirsin."
+            ]
+          },
+          {
             "id": "free",
             "q": "SimpleTime ücretsiz mi?",
             "a": [
@@ -369,6 +376,13 @@
             ]
           },
           {
+            "id": "mac",
+            "q": "SimpleTime Mac’te neler yapabilir?",
+            "a": [
+              "iPhone’da yapabildiği neredeyse her şeyi – kayıt, gün görünümü, değerlendirme, raporlar, dışa aktarma, yedekler, eşitleme ve uygulama kilidi; iPhone’da kaydırdığın yerde Mac’te sağ tıklarsın. Bunlara menü çubuğundaki kronometre ve masaüstündeki widget’lar eklenir. Yerler, Canlı Etkinlikler, Apple Watch uygulaması ve değiştirilebilir uygulama simgeleri Mac’te yoktur."
+            ]
+          },
+          {
             "id": "languages",
             "q": "SimpleTime hangi dilleri konuşuyor?",
             "a": [
@@ -376,17 +390,10 @@
             ]
           },
           {
-            "id": "first-steps",
-            "q": "Nasıl başlarım?",
-            "a": [
-              "Bir görev oluşturmak için Kayıt sekmesinde +'ya dokun – ad, renk ve simgeyle. Yanındaki üçgene dokun, saat işlemeye başlar; durdurmak için Durdur'a dokun. İlk açılışta kısa bir tur sana en önemli düğmeleri gösterir. Turu istediğin zaman Ayarlar › Turu yeniden göster ile tekrar izleyebilirsin."
-            ]
-          },
-          {
             "id": "offline",
             "q": "SimpleTime çevrimdışı çalışır mı?",
             "a": [
-              "Evet, tamamen. Kayıt, gün görünümü, grafikler ve raporlar bağlantı olmadan da çalışır. Eşitleme ve yedekler, cihazın yeniden çevrimiçi olur olmaz eksikleri tamamlar."
+              "Evet. Kayıt, gün görünümü, grafikler ve raporlar bağlantı olmadan da çalışır. Eşitleme, kendi sunucuna alınan yedekler, LaCodea ID ile giriş, Pro satın alma ve bir yer için adres arama ise bağlantı gerektirir. Yarım kalanları SimpleTime sonradan tamamlar – eşitlemeyi cihazın yeniden çevrimiçi olur olmaz, kaçırılan bir yedeği ise uygulamayı bir sonraki açtığında."
             ]
           }
         ]
@@ -399,28 +406,42 @@
             "id": "start-stop",
             "q": "Kaydı nasıl başlatıp durdururum?",
             "a": [
-              "Bir görevi başlatmak için yanındaki üçgene dokun. Çalışan görev, Kayıt sekmesinin en üstünde görünür; durdurmak için Durdur'a dokun. Görevin adına dokunursan alt görevleri açılır. Sola kaydırırsan onu düzenleyebilir, arşivleyebilir ya da silebilirsin; sağa kaydırırsan tüm sayılarıyla bilgilerini görürsün."
+              "Bir görevi başlatmak için yanındaki üçgene dokun. Çalışan görev, Kayıt sekmesinin en üstünde görünür; durdurmak için Durdur'a dokun. Görevin adına dokunursan alt görevleri açılır. Sola kaydırırsan onu düzenleyebilir, arşivleyebilir ya da silebilirsin; sağa kaydırırsan tüm sayılarıyla bilgilerini görürsün – Mac'te bunların hepsine sağ tıklayarak ulaşırsın."
             ]
           },
           {
             "id": "one-at-a-time",
             "q": "İki görev aynı anda çalışabilir mi?",
             "a": [
-              "Hayır. Aynı anda en fazla bir kayıt çalışır. Başka bir görevi başlattığında süren kayıt kendiliğinden biter – böylece kayıtların asla çakışmaz."
+              "Hayır. Aynı anda yalnızca bir kayıt çalışır: başka bir görevi başlattığında süren kayıt tam o anda biter – böylece kayıtların çakışmaz."
+            ]
+          },
+          {
+            "id": "keeps-running",
+            "q": "SimpleTime’ı kapattığımda süre işlemeye devam eder mi?",
+            "a": [
+              "Evet. SimpleTime ne zaman başlattığını hatırlar ve süreyi buna göre hesaplar – uygulamayı kapattığında, iPhone’unu kilitlediğinde ya da yeniden başlattığında kayıt sürmeye devam eder. Kilitli ekranda ve Dynamic Island’da Canlı Etkinlik süren zamanı bir durdurma düğmesiyle gösterir; hatırlatmaların da uygulama kapalıyken bile gelir."
             ]
           },
           {
             "id": "add-later",
             "q": "Başlatmayı unuttum – zamanı sonradan ekleyebilir miyim?",
             "a": [
-              "Evet. Gün sekmesinde başlangıcı ve bitişiyle yeni bir kayıt ekle ya da değiştirmek için mevcut bir kayda dokun. Kayıtlar çakışamaz: bir zaman aralığı başka bir kayıtla çakışırsa SimpleTime sana bunu söyler. Hâlâ süren bir kayıtta başlangıcı geriye de alabilirsin – önceki kaydın bitişine kadar."
+              "Evet. Gün sekmesinde + ile başlangıcı ve bitişiyle yeni bir kayıt ekle ya da değiştirmek için mevcut bir kayda dokun. Kayıtlar çakışamaz: bir zaman aralığı başka bir kayıtla çakışırsa SimpleTime sana bunu söyler. Süren bir kayıt varsa Kayıt sekmesinin en üstünde ona dokun ve başlangıcını geriye al – önceki kaydın bitişine kadar."
+            ]
+          },
+          {
+            "id": "restore-entry",
+            "q": "Bir kaydı sildim – geri getirebilir miyim?",
+            "a": [
+              "Evet. Gün sekmesinde bir kaydı sildiğinde – sola kaydırarak ya da Mac’te sağ tıklayarak –, kayıt çöpe gider: Gün sekmesinin sol üstündeki “Silinen kayıtlar” altında onu “Geri yükle” ile geri getirir ya da kalıcı olarak silersin. Silinen görevler, kayıtlarıyla birlikte Kayıt sekmesinin sol üstündeki çöpte durur. Kalıcı olarak silinen bir şeyi yalnızca bir yedek geri getirir."
             ]
           },
           {
             "id": "fixed-times",
             "q": "Sabit saatler nedir?",
             "a": [
-              "Dersler, vardiyalar ya da görüşme saatleri gibi tekrarlanan zamanları bir kez oluşturursun: görev, haftanın günleri, başlangıç ve bitiş, her hafta ya da iki haftada bir, istersen bir bitiş tarihiyle. Bir zaman sona erer ermez SimpleTime onu kendiliğinden kayıt olarak ekler – SimpleTime’ı açtığın her cihazda ve yine de yalnızca bir kez. Sen yalnızca fazladan olanları kaydedersin; bunu Pro gerekmeden Ayarlar › Takip › Sabit saatler bölümünde bulursun."
+              "Dersler, vardiyalar ya da görüşme saatleri gibi tekrarlanan zamanları bir kez oluşturursun: görev, haftanın günleri, başlangıç ve bitiş, her hafta ya da iki haftada bir, seçtiğin bir günden itibaren ve istersen bir bitiş tarihiyle. Bir zaman sona erer ermez SimpleTime onu kendiliğinden kayıt olarak ekler – SimpleTime’ı açtığın her cihazda ve yine de yalnızca bir kez; kaçırılanlar en fazla 31 gün geriye kadar eklenir. Sen yalnızca fazladan olanları kaydedersin; bunu Pro gerekmeden Ayarlar › Takip › Sabit saatler bölümünde bulursun."
             ]
           },
           {
@@ -448,21 +469,28 @@
             "id": "archive-trash",
             "q": "Arşivlemek ile silmek arasındaki fark ne?",
             "a": [
-              "Arşivlemek bir görevi yalnızca gizler: kayıtları kalır ve tüm değerlendirmelerde sayılmaya devam eder. Silmek, görevi kayıtlarıyla birlikte çöpe taşır. Oradan ikisini de geri yükleyebilir – ya da kalıcı olarak silebilirsin."
+              "Arşivlemek bir görevi yalnızca gizler: kayıtları kalır ve tüm değerlendirmelerde sayılmaya devam eder. Silmek, görevi kayıtlarıyla birlikte çöpe taşır – o zaman süreleri artık hiçbir yerde sayılmaz. Arşivi ve çöpü Kayıt sekmesinin sol üstünde bulursun: arşivdeki bir görevi “Geri yükle” ile geri getirirsin, çöptekini ise kayıtlarıyla birlikte – ya da onu orada kalıcı olarak silersin."
             ]
           },
           {
             "id": "notes",
             "q": "Kayıtlara not ekleyebilir miyim?",
             "a": [
-              "Evet, her kayıt bir not taşıyabilir – ne üzerinde çalıştığın ya da kiminle buluştuğun. Notlar gün görünümünde gösterilir; CSV dışa aktarımına ve yedeklere de dahildir."
+              "Evet, her kayıt bir not taşıyabilir – ne üzerinde çalıştığın ya da kiminle buluştuğun. Notu, Gün sekmesinde bir kaydı oluştururken ya da düzenlerken eklersin; bir kayıt sürerken ise Kayıt sekmesinin en üstünde ona dokunarak. Notu kaydı açtığında, bir görevin bilgilerinde “Tüm kayıtlar” altında, PDF raporun “Tüm kayıtlar” bölümünde ve CSV dışa aktarımında görürsün; yedekler de onu içerir."
             ]
           },
           {
             "id": "reminders",
             "q": "SimpleTime bana hatırlatabilir mi?",
             "a": [
-              "Evet. Ayarlarda Bildirimler bölümünde kurallar belirlersin – örneğin bir görev 60 dakikadır çalışıyorsa bir hatırlatma; tüm görevler ya da yalnızca seçtiklerin için, seçtiğin günlerde. SimpleTime, bir süredir hiçbir şey kaydedilmediğinde de sana hatırlatabilir."
+              "Evet. Ayarlar › Bildirimleri yapılandır bölümünde kurallar belirlersin – örneğin bir görev 60 dakikadır çalışıyorsa bir hatırlatma; tüm görevler ya da yalnızca seçtiklerin için, seçtiğin günlerde. “Hiçbir şey çalışmıyorsa hatırlat” ile SimpleTime, bir süredir hiçbir şey kaydedilmediğinde de sana haber verir."
+            ]
+          },
+          {
+            "id": "time-zone",
+            "q": "Başka bir saat dilimine gittim – kayıtlarım neden farklı saatlerde görünüyor?",
+            "a": [
+              "SimpleTime varsayılan olarak her kaydı, cihazının şu anda bulunduğu saat diliminde gösterir – Apple’ın Takvim uygulaması gibi: New York’ta saat 9’da kaydettiğin şey Berlin’de saat 15’te görünür. Bunun yerine Ayarlar › Saat Dilimi bölümünde “Kaydın saat dilimi” seçeneğini seçebilirsin: o zaman her kayıt, onu kaydettiğin saatle ve günde görünür – saatlerin ve toplamların yer aldığı her yerde. Süre her iki durumda da aynı kalır; 4.7’den önceki sürümlerden gelen kayıtlar her zaman cihazın saat diliminde görünür."
             ]
           }
         ]
@@ -475,21 +503,28 @@
             "id": "day-view",
             "q": "Gün görünümü neyi gösterir?",
             "a": [
-              "Bir günün her kaydını başlangıcı, bitişi ve süresiyle – liste olarak ya da şu anki saati gösteren bir işaretle 0'dan 24'e zaman çizelgesi olarak. En üstte bugünün dünle karşılaştırmasını görürsün."
+              "Bir günün her kaydını başlangıcı, bitişi ve süresiyle – liste olarak ya da 0'dan 24'e zaman çizelgesi olarak, bugün için şu anki saati gösteren bir işaretle; iPad ve Mac gibi geniş ekranlarda ikisi yan yana görünür. En üstte günün toplamını ve önceki günle karşılaştırmayı görürsün."
             ]
           },
           {
             "id": "charts",
             "q": "Hangi grafikler ve istatistikler var?",
             "a": [
-              "Bir gün, bir hafta, bir ay ya da bir yıl için göreve ve verimliliğe göre pasta grafikler. Daha fazla istatistik bölümünde önceki dönemle karşılaştırmayı, gelişimi, zamanının gün içine dağılımını, en çok kullandığın görevleri, en uzun ve en kısa kaydı bulursun. Her görevin ayrıca kendi bilgi sayfası vardır – ilk kayıt, en uzun kayıt, bu hafta, bu yıl."
+              "Grafik sekmesinde: bir gün, bir hafta, bir ay ya da bir yıl için göreve ve verimliliğe göre pasta grafikler. Sağ üstteki “Daha fazla istatistik” bölümünde önceki dönemle karşılaştırmayı, gelişimi, en çok kullandığın görevleri, en uzun ve en kısa kaydı bulursun – haftalık ve daha uzun dönemlerde de en yoğun saatinle birlikte zamanının gün içindeki dağılımını. Her görevin ayrıca kendi bilgi sayfası vardır – ilk kayıt, en uzun kayıt, bu hafta, bu yıl."
             ]
           },
           {
             "id": "productivity",
             "q": "Verimlilik puanı nedir?",
             "a": [
-              "Her göreve bir kategori verebilirsin: verimli, verimsiz, zorunlu – ya da onu verimlilik hesabına katmayabilirsin. Puan, değerlendirilen sürenin ne kadarının verimli ya da zorunlu olduğunu gösterir: (verimli etkinlikler + zorunlu yükümlülükler) ÷ (verimli etkinlikler + verimsiz etkinlikler + zorunlu yükümlülükler) × 100. “Atama yok” ya da “Verimlilik hesabına katma” seçili görevlerin süresi hesaba girmez."
+              "Bir görevi düzenlerken ona “Verimlilik” altında bir kategori verirsin: verimli, verimsiz, zorunlu – ya da “Verimlilik hesabına katma”. Kendi kategorisi olmayan alt görevler üstlerindeki görevin kategorisini alır; “Verimlilik hesabına katma” ise altındaki her şey için geçerlidir. Puan, değerlendirilen sürenin ne kadarının verimli ya da zorunlu olduğunu gösterir: (verimli etkinlikler + zorunlu yükümlülükler) ÷ (verimli etkinlikler + verimsiz etkinlikler + zorunlu yükümlülükler) × 100. “Atama yok” ya da “Verimlilik hesabına katma” seçili görevlerin süresi hesaba girmez."
+            ]
+          },
+          {
+            "id": "goals",
+            "q": "Hedefler nasıl çalışır?",
+            "a": [
+              "SimpleTime Pro ile Ayarlar › Hedefler bölümünde her görev için bir hedef belirlersin: gün, hafta ya da ay başına en az ya da en fazla belirli bir süre – örneğin haftada en az 8 saat spor ya da günde en fazla 2 saat sosyal medya. Alt görevler de sayılır; ölçülen, içinde bulunulan dönemdir. Ne kadar ilerlediğini Grafik sekmesi ve Apple Watch gösterir; PDF rapor “Hedefler” bölümünde seçilen dönemdeki ortalamayı hedefle karşılaştırır."
             ]
           },
           {
@@ -517,14 +552,14 @@
             "id": "widgets",
             "q": "Hangi widget'lar var?",
             "a": [
-              "Ana ekran için: Bugün, Çalışan görev ve Hafta. Kilitli ekran için: ne çalışıyor ve ne kadar süredir. Ayrıca Denetim Merkezi için bir anahtar. Bir görev çalışırken Canlı Etkinlik onu kilitli ekranda ve Dynamic Island'da gösterir. SimpleTime Pro ile kendi görevlerinle doldurduğun bir hızlı başlat widget'ı da gelir."
+              "Ana ekran için: Bugün, Çalışan görev ve Hafta – Bugün ve Çalışan görev, başlatma ve durdurma düğmeleriyle. Kilitli ekran için: ne çalışıyor ve ne kadar süredir. Ayrıca Denetim Merkezi için “Zaman kaydı” anahtarı. Bir görev çalışırken Canlı Etkinlik onu kilitli ekranda ve Dynamic Island'da bir durdurma düğmesiyle gösterir. SimpleTime Pro ile kendi görevlerinle doldurduğun bir hızlı başlat widget'ı da gelir."
             ]
           },
           {
             "id": "without-opening",
             "q": "Uygulamayı açmadan kaydı başlatabilir miyim?",
             "a": [
-              "Evet, birkaç yolla. Çalışanı durdurmak ya da görevlerinden birini başlatmak için uygulama simgesine basılı tut. Bir görevin adını iPhone aramasına yaz ve ona dokun. Ya da Denetim Merkezi'ndeki anahtarı, bir widget'ı, Siri'yi – veya SimpleTime Pro ile Apple Watch'unu kullan."
+              "Evet, birkaç yolla. Çalışanı durdurmak ya da görevlerinden birini başlatmak için uygulama simgesine basılı tut. Bir görevin adını iPhone aramasına yaz ve ona dokun. Ya da bir widget'ı, Siri'yi veya “Zaman kaydı” anahtarını kullan – Denetim Merkezi'nde, kilitli ekranda ya da iPhone 15 Pro'dan itibaren Eylem düğmesinde –, SimpleTime Pro ile de Apple Watch'unu."
             ]
           },
           {
@@ -545,7 +580,8 @@
             "id": "calendar-entries",
             "q": "SimpleTime kayıtlarımı takvime ekleyebilir mi?",
             "a": [
-              "Evet, SimpleTime Pro ile: Ayarlar › Takvim bölümünde “Takvimdeki kayıtlar” seçeneğini aç; biten her kayıt bir etkinlik olarak görünür – kendi “SimpleTime” takviminde ya da seçtiğin bir takvimde, istersen görev başına ayrı ayrı. Bir kaydı değiştirir ya da silersen etkinlik de buna uyar; etkinlikteki bağlantı ise kaydı SimpleTime’da açar. “Takvimlerden görevler” ile “İş” gibi takvimler göreve dönüşür; ancak takvimde zaten bulunan etkinlikler kayıt olmaz. Etkinlikler takviminin sağlayıcısında saklanır ve görevlerinin adlarını takvimi paylaştığın herkese gösterir – uygulama kilidi açıkken bile."
+              "Evet, SimpleTime Pro ile: Ayarlar › Takvim bölümünde “Takvimdeki kayıtlar” seçeneğini aç – o günden itibaren biten her kayıt bir etkinlik olarak görünür, kendi “SimpleTime” takviminde ya da seçtiğin bir takvimde, istersen görev başına ayrı ayrı. Bir kaydı değiştirir ya da silersen etkinlik de buna uyar; etkinlikteki bağlantı ise kaydı SimpleTime’da açar. Seçeneği kapatırsan etkinlikler takvimde kalır.",
+              "“Takvimlerden görevler” ile “İş” gibi takvimler göreve dönüşür; ancak takvimde zaten bulunan etkinlikler kayıt olmaz. Etkinlikler takviminin sağlayıcısında saklanır ve görevlerinin adlarını takvimi paylaştığın herkese gösterir – uygulama kilidi açıkken bile."
             ]
           },
           {
@@ -565,7 +601,16 @@
             "id": "sync",
             "q": "SimpleTime cihazlarım arasında eşitleniyor mu?",
             "a": [
-              "Evet, iCloud ya da LaCodea ID üzerinden – bunu her cihazda Ayarlar › Veriler ve eşzamanlama bölümünde seçersin. iCloud kullanıldığında aynı Apple Hesabı ile oturum açılmış her cihaz eşitlenir; ne zaman yapılacağına sistem karar verir – eşitleme zorla başlatılamaz, ama aynı sayfa son eşitlemenin ne zaman olduğunu gösterir. LaCodea ID kullanıldığında, başka bir Apple Hesabı olsa bile aynı LaCodea ID ile giriş yaptığın ve onu seçtiğin her cihaz eşitlenir – uçtan uca şifrelenmiş olarak ve uygulama açıksa yaklaşık bir saniye sonra."
+              "Evet, iCloud ya da LaCodea ID üzerinden – bunu her cihazda Ayarlar › Veriler ve eşzamanlama bölümünde seçersin. iCloud kullanıldığında, iCloud’u seçtiğin ve aynı Apple Hesabı ile oturum açtığın her cihaz eşitlenir; ne zaman yapılacağına sistem karar verir. Eşitleme zorla başlatılamaz – “Şimdi eşzamanla” bu durumda hesabı ve bağlantıyı denetler, aynı sayfa da son eşitlemenin ne zaman olduğunu gösterir.",
+              "LaCodea ID kullanıldığında, başka bir Apple Hesabı olsa bile aynı LaCodea ID ile giriş yaptığın ve onu seçtiğin her cihaz eşitlenir – uçtan uca şifrelenmiş olarak ve SimpleTime iki cihazda da açıksa birkaç saniye içinde."
+            ]
+          },
+          {
+            "id": "sync-trouble",
+            "q": "Kayıtlarım diğer cihazda görünmüyor – ne yapabilirim?",
+            "a": [
+              "Her iki cihazda da Ayarlar › Veriler ve eşzamanlama bölümüne bak: ikisinde de aynı yer seçili olmalı – aynı Apple Hesabı ile iCloud ya da aynı hesapla giriş yapılmış LaCodea ID. Orada bir geçişin ancak daha sonra geçerli olacağı yazıyorsa SimpleTime’ı tamamen kapatıp yeniden aç; ayrıca uygulamayı tüm cihazlarında güncel tut.",
+              "iCloud ile, ayarlardaki Eşitleme bölümünde bulunan “Son eşitleme” en son ne zaman veri aktarıldığını gösterir; “Eşitlemeyi denetle” ise hesabı ve bağlantıyı kontrol eder ve bir sorun varsa nedenini söyler – örneğin iCloud depolama alanının dolu olması. LaCodea ID ile “Veriler ve eşzamanlama” sayfası, değişikliklerin bağlantı bekleyip beklemediğini, başka bir hesabın giriş yapmış olup olmadığını ya da cihazın kurtarma anahtarına ihtiyacı olup olmadığını gösterir. Bu işe yaramazsa [bize yaz](@contact)."
             ]
           },
           {
@@ -579,7 +624,8 @@
             "id": "switch-storage",
             "q": "Verilerimin nerede duracağını nasıl değiştiririm?",
             "a": [
-              "Ayarlar › Veriler ve eşzamanlama bölümünde istediğin yere, ardından “Şuna geç: iCloud”, “Şuna geç: LaCodea ID” ya da “Yalnızca bu aygıtta tut” seçeneğine dokun; LaCodea ID için bu sırada giriş yaparsın. iCloud’a ya da LaCodea ID’ye geçmeden önce SimpleTime bu cihazın bir güvenlik kopyasını alır; orada zaten veri varsa “Birleştir” ile “… verilerini kullan” arasında seçim yaparsın. Geçiş yalnızca bu cihaz için geçerlidir, çoğunlukla uygulamanın bir sonraki açılışından itibaren – diğer cihazların, oralarda da geçiş yapana kadar eskisi gibi eşitlenmeye devam eder. Ardından SimpleTime eski yerdeki verileri silmeyi önerir; silmezsen orada kalırlar."
+              "Ayarlar › Veriler ve eşzamanlama bölümünde istediğin yere, ardından “Şuna geç: iCloud”, “Şuna geç: LaCodea ID” ya da “Yalnızca bu aygıtta tut” seçeneğine dokun; LaCodea ID için bu sırada giriş yaparsın. iCloud’a ya da LaCodea ID’ye geçmeden önce SimpleTime bu cihazın bir güvenlik kopyasını alır; orada zaten veri varsa “Birleştir” ile “… verilerini kullan” arasında seçim yaparsın.",
+              "Geçiş yalnızca bu cihaz için geçerlidir ve çoğunlukla ancak SimpleTime’ı tamamen kapatıp yeniden açtığında devreye girer – sayfa bunu sana söyler. Diğer cihazların, oralarda da geçiş yapana kadar eskisi gibi eşitlenmeye devam eder. Ardından SimpleTime eski yerdeki verileri silmeyi önerir; bunu ancak diğer cihazların da geçiş yaptıktan sonra yap – yoksa onlar da bu verileri kaybeder."
             ]
           },
           {
@@ -614,7 +660,7 @@
             "id": "backup-files",
             "q": "Yedeklerimi nerede bulurum?",
             "a": [
-              "“Yalnızca bu aygıtta” planının yedeklerini Dosyalar uygulamasında “iPhone’umda” (ya da “iPad’imde”) › SimpleTime › Backups altında da bulursun, iCloud Drive planının yedeklerini ise iCloud Drive › SimpleTime › Backups altında. Dosyalar uygulamasındaki bir klasör ya da kendi sunucun için olan planlar onları senin seçtiğin yere koyar. Bu tür planlara en iyisi bir parola ver: parola olmadan, bulunduğu yere erişimi olan herkes bir yedeği açabilir – cihazda ise uygulama kilidi açıkken bile cihazın kilidini açan herkes."
+              "“Yalnızca bu aygıtta” planının yedeklerini Dosyalar uygulamasında “iPhone’umda” (ya da “iPad’imde”) › SimpleTime › Backups altında da bulursun, iCloud Drive planının yedeklerini ise iCloud Drive › SimpleTime › Backups altında. Dosyalar uygulamasındaki bir klasör ya da kendi sunucun için olan planlar onları senin seçtiğin yere koyar. Cihazdaki yedekler cihazla birlikte kaybolur – SimpleTime’ı sildiğinde de. Planlarına en iyisi bir parola ver: parola olmadan, bulunduğu yere erişimi olan herkes bir yedeği açabilir – cihazda ise uygulama kilidi açıkken bile cihazın kilidini açan herkes."
             ]
           },
           {
@@ -628,7 +674,7 @@
             "id": "export",
             "q": "Verilerimi dışa aktarabilir miyim?",
             "a": [
-              "Evet, istediğin zaman: görev, not, süre, başlangıç ve bitiş içeren bir CSV dosyası olarak – Excel, Numbers ya da herhangi bir analiz aracı için –, PDF rapor olarak ya da eksiksiz bir yedek olarak.",
+              "Evet, istediğin zaman: her kayıt için bir satır içeren bir CSV dosyası olarak – tarih, başlangıç, bitiş, görev, süre, ondalık saat ve not; Excel, Numbers ya da herhangi bir tablo programı için –, PDF rapor olarak ya da bir yedek olarak.",
               "Ayarlar › Verileri dışa/içe aktar bölümünde CSV dosyasının dönemini seç – bugünden tüm zamanlara ya da kendi belirlediğin bir aralık, örneğin geçen ay. Yedeği Ayarlar › Yedekler bölümünde alırsın."
             ]
           },
@@ -640,17 +686,24 @@
             ]
           },
           {
+            "id": "rounding",
+            "q": "SimpleTime süreleri, örneğin çeyrek saate yuvarlayabilir mi?",
+            "a": [
+              "Hayır, yuvarlama ayarı yoktur: SimpleTime başlangıcı ve bitişi kaydettiğin gibi saklar. PDF raporun “Tüm kayıtlar” bölümünde ve CSV dışa aktarımında her satır dakikaya yuvarlanmış ve virgülden sonra iki basamaklı ondalık saatle yer alır; PDF’teki toplamlar tam olarak bu değerlerle hesaplanır. Çeyrek saate ihtiyacın varsa kayıttaki başlangıcı ve bitişi değiştir ya da tablo programında yuvarla."
+            ]
+          },
+          {
             "id": "import",
             "q": "Başka bir uygulamadan veri aktarabilir miyim?",
             "a": [
-              "Doğrudan değil. SimpleTime yalnızca kendi yedeklerini okur; başka uygulamalardan gelen CSV dosyaları içe aktarılamaz."
+              "Hayır. SimpleTime yalnızca kendi yedeklerini okur – CSV dosyaları, SimpleTime’ın kendi oluşturdukları bile, içe aktarılamaz ve takvimindeki etkinlikler kayıt olmaz. Geçmiş zamanları Gün sekmesinde + ile elle eklersin."
             ]
           },
           {
             "id": "new-device",
             "q": "Yeni bir iPhone'a nasıl geçerim?",
             "a": [
-              "Aynı Apple Hesabı ile oturum aç ve SimpleTime’ı yükle – iCloud kullanıyorsan (Ayarlar › Veriler ve eşzamanlama) kayıtların kendiliğinden geri gelir. LaCodea ID kullanıyorsan yeni cihazda onunla giriş yap ve Veriler ve eşzamanlama bölümünde onu seç; cihaz anahtarı iCloud Anahtar Zinciri’n üzerinden kendiliğinden almazsa uygulama kurtarma anahtarını bir kez ister. Aksi hâlde eski cihazda bir yedek al ve yenisinde geri yükle. Yerler her cihaza aittir ve eşitlenmez."
+              "Aynı Apple Hesabı ile oturum aç ve SimpleTime’ı yükle – iCloud kullanıyorsan (Ayarlar › Veriler ve eşzamanlama) kayıtların kendiliğinden geri gelir. LaCodea ID kullanıyorsan yeni cihazda onunla giriş yap ve Veriler ve eşzamanlama bölümünde onu seç; cihaz anahtarı iCloud Anahtar Zinciri’n üzerinden kendiliğinden almazsa uygulama kurtarma anahtarını bir kez ister. Aksi hâlde eski cihazda bir yedek al ve yenisinde geri yükle. Yerler ve ayarlar her cihaza aittir – ne eşitlenir ne de yedeklenir."
             ]
           }
         ]
@@ -712,7 +765,16 @@
             "id": "delete-all",
             "q": "Tüm verilerimi nasıl silerim?",
             "a": [
-              "Ayarlarda Gizlilik › Tüm verileri sil bölümünden her şeyi tek seferde kaldırırsın – kayıtları ve görevleri, çöp kutusunu, anımsatıcıları, planlarının yedeklerini ve iCloud Drive’daki eski yedekleri, dışa aktarmaları, ayarları ve SimpleTime’ın takvimine eklediği etkinlikleri. Silme işlemi bu cihazda, iCloud’da ve LaCodea ID üzerinden eşitliyorsan sunucuda yapılır; iCloud üzerinden silme, diğer cihazların çevrimiçi olur olmaz onlara da ulaşır. LaCodea ID üzerinden eşitlemede diğer cihazların verilerini korur – orada da aynı şekilde silersin – ve LaCodea ID hesabın da yerinde kalır. Bu işlem geri alınamaz."
+              "Ayarlarda Gizlilik › Tüm verileri sil bölümünden her şeyi tek seferde kaldırırsın – kayıtları ve görevleri, hedefleri, yerleri, çöp kutusunu, anımsatıcıları, planlarının yedeklerini ve iCloud Drive’daki eski yedekleri, dışa aktarmaları, uygulama kilidinin koduyla birlikte ayarları ve SimpleTime’ın takvimine eklediği etkinlikleri.",
+              "Silme işlemi bu cihazda, iCloud’da ve LaCodea ID üzerinden eşitliyorsan sunucuda yapılır; iCloud üzerinden silme, diğer cihazların çevrimiçi olur olmaz onlara da ulaşır. LaCodea ID üzerinden eşitlemede diğer cihazların verilerini korur ve sen oralarda eşitlemeyi yeniden kurana kadar eşitlenmez – orada da aynı şekilde silersin – ve LaCodea ID hesabın da yerinde kalır. Bu işlem geri alınamaz."
+            ]
+          },
+          {
+            "id": "delete-app",
+            "q": "SimpleTime’ı silersem ne olur?",
+            "a": [
+              "O zaman yalnızca bu cihazda bulunan her şey gider: “Yalnızca bu aygıtta” seçtiysen kayıtların, “Yalnızca bu aygıtta” planının yedekleri, yerlerin ve uygulama kilidiyle birlikte ayarların. iCloud’da ya da LaCodea ID’de bulunanlar orada kalır ve Veriler ve eşzamanlama bölümünde yine aynı yeri kullandığında, yeniden yüklemeden sonra geri gelir.",
+              "iCloud Drive’daki, Dosyalar uygulamasındaki bir klasördeki ya da sunucundaki yedekler, takvimindeki etkinlikler gibi yerinde kalır; şifreli bir yedek için daha sonra onun parolasına ihtiyacın olur. Bir abonelik, sen iptal edene kadar devam eder ve LaCodea ID’n de yerinde kalır. Önce her şeyi kaldırmak istersen Ayarlar › Gizlilik › Tüm verileri sil bölümünü kullan."
             ]
           },
           {
@@ -732,7 +794,7 @@
             "id": "pro-includes",
             "q": "SimpleTime Pro neleri içerir?",
             "a": [
-              "Apple Watch uygulaması, haftana, ayına ve yılına dair özetler, yerler, takviminde etkinlik olarak kayıtların, yıl görünümü, hedefler, odak filtresi, bir hızlı başlat widget'ı, yedi vurgu rengi ya da kendi rengin, altı yazı tipi, on altı uygulama simgesi ve PDF raporda ek bölümler. Sonradan eklenenler dahildir. [SimpleTime Pro hakkında her şey](@pro)"
+              "Apple Watch uygulaması, haftana, ayına ve yılına dair özetler, yerler, takviminde etkinlik olarak kayıtların ve takvimlerden görevler, “Yıla bir bakışta”, hedefler, odak filtresi, bir hızlı başlat widget'ı, yedi vurgu rengi ya da kendi rengin, altı yazı tipi, on altı uygulama simgesi ve PDF raporda ek bölümler. Saat uygulaması için bir iPhone gerekir; yerler ve uygulama simgeleri iPhone ve iPad'de kullanılabilir. Sonradan eklenenler dahildir. [SimpleTime Pro hakkında her şey](@pro)"
             ]
           },
           {
@@ -758,16 +820,10 @@
           },
           {
             "id": "restore-purchase",
-            "q": "Pro'yu diğer cihazlarıma nasıl alırım?",
+            "q": "Pro’yu satın aldım – diğer cihazlarımda da nasıl kullanırım?",
             "a": [
-              "Pro, Apple Hesabına bağlıdır. Aynı hesabı kullanan diğer cihazlarında genellikle kendiliğinden açılır. Açılmazsa Ayarlar › SimpleTime Pro altındaki Pro sayfasında Geri yükle'ye dokun. LaCodea ID ile giriş yaptıysan, başka bir Apple Hesabı kullansan bile aynı LaCodea ID’yi kullanan her cihazda Pro’ya sahip olursun. Bu durumda Pro sayfası nerede abone olduğunu gösterir – aboneliği yalnızca orada değiştirebilirsin."
-            ]
-          },
-          {
-            "id": "pro-other-device",
-            "q": "Pro satın aldım – neden diğer cihazımda yok?",
-            "a": [
-              "Aynı Apple Hesabı ile oradaki Ayarlar › SimpleTime Pro bölümünde “Geri yükle” düğmesine dokun. Farklı bir Apple Hesabı ile her iki cihazda da aynı LaCodea ID ile giriş yap; Pro’yu giriş yapmadan önce satın aldıysan satın alma için kullandığın Apple Hesabının bulunduğu bir cihazda da LaCodea ID ile giriş yap – SimpleTime satın alımı oradan hesabına bildirir. Ardından diğer cihazın Pro sayfasında “LaCodea ID hesabın üzerinden” yazar."
+              "Pro, Apple Hesabına bağlıdır: aynı hesabı kullanan diğer cihazlarında genellikle kendiliğinden açılır. Açılmazsa oradaki Ayarlar › SimpleTime Pro bölümünde “Geri yükle” düğmesine dokun.",
+              "Farklı bir Apple Hesabı kullanan bir cihazda Pro’yu LaCodea ID üzerinden alırsın: her iki cihazda da aynı LaCodea ID ile giriş yap. Pro’yu giriş yapmadan önce satın aldıysan satın alma için kullandığın Apple Hesabının bulunduğu bir cihazda da LaCodea ID ile giriş yap – SimpleTime satın alımı oradan hesabına bildirir. Ardından Pro sayfasında “LaCodea ID hesabın üzerinden” yazar; abonelikte ise nerede abone olduğun da görünür – aboneliği yalnızca orada değiştirebilirsin."
             ]
           },
           {
@@ -842,14 +898,14 @@
             "id": "look",
             "q": "SimpleTime'ın görünümünü değiştirebilir miyim?",
             "a": [
-              "Evet: açık, koyu ya da sisteme uyan görünüm, görev listesi için üç satır yüksekliği ve Ayarlar › Yazı tipi bölümünde kendi metin boyutun ile kalın metin. SimpleTime Pro ile yedi vurgu rengi ya da kendi rengin – düğmelerde, anahtarlarda ve grafiklerde –, altı yazı tipi ve on altı uygulama simgesi de gelir."
+              "Evet: açık, koyu ya da sisteme uyan görünüm, görev listesi için üç satır yüksekliği ve Ayarlar › Yazı tipi bölümünde kendi metin boyutun ile kalın metin. SimpleTime Pro ile yedi vurgu rengi ya da kendi rengin – düğmelerde, anahtarlarda ve grafiklerde –, altı yazı tipi ve iPhone ile iPad'de on altı uygulama simgesi de gelir."
             ]
           },
           {
             "id": "accessibility",
             "q": "SimpleTime erişilebilir mi?",
             "a": [
-              "Evet. SimpleTime, uygulamanın tamamında VoiceOver'ı ve Dynamic Type'ı destekler. Senin için çalışmayan bir şey olursa lütfen bize haber ver."
+              "Evet. VoiceOver düğmeleri, grafikleri ve zaman çizelgesini uygulamanın her dilinde sesli okur; grafikler Sesli Grafik olarak da sunulur. Metinler, iOS’taki metin boyutunu en büyük boyutlara kadar izler – yalnızca başlıkta ve zaman çizelgesinde, hiçbir şey denetimleri kapatmasın diye belirli bir sınıra kadar büyür. Daha fazlası [erişilebilirlik açıklamamızda](@accessibility) yer alıyor; senin için çalışmayan bir şey olursa lütfen bize haber ver."
             ]
           },
           {
@@ -877,7 +933,7 @@
             "id": "feedback",
             "q": "Bir hata buldum ya da bir fikrim var – nereye göndereyim?",
             "a": [
-              "Bize [contact@simple-time.app](mailto:contact@simple-time.app) adresinden yaz. Bir hata için lütfen cihaz modelini ve iOS sürümünü belirt ve o sırada ne yaptığını kısaca anlat. Her mesaj okunur."
+              "Bize [contact@simple-time.app](mailto:contact@simple-time.app) adresinden yaz – uygulamadan Ayarlar › Geri bildirim yoluyla da yazabilirsin. Bir hata için lütfen cihaz modelini, iOS, iPadOS ya da macOS sürümünü ve SimpleTime sürümünü belirt – onu Ayarlar › SimpleTime Hakkında bölümünde bulursun – ve o sırada ne yaptığını kısaca anlat. Her mesaj okunur."
             ]
           },
           {

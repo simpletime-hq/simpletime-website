@@ -341,6 +341,13 @@
             ]
           },
           {
+            "id": "first-steps",
+            "q": "Hoe begin ik?",
+            "a": [
+              "Tik in het tabblad Registratie op + om een taak aan te maken – met naam, kleur en symbool. Tik op het driehoekje ernaast en de klok loopt; met Stop beëindig je hem. Bij de eerste start laat een korte rondleiding je de belangrijkste knoppen zien. Je kunt die altijd nog eens doorlopen via Instellingen › Rondleiding opnieuw bekijken."
+            ]
+          },
+          {
             "id": "free",
             "q": "Is SimpleTime gratis?",
             "a": [
@@ -369,6 +376,13 @@
             ]
           },
           {
+            "id": "mac",
+            "q": "Wat kan SimpleTime op de Mac?",
+            "a": [
+              "Bijna alles wat de app op de iPhone kan – registreren, de dagweergave, analyses, rapporten, export, back-ups, synchronisatie en de app-vergrendeling; waar je op de iPhone veegt, rechtsklik je op de Mac. Daarbij komen de stopwatch in de menubalk en widgets op het bureaublad. Locaties, Live activiteiten, de app voor Apple Watch en wisselbare app-symbolen zijn er op de Mac niet."
+            ]
+          },
+          {
             "id": "languages",
             "q": "Welke talen spreekt SimpleTime?",
             "a": [
@@ -376,17 +390,10 @@
             ]
           },
           {
-            "id": "first-steps",
-            "q": "Hoe begin ik?",
-            "a": [
-              "Tik in het tabblad Registratie op + om een taak aan te maken – met naam, kleur en symbool. Tik op het driehoekje ernaast en de klok loopt; met Stop beëindig je hem. Bij de eerste start laat een korte rondleiding je de belangrijkste knoppen zien. Je kunt die altijd nog eens doorlopen via Instellingen › Rondleiding opnieuw bekijken."
-            ]
-          },
-          {
             "id": "offline",
             "q": "Werkt SimpleTime offline?",
             "a": [
-              "Ja, volledig. Registreren, de dagweergave, grafieken en rapporten werken allemaal zonder verbinding. Synchronisatie en back-ups halen alles in zodra je apparaat weer online is."
+              "Ja. Registreren, de dagweergave, grafieken en rapporten werken allemaal zonder verbinding. Een verbinding heb je nodig voor synchronisatie, back-ups naar je eigen server, inloggen met LaCodea ID, het kopen van Pro en het zoeken naar een adres voor een locatie. Wat blijft liggen, haalt SimpleTime in – de synchronisatie zodra je apparaat weer online is, een gemiste back-up wanneer je de app de volgende keer opent."
             ]
           }
         ]
@@ -399,28 +406,42 @@
             "id": "start-stop",
             "q": "Hoe start en stop ik een registratie?",
             "a": [
-              "Tik op het driehoekje naast een taak om hem te starten. De lopende taak staat bovenaan in het tabblad Registratie; met Stop beëindig je hem. Een tik op de naam van een taak opent de subtaken, naar links vegen laat je hem wijzigen, archiveren of verwijderen, en naar rechts vegen toont de info met alle cijfers."
+              "Tik op het driehoekje naast een taak om hem te starten. De lopende taak staat bovenaan in het tabblad Registratie; met Stop beëindig je hem. Een tik op de naam van een taak opent de subtaken, naar links vegen laat je hem wijzigen, archiveren of verwijderen, en naar rechts vegen toont de info met alle cijfers – op de Mac vind je dat allemaal met een rechtsklik."
             ]
           },
           {
             "id": "one-at-a-time",
             "q": "Kunnen twee taken tegelijk lopen?",
             "a": [
-              "Nee. Er loopt altijd hoogstens één registratie. Start je een andere taak, dan stopt de lopende registratie automatisch – zo overlappen je registraties nooit."
+              "Nee. Er loopt altijd maar één registratie: start je een andere taak, dan stopt de lopende registratie op hetzelfde moment – zo overlappen je registraties niet."
+            ]
+          },
+          {
+            "id": "keeps-running",
+            "q": "Loopt de tijd door als ik SimpleTime sluit?",
+            "a": [
+              "Ja. SimpleTime onthoudt wanneer je bent gestart en berekent daaruit de duur – de registratie loopt door als je de app sluit, je iPhone vergrendelt of opnieuw opstart. Op het toegangsscherm en in het Dynamic Island toont de Live activiteit de lopende tijd, met een knop om te stoppen, en je herinneringen komen ook binnen als de app gesloten is."
             ]
           },
           {
             "id": "add-later",
             "q": "Ik ben vergeten te starten – kan ik tijd achteraf invoeren?",
             "a": [
-              "Ja. Voeg in het tabblad Dag een nieuwe registratie toe met begin en einde, of tik op een bestaande om die te wijzigen. Registraties kunnen niet overlappen: SimpleTime laat het weten als een periode botst met een andere registratie. Bij een registratie die nog loopt, kun je de start ook terugzetten – tot het einde van de vorige registratie."
+              "Ja. Voeg in het tabblad Dag met + een nieuwe registratie toe met begin en einde, of tik op een bestaande om die te wijzigen. Registraties kunnen niet overlappen: SimpleTime laat het weten als een periode botst met een andere registratie. Loopt de registratie al, tik er dan bovenaan in het tabblad Registratie op en zet de start terug – tot het einde van de vorige registratie."
+            ]
+          },
+          {
+            "id": "restore-entry",
+            "q": "Ik heb een registratie verwijderd – kan ik die terughalen?",
+            "a": [
+              "Ja. Verwijder je een registratie in het tabblad Dag – door naar links te vegen, of op de Mac met een rechtsklik –, dan komt die in de prullenmand: linksboven in het tabblad Dag haal je die onder „Verwijderde registraties” terug met „Herstel”, of je verwijdert die definitief. Verwijderde taken liggen samen met hun registraties in de prullenmand linksboven in het tabblad Registratie. Wat definitief is verwijderd, krijg je alleen met een back-up terug."
             ]
           },
           {
             "id": "fixed-times",
             "q": "Wat zijn vaste tijden?",
             "a": [
-              "Terugkerende tijden zoals lessen, diensten of spreekuren stel je één keer in: taak, weekdagen, begin en einde, elke week of elke twee weken, desgewenst met een einddatum. Zodra een tijd voorbij is, voegt SimpleTime die zelf toe als registratie – op elk apparaat waarop je SimpleTime opent, en toch maar één keer. Je registreert alleen nog wat erbij komt; je vindt het onder Instellingen › Registratie › Vaste tijden, zonder Pro."
+              "Terugkerende tijden zoals lessen, diensten of spreekuren stel je één keer in: taak, weekdagen, begin en einde, elke week of elke twee weken, vanaf een dag naar keuze en desgewenst met een einddatum. Zodra een tijd voorbij is, voegt SimpleTime die zelf toe als registratie – op elk apparaat waarop je SimpleTime opent, en toch maar één keer; SimpleTime haalt daarbij hoogstens 31 dagen terug in. Je registreert alleen nog wat erbij komt; je vindt het onder Instellingen › Registratie › Vaste tijden, zonder Pro."
             ]
           },
           {
@@ -448,21 +469,28 @@
             "id": "archive-trash",
             "q": "Wat is het verschil tussen archiveren en verwijderen?",
             "a": [
-              "Archiveren verbergt een taak alleen: de registraties blijven en tellen in alle analyses gewoon mee. Verwijderen verplaatst de taak samen met de registraties naar de prullenmand. Van daaruit kun je beide herstellen – of definitief verwijderen."
+              "Archiveren verbergt een taak alleen: de registraties blijven en tellen in alle analyses gewoon mee. Verwijderen verplaatst de taak samen met de registraties naar de prullenmand – de tijden ervan tellen dan nergens meer mee. Het archief en de prullenmand vind je linksboven in het tabblad Registratie: uit het archief haal je een taak terug met „Herstel”, uit de prullenmand de taak samen met de registraties – of je verwijdert hem daar definitief."
             ]
           },
           {
             "id": "notes",
             "q": "Kan ik notities bij registraties zetten?",
             "a": [
-              "Ja, elke registratie kan een notitie hebben – waaraan je hebt gewerkt, of met wie je hebt afgesproken. Notities staan in de dagweergave en zitten in de CSV-export en in de back-ups."
+              "Ja, elke registratie kan een notitie hebben – waaraan je hebt gewerkt, of met wie je hebt afgesproken. Je schrijft die erbij als je in het tabblad Dag een registratie aanmaakt of wijzigt, en zolang een registratie loopt, met een tik erop bovenaan in het tabblad Registratie. Je ziet de notitie als je de registratie opent, in de info van een taak onder „Alle registraties”, in het onderdeel „Alle registraties” van het pdf-rapport en in de CSV-export; back-ups nemen die mee."
             ]
           },
           {
             "id": "reminders",
             "q": "Kan SimpleTime me herinneren?",
             "a": [
-              "Ja. In de instellingen stel je onder Meldingen regels in – bijvoorbeeld een herinnering als een taak al 60 minuten loopt, voor alle taken of alleen voor gekozen taken, op de weekdagen die jij kiest. SimpleTime kan je ook herinneren als er een tijdje niets is geregistreerd."
+              "Ja. Onder Instellingen › Meldingen instellen leg je regels vast – bijvoorbeeld een herinnering als een taak al 60 minuten loopt, voor alle taken of alleen voor gekozen taken, op de weekdagen die jij kiest. Met „Herinner me als er niets loopt” laat SimpleTime ook van zich horen als er een tijdje niets is geregistreerd."
+            ]
+          },
+          {
+            "id": "time-zone",
+            "q": "Ik ben naar een andere tijdzone gereisd – waarom staan mijn registraties op andere tijden?",
+            "a": [
+              "Standaard toont SimpleTime elke registratie in de tijdzone waarin je apparaat zich nu bevindt – zoals in Agenda van Apple: wat je om 9 uur in New York hebt geregistreerd, staat in Berlijn om 15 uur. Onder Instellingen › Tijdzone kies je in plaats daarvan „Tijdzone van de registratie”: dan verschijnt elke registratie met de tijd en op de dag waarop je die hebt geregistreerd – overal waar tijden en totalen staan. De duur blijft in beide gevallen gelijk; registraties uit versies vóór 4.7 verschijnen altijd in de tijdzone van het apparaat."
             ]
           }
         ]
@@ -475,21 +503,28 @@
             "id": "day-view",
             "q": "Wat laat de dagweergave zien?",
             "a": [
-              "Elke registratie van een dag met begin, einde en duur – als lijst of als tijdlijn van 0 tot 24 uur, met een markering op het huidige tijdstip. Bovenaan zie je hoe vandaag zich verhoudt tot gisteren."
+              "Elke registratie van een dag met begin, einde en duur – als lijst of als tijdlijn van 0 tot 24 uur, vandaag met een markering op het huidige tijdstip; op brede schermen zoals iPad en Mac staan beide naast elkaar. Bovenaan staan het totaal van de dag en de vergelijking met de dag ervoor."
             ]
           },
           {
             "id": "charts",
             "q": "Welke grafieken en statistieken zijn er?",
             "a": [
-              "Cirkeldiagrammen per taak en per productiviteit, voor een dag, een week, een maand of een jaar. Onder Meer statistieken vind je de vergelijking met de vorige periode, het verloop, de verdeling van je tijd over de dag, je belangrijkste taken en de langste en kortste registratie. Elke taak heeft daarnaast een eigen infopagina – eerste registratie, langste registratie, deze week, dit jaar."
+              "In het tabblad Grafiek: cirkeldiagrammen per taak en per productiviteit, voor een dag, een week, een maand of een jaar. Rechtsboven onder „Meer statistieken” vind je de vergelijking met de vorige periode, het verloop, je belangrijkste taken en de langste en kortste registratie – vanaf een week ook de verdeling over de dag, met je drukste uur. Elke taak heeft daarnaast een eigen infopagina – eerste registratie, langste registratie, deze week, dit jaar."
             ]
           },
           {
             "id": "productivity",
             "q": "Wat is de productiviteitsscore?",
             "a": [
-              "Je kunt elke taak een categorie geven: productief, onproductief, noodzakelijk – of niet meetellen. De score laat zien hoeveel van je beoordeelde tijd productief of noodzakelijk was: (productief + noodzakelijk) ÷ (productief + onproductief + noodzakelijk) × 100. Tijd zonder indeling of met „Niet meetellen” telt niet mee."
+              "Bij het wijzigen van een taak geef je hem onder „Productiviteit” een categorie: productief, onproductief, noodzakelijk – of „Niet meetellen”. Subtaken zonder eigen categorie nemen die van de taak erboven over, en „Niet meetellen” geldt voor alles daaronder. De score laat zien hoeveel van je beoordeelde tijd productief of noodzakelijk was: (productief + noodzakelijk) ÷ (productief + onproductief + noodzakelijk) × 100. Tijd zonder indeling of met „Niet meetellen” telt niet mee."
+            ]
+          },
+          {
+            "id": "goals",
+            "q": "Hoe werken doelen?",
+            "a": [
+              "Met SimpleTime Pro stel je onder Instellingen › Doelen per taak een doel in: minstens of hoogstens zoveel tijd per dag, week of maand – bijvoorbeeld minstens 8 uur sport per week of hoogstens 2 uur sociale media per dag. Subtaken tellen mee, en gemeten wordt de lopende periode. Hoe ver je bent, zie je in het tabblad Grafiek en op de Apple Watch; het pdf-rapport vergelijkt in het onderdeel „Doelen” het gemiddelde in de gekozen periode met het doel."
             ]
           },
           {
@@ -517,14 +552,14 @@
             "id": "widgets",
             "q": "Welke widgets zijn er?",
             "a": [
-              "Voor het beginscherm: Vandaag, Lopende taak en Week. Voor het toegangsscherm: wat er loopt en hoe lang al. Daarnaast is er een schakelaar voor het bedieningspaneel. Loopt er een taak, dan zie je die als Live activiteit op het toegangsscherm en in het Dynamic Island. Met SimpleTime Pro krijg je er een snelstart-widget bij die je met je eigen taken vult."
+              "Voor het beginscherm: Vandaag, Lopende taak en Week – Vandaag en Lopende taak met knoppen om te starten en te stoppen. Voor het toegangsscherm: wat er loopt en hoe lang al. Daarnaast is er de schakelaar „Tijdregistratie” voor het bedieningspaneel. Loopt er een taak, dan zie je die als Live activiteit op het toegangsscherm en in het Dynamic Island, met een knop om te stoppen. Met SimpleTime Pro krijg je er een snelstart-widget bij die je met je eigen taken vult."
             ]
           },
           {
             "id": "without-opening",
             "q": "Kan ik registreren zonder de app te openen?",
             "a": [
-              "Ja, op verschillende manieren. Houd het appsymbool ingedrukt om te stoppen wat er loopt of om een van je taken te starten. Typ de naam van een taak in de zoekfunctie van de iPhone en tik erop. Of gebruik de schakelaar in het bedieningspaneel, een widget, Siri – of, met SimpleTime Pro, je Apple Watch."
+              "Ja, op verschillende manieren. Houd het appsymbool ingedrukt om te stoppen wat er loopt of om een van je taken te starten. Typ de naam van een taak in de zoekfunctie van de iPhone en tik erop. Of gebruik een widget, Siri of de schakelaar „Tijdregistratie” – in het bedieningspaneel, op het toegangsscherm of op de Actieknop vanaf de iPhone 15 Pro –, en met SimpleTime Pro ook je Apple Watch."
             ]
           },
           {
@@ -545,7 +580,8 @@
             "id": "calendar-entries",
             "q": "Kan SimpleTime mijn registraties in mijn agenda zetten?",
             "a": [
-              "Ja, met SimpleTime Pro: zet onder Instellingen › Agenda „Registraties in Agenda” aan, dan verschijnt elke afgeronde registratie als activiteit – in een eigen agenda „SimpleTime” of in een agenda naar keuze, desgewenst per taak. Wijzig of verwijder je een registratie, dan verandert de activiteit mee, en de link in de activiteit opent de registratie in SimpleTime. Met „Taken uit agenda’s” worden agenda’s zoals „Werk” taken; activiteiten die al in je agenda staan, worden echter geen registraties. De activiteiten worden bewaard bij de aanbieder van je agenda en tonen de namen van je taken aan iedereen met wie je de agenda deelt – ook als de app-vergrendeling aan staat."
+              "Ja, met SimpleTime Pro: zet onder Instellingen › Agenda „Registraties in Agenda” aan – vanaf die dag verschijnt elke afgeronde registratie als activiteit, in een eigen agenda „SimpleTime” of in een agenda naar keuze, desgewenst per taak. Wijzig of verwijder je een registratie, dan verandert de activiteit mee, en de link in de activiteit opent de registratie in SimpleTime. Zet je het uit, dan blijven de activiteiten in je agenda staan.",
+              "Met „Taken uit agenda’s” worden agenda’s zoals „Werk” taken; activiteiten die al in je agenda staan, worden echter geen registraties. De activiteiten worden bewaard bij de aanbieder van je agenda en tonen de namen van je taken aan iedereen met wie je de agenda deelt – ook als de app-vergrendeling aan staat."
             ]
           },
           {
@@ -565,7 +601,16 @@
             "id": "sync",
             "q": "Synchroniseert SimpleTime tussen mijn apparaten?",
             "a": [
-              "Ja, via iCloud of via LaCodea ID – dat kies je op elk apparaat onder Instellingen › Gegevens en synchronisatie. Met iCloud synchroniseert elk apparaat dat met hetzelfde Apple Account is ingelogd; wanneer, bepaalt het systeem – afdwingen kun je de synchronisatie niet, maar dezelfde pagina laat zien wanneer die voor het laatst liep. Met LaCodea ID synchroniseert elk apparaat waarop je met dezelfde LaCodea ID bent ingelogd en die hebt gekozen, ook met een ander Apple Account – end-to-end versleuteld en, als de app open is, na ongeveer een seconde."
+              "Ja, via iCloud of via LaCodea ID – dat kies je op elk apparaat onder Instellingen › Gegevens en synchronisatie. Met iCloud synchroniseert elk apparaat waarop je iCloud hebt gekozen en met hetzelfde Apple Account bent ingelogd; wanneer, bepaalt het systeem. Afdwingen kun je de synchronisatie niet – „Synchroniseer nu” controleert dan je account en verbinding, en dezelfde pagina laat zien wanneer er voor het laatst is gesynchroniseerd.",
+              "Met LaCodea ID synchroniseert elk apparaat waarop je met dezelfde LaCodea ID bent ingelogd en die hebt gekozen, ook met een ander Apple Account – end-to-end versleuteld en, als SimpleTime op beide apparaten open is, binnen enkele seconden."
+            ]
+          },
+          {
+            "id": "sync-trouble",
+            "q": "Mijn registraties komen niet aan op mijn andere apparaat – wat kan ik doen?",
+            "a": [
+              "Kijk op beide apparaten onder Instellingen › Gegevens en synchronisatie: beide hebben dezelfde plek nodig – iCloud met hetzelfde Apple Account of LaCodea ID, ingelogd met hetzelfde account. Staat daar dat een overstap pas later ingaat, sluit SimpleTime dan helemaal af en open het opnieuw; houd de app bovendien op al je apparaten up-to-date.",
+              "Met iCloud laat „Laatste synchronisatie” in de instellingen onder Synchronisatie zien wanneer er voor het laatst iets is overgedragen, en „Synchronisatie controleren” kijkt naar je account en verbinding en noemt bij een probleem de oorzaak, bijvoorbeeld dat je iCloud-opslag vol is. Met LaCodea ID laat de pagina „Gegevens en synchronisatie” zien of wijzigingen op een verbinding wachten, of er een ander account is ingelogd en of het apparaat je herstelsleutel nodig heeft. Helpt dat niet, [schrijf ons dan](@contact)."
             ]
           },
           {
@@ -579,7 +624,8 @@
             "id": "switch-storage",
             "q": "Hoe wijzig ik waar mijn gegevens staan?",
             "a": [
-              "Tik onder Instellingen › Gegevens en synchronisatie op de gewenste plek en daarna op „Stap over naar iCloud”, „Stap over naar LaCodea ID” of „Alleen op dit apparaat houden”; voor LaCodea ID log je daarbij in. Voordat je overstapt naar iCloud of LaCodea ID, maakt SimpleTime een veiligheidskopie van dit apparaat, en staan daar al gegevens, dan kies je tussen „Samenvoegen” en „Gebruik de gegevens van …”. De overstap geldt alleen voor dit apparaat, meestal vanaf de volgende start van de app – je andere apparaten blijven synchroniseren zoals voorheen, tot je ook daar overstapt. Daarna biedt SimpleTime aan om de gegevens op de oude plek te verwijderen; anders blijven ze daar staan."
+              "Tik onder Instellingen › Gegevens en synchronisatie op de gewenste plek en daarna op „Stap over naar iCloud”, „Stap over naar LaCodea ID” of „Alleen op dit apparaat houden”; voor LaCodea ID log je daarbij in. Voordat je overstapt naar iCloud of LaCodea ID, maakt SimpleTime een veiligheidskopie van dit apparaat, en staan daar al gegevens, dan kies je tussen „Samenvoegen” en „Gebruik de gegevens van …”.",
+              "De overstap geldt alleen voor dit apparaat, meestal pas als je SimpleTime helemaal hebt afgesloten en opnieuw hebt geopend – de pagina laat het je weten. Je andere apparaten blijven synchroniseren zoals voorheen, tot je ook daar overstapt. Daarna biedt SimpleTime aan om de gegevens op de oude plek te verwijderen; doe dat pas als ook je andere apparaten zijn overgestapt – anders raken die deze gegevens ook kwijt."
             ]
           },
           {
@@ -614,7 +660,7 @@
             "id": "backup-files",
             "q": "Waar vind ik mijn back-ups?",
             "a": [
-              "De back-ups van een plan „Alleen op dit apparaat” vind je ook in de Bestanden-app onder „Op mijn iPhone” (of „Op mijn iPad”) › SimpleTime › Backups, die van een plan in iCloud Drive onder iCloud Drive › SimpleTime › Backups. Plannen voor een map van de Bestanden-app of je eigen server zetten ze waar je hebt gekozen. Geef zulke plannen het liefst een wachtwoord: zonder kan iedereen met toegang tot de plek een back-up openen – op het apparaat iedereen die het ontgrendelt, ook als de app-vergrendeling aan staat."
+              "De back-ups van een plan „Alleen op dit apparaat” vind je ook in de Bestanden-app onder „Op mijn iPhone” (of „Op mijn iPad”) › SimpleTime › Backups, die van een plan in iCloud Drive onder iCloud Drive › SimpleTime › Backups. Plannen voor een map van de Bestanden-app of je eigen server zetten ze waar je hebt gekozen. Back-ups op het apparaat gaan met het apparaat verloren – en ook als je SimpleTime verwijdert. Geef je plannen het liefst een wachtwoord: zonder kan iedereen met toegang tot de plek een back-up openen – op het apparaat iedereen die het ontgrendelt, ook als de app-vergrendeling aan staat."
             ]
           },
           {
@@ -628,7 +674,7 @@
             "id": "export",
             "q": "Kan ik mijn gegevens exporteren?",
             "a": [
-              "Ja, altijd: als CSV-bestand met taak, notitie, duur, begin en einde – voor Excel, Numbers of elk analyseprogramma –, als pdf-rapport of als volledige back-up.",
+              "Ja, altijd: als CSV-bestand met één regel per registratie – datum, start, einde, taak, duur, decimale uren en notitie, voor Excel, Numbers of elk spreadsheetprogramma –, als pdf-rapport of als back-up.",
               "Onder Instellingen › Gegevens exporteren / importeren kies je de periode van het CSV-bestand: van vandaag tot de hele periode, of een eigen periode, zoals vorige maand. Een back-up maak je onder Instellingen › Back-ups."
             ]
           },
@@ -640,17 +686,24 @@
             ]
           },
           {
+            "id": "rounding",
+            "q": "Kan SimpleTime tijden afronden, bijvoorbeeld op kwartieren?",
+            "a": [
+              "Nee, een instelling om af te ronden is er niet: SimpleTime slaat begin en einde op zoals je registreert. In het onderdeel „Alle registraties” van het pdf-rapport en in de CSV-export staat elke regel afgerond op de minuut en in decimale uren met twee cijfers achter de komma; in de pdf rekenen de totalen precies met deze waarden. Heb je kwartieren nodig, wijzig dan start en einde in de registratie of rond af in je spreadsheetprogramma."
+            ]
+          },
+          {
             "id": "import",
             "q": "Kan ik gegevens uit een andere app importeren?",
             "a": [
-              "Niet rechtstreeks. SimpleTime leest alleen zijn eigen back-ups; CSV-bestanden uit andere apps kun je niet inlezen."
+              "Nee. SimpleTime leest alleen zijn eigen back-ups – CSV-bestanden kun je niet inlezen, ook die van SimpleTime zelf niet, en activiteiten uit je agenda worden geen registraties. Eerdere tijden voer je met de hand in, met + in het tabblad Dag."
             ]
           },
           {
             "id": "new-device",
             "q": "Hoe stap ik over op een nieuwe iPhone?",
             "a": [
-              "Log in met hetzelfde Apple Account en installeer SimpleTime – gebruik je iCloud (Instellingen › Gegevens en synchronisatie), dan komt je invoer vanzelf terug. Gebruik je LaCodea ID, dan log je op het nieuwe apparaat daarmee in en kies je LaCodea ID onder Gegevens en synchronisatie; krijgt het apparaat de sleutel niet vanzelf via je iCloud-sleutelhanger, dan vraagt de app één keer om je herstelsleutel. Anders maak je op het oude apparaat een back-up en zet je die op het nieuwe terug. Locaties horen bij het apparaat en worden niet gesynchroniseerd."
+              "Log in met hetzelfde Apple Account en installeer SimpleTime – gebruik je iCloud (Instellingen › Gegevens en synchronisatie), dan komt je invoer vanzelf terug. Gebruik je LaCodea ID, dan log je op het nieuwe apparaat daarmee in en kies je LaCodea ID onder Gegevens en synchronisatie; krijgt het apparaat de sleutel niet vanzelf via je iCloud-sleutelhanger, dan vraagt de app één keer om je herstelsleutel. Anders maak je op het oude apparaat een back-up en zet je die op het nieuwe terug. Locaties en instellingen horen bij het apparaat – ze worden niet gesynchroniseerd en zitten ook niet in back-ups."
             ]
           }
         ]
@@ -712,7 +765,16 @@
             "id": "delete-all",
             "q": "Hoe verwijder ik al mijn gegevens?",
             "a": [
-              "In de instellingen onder Privacy › Alle gegevens verwijderen verwijder je alles in één keer – invoer en taken, de prullenmand, herinneringen, de back-ups van je plannen en de oude back-ups in iCloud Drive, exports, instellingen en de activiteiten die SimpleTime in je agenda heeft gezet. Er wordt verwijderd op dit apparaat, in iCloud en, als je via LaCodea ID synchroniseert, op de server; via iCloud bereikt het verwijderen ook je andere apparaten zodra ze online zijn. Synchroniseer je via LaCodea ID, dan houden je andere apparaten hun gegevens – verwijder ze daar ook –, en je account bij LaCodea ID blijft bestaan. Dit kan niet ongedaan worden gemaakt."
+              "In de instellingen onder Privacy › Alle gegevens verwijderen verwijder je alles in één keer – invoer en taken, doelen, locaties, de prullenmand, herinneringen, de back-ups van je plannen en de oude back-ups in iCloud Drive, exports, instellingen inclusief de code van de app-vergrendeling en de activiteiten die SimpleTime in je agenda heeft gezet.",
+              "Er wordt verwijderd op dit apparaat, in iCloud en, als je via LaCodea ID synchroniseert, op de server; via iCloud bereikt het verwijderen ook je andere apparaten zodra ze online zijn. Synchroniseer je via LaCodea ID, dan houden je andere apparaten hun gegevens en synchroniseren ze niet meer tot je de synchronisatie daar opnieuw instelt – verwijder ze daar ook –, en je account bij LaCodea ID blijft bestaan. Dit kan niet ongedaan worden gemaakt."
+            ]
+          },
+          {
+            "id": "delete-app",
+            "q": "Wat gebeurt er als ik SimpleTime verwijder?",
+            "a": [
+              "Dan is weg wat alleen op dit apparaat stond: je registraties als je „Alleen op dit apparaat” hebt gekozen, de back-ups van een plan „Alleen op dit apparaat”, je locaties en je instellingen, inclusief de app-vergrendeling. Wat in iCloud of bij LaCodea ID staat, blijft daar en komt na het opnieuw installeren terug als je onder Gegevens en synchronisatie weer dezelfde plek gebruikt.",
+              "Back-ups in iCloud Drive, in een map van de Bestanden-app of op je server blijven staan, net als de activiteiten in je agenda; voor een versleutelde back-up heb je daarna het wachtwoord ervan nodig. Een abonnement loopt door tot je het opzegt, en je LaCodea ID blijft bestaan. Wil je eerst alles verwijderen, gebruik dan Instellingen › Privacy › Alle gegevens verwijderen."
             ]
           },
           {
@@ -732,7 +794,7 @@
             "id": "pro-includes",
             "q": "Wat zit er in SimpleTime Pro?",
             "a": [
-              "De app voor Apple Watch, terugblikken op je week, maand en jaar, locaties, je registraties als activiteiten in je agenda, het jaar in één beeld, doelen, het focusfilter, een snelstart-widget, zeven accentkleuren of een eigen, zes lettertypen, zestien app-symbolen, en extra onderdelen in het pdf-rapport. Wat er later bij komt, zit erbij. [Alles over SimpleTime Pro](@pro)"
+              "De app voor Apple Watch, terugblikken op je week, maand en jaar, locaties, je registraties als activiteiten in je agenda en taken uit agenda’s, het jaar in één oogopslag, doelen, het focusfilter, een snelstart-widget, zeven accentkleuren of een eigen, zes lettertypen, zestien app-symbolen, en extra onderdelen in het pdf-rapport. De app voor Apple Watch heeft een iPhone nodig, en locaties en app-symbolen zijn er op iPhone en iPad. Wat er later bij komt, zit erbij. [Alles over SimpleTime Pro](@pro)"
             ]
           },
           {
@@ -758,16 +820,10 @@
           },
           {
             "id": "restore-purchase",
-            "q": "Hoe krijg ik Pro op mijn andere apparaten?",
+            "q": "Ik heb Pro gekocht – hoe krijg ik het op mijn andere apparaten?",
             "a": [
-              "Pro hoort bij je Apple Account. Op je andere apparaten met hetzelfde account is het meestal vanzelf ontgrendeld. Zo niet, tik dan op de Pro-pagina onder Instellingen › SimpleTime Pro op Herstel aankopen. Ben je ingelogd met LaCodea ID, dan heb je Pro op elk apparaat met dezelfde LaCodea ID, ook met een ander Apple Account. De Pro-pagina laat dan zien waar je het abonnement hebt afgesloten – alleen daar kun je het wijzigen."
-            ]
-          },
-          {
-            "id": "pro-other-device",
-            "q": "Ik heb Pro gekocht – waarom ontbreekt het op mijn andere apparaat?",
-            "a": [
-              "Met hetzelfde Apple Account tik je daar onder Instellingen › SimpleTime Pro op „Herstel aankopen”. Met een ander Apple Account log je op beide apparaten in met dezelfde LaCodea ID; heb je Pro gekocht voordat je inlogde, log dan ook met je LaCodea ID in op een apparaat met het Apple Account waarmee je het hebt gekocht – van daaruit meldt SimpleTime de aankoop aan je account. Daarna staat op de Pro-pagina van het andere apparaat „Via je LaCodea ID”."
+              "Pro hoort bij je Apple Account: op je andere apparaten met hetzelfde account is het meestal vanzelf ontgrendeld. Zo niet, tik dan daar onder Instellingen › SimpleTime Pro op „Herstel aankopen”.",
+              "Op een apparaat met een ander Apple Account krijg je Pro via LaCodea ID: log op beide apparaten in met dezelfde LaCodea ID. Heb je Pro gekocht voordat je inlogde, log dan ook met je LaCodea ID in op een apparaat met het Apple Account waarmee je het hebt gekocht – van daaruit meldt SimpleTime de aankoop aan je account. De Pro-pagina toont dan „Via je LaCodea ID” en, bij een abonnement, waar je het hebt afgesloten – alleen daar kun je het wijzigen."
             ]
           },
           {
@@ -842,14 +898,14 @@
             "id": "look",
             "q": "Kan ik het uiterlijk van SimpleTime aanpassen?",
             "a": [
-              "Ja: licht, donker of volgens het systeem, drie regelhoogtes voor de takenlijst en onder Instellingen › Lettertype een eigen tekstgrootte en vette tekst. Met SimpleTime Pro krijg je er zeven accentkleuren of een eigen kleur bij – die loopt door knoppen, schakelaars en grafieken –, zes lettertypen en zestien app-symbolen."
+              "Ja: licht, donker of volgens het systeem, drie regelhoogtes voor de takenlijst en onder Instellingen › Lettertype een eigen tekstgrootte en vette tekst. Met SimpleTime Pro krijg je er zeven accentkleuren of een eigen kleur bij – die loopt door knoppen, schakelaars en grafieken –, zes lettertypen en, op iPhone en iPad, zestien app-symbolen."
             ]
           },
           {
             "id": "accessibility",
             "q": "Is SimpleTime toegankelijk?",
             "a": [
-              "Ja. SimpleTime ondersteunt VoiceOver en dynamische tekst in de hele app. Werkt iets niet goed voor jou, laat het ons dan weten."
+              "Ja. VoiceOver leest knoppen, grafieken en de tijdlijn voor in elke taal van de app, en de grafieken zijn er ook als audiografiek. Tekst volgt de tekstgrootte van iOS tot de grootste instellingen – alleen in de kopbalk en langs de tijdlijn groeit die maar tot een grens, zodat niets de bediening bedekt. Meer staat in onze [toegankelijkheidsverklaring](@accessibility); werkt iets niet goed voor jou, laat het ons dan weten."
             ]
           },
           {
@@ -877,7 +933,7 @@
             "id": "feedback",
             "q": "Ik heb een fout gevonden of een idee – waar kan ik dat kwijt?",
             "a": [
-              "Schrijf ons op [contact@simple-time.app](mailto:contact@simple-time.app). Vermeld bij een fout je apparaatmodel en de iOS-versie en beschrijf kort wat je aan het doen was. Elk bericht wordt gelezen."
+              "Schrijf ons op [contact@simple-time.app](mailto:contact@simple-time.app) – vanuit de app kan dat ook via Instellingen › Feedback. Vermeld bij een fout je apparaatmodel, de versie van iOS, iPadOS of macOS en die van SimpleTime – die staat onder Instellingen › Over SimpleTime – en beschrijf kort wat je aan het doen was. Elk bericht wordt gelezen."
             ]
           },
           {

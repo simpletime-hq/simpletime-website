@@ -341,6 +341,13 @@
             ]
           },
           {
+            "id": "first-steps",
+            "q": "Hur kommer jag igång?",
+            "a": [
+              "Tryck på + på fliken Registrering för att skapa en uppgift – med namn, färg och symbol. Tryck på triangeln bredvid så går tiden; tryck på Stoppa för att avsluta. Vid första starten visar en kort rundtur de viktigaste knapparna. Du kan gå igenom den igen när som helst under Inställningar › Visa rundturen igen."
+            ]
+          },
+          {
             "id": "free",
             "q": "Är SimpleTime gratis?",
             "a": [
@@ -369,6 +376,13 @@
             ]
           },
           {
+            "id": "mac",
+            "q": "Vad kan SimpleTime på Mac?",
+            "a": [
+              "Nästan allt som appen kan på iPhone – registrering, dagsvyn, analys, rapporter, export, säkerhetskopior, synk och applås; där du sveper på iPhone högerklickar du på Mac. Dessutom finns tidtagaruret i menyraden och widgetar på skrivbordet. Platser, liveaktiviteter, appen för Apple Watch och utbytbara appsymboler finns inte på Mac."
+            ]
+          },
+          {
             "id": "languages",
             "q": "Vilka språk talar SimpleTime?",
             "a": [
@@ -376,17 +390,10 @@
             ]
           },
           {
-            "id": "first-steps",
-            "q": "Hur kommer jag igång?",
-            "a": [
-              "Tryck på + på fliken Registrering för att skapa en uppgift – med namn, färg och symbol. Tryck på triangeln bredvid så går tiden; tryck på Stoppa för att avsluta. Vid första starten visar en kort rundtur de viktigaste knapparna. Du kan gå igenom den igen när som helst under Inställningar › Visa rundturen igen."
-            ]
-          },
-          {
             "id": "offline",
             "q": "Fungerar SimpleTime offline?",
             "a": [
-              "Ja, helt och hållet. Registrering, dagsvyn, diagram och rapporter fungerar utan anslutning. Synk och säkerhetskopior kommer i kapp så snart enheten är online igen."
+              "Ja. Registrering, dagsvyn, diagram och rapporter fungerar utan anslutning. En anslutning behövs för synk, säkerhetskopior till din egen server, inloggning med LaCodea ID, köp av Pro och adressökning för en plats. SimpleTime tar igen det som har blivit liggande – synken så snart enheten är online igen, en missad säkerhetskopia nästa gång du öppnar appen."
             ]
           }
         ]
@@ -399,28 +406,42 @@
             "id": "start-stop",
             "q": "Hur startar och stoppar jag en registrering?",
             "a": [
-              "Tryck på triangeln bredvid en uppgift för att starta den. Den pågående uppgiften visas högst upp på fliken Registrering; tryck på Stoppa för att avsluta den. Trycker du på en uppgifts namn öppnas dess deluppgifter, sveper du åt vänster kan du redigera, arkivera eller radera den, och sveper du åt höger visas info med alla siffror."
+              "Tryck på triangeln bredvid en uppgift för att starta den. Den pågående uppgiften visas högst upp på fliken Registrering; tryck på Stoppa för att avsluta den. Trycker du på en uppgifts namn öppnas dess deluppgifter, sveper du åt vänster kan du redigera, arkivera eller radera den, och sveper du åt höger visas info med alla siffror – på Mac når du allt detta med ett högerklick."
             ]
           },
           {
             "id": "one-at-a-time",
             "q": "Kan två uppgifter pågå samtidigt?",
             "a": [
-              "Nej. Högst en registrering pågår åt gången. När du startar en annan uppgift avslutas den pågående posten automatiskt – så överlappar dina poster aldrig."
+              "Nej. Bara en registrering pågår åt gången: när du startar en annan uppgift avslutas den pågående posten i samma ögonblick – så överlappar dina poster inte."
+            ]
+          },
+          {
+            "id": "keeps-running",
+            "q": "Fortsätter tiden att gå när jag stänger SimpleTime?",
+            "a": [
+              "Ja. SimpleTime kommer ihåg när du startade och räknar ut längden utifrån det – registreringen fortsätter när du stänger appen, låser din iPhone eller startar om den. På låsskärmen och i Dynamic Island visar liveaktiviteten den pågående tiden, med en knapp för att stoppa, och dina påminnelser kommer även när appen är stängd."
             ]
           },
           {
             "id": "add-later",
             "q": "Jag glömde att starta – kan jag fylla i tid i efterhand?",
             "a": [
-              "Ja. På fliken Dag lägger du till en ny post med start och slut, eller trycker på en befintlig post för att ändra den. Poster kan inte överlappa: SimpleTime säger till om en period krockar med en annan post. För en registrering som fortfarande pågår kan du också flytta starten bakåt – till slutet av föregående post."
+              "Ja. På fliken Dag trycker du på + för att lägga till en ny post med start och slut, eller på en befintlig post för att ändra den. Poster kan inte överlappa: SimpleTime säger till om en period krockar med en annan post. Pågår registreringen redan trycker du på den högst upp på fliken Registrering och flyttar starten bakåt – till slutet av föregående post."
+            ]
+          },
+          {
+            "id": "restore-entry",
+            "q": "Jag har raderat en post – kan jag få tillbaka den?",
+            "a": [
+              "Ja. Raderar du en post på fliken Dag – genom att svepa åt vänster, eller med ett högerklick på Mac –, hamnar den i papperskorgen: uppe till vänster på fliken Dag under ”Borttagna poster” hämtar du tillbaka den med ”Återställ” eller raderar den permanent. Raderade uppgifter ligger tillsammans med sina poster i papperskorgen uppe till vänster på fliken Registrering. Det som har raderats permanent får du bara tillbaka med en säkerhetskopia."
             ]
           },
           {
             "id": "fixed-times",
             "q": "Vad är fasta tider?",
             "a": [
-              "Återkommande tider som lektioner, arbetspass eller mottagningstider lägger du in en gång: uppgift, veckodagar, start och slut, varje vecka eller varannan vecka, om du vill med ett slutdatum. Så snart en tid är över lägger SimpleTime själv in den som en post – på varje enhet där du öppnar SimpleTime, och ändå bara en gång. Du registrerar bara det som tillkommer; du hittar det under Inställningar › Registrering › Fasta tider, utan Pro."
+              "Återkommande tider som lektioner, arbetspass eller mottagningstider lägger du in en gång: uppgift, veckodagar, start och slut, varje vecka eller varannan vecka, från en dag du väljer och om du vill med ett slutdatum. Så snart en tid är över lägger SimpleTime själv in den som en post – på varje enhet där du öppnar SimpleTime, och ändå bara en gång; i efterhand läggs tider in högst 31 dagar bakåt. Du registrerar bara det som tillkommer; du hittar det under Inställningar › Registrering › Fasta tider, utan Pro."
             ]
           },
           {
@@ -448,21 +469,28 @@
             "id": "archive-trash",
             "q": "Vad är skillnaden mellan att arkivera och att radera?",
             "a": [
-              "Att arkivera döljer bara en uppgift: dess poster finns kvar och räknas fortfarande i alla analyser. Att radera flyttar uppgiften och dess poster till papperskorgen. Därifrån kan du återställa båda – eller radera dem permanent."
+              "Att arkivera döljer bara en uppgift: dess poster finns kvar och räknas fortfarande i alla analyser. Att radera flyttar uppgiften och dess poster till papperskorgen – dess tider räknas då inte längre någonstans. Arkivet och papperskorgen hittar du uppe till vänster på fliken Registrering: från arkivet hämtar du tillbaka en uppgift med ”Återställ”, från papperskorgen uppgiften med dess poster – eller så raderar du den permanent där."
             ]
           },
           {
             "id": "notes",
             "q": "Kan jag lägga till anteckningar på poster?",
             "a": [
-              "Ja, varje post kan ha en anteckning – vad du arbetade med eller vem du träffade. Anteckningar visas i dagsvyn och följer med i CSV-exporten och i säkerhetskopiorna."
+              "Ja, varje post kan ha en anteckning – vad du arbetade med eller vem du träffade. Du skriver den när du lägger till eller redigerar en post på fliken Dag, och medan en registrering pågår genom att trycka på den högst upp på fliken Registrering. Anteckningen syns när du öppnar posten, i en uppgifts info under ”Alla poster”, i avsnittet ”Alla poster” i PDF-rapporten och i CSV-exporten; säkerhetskopiorna tar med den."
             ]
           },
           {
             "id": "reminders",
             "q": "Kan SimpleTime påminna mig?",
             "a": [
-              "Ja. I inställningarna under Notiser ställer du in regler – till exempel en påminnelse när en uppgift har pågått i 60 minuter, för alla uppgifter eller bara utvalda, på de veckodagar du väljer. SimpleTime kan också påminna dig när inget har registrerats på ett tag."
+              "Ja. Under Inställningar › Ställ in notiser skapar du regler – till exempel en påminnelse när en uppgift har pågått i 60 minuter, för alla uppgifter eller bara utvalda, på de veckodagar du väljer. Med ”Påminn när inget pågår” hör SimpleTime också av sig när inget har registrerats på ett tag."
+            ]
+          },
+          {
+            "id": "time-zone",
+            "q": "Jag har rest till en annan tidszon – varför visas mina poster vid andra tider?",
+            "a": [
+              "Som standard visar SimpleTime varje post i den tidszon som enheten befinner sig i just nu – som i Apples Kalender: det du registrerade kl. 9 i New York visas kl. 15 i Berlin. Under Inställningar › Tidszon väljer du i stället ”Tidszonen vid registreringen”: då visas varje post med den tid och på den dag du registrerade den – överallt där tider och summor visas. Längden är densamma i båda fallen; poster från versioner före 4.7 visas alltid i enhetens tidszon."
             ]
           }
         ]
@@ -475,21 +503,28 @@
             "id": "day-view",
             "q": "Vad visar dagsvyn?",
             "a": [
-              "Varje post under en dag med start, slut och längd – som lista eller som tidsaxel från 0 till 24, med en markering på aktuell tid. Högst upp ser du hur i dag står sig jämfört med i går."
+              "Varje post under en dag med start, slut och längd – som lista eller som tidsaxel från 0 till 24, för i dag med en markering på aktuell tid; på breda skärmar som iPad och Mac visas båda bredvid varandra. Högst upp står dagens summa och jämförelsen med dagen innan."
             ]
           },
           {
             "id": "charts",
             "q": "Vilka diagram och vilken statistik finns det?",
             "a": [
-              "Cirkeldiagram per uppgift och per produktivitet, för en dag, en vecka, en månad eller ett år. Under Mer statistik hittar du jämförelsen med föregående period, förloppet, hur din tid fördelar sig över dygnet, dina främsta uppgifter och den längsta och kortaste posten. Varje uppgift har dessutom en egen infosida – första posten, längsta posten, denna vecka, i år."
+              "På fliken Diagram: cirkeldiagram per uppgift och per produktivitet, för en dag, en vecka, en månad eller ett år. Uppe till höger under ”Mer statistik” hittar du jämförelsen med föregående period, förloppet, dina främsta uppgifter och den längsta och kortaste posten – från en vecka och uppåt även fördelningen över dygnet, med din mest aktiva timme. Varje uppgift har dessutom en egen infosida – första posten, längsta posten, denna vecka, i år."
             ]
           },
           {
             "id": "productivity",
             "q": "Vad är produktivitetspoängen?",
             "a": [
-              "Du kan ge varje uppgift en kategori: produktiv, improduktiv, nödvändig – eller låta den inte räknas med. Poängen visar hur mycket av din bedömda tid som var produktiv eller nödvändig: (produktiv + nödvändig) ÷ (produktiv + improduktiv + nödvändig) × 100. Tid utan indelning eller med ”Räkna inte med” räknas inte."
+              "När du redigerar en uppgift ger du den en kategori under ”Produktivitet”: produktiv, improduktiv, nödvändig – eller ”Räkna inte med”. Deluppgifter utan egen kategori ärver kategorin från uppgiften ovanför, och ”Räkna inte med” gäller för allt under den. Poängen visar hur mycket av din bedömda tid som var produktiv eller nödvändig: (produktiv + nödvändig) ÷ (produktiv + improduktiv + nödvändig) × 100. Tid utan indelning eller med ”Räkna inte med” räknas inte."
+            ]
+          },
+          {
+            "id": "goals",
+            "q": "Hur fungerar mål?",
+            "a": [
+              "Med SimpleTime Pro ställer du in ett mål per uppgift under Inställningar › Mål: minst eller högst så här mycket tid per dag, vecka eller månad – till exempel minst 8 timmar träning per vecka eller högst 2 timmar sociala medier om dagen. Deluppgifter räknas med, och det är den pågående perioden som mäts. Hur långt du har kommit visar fliken Diagram och Apple Watch; PDF-rapporten jämför i avsnittet ”Mål” snittet under den valda perioden med målet."
             ]
           },
           {
@@ -517,14 +552,14 @@
             "id": "widgets",
             "q": "Vilka widgetar finns det?",
             "a": [
-              "För hemskärmen: Idag, Pågående uppgift och Vecka. För låsskärmen: vad som pågår och hur länge. Dessutom finns ett reglage för Kontrollcenter. Medan en uppgift pågår visas den som liveaktivitet på låsskärmen och i Dynamic Island. Med SimpleTime Pro får du också en snabbstartswidget som du fyller med dina egna uppgifter."
+              "För hemskärmen: Idag, Pågående uppgift och Vecka – Idag och Pågående uppgift med knappar för att starta och stoppa. För låsskärmen: vad som pågår och hur länge. Dessutom finns reglaget ”Tidregistrering” för Kontrollcenter. Medan en uppgift pågår visas den som liveaktivitet på låsskärmen och i Dynamic Island, med en knapp för att stoppa. Med SimpleTime Pro får du också en snabbstartswidget som du fyller med dina egna uppgifter."
             ]
           },
           {
             "id": "without-opening",
             "q": "Kan jag starta en registrering utan att öppna appen?",
             "a": [
-              "Ja, på flera sätt. Håll fingret på appsymbolen för att stoppa det som pågår eller starta en av dina uppgifter. Skriv en uppgifts namn i sökningen på iPhone och tryck på den. Eller använd reglaget i Kontrollcenter, en widget, Siri – eller, med SimpleTime Pro, din Apple Watch."
+              "Ja, på flera sätt. Håll fingret på appsymbolen för att stoppa det som pågår eller starta en av dina uppgifter. Skriv en uppgifts namn i sökningen på iPhone och tryck på den. Eller använd en widget, Siri eller reglaget ”Tidregistrering” – i Kontrollcenter, på låsskärmen eller på snabbknappen på iPhone 15 Pro och senare –, och med SimpleTime Pro även din Apple Watch."
             ]
           },
           {
@@ -545,7 +580,8 @@
             "id": "calendar-entries",
             "q": "Kan SimpleTime lägga in mina poster i kalendern?",
             "a": [
-              "Ja, med SimpleTime Pro: slå på ”Poster i Kalender” under Inställningar › Kalender, så visas varje avslutad post som en aktivitet – i en egen kalender, ”SimpleTime”, eller i en som du väljer, om du vill per uppgift. Ändrar eller raderar du en post följer aktiviteten med, och länken i aktiviteten öppnar posten i SimpleTime. Med ”Uppgifter från kalendrar” blir kalendrar som ”Arbete” till uppgifter; aktiviteter som redan finns i kalendern blir dock inga poster. Aktiviteterna lagras hos din kalenders leverantör och visar dina uppgifters namn för alla du delar kalendern med – även när applåset är på."
+              "Ja, med SimpleTime Pro: slå på ”Poster i Kalender” under Inställningar › Kalender – från den dagen visas varje avslutad post som en aktivitet, i en egen kalender, ”SimpleTime”, eller i en som du väljer, om du vill per uppgift. Ändrar eller raderar du en post följer aktiviteten med, och länken i aktiviteten öppnar posten i SimpleTime. Stänger du av det ligger aktiviteterna kvar i kalendern.",
+              "Med ”Uppgifter från kalendrar” blir kalendrar som ”Arbete” till uppgifter; aktiviteter som redan finns i kalendern blir dock inga poster. Aktiviteterna lagras hos din kalenders leverantör och visar dina uppgifters namn för alla du delar kalendern med – även när applåset är på."
             ]
           },
           {
@@ -565,7 +601,16 @@
             "id": "sync",
             "q": "Synkar SimpleTime mellan mina enheter?",
             "a": [
-              "Ja, via iCloud eller via LaCodea ID – det väljer du på varje enhet under Inställningar › Data och synkronisering. Med iCloud synkar varje enhet som är inloggad med samma Apple-konto; när bestämmer systemet – synken går inte att tvinga fram, men samma sida visar när den senast kördes. Med LaCodea ID synkar varje enhet där du är inloggad med samma LaCodea ID och har valt det, även med ett annat Apple-konto – totalsträckskrypterat och, när appen är öppen, efter ungefär en sekund."
+              "Ja, via iCloud eller via LaCodea ID – det väljer du på varje enhet under Inställningar › Data och synkronisering. Med iCloud synkar varje enhet där du har valt iCloud och är inloggad med samma Apple-konto; när bestämmer systemet. Synken går inte att tvinga fram – ”Synka nu” kontrollerar då ditt konto och din anslutning, och samma sida visar när den senast kördes.",
+              "Med LaCodea ID synkar varje enhet där du är inloggad med samma LaCodea ID och har valt det, även med ett annat Apple-konto – totalsträckskrypterat och, när SimpleTime är öppen på båda enheterna, inom några sekunder."
+            ]
+          },
+          {
+            "id": "sync-trouble",
+            "q": "Mina poster kommer inte fram till min andra enhet – vad kan jag göra?",
+            "a": [
+              "Titta under Inställningar › Data och synkronisering på båda enheterna: båda behöver samma plats – iCloud med samma Apple-konto eller LaCodea ID med samma inloggning. Står det där att ett byte gäller först senare, stäng SimpleTime helt och öppna den igen; håll också appen uppdaterad på alla enheter.",
+              "Med iCloud visar ”Senaste synk” i inställningarna under Synkronisering när något senast överfördes, och ”Kontrollera synk” ser efter konto och anslutning och anger orsaken om något är fel, till exempel att iCloud-utrymmet är fullt. Med LaCodea ID visar sidan ”Data och synkronisering” om ändringar väntar på anslutning, om ett annat konto är inloggat eller om enheten behöver din återställningsnyckel. Hjälper inte det, [skriv till oss](@contact)."
             ]
           },
           {
@@ -579,7 +624,8 @@
             "id": "switch-storage",
             "q": "Hur byter jag var mina data lagras?",
             "a": [
-              "Under Inställningar › Data och synkronisering trycker du på den plats du vill ha och sedan på ”Byt till iCloud”, ”Byt till LaCodea ID” eller ”Behåll bara på den här enheten”; för LaCodea ID loggar du in samtidigt. Innan du byter till iCloud eller LaCodea ID gör SimpleTime en reservkopia av den här enheten, och finns det redan data där väljer du mellan ”Slå ihop” och ”Använd datan från …”. Bytet gäller bara den här enheten, oftast från nästa gång appen startar – dina andra enheter fortsätter att synka som tidigare tills du byter även där. Efteråt erbjuder SimpleTime att radera dina data på den gamla platsen; annars ligger de kvar där."
+              "Under Inställningar › Data och synkronisering trycker du på den plats du vill ha och sedan på ”Byt till iCloud”, ”Byt till LaCodea ID” eller ”Behåll bara på den här enheten”; för LaCodea ID loggar du in samtidigt. Innan du byter till iCloud eller LaCodea ID gör SimpleTime en reservkopia av den här enheten, och finns det redan data där väljer du mellan ”Slå ihop” och ”Använd datan från …”.",
+              "Bytet gäller bara den här enheten, oftast först när du har stängt SimpleTime helt och öppnat den igen – sidan säger till. Dina andra enheter fortsätter att synka som tidigare tills du byter även där. Efteråt erbjuder SimpleTime att radera dina data på den gamla platsen; gör det först när även dina andra enheter har bytt – annars förlorar de också dessa data."
             ]
           },
           {
@@ -614,7 +660,7 @@
             "id": "backup-files",
             "q": "Var hittar jag mina säkerhetskopior?",
             "a": [
-              "Säkerhetskopiorna från en plan med ”Bara på den här enheten” hittar du också i appen Filer under ”På min iPhone” (eller ”På min iPad”) › SimpleTime › Backups, och de från en plan i iCloud Drive under iCloud Drive › SimpleTime › Backups. Planer för en mapp i appen Filer eller din egen server lägger dem där du har valt. Ge helst sådana planer ett lösenord: utan det kan alla som har åtkomst till platsen öppna en säkerhetskopia – på enheten alla som låser upp den, även när applåset är på."
+              "Säkerhetskopiorna från en plan med ”Bara på den här enheten” hittar du också i appen Filer under ”På min iPhone” (eller ”På min iPad”) › SimpleTime › Backups, och de från en plan i iCloud Drive under iCloud Drive › SimpleTime › Backups. Planer för en mapp i appen Filer eller din egen server lägger dem där du har valt. Säkerhetskopior på enheten går förlorade med enheten – och när du raderar SimpleTime. Ge helst dina planer ett lösenord: utan det kan alla som har åtkomst till platsen öppna en säkerhetskopia – på enheten alla som låser upp den, även när applåset är på."
             ]
           },
           {
@@ -628,7 +674,7 @@
             "id": "export",
             "q": "Kan jag exportera mina data?",
             "a": [
-              "Ja, när som helst: som CSV-fil med uppgift, anteckning, tid, start och slut – för Excel, Numbers eller vilket analysverktyg som helst –, som PDF-rapport eller som fullständig säkerhetskopia.",
+              "Ja, när som helst: som CSV-fil med en rad per post – datum, start, slut, uppgift, längd, decimaltimmar och anteckning, för Excel, Numbers eller vilket kalkylprogram som helst –, som PDF-rapport eller som säkerhetskopia.",
               "Under Inställningar › Exportera / importera data väljer du perioden för CSV-filen (från i dag till hela perioden, eller en egen, till exempel förra månaden). En säkerhetskopia gör du under Inställningar › Säkerhetskopior."
             ]
           },
@@ -640,17 +686,24 @@
             ]
           },
           {
+            "id": "rounding",
+            "q": "Kan SimpleTime avrunda tider, till exempel till kvartar?",
+            "a": [
+              "Nej, det finns ingen inställning för avrundning: SimpleTime sparar start och slut precis som du registrerar. I avsnittet ”Alla poster” i PDF-rapporten och i CSV-exporten är varje rad avrundad till minuten och angiven i decimaltimmar med två decimaler; i PDF:en räknas summorna med exakt dessa värden. Behöver du kvartar ändrar du start och slut i posten eller avrundar i ditt kalkylprogram."
+            ]
+          },
+          {
             "id": "import",
             "q": "Kan jag importera data från en annan app?",
             "a": [
-              "Inte direkt. SimpleTime läser bara sina egna säkerhetskopior; CSV-filer från andra appar går inte att läsa in."
+              "Nej. SimpleTime läser bara sina egna säkerhetskopior – CSV-filer går inte att läsa in, inte ens SimpleTimes egna, och aktiviteter i din kalender blir inga poster. Tidigare tider fyller du i för hand med + på fliken Dag."
             ]
           },
           {
             "id": "new-device",
             "q": "Hur flyttar jag till en ny iPhone?",
             "a": [
-              "Logga in med samma Apple-konto och installera SimpleTime – använder du iCloud (Inställningar › Data och synkronisering) kommer dina poster tillbaka av sig själva. Använder du LaCodea ID loggar du in med det på den nya enheten och väljer det under Data och synkronisering; får enheten inte nyckeln av sig själv via din iCloud-nyckelring frågar appen en gång efter din återställningsnyckel. Annars gör du en säkerhetskopia på den gamla enheten och återställer den på den nya. Platser hör till respektive enhet och synkas inte."
+              "Logga in med samma Apple-konto och installera SimpleTime – använder du iCloud (Inställningar › Data och synkronisering) kommer dina poster tillbaka av sig själva. Använder du LaCodea ID loggar du in med det på den nya enheten och väljer det under Data och synkronisering; får enheten inte nyckeln av sig själv via din iCloud-nyckelring frågar appen en gång efter din återställningsnyckel. Annars gör du en säkerhetskopia på den gamla enheten och återställer den på den nya. Platser och inställningar hör till respektive enhet – de varken synkas eller säkerhetskopieras."
             ]
           }
         ]
@@ -712,7 +765,16 @@
             "id": "delete-all",
             "q": "Hur raderar jag alla mina data?",
             "a": [
-              "I inställningarna under Integritet › Radera alla data tar du bort allt på en gång – poster och uppgifter, papperskorgen, påminnelser, dina planers säkerhetskopior och de gamla säkerhetskopiorna i iCloud Drive, exporter, inställningar och de aktiviteter som SimpleTime har lagt in i din kalender. Det raderas på den här enheten, i iCloud och, om du synkar via LaCodea ID, på servern; via iCloud når raderingen även dina andra enheter så snart de är online. Synkar du via LaCodea ID behåller dina andra enheter sina data – radera dem där också –, och ditt konto hos LaCodea ID finns kvar. Det går inte att ångra."
+              "I inställningarna under Integritet › Radera alla data tar du bort allt på en gång – poster och uppgifter, mål, platser, papperskorgen, påminnelser, dina planers säkerhetskopior och de gamla säkerhetskopiorna i iCloud Drive, exporter, inställningar inklusive applåsets kod och de aktiviteter som SimpleTime har lagt in i din kalender.",
+              "Det raderas på den här enheten, i iCloud och, om du synkar via LaCodea ID, på servern; via iCloud når raderingen även dina andra enheter så snart de är online. Synkar du via LaCodea ID behåller dina andra enheter sina data och slutar synka tills du ställer in synken där igen – radera dem där också –, och ditt konto hos LaCodea ID finns kvar. Det går inte att ångra."
+            ]
+          },
+          {
+            "id": "delete-app",
+            "q": "Vad händer om jag raderar SimpleTime?",
+            "a": [
+              "Då försvinner det som bara fanns på den här enheten: dina poster om du har valt ”Bara på den här enheten”, säkerhetskopiorna från en plan med ”Bara på den här enheten”, dina platser och dina inställningar inklusive applåset. Det som finns i iCloud eller hos LaCodea ID ligger kvar där och kommer tillbaka när du har installerat om, om du använder samma plats under Data och synkronisering igen.",
+              "Säkerhetskopior i iCloud Drive, i en mapp i appen Filer eller på din server finns kvar, liksom aktiviteterna i din kalender; för en krypterad säkerhetskopia behöver du sedan dess lösenord. En prenumeration fortsätter tills du säger upp den, och ditt LaCodea ID finns kvar. Vill du ta bort allt först använder du Inställningar › Integritet › Radera alla data."
             ]
           },
           {
@@ -732,7 +794,7 @@
             "id": "pro-includes",
             "q": "Vad ingår i SimpleTime Pro?",
             "a": [
-              "Appen för Apple Watch, tillbakablickar på din vecka, din månad och ditt år, platser, dina poster som aktiviteter i kalendern, året på en gång, mål, fokusfiltret, en snabbstartswidget, sju dekorfärger eller en egen, sex typsnitt, sexton appsymboler, och fler avsnitt i PDF-rapporten. Det som tillkommer senare ingår. [Allt om SimpleTime Pro](@pro)"
+              "Appen för Apple Watch, tillbakablickar på din vecka, din månad och ditt år, platser, dina poster som aktiviteter i kalendern och uppgifter från kalendrar, året i överblick, mål, fokusfiltret, en snabbstartswidget, sju dekorfärger eller en egen, sex typsnitt, sexton appsymboler, och fler avsnitt i PDF-rapporten. Appen för Apple Watch behöver en iPhone, och platser och appsymboler finns på iPhone och iPad. Det som tillkommer senare ingår. [Allt om SimpleTime Pro](@pro)"
             ]
           },
           {
@@ -758,16 +820,10 @@
           },
           {
             "id": "restore-purchase",
-            "q": "Hur får jag Pro på mina andra enheter?",
+            "q": "Jag har köpt Pro – hur får jag det på mina andra enheter?",
             "a": [
-              "Pro hör till ditt Apple-konto. På dina andra enheter med samma konto låses det oftast upp av sig självt. Om inte, tryck på Återställ köp på Pro-sidan under Inställningar › SimpleTime Pro. Är du inloggad med LaCodea ID har du Pro på varje enhet med samma LaCodea ID, även med ett annat Apple-konto. Pro-sidan visar då var du tecknade abonnemanget – bara där kan du ändra det."
-            ]
-          },
-          {
-            "id": "pro-other-device",
-            "q": "Jag har köpt Pro – varför saknas det på min andra enhet?",
-            "a": [
-              "Med samma Apple-konto trycker du där på ”Återställ köp” under Inställningar › SimpleTime Pro. Med ett annat Apple-konto loggar du in med samma LaCodea ID på båda enheterna; har du köpt Pro innan du loggade in loggar du även in med ditt LaCodea ID på en enhet med det Apple-konto som du köpte med – därifrån rapporterar SimpleTime köpet till ditt konto. Sedan står det ”Via LaCodea ID” på den andra enhetens Pro-sida."
+              "Pro hör till ditt Apple-konto: på dina andra enheter med samma konto låses det oftast upp av sig självt. Om inte, tryck där på ”Återställ köp” under Inställningar › SimpleTime Pro.",
+              "På en enhet med ett annat Apple-konto får du Pro via LaCodea ID: logga in med samma LaCodea ID på båda enheterna. Har du köpt Pro innan du loggade in loggar du även in med ditt LaCodea ID på en enhet med det Apple-konto som du köpte med – därifrån rapporterar SimpleTime köpet till ditt konto. Pro-sidan visar då ”Via LaCodea ID” och, vid ett abonnemang, var du tecknade det – bara där kan du ändra det."
             ]
           },
           {
@@ -842,14 +898,14 @@
             "id": "look",
             "q": "Kan jag ändra hur SimpleTime ser ut?",
             "a": [
-              "Ja: ljust, mörkt eller enligt systemet, tre radhöjder för uppgiftslistan och under Inställningar › Typsnitt en egen textstorlek och fet text. Med SimpleTime Pro får du också sju dekorfärger eller en egen – den går genom knappar, reglage och diagram –, sex typsnitt och sexton appsymboler."
+              "Ja: ljust, mörkt eller enligt systemet, tre radhöjder för uppgiftslistan och under Inställningar › Typsnitt en egen textstorlek och fet text. Med SimpleTime Pro får du också sju dekorfärger eller en egen – den går genom knappar, reglage och diagram –, sex typsnitt och, på iPhone och iPad, sexton appsymboler."
             ]
           },
           {
             "id": "accessibility",
             "q": "Är SimpleTime tillgänglighetsanpassad?",
             "a": [
-              "Ja. SimpleTime har stöd för VoiceOver och dynamisk text i hela appen. Om något inte fungerar för dig får du gärna säga till."
+              "Ja. VoiceOver läser upp knappar, diagram och tidsaxeln på varje språk i appen, och diagrammen finns också som ljudgraf. Texten följer textstorleken i iOS upp till de största storlekarna – i sidhuvudet och längs tidsaxeln växer den dock bara upp till en gräns, så att inget täcker reglagen. Mer finns i vår [tillgänglighetsredogörelse](@accessibility); om något inte fungerar för dig får du gärna säga till."
             ]
           },
           {
@@ -877,7 +933,7 @@
             "id": "feedback",
             "q": "Jag har hittat ett fel eller har en idé – vart skickar jag det?",
             "a": [
-              "Skriv till oss på [contact@simple-time.app](mailto:contact@simple-time.app). Vid ett fel: ange gärna enhetsmodell och iOS-version och beskriv kort vad du höll på med. Varje meddelande läses."
+              "Skriv till oss på [contact@simple-time.app](mailto:contact@simple-time.app) – från appen går det också via Inställningar › Feedback. Vid ett fel: ange gärna enhetsmodell, versionen av iOS, iPadOS eller macOS och versionen av SimpleTime – den står under Inställningar › Om SimpleTime – och beskriv kort vad du höll på med. Varje meddelande läses."
             ]
           },
           {

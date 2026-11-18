@@ -341,6 +341,13 @@
             ]
           },
           {
+            "id": "first-steps",
+            "q": "Wie fange ich an?",
+            "a": [
+              "Tippe im Tracking-Tab auf +, um eine Aufgabe anzulegen – mit Namen, Farbe und Symbol. Tippe auf das Dreieck daneben, und die Uhr läuft; mit Stoppen beendest du sie. Beim ersten Start zeigt dir eine kurze Tour die wichtigsten Knöpfe. Du kannst sie jederzeit wieder ansehen: Einstellungen › Tour erneut ansehen."
+            ]
+          },
+          {
             "id": "free",
             "q": "Ist SimpleTime kostenlos?",
             "a": [
@@ -369,6 +376,13 @@
             ]
           },
           {
+            "id": "mac",
+            "q": "Was kann SimpleTime auf dem Mac?",
+            "a": [
+              "Fast alles, was es auf dem iPhone kann – erfassen, Tagesansicht, Auswertung, Berichte, Export, Backups, Abgleich und App-Sperre; wo du auf dem iPhone wischst, klickst du auf dem Mac rechts. Dazu kommen die Stoppuhr in der Menüleiste und Widgets auf dem Schreibtisch. Orte, Live-Aktivitäten, die Apple-Watch-App und wechselbare App-Symbole gibt es auf dem Mac nicht."
+            ]
+          },
+          {
             "id": "languages",
             "q": "Welche Sprachen spricht SimpleTime?",
             "a": [
@@ -376,17 +390,10 @@
             ]
           },
           {
-            "id": "first-steps",
-            "q": "Wie fange ich an?",
-            "a": [
-              "Tippe im Tracking-Tab auf +, um eine Aufgabe anzulegen – mit Namen, Farbe und Symbol. Tippe auf das Dreieck daneben, und die Uhr läuft; mit Stoppen beendest du sie. Beim ersten Start zeigt dir eine kurze Tour die wichtigsten Knöpfe. Du kannst sie jederzeit wieder ansehen: Einstellungen › Tour erneut ansehen."
-            ]
-          },
-          {
             "id": "offline",
             "q": "Funktioniert SimpleTime ohne Internet?",
             "a": [
-              "Ja, vollständig. Erfassen, Tagesansicht, Diagramme und Berichte funktionieren ohne Verbindung. Abgleich und Backups holen alles nach, sobald dein Gerät wieder online ist."
+              "Ja. Erfassen, Tagesansicht, Diagramme und Berichte funktionieren ohne Verbindung. Eine Verbindung brauchen der Abgleich, Backups auf deinen eigenen Server, die Anmeldung mit der LaCodea ID, ein Kauf von Pro und die Adresssuche für einen Ort. Was liegen bleibt, holt SimpleTime nach – den Abgleich, sobald dein Gerät wieder online ist, ein verpasstes Backup, wenn du die App das nächste Mal öffnest."
             ]
           }
         ]
@@ -399,28 +406,42 @@
             "id": "start-stop",
             "q": "Wie starte und stoppe ich eine Erfassung?",
             "a": [
-              "Tippe auf das Dreieck neben einer Aufgabe, um sie zu starten. Die laufende Aufgabe steht oben im Tracking-Tab; mit Stoppen beendest du sie. Ein Tipp auf den Namen öffnet die Unteraufgaben, nach links wischen bietet Bearbeiten, Archivieren und Löschen, nach rechts wischen zeigt die Info mit allen Zahlen."
+              "Tippe auf das Dreieck neben einer Aufgabe, um sie zu starten. Die laufende Aufgabe steht oben im Tracking-Tab; mit Stoppen beendest du sie. Ein Tipp auf den Namen öffnet die Unteraufgaben, nach links wischen bietet Bearbeiten, Archivieren und Löschen, nach rechts wischen zeigt die Info mit allen Zahlen – auf dem Mac findest du all das mit einem Rechtsklick."
             ]
           },
           {
             "id": "one-at-a-time",
             "q": "Können zwei Aufgaben gleichzeitig laufen?",
             "a": [
-              "Nein. Es läuft immer höchstens eine Erfassung. Startest du eine andere Aufgabe, endet der laufende Eintrag automatisch – so überschneiden sich deine Einträge nie."
+              "Nein. Es läuft immer nur eine Erfassung: Startest du eine andere Aufgabe, endet der laufende Eintrag im selben Moment – so überschneiden sich deine Einträge nicht."
+            ]
+          },
+          {
+            "id": "keeps-running",
+            "q": "Läuft die Zeit weiter, wenn ich SimpleTime schließe?",
+            "a": [
+              "Ja. SimpleTime merkt sich, wann du gestartet hast, und rechnet die Dauer daraus – die Erfassung läuft weiter, wenn du die App schließt, dein iPhone sperrst oder neu startest. Auf dem Sperrbildschirm und in der Dynamic Island zeigt die Live-Aktivität die laufende Zeit, mit einem Knopf zum Stoppen, und deine Erinnerungen kommen auch bei geschlossener App."
             ]
           },
           {
             "id": "add-later",
             "q": "Ich habe vergessen zu starten – kann ich Zeiten nachtragen?",
             "a": [
-              "Ja. Im Tag-Tab legst du einen neuen Eintrag mit Start und Ende an oder tippst auf einen bestehenden, um ihn zu ändern. Einträge dürfen sich nicht überschneiden: SimpleTime sagt dir, wenn ein Zeitraum mit einem anderen Eintrag kollidiert. Bei einer laufenden Erfassung kannst du den Start auch zurücklegen – bis zum Ende des vorherigen Eintrags."
+              "Ja. Im Tag-Tab legst du mit + einen neuen Eintrag mit Start und Ende an oder tippst auf einen bestehenden, um ihn zu ändern. Einträge dürfen sich nicht überschneiden: SimpleTime sagt dir, wenn ein Zeitraum mit einem anderen Eintrag kollidiert. Läuft die Erfassung schon, tippst du oben im Tracking-Tab auf sie und legst den Start zurück – bis zum Ende des vorherigen Eintrags."
+            ]
+          },
+          {
+            "id": "restore-entry",
+            "q": "Ich habe einen Eintrag gelöscht – kann ich ihn zurückholen?",
+            "a": [
+              "Ja. Löschst du einen Eintrag im Tag-Tab – mit einem Wisch nach links, auf dem Mac per Rechtsklick –, landet er im Papierkorb: Oben links im Tag-Tab unter „Gelöschte Einträge“ holst du ihn mit „Wiederherstellen“ zurück oder löschst ihn endgültig. Gelöschte Aufgaben liegen samt ihren Einträgen im Papierkorb oben links im Tracking-Tab. Was endgültig gelöscht ist, bringt nur ein Backup zurück."
             ]
           },
           {
             "id": "fixed-times",
             "q": "Was sind feste Zeiten?",
             "a": [
-              "Wiederkehrende Zeiten wie Unterricht, Schichten oder Sprechstunden legst du einmal an: Aufgabe, Wochentage, Beginn und Ende, jede Woche oder jede zweite, auf Wunsch mit Enddatum. Sobald eine Zeit vorbei ist, trägt SimpleTime sie selbst als Eintrag ein – auf jedem Gerät, auf dem du SimpleTime öffnest, und trotzdem nur einmal. Du erfasst nur noch, was dazukommt; zu finden unter Einstellungen › Erfassung › Feste Zeiten, ohne Pro."
+              "Wiederkehrende Zeiten wie Unterricht, Schichten oder Sprechstunden legst du einmal an: Aufgabe, Wochentage, Beginn und Ende, jede Woche oder jede zweite, ab einem Tag deiner Wahl und auf Wunsch mit Enddatum. Sobald eine Zeit vorbei ist, trägt SimpleTime sie selbst als Eintrag ein – auf jedem Gerät, auf dem du SimpleTime öffnest, und trotzdem nur einmal; nachgeholt wird höchstens 31 Tage zurück. Du erfasst nur noch, was dazukommt; zu finden unter Einstellungen › Erfassung › Feste Zeiten, ohne Pro."
             ]
           },
           {
@@ -448,21 +469,28 @@
             "id": "archive-trash",
             "q": "Was ist der Unterschied zwischen Archivieren und Löschen?",
             "a": [
-              "Archivieren blendet eine Aufgabe nur aus: Ihre Einträge bleiben und zählen in allen Auswertungen weiter mit. Löschen legt die Aufgabe samt Einträgen in den Papierkorb. Von dort kannst du beides wiederherstellen – oder endgültig löschen."
+              "Archivieren blendet eine Aufgabe nur aus: Ihre Einträge bleiben und zählen in allen Auswertungen weiter mit. Löschen legt die Aufgabe samt Einträgen in den Papierkorb – ihre Zeiten zählen dann nirgends mehr mit. Archiv und Papierkorb findest du oben links im Tracking-Tab: Aus dem Archiv holst du eine Aufgabe mit „Wiederherstellen“ zurück, aus dem Papierkorb die Aufgabe samt Einträgen – oder du löschst sie dort endgültig."
             ]
           },
           {
             "id": "notes",
             "q": "Kann ich Einträgen Notizen geben?",
             "a": [
-              "Ja, jeder Eintrag kann eine Notiz tragen – woran du gearbeitet hast oder mit wem. Notizen stehen in der Tagesansicht und sind im CSV-Export und in den Backups enthalten."
+              "Ja, jeder Eintrag kann eine Notiz tragen – woran du gearbeitet hast oder mit wem. Du schreibst sie beim Anlegen oder Bearbeiten eines Eintrags im Tag-Tab dazu, und solange eine Erfassung läuft, mit einem Tipp auf sie oben im Tracking-Tab. Zu sehen ist die Notiz, wenn du den Eintrag öffnest, in der Info einer Aufgabe unter „Alle Einträge“, im PDF-Abschnitt „Alle Einträge“ und im CSV-Export; Backups nehmen sie mit."
             ]
           },
           {
             "id": "reminders",
             "q": "Kann mich SimpleTime erinnern?",
             "a": [
-              "Ja. In den Einstellungen unter Benachrichtigungen legst du Regeln fest – zum Beispiel eine Erinnerung, wenn eine Aufgabe seit 60 Minuten läuft, für alle Aufgaben oder nur für ausgewählte, an den Wochentagen deiner Wahl. SimpleTime kann dich auch erinnern, wenn eine Weile nichts erfasst wurde."
+              "Ja. Unter Einstellungen › Benachrichtigungen konfigurieren legst du Regeln fest – zum Beispiel eine Erinnerung, wenn eine Aufgabe seit 60 Minuten läuft, für alle Aufgaben oder nur für ausgewählte, an den Wochentagen deiner Wahl. Mit „Erinnern, wenn nichts läuft“ meldet sich SimpleTime auch, wenn eine Weile nichts erfasst wurde."
+            ]
+          },
+          {
+            "id": "time-zone",
+            "q": "Ich bin in eine andere Zeitzone gereist – warum stehen meine Einträge zu anderen Uhrzeiten?",
+            "a": [
+              "Von Haus aus zeigt SimpleTime jeden Eintrag in der Zeitzone, in der dein Gerät gerade ist – wie der Kalender von Apple: Was du um 9 Uhr in New York erfasst hast, steht in Berlin um 15 Uhr. Unter Einstellungen › Zeitzone wählst du stattdessen „Zeitzone der Erfassung“: Dann erscheint jeder Eintrag mit der Uhrzeit und an dem Tag, an dem du ihn erfasst hast – überall, wo Zeiten und Summen stehen. Die Dauer bleibt in beiden Fällen gleich; Einträge aus Versionen vor 4.7 erscheinen immer in der Zeitzone des Geräts."
             ]
           }
         ]
@@ -475,21 +503,28 @@
             "id": "day-view",
             "q": "Was zeigt die Tagesansicht?",
             "a": [
-              "Jeden Eintrag eines Tages mit Start, Ende und Dauer – als Liste oder als Zeitachse von 0 bis 24 Uhr, mit einer Marke für die aktuelle Uhrzeit. Oben siehst du, wie heute im Vergleich zu gestern läuft."
+              "Jeden Eintrag eines Tages mit Start, Ende und Dauer – als Liste oder als Zeitachse von 0 bis 24 Uhr, heute mit einer Marke für die aktuelle Uhrzeit; auf breiten Bildschirmen wie iPad und Mac stehen beide nebeneinander. Oben stehen die Summe des Tages und der Vergleich mit dem Vortag."
             ]
           },
           {
             "id": "charts",
             "q": "Welche Diagramme und Statistiken gibt es?",
             "a": [
-              "Kuchendiagramme nach Aufgabe und nach Produktivität, für einen Tag, eine Woche, einen Monat oder ein Jahr. Unter Mehr Statistiken findest du den Vergleich zum vorherigen Zeitraum, den Verlauf, die Verteilung über den Tag, deine Top-Aufgaben und den längsten und kürzesten Eintrag. Jede Aufgabe hat außerdem eine eigene Info-Seite – erster Eintrag, längster Eintrag, diese Woche, dieses Jahr."
+              "Im Chart-Tab: Kuchendiagramme nach Aufgabe und nach Produktivität, für einen Tag, eine Woche, einen Monat oder ein Jahr. Oben rechts unter „Mehr Statistiken“ findest du den Vergleich zum vorherigen Zeitraum, den Verlauf, deine Top-Aufgaben und den längsten und kürzesten Eintrag – ab der Woche auch die Verteilung über den Tag mit deiner stärksten Stunde. Jede Aufgabe hat außerdem eine eigene Info-Seite – erster Eintrag, längster Eintrag, diese Woche, dieses Jahr."
             ]
           },
           {
             "id": "productivity",
             "q": "Was ist der Produktivitäts-Score?",
             "a": [
-              "Jeder Aufgabe kannst du eine Kategorie geben: produktiv, unproduktiv, notwendig – oder nicht berücksichtigen. Der Score zeigt, wie viel deiner bewerteten Zeit produktiv oder notwendig war: (produktiv + notwendig) ÷ (produktiv + unproduktiv + notwendig) × 100. Zeit ohne Zuordnung oder mit „Nicht berücksichtigen“ zählt nicht mit."
+              "Beim Bearbeiten einer Aufgabe gibst du ihr unter „Produktivität“ eine Kategorie: produktiv, unproduktiv, notwendig – oder „Nicht berücksichtigen“. Unteraufgaben ohne eigene Kategorie übernehmen die der Aufgabe darüber, und „Nicht berücksichtigen“ gilt für alles darunter. Der Score zeigt, wie viel deiner bewerteten Zeit produktiv oder notwendig war: (produktiv + notwendig) ÷ (produktiv + unproduktiv + notwendig) × 100. Zeit ohne Zuordnung oder mit „Nicht berücksichtigen“ zählt nicht mit."
+            ]
+          },
+          {
+            "id": "goals",
+            "q": "Wie funktionieren Ziele?",
+            "a": [
+              "Mit SimpleTime Pro setzt du dir unter Einstellungen › Ziele ein Soll je Aufgabe: mindestens oder höchstens so viel Zeit pro Tag, Woche oder Monat – etwa mindestens 8 Stunden Sport pro Woche oder höchstens 2 Stunden Social Media am Tag. Unteraufgaben zählen mit, gemessen wird der laufende Zeitraum. Wie weit du bist, zeigen der Chart-Tab und die Apple Watch; der PDF-Bericht vergleicht im Abschnitt „Ziele“ den Durchschnitt im gewählten Zeitraum mit dem Soll."
             ]
           },
           {
@@ -517,14 +552,14 @@
             "id": "widgets",
             "q": "Welche Widgets gibt es?",
             "a": [
-              "Für den Home-Bildschirm: Heute, Laufender Task und Woche. Für den Sperrbildschirm: was läuft und wie lange. Dazu einen Schalter fürs Kontrollzentrum. Läuft eine Aufgabe, zeigt sie eine Live-Aktivität auf dem Sperrbildschirm und in der Dynamic Island. Mit SimpleTime Pro kommt ein Schnellstart-Widget dazu, das du mit deinen eigenen Aufgaben bestückst."
+              "Für den Home-Bildschirm: Heute, Laufender Task und Woche – Heute und Laufender Task mit Knöpfen zum Starten und Stoppen. Für den Sperrbildschirm: was läuft und wie lange. Dazu kommt der Schalter „Zeiterfassung“ fürs Kontrollzentrum. Läuft eine Aufgabe, zeigt sie eine Live-Aktivität auf dem Sperrbildschirm und in der Dynamic Island, mit einem Knopf zum Stoppen. Mit SimpleTime Pro kommt ein Schnellstart-Widget dazu, das du mit deinen eigenen Aufgaben bestückst."
             ]
           },
           {
             "id": "without-opening",
             "q": "Kann ich starten, ohne die App zu öffnen?",
             "a": [
-              "Ja, auf mehreren Wegen. Halte das App-Symbol gedrückt, um zu stoppen, was läuft, oder eine deiner Aufgaben zu starten. Tippe den Namen einer Aufgabe in die iPhone-Suche und tippe sie an. Oder nimm den Schalter im Kontrollzentrum, ein Widget, Siri – oder mit SimpleTime Pro deine Apple Watch."
+              "Ja, auf mehreren Wegen. Halte das App-Symbol gedrückt, um zu stoppen, was läuft, oder eine deiner Aufgaben zu starten. Tippe den Namen einer Aufgabe in die iPhone-Suche und tippe sie an. Oder nimm ein Widget, Siri oder den Schalter „Zeiterfassung“ – im Kontrollzentrum, auf dem Sperrbildschirm oder auf der Aktionstaste ab dem iPhone 15 Pro –, mit SimpleTime Pro auch deine Apple Watch."
             ]
           },
           {
@@ -545,7 +580,8 @@
             "id": "calendar-entries",
             "q": "Kann SimpleTime meine Einträge in den Kalender eintragen?",
             "a": [
-              "Ja, mit SimpleTime Pro: Schalte unter Einstellungen › Kalender „Einträge im Kalender“ ein, dann erscheint jeder beendete Eintrag als Termin – in einem eigenen Kalender „SimpleTime“ oder in einem deiner Wahl, auf Wunsch je Aufgabe. Änderst oder löschst du einen Eintrag, zieht der Termin mit, und der Link im Termin öffnet den Eintrag in SimpleTime. Mit „Aufgaben aus Kalendern“ werden Kalender wie „Arbeit“ zu Aufgaben; Termine, die schon im Kalender stehen, werden aber keine Einträge. Die Termine liegen beim Anbieter deines Kalenders und zeigen die Namen deiner Aufgaben allen, mit denen du ihn teilst – auch bei eingeschalteter App-Sperre."
+              "Ja, mit SimpleTime Pro: Schalte unter Einstellungen › Kalender „Einträge im Kalender“ ein – ab diesem Tag erscheint jeder beendete Eintrag als Termin, in einem eigenen Kalender „SimpleTime“ oder in einem deiner Wahl, auf Wunsch je Aufgabe. Änderst oder löschst du einen Eintrag, zieht der Termin mit, und der Link im Termin öffnet den Eintrag in SimpleTime. Schaltest du es aus, bleiben die Termine im Kalender.",
+              "Mit „Aufgaben aus Kalendern“ werden Kalender wie „Arbeit“ zu Aufgaben; Termine, die schon im Kalender stehen, werden aber keine Einträge. Die Termine liegen beim Anbieter deines Kalenders und zeigen die Namen deiner Aufgaben allen, mit denen du ihn teilst – auch bei eingeschalteter App-Sperre."
             ]
           },
           {
@@ -565,7 +601,16 @@
             "id": "sync",
             "q": "Gleicht SimpleTime zwischen meinen Geräten ab?",
             "a": [
-              "Ja, über iCloud oder über die LaCodea ID – das wählst du auf jedem Gerät unter Einstellungen › Daten und Sync. Mit iCloud gleicht jedes Gerät ab, das mit demselben Apple Account angemeldet ist; wann, entscheidet das System – erzwingen lässt sich der Abgleich nicht, aber dieselbe Seite zeigt, wann er zuletzt lief. Mit der LaCodea ID gleicht jedes Gerät ab, auf dem du mit derselben LaCodea ID angemeldet bist und sie gewählt hast, auch mit einem anderen Apple Account – Ende-zu-Ende-verschlüsselt, und ist die App geöffnet, nach etwa einer Sekunde."
+              "Ja, über iCloud oder über die LaCodea ID – das wählst du auf jedem Gerät unter Einstellungen › Daten und Sync. Mit iCloud gleicht jedes Gerät ab, auf dem du iCloud gewählt hast und mit demselben Apple Account angemeldet bist; wann, entscheidet das System. Erzwingen lässt sich das nicht – „Jetzt synchronisieren“ prüft dann Konto und Verbindung, und dieselbe Seite zeigt, wann zuletzt abgeglichen wurde.",
+              "Mit der LaCodea ID gleicht jedes Gerät ab, auf dem du mit derselben LaCodea ID angemeldet bist und sie gewählt hast, auch mit einem anderen Apple Account – Ende-zu-Ende-verschlüsselt und, ist SimpleTime auf beiden Geräten geöffnet, nach wenigen Sekunden."
+            ]
+          },
+          {
+            "id": "sync-trouble",
+            "q": "Meine Einträge kommen auf dem anderen Gerät nicht an – was kann ich tun?",
+            "a": [
+              "Sieh auf beiden Geräten unter Einstellungen › Daten und Sync nach: Beide brauchen denselben Ort – iCloud mit demselben Apple Account oder die LaCodea ID mit derselben Anmeldung. Steht dort, dass ein Wechsel erst später gilt, beende SimpleTime ganz und öffne es wieder; halte die App außerdem auf allen Geräten aktuell.",
+              "Mit iCloud zeigt „Letzter Abgleich“ in den Einstellungen unter Synchronisierung, wann zuletzt etwas übertragen wurde, und „Abgleich prüfen“ sieht nach Konto und Verbindung und nennt bei einem Problem den Grund, etwa einen vollen iCloud-Speicher. Mit der LaCodea ID zeigt die Seite „Daten und Sync“, ob Änderungen auf eine Verbindung warten, ob ein anderes Konto angemeldet ist oder ob das Gerät deinen Wiederherstellungsschlüssel braucht. Hilft das nicht, [schreib uns](@contact)."
             ]
           },
           {
@@ -579,7 +624,8 @@
             "id": "switch-storage",
             "q": "Wie wechsle ich, wo meine Daten liegen?",
             "a": [
-              "Unter Einstellungen › Daten und Sync tippst du auf den gewünschten Ort und dann auf „Zu iCloud wechseln“, „Zu LaCodea ID wechseln“ oder „Nur noch auf diesem Gerät“; für die LaCodea ID meldest du dich dabei an. Vor dem Wechsel zu iCloud oder zur LaCodea ID legt SimpleTime eine Sicherheitskopie dieses Geräts an, und liegen dort schon Daten, wählst du zwischen „Zusammenführen“ und „Daten von … übernehmen“. Der Wechsel gilt nur für dieses Gerät, meist ab dem nächsten Start der App – deine anderen Geräte gleichen weiter ab wie bisher, bis du auch dort wechselst. Danach bietet SimpleTime an, die Daten am alten Ort zu löschen; sonst bleiben sie dort."
+              "Unter Einstellungen › Daten und Sync tippst du auf den gewünschten Ort und dann auf „Zu iCloud wechseln“, „Zu LaCodea ID wechseln“ oder „Nur noch auf diesem Gerät“; für die LaCodea ID meldest du dich dabei an. Vor dem Wechsel zu iCloud oder zur LaCodea ID legt SimpleTime eine Sicherheitskopie dieses Geräts an, und liegen dort schon Daten, wählst du zwischen „Zusammenführen“ und „Daten von … übernehmen“.",
+              "Der Wechsel gilt nur für dieses Gerät, meist erst, wenn du SimpleTime ganz beendet und wieder geöffnet hast – die Seite sagt es dir. Deine anderen Geräte gleichen weiter ab wie bisher, bis du auch dort wechselst. Danach bietet SimpleTime an, die Daten am alten Ort zu löschen; tu das erst, wenn auch deine anderen Geräte gewechselt haben – sonst verlieren sie diese Daten mit."
             ]
           },
           {
@@ -614,7 +660,7 @@
             "id": "backup-files",
             "q": "Wo finde ich meine Backups?",
             "a": [
-              "Die Backups eines Plans „Nur auf diesem Gerät“ findest du auch in der Dateien-App unter „Auf meinem iPhone“ (bzw. „Auf meinem iPad“) › SimpleTime › Backups, die eines Plans in iCloud Drive unter iCloud Drive › SimpleTime › Backups. Pläne für einen Ordner der Dateien-App oder deinen eigenen Server legen sie dort ab, wo du es gewählt hast. Gib deinen Plänen am besten ein Passwort: Ohne kann ein Backup jeder öffnen, der Zugriff auf seinen Ort hat – auf dem Gerät jeder, der es entsperrt, auch bei eingeschalteter App-Sperre."
+              "Die Backups eines Plans „Nur auf diesem Gerät“ findest du auch in der Dateien-App unter „Auf meinem iPhone“ (bzw. „Auf meinem iPad“) › SimpleTime › Backups, die eines Plans in iCloud Drive unter iCloud Drive › SimpleTime › Backups. Pläne für einen Ordner der Dateien-App oder deinen eigenen Server legen sie dort ab, wo du es gewählt hast. Backups auf dem Gerät gehen mit dem Gerät verloren – und wenn du SimpleTime löschst. Gib deinen Plänen am besten ein Passwort: Ohne kann ein Backup jeder öffnen, der Zugriff auf seinen Ort hat – auf dem Gerät jeder, der es entsperrt, auch bei eingeschalteter App-Sperre."
             ]
           },
           {
@@ -628,7 +674,7 @@
             "id": "export",
             "q": "Kann ich meine Daten exportieren?",
             "a": [
-              "Ja, jederzeit: als CSV-Datei mit Aufgabe, Notiz, Dauer, Start und Ende – für Excel, Numbers oder jedes Auswertungswerkzeug –, als PDF-Bericht oder als vollständiges Backup.",
+              "Ja, jederzeit: als CSV-Datei mit einer Zeile je Eintrag – Datum, Start, Ende, Aufgabe, Dauer, Dezimalstunden und Notiz, für Excel, Numbers oder jedes Tabellenprogramm –, als PDF-Bericht oder als Backup.",
               "Unter Einstellungen › Daten exportieren / importieren wählst du den Zeitraum der CSV-Datei – von heute bis zum gesamten Zeitraum oder einen eigenen, etwa den letzten Monat. Ein Backup erstellst du unter Einstellungen › Backups."
             ]
           },
@@ -640,17 +686,24 @@
             ]
           },
           {
+            "id": "rounding",
+            "q": "Kann SimpleTime Zeiten runden, etwa auf Viertelstunden?",
+            "a": [
+              "Nein, eine Einstellung zum Runden gibt es nicht: SimpleTime speichert Beginn und Ende so, wie du erfasst. Im PDF-Abschnitt „Alle Einträge“ und im CSV-Export steht jede Zeile auf die Minute gerundet und in Dezimalstunden mit zwei Stellen; im PDF rechnen die Summen genau mit diesen Werten. Brauchst du Viertelstunden, ändere Start und Ende im Eintrag oder runde in deinem Tabellenprogramm."
+            ]
+          },
+          {
             "id": "import",
             "q": "Kann ich Daten aus einer anderen App übernehmen?",
             "a": [
-              "Nicht direkt. SimpleTime liest nur seine eigenen Backups; CSV-Dateien aus anderen Apps lassen sich nicht einlesen."
+              "Nein. SimpleTime liest nur seine eigenen Backups – CSV-Dateien, auch die eigenen, lassen sich nicht einlesen, und Termine aus deinem Kalender werden keine Einträge. Frühere Zeiten trägst du im Tag-Tab mit + von Hand nach."
             ]
           },
           {
             "id": "new-device",
             "q": "Wie ziehe ich auf ein neues iPhone um?",
             "a": [
-              "Melde dich mit demselben Apple Account an und installiere SimpleTime – nutzt du iCloud (Einstellungen › Daten und Sync), kommen deine Einträge von selbst zurück. Nutzt du die LaCodea ID, meldest du dich auf dem neuen Gerät mit ihr an und wählst sie unter Daten und Sync; bekommt das Gerät den Schlüssel nicht von selbst über deinen iCloud-Schlüsselbund, fragt die App einmal nach deinem Wiederherstellungsschlüssel. Sonst erstellst du auf dem alten Gerät ein Backup und stellst es auf dem neuen wieder her. Orte gehören zum jeweiligen Gerät und werden nicht abgeglichen."
+              "Melde dich mit demselben Apple Account an und installiere SimpleTime – nutzt du iCloud (Einstellungen › Daten und Sync), kommen deine Einträge von selbst zurück. Nutzt du die LaCodea ID, meldest du dich auf dem neuen Gerät mit ihr an und wählst sie unter Daten und Sync; bekommt das Gerät den Schlüssel nicht von selbst über deinen iCloud-Schlüsselbund, fragt die App einmal nach deinem Wiederherstellungsschlüssel. Sonst erstellst du auf dem alten Gerät ein Backup und stellst es auf dem neuen wieder her. Orte und Einstellungen gehören zum jeweiligen Gerät – sie werden weder abgeglichen noch gesichert."
             ]
           }
         ]
@@ -712,7 +765,16 @@
             "id": "delete-all",
             "q": "Wie lösche ich alle meine Daten?",
             "a": [
-              "In den Einstellungen unter Datenschutz › Alle Daten löschen entfernst du alles auf einmal – Einträge und Aufgaben, den Papierkorb, Erinnerungen, die Backups deiner Pläne und die alten Backups in iCloud Drive, Exporte, Einstellungen und die Termine, die SimpleTime in deinen Kalender eingetragen hat. Gelöscht wird auf diesem Gerät, in iCloud und, gleichst du über die LaCodea ID ab, auf dem Server; über iCloud erreicht die Löschung auch deine anderen Geräte, sobald sie online sind. Beim Abgleich über die LaCodea ID behalten deine anderen Geräte ihre Daten – dort löschst du ebenso –, und dein Konto bei der LaCodea ID bleibt bestehen. Das lässt sich nicht rückgängig machen."
+              "In den Einstellungen unter Datenschutz › Alle Daten löschen entfernst du alles auf einmal – Einträge und Aufgaben, Ziele, Orte, den Papierkorb, Erinnerungen, die Backups deiner Pläne und die alten Backups in iCloud Drive, Exporte, Einstellungen samt Code der App-Sperre und die Termine, die SimpleTime in deinen Kalender eingetragen hat.",
+              "Gelöscht wird auf diesem Gerät, in iCloud und, gleichst du über die LaCodea ID ab, auf dem Server; über iCloud erreicht die Löschung auch deine anderen Geräte, sobald sie online sind. Beim Abgleich über die LaCodea ID behalten deine anderen Geräte ihre Daten und gleichen nicht mehr ab, bis du den Abgleich dort neu einrichtest – dort löschst du ebenso –, und dein Konto bei der LaCodea ID bleibt bestehen. Das lässt sich nicht rückgängig machen."
+            ]
+          },
+          {
+            "id": "delete-app",
+            "q": "Was passiert, wenn ich SimpleTime lösche?",
+            "a": [
+              "Dann ist weg, was nur auf diesem Gerät lag: deine Einträge, wenn du „Nur auf diesem Gerät“ gewählt hast, die Backups eines Plans „Nur auf diesem Gerät“, deine Orte und deine Einstellungen samt App-Sperre. Was in iCloud oder bei der LaCodea ID liegt, bleibt dort und kommt nach dem Neuinstallieren zurück, wenn du wieder denselben Ort unter Daten und Sync nutzt.",
+              "Backups in iCloud Drive, in einem Ordner der Dateien-App oder auf deinem Server bleiben ebenso wie die Termine in deinem Kalender; für ein verschlüsseltes Backup brauchst du danach sein Passwort. Ein Abo läuft weiter, bis du es kündigst, und deine LaCodea ID bleibt bestehen. Willst du vorher alles entfernen, nimm Einstellungen › Datenschutz › Alle Daten löschen."
             ]
           },
           {
@@ -732,7 +794,7 @@
             "id": "pro-includes",
             "q": "Was gehört zu SimpleTime Pro?",
             "a": [
-              "Die App für die Apple Watch, Rückblicke auf Woche, Monat und Jahr, Orte, deine Einträge als Termine im Kalender, der Jahresüberblick, Ziele, der Fokusfilter, ein Schnellstart-Widget, sieben Akzentfarben oder eine eigene, sechs Schriften, sechzehn App-Symbole und zusätzliche Abschnitte im PDF-Bericht. Was künftig dazukommt, ist enthalten. [Alles über SimpleTime Pro](@pro)"
+              "Die App für die Apple Watch, Rückblicke auf Woche, Monat und Jahr, Orte, deine Einträge als Termine im Kalender und Aufgaben aus Kalendern, das Jahr im Überblick, Ziele, der Fokusfilter, ein Schnellstart-Widget, sieben Akzentfarben oder eine eigene, sechs Schriften, sechzehn App-Symbole und zusätzliche Abschnitte im PDF-Bericht. Die Uhr-App braucht ein iPhone, Orte und App-Symbole gibt es auf iPhone und iPad. Was künftig dazukommt, ist enthalten. [Alles über SimpleTime Pro](@pro)"
             ]
           },
           {
@@ -758,16 +820,10 @@
           },
           {
             "id": "restore-purchase",
-            "q": "Wie bekomme ich Pro auf meine anderen Geräte?",
+            "q": "Ich habe Pro gekauft – wie bekomme ich es auf meine anderen Geräte?",
             "a": [
-              "Pro gehört zu deinem Apple Account. Auf deinen anderen Geräten mit demselben Account ist es meist von selbst freigeschaltet. Falls nicht, tippe auf der Pro-Seite unter Einstellungen › SimpleTime Pro auf Wiederherstellen. Bist du mit der LaCodea ID angemeldet, hast du Pro auf jedem Gerät mit derselben LaCodea ID, auch mit einem anderen Apple Account. Die Pro-Seite zeigt dann, wo du das Abo abgeschlossen hast – nur dort lässt es sich ändern."
-            ]
-          },
-          {
-            "id": "pro-other-device",
-            "q": "Ich habe Pro gekauft – warum fehlt es auf meinem anderen Gerät?",
-            "a": [
-              "Mit demselben Apple Account tippst du dort unter Einstellungen › SimpleTime Pro auf „Wiederherstellen“. Mit einem anderen Apple Account meldest du dich auf beiden Geräten mit derselben LaCodea ID an; hast du Pro vor der Anmeldung gekauft, melde dich auch auf einem Gerät mit dem Apple Account des Kaufs mit deiner LaCodea ID an – von dort meldet SimpleTime ihn an dein Konto. Danach steht auf der Pro-Seite des anderen Geräts „Über deine LaCodea ID“."
+              "Pro gehört zu deinem Apple Account: Auf deinen anderen Geräten mit demselben Account ist es meist von selbst freigeschaltet. Falls nicht, tippe dort unter Einstellungen › SimpleTime Pro auf „Wiederherstellen“.",
+              "Auf einem Gerät mit einem anderen Apple Account bekommst du Pro über die LaCodea ID: Melde dich auf beiden Geräten mit derselben LaCodea ID an. Hast du Pro vor der Anmeldung gekauft, melde dich auch auf einem Gerät mit dem Apple Account des Kaufs mit deiner LaCodea ID an – von dort meldet SimpleTime den Kauf an dein Konto. Die Pro-Seite zeigt dann „Über deine LaCodea ID“ und bei einem Abo, wo du es abgeschlossen hast – nur dort lässt es sich ändern."
             ]
           },
           {
@@ -842,14 +898,14 @@
             "id": "look",
             "q": "Kann ich das Aussehen von SimpleTime ändern?",
             "a": [
-              "Ja: hell, dunkel oder wie das System, drei Zeilenhöhen für die Aufgabenliste und unter Einstellungen › Schrift eine eigene Textgröße und fette Schrift. Mit SimpleTime Pro kommen sieben Akzentfarben oder eine eigene dazu – sie zieht sich durch Knöpfe, Schalter und Diagramme –, sechs Schriften und sechzehn App-Symbole."
+              "Ja: hell, dunkel oder wie das System, drei Zeilenhöhen für die Aufgabenliste und unter Einstellungen › Schrift eine eigene Textgröße und fette Schrift. Mit SimpleTime Pro kommen sieben Akzentfarben oder eine eigene dazu – sie zieht sich durch Knöpfe, Schalter und Diagramme –, sechs Schriften und auf iPhone und iPad sechzehn App-Symbole."
             ]
           },
           {
             "id": "accessibility",
             "q": "Ist SimpleTime barrierefrei?",
             "a": [
-              "Ja. SimpleTime unterstützt VoiceOver und Dynamic Type in der ganzen App. Wenn etwas für dich nicht funktioniert, sag uns bitte Bescheid."
+              "Ja. VoiceOver liest Knöpfe, Diagramme und die Zeitachse in jeder Sprache der App vor, und die Diagramme gibt es auch als Audiograf. Texte folgen der Schriftgröße von iOS bis zu den größten Stufen – nur in der Kopfleiste und an der Zeitachse wächst sie bis zu einer Grenze, damit nichts die Bedienung verdeckt. Mehr steht in unserer [Erklärung zur Barrierefreiheit](@accessibility); wenn etwas für dich nicht funktioniert, sag uns bitte Bescheid."
             ]
           },
           {
@@ -877,7 +933,7 @@
             "id": "feedback",
             "q": "Ich habe einen Fehler gefunden oder eine Idee – wohin damit?",
             "a": [
-              "Schreib uns an [contact@simple-time.app](mailto:contact@simple-time.app). Bei einem Fehler gib bitte dein Gerätemodell und die iOS-Version an und beschreib kurz, was du gerade getan hast. Jede Nachricht wird gelesen."
+              "Schreib uns an [contact@simple-time.app](mailto:contact@simple-time.app) – aus der App geht das auch über Einstellungen › Feedback. Bei einem Fehler nenn bitte dein Gerätemodell, die Version von iOS, iPadOS oder macOS und die von SimpleTime – sie steht unter Einstellungen › Über SimpleTime – und beschreib kurz, was du gerade getan hast. Jede Nachricht wird gelesen."
             ]
           },
           {

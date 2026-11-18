@@ -62,6 +62,13 @@ export const ui = {
     'notfound.title': 'Page not found',
     'notfound.body': 'The page you’re looking for doesn’t exist or has been moved.',
     'notfound.home': 'Back to home',
+    // The app's own words on its widgets and its control (Localizable.strings of the app).
+    'widget.active': 'Active',
+    'widget.since': 'since',
+    'widget.week': 'Last 7 days',
+    'widget.week.total': 'Total',
+    'widget.week.average': 'Per day',
+    'control.tracking.name': 'Time tracking',
     'skip.content': 'Skip to content',
 
     // The Live Activity in the hero – the app's own strings and sample task.
@@ -147,6 +154,13 @@ export const ui = {
     'notfound.title': 'Seite nicht gefunden',
     'notfound.body': 'Die Seite, die du suchst, existiert nicht oder wurde verschoben.',
     'notfound.home': 'Zurück zur Startseite',
+    // The app's own words on its widgets and its control (Localizable.strings of the app).
+    'widget.active': 'Aktiv',
+    'widget.since': 'seit',
+    'widget.week': 'Letzte 7 Tage',
+    'widget.week.total': 'Gesamt',
+    'widget.week.average': 'Pro Tag',
+    'control.tracking.name': 'Zeiterfassung',
     'skip.content': 'Zum Inhalt springen',
 
     // The Live Activity in the hero – the app's own strings and sample task.
@@ -231,6 +245,13 @@ export const ui = {
     'notfound.title': 'Page introuvable',
     'notfound.body': 'La page que vous cherchez n’existe pas ou a été déplacée.',
     'notfound.home': 'Retour à l’accueil',
+    // The app's own words on its widgets and its control (Localizable.strings of the app).
+    'widget.active': 'En cours',
+    'widget.since': 'depuis',
+    'widget.week': '7 derniers jours',
+    'widget.week.total': 'Total',
+    'widget.week.average': 'Par jour',
+    'control.tracking.name': 'Suivi du temps',
     'skip.content': 'Aller au contenu',
 
     // The Live Activity in the hero – the app's own strings and sample task.
@@ -315,6 +336,13 @@ export const ui = {
     'notfound.title': 'Página no encontrada',
     'notfound.body': 'La página que buscas no existe o se ha movido.',
     'notfound.home': 'Volver al inicio',
+    // The app's own words on its widgets and its control (Localizable.strings of the app).
+    'widget.active': 'Activo',
+    'widget.since': 'desde',
+    'widget.week': 'Últimos 7 días',
+    'widget.week.total': 'Total',
+    'widget.week.average': 'Por día',
+    'control.tracking.name': 'Registro de tiempo',
     'skip.content': 'Ir al contenido',
 
     // The Live Activity in the hero – the app's own strings and sample task.
@@ -399,6 +427,13 @@ export const ui = {
     'notfound.title': 'Pagina non trovata',
     'notfound.body': 'La pagina che cerchi non esiste o è stata spostata.',
     'notfound.home': 'Torna alla pagina iniziale',
+    // The app's own words on its widgets and its control (Localizable.strings of the app).
+    'widget.active': 'In corso',
+    'widget.since': 'dalle',
+    'widget.week': 'Ultimi 7 giorni',
+    'widget.week.total': 'Totale',
+    'widget.week.average': 'Al giorno',
+    'control.tracking.name': 'Registrazione del tempo',
     'skip.content': 'Vai al contenuto',
 
     // The Live Activity in the hero – the app's own strings and sample task.
@@ -483,6 +518,13 @@ export const ui = {
     'notfound.title': 'Страница не найдена',
     'notfound.body': 'Страница, которую вы ищете, не существует или была перемещена.',
     'notfound.home': 'Вернуться на главную',
+    // The app's own words on its widgets and its control (Localizable.strings of the app).
+    'widget.active': 'Активно',
+    'widget.since': 'с',
+    'widget.week': 'Последние 7 дней',
+    'widget.week.total': 'Всего',
+    'widget.week.average': 'В день',
+    'control.tracking.name': 'Учёт времени',
     'skip.content': 'Перейти к содержимому',
 
     // The Live Activity in the hero – the app's own strings and sample task.
@@ -567,6 +609,13 @@ export const ui = {
     'notfound.title': 'Էջը չի գտնվել',
     'notfound.body': 'Ձեր փնտրած էջը գոյություն չունի կամ տեղափոխվել է։',
     'notfound.home': 'Վերադառնալ գլխավոր էջ',
+    // The app's own words on its widgets and its control (Localizable.strings of the app).
+    'widget.active': 'Ակտիվ',
+    'widget.since': 'ից',
+    'widget.week': 'Վերջին 7 օրը',
+    'widget.week.total': 'Ընդամենը',
+    'widget.week.average': 'Օրական',
+    'control.tracking.name': 'Ժամանակի հաշվառում',
     'skip.content': 'Անցնել բովանդակությանը',
 
     // The Live Activity in the hero – the app's own strings and sample task.
@@ -651,6 +700,13 @@ export const ui = {
     'notfound.title': 'Página não encontrada',
     'notfound.body': 'A página que procura não existe ou foi movida.',
     'notfound.home': 'Voltar à página inicial',
+    // The app's own words on its widgets and its control (Localizable.strings of the app).
+    'widget.active': 'Ativa',
+    'widget.since': 'desde',
+    'widget.week': 'Últimos 7 dias',
+    'widget.week.total': 'Total',
+    'widget.week.average': 'Por dia',
+    'control.tracking.name': 'Registo de tempo',
     'skip.content': 'Ir para o conteúdo',
 
     // The Live Activity in the hero – the app's own strings and sample task.
@@ -735,6 +791,13 @@ export const ui = {
     'notfound.title': 'Sayfa bulunamadı',
     'notfound.body': 'Aradığın sayfa yok ya da taşınmış.',
     'notfound.home': 'Ana sayfaya dön',
+    // The app's own words on its widgets and its control (Localizable.strings of the app).
+    'widget.active': 'Etkin',
+    'widget.since': 'başlangıç',
+    'widget.week': 'Son 7 gün',
+    'widget.week.total': 'Toplam',
+    'widget.week.average': 'Günlük',
+    'control.tracking.name': 'Zaman kaydı',
     'skip.content': 'İçeriğe geç',
 
     // The Live Activity in the hero – the app's own strings and sample task.
@@ -819,6 +882,13 @@ export const ui = {
     'notfound.title': 'الصفحة غير موجودة',
     'notfound.body': 'الصفحة التي تبحث عنها غير موجودة أو نُقلت إلى مكان آخر.',
     'notfound.home': 'العودة إلى الصفحة الرئيسية',
+    // The app's own words on its widgets and its control (Localizable.strings of the app).
+    'widget.active': 'نشطة',
+    'widget.since': 'منذ',
+    'widget.week': 'آخر 7 أيام',
+    'widget.week.total': 'الإجمالي',
+    'widget.week.average': 'يوميًا',
+    'control.tracking.name': 'تسجيل الوقت',
     'skip.content': 'الانتقال إلى المحتوى',
 
     // The Live Activity in the hero – the app's own strings and sample task.
@@ -903,6 +973,13 @@ export const ui = {
     'notfound.title': 'ページが見つかりません',
     'notfound.body': 'お探しのページは存在しないか、移動した可能性があります。',
     'notfound.home': 'ホームに戻る',
+    // The app's own words on its widgets and its control (Localizable.strings of the app).
+    'widget.active': '実行中',
+    'widget.since': '開始',
+    'widget.week': '直近7日間',
+    'widget.week.total': '合計',
+    'widget.week.average': '1日あたり',
+    'control.tracking.name': '時間の計測',
     'skip.content': '本文へ移動',
 
     // The Live Activity in the hero – the app's own strings and sample task.
@@ -987,6 +1064,13 @@ export const ui = {
     'notfound.title': '找不到页面',
     'notfound.body': '你要找的页面不存在或已被移动。',
     'notfound.home': '返回首页',
+    // The app's own words on its widgets and its control (Localizable.strings of the app).
+    'widget.active': '进行中',
+    'widget.since': '自',
+    'widget.week': '最近 7 天',
+    'widget.week.total': '合计',
+    'widget.week.average': '每天',
+    'control.tracking.name': '时间记录',
     'skip.content': '跳到主要内容',
 
     // The Live Activity in the hero – the app's own strings and sample task.
@@ -1071,6 +1155,13 @@ export const ui = {
     'notfound.title': 'पृष्ठ नहीं मिला',
     'notfound.body': 'आप जो पृष्ठ खोज रहे हैं, वह मौजूद नहीं है या कहीं और ले जाया गया है।',
     'notfound.home': 'मुख्य पृष्ठ पर लौटें',
+    // The app's own words on its widgets and its control (Localizable.strings of the app).
+    'widget.active': 'चालू',
+    'widget.since': 'से',
+    'widget.week': 'पिछले 7 दिन',
+    'widget.week.total': 'कुल',
+    'widget.week.average': 'प्रतिदिन',
+    'control.tracking.name': 'समय ट्रैकिंग',
     'skip.content': 'सामग्री पर जाएँ',
 
     // The Live Activity in the hero – the app's own strings and sample task.
@@ -1155,6 +1246,13 @@ export const ui = {
     'notfound.title': 'Pagina niet gevonden',
     'notfound.body': 'De pagina die je zoekt bestaat niet of is verplaatst.',
     'notfound.home': 'Terug naar de startpagina',
+    // The app's own words on its widgets and its control (Localizable.strings of the app).
+    'widget.active': 'Actief',
+    'widget.since': 'sinds',
+    'widget.week': 'Laatste 7 dagen',
+    'widget.week.total': 'Totaal',
+    'widget.week.average': 'Per dag',
+    'control.tracking.name': 'Tijdregistratie',
     'skip.content': 'Naar de inhoud',
 
     // The Live Activity in the hero – the app's own strings and sample task.
@@ -1239,6 +1337,13 @@ export const ui = {
     'notfound.title': 'Sidan hittades inte',
     'notfound.body': 'Sidan du letar efter finns inte eller har flyttats.',
     'notfound.home': 'Tillbaka till startsidan',
+    // The app's own words on its widgets and its control (Localizable.strings of the app).
+    'widget.active': 'Aktiv',
+    'widget.since': 'sedan',
+    'widget.week': 'Senaste 7 dagarna',
+    'widget.week.total': 'Totalt',
+    'widget.week.average': 'Per dag',
+    'control.tracking.name': 'Tidregistrering',
     'skip.content': 'Hoppa till innehållet',
 
     // The Live Activity in the hero – the app's own strings and sample task.
@@ -1323,6 +1428,13 @@ export const ui = {
     'notfound.title': 'Сторінку не знайдено',
     'notfound.body': 'Сторінка, яку ви шукаєте, не існує або її переміщено.',
     'notfound.home': 'Повернутися на головну',
+    // The app's own words on its widgets and its control (Localizable.strings of the app).
+    'widget.active': 'Активне',
+    'widget.since': 'з',
+    'widget.week': 'Останні 7 днів',
+    'widget.week.total': 'Усього',
+    'widget.week.average': 'За день',
+    'control.tracking.name': 'Облік часу',
     'skip.content': 'Перейти до вмісту',
 
     // The Live Activity in the hero – the app's own strings and sample task.
@@ -1407,6 +1519,13 @@ export const ui = {
     'notfound.title': 'Η σελίδα δεν βρέθηκε',
     'notfound.body': 'Η σελίδα που αναζητάτε δεν υπάρχει ή έχει μετακινηθεί.',
     'notfound.home': 'Επιστροφή στην αρχική σελίδα',
+    // The app's own words on its widgets and its control (Localizable.strings of the app).
+    'widget.active': 'Ενεργό',
+    'widget.since': 'από',
+    'widget.week': 'Τελευταίες 7 ημέρες',
+    'widget.week.total': 'Σύνολο',
+    'widget.week.average': 'Ανά ημέρα',
+    'control.tracking.name': 'Χρονομέτρηση',
     'skip.content': 'Μετάβαση στο περιεχόμενο',
 
     // The Live Activity in the hero – the app's own strings and sample task.
@@ -1491,6 +1610,13 @@ export const ui = {
     'notfound.title': 'הדף לא נמצא',
     'notfound.body': 'הדף שחיפשתם לא קיים או שהועבר למקום אחר.',
     'notfound.home': 'חזרה לדף הבית',
+    // The app's own words on its widgets and its control (Localizable.strings of the app).
+    'widget.active': 'פעיל',
+    'widget.since': 'מאז',
+    'widget.week': '‏7 הימים האחרונים',
+    'widget.week.total': 'סה״כ',
+    'widget.week.average': 'ליום',
+    'control.tracking.name': 'מדידת זמן',
     'skip.content': 'דילוג לתוכן',
 
     // The Live Activity in the hero – the app's own strings and sample task.

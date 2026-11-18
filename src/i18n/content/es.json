@@ -341,6 +341,13 @@
             ]
           },
           {
+            "id": "first-steps",
+            "q": "¿Cómo empiezo?",
+            "a": [
+              "Toca + en la pestaña Seguimiento para crear una tarea – con nombre, color y símbolo. Toca el triángulo que hay a su lado y el reloj se pone en marcha; toca Detener para pararlo. La primera vez que abres la app, un breve recorrido te enseña los botones más importantes. Puedes volver a verlo cuando quieras en Ajustes › Ver el recorrido otra vez."
+            ]
+          },
+          {
             "id": "free",
             "q": "¿SimpleTime es gratis?",
             "a": [
@@ -369,6 +376,13 @@
             ]
           },
           {
+            "id": "mac",
+            "q": "¿Qué puede hacer SimpleTime en el Mac?",
+            "a": [
+              "Casi todo lo que hace en el iPhone – el registro, la vista del día, los análisis, los informes, la exportación, las copias de seguridad, la sincronización y el bloqueo de la app; donde en el iPhone deslizas, en el Mac haces clic derecho. Además, están el cronómetro de la barra de menús y los widgets en el escritorio. Los lugares, las actividades en directo, la app para Apple Watch y los iconos de app alternativos no están disponibles en el Mac."
+            ]
+          },
+          {
             "id": "languages",
             "q": "¿Qué idiomas habla SimpleTime?",
             "a": [
@@ -376,17 +390,10 @@
             ]
           },
           {
-            "id": "first-steps",
-            "q": "¿Cómo empiezo?",
-            "a": [
-              "Toca + en la pestaña Seguimiento para crear una tarea – con nombre, color y símbolo. Toca el triángulo que hay a su lado y el reloj se pone en marcha; toca Detener para pararlo. La primera vez que abres la app, un breve recorrido te enseña los botones más importantes. Puedes volver a verlo cuando quieras en Ajustes › Ver el recorrido otra vez."
-            ]
-          },
-          {
             "id": "offline",
             "q": "¿SimpleTime funciona sin conexión?",
             "a": [
-              "Sí, por completo. El registro, la vista del día, los gráficos y los informes funcionan sin conexión. La sincronización y las copias de seguridad se ponen al día en cuanto tu dispositivo vuelva a estar en línea."
+              "Sí. El registro, la vista del día, los gráficos y los informes funcionan sin conexión. Necesitas conexión para la sincronización, las copias de seguridad en tu propio servidor, el inicio de sesión con LaCodea ID, la compra de Pro y la búsqueda de direcciones para un lugar. SimpleTime se pone al día con lo que quede pendiente – la sincronización, en cuanto tu dispositivo vuelva a estar en línea, y una copia de seguridad que no se hizo a su hora, la próxima vez que abras la app."
             ]
           }
         ]
@@ -399,28 +406,42 @@
             "id": "start-stop",
             "q": "¿Cómo inicio y detengo un registro?",
             "a": [
-              "Toca el triángulo junto a una tarea para iniciarla. La tarea en curso aparece arriba en la pestaña Seguimiento; toca Detener para terminarla. Si tocas el nombre de una tarea, se abren sus subtareas; si deslizas a la izquierda, puedes editarla, archivarla o eliminarla, y si deslizas a la derecha, ves su info con todos los números."
+              "Toca el triángulo junto a una tarea para iniciarla. La tarea en curso aparece arriba en la pestaña Seguimiento; toca Detener para terminarla. Si tocas el nombre de una tarea, se abren sus subtareas; si deslizas a la izquierda, puedes editarla, archivarla o eliminarla, y si deslizas a la derecha, ves su info con todos los números – en el Mac, todo esto lo encuentras con un clic derecho."
             ]
           },
           {
             "id": "one-at-a-time",
             "q": "¿Pueden estar en curso dos tareas a la vez?",
             "a": [
-              "No. Como máximo hay un registro en curso a la vez. Cuando inicias otra tarea, la entrada en curso termina automáticamente – así tus entradas nunca se solapan."
+              "No. Solo hay un registro en curso a la vez: cuando inicias otra tarea, la entrada en curso termina en ese mismo momento – así tus entradas no se solapan."
+            ]
+          },
+          {
+            "id": "keeps-running",
+            "q": "¿El reloj sigue en marcha si cierro SimpleTime?",
+            "a": [
+              "Sí. SimpleTime recuerda cuándo empezaste y calcula la duración a partir de ahí – el registro sigue en curso si cierras la app, bloqueas tu iPhone o lo reinicias. En la pantalla de bloqueo y en la Dynamic Island, la actividad en directo muestra el tiempo en curso, con un botón para detenerlo, y tus recordatorios llegan aunque la app esté cerrada."
             ]
           },
           {
             "id": "add-later",
             "q": "Se me olvidó empezar – ¿puedo añadir el tiempo después?",
             "a": [
-              "Sí. En la pestaña Día, añade una entrada nueva con su inicio y su fin, o toca una existente para cambiarla. Las entradas no pueden solaparse: SimpleTime te avisa si un período choca con otra entrada. En un registro que sigue en curso también puedes mover el inicio hacia atrás – hasta el final de la entrada anterior."
+              "Sí. En la pestaña Día, añade con + una entrada nueva con su inicio y su fin, o toca una existente para cambiarla. Las entradas no pueden solaparse: SimpleTime te avisa si un período choca con otra entrada. Si el registro ya está en curso, tócalo arriba en la pestaña Seguimiento y mueve su inicio hacia atrás – hasta el final de la entrada anterior."
+            ]
+          },
+          {
+            "id": "restore-entry",
+            "q": "He eliminado una entrada – ¿puedo recuperarla?",
+            "a": [
+              "Sí. Si eliminas una entrada en la pestaña Día – deslizando a la izquierda o, en el Mac, con un clic derecho –, va a la papelera: arriba a la izquierda en la pestaña Día, en «Entradas eliminadas», la recuperas con «Restaurar» o la eliminas definitivamente. Las tareas eliminadas están, junto con sus entradas, en la papelera de arriba a la izquierda de la pestaña Seguimiento. Lo que se ha eliminado definitivamente solo lo puede recuperar una copia de seguridad."
             ]
           },
           {
             "id": "fixed-times",
             "q": "¿Qué son los horarios fijos?",
             "a": [
-              "Los horarios que se repiten, como clases, turnos u horas de atención, los creas una sola vez: tarea, días de la semana, inicio y fin, cada semana o cada dos semanas y, si quieres, con fecha de fin. En cuanto termina un horario, SimpleTime lo registra por sí solo como entrada – en cada dispositivo en el que abras SimpleTime, y aun así solo una vez. Solo tienes que registrar lo que se añada; lo encontrarás en Ajustes › Registro › Horarios fijos, sin necesidad de Pro."
+              "Los horarios que se repiten, como clases, turnos u horas de atención, los creas una sola vez: tarea, días de la semana, inicio y fin, cada semana o cada dos semanas, a partir del día que elijas y, si quieres, con fecha de fin. En cuanto termina un horario, SimpleTime lo registra por sí solo como entrada – en cada dispositivo en el que abras SimpleTime, y aun así solo una vez; recupera como máximo los últimos 31 días. Solo tienes que registrar lo que se añada; lo encontrarás en Ajustes › Registro › Horarios fijos, sin necesidad de Pro."
             ]
           },
           {
@@ -448,21 +469,28 @@
             "id": "archive-trash",
             "q": "¿Qué diferencia hay entre archivar y eliminar?",
             "a": [
-              "Archivar solo oculta una tarea: sus entradas se conservan y siguen contando en todos los análisis. Eliminar lleva la tarea y sus entradas a la papelera. Desde allí puedes restaurar ambas – o eliminarlas definitivamente."
+              "Archivar solo oculta una tarea: sus entradas se conservan y siguen contando en todos los análisis. Eliminar lleva la tarea y sus entradas a la papelera – entonces sus tiempos dejan de contar en todas partes. El archivo y la papelera están arriba a la izquierda en la pestaña Seguimiento: desde el archivo recuperas una tarea con «Restaurar», y desde la papelera, la tarea con sus entradas – o la eliminas allí definitivamente."
             ]
           },
           {
             "id": "notes",
             "q": "¿Puedo añadir notas a las entradas?",
             "a": [
-              "Sí, cada entrada puede llevar una nota – en qué trabajaste o con quién te reuniste. Las notas se ven en la vista del día y se incluyen en la exportación CSV y en las copias de seguridad."
+              "Sí, cada entrada puede llevar una nota – en qué trabajaste o con quién te reuniste. La escribes al crear o editar una entrada en la pestaña Día y, mientras un registro está en curso, tocándolo arriba en la pestaña Seguimiento. La nota se ve al abrir la entrada, en la info de una tarea en «Todas las entradas», en la sección «Todas las entradas» del PDF y en la exportación CSV; las copias de seguridad la incluyen."
             ]
           },
           {
             "id": "reminders",
             "q": "¿SimpleTime puede avisarme?",
             "a": [
-              "Sí. En los ajustes de SimpleTime, en Notificaciones, defines reglas – por ejemplo, un recordatorio cuando una tarea lleva 60 minutos en curso, para todas las tareas o solo para algunas, los días de la semana que elijas. SimpleTime también puede avisarte cuando llevas un rato sin registrar nada."
+              "Sí. En Ajustes › Configurar notificaciones defines reglas – por ejemplo, un recordatorio cuando una tarea lleva 60 minutos en curso, para todas las tareas o solo para algunas, los días de la semana que elijas. Con «Avisarme cuando no haya nada en curso», SimpleTime también te avisa cuando llevas un rato sin registrar nada."
+            ]
+          },
+          {
+            "id": "time-zone",
+            "q": "He viajado a otra zona horaria – ¿por qué mis entradas aparecen a otras horas?",
+            "a": [
+              "De forma predeterminada, SimpleTime muestra cada entrada en la zona horaria en la que está ahora tu dispositivo – como el Calendario de Apple: lo que registraste a las 9 h en Nueva York aparece a las 15 h en Berlín. En Ajustes › Zona horaria puedes elegir en su lugar «Zona horaria del registro»: entonces cada entrada aparece con la hora y en el día en que la registraste – en todos los lugares donde aparecen horas y totales. La duración es la misma en ambos casos; las entradas de versiones anteriores a la 4.7 aparecen siempre en la zona horaria del dispositivo."
             ]
           }
         ]
@@ -475,21 +503,28 @@
             "id": "day-view",
             "q": "¿Qué muestra la vista del día?",
             "a": [
-              "Cada entrada del día con su inicio, su fin y su duración – como lista o como línea de tiempo de 0 a 24 h, con una marca en la hora actual. Arriba ves cómo va hoy en comparación con ayer."
+              "Cada entrada del día con su inicio, su fin y su duración – como lista o como línea de tiempo de 0 a 24 h, con una marca en la hora actual si es hoy; en pantallas anchas, como las del iPad y el Mac, aparecen las dos una al lado de la otra. Arriba están el total del día y la comparación con el día anterior."
             ]
           },
           {
             "id": "charts",
             "q": "¿Qué gráficos y estadísticas hay?",
             "a": [
-              "Gráficos circulares por tarea y por productividad, para un día, una semana, un mes o un año. En Más estadísticas encontrarás la comparación con el período anterior, la evolución, cómo se reparte tu tiempo a lo largo del día, tus tareas principales y la entrada más larga y la más corta. Además, cada tarea tiene su propia página de info – primera entrada, entrada más larga, esta semana, este año."
+              "En la pestaña Gráfico: gráficos circulares por tarea y por productividad, para un día, una semana, un mes o un año. Arriba a la derecha, en «Más estadísticas», encontrarás la comparación con el período anterior, la evolución, tus tareas principales y la entrada más larga y la más corta – y, a partir de una semana, también la distribución del día, con tu hora más intensa. Además, cada tarea tiene su propia página de info – primera entrada, entrada más larga, esta semana, este año."
             ]
           },
           {
             "id": "productivity",
             "q": "¿Qué es la puntuación de productividad?",
             "a": [
-              "Puedes asignar a cada tarea una categoría: productiva, improductiva, necesaria – o excluirla de la productividad. La puntuación muestra qué parte de tu tiempo evaluado fue productiva o necesaria: (tiempo productivo + necesario) ÷ (tiempo productivo + improductivo + necesario) × 100. El tiempo sin asignación o con «Excluir de la productividad» no cuenta."
+              "Al editar una tarea, le asignas una categoría en «Productividad»: productiva, improductiva, necesaria – o «Excluir de la productividad». Las subtareas sin categoría propia toman la de la tarea de la que dependen, y «Excluir de la productividad» se aplica a todo lo que está por debajo. La puntuación muestra qué parte de tu tiempo evaluado fue productiva o necesaria: (tiempo productivo + necesario) ÷ (tiempo productivo + improductivo + necesario) × 100. El tiempo sin asignación o con «Excluir de la productividad» no cuenta."
+            ]
+          },
+          {
+            "id": "goals",
+            "q": "¿Cómo funcionan las metas?",
+            "a": [
+              "Con SimpleTime Pro, en Ajustes › Metas te pones una meta por tarea: al menos o como máximo un tiempo determinado por día, semana o mes – por ejemplo, al menos 8 horas de deporte por semana o como máximo 2 horas de redes sociales al día. Las subtareas cuentan, y se mide el período en curso. La pestaña Gráfico y el Apple Watch te muestran cómo vas; en la sección «Metas», el informe PDF compara el promedio del período elegido con la meta."
             ]
           },
           {
@@ -517,14 +552,14 @@
             "id": "widgets",
             "q": "¿Qué widgets hay?",
             "a": [
-              "Para la pantalla de inicio: Hoy, Tarea en curso y Semana. Para la pantalla de bloqueo: qué está en marcha y desde cuándo. Además, hay un interruptor para el centro de control. Mientras una tarea está en curso, una actividad en directo la muestra en la pantalla de bloqueo y en la Dynamic Island. Con SimpleTime Pro tienes también un widget de inicio rápido que compones con tus propias tareas."
+              "Para la pantalla de inicio: Hoy, Tarea en curso y Semana – Hoy y Tarea en curso con botones para iniciar y detener. Para la pantalla de bloqueo: qué está en marcha y desde cuándo. Además, está el interruptor «Registro de tiempo» para el centro de control. Mientras una tarea está en curso, una actividad en directo la muestra en la pantalla de bloqueo y en la Dynamic Island, con un botón para detenerla. Con SimpleTime Pro tienes también un widget de inicio rápido que compones con tus propias tareas."
             ]
           },
           {
             "id": "without-opening",
             "q": "¿Puedo empezar a registrar sin abrir la app?",
             "a": [
-              "Sí, de varias formas. Mantén pulsado el icono de la app para detener lo que está en marcha o iniciar una de tus tareas. Escribe el nombre de una tarea en la búsqueda del iPhone y tócalo. O usa el interruptor del centro de control, un widget, Siri – o, con SimpleTime Pro, tu Apple Watch."
+              "Sí, de varias formas. Mantén pulsado el icono de la app para detener lo que está en marcha o iniciar una de tus tareas. Escribe el nombre de una tarea en la búsqueda del iPhone y tócalo. O usa un widget, Siri o el interruptor «Registro de tiempo» – en el centro de control, en la pantalla de bloqueo o en el botón de acción a partir del iPhone 15 Pro –, y, con SimpleTime Pro, también tu Apple Watch."
             ]
           },
           {
@@ -545,7 +580,8 @@
             "id": "calendar-entries",
             "q": "¿SimpleTime puede añadir mis entradas al calendario?",
             "a": [
-              "Sí, con SimpleTime Pro: activa «Entradas en Calendario» en Ajustes › Calendario y cada entrada terminada aparecerá como evento – en un calendario propio, «SimpleTime», o en uno que elijas y, si quieres, por tarea. Si cambias o eliminas una entrada, el evento cambia o se elimina con ella, y el enlace del evento abre la entrada en SimpleTime. Con «Tareas desde calendarios», calendarios como «Trabajo» se convierten en tareas; pero los eventos que ya están en el calendario no se convierten en entradas. Los eventos se guardan en el proveedor de tu calendario y muestran los nombres de tus tareas a todas las personas con las que lo compartes – incluso con el bloqueo de la app activado."
+              "Sí, con SimpleTime Pro: activa «Entradas en Calendario» en Ajustes › Calendario – a partir de ese día, cada entrada terminada aparecerá como evento, en un calendario propio, «SimpleTime», o en uno que elijas y, si quieres, por tarea. Si cambias o eliminas una entrada, el evento cambia o se elimina con ella, y el enlace del evento abre la entrada en SimpleTime. Si lo desactivas, los eventos se quedan en el calendario.",
+              "Con «Tareas desde calendarios», calendarios como «Trabajo» se convierten en tareas; pero los eventos que ya están en el calendario no se convierten en entradas. Los eventos se guardan en el proveedor de tu calendario y muestran los nombres de tus tareas a todas las personas con las que lo compartes – incluso con el bloqueo de la app activado."
             ]
           },
           {
@@ -565,7 +601,16 @@
             "id": "sync",
             "q": "¿SimpleTime se sincroniza entre mis dispositivos?",
             "a": [
-              "Sí, a través de iCloud o de LaCodea ID – lo eliges en cada dispositivo, en Ajustes › Datos y sincronización. Con iCloud se sincroniza cada dispositivo en el que hayas iniciado sesión con la misma Cuenta de Apple; cuándo se sincroniza lo decide el sistema – no se puede forzar, pero la misma página muestra cuándo fue la última sincronización. Con LaCodea ID se sincroniza cada dispositivo en el que hayas iniciado sesión con el mismo LaCodea ID y lo hayas elegido, incluso con otra Cuenta de Apple – con cifrado de extremo a extremo y, si la app está abierta, en aproximadamente un segundo."
+              "Sí, a través de iCloud o de LaCodea ID – lo eliges en cada dispositivo, en Ajustes › Datos y sincronización. Con iCloud se sincroniza cada dispositivo en el que hayas elegido iCloud e iniciado sesión con la misma Cuenta de Apple; cuándo se sincroniza lo decide el sistema. No se puede forzar – «Sincronizar ahora» comprueba entonces la cuenta y la conexión, y la misma página muestra cuándo fue la última sincronización.",
+              "Con LaCodea ID se sincroniza cada dispositivo en el que hayas iniciado sesión con el mismo LaCodea ID y lo hayas elegido, incluso con otra Cuenta de Apple – con cifrado de extremo a extremo y, si SimpleTime está abierto en ambos dispositivos, en pocos segundos."
+            ]
+          },
+          {
+            "id": "sync-trouble",
+            "q": "Mis entradas no llegan a mi otro dispositivo – ¿qué puedo hacer?",
+            "a": [
+              "Revisa Ajustes › Datos y sincronización en los dos dispositivos: ambos necesitan el mismo lugar – iCloud con la misma Cuenta de Apple, o LaCodea ID con la misma cuenta. Si allí pone que un cambio no se aplicará hasta más tarde, cierra SimpleTime por completo y vuelve a abrirlo; además, mantén la app actualizada en todos tus dispositivos.",
+              "Con iCloud, «Última sincronización», en los ajustes de SimpleTime, en la sección Sincronización, muestra cuándo se transfirieron datos por última vez, y «Comprobar sincronización» revisa la cuenta y la conexión y, si hay un problema, indica el motivo, por ejemplo que tu almacenamiento de iCloud está lleno. Con LaCodea ID, la página «Datos y sincronización» muestra si hay cambios esperando conexión, si hay otra cuenta con la sesión iniciada o si el dispositivo necesita tu clave de recuperación. Si eso no ayuda, [escríbenos](@contact)."
             ]
           },
           {
@@ -579,7 +624,8 @@
             "id": "switch-storage",
             "q": "¿Cómo cambio el lugar donde están mis datos?",
             "a": [
-              "En Ajustes › Datos y sincronización, toca el lugar que quieras y luego «Cambiar a iCloud», «Cambiar a LaCodea ID» o «Conservar solo en este dispositivo»; para LaCodea ID, inicias sesión durante el proceso. Antes de cambiar a iCloud o a LaCodea ID, SimpleTime hace una copia de respaldo de este dispositivo, y si allí ya hay datos, eliges entre «Combinar» y «Usar los datos de …». El cambio solo se aplica a este dispositivo, normalmente a partir del siguiente inicio de la app – tus otros dispositivos siguen sincronizándose como hasta ahora hasta que también cambies en ellos. Después, SimpleTime te ofrece eliminar los datos del lugar anterior; si no, se quedan allí."
+              "En Ajustes › Datos y sincronización, toca el lugar que quieras y luego «Cambiar a iCloud», «Cambiar a LaCodea ID» o «Conservar solo en este dispositivo»; para LaCodea ID, inicias sesión durante el proceso. Antes de cambiar a iCloud o a LaCodea ID, SimpleTime hace una copia de respaldo de este dispositivo, y si allí ya hay datos, eliges entre «Combinar» y «Usar los datos de …».",
+              "El cambio solo se aplica a este dispositivo y normalmente no surte efecto hasta que cierres SimpleTime por completo y lo vuelvas a abrir – la página te lo indica. Tus otros dispositivos siguen sincronizándose como hasta ahora hasta que también cambies en ellos. Después, SimpleTime te ofrece eliminar los datos del lugar anterior; hazlo solo cuando tus otros dispositivos también hayan cambiado – si no, ellos también pierden esos datos."
             ]
           },
           {
@@ -614,7 +660,7 @@
             "id": "backup-files",
             "q": "¿Dónde encuentro mis copias de seguridad?",
             "a": [
-              "Las copias de seguridad de un plan «Solo en este dispositivo» también las encuentras en la app Archivos, en «En mi iPhone» (o «En mi iPad») › SimpleTime › Backups, y las de un plan en iCloud Drive, en iCloud Drive › SimpleTime › Backups. Los planes para una carpeta de la app Archivos o para tu propio servidor las guardan donde lo hayas elegido. Lo mejor es poner una contraseña a esos planes: sin ella, cualquiera que tenga acceso a su ubicación puede abrir una copia de seguridad – en el dispositivo, cualquiera que lo desbloquee, incluso con el bloqueo de la app activado."
+              "Las copias de seguridad de un plan «Solo en este dispositivo» también las encuentras en la app Archivos, en «En mi iPhone» (o «En mi iPad») › SimpleTime › Backups, y las de un plan en iCloud Drive, en iCloud Drive › SimpleTime › Backups. Los planes para una carpeta de la app Archivos o para tu propio servidor las guardan donde lo hayas elegido. Las copias de seguridad en el dispositivo se pierden con el dispositivo – y también si eliminas SimpleTime. Lo mejor es poner una contraseña a tus planes: sin ella, cualquiera que tenga acceso a su ubicación puede abrir una copia de seguridad – en el dispositivo, cualquiera que lo desbloquee, incluso con el bloqueo de la app activado."
             ]
           },
           {
@@ -628,7 +674,7 @@
             "id": "export",
             "q": "¿Puedo exportar mis datos?",
             "a": [
-              "Sí, cuando quieras: como archivo CSV con tarea, nota, duración, inicio y fin – para Excel, Numbers o cualquier herramienta de análisis –, como informe PDF o como copia de seguridad completa.",
+              "Sí, cuando quieras: como archivo CSV con una fila por entrada – fecha, inicio, fin, tarea, duración, horas decimales y nota, para Excel, Numbers o cualquier programa de hojas de cálculo –, como informe PDF o como copia de seguridad.",
               "En Ajustes › Exportar / Importar datos, elige el período del archivo CSV – de «Hoy» a «Todo el período», o uno personalizado, como el mes pasado. Una copia de seguridad la haces en Ajustes › Copias de seguridad."
             ]
           },
@@ -640,17 +686,24 @@
             ]
           },
           {
+            "id": "rounding",
+            "q": "¿SimpleTime puede redondear los tiempos, por ejemplo a cuartos de hora?",
+            "a": [
+              "No, no hay ningún ajuste para redondear: SimpleTime guarda el inicio y el fin tal como los registras. En la sección «Todas las entradas» del PDF y en la exportación CSV, cada fila aparece redondeada al minuto y en horas decimales con dos decimales; en el PDF, los totales se calculan exactamente con esos valores. Si necesitas cuartos de hora, cambia el inicio y el fin en la entrada o redondea en tu programa de hojas de cálculo."
+            ]
+          },
+          {
             "id": "import",
             "q": "¿Puedo importar datos de otra app?",
             "a": [
-              "No directamente. SimpleTime solo lee sus propias copias de seguridad; los archivos CSV de otras apps no se pueden importar."
+              "No. SimpleTime solo lee sus propias copias de seguridad – no se pueden importar archivos CSV, ni siquiera los suyos, y los eventos de tu calendario no se convierten en entradas. Los tiempos anteriores los añades a mano en la pestaña Día, con +."
             ]
           },
           {
             "id": "new-device",
             "q": "¿Cómo me paso a un iPhone nuevo?",
             "a": [
-              "Inicia sesión con la misma Cuenta de Apple e instala SimpleTime – si usas iCloud (Ajustes › Datos y sincronización), tus entradas vuelven por sí solas. Si usas LaCodea ID, inicia sesión con él en el dispositivo nuevo y elígelo en Datos y sincronización; si el dispositivo no recibe la clave por sí solo a través de tu llavero de iCloud, la app te pide una vez tu clave de recuperación. Si no, haz una copia de seguridad en el dispositivo antiguo y restáurala en el nuevo. Los lugares pertenecen a cada dispositivo y no se sincronizan."
+              "Inicia sesión con la misma Cuenta de Apple e instala SimpleTime – si usas iCloud (Ajustes › Datos y sincronización), tus entradas vuelven por sí solas. Si usas LaCodea ID, inicia sesión con él en el dispositivo nuevo y elígelo en Datos y sincronización; si el dispositivo no recibe la clave por sí solo a través de tu llavero de iCloud, la app te pide una vez tu clave de recuperación. Si no, haz una copia de seguridad en el dispositivo antiguo y restáurala en el nuevo. Los lugares y los ajustes pertenecen a cada dispositivo – ni se sincronizan ni se guardan en las copias de seguridad."
             ]
           }
         ]
@@ -712,7 +765,16 @@
             "id": "delete-all",
             "q": "¿Cómo elimino todos mis datos?",
             "a": [
-              "En los ajustes de SimpleTime, en Privacidad › Eliminar todos los datos, lo eliminas todo de una vez – las entradas y tareas, la papelera, los recordatorios, las copias de tus planes y las copias antiguas en iCloud Drive, las exportaciones, los ajustes y los eventos que SimpleTime ha añadido a tu calendario. Se elimina en este dispositivo, en iCloud y, si sincronizas a través de LaCodea ID, en el servidor; a través de iCloud, la eliminación llega también a tus otros dispositivos en cuanto estén en línea. Si sincronizas a través de LaCodea ID, tus otros dispositivos conservan sus datos – allí los eliminas del mismo modo –, y tu cuenta de LaCodea ID se mantiene. No se puede deshacer."
+              "En los ajustes de SimpleTime, en Privacidad › Eliminar todos los datos, lo eliminas todo de una vez – las entradas y tareas, las metas, los lugares, la papelera, los recordatorios, las copias de tus planes y las copias antiguas en iCloud Drive, las exportaciones, los ajustes junto con el código del bloqueo de la app y los eventos que SimpleTime ha añadido a tu calendario.",
+              "Se elimina en este dispositivo, en iCloud y, si sincronizas a través de LaCodea ID, en el servidor; a través de iCloud, la eliminación llega también a tus otros dispositivos en cuanto estén en línea. Si sincronizas a través de LaCodea ID, tus otros dispositivos conservan sus datos y dejan de sincronizarse hasta que vuelvas a configurar la sincronización en ellos – allí los eliminas del mismo modo –, y tu cuenta de LaCodea ID se mantiene. No se puede deshacer."
+            ]
+          },
+          {
+            "id": "delete-app",
+            "q": "¿Qué pasa si elimino SimpleTime?",
+            "a": [
+              "Entonces se pierde lo que solo estaba en este dispositivo: tus entradas, si elegiste «Solo en este dispositivo», las copias de seguridad de un plan «Solo en este dispositivo», tus lugares y tus ajustes, incluido el bloqueo de la app. Lo que está en iCloud o en LaCodea ID se queda allí y vuelve tras reinstalar la app, cuando vuelvas a usar el mismo lugar en Datos y sincronización.",
+              "Las copias de seguridad en iCloud Drive, en una carpeta de la app Archivos o en tu servidor se conservan, igual que los eventos de tu calendario; para una copia de seguridad cifrada necesitarás después su contraseña. Una suscripción sigue activa hasta que la canceles, y tu LaCodea ID se mantiene. Si antes quieres eliminarlo todo, usa Ajustes › Privacidad › Eliminar todos los datos."
             ]
           },
           {
@@ -732,7 +794,7 @@
             "id": "pro-includes",
             "q": "¿Qué incluye SimpleTime Pro?",
             "a": [
-              "La app para Apple Watch, resúmenes de tu semana, tu mes y tu año, lugares, tus entradas como eventos en tu calendario, el año de un vistazo, objetivos, el filtro de concentración, un widget de inicio rápido, siete colores de acento o uno propio, seis tipografías, dieciséis iconos de app y secciones adicionales en el informe PDF. Lo que llegue después está incluido. [Todo sobre SimpleTime Pro](@pro)"
+              "La app para Apple Watch, resúmenes de tu semana, tu mes y tu año, lugares, tus entradas como eventos en tu calendario y tareas desde calendarios, el año de un vistazo, objetivos, el filtro de concentración, un widget de inicio rápido, siete colores de acento o uno propio, seis tipografías, dieciséis iconos de app y secciones adicionales en el informe PDF. La app del reloj necesita un iPhone; los lugares y los iconos de app están disponibles en iPhone y iPad. Lo que llegue después está incluido. [Todo sobre SimpleTime Pro](@pro)"
             ]
           },
           {
@@ -758,16 +820,10 @@
           },
           {
             "id": "restore-purchase",
-            "q": "¿Cómo activo Pro en mis otros dispositivos?",
+            "q": "He comprado Pro – ¿cómo lo activo en mis otros dispositivos?",
             "a": [
-              "Pro va ligado a tu Cuenta de Apple. En tus otros dispositivos con la misma cuenta, normalmente se desbloquea solo. Si no, toca Restaurar en la página Pro, en Ajustes › SimpleTime Pro. Si has iniciado sesión con LaCodea ID, tienes Pro en todos los dispositivos con el mismo LaCodea ID, incluso con otra Cuenta de Apple. La página Pro muestra entonces dónde contrataste la suscripción – solo allí se puede cambiar."
-            ]
-          },
-          {
-            "id": "pro-other-device",
-            "q": "He comprado Pro – ¿por qué no aparece en mi otro dispositivo?",
-            "a": [
-              "Con la misma Cuenta de Apple, toca allí «Restaurar» en Ajustes › SimpleTime Pro. Con otra Cuenta de Apple, inicia sesión en los dos dispositivos con el mismo LaCodea ID; si compraste Pro antes de iniciar sesión, inicia sesión también en un dispositivo con la Cuenta de Apple de la compra – desde allí, SimpleTime comunica la compra a tu cuenta. Después, la página Pro del otro dispositivo indica «A través de tu LaCodea ID»."
+              "Pro va ligado a tu Cuenta de Apple: en tus otros dispositivos con la misma cuenta, normalmente se desbloquea solo. Si no, toca allí «Restaurar» en Ajustes › SimpleTime Pro.",
+              "En un dispositivo con otra Cuenta de Apple, tienes Pro a través de LaCodea ID: inicia sesión en los dos dispositivos con el mismo LaCodea ID. Si compraste Pro antes de iniciar sesión, inicia sesión con tu LaCodea ID también en un dispositivo con la Cuenta de Apple de la compra – desde allí, SimpleTime comunica la compra a tu cuenta. La página Pro indica entonces «A través de tu LaCodea ID» y, si es una suscripción, dónde la contrataste – solo allí se puede cambiar."
             ]
           },
           {
@@ -842,14 +898,14 @@
             "id": "look",
             "q": "¿Puedo cambiar el aspecto de SimpleTime?",
             "a": [
-              "Sí: claro, oscuro o según el sistema, tres alturas de fila para la lista de tareas y, en Ajustes › Tipografía, un tamaño de texto propio y texto en negrita. Con SimpleTime Pro tienes además siete colores de acento o uno propio – recorre botones, interruptores y gráficos –, seis tipografías y dieciséis iconos de app."
+              "Sí: claro, oscuro o según el sistema, tres alturas de fila para la lista de tareas y, en Ajustes › Tipografía, un tamaño de texto propio y texto en negrita. Con SimpleTime Pro tienes además siete colores de acento o uno propio – recorre botones, interruptores y gráficos –, seis tipografías y, en iPhone y iPad, dieciséis iconos de app."
             ]
           },
           {
             "id": "accessibility",
             "q": "¿SimpleTime es accesible?",
             "a": [
-              "Sí. SimpleTime es compatible con VoiceOver y con el texto dinámico (Dynamic Type) en toda la app. Si algo no te funciona, avísanos, por favor."
+              "Sí. VoiceOver lee en voz alta los botones, los gráficos y la línea de tiempo en todos los idiomas de la app, y los gráficos también están disponibles como gráfico de audio. El texto sigue el tamaño de iOS hasta los tamaños más grandes – solo en la cabecera y en la línea de tiempo crece hasta un límite, para que nada tape los controles. Encontrarás más información en nuestra [declaración de accesibilidad](@accessibility); si algo no te funciona, avísanos, por favor."
             ]
           },
           {
@@ -877,7 +933,7 @@
             "id": "feedback",
             "q": "He encontrado un error o tengo una idea – ¿adónde lo envío?",
             "a": [
-              "Escríbenos a [contact@simple-time.app](mailto:contact@simple-time.app). Si es un error, indica el modelo de tu dispositivo y la versión de iOS, y cuéntanos brevemente qué estabas haciendo. Leemos cada mensaje."
+              "Escríbenos a [contact@simple-time.app](mailto:contact@simple-time.app) – desde la app también puedes hacerlo en Ajustes › Comentarios. Si es un error, indica el modelo de tu dispositivo, la versión de iOS, iPadOS o macOS y la de SimpleTime – la encontrarás en Ajustes › Acerca de SimpleTime –, y cuéntanos brevemente qué estabas haciendo. Leemos cada mensaje."
             ]
           },
           {

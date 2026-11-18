@@ -70,6 +70,12 @@ const today = ring(totals(DAY), R, 2.4, `wt${id}`);
     color: #5856d6;
   }
 
+  /* iOS's dark indigo reads at 3 : 1 on the widget's black – a lighter tint for text. */
+  :global(.dark) .widget__label,
+  :global(.night) .widget__label {
+    color: #8f8df7;
+  }
+
   .widget__ring {
     position: relative;
     flex: 1;

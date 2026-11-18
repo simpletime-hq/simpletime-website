@@ -341,6 +341,13 @@
             ]
           },
           {
+            "id": "first-steps",
+            "q": "How do I get started?",
+            "a": [
+              "Tap + in the Tracking tab to create a task – with a name, colour and symbol. Tap the triangle next to it and the clock runs; tap Stop to end it. On first launch, a short tour shows you the most important buttons. You can watch it again at any time under Settings › Show tour again."
+            ]
+          },
+          {
             "id": "free",
             "q": "Is SimpleTime free?",
             "a": [
@@ -369,6 +376,13 @@
             ]
           },
           {
+            "id": "mac",
+            "q": "What can SimpleTime do on the Mac?",
+            "a": [
+              "Almost everything it does on iPhone – tracking, the day view, insights, reports, export, backups, sync and the app lock; where you swipe on iPhone, you right-click on the Mac. On top of that, there’s the stopwatch in the menu bar and widgets on your desktop. Places, Live Activities, the Apple Watch app and alternative app icons aren’t available on the Mac."
+            ]
+          },
+          {
             "id": "languages",
             "q": "Which languages does SimpleTime speak?",
             "a": [
@@ -376,17 +390,10 @@
             ]
           },
           {
-            "id": "first-steps",
-            "q": "How do I get started?",
-            "a": [
-              "Tap + in the Tracking tab to create a task – with a name, colour and symbol. Tap the triangle next to it and the clock runs; tap Stop to end it. On first launch, a short tour shows you the most important buttons. You can watch it again at any time under Settings › Show tour again."
-            ]
-          },
-          {
             "id": "offline",
             "q": "Does SimpleTime work offline?",
             "a": [
-              "Yes, completely. Tracking, the day view, charts and reports all work without a connection. Sync and backups catch up as soon as your device is back online."
+              "Yes. Tracking, the day view, charts and reports all work without a connection. You need one for sync, backups to your own server, signing in with the LaCodea ID, buying Pro and searching for an address for a place. Whatever is left undone, SimpleTime catches up on – sync as soon as your device is back online, a missed backup the next time you open the app."
             ]
           }
         ]
@@ -399,28 +406,42 @@
             "id": "start-stop",
             "q": "How do I start and stop tracking?",
             "a": [
-              "Tap the triangle next to a task to start it. The running task appears at the top of the Tracking tab; tap Stop to end it. Tapping a task’s name opens its subtasks, swiping left lets you edit, archive or delete it, and swiping right shows its info with all the numbers."
+              "Tap the triangle next to a task to start it. The running task appears at the top of the Tracking tab; tap Stop to end it. Tapping a task’s name opens its subtasks, swiping left lets you edit, archive or delete it, and swiping right shows its info with all the numbers – on the Mac, a right-click offers all of this."
             ]
           },
           {
             "id": "one-at-a-time",
             "q": "Can two tasks run at the same time?",
             "a": [
-              "No. At most one tracking runs at a time. When you start another task, the running entry ends automatically – so your entries never overlap."
+              "No. Only one entry runs at a time: when you start another task, the running entry ends at that very moment – so your entries don’t overlap."
+            ]
+          },
+          {
+            "id": "keeps-running",
+            "q": "Does the clock keep running when I close SimpleTime?",
+            "a": [
+              "Yes. SimpleTime remembers when you started and works out the duration from that – tracking keeps running when you close the app, lock your iPhone or restart it. On the Lock Screen and in the Dynamic Island, the Live Activity shows the running time, with a button to stop it, and your reminders arrive even with the app closed."
             ]
           },
           {
             "id": "add-later",
             "q": "I forgot to start – can I add time afterwards?",
             "a": [
-              "Yes. In the Day tab, add a new entry with its start and end, or tap an existing one to change it. Entries can’t overlap: SimpleTime tells you if a period collides with another entry. For a tracking that’s still running, you can also move the start back – as far as the end of the previous entry."
+              "Yes. In the Day tab, tap + to add an entry with its start and end, or tap an existing one to change it. Entries can’t overlap: SimpleTime tells you if a period collides with another entry. If the clock is already running, tap the running entry at the top of the Tracking tab and move its start back – as far as the end of the previous entry."
+            ]
+          },
+          {
+            "id": "restore-entry",
+            "q": "I deleted an entry – can I get it back?",
+            "a": [
+              "Yes. If you delete an entry in the Day tab – with a swipe to the left, or a right-click on the Mac –, it goes to the trash: at the top left of the Day tab under “Deleted Entries”, “Restore” brings it back, or you delete it for good. Deleted tasks wait in the trash at the top left of the Tracking tab, together with their entries. Once something is deleted for good, only a backup brings it back."
             ]
           },
           {
             "id": "fixed-times",
             "q": "What are fixed times?",
             "a": [
-              "Recurring times like classes, shifts or office hours are set up once: task, weekdays, start and end, every week or every other week, with an end date if you like. As soon as a time is over, SimpleTime enters it by itself – on every device where you open SimpleTime, and still only once. You only track what comes on top; you’ll find it under Settings › Tracking › Fixed Times, no Pro needed."
+              "Recurring times like classes, shifts or office hours are set up once: task, weekdays, start and end, every week or every other week, from a day you choose and with an end date if you like. As soon as a time is over, SimpleTime enters it by itself – on every device where you open SimpleTime, and still only once; it catches up at most 31 days back. You only track what comes on top; you’ll find it under Settings › Tracking › Fixed Times, no Pro needed."
             ]
           },
           {
@@ -448,21 +469,28 @@
             "id": "archive-trash",
             "q": "What’s the difference between archiving and deleting?",
             "a": [
-              "Archiving only hides a task: its entries stay and keep counting in all analyses. Deleting moves the task and its entries to the trash. From there you can restore both – or delete them for good."
+              "Archiving only hides a task: its entries stay and keep counting in all analyses. Deleting moves the task and its entries to the trash – their time then stops counting everywhere. You’ll find the archive and the trash at the top left of the Tracking tab: from the archive, “Restore” brings a task back; from the trash, it brings the task back with its entries – or you delete it there for good."
             ]
           },
           {
             "id": "notes",
             "q": "Can I add notes to entries?",
             "a": [
-              "Yes, every entry can carry a note – what you worked on, or who you worked with. Notes are shown in the day view and are included in the CSV export and in backups."
+              "Yes, every entry can carry a note – what you worked on, or who you worked with. You add it when you create or edit an entry in the Day tab, or, while the clock is running, by tapping the running entry at the top of the Tracking tab. You see the note when you open the entry, in a task’s info under “All entries”, in the PDF section “All entries” and in the CSV export; backups include it."
             ]
           },
           {
             "id": "reminders",
             "q": "Can SimpleTime remind me?",
             "a": [
-              "Yes. In the settings under Notifications, you set up rules – for example a reminder when a task has been running for 60 minutes, for all tasks or only selected ones, on the weekdays you choose. SimpleTime can also remind you when nothing has been tracked for a while."
+              "Yes. Under Settings › Configure notifications, you set up rules – for example a reminder when a task has been running for 60 minutes, for all tasks or only selected ones, on the weekdays you choose. With “Remind me when nothing is running”, SimpleTime also lets you know when nothing has been tracked for a while."
+            ]
+          },
+          {
+            "id": "time-zone",
+            "q": "I travelled to another time zone – why do my entries show different times?",
+            "a": [
+              "By default, SimpleTime shows every entry in the time zone your device is in right now – like Apple’s Calendar: what you tracked at 9 am in New York shows at 3 pm in Berlin. Under Settings › Time Zone, you can choose “Time Zone Where Recorded” instead: then each entry appears with the time and on the day you recorded it – wherever times and totals appear. The duration stays the same either way; entries from versions before 4.7 always appear in the device’s time zone."
             ]
           }
         ]
@@ -475,21 +503,28 @@
             "id": "day-view",
             "q": "What does the day view show?",
             "a": [
-              "Every entry of a day with its start, end and duration – as a list, or as a timeline from 0 to 24 with a marker for the current time. At the top, you see how today compares to yesterday."
+              "Every entry of a day with its start, end and duration – as a list, or as a timeline from 0 to 24 with a marker for the current time today; on wide screens such as iPad and Mac, both appear side by side. At the top, you see the day’s total and how it compares with the day before."
             ]
           },
           {
             "id": "charts",
             "q": "Which charts and statistics are there?",
             "a": [
-              "Pie charts by task and by productivity, for a day, a week, a month or a year. Under More statistics, you’ll find the comparison with the previous period, the trend, how your time is spread across the day, your top tasks and the longest and shortest entries. Every task also has its own info page – first entry, longest entry, this week, this year."
+              "In the Chart tab: pie charts by task and by productivity, for a day, a week, a month or a year. Top right under “More statistics”, you’ll find the comparison with the previous period, the trend, your top tasks and the longest and shortest entries – and, from a week upwards, how your time is spread across the day, with your busiest hour. Every task also has its own info page – first entry, longest entry, this week, this year."
             ]
           },
           {
             "id": "productivity",
             "q": "What is the productivity score?",
             "a": [
-              "You can give each task a category: productive, unproductive, necessary – or leave it out. The score shows how much of your rated time was productive or necessary: (productive + necessary) ÷ (productive + unproductive + necessary) × 100. Time with no assignment or set to “Exclude from productivity” doesn’t count."
+              "When you edit a task, you give it a category under “Productivity”: productive, unproductive, necessary – or “Exclude from productivity”. Subtasks without a category of their own take the one of the task above, and “Exclude from productivity” applies to everything below. The score shows how much of your rated time was productive or necessary: (productive + necessary) ÷ (productive + unproductive + necessary) × 100. Time with no assignment or set to “Exclude from productivity” doesn’t count."
+            ]
+          },
+          {
+            "id": "goals",
+            "q": "How do goals work?",
+            "a": [
+              "With SimpleTime Pro, you set a target per task under Settings › Goals: at least or at most a certain amount of time per day, week or month – say, at least 8 hours of sport a week or at most 2 hours of social media a day. Subtasks count towards it, and the current period is what’s measured. You see where you stand in the Chart tab and on your Apple Watch; in the “Goals” section, the PDF report compares the average over the chosen period with your target."
             ]
           },
           {
@@ -517,14 +552,14 @@
             "id": "widgets",
             "q": "Which widgets are there?",
             "a": [
-              "For the Home Screen: Today, Running task and Week. For the Lock Screen: what’s running and for how long. There’s also a switch for Control Center. While a task is running, a Live Activity shows it on the Lock Screen and in the Dynamic Island. With SimpleTime Pro, you also get a quick-start widget that you fill with your own tasks."
+              "For the Home Screen: Today, Running task and Week – Today and Running task with buttons to start and stop. For the Lock Screen: what’s running and for how long. There’s also the “Time tracking” switch for Control Center. While a task is running, a Live Activity shows it on the Lock Screen and in the Dynamic Island, with a button to stop it. With SimpleTime Pro, you also get a quick-start widget that you fill with your own tasks."
             ]
           },
           {
             "id": "without-opening",
             "q": "Can I start tracking without opening the app?",
             "a": [
-              "Yes, in several ways. Touch and hold the app icon to stop what’s running or to start one of your tasks. Type a task’s name into iPhone search and tap it. Or use the switch in Control Center, a widget, Siri – or, with SimpleTime Pro, your Apple Watch."
+              "Yes, in several ways. Touch and hold the app icon to stop what’s running or to start one of your tasks. Type a task’s name into iPhone search and tap it. Or use a widget, Siri or the “Time tracking” switch – in Control Center, on the Lock Screen or on the Action button from iPhone 15 Pro –, and with SimpleTime Pro, your Apple Watch."
             ]
           },
           {
@@ -545,7 +580,8 @@
             "id": "calendar-entries",
             "q": "Can SimpleTime put my entries in my calendar?",
             "a": [
-              "Yes, with SimpleTime Pro: turn on “Entries in Calendar” under Settings › Calendar, and every finished entry appears as an event – in its own “SimpleTime” calendar or one you choose, per task if you like. When you change or delete an entry, the event follows, and the link in the event opens the entry in SimpleTime. “Tasks from Calendars” turns calendars like “Work” into tasks; events already in your calendar don’t become entries, though. The events are stored with your calendar’s provider and show your task names to everyone you share the calendar with – even with the app lock on."
+              "Yes, with SimpleTime Pro: turn on “Entries in Calendar” under Settings › Calendar – from that day on, every finished entry appears as an event, in its own “SimpleTime” calendar or one you choose, per task if you like. When you change or delete an entry, the event follows, and the link in the event opens the entry in SimpleTime. If you turn it off, the events stay in your calendar.",
+              "“Tasks from Calendars” turns calendars like “Work” into tasks; events already in your calendar don’t become entries, though. The events are stored with your calendar’s provider and show your task names to everyone you share the calendar with – even with the app lock on."
             ]
           },
           {
@@ -565,7 +601,16 @@
             "id": "sync",
             "q": "Does SimpleTime sync between my devices?",
             "a": [
-              "Yes, via iCloud or via the LaCodea ID – you choose which on each device under Settings › Data and sync. With iCloud, every device signed in with the same Apple Account syncs; the system decides when – sync can’t be forced, but the same page shows when it last ran. With the LaCodea ID, every device on which you’re signed in with the same LaCodea ID and have chosen it syncs, even with a different Apple Account – end-to-end encrypted and, if the app is open, in about a second."
+              "Yes, via iCloud or via the LaCodea ID – you choose which on each device under Settings › Data and sync. With iCloud, every device on which you’ve chosen iCloud and are signed in with the same Apple Account syncs; the system decides when. It can’t be forced – “Sync now” then checks your account and connection, and the same page shows when it last synced.",
+              "With the LaCodea ID, every device on which you’re signed in with the same LaCodea ID and have chosen it syncs, even with a different Apple Account – end-to-end encrypted and, with SimpleTime open on both devices, within a few seconds."
+            ]
+          },
+          {
+            "id": "sync-trouble",
+            "q": "My entries don’t show up on my other device – what can I do?",
+            "a": [
+              "Check Settings › Data and sync on both devices: both need the same place – iCloud with the same Apple Account, or the LaCodea ID with the same sign-in. If it says a switch only takes effect later, quit SimpleTime completely and open it again; also keep the app up to date on all your devices.",
+              "With iCloud, “Last sync” in Settings under Synchronisation shows when data was last transferred, and “Check sync” looks at your account and connection and, if there’s a problem, names the reason – full iCloud storage, for example. With the LaCodea ID, the Data and sync page shows whether changes are waiting for a connection, whether a different account is signed in or whether the device needs your recovery key. If that doesn’t help, [write to us](@contact)."
             ]
           },
           {
@@ -579,7 +624,8 @@
             "id": "switch-storage",
             "q": "How do I change where my data lives?",
             "a": [
-              "Under Settings › Data and sync, tap where your data should live, then “Switch to iCloud”, “Switch to LaCodea ID” or “Keep only on this device”; for the LaCodea ID, you sign in along the way. Before switching to iCloud or the LaCodea ID, SimpleTime makes a safety copy of this device, and if there’s already data there, you choose between “Merge” and “Use the data from …”. The switch only applies to this device, usually from the next launch of the app – your other devices keep syncing as before until you switch there too. Afterwards, SimpleTime offers to delete the data at the old place; otherwise it stays there."
+              "Under Settings › Data and sync, tap where your data should live, then “Switch to iCloud”, “Switch to LaCodea ID” or “Keep only on this device”; for the LaCodea ID, you sign in along the way. Before switching to iCloud or the LaCodea ID, SimpleTime makes a safety copy of this device, and if there’s already data there, you choose between “Merge” and “Use the data from …”.",
+              "The switch only applies to this device and usually takes effect once you’ve quit SimpleTime completely and opened it again – the page tells you. Your other devices keep syncing as before until you switch there too. Afterwards, SimpleTime offers to delete the data at the old place; only do that once your other devices have switched as well – otherwise they lose that data too."
             ]
           },
           {
@@ -614,7 +660,7 @@
             "id": "backup-files",
             "q": "Where do I find my backups?",
             "a": [
-              "Backups of a plan set to “Only on this device” also appear in the Files app under “On My iPhone” (or “On My iPad”) › SimpleTime › Backups, and those of an iCloud Drive plan under iCloud Drive › SimpleTime › Backups. Plans for a folder in the Files app or your own server put them where you chose. It’s best to give your plans a password: without one, anyone with access to the place can open a backup – on the device, anyone who unlocks it, even with the app lock on."
+              "Backups of a plan set to “Only on this device” also appear in the Files app under “On My iPhone” (or “On My iPad”) › SimpleTime › Backups, and those of an iCloud Drive plan under iCloud Drive › SimpleTime › Backups. Plans for a folder in the Files app or your own server put them where you chose. Backups on the device are lost with the device – and when you delete SimpleTime. It’s best to give your plans a password: without one, anyone with access to the place can open a backup – on the device, anyone who unlocks it, even with the app lock on."
             ]
           },
           {
@@ -628,7 +674,7 @@
             "id": "export",
             "q": "Can I export my data?",
             "a": [
-              "Yes, at any time: as a CSV file with task, note, duration, start and end – for Excel, Numbers or any analysis tool –, as a PDF report or as a complete backup.",
+              "Yes, at any time: as a CSV file with one row per entry – date, start, end, task, duration, decimal hours and note, for Excel, Numbers or any spreadsheet app –, as a PDF report or as a backup.",
               "Under Settings › Export / Import Data, you choose the period of the CSV file – from today to all time, or your own, such as last month. You make a backup under Settings › Backups."
             ]
           },
@@ -640,17 +686,24 @@
             ]
           },
           {
+            "id": "rounding",
+            "q": "Can SimpleTime round times, to quarter hours, say?",
+            "a": [
+              "No, there’s no rounding setting: SimpleTime stores the start and end as you track them. In the PDF section “All entries” and in the CSV export, each row is rounded to the minute and given in decimal hours with two places; in the PDF, the totals add up exactly these values. If you need quarter hours, change the start and end in the entry or round in your spreadsheet app."
+            ]
+          },
+          {
             "id": "import",
             "q": "Can I import data from another app?",
             "a": [
-              "Not directly. SimpleTime reads only its own backups; CSV files from other apps can’t be imported."
+              "No. SimpleTime only reads its own backups – CSV files, including its own, can’t be imported, and events from your calendar don’t become entries. You can add earlier times by hand in the Day tab with +."
             ]
           },
           {
             "id": "new-device",
             "q": "How do I move to a new iPhone?",
             "a": [
-              "Sign in with the same Apple Account and install SimpleTime – if you use iCloud (Settings › Data and sync), your entries come back on their own. If you use the LaCodea ID, sign in with it on the new device and choose it under Data and sync; if the device doesn’t get the key through your iCloud Keychain by itself, the app asks once for your recovery key. Otherwise, make a backup on the old device and restore it on the new one. Places belong to each device and aren’t synced."
+              "Sign in with the same Apple Account and install SimpleTime – if you use iCloud (Settings › Data and sync), your entries come back on their own. If you use the LaCodea ID, sign in with it on the new device and choose it under Data and sync; if the device doesn’t get the key through your iCloud Keychain by itself, the app asks once for your recovery key. Otherwise, make a backup on the old device and restore it on the new one. Places and settings belong to each device – they’re neither synced nor backed up."
             ]
           }
         ]
@@ -712,7 +765,16 @@
             "id": "delete-all",
             "q": "How do I delete all my data?",
             "a": [
-              "In Settings under Privacy › Delete all data, you remove everything at once – entries and tasks, the trash, reminders, the backups of your plans and the old backups in iCloud Drive, exports, settings and the events SimpleTime added to your calendar. It’s deleted on this device, in iCloud and – if you sync through the LaCodea ID – on the server; through iCloud, the deletion also reaches your other devices as soon as they’re online. If you sync through the LaCodea ID, your other devices keep their data – delete it there too – and your LaCodea ID account stays. It can’t be undone."
+              "In Settings under Privacy › Delete all data, you remove everything at once – entries and tasks, goals, places, the trash, reminders, the backups of your plans and the old backups in iCloud Drive, exports, settings including the app lock code and the events SimpleTime added to your calendar.",
+              "It’s deleted on this device, in iCloud and – if you sync through the LaCodea ID – on the server; through iCloud, the deletion also reaches your other devices as soon as they’re online. If you sync through the LaCodea ID, your other devices keep their data and stop syncing until you set it up there again – delete it there too – and your LaCodea ID account stays. It can’t be undone."
+            ]
+          },
+          {
+            "id": "delete-app",
+            "q": "What happens if I delete SimpleTime?",
+            "a": [
+              "Then whatever was only on this device is gone: your entries if you chose “Only on this device”, the backups of an “Only on this device” plan, your places and your settings including the app lock. Whatever is in iCloud or with the LaCodea ID stays there and comes back after reinstalling once you use the same place under Data and sync again.",
+              "Backups in iCloud Drive, in a folder in the Files app or on your server stay, and so do the events in your calendar; for an encrypted backup, you’ll then need its password. A subscription keeps running until you cancel it, and your LaCodea ID stays. If you’d like to remove everything first, use Settings › Privacy › Delete all data."
             ]
           },
           {
@@ -732,7 +794,7 @@
             "id": "pro-includes",
             "q": "What does SimpleTime Pro include?",
             "a": [
-              "The Apple Watch app, reviews of your week, month and year, places, your entries as events in your calendar, the year at a glance, goals, the focus filter, a quick-start widget, seven accent colours or one of your own, six fonts, sixteen app icons and extra sections in the PDF report. Whatever comes later is included. [All about SimpleTime Pro](@pro)"
+              "The Apple Watch app, reviews of your week, month and year, places, your entries as events in your calendar and tasks from your calendars, the year at a glance, goals, the focus filter, a quick-start widget, seven accent colours or one of your own, six fonts, sixteen app icons and extra sections in the PDF report. The watch app needs an iPhone; places and app icons are available on iPhone and iPad. Whatever comes later is included. [All about SimpleTime Pro](@pro)"
             ]
           },
           {
@@ -758,16 +820,10 @@
           },
           {
             "id": "restore-purchase",
-            "q": "How do I get Pro on my other devices?",
+            "q": "I bought Pro – how do I get it on my other devices?",
             "a": [
-              "Pro belongs to your Apple Account. On your other devices with the same account, it’s usually unlocked by itself. If not, tap Restore on the Pro page under Settings › SimpleTime Pro. If you’re signed in with the LaCodea ID, you have Pro on every device with the same LaCodea ID, even with a different Apple Account. The Pro page then shows where you subscribed – that’s the only place you can change it."
-            ]
-          },
-          {
-            "id": "pro-other-device",
-            "q": "I bought Pro – why is it missing on my other device?",
-            "a": [
-              "With the same Apple Account, tap “Restore” there under Settings › SimpleTime Pro. With a different Apple Account, sign in with the same LaCodea ID on both devices; if you bought Pro before signing in, also sign in with your LaCodea ID on a device with the Apple Account you bought it with – SimpleTime reports the purchase to your account from there. The Pro page on the other device then says “Through your LaCodea ID”."
+              "Pro belongs to your Apple Account: on your other devices with the same account, it’s usually unlocked by itself. If not, tap “Restore” there under Settings › SimpleTime Pro.",
+              "On a device with a different Apple Account, you get Pro through the LaCodea ID: sign in with the same LaCodea ID on both devices. If you bought Pro before signing in, also sign in with your LaCodea ID on a device with the Apple Account you bought it with – SimpleTime reports the purchase to your account from there. The Pro page then says “Through your LaCodea ID” and, for a subscription, where you took it out – that’s the only place you can change it."
             ]
           },
           {
@@ -842,14 +898,14 @@
             "id": "look",
             "q": "Can I change how SimpleTime looks?",
             "a": [
-              "Yes: light, dark or following the system, three row heights for the task list, and under Settings › Font a text size of your own and bold text. With SimpleTime Pro, you also get seven accent colours or one of your own – it runs through buttons, switches and charts –, six fonts and sixteen app icons."
+              "Yes: light, dark or following the system, three row heights for the task list, and under Settings › Font a text size of your own and bold text. With SimpleTime Pro, you also get seven accent colours or one of your own – it runs through buttons, switches and charts –, six fonts and, on iPhone and iPad, sixteen app icons."
             ]
           },
           {
             "id": "accessibility",
             "q": "Is SimpleTime accessible?",
             "a": [
-              "Yes. SimpleTime supports VoiceOver and Dynamic Type throughout. If something doesn’t work for you, please let us know."
+              "Yes. VoiceOver reads out buttons, charts and the timeline in every language of the app, and the charts also come as audio graphs. Text follows your iOS text size up to the largest settings – only in the header and on the timeline does it grow up to a limit, so nothing covers the controls. There’s more in our [accessibility statement](@accessibility); if something doesn’t work for you, please let us know."
             ]
           },
           {
@@ -877,7 +933,7 @@
             "id": "feedback",
             "q": "I found a bug or have an idea – where do I send it?",
             "a": [
-              "Write to us at [contact@simple-time.app](mailto:contact@simple-time.app). For a bug, please include your device model and iOS version and briefly describe what you were doing. Every message is read."
+              "Write to us at [contact@simple-time.app](mailto:contact@simple-time.app) – from the app, you can also go through Settings › Feedback. For a bug, please tell us your device model, your version of iOS, iPadOS or macOS and your version of SimpleTime – you’ll find it under Settings › About SimpleTime – and briefly describe what you were doing. Every message is read."
             ]
           },
           {

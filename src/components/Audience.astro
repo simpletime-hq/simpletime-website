@@ -1,8 +1,8 @@
 ---
 import type { Lang } from '../i18n/ui';
 import { getContent } from '../i18n/content';
-import { AUDIENCE_DAYS, totals, duration } from '../i18n/day';
-import DayRibbon from './DayRibbon.astro';
+import { AUDIENCE_DAYS, totals, duration, taskName } from '../i18n/day';
+import { ring } from '../i18n/ring';
 
 interface Props {
   lang: Lang;
@@ -10,9 +10,17 @@ interface Props {
 
 const { lang } = Astro.props;
 const { audience } = getContent(lang).home;
+
+// Four kinds of day, each summed up the way the app's day view sums it up: the
+// day as a ring with its total, beside it the three tasks it went to most.
+const R = 36;
+const days = audience.groups.map((group, i) => {
+  const slices = totals(AUDIENCE_DAYS[group.id] ?? []);
+  return { group, slices, chart: ring(slices, R, 2.4, `au${i}`) };
+});
+const ringCss = days.map((d) => d.chart.css).join('');
 ---
 
-{/* Four kinds of day, each drawn the way the app would draw it. */}
 <section class="sec audience">
   <div class="wrap">
     <header class="sec-head">
@@ -22,24 +30,41 @@ const { audience } = getContent(lang).home;
 
     <div class="mt-14 grid gap-4 sm:grid-cols-2 lg:mt-20 lg:grid-cols-4 lg:gap-5">
       {
-        audience.groups.map((group, i) => {
-          const day = AUDIENCE_DAYS[group.id] ?? [];
-          const total = totals(day).reduce((sum, s) => sum + s.minutes, 0);
-          return (
-            <article class:list={['tile audience-card reveal', `delay-${(i % 4) + 1}`]}>
-              <div class="audience-card__day">
-                <DayRibbon id={`ra${i}`} blocks={day} variant="mini" />
-                <p class="audience-card__total" dir="ltr" aria-hidden="true">{duration(total)}</p>
+        days.map(({ group, slices, chart }, i) => (
+          <article class:list={['tile audience-card reveal', `delay-${(i % 4) + 1}`]}>
+            <div class="day" aria-hidden="true">
+              <div class="day__inner">
+              <span class="day__ring">
+                <svg viewBox="0 0 100 100">
+                  <circle cx="50" cy="50" r={R} class="day__track" />
+                  <g transform="rotate(-90 50 50)">
+                    {chart.segments.map((s) => (
+                      <circle cx="50" cy="50" r={R} class:list={['ring-slice', `stroke-${s.task}`, s.cls]} />
+                    ))}
+                  </g>
+                </svg>
+                <span class="day__total" dir="ltr">{duration(chart.total)}</span>
+              </span>
+              <ul class="day__legend">
+                {slices.slice(0, 3).map((s) => (
+                  <li>
+                    <i class={`bg-${s.task}`} />
+                    <span class="day__name">{taskName(lang, s.task)}</span>
+                    <span class="day__time" dir="ltr">{duration(s.minutes)}</span>
+                  </li>
+                ))}
+              </ul>
               </div>
-              <h3 class="tile-title mt-7">{group.title}</h3>
-              <p class="tile-body mt-2.5">{group.body}</p>
-            </article>
-          );
-        })
+            </div>
+            <h3 class="tile-title mt-7">{group.title}</h3>
+            <p class="tile-body mt-2.5">{group.body}</p>
+          </article>
+        ))
       }
     </div>
   </div>
 </section>
+<style is:inline set:html={ringCss}></style>
 
 <style>
   .audience {
@@ -47,21 +72,115 @@ const { audience } = getContent(lang).home;
   }
 
   .audience-card {
-    padding: 1.6rem 1.6rem 1.9rem;
+    padding: 1.25rem 1.25rem 1.9rem;
   }
 
-  .audience-card__day {
+  .audience-card .tile-title,
+  .audience-card .tile-body {
+    padding-inline: 0.35rem;
+  }
+
+  /* The day in the app's colours: a ring and its total, the top three tasks. */
+  .day {
+    container-type: inline-size;
+    padding: 0.9rem;
+    border-radius: 1.1rem;
+    background: var(--surface-2);
+  }
+
+  .day__inner {
+    display: flex;
+    align-items: center;
+    gap: 0.9rem;
+  }
+
+  /* A narrow card: the three tasks under the ring, with room for their names. */
+  @container (max-width: 17rem) {
+    .day__inner {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 0.75rem;
+    }
+
+    .day__ring {
+      align-self: center;
+      width: 5.6rem;
+      height: 5.6rem;
+    }
+  }
+
+  /* Wide enough that a total like 10:05 keeps clear of the ring. */
+  .day__ring {
+    position: relative;
     display: grid;
-    gap: 0.75rem;
+    flex-shrink: 0;
+    place-items: center;
+    width: 4.9rem;
+    height: 4.9rem;
   }
 
-  .audience-card__total {
-    font-family: var(--font-display);
-    font-size: 1.5rem;
-    font-weight: 600;
-    font-stretch: 125%;
+  .day__ring svg {
+    width: 100%;
+    height: 100%;
+  }
+
+  .day__track {
+    fill: none;
+    stroke: rgb(120 120 128 / 0.14);
+    stroke-width: 11;
+  }
+
+  .day__ring :global(.ring-slice) {
+    stroke-width: 11;
+  }
+
+  .day__total {
+    position: absolute;
+    font-family: var(--font-rounded);
+    font-size: 0.9rem;
+    font-weight: 650;
     font-variant-numeric: tabular-nums;
-    letter-spacing: -0.03em;
+    letter-spacing: -0.02em;
     color: var(--ink);
+  }
+
+  /* Room for three rows always, so the titles of a row line up. */
+  .day__legend {
+    display: grid;
+    flex: 1;
+    align-content: start;
+    min-width: 0;
+    min-height: calc(3 * 1.3 * 0.75rem + 2 * 0.3rem);
+    gap: 0.3rem;
+  }
+
+  .day__legend li {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    min-width: 0;
+    font-size: 0.75rem;
+    line-height: 1.3;
+  }
+
+  .day__legend i {
+    flex-shrink: 0;
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+  }
+
+  .day__name {
+    flex: 1;
+    min-width: 0;
+    overflow: hidden;
+    color: var(--ink-2);
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .day__time {
+    color: var(--muted);
+    font-variant-numeric: tabular-nums;
   }
 </style>

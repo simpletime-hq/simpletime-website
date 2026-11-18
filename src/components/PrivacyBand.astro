@@ -26,13 +26,21 @@ const summary = privacy.summary[0].match(/^(.+?[.。।։])\s*(.+)$/u);
 if (!summary) throw new Error(`Privacy band: no sentence to split in ${lang}`);
 const [, title, intro] = summary;
 
-// The promise without accounts and ads first, across the full width.
+// The App Store's points on your data, in 5.0: 0 app lock, 1 where your data
+// lives, 2 privacy on one page, 3 the LaCodea ID, 4 no ads and no selling,
+// 5 delete everything. The promise first, across the full width; then the
+// rest in pairs, with the backups beside the place of the data. (Until
+// November 2026 the icons went by an older order and the LaCodea ID wore a
+// bin.)
+if (data.points.length !== 6) throw new Error(`Privacy band: expected 6 data points in ${lang}, got ${data.points.length}`);
 const items = [
-  { icon: 'nothing', text: data.points[2] },
+  { icon: 'nothing', text: data.points[4] },
   { icon: 'lock', text: data.points[0] },
+  { icon: 'place', text: data.points[1] },
   { icon: 'cloud', text: backups },
-  { icon: 'list', text: data.points[1] },
-  { icon: 'erase', text: data.points[3] },
+  { icon: 'account', text: data.points[3] },
+  { icon: 'list', text: data.points[2] },
+  { icon: 'erase', text: data.points[5] },
 ];
 ---
 
@@ -53,7 +61,10 @@ const items = [
 
       {/* The app's own lock: its icon, the code being typed, the keypad. */}
       <div class="applock tile reveal-media delay-2" aria-hidden="true">
-        <Image src={logo} alt="" width={56} height={56} densities={[1, 2, 3]} class="applock__icon" />
+        <span class="applock__app">
+          <Image src={logo} alt="" width={56} height={56} densities={[1, 2, 3]} class="applock__icon" />
+          <span class="applock__name">SimpleTime</span>
+        </span>
         <span class="applock__dots"><i></i><i></i><i></i><i></i></span>
         <span class="applock__keys">
           {['1', '2', '3', '4', '5', '6', '7', '8', '9', '', '0', ''].map((key) => (
@@ -92,6 +103,20 @@ const items = [
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
                   <path d="M12 3l7 3v5.5c0 4.3-3 8-7 9.5-4-1.5-7-5.2-7-9.5V6z" />
                   <path d="M9 12l2 2 4-4.5" />
+                </svg>
+              )}
+              {item.icon === 'place' && (
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="3.5" y="6" width="7.5" height="13" rx="1.8" />
+                  <path d="M6.5 16.5h1.5" />
+                  <path d="M14.5 16.5a3.2 3.2 0 0 1-.4-6.37A4.3 4.3 0 0 1 22 11.6a2.5 2.5 0 0 1-.6 4.9z" />
+                </svg>
+              )}
+              {item.icon === 'account' && (
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="8.5" />
+                  <circle cx="12" cy="10" r="3" />
+                  <path d="M6.6 18.2a6.2 6.2 0 0 1 10.8 0" />
                 </svg>
               )}
               {item.icon === 'erase' && (
@@ -177,22 +202,43 @@ const items = [
     display: none;
   }
 
+  /* The app's lock as it stands before SimpleTime opens: icon and name, the
+     code being typed, the keypad – on a ground like a phone's screen. */
   @media (min-width: 1024px) {
     .applock {
       display: grid;
       justify-items: center;
-      gap: 1.4rem;
-      width: 15rem;
+      gap: 1.3rem;
+      width: 17rem;
       margin-top: 3.5rem;
-      padding: 2rem 1.75rem 1.75rem;
+      padding: 2rem 1.75rem 1.9rem;
+      background:
+        radial-gradient(120% 70% at 50% 0%, color-mix(in srgb, var(--accent) 12%, transparent), transparent 70%),
+        var(--surface);
     }
   }
 
-  .applock__icon {
+  .applock__app {
+    display: grid;
+    justify-items: center;
+    gap: 0.55rem;
+  }
+
+  .applock :global(.applock__icon) {
     width: 3.5rem;
     height: 3.5rem;
     border-radius: 22.5%;
-    box-shadow: 0 0 0 1px var(--line);
+    box-shadow:
+      0 0 0 1px var(--line),
+      0 6px 16px -8px rgb(12 20 38 / 0.35);
+  }
+
+  .applock__name {
+    font-family: var(--font-display);
+    font-size: 0.9375rem;
+    font-weight: 640;
+    letter-spacing: -0.01em;
+    color: var(--ink);
   }
 
   /* Four digits of the code, typed one after the other once it is seen. */
@@ -240,15 +286,15 @@ const items = [
 
   .applock__keys {
     display: grid;
-    grid-template-columns: repeat(3, 2.75rem);
-    gap: 0.6rem 0.9rem;
+    grid-template-columns: repeat(3, 3.1rem);
+    gap: 0.65rem 1rem;
   }
 
   .applock__key {
     display: grid;
     place-items: center;
-    width: 2.75rem;
-    height: 2.75rem;
+    width: 3.1rem;
+    height: 3.1rem;
     border-radius: 50%;
     background: var(--surface-2);
     font-size: 1.125rem;

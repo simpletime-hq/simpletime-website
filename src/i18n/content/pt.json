@@ -337,14 +337,14 @@
             "id": "what-is",
             "q": "O que é o SimpleTime?",
             "a": [
-              "O SimpleTime é uma app de registo de horas para iPhone, iPad e Mac. Um toque inicia o relógio, outro toque para-o. Depois, o SimpleTime mostra-lhe para onde vai o seu tempo – como lista ou linha temporal do dia, em gráficos e estatísticas, e como relatório PDF ou ficheiro CSV. Sem conta, sem publicidade, sem venda dos seus dados."
+              "O SimpleTime é uma app de registo de horas para iPhone, iPad e Mac. Um toque inicia o relógio, outro toque para-o. Depois, o SimpleTime mostra-lhe para onde vai o seu tempo – como lista ou linha temporal do dia, em gráficos e estatísticas, e como relatório PDF ou ficheiro CSV. Sem necessidade de conta, sem publicidade, sem venda dos seus dados."
             ]
           },
           {
             "id": "free",
             "q": "O SimpleTime é gratuito?",
             "a": [
-              "Sim. Descarregar o SimpleTime é gratuito, tal como tudo o que é preciso para registar: tarefas e subtarefas, a vista do dia, gráficos e estatísticas, relatórios e exportação, widgets, a sincronização com o iCloud e as cópias de segurança. O SimpleTime Pro é opcional e acrescenta a app para o Apple Watch, resumos, locais, metas e mais. [Tudo sobre o SimpleTime Pro](@pro)"
+              "Sim. Descarregar o SimpleTime é gratuito, tal como tudo o que é preciso para registar: tarefas e subtarefas, os horários fixos, a vista do dia, gráficos e estatísticas, relatórios e exportação, widgets, a sincronização através do iCloud ou do LaCodea ID e as cópias de segurança. O SimpleTime Pro é opcional e acrescenta a app para o Apple Watch, resumos, locais, metas e mais. [Tudo sobre o SimpleTime Pro](@pro)"
             ]
           },
           {
@@ -355,10 +355,17 @@
             ]
           },
           {
+            "id": "lacodea-id",
+            "q": "O que é o LaCodea ID?",
+            "a": [
+              "O LaCodea ID é a nossa conta opcional para todas as apps da LaCodea. Inicia sessão no topo das Definições – com a Apple, com uma chave-passe ou com um código por e-mail. Com ele, pode sincronizar através do LaCodea ID com cifragem ponto a ponto, e uma compra do SimpleTime Pro é válida em todos os dispositivos em que tiver sessão iniciada; mas o SimpleTime também funciona perfeitamente sem ele."
+            ]
+          },
+          {
             "id": "devices",
             "q": "Em que dispositivos funciona o SimpleTime?",
             "a": [
-              "No iPhone e no iPad com iOS 26 ou iPadOS 26 ou posterior, e em Mac com processador Apple. A app para o Apple Watch faz parte do SimpleTime Pro e precisa do watchOS 26. Com a mesma conta Apple ou o mesmo LaCodea ID, os seus registos mantêm-se sincronizados em todos eles."
+              "No iPhone e no iPad com iOS 26 ou iPadOS 26 ou posterior, e no Mac com macOS 26 ou posterior. A app para o Apple Watch faz parte do SimpleTime Pro e precisa do watchOS 26. Se escolher o iCloud ou o LaCodea ID em Definições › Dados e sincronização, os seus registos mantêm-se sincronizados em todos os dispositivos com a mesma conta Apple ou o mesmo LaCodea ID."
             ]
           },
           {
@@ -407,6 +414,20 @@
             "q": "Esqueci-me de começar – posso acrescentar o tempo depois?",
             "a": [
               "Sim. No separador Dia, adicione um novo registo com início e fim, ou toque num já existente para o alterar. Os registos não se podem sobrepor: o SimpleTime avisa quando um período colide com outro registo. Num registo ainda em curso, também pode recuar o início – até ao fim do registo anterior."
+            ]
+          },
+          {
+            "id": "fixed-times",
+            "q": "O que são os horários fixos?",
+            "a": [
+              "Os horários que se repetem, como aulas, turnos ou horas de atendimento, cria-os uma só vez: tarefa, dias da semana, início e fim, todas as semanas ou de duas em duas semanas, se quiser com data de fim. Assim que um horário termina, o SimpleTime acrescenta-o sozinho como registo – em todos os dispositivos em que abrir o SimpleTime, e mesmo assim apenas uma vez. Passa a registar apenas o que vier a mais; encontra-os em Definições › Registo › Horários fixos, sem Pro."
+            ]
+          },
+          {
+            "id": "fixed-times-pause",
+            "q": "Posso pôr os horários fixos em pausa ou alterá-los?",
+            "a": [
+              "Sim. Para as férias escolares, as suas férias ou uma doença, crie em Definições › Registo › Horários fixos, com «Fazer uma pausa», uma pausa durante a qual o SimpleTime não regista nada; um horário isolado desativa-se com o respetivo interruptor. O que já foi registado altera-se ou apaga-se como qualquer outro registo, e se alterar ou apagar um horário fixo, o que já está registado mantém-se. Se um horário fixo se sobrepuser a um registo que já existe, o SimpleTime não o regista."
             ]
           },
           {
@@ -468,7 +489,7 @@
             "id": "productivity",
             "q": "O que é o índice de produtividade?",
             "a": [
-              "Pode atribuir a cada tarefa uma categoria: produtiva, improdutiva, necessária – ou excluí-la da produtividade. O índice mostra que parte do seu tempo registado foi produtiva ou necessária: (tempo produtivo + necessário) ÷ tempo total × 100."
+              "Pode atribuir a cada tarefa uma categoria: produtiva, improdutiva, necessária – ou excluí-la da produtividade. O índice mostra que parte do seu tempo avaliado foi produtiva ou necessária: (tempo produtivo + necessário) ÷ (tempo produtivo + improdutivo + necessário) × 100. O tempo sem atribuição ou definido como «Excluir da produtividade» não conta."
             ]
           },
           {
@@ -482,7 +503,7 @@
             "id": "pdf-report",
             "q": "Como crio um relatório PDF?",
             "a": [
-              "Em Definições › Exportar relatório, escolha um período – de «Hoje» a «Todo o período», ou um personalizado –, selecione as secções que quer e arraste-as para a ordem que preferir. O SimpleTime cria o PDF com cada tarefa e subtarefa, pronto a partilhar ou guardar. O SimpleTime Pro acrescenta secções adicionais: evolução, distribuição do dia, comparação e metas.",
+              "Em Definições › Exportar relatório, escolha um período – de «Hoje» a «Todo o período», ou um personalizado –, selecione as secções que quer e arraste-as para a ordem que preferir. O SimpleTime cria o PDF com cada tarefa e subtarefa, pronto a partilhar ou guardar. O SimpleTime Pro acrescenta secções adicionais: «Evolução», «Distribuição ao longo do dia», «Comparação» e «Metas».",
               "Para folhas de horas existe a secção «Todos os registos»: cada registo dia a dia com início, fim, tarefa e nota, além de totais diários, total geral e horas decimais – ideal para conferir as suas horas com o recibo de vencimento. É gratuita, sem Pro, e vem ativada desde o início."
             ]
           }
@@ -519,6 +540,20 @@
             "a": [
               "Com um filtro de concentração, o SimpleTime acompanha o seu modo de concentração: quando «Trabalho» se ativa, a lista de tarefas mostra apenas a sua categoria de trabalho – e o registo pode começar e terminar com esse modo. A configuração faz-se nas Definições do iOS, em Concentração › o seu modo › Filtros › Adicionar filtro › SimpleTime. O filtro de concentração faz parte do SimpleTime Pro."
             ]
+          },
+          {
+            "id": "calendar-entries",
+            "q": "O SimpleTime pode colocar os meus registos no calendário?",
+            "a": [
+              "Sim, com o SimpleTime Pro: ative «Registos no Calendário» em Definições › Calendário e cada registo terminado aparece como evento – num calendário próprio, «SimpleTime», ou num à sua escolha, se quiser por tarefa. Se alterar ou apagar um registo, o evento é alterado ou apagado também, e a ligação no evento abre o registo no SimpleTime. Com «Tarefas a partir de calendários», calendários como «Trabalho» tornam-se tarefas; os eventos que já estão no calendário, porém, não se tornam registos. Os eventos ficam guardados no fornecedor do seu calendário e mostram os nomes das suas tarefas a todas as pessoas com quem o partilha – mesmo com o bloqueio da app ativado."
+            ]
+          },
+          {
+            "id": "menu-bar",
+            "q": "Posso usar o SimpleTime no Mac a partir da barra de menus?",
+            "a": [
+              "Sim. Um cronómetro na barra de menus mostra se há uma tarefa em curso; com um clique nele, inicia, para ou muda de tarefa sem abrir a janela. Pode ativá-lo e desativá-lo em Definições › Barra de menus › Mostrar na barra de menus. Se o bloqueio da app estiver configurado, o menu não mostra nomes de tarefas e só oferece Parar."
+            ]
           }
         ]
       },
@@ -530,14 +565,35 @@
             "id": "sync",
             "q": "O SimpleTime sincroniza entre os meus dispositivos?",
             "a": [
-              "Sim, através do iCloud ou do LaCodea ID – escolhe-o em Definições › Dados e sincronização. Com o iCloud, sincronizam-se todos os dispositivos com sessão iniciada na mesma conta Apple; quando a sincronização acontece é o sistema que decide, e a mesma página mostra quando foi a última e permite sincronizar de imediato. Com o LaCodea ID, sincronizam-se todos os dispositivos em que tiver iniciado sessão com o mesmo LaCodea ID, ainda que com outra conta Apple – com cifragem ponto a ponto e, se a app estiver aberta, ao fim de cerca de um segundo."
+              "Sim, através do iCloud ou do LaCodea ID – escolhe-o em cada dispositivo, em Definições › Dados e sincronização. Com o iCloud, sincronizam-se todos os dispositivos com sessão iniciada na mesma conta Apple; quando a sincronização acontece é o sistema que decide – não é possível forçá-la, mas a mesma página mostra quando foi a última. Com o LaCodea ID, sincronizam-se todos os dispositivos em que tiver iniciado sessão com o mesmo LaCodea ID e o tiver escolhido, ainda que com outra conta Apple – com cifragem ponto a ponto e, se a app estiver aberta, ao fim de cerca de um segundo."
             ]
           },
           {
             "id": "without-icloud",
             "q": "Posso usar o SimpleTime sem o iCloud?",
             "a": [
-              "Sim. Escolha «Apenas neste dispositivo» em Definições › Dados e sincronização – os seus dados ficam então apenas neste dispositivo. Por isso, as cópias de segurança tornam-se ainda mais importantes: um plano de cópia de segurança guarda-as automaticamente, por exemplo numa pasta da app Ficheiros ou no seu próprio servidor."
+              "Sim. Escolha «Apenas neste dispositivo» em Definições › Dados e sincronização – os seus dados ficam então apenas neste dispositivo. Por isso, as cópias de segurança tornam-se ainda mais importantes: um plano de cópia de segurança guarda-as automaticamente, por exemplo numa pasta da app Ficheiros ou no seu próprio servidor. Se, ainda assim, quiser sincronizar vários dispositivos sem o iCloud, escolha aí o LaCodea ID; um dispositivo sem o seu Porta-chaves em iCloud pede-lhe então uma vez a sua chave de recuperação."
+            ]
+          },
+          {
+            "id": "switch-storage",
+            "q": "Como mudo o local onde ficam os meus dados?",
+            "a": [
+              "Em Definições › Dados e sincronização, toque no local pretendido e depois em «Mudar para iCloud», «Mudar para LaCodea ID» ou «Manter só neste dispositivo»; para o LaCodea ID, inicia sessão durante o processo. Antes de mudar para o iCloud ou para o LaCodea ID, o SimpleTime faz uma cópia de proteção deste dispositivo e, se já houver dados lá, escolhe entre «Juntar» e «Usar os dados de …». A mudança aplica-se apenas a este dispositivo, normalmente a partir do próximo arranque da app – os seus outros dispositivos continuam a sincronizar como até aqui, até também mudar neles. Depois, o SimpleTime propõe apagar os dados no local antigo; caso contrário, ficam lá."
+            ]
+          },
+          {
+            "id": "recovery-key",
+            "q": "O que é a chave de recuperação?",
+            "a": [
+              "Com o LaCodea ID como local de armazenamento, o SimpleTime cifra os seus dados ponto a ponto; os seus dispositivos Apple recebem normalmente a chave sozinhos através do Porta-chaves em iCloud. Um dispositivo sem esse porta-chaves – por exemplo, com outra conta Apple – precisa uma vez da sua chave de recuperação de 24 letras e algarismos. Encontra-a em Definições › Dados e sincronização › Chave de recuperação, após o Face ID ou o código do dispositivo; até confirmar que a guardou, a página «Segurança» lembra-o disso. Guarde-a no seu gestor de palavras-passe ou em papel – sem ela e sem os seus dispositivos, ninguém consegue abrir os seus dados, nem mesmo nós."
+            ]
+          },
+          {
+            "id": "recovery-key-lost",
+            "q": "Perdi a minha chave de recuperação – e agora?",
+            "a": [
+              "Num dispositivo que ainda consiga ler os seus dados, o SimpleTime volta a mostrá-la em Definições › Dados e sincronização › Chave de recuperação com «Mostrar chave de recuperação» – ou cria aí uma nova, e a antiga deixa de funcionar. Se nenhum dos seus dispositivos conseguir abrir os dados, ninguém os pode recuperar – nem mesmo nós. Nesse caso, toque em «Perdi a minha chave de recuperação» quando lhe for pedida e recomece com os dados deste dispositivo; o que estava apenas no servidor ou nos seus outros dispositivos perde-se."
             ]
           },
           {
@@ -555,10 +611,17 @@
             ]
           },
           {
+            "id": "backup-files",
+            "q": "Onde encontro as minhas cópias de segurança?",
+            "a": [
+              "As cópias de segurança de um plano «Apenas neste dispositivo» também se encontram na app Ficheiros, em «No meu iPhone» (ou «No meu iPad») › SimpleTime › Backups, e as de um plano no iCloud Drive em iCloud Drive › SimpleTime › Backups. Os planos para uma pasta da app Ficheiros ou para o seu próprio servidor guardam-nas onde escolheu. O melhor é dar uma palavra-passe a esses planos: sem ela, qualquer pessoa com acesso ao respetivo local pode abrir uma cópia de segurança – no dispositivo, qualquer pessoa que o desbloqueie, mesmo com o bloqueio da app ativado."
+            ]
+          },
+          {
             "id": "restore",
             "q": "Como restauro uma cópia de segurança?",
             "a": [
-              "Em Definições › Cópias de segurança, restaura uma cópia – a partir de um dos seus planos ou de um ficheiro. Os dados existentes mantêm-se e o que faltar é acrescentado. As cópias do SimpleTime 4.7 e versões anteriores importam-se em Definições › Exportar / importar dados › Importar cópia de segurança de um JSON. Num dispositivo novo, espere primeiro que a sincronização do iCloud tenha trazido os seus dados – caso contrário, as tarefas podem aparecer em duplicado."
+              "Em Definições › Cópias de segurança, restaura uma cópia – a partir de um dos seus planos ou de um ficheiro. Os dados existentes mantêm-se e o que faltar é acrescentado. As cópias do SimpleTime 4.7 e versões anteriores importam-se em Definições › Exportar / importar dados › Importar cópia de segurança de um JSON. Num dispositivo novo, espere primeiro que a sincronização através do iCloud ou do LaCodea ID tenha trazido os seus dados – caso contrário, as tarefas podem aparecer em duplicado."
             ]
           },
           {
@@ -567,6 +630,13 @@
             "a": [
               "Sim, a qualquer momento: como ficheiro CSV com tarefa, nota, duração, início e fim – para o Excel, o Numbers ou qualquer ferramenta de análise –, como relatório PDF ou como cópia de segurança completa.",
               "Em Definições › Exportar / importar dados, escolha o período do ficheiro CSV – de «Hoje» a «Todo o período», ou um personalizado, como o mês passado. Uma cópia de segurança faz-se em Definições › Cópias de segurança."
+            ]
+          },
+          {
+            "id": "timesheet",
+            "q": "Como obtenho as minhas horas para a folha de horas?",
+            "a": [
+              "Em PDF: em Definições › Exportar relatório, escolha o período – por exemplo, «Mês passado» – e deixe a secção «Todos os registos» ativada; lista cada registo com início, fim, tarefa e nota, além de totais diários, total geral e horas decimais. Em tabela: em Definições › Exportar / importar dados, escolha o período e toque em «Exportar dados como CSV» – uma linha por registo com data, início, fim, tarefa, duração, horas decimais e nota, para o Excel ou o Numbers. Ambos são gratuitos, e os registos dos horários fixos contam como todos os outros."
             ]
           },
           {
@@ -580,7 +650,7 @@
             "id": "new-device",
             "q": "Como passo para um iPhone novo?",
             "a": [
-              "Inicie sessão com a mesma conta Apple e instale o SimpleTime – se usar o iCloud (Definições › Dados e sincronização), os seus registos voltam sozinhos. Se usar o LaCodea ID, inicie sessão com ele no novo dispositivo e escolha-o em Dados e sincronização; consoante o dispositivo, a app pede-lhe a sua chave de recuperação. Caso contrário, faça uma cópia de segurança no dispositivo antigo e restaure-a no novo. Os locais pertencem a cada dispositivo e não são sincronizados."
+              "Inicie sessão com a mesma conta Apple e instale o SimpleTime – se usar o iCloud (Definições › Dados e sincronização), os seus registos voltam sozinhos. Se usar o LaCodea ID, inicie sessão com ele no novo dispositivo e escolha-o em Dados e sincronização; se o dispositivo não receber a chave sozinho através do seu Porta-chaves em iCloud, a app pede-lhe uma vez a sua chave de recuperação. Caso contrário, faça uma cópia de segurança no dispositivo antigo e restaure-a no novo. Os locais pertencem a cada dispositivo e não são sincronizados."
             ]
           }
         ]
@@ -593,7 +663,14 @@
             "id": "data-location",
             "q": "Onde ficam guardados os meus dados?",
             "a": [
-              "Onde escolher: em Definições › Dados e sincronização, decide entre «Apenas neste dispositivo», o seu iCloud privado e o LaCodea ID, onde os seus dados ficam cifrados ponto a ponto. Mais ninguém pode ler os seus registos – nem mesmo nós. As cópias de segurança ficam onde os seus planos as guardam."
+              "Onde escolher: em Definições › Dados e sincronização, decide entre «Apenas neste dispositivo», o seu iCloud privado, onde os seus dados são cifrados pela Apple, e o LaCodea ID, onde ficam cifrados ponto a ponto – não conseguimos ler os seus registos em nenhum destes locais. As cópias de segurança ficam onde os seus planos as guardam; sem palavra-passe, qualquer pessoa com acesso a esse local as pode ler. Se ativar «Registos no Calendário» com o Pro, os registos terminados aparecem também como eventos no seu calendário – visíveis para o respetivo fornecedor e para todas as pessoas com quem o partilha."
+            ]
+          },
+          {
+            "id": "lacodea-id-privacy",
+            "q": "Quem pode ler os meus registos na sincronização através do LaCodea ID?",
+            "a": [
+              "Apenas os seus dispositivos. O SimpleTime cifra as tarefas, os registos com os seus tempos e notas, os horários fixos, as metas e os lembretes no seu dispositivo (AES-GCM de 256 bits) antes de seguirem para o servidor próprio do SimpleTime – só os seus dispositivos têm a chave, nós não. O servidor vê apenas quantos elementos de dados existem de cada tipo, qual o seu tamanho aproximado, quando foram escritos e se foram apagados; está num centro de dados em Frankfurt am Main. Os pormenores estão na nossa [política de privacidade](@privacy)."
             ]
           },
           {
@@ -607,7 +684,7 @@
             "id": "permissions",
             "q": "Que permissões pede o SimpleTime?",
             "a": [
-              "Apenas aquilo de que cada funcionalidade precisa, e só quando a usa: notificações para os lembretes e os avisos dos locais, a localização para os locais, adicionar fotografias para guardar imagens, e Face ID ou Touch ID para o bloqueio da app. Em Definições › Privacidade › Vista geral e permissões, vê cada uma com o respetivo estado."
+              "Apenas aquilo de que cada funcionalidade precisa, e só quando a usa: notificações para os lembretes e os avisos dos locais, a localização para os locais, os calendários para «Registos no Calendário», adicionar fotografias para guardar imagens, e Face ID ou Touch ID para o bloqueio da app. Em Definições › Privacidade › Vista geral e permissões, vê cada uma com o respetivo estado."
             ]
           },
           {
@@ -621,14 +698,28 @@
             "id": "app-lock",
             "q": "Como funciona o bloqueio da app?",
             "a": [
-              "Em Definições › Bloqueio da app, escolhe se o SimpleTime abre com o código do iPhone – incluindo Face ID ou Touch ID – ou com um código próprio. No seletor de apps, o SimpleTime fica tapado, e os nomes das tarefas deixam de aparecer na pesquisa do iPhone e no ícone da app. Importante: se se esquecer do seu código próprio, a única forma de voltar a entrar na app é apagá-la e reinstalá-la."
+              "Em Definições › Bloqueio da app, escolhe se o SimpleTime abre com Face ID ou Touch ID e o código do seu dispositivo, ou com um código próprio – dígitos ou uma palavra-passe. No seletor de apps, o SimpleTime fica tapado, e os nomes das tarefas deixam de aparecer na pesquisa do iPhone e no ícone da app; em «Fora da app», define o que as notificações, os widgets e o Apple Watch mostram. Para o caso de se esquecer do seu código próprio, pode ativar antes «Repor o código esquecido com o código do dispositivo» ou definir uma palavra-passe de emergência. Sem nenhuma das duas opções, a única forma de voltar a entrar na app é apagá-la e reinstalá-la – e o que estava apenas neste dispositivo perde-se, a não ser que tenha uma cópia de segurança."
+            ]
+          },
+          {
+            "id": "security-overview",
+            "q": "O que mostra a página «Segurança»?",
+            "a": [
+              "Em Definições › Segurança › Visão geral, vê de relance até que ponto os seus dados estão protegidos: código do dispositivo, bloqueio da app, cópias de segurança automáticas e cifradas e onde ficam os seus dados – com o LaCodea ID, também a cifragem ponto a ponto e a chave de recuperação. O que ainda falta aparece em «Recomendado»; cada ponto explica como o protege e, quando necessário, leva-o à definição adequada."
             ]
           },
           {
             "id": "delete-all",
             "q": "Como apago todos os meus dados?",
             "a": [
-              "Em Definições › Privacidade › Apagar todos os dados. Assim, remove tudo de uma vez – todos os registos e tarefas, o lixo, os lembretes, as cópias dos seus planos e as cópias antigas no iCloud Drive, as exportações e as definições – neste dispositivo, no iCloud e, assim que tiverem ligação, nos seus outros dispositivos. Esta ação não pode ser anulada."
+              "Em Definições › Privacidade › Apagar todos os dados, remove tudo de uma vez – os registos e tarefas, o lixo, os lembretes, as cópias dos seus planos e as cópias antigas no iCloud Drive, as exportações, as definições e os eventos que o SimpleTime adicionou ao seu calendário. A eliminação acontece neste dispositivo, no iCloud e, se sincronizar através do LaCodea ID, no servidor; através do iCloud, chega também aos seus outros dispositivos assim que tiverem ligação. Se sincronizar através do LaCodea ID, os seus outros dispositivos mantêm os dados – apague-os aí da mesma forma –, e a sua conta LaCodea ID mantém-se. Esta ação não pode ser anulada."
+            ]
+          },
+          {
+            "id": "lacodea-id-delete",
+            "q": "Como termino sessão ou apago o meu LaCodea ID?",
+            "a": [
+              "Toque no seu LaCodea ID no topo das Definições: «Terminar sessão» termina a sessão em todas as apps da LaCodea neste dispositivo – os seus dados ficam aqui e voltam a sincronizar assim que iniciar sessão. «Desvincular o SimpleTime» separa apenas o SimpleTime da sua conta, «Apagar o LaCodea ID» apaga a conta para todas as apps da LaCodea – também o pode fazer em account.lacodea.com. Tanto ao desvincular como ao apagar, o servidor do SimpleTime apaga lá os seus dados sincronizados; o que está nos seus dispositivos ou no iCloud mantém-se. Uma subscrição através da Apple continua até a cancelar nas definições do seu dispositivo."
             ]
           }
         ]
@@ -641,7 +732,7 @@
             "id": "pro-includes",
             "q": "O que inclui o SimpleTime Pro?",
             "a": [
-              "A app para o Apple Watch, resumos da sua semana, do seu mês e do seu ano, locais, os seus registos como eventos no calendário, o ano num relance, metas, o filtro de concentração, um widget de início rápido, sete cores de destaque ou uma sua, além de dezasseis ícones da app, e secções adicionais no relatório PDF. O que vier depois está incluído. [Tudo sobre o SimpleTime Pro](@pro)"
+              "A app para o Apple Watch, resumos da sua semana, do seu mês e do seu ano, locais, os seus registos como eventos no calendário, o ano num relance, metas, o filtro de concentração, um widget de início rápido, sete cores de destaque ou uma sua, seis tipos de letra, dezasseis ícones da app e secções adicionais no relatório PDF. O que vier depois está incluído. [Tudo sobre o SimpleTime Pro](@pro)"
             ]
           },
           {
@@ -673,10 +764,17 @@
             ]
           },
           {
+            "id": "pro-other-device",
+            "q": "Comprei o Pro – porque é que não aparece no meu outro dispositivo?",
+            "a": [
+              "Com a mesma conta Apple, toque em «Restaurar» nesse dispositivo, em Definições › SimpleTime Pro. Com outra conta Apple, inicie sessão nos dois dispositivos com o mesmo LaCodea ID; se comprou o Pro antes de iniciar sessão, inicie sessão também num dispositivo com a conta Apple da compra – a partir daí, o SimpleTime comunica a compra à sua conta. Depois, a página Pro do outro dispositivo mostra «Através do seu LaCodea ID»."
+            ]
+          },
+          {
             "id": "cancel",
             "q": "Como cancelo a minha subscrição?",
             "a": [
-              "Nas definições da App Store – no iPhone, em Definições › o seu nome › Assinaturas – ou na app, na página Pro, em Gerir subscrição. O Pro mantém-se ativo até ao fim do período que já pagou."
+              "Nas definições da App Store – no iPhone, em Definições › o seu nome › Assinaturas – ou na app, na página Pro, em Gerir subscrição. Isto só é possível num dispositivo com a conta Apple com que fez a subscrição; se tiver o Pro através do seu LaCodea ID, a página Pro indica esses dispositivos. O Pro mantém-se ativo até ao fim do período que já pagou, e apagar o seu LaCodea ID também não termina uma subscrição."
             ]
           },
           {
@@ -697,7 +795,7 @@
             "id": "pro-offline",
             "q": "O Pro precisa de ligação à internet?",
             "a": [
-              "Não. O SimpleTime verifica a sua compra junto da App Store sempre que pode. Sem ligação, o Pro continua a funcionar – até duas semanas sem contacto."
+              "Não. O SimpleTime verifica a sua compra junto da App Store – e, se tiver sessão iniciada com o LaCodea ID, também junto da sua conta – sempre que pode. Sem ligação, o Pro continua a funcionar – até duas semanas sem contacto."
             ]
           }
         ]
@@ -744,7 +842,7 @@
             "id": "look",
             "q": "Posso mudar o aspeto do SimpleTime?",
             "a": [
-              "Sim: claro, escuro ou de acordo com o sistema, e três alturas de linha para a lista de tarefas. Com o SimpleTime Pro, tem também sete cores de destaque ou uma sua – que percorre botões, interruptores e gráficos – e dezasseis ícones da app."
+              "Sim: claro, escuro ou de acordo com o sistema, três alturas de linha para a lista de tarefas e, em Definições › Tipo de letra, um tamanho de texto próprio e texto em negrito. Com o SimpleTime Pro, tem também sete cores de destaque ou uma sua – que percorre botões, interruptores e gráficos –, seis tipos de letra e dezasseis ícones da app."
             ]
           },
           {
@@ -766,6 +864,13 @@
             "q": "Há uma versão para Android, Windows ou para a web?",
             "a": [
               "Não. O SimpleTime foi feito para iPhone, iPad, Mac e Apple Watch. Pode exportar os seus dados em CSV a qualquer momento."
+            ]
+          },
+          {
+            "id": "account-web",
+            "q": "O que posso fazer em account.lacodea.com?",
+            "a": [
+              "Aí gere o seu LaCodea ID no navegador: os seus métodos de início de sessão, as suas subscrições, o descarregamento dos dados da sua conta e a eliminação da conta – no SimpleTime, chega à mesma conta no topo das Definições. Os seus registos não os vê lá: só existem no SimpleTime no iPhone, iPad, Mac e Apple Watch. Na sincronização através do LaCodea ID, ficam cifrados ponto a ponto no servidor do SimpleTime – o próprio LaCodea ID nunca os recebe."
             ]
           },
           {

@@ -63,8 +63,9 @@ const dir = RTL_LOCALES.has(lang) ? 'rtl' : 'ltr';
 // Body text needs no preload: Apple devices set it in their own system face
 // and never fetch Inter or Noto. The headlines are another matter – every
 // device sets them in Mona Sans, and the hero's arrives with the first bytes.
-// Latin only: other scripts fall back to the text face for their headlines.
-const LATIN = new Set<Lang>(['en', 'de', 'nl', 'sv', 'fr', 'it', 'es', 'pt', 'tr']);
+// On every page: headlines in other scripts fall back to the text face, but
+// their digits, spaces and the brand are Latin, so the file came anyway – only
+// late, and its swap laid out /ja/, /ar/ and /hy/ a second time (audit 19.11.2026).
 
 const appSchema = {
   '@context': 'https://schema.org',
@@ -122,7 +123,7 @@ const jsonLdPayload = JSON.stringify(graph).replace(/</g, '\\u003c');
         Android mostly. The app itself comes from the App Store; the site stays
         a site ("display": "browser"). */}
     <link rel="manifest" href="/manifest.webmanifest" />
-    {LATIN.has(lang) && <link rel="preload" as="font" type="font/woff2" href={displayLatin} crossorigin="anonymous" />}
+    <link rel="preload" as="font" type="font/woff2" href={displayLatin} crossorigin="anonymous" />
 
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="SimpleTime" />
@@ -208,6 +209,11 @@ const jsonLdPayload = JSON.stringify(graph).replace(/</g, '\\u003c');
     <Footer lang={lang} />
 
     <script>
+      // The running clocks, here rather than in each of the four drawings that
+      // show one: imported there, every page fetched four 33-byte modules and a
+      // fifth behind them; here it is part of this one script.
+      import '../scripts/live-timer';
+
       // Reveal sections as they scroll into view. The `.js` class on <html>
       // means no-JS visitors never see the hidden starting state. Delays come
       // from the `delay-*` classes in global.css – the CSP allows no inline styles.
@@ -228,6 +234,17 @@ const jsonLdPayload = JSON.stringify(graph).replace(/</g, '\\u003c');
           { rootMargin: '0px 0px -8% 0px', threshold: 0.08 },
         );
         items.forEach((el) => observer.observe(el));
+      }
+
+      // Endless animations rest while their part of the page is out of sight
+      // (`.is-resting` in global.css): the app lock's dots kept the main thread
+      // at 60 frames a second wherever the page stood (audit 19.11.2026).
+      const loops = document.querySelectorAll<HTMLElement>('[data-loop]');
+      if (loops.length && 'IntersectionObserver' in window) {
+        const loopObserver = new IntersectionObserver((entries) => {
+          entries.forEach((entry) => entry.target.classList.toggle('is-resting', !entry.isIntersecting));
+        });
+        loops.forEach((el) => loopObserver.observe(el));
       }
     </script>
   </body>

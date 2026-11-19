@@ -52,6 +52,16 @@ for (let week = 0; week < 53; week++) {
 }
 const yearWidth = 53 * (CELL + GAP) - GAP;
 const yearHeight = 7 * (CELL + GAP) - GAP;
+// One path per brightness instead of 371 rectangles: the same picture with 366
+// fewer elements to style and lay out on the home and Pro pages (audit 19.11.2026).
+const R = 3.5;
+const SIDE = CELL - 2 * R;
+const cell = ({ x, y }: { x: number; y: number }) =>
+  `M${x + R} ${y}h${SIDE}a${R} ${R} 0 0 1 ${R} ${R}v${SIDE}a${R} ${R} 0 0 1-${R} ${R}` +
+  `h-${SIDE}a${R} ${R} 0 0 1-${R}-${R}v-${SIDE}a${R} ${R} 0 0 1 ${R}-${R}z`;
+const yearPaths = [0, 1, 2, 3, 4]
+  .map((level) => ({ level, d: days.filter((day) => day.level === level).map(cell).join('') }))
+  .filter((path) => path.d);
 
 // Goals as rings, the way the app shows a day's progress: the work goal
 // nearly there, the reading goal half way, the training done.
@@ -164,8 +174,8 @@ const arrival = placeNotice(lang, taskName(lang, 'work'), clock(lang, 8 * 60 + 2
         <div class="pro-tile__visual" aria-hidden="true">
           {tile.id === 'year' && (
             <svg class="pro-year" viewBox={`0 0 ${yearWidth} ${yearHeight}`} preserveAspectRatio="xMidYMid meet">
-              {days.map((d) => (
-                <rect x={d.x} y={d.y} width={CELL} height={CELL} rx="3.5" class={`lv${d.level}`} />
+              {yearPaths.map((path) => (
+                <path d={path.d} class={`lv${path.level}`} />
               ))}
             </svg>
           )}

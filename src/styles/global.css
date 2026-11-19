@@ -791,6 +791,16 @@ h3 {
   }
 }
 
+/* Endless animations rest while their part of the page is out of sight: the
+   script in Layout.astro marks a [data-loop] that has left the window. Without
+   script nothing is marked and everything moves as before. */
+.is-resting,
+.is-resting *,
+.is-resting *::before,
+.is-resting *::after {
+  animation-play-state: paused !important;
+}
+
 /* Ring charts (src/i18n/ring.ts): every slice fills in its turn – when the
    section around it is revealed, or at once with `.ring--draw`. */
 .ring-slice {

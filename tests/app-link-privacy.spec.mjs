@@ -22,6 +22,8 @@ const TRACKER = `
 
 test('an entry link leaks its ID neither as path nor as referrer', async ({ page, context }, testInfo) => {
   test.skip(testInfo.project.metadata.route !== '/app/', 'the page behind links into the app only');
+  // Some 30 page loads, one per link: 40 s on a busy machine, over the default 30.
+  test.setTimeout(90_000);
 
   const sent = [];
   await context.route('https://intern.atriya.io/**', async (route) => {

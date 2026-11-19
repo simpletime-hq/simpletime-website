@@ -476,7 +476,7 @@
             "id": "notes",
             "q": "Posso acrescentar notas aos registos?",
             "a": [
-              "Sim, cada registo pode ter uma nota – em que trabalhou ou com quem esteve. Escreve-a ao criar ou editar um registo no separador Dia e, enquanto um registo estiver em curso, com um toque nele no topo do separador Registo. A nota vê-se quando abre o registo, na info de uma tarefa em «Todos os registos», na secção «Todos os registos» do PDF e na exportação CSV; as cópias de segurança incluem-na."
+              "Sim, cada registo pode ter uma nota – em que trabalhou ou com quem. Escreve-a ao criar ou editar um registo no separador Dia e, enquanto um registo estiver em curso, com um toque nele no topo do separador Registo. A nota vê-se quando abre o registo, na info de uma tarefa em «Todos os registos», na secção «Todos os registos» do PDF e na exportação CSV; as cópias de segurança incluem-na."
             ]
           },
           {

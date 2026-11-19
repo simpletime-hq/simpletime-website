@@ -305,7 +305,7 @@
     "terms": "Kullanım koşulları (EULA)",
     "privacy": "Gizlilik politikası",
     "freeTitle": "Ücretsiz kalanlar",
-    "freeBody": "Kayıt için ihtiyacın olan her şey: görevler ve alt görevler, sabit saatler, gün görünümü ve zaman çizelgesi, grafikler ve istatistikler, PDF rapor ve CSV dışa aktarma, widget'lar, Canlı Etkinlik, Denetim Merkezi ve Siri, iCloud ya da LaCodea ID üzerinden eşitleme, yedekleme planları ve uygulama kilidi – 41 dilde. Hesap yok, reklam yok, verilerin satılmaz.",
+    "freeBody": "Kayıt için ihtiyacın olan her şey: görevler ve alt görevler, sabit saatler, gün görünümü ve zaman çizelgesi, grafikler ve istatistikler, PDF rapor ve CSV dışa aktarma, widget'lar, Canlı Etkinlik, Denetim Merkezi ve Siri, iCloud ya da LaCodea ID üzerinden eşzamanlama, yedekleme planları ve uygulama kilidi – 41 dilde. Hesap yok, reklam yok, verilerin satılmaz.",
     "howTitle": "Pro'yu nasıl alırsın",
     "how": [
       "SimpleTime'da Ayarlar › SimpleTime Pro'yu aç.",
@@ -351,35 +351,35 @@
             "id": "free",
             "q": "SimpleTime ücretsiz mi?",
             "a": [
-              "Evet. SimpleTime'ı indirmek ücretsizdir; kayıt için gereken her şey de öyle: görevler ve alt görevler, sabit saatler, gün görünümü, grafikler ve istatistikler, raporlar ve dışa aktarma, widget'lar, iCloud ya da LaCodea ID üzerinden eşitleme ve yedekler. SimpleTime Pro isteğe bağlıdır ve Apple Watch uygulamasını, özetleri, yerleri, hedefleri ve dahasını ekler. [SimpleTime Pro hakkında her şey](@pro)"
+              "Evet. SimpleTime'ı indirmek ücretsizdir; kayıt için gereken her şey de öyle: görevler ve alt görevler, sabit saatler, gün görünümü, grafikler ve istatistikler, raporlar ve dışa aktarma, widget'lar, iCloud ya da LaCodea ID üzerinden eşzamanlama ve yedekler. SimpleTime Pro isteğe bağlıdır ve Apple Watch uygulamasını, özetleri, yerleri, hedefleri ve dahasını ekler. [SimpleTime Pro hakkında her şey](@pro)"
             ]
           },
           {
             "id": "account",
             "q": "Hesap gerekiyor mu?",
             "a": [
-              "Hayır. Üyelik gerekmez – uygulamayı açar ve başlarsın. iCloud kullanıyorsan eşitleme kendi Apple Hesabın üzerinden yapılır; biz onu hiç görmeyiz. İstersen LaCodea’nın tüm uygulamaları için hesabımız olan LaCodea ID ile giriş yapabilirsin. O zaman hesabını ve SimpleTime Pro satın almalarını saklarız – kayıtlarını ise yalnızca Veriler ve eşzamanlama bölümünde LaCodea ID’yi saklama yeri olarak seçersen ve o zaman da uçtan uca şifrelenmiş olarak."
+              "Hayır. Üyelik gerekmez – uygulamayı açar ve başlarsın. iCloud kullanıyorsan eşzamanlama kendi Apple Hesabın üzerinden yapılır; biz onu hiç görmeyiz. İstersen LaCodea’nın tüm uygulamaları için hesabımız olan LaCodea ID ile giriş yapabilirsin. O zaman hesabını ve SimpleTime Pro satın almalarını saklarız – kayıtlarını ise yalnızca Veriler ve eşzamanlama bölümünde LaCodea ID’yi saklama yeri olarak seçersen ve o zaman da uçtan uca şifrelenmiş olarak."
             ]
           },
           {
             "id": "lacodea-id",
             "q": "LaCodea ID nedir?",
             "a": [
-              "LaCodea ID, LaCodea’nın tüm uygulamaları için isteğe bağlı hesabımızdır. Ayarların en üstünden giriş yaparsın – Apple ile, bir geçiş anahtarıyla ya da e-postayla gelen bir kodla. Böylece LaCodea ID üzerinden uçtan uca şifrelenmiş olarak eşitleyebilirsin ve SimpleTime Pro satın alımın, giriş yaptığın her cihazda geçerli olur; ama SimpleTime, LaCodea ID olmadan da sorunsuz çalışır."
+              "LaCodea ID, LaCodea’nın tüm uygulamaları için isteğe bağlı hesabımızdır. Ayarların en üstünden giriş yaparsın – Apple ile, bir geçiş anahtarıyla ya da e-postayla gelen bir kodla. Böylece LaCodea ID üzerinden uçtan uca şifrelenmiş olarak eşzamanlayabilirsin ve SimpleTime Pro satın alımın, giriş yaptığın her cihazda geçerli olur; ama SimpleTime, LaCodea ID olmadan da sorunsuz çalışır."
             ]
           },
           {
             "id": "devices",
             "q": "SimpleTime hangi cihazlarda çalışır?",
             "a": [
-              "iOS 26 veya iPadOS 26 ya da sonraki bir sürümün yüklü olduğu iPhone ve iPad'de, ayrıca macOS 26 ya da sonraki bir sürümün yüklü olduğu Mac'lerde. Apple Watch uygulaması SimpleTime Pro'nun parçasıdır ve watchOS 26 gerektirir. Ayarlar › Veriler ve eşzamanlama bölümünde iCloud'u ya da LaCodea ID'yi seçersen kayıtların, sırasıyla aynı Apple Hesabı ya da aynı LaCodea ID ile kullandığın tüm cihazlarında eşitlenir."
+              "iOS 26 veya iPadOS 26 ya da sonraki bir sürümün yüklü olduğu iPhone ve iPad'de, ayrıca macOS 26 ya da sonraki bir sürümün yüklü olduğu Mac'lerde. Apple Watch uygulaması SimpleTime Pro'nun parçasıdır ve watchOS 26 gerektirir. Ayarlar › Veriler ve eşzamanlama bölümünde iCloud'u ya da LaCodea ID'yi seçersen kayıtların, sırasıyla aynı Apple Hesabı ya da aynı LaCodea ID ile kullandığın tüm cihazlarında eşzamanlanır."
             ]
           },
           {
             "id": "mac",
             "q": "SimpleTime Mac’te neler yapabilir?",
             "a": [
-              "iPhone’da yapabildiği neredeyse her şeyi – kayıt, gün görünümü, değerlendirme, raporlar, dışa aktarma, yedekler, eşitleme ve uygulama kilidi; iPhone’da kaydırdığın yerde Mac’te sağ tıklarsın. Bunlara menü çubuğundaki kronometre ve masaüstündeki widget’lar eklenir. Yerler, Canlı Etkinlikler, Apple Watch uygulaması ve değiştirilebilir uygulama simgeleri Mac’te yoktur."
+              "iPhone’da yapabildiği neredeyse her şeyi – kayıt, gün görünümü, değerlendirme, raporlar, dışa aktarma, yedekler, eşzamanlama ve uygulama kilidi; iPhone’da kaydırdığın yerde Mac’te sağ tıklarsın. Bunlara menü çubuğundaki kronometre ve masaüstündeki widget’lar eklenir. Yerler, Canlı Etkinlikler, Apple Watch uygulaması ve değiştirilebilir uygulama simgeleri Mac’te yoktur."
             ]
           },
           {
@@ -393,7 +393,7 @@
             "id": "offline",
             "q": "SimpleTime çevrimdışı çalışır mı?",
             "a": [
-              "Evet. Kayıt, gün görünümü, grafikler ve raporlar bağlantı olmadan da çalışır. Eşitleme, kendi sunucuna alınan yedekler, LaCodea ID ile giriş, Pro satın alma ve bir yer için adres arama ise bağlantı gerektirir. Yarım kalanları SimpleTime sonradan tamamlar – eşitlemeyi cihazın yeniden çevrimiçi olur olmaz, kaçırılan bir yedeği ise uygulamayı bir sonraki açtığında."
+              "Evet. Kayıt, gün görünümü, grafikler ve raporlar bağlantı olmadan da çalışır. Eşzamanlama, kendi sunucuna alınan yedekler, LaCodea ID ile giriş, Pro satın alma ve bir yer için adres arama ise bağlantı gerektirir. Yarım kalanları SimpleTime sonradan tamamlar – eşzamanlamayı cihazın yeniden çevrimiçi olur olmaz, kaçırılan bir yedeği ise uygulamayı bir sonraki açtığında."
             ]
           }
         ]
@@ -476,7 +476,7 @@
             "id": "notes",
             "q": "Kayıtlara not ekleyebilir miyim?",
             "a": [
-              "Evet, her kayıt bir not taşıyabilir – ne üzerinde çalıştığın ya da kiminle buluştuğun. Notu, Gün sekmesinde bir kaydı oluştururken ya da düzenlerken eklersin; bir kayıt sürerken ise Kayıt sekmesinin en üstünde ona dokunarak. Notu kaydı açtığında, bir görevin bilgilerinde “Tüm kayıtlar” altında, PDF raporun “Tüm kayıtlar” bölümünde ve CSV dışa aktarımında görürsün; yedekler de onu içerir."
+              "Evet, her kayıt bir not taşıyabilir – ne üzerinde çalıştığın ya da kiminle çalıştığın. Notu, Gün sekmesinde bir kaydı oluştururken ya da düzenlerken eklersin; bir kayıt sürerken ise Kayıt sekmesinin en üstünde ona dokunarak. Notu kaydı açtığında, bir görevin bilgilerinde “Tüm kayıtlar” altında, PDF raporun “Tüm kayıtlar” bölümünde ve CSV dışa aktarımında görürsün; yedekler de onu içerir."
             ]
           },
           {
@@ -595,14 +595,14 @@
       },
       {
         "id": "data",
-        "title": "Eşitleme, yedekleme ve dışa aktarma",
+        "title": "Eşzamanlama, yedekleme ve dışa aktarma",
         "items": [
           {
             "id": "sync",
-            "q": "SimpleTime cihazlarım arasında eşitleniyor mu?",
+            "q": "SimpleTime cihazlarım arasında eşzamanlanıyor mu?",
             "a": [
-              "Evet, iCloud ya da LaCodea ID üzerinden – bunu her cihazda Ayarlar › Veriler ve eşzamanlama bölümünde seçersin. iCloud kullanıldığında, iCloud’u seçtiğin ve aynı Apple Hesabı ile oturum açtığın her cihaz eşitlenir; ne zaman yapılacağına sistem karar verir. Eşitleme zorla başlatılamaz – “Şimdi eşzamanla” bu durumda hesabı ve bağlantıyı denetler, aynı sayfa da son eşitlemenin ne zaman olduğunu gösterir.",
-              "LaCodea ID kullanıldığında, başka bir Apple Hesabı olsa bile aynı LaCodea ID ile giriş yaptığın ve onu seçtiğin her cihaz eşitlenir – uçtan uca şifrelenmiş olarak ve SimpleTime iki cihazda da açıksa birkaç saniye içinde."
+              "Evet, iCloud ya da LaCodea ID üzerinden – bunu her cihazda Ayarlar › Veriler ve eşzamanlama bölümünde seçersin. iCloud kullanıldığında, iCloud’u seçtiğin ve aynı Apple Hesabı ile oturum açtığın her cihaz eşzamanlanır; ne zaman yapılacağına sistem karar verir. Eşzamanlama zorla başlatılamaz – “Şimdi eşzamanla” bu durumda hesabı ve bağlantıyı denetler, aynı sayfa da son eşzamanlamanın ne zaman olduğunu gösterir.",
+              "LaCodea ID kullanıldığında, başka bir Apple Hesabı olsa bile aynı LaCodea ID ile giriş yaptığın ve onu seçtiğin her cihaz eşzamanlanır – uçtan uca şifrelenmiş olarak ve SimpleTime iki cihazda da açıksa birkaç saniye içinde."
             ]
           },
           {
@@ -610,14 +610,14 @@
             "q": "Kayıtlarım diğer cihazda görünmüyor – ne yapabilirim?",
             "a": [
               "Her iki cihazda da Ayarlar › Veriler ve eşzamanlama bölümüne bak: ikisinde de aynı yer seçili olmalı – aynı Apple Hesabı ile iCloud ya da aynı hesapla giriş yapılmış LaCodea ID. Orada bir geçişin ancak daha sonra geçerli olacağı yazıyorsa SimpleTime’ı tamamen kapatıp yeniden aç; ayrıca uygulamayı tüm cihazlarında güncel tut.",
-              "iCloud ile, ayarlardaki Eşitleme bölümünde bulunan “Son eşitleme” en son ne zaman veri aktarıldığını gösterir; “Eşitlemeyi denetle” ise hesabı ve bağlantıyı kontrol eder ve bir sorun varsa nedenini söyler – örneğin iCloud depolama alanının dolu olması. LaCodea ID ile “Veriler ve eşzamanlama” sayfası, değişikliklerin bağlantı bekleyip beklemediğini, başka bir hesabın giriş yapmış olup olmadığını ya da cihazın kurtarma anahtarına ihtiyacı olup olmadığını gösterir. Bu işe yaramazsa [bize yaz](@contact)."
+              "iCloud ile, ayarlardaki Eşzamanlama bölümünde bulunan “Son eşzamanlama” en son ne zaman veri aktarıldığını gösterir; “Eşzamanlamayı denetle” ise hesabı ve bağlantıyı kontrol eder ve bir sorun varsa nedenini söyler – örneğin iCloud depolama alanının dolu olması. LaCodea ID ile “Veriler ve eşzamanlama” sayfası, değişikliklerin bağlantı bekleyip beklemediğini, başka bir hesabın giriş yapmış olup olmadığını ya da cihazın kurtarma anahtarına ihtiyacı olup olmadığını gösterir. Bu işe yaramazsa [bize yaz](@contact)."
             ]
           },
           {
             "id": "without-icloud",
             "q": "SimpleTime'ı iCloud olmadan kullanabilir miyim?",
             "a": [
-              "Evet. Ayarlar › Veriler ve eşzamanlama bölümünde “Yalnızca bu aygıtta” seçeneğini seç – o zaman verilerin bu tek cihazda kalır. Bu durumda yedekler daha da önemlidir: bir yedekleme planı onları otomatik olarak kaydeder, örneğin Dosyalar uygulamasındaki bir klasöre ya da kendi sunucuna. iCloud olmadan da birden fazla cihazı eşitlemek istersen orada LaCodea ID’yi seç; iCloud Anahtar Zinciri’nin bulunmadığı bir cihaz o zaman kurtarma anahtarını bir kez ister."
+              "Evet. Ayarlar › Veriler ve eşzamanlama bölümünde “Yalnızca bu aygıtta” seçeneğini seç – o zaman verilerin bu tek cihazda kalır. Bu durumda yedekler daha da önemlidir: bir yedekleme planı onları otomatik olarak kaydeder, örneğin Dosyalar uygulamasındaki bir klasöre ya da kendi sunucuna. iCloud olmadan da birden fazla cihazı eşzamanlamak istersen orada LaCodea ID’yi seç; iCloud Anahtar Zinciri’nin bulunmadığı bir cihaz o zaman kurtarma anahtarını bir kez ister."
             ]
           },
           {
@@ -625,7 +625,7 @@
             "q": "Verilerimin nerede duracağını nasıl değiştiririm?",
             "a": [
               "Ayarlar › Veriler ve eşzamanlama bölümünde istediğin yere, ardından “Şuna geç: iCloud”, “Şuna geç: LaCodea ID” ya da “Yalnızca bu aygıtta tut” seçeneğine dokun; LaCodea ID için bu sırada giriş yaparsın. iCloud’a ya da LaCodea ID’ye geçmeden önce SimpleTime bu cihazın bir güvenlik kopyasını alır; orada zaten veri varsa “Birleştir” ile “… verilerini kullan” arasında seçim yaparsın.",
-              "Geçiş yalnızca bu cihaz için geçerlidir ve çoğunlukla ancak SimpleTime’ı tamamen kapatıp yeniden açtığında devreye girer – sayfa bunu sana söyler. Diğer cihazların, oralarda da geçiş yapana kadar eskisi gibi eşitlenmeye devam eder. Ardından SimpleTime eski yerdeki verileri silmeyi önerir; bunu ancak diğer cihazların da geçiş yaptıktan sonra yap – yoksa onlar da bu verileri kaybeder."
+              "Geçiş yalnızca bu cihaz için geçerlidir ve çoğunlukla ancak SimpleTime’ı tamamen kapatıp yeniden açtığında devreye girer – sayfa bunu sana söyler. Diğer cihazların, oralarda da geçiş yapana kadar eskisi gibi eşzamanlanmaya devam eder. Ardından SimpleTime eski yerdeki verileri silmeyi önerir; bunu ancak diğer cihazların da geçiş yaptıktan sonra yap – yoksa onlar da bu verileri kaybeder."
             ]
           },
           {
@@ -667,7 +667,7 @@
             "id": "restore",
             "q": "Bir yedeği nasıl geri yüklerim?",
             "a": [
-              "Ayarlar › Yedekler bölümünde bir yedeği geri yüklersin – planlarından birinden ya da bir dosyadan. Mevcut verilerin kalır, eksikler tamamlanır. SimpleTime 4.7 ve önceki sürümlerin yedeklerini Ayarlar › Verileri dışa/içe aktar › JSON'dan yedek içe aktar bölümünden içe aktarırsın. Yeni bir cihazda önce iCloud ya da LaCodea ID üzerinden eşitlemenin verilerini getirmesini bekle – yoksa görevler iki kez görünebilir."
+              "Ayarlar › Yedekler bölümünde bir yedeği geri yüklersin – planlarından birinden ya da bir dosyadan. Mevcut verilerin kalır, eksikler tamamlanır. SimpleTime 4.7 ve önceki sürümlerin yedeklerini Ayarlar › Verileri dışa/içe aktar › JSON'dan yedek içe aktar bölümünden içe aktarırsın. Yeni bir cihazda önce iCloud ya da LaCodea ID üzerinden eşzamanlamanın verilerini getirmesini bekle – yoksa görevler iki kez görünebilir."
             ]
           },
           {
@@ -703,7 +703,7 @@
             "id": "new-device",
             "q": "Yeni bir iPhone'a nasıl geçerim?",
             "a": [
-              "Aynı Apple Hesabı ile oturum aç ve SimpleTime’ı yükle – iCloud kullanıyorsan (Ayarlar › Veriler ve eşzamanlama) kayıtların kendiliğinden geri gelir. LaCodea ID kullanıyorsan yeni cihazda onunla giriş yap ve Veriler ve eşzamanlama bölümünde onu seç; cihaz anahtarı iCloud Anahtar Zinciri’n üzerinden kendiliğinden almazsa uygulama kurtarma anahtarını bir kez ister. Aksi hâlde eski cihazda bir yedek al ve yenisinde geri yükle. Yerler ve ayarlar her cihaza aittir – ne eşitlenir ne de yedeklenir."
+              "Aynı Apple Hesabı ile oturum aç ve SimpleTime’ı yükle – iCloud kullanıyorsan (Ayarlar › Veriler ve eşzamanlama) kayıtların kendiliğinden geri gelir. LaCodea ID kullanıyorsan yeni cihazda onunla giriş yap ve Veriler ve eşzamanlama bölümünde onu seç; cihaz anahtarı iCloud Anahtar Zinciri’n üzerinden kendiliğinden almazsa uygulama kurtarma anahtarını bir kez ister. Aksi hâlde eski cihazda bir yedek al ve yenisinde geri yükle. Yerler ve ayarlar her cihaza aittir – ne eşzamanlanır ne de yedeklenir."
             ]
           }
         ]
@@ -721,7 +721,7 @@
           },
           {
             "id": "lacodea-id-privacy",
-            "q": "LaCodea ID üzerinden eşitlerken kayıtlarımı kim okuyabilir?",
+            "q": "LaCodea ID üzerinden eşzamanlarken kayıtlarımı kim okuyabilir?",
             "a": [
               "Yalnızca senin cihazların. SimpleTime görevleri, süreleri ve notlarıyla kayıtları, sabit saatleri, hedefleri ve anımsatıcıları, SimpleTime’ın kendi sunucusuna gitmeden önce cihazında şifreler (256 bit AES-GCM) – anahtar yalnızca senin cihazlarında bulunur, bizde değil. Sunucu yalnızca hangi türden kaç veri kaydı olduğunu, bunların yaklaşık boyutunu, ne zaman yazıldıklarını ve silinip silinmediklerini görür; sunucu Frankfurt am Main’deki bir veri merkezindedir. Ayrıntılar [gizlilik politikamızda](@privacy)."
             ]
@@ -766,7 +766,7 @@
             "q": "Tüm verilerimi nasıl silerim?",
             "a": [
               "Ayarlarda Gizlilik › Tüm verileri sil bölümünden her şeyi tek seferde kaldırırsın – kayıtları ve görevleri, hedefleri, yerleri, çöp kutusunu, anımsatıcıları, planlarının yedeklerini ve iCloud Drive’daki eski yedekleri, dışa aktarmaları, uygulama kilidinin koduyla birlikte ayarları ve SimpleTime’ın takvimine eklediği etkinlikleri.",
-              "Silme işlemi bu cihazda, iCloud’da ve LaCodea ID üzerinden eşitliyorsan sunucuda yapılır; iCloud üzerinden silme, diğer cihazların çevrimiçi olur olmaz onlara da ulaşır. LaCodea ID üzerinden eşitlemede diğer cihazların verilerini korur ve sen oralarda eşitlemeyi yeniden kurana kadar eşitlenmez – orada da aynı şekilde silersin – ve LaCodea ID hesabın da yerinde kalır. Bu işlem geri alınamaz."
+              "Silme işlemi bu cihazda, iCloud’da ve LaCodea ID üzerinden eşzamanlıyorsan sunucuda yapılır; iCloud üzerinden silme, diğer cihazların çevrimiçi olur olmaz onlara da ulaşır. LaCodea ID üzerinden eşzamanlamada diğer cihazların verilerini korur ve sen oralarda eşzamanlamayı yeniden kurana kadar eşzamanlanmaz – orada da aynı şekilde silersin – ve LaCodea ID hesabın da yerinde kalır. Bu işlem geri alınamaz."
             ]
           },
           {
@@ -781,7 +781,7 @@
             "id": "lacodea-id-delete",
             "q": "Nasıl çıkış yaparım ya da LaCodea ID’mi nasıl silerim?",
             "a": [
-              "Ayarların en üstünde LaCodea ID’ne dokun: “Çıkış Yap” bu cihazdaki tüm LaCodea uygulamalarından çıkış yapmanı sağlar – verilerin burada kalır ve yeniden giriş yaptığın anda tekrar eşitlenir. “SimpleTime bağlantısını kes” yalnızca SimpleTime’ı hesabından ayırır, “LaCodea ID’yi sil” ise hesabı tüm LaCodea uygulamaları için siler – bunu account.lacodea.com adresinde de yapabilirsin. Bağlantıyı kestiğinde de sildiğinde de SimpleTime’ın sunucusu eşitlenmiş verilerini oradan siler; cihazlarında ya da iCloud’da bulunanlar kalır. Apple üzerinden alınan bir abonelik, cihazının ayarlarından iptal edene kadar devam eder."
+              "Ayarların en üstünde LaCodea ID’ne dokun: “Çıkış Yap” bu cihazdaki tüm LaCodea uygulamalarından çıkış yapmanı sağlar – verilerin burada kalır ve yeniden giriş yaptığın anda tekrar eşzamanlanır. “SimpleTime bağlantısını kes” yalnızca SimpleTime’ı hesabından ayırır, “LaCodea ID’yi sil” ise hesabı tüm LaCodea uygulamaları için siler – bunu account.lacodea.com adresinde de yapabilirsin. Bağlantıyı kestiğinde de sildiğinde de SimpleTime’ın sunucusu eşzamanlanmış verilerini oradan siler; cihazlarında ya da iCloud’da bulunanlar kalır. Apple üzerinden alınan bir abonelik, cihazının ayarlarından iptal edene kadar devam eder."
             ]
           }
         ]
@@ -926,7 +926,7 @@
             "id": "account-web",
             "q": "account.lacodea.com adresinde neler yapabilirim?",
             "a": [
-              "Orada LaCodea ID’ni tarayıcıda yönetirsin: giriş yöntemlerini, aboneliklerini, hesap verilerini indirmeyi ve hesabı silmeyi – SimpleTime’da aynı hesaba ayarların en üstünden ulaşırsın. Kayıtlarını orada görmezsin: kayıtlar yalnızca iPhone, iPad, Mac ve Apple Watch’taki SimpleTime’da bulunur. LaCodea ID üzerinden eşitlediğinde, SimpleTime’ın sunucusunda uçtan uca şifrelenmiş olarak dururlar – LaCodea ID’nin kendisi onları hiçbir zaman almaz."
+              "Orada LaCodea ID’ni tarayıcıda yönetirsin: giriş yöntemlerini, aboneliklerini, hesap verilerini indirmeyi ve hesabı silmeyi – SimpleTime’da aynı hesaba ayarların en üstünden ulaşırsın. Kayıtlarını orada görmezsin: kayıtlar yalnızca iPhone, iPad, Mac ve Apple Watch’taki SimpleTime’da bulunur. LaCodea ID üzerinden eşzamanladığında, SimpleTime’ın sunucusunda uçtan uca şifrelenmiş olarak dururlar – LaCodea ID’nin kendisi onları hiçbir zaman almaz."
             ]
           },
           {

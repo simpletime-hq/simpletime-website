@@ -476,7 +476,7 @@
             "id": "notes",
             "q": "¿Puedo añadir notas a las entradas?",
             "a": [
-              "Sí, cada entrada puede llevar una nota – en qué trabajaste o con quién te reuniste. La escribes al crear o editar una entrada en la pestaña Día y, mientras un registro está en curso, tocándolo arriba en la pestaña Seguimiento. La nota se ve al abrir la entrada, en la info de una tarea en «Todas las entradas», en la sección «Todas las entradas» del PDF y en la exportación CSV; las copias de seguridad la incluyen."
+              "Sí, cada entrada puede llevar una nota – en qué trabajaste o con quién. La escribes al crear o editar una entrada en la pestaña Día y, mientras un registro está en curso, tocándolo arriba en la pestaña Seguimiento. La nota se ve al abrir la entrada, en la info de una tarea en «Todas las entradas», en la sección «Todas las entradas» del PDF y en la exportación CSV; las copias de seguridad la incluyen."
             ]
           },
           {

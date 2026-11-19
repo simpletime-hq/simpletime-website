@@ -87,10 +87,10 @@
         "Mål per uppgift – för dagen, veckan eller månaden",
         "Fokusfilter: arbetsfokus slås på, listan visar bara arbetet och klockan går redan",
         "En snabbstartswidget som du fyller själv",
-        "Sju dekorfärger eller en egen, sex typsnitt och sexton appsymboler",
+        "Sju accentfärger eller en egen, sex typsnitt och sexton appsymboler",
         "Fler avsnitt i PDF-rapporten: förlopp, dygnsfördelning, jämförelse, mål"
       ],
-      "pricing": "Pro finns per månad, per år eller en gång för alltid. Nya prenumeranter får en vecka gratis, och med Familjedelning kan upp till sex personer använda Pro. Priserna visas i appen. Månad och år förnyas automatiskt tills du säger upp, vilket går när som helst i inställningarna för App Store. Det som tillkommer senare ingår."
+      "pricing": "Pro finns per månad, per år eller en gång för alltid. Nya abonnenter får en vecka gratis, och med Familjedelning kan upp till sex personer använda Pro. Priserna visas i appen. Månad och år förnyas automatiskt tills du säger upp, vilket går när som helst i inställningarna för App Store. Det som tillkommer senare ingår."
     },
     "closing": "För alla som vill veta vart tiden faktiskt tar vägen – på jobbet, i studierna, på träningen eller för sin egen skull."
   },
@@ -264,7 +264,7 @@
       {
         "id": "style",
         "title": "Färger, typsnitt och appsymboler",
-        "body": "Sju dekorfärger eller en egen, som går genom hela appen – plus sex typsnitt och sexton appsymboler."
+        "body": "Sju accentfärger eller en egen, som går genom hela appen – plus sex typsnitt och sexton appsymboler."
       },
       {
         "id": "report",
@@ -297,7 +297,7 @@
       }
     ],
     "notes": [
-      "Nya prenumeranter kan prova Månadsvis eller Årsvis gratis i en vecka.",
+      "Nya abonnenter kan prova Månadsvis eller Årsvis gratis i en vecka.",
       "Familjedelning: ett köp för upp till sex personer.",
       "Det som tillkommer senare ingår – utan extra köp."
     ],
@@ -476,7 +476,7 @@
             "id": "notes",
             "q": "Kan jag lägga till anteckningar på poster?",
             "a": [
-              "Ja, varje post kan ha en anteckning – vad du arbetade med eller vem du träffade. Du skriver den när du lägger till eller redigerar en post på fliken Dag, och medan en registrering pågår genom att trycka på den högst upp på fliken Registrering. Anteckningen syns när du öppnar posten, i en uppgifts info under ”Alla poster”, i avsnittet ”Alla poster” i PDF-rapporten och i CSV-exporten; säkerhetskopiorna tar med den."
+              "Ja, varje post kan ha en anteckning – vad du arbetade med eller vem du samarbetade med. Du skriver den när du lägger till eller redigerar en post på fliken Dag, och medan en registrering pågår genom att trycka på den högst upp på fliken Registrering. Anteckningen syns när du öppnar posten, i en uppgifts info under ”Alla poster”, i avsnittet ”Alla poster” i PDF-rapporten och i CSV-exporten; säkerhetskopiorna tar med den."
             ]
           },
           {
@@ -774,14 +774,14 @@
             "q": "Vad händer om jag raderar SimpleTime?",
             "a": [
               "Då försvinner det som bara fanns på den här enheten: dina poster om du har valt ”Bara på den här enheten”, säkerhetskopiorna från en plan med ”Bara på den här enheten”, dina platser och dina inställningar inklusive applåset. Det som finns i iCloud eller hos LaCodea ID ligger kvar där och kommer tillbaka när du har installerat om, om du använder samma plats under Data och synkronisering igen.",
-              "Säkerhetskopior i iCloud Drive, i en mapp i appen Filer eller på din server finns kvar, liksom aktiviteterna i din kalender; för en krypterad säkerhetskopia behöver du sedan dess lösenord. En prenumeration fortsätter tills du säger upp den, och ditt LaCodea ID finns kvar. Vill du ta bort allt först använder du Inställningar › Integritet › Radera alla data."
+              "Säkerhetskopior i iCloud Drive, i en mapp i appen Filer eller på din server finns kvar, liksom aktiviteterna i din kalender; för en krypterad säkerhetskopia behöver du sedan dess lösenord. Ett abonnemang fortsätter tills du säger upp det, och ditt LaCodea ID finns kvar. Vill du ta bort allt först använder du Inställningar › Integritet › Radera alla data."
             ]
           },
           {
             "id": "lacodea-id-delete",
             "q": "Hur loggar jag ut eller raderar mitt LaCodea ID?",
             "a": [
-              "Tryck på ditt LaCodea ID högst upp i inställningarna: ”Logga ut” loggar ut dig från alla appar från LaCodea på den här enheten – dina data finns kvar här och synkar igen så snart du loggar in. ”Koppla bort SimpleTime” kopplar bara loss SimpleTime från ditt konto, ”Radera LaCodea ID” raderar kontot för alla appar från LaCodea – det går också på account.lacodea.com. Både när du kopplar bort och när du raderar tar SimpleTimes server bort dina synkade data där; det som finns på dina enheter eller i iCloud finns kvar. En prenumeration via Apple fortsätter tills du säger upp den i enhetens inställningar."
+              "Tryck på ditt LaCodea ID högst upp i inställningarna: ”Logga ut” loggar ut dig från alla appar från LaCodea på den här enheten – dina data finns kvar här och synkar igen så snart du loggar in. ”Koppla bort SimpleTime” kopplar bara loss SimpleTime från ditt konto, ”Radera LaCodea ID” raderar kontot för alla appar från LaCodea – det går också på account.lacodea.com. Både när du kopplar bort och när du raderar tar SimpleTimes server bort dina synkade data där; det som finns på dina enheter eller i iCloud finns kvar. Ett abonnemang via Apple fortsätter tills du säger upp det i enhetens inställningar."
             ]
           }
         ]
@@ -794,7 +794,7 @@
             "id": "pro-includes",
             "q": "Vad ingår i SimpleTime Pro?",
             "a": [
-              "Appen för Apple Watch, tillbakablickar på din vecka, din månad och ditt år, platser, dina poster som aktiviteter i kalendern och uppgifter från kalendrar, året i överblick, mål, fokusfiltret, en snabbstartswidget, sju dekorfärger eller en egen, sex typsnitt, sexton appsymboler, och fler avsnitt i PDF-rapporten. Appen för Apple Watch behöver en iPhone, och platser och appsymboler finns på iPhone och iPad. Det som tillkommer senare ingår. [Allt om SimpleTime Pro](@pro)"
+              "Appen för Apple Watch, tillbakablickar på din vecka, din månad och ditt år, platser, dina poster som aktiviteter i kalendern och uppgifter från kalendrar, året i överblick, mål, fokusfiltret, en snabbstartswidget, sju accentfärger eller en egen, sex typsnitt, sexton appsymboler, och fler avsnitt i PDF-rapporten. Appen för Apple Watch behöver en iPhone, och platser och appsymboler finns på iPhone och iPad. Det som tillkommer senare ingår. [Allt om SimpleTime Pro](@pro)"
             ]
           },
           {
@@ -808,7 +808,7 @@
             "id": "trial",
             "q": "Kan jag prova Pro först?",
             "a": [
-              "Ja. Nya prenumeranter kan prova Månadsvis eller Årsvis gratis i en vecka; appen visar om provperioden gäller dig. Om du inte säger upp senast 24 timmar innan den tar slut förnyas prenumerationen till det pris som visas."
+              "Ja. Nya abonnenter kan prova Månadsvis eller Årsvis gratis i en vecka; appen visar om provperioden gäller dig. Om du inte säger upp senast 24 timmar innan den tar slut förnyas abonnemanget till det pris som visas."
             ]
           },
           {
@@ -828,16 +828,16 @@
           },
           {
             "id": "cancel",
-            "q": "Hur säger jag upp min prenumeration?",
+            "q": "Hur säger jag upp mitt abonnemang?",
             "a": [
-              "I dina App Store-inställningar – på iPhone under Inställningar › ditt namn › Abonnemang – eller i appen på Pro-sidan under Hantera prenumerationen. Det går bara på en enhet med det Apple-konto som du tecknade prenumerationen med; har du Pro via ditt LaCodea ID visar Pro-sidan vilka enheter det gäller. Pro förblir aktivt till slutet av den period du redan har betalat för, och en prenumeration avslutas inte heller om du raderar ditt LaCodea ID."
+              "I dina App Store-inställningar – på iPhone under Inställningar › ditt namn › Abonnemang – eller i appen på Pro-sidan under Hantera abonnemang. Det går bara på en enhet med det Apple-konto som du tecknade abonnemanget med; har du Pro via ditt LaCodea ID visar Pro-sidan vilka enheter det gäller. Pro förblir aktivt till slutet av den period du redan har betalat för, och ett abonnemang avslutas inte heller om du raderar ditt LaCodea ID."
             ]
           },
           {
             "id": "lifetime-switch",
-            "q": "Jag har en prenumeration – kan jag byta till ”Livstid”?",
+            "q": "Jag har ett abonnemang – kan jag byta till ”Livstid”?",
             "a": [
-              "Ja, direkt på Pro-sidan. Apple avslutar dock inte prenumerationen av sig själv: säg upp den efteråt så att den inte förnyas. Appen påminner dig."
+              "Ja, direkt på Pro-sidan. Apple avslutar dock inte abonnemanget av sig själv: säg upp det efteråt så att det inte förnyas. Appen påminner dig."
             ]
           },
           {
@@ -898,7 +898,7 @@
             "id": "look",
             "q": "Kan jag ändra hur SimpleTime ser ut?",
             "a": [
-              "Ja: ljust, mörkt eller enligt systemet, tre radhöjder för uppgiftslistan och under Inställningar › Typsnitt en egen textstorlek och fet text. Med SimpleTime Pro får du också sju dekorfärger eller en egen – den går genom knappar, reglage och diagram –, sex typsnitt och, på iPhone och iPad, sexton appsymboler."
+              "Ja: ljust, mörkt eller enligt systemet, tre radhöjder för uppgiftslistan och under Inställningar › Typsnitt en egen textstorlek och fet text. Med SimpleTime Pro får du också sju accentfärger eller en egen – den går genom knappar, reglage och diagram –, sex typsnitt och, på iPhone och iPad, sexton appsymboler."
             ]
           },
           {

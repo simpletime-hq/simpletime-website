@@ -476,7 +476,7 @@
             "id": "notes",
             "q": "Puis-je ajouter des notes aux entrées ?",
             "a": [
-              "Oui, chaque entrée peut porter une note – ce sur quoi vous avez travaillé, ou qui vous avez rencontré. Vous l’ajoutez en créant ou en modifiant une entrée dans l’onglet Jour et, tant qu’un suivi est en cours, en le touchant en haut de l’onglet Suivi. La note s’affiche quand vous ouvrez l’entrée, dans les infos d’une tâche sous « Toutes les entrées », dans la section « Toutes les entrées » du PDF et dans l’export CSV ; les sauvegardes l’incluent."
+              "Oui, chaque entrée peut porter une note – ce sur quoi vous avez travaillé, ou avec qui. Vous l’ajoutez en créant ou en modifiant une entrée dans l’onglet Jour et, tant qu’un suivi est en cours, en le touchant en haut de l’onglet Suivi. La note s’affiche quand vous ouvrez l’entrée, dans les infos d’une tâche sous « Toutes les entrées », dans la section « Toutes les entrées » du PDF et dans l’export CSV ; les sauvegardes l’incluent."
             ]
           },
           {

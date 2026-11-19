@@ -476,7 +476,7 @@
             "id": "notes",
             "q": "Posso aggiungere note alle voci?",
             "a": [
-              "Sì, ogni voce può avere una nota – su cosa hai lavorato o chi hai incontrato. La scrivi quando crei o modifichi una voce nella scheda Giorno e, finché una registrazione è in corso, toccandola in cima alla scheda Tracciamento. La nota si vede quando apri la voce, nelle info di un’attività sotto «Tutte le voci», nella sezione «Tutte le voci» del PDF e nell’esportazione CSV; i backup la includono."
+              "Sì, ogni voce può avere una nota – su cosa hai lavorato o con chi. La scrivi quando crei o modifichi una voce nella scheda Giorno e, finché una registrazione è in corso, toccandola in cima alla scheda Tracciamento. La nota si vede quando apri la voce, nelle info di un’attività sotto «Tutte le voci», nella sezione «Tutte le voci» del PDF e nell’esportazione CSV; i backup la includono."
             ]
           },
           {

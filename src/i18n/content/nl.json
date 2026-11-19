@@ -358,7 +358,7 @@
             "id": "account",
             "q": "Heb ik een account nodig?",
             "a": [
-              "Nee. Je opent de app en begint – zonder je ergens aan te melden. Gebruik je iCloud, dan loopt de synchronisatie via je eigen Apple Account, dat wij nooit te zien krijgen. Als je wilt, kun je inloggen met LaCodea ID, ons account voor alle apps van LaCodea. Dan slaan we je account en je aankopen van SimpleTime Pro op – je invoer alleen als je onder Gegevens en synchronisatie LaCodea ID als opslaglocatie kiest, en dan end-to-end versleuteld."
+              "Nee. Je opent de app en begint – zonder je ergens aan te melden. Gebruik je iCloud, dan loopt de synchronisatie via je eigen Apple Account, dat wij nooit te zien krijgen. Als je wilt, kun je inloggen met LaCodea ID, ons account voor alle apps van LaCodea. Dan slaan we je account en je aankopen van SimpleTime Pro op – je registraties alleen als je onder Gegevens en synchronisatie LaCodea ID als opslaglocatie kiest, en dan end-to-end versleuteld."
             ]
           },
           {
@@ -476,7 +476,7 @@
             "id": "notes",
             "q": "Kan ik notities bij registraties zetten?",
             "a": [
-              "Ja, elke registratie kan een notitie hebben – waaraan je hebt gewerkt, of met wie je hebt afgesproken. Je schrijft die erbij als je in het tabblad Dag een registratie aanmaakt of wijzigt, en zolang een registratie loopt, met een tik erop bovenaan in het tabblad Registratie. Je ziet de notitie als je de registratie opent, in de info van een taak onder „Alle registraties”, in het onderdeel „Alle registraties” van het pdf-rapport en in de CSV-export; back-ups nemen die mee."
+              "Ja, elke registratie kan een notitie hebben – waaraan je hebt gewerkt, of met wie. Je schrijft die erbij als je in het tabblad Dag een registratie aanmaakt of wijzigt, en zolang een registratie loopt, met een tik erop bovenaan in het tabblad Registratie. Je ziet de notitie als je de registratie opent, in de info van een taak onder „Alle registraties”, in het onderdeel „Alle registraties” van het pdf-rapport en in de CSV-export; back-ups nemen die mee."
             ]
           },
           {
@@ -703,7 +703,7 @@
             "id": "new-device",
             "q": "Hoe stap ik over op een nieuwe iPhone?",
             "a": [
-              "Log in met hetzelfde Apple Account en installeer SimpleTime – gebruik je iCloud (Instellingen › Gegevens en synchronisatie), dan komt je invoer vanzelf terug. Gebruik je LaCodea ID, dan log je op het nieuwe apparaat daarmee in en kies je LaCodea ID onder Gegevens en synchronisatie; krijgt het apparaat de sleutel niet vanzelf via je iCloud-sleutelhanger, dan vraagt de app één keer om je herstelsleutel. Anders maak je op het oude apparaat een back-up en zet je die op het nieuwe terug. Locaties en instellingen horen bij het apparaat – ze worden niet gesynchroniseerd en zitten ook niet in back-ups."
+              "Log in met hetzelfde Apple Account en installeer SimpleTime – gebruik je iCloud (Instellingen › Gegevens en synchronisatie), dan komen je registraties vanzelf terug. Gebruik je LaCodea ID, dan log je op het nieuwe apparaat daarmee in en kies je LaCodea ID onder Gegevens en synchronisatie; krijgt het apparaat de sleutel niet vanzelf via je iCloud-sleutelhanger, dan vraagt de app één keer om je herstelsleutel. Anders maak je op het oude apparaat een back-up en zet je die op het nieuwe terug. Locaties en instellingen horen bij het apparaat – ze worden niet gesynchroniseerd en zitten ook niet in back-ups."
             ]
           }
         ]
@@ -716,7 +716,7 @@
             "id": "data-location",
             "q": "Waar worden mijn gegevens bewaard?",
             "a": [
-              "Waar jij kiest: in Instellingen › Gegevens en synchronisatie kies je tussen „Alleen op dit apparaat”, je privé-iCloud, waar Apple je gegevens versleutelt, en LaCodea ID, waar ze end-to-end versleuteld zijn – op geen van deze plekken kunnen wij je invoer lezen. Back-ups staan waar je back-upplannen ze neerzetten; zonder wachtwoord kan iedereen met toegang tot die plek ze lezen. Zet je met Pro „Registraties in Agenda” aan, dan staan afgeronde registraties bovendien als activiteiten in je agenda – zichtbaar voor de aanbieder ervan en voor iedereen met wie je die agenda deelt."
+              "Waar jij kiest: in Instellingen › Gegevens en synchronisatie kies je tussen „Alleen op dit apparaat”, je privé-iCloud, waar Apple je gegevens versleutelt, en LaCodea ID, waar ze end-to-end versleuteld zijn – op geen van deze plekken kunnen wij je registraties lezen. Back-ups staan waar je back-upplannen ze neerzetten; zonder wachtwoord kan iedereen met toegang tot die plek ze lezen. Zet je met Pro „Registraties in Agenda” aan, dan staan afgeronde registraties bovendien als activiteiten in je agenda – zichtbaar voor de aanbieder ervan en voor iedereen met wie je die agenda deelt."
             ]
           },
           {
@@ -765,7 +765,7 @@
             "id": "delete-all",
             "q": "Hoe verwijder ik al mijn gegevens?",
             "a": [
-              "In de instellingen onder Privacy › Alle gegevens verwijderen verwijder je alles in één keer – invoer en taken, doelen, locaties, de prullenmand, herinneringen, de back-ups van je plannen en de oude back-ups in iCloud Drive, exports, instellingen inclusief de code van de app-vergrendeling en de activiteiten die SimpleTime in je agenda heeft gezet.",
+              "In de instellingen onder Privacy › Alle gegevens verwijderen verwijder je alles in één keer – registraties en taken, doelen, locaties, de prullenmand, herinneringen, de back-ups van je plannen en de oude back-ups in iCloud Drive, exports, instellingen inclusief de code van de app-vergrendeling en de activiteiten die SimpleTime in je agenda heeft gezet.",
               "Er wordt verwijderd op dit apparaat, in iCloud en, als je via LaCodea ID synchroniseert, op de server; via iCloud bereikt het verwijderen ook je andere apparaten zodra ze online zijn. Synchroniseer je via LaCodea ID, dan houden je andere apparaten hun gegevens en synchroniseren ze niet meer tot je de synchronisatie daar opnieuw instelt – verwijder ze daar ook –, en je account bij LaCodea ID blijft bestaan. Dit kan niet ongedaan worden gemaakt."
             ]
           },

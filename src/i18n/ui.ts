@@ -591,7 +591,7 @@ export const ui = {
       'SimpleTime-ը մնում է անվճար։ Pro-ն ավելացնում է Apple Watch-ի հավելվածը, ամփոփումներ, վայրեր, նպատակներ, կենտրոնացման զտիչ և ավելին՝ ամսական, տարեկան կամ ցմահ։',
     'meta.faq.title': 'Հարցեր և պատասխաններ · SimpleTime',
     'meta.faq.description':
-      'Պատասխաններ SimpleTime-ի մասին ամենահաճախ տրվող հարցերին՝ հաշվառում, վիջեթներ և Siri, iCloud-ի համաժամեցում և պահուստներ, գաղտնիություն և SimpleTime Pro։',
+      'Պատասխաններ SimpleTime-ի մասին ամենահաճախ տրվող հարցերին՝ հաշվառում, վիջեթներ և Siri, iCloud-ի համաժամացում և պահուստներ, գաղտնիություն և SimpleTime Pro։',
 
     'nav.features': 'Հնարավորություններ',
     'nav.devices': 'Սարքեր',
@@ -773,7 +773,7 @@ export const ui = {
       'SimpleTime ücretsiz kalır. Pro; Apple Watch uygulamasını, özetleri, yerleri, hedefleri, odak filtresini ve dahasını ekler – aylık, yıllık ya da tek seferde sonsuza dek.',
     'meta.faq.title': 'Sorular ve yanıtlar · SimpleTime',
     'meta.faq.description':
-      'SimpleTime hakkında en sık sorulan soruların yanıtları: kayıt, widget\'lar ve Siri, iCloud eşitlemesi ve yedekler, gizlilik ve SimpleTime Pro.',
+      'SimpleTime hakkında en sık sorulan soruların yanıtları: kayıt, widget\'lar ve Siri, iCloud eşzamanlaması ve yedekler, gizlilik ve SimpleTime Pro.',
 
     'nav.features': 'Özellikler',
     'nav.devices': 'Cihazlar',
@@ -1311,7 +1311,7 @@ export const ui = {
     'meta.imprint.description':
       'Ansvarig utgivare för simple-time.app enligt § 5 DDG – innehavare, kontaktuppgifter och ansvarsinformation för appen och webbplatsen SimpleTime.',
     'meta.terms.description':
-      'Användarvillkoren för SimpleTime: en gratis app, SimpleTime Pro via App Store, prenumerationer och provvecka, dina data, ansvar och tillämplig lag.',
+      'Användarvillkoren för SimpleTime: en gratis app, SimpleTime Pro via App Store, abonnemang och provvecka, dina data, ansvar och tillämplig lag.',
     'meta.accessibility.description':
       'Hur tillgängliga SimpleTime och den här webbplatsen är: VoiceOver, stor text, 41 språk, automatiska kontroller – och det som inte är bra än.',
     'meta.pro.title': 'SimpleTime Pro – Apple Watch, platser, mål och mer',

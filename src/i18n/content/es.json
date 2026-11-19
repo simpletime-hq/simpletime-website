@@ -1,7 +1,7 @@
 {
   "store": {
     "lead": "SimpleTime registra en qué se va tu tiempo. Un toque lo inicia, un toque lo detiene.",
-    "promise": "Sin cuenta obligatoria ni publicidad. Tus horas se quedan en tu dispositivo – y en tu iCloud, si quieres.",
+    "promise": "Sin cuenta obligatoria ni publicidad. Tus horas se quedan en tu dispositivo – y en tu iCloud o en LaCodea ID, si quieres.",
     "sections": [
       {
         "id": "tracking",
@@ -57,7 +57,7 @@
         "id": "devices",
         "title": "En todos tus dispositivos",
         "points": [
-          "iPhone, iPad y Mac, sincronizados por iCloud",
+          "iPhone, iPad y Mac, sincronizados por iCloud o LaCodea ID",
           "41 idiomas, independientes del idioma del dispositivo",
           "VoiceOver y texto dinámico en toda la app"
         ]
@@ -67,7 +67,7 @@
         "title": "Tus datos",
         "points": [
           "Bloqueo con Face ID, Touch ID o un código propio",
-          "Tú eliges dónde están tus datos: solo en este dispositivo o en tu iCloud",
+          "Tú eliges dónde están tus datos: solo en este dispositivo, en tu iCloud o cifrados de extremo a extremo en LaCodea ID",
           "Privacidad en una sola página: todos los permisos y tus datos de un vistazo",
           "LaCodea ID: una cuenta para todas las apps de LaCodea – SimpleTime funciona sin ella",
           "Sin publicidad ni venta de tus datos – sin cuenta, solo recibimos informes de errores y estadísticas de uso anónimos, que puedes desactivar",
@@ -87,7 +87,7 @@
         "Objetivos por tarea – para el día, la semana o el mes",
         "Filtro de concentración: se activa el foco de trabajo, la lista muestra solo el trabajo y el reloj ya corre",
         "Un widget de inicio rápido que compones tú",
-        "Siete colores de acento o uno propio, más dieciséis iconos de app",
+        "Siete colores de acento o uno propio, seis tipografías y dieciséis iconos de app",
         "Secciones adicionales en el informe PDF: evolución, reparto del día, comparación, objetivos"
       ],
       "pricing": "Pro está disponible por mes, por año o una sola vez para siempre. Los nuevos suscriptores tienen una semana gratis, y con «En familia» hasta seis personas pueden usar Pro. Los precios se muestran en la app. Las suscripciones mensual y anual se renuevan automáticamente hasta que las canceles, algo que puedes hacer en cualquier momento en los ajustes del App Store. Lo que llegue después está incluido."
@@ -111,7 +111,7 @@
     },
     "devices": {
       "title": "En todos tus dispositivos.",
-      "subtitle": "iPhone, iPad y Mac se mantienen sincronizados por iCloud, y el reloj sigue corriendo en la pantalla de bloqueo, en la Dynamic Island y en tu muñeca."
+      "subtitle": "iPhone, iPad y Mac se mantienen sincronizados por iCloud o LaCodea ID, y el reloj sigue corriendo en la pantalla de bloqueo, en la Dynamic Island y en tu muñeca."
     },
     "showcase": [
       {
@@ -263,8 +263,8 @@
       },
       {
         "id": "style",
-        "title": "Colores e iconos de app",
-        "body": "Siete colores de acento o uno propio, que recorre toda la app – más dieciséis iconos de app."
+        "title": "Colores, tipografías e iconos de app",
+        "body": "Siete colores de acento o uno propio, que recorre toda la app – más seis tipografías y dieciséis iconos de app."
       },
       {
         "id": "report",
@@ -305,7 +305,7 @@
     "terms": "Términos de uso (EULA)",
     "privacy": "Política de privacidad",
     "freeTitle": "Lo que sigue siendo gratis",
-    "freeBody": "Todo lo que necesitas para registrar tu tiempo: tareas y subtareas, la vista del día y la línea de tiempo, gráficos y estadísticas, el informe PDF y la exportación CSV, los widgets, la actividad en directo, el centro de control y Siri, la sincronización con iCloud y los planes de copia de seguridad, y el bloqueo de la app – en 41 idiomas. Sin cuenta, sin publicidad, sin venta de tus datos.",
+    "freeBody": "Todo lo que necesitas para registrar tu tiempo: tareas y subtareas, los horarios fijos, la vista del día y la línea de tiempo, gráficos y estadísticas, el informe PDF y la exportación CSV, los widgets, la actividad en directo, el centro de control y Siri, la sincronización con iCloud o LaCodea ID, los planes de copia de seguridad y el bloqueo de la app – en 41 idiomas. Sin cuenta, sin publicidad, sin venta de tus datos.",
     "howTitle": "Cómo conseguir Pro",
     "how": [
       "En SimpleTime, abre Ajustes › SimpleTime Pro.",

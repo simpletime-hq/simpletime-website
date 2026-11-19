@@ -1,7 +1,7 @@
 {
   "store": {
     "lead": "SimpleTime erfasst, womit du deine Zeit verbringst. Ein Tipp startet, ein Tipp stoppt.",
-    "promise": "Kein Konto nötig, keine Werbung. Deine Zeiten bleiben auf deinem Gerät – und in deiner iCloud, wenn du willst.",
+    "promise": "Kein Konto nötig, keine Werbung. Deine Zeiten bleiben auf deinem Gerät – und in deiner iCloud oder bei der LaCodea ID, wenn du willst.",
     "sections": [
       {
         "id": "tracking",
@@ -57,7 +57,7 @@
         "id": "devices",
         "title": "Auf allen Geräten",
         "points": [
-          "iPhone, iPad und Mac, über iCloud synchron",
+          "iPhone, iPad und Mac, über iCloud oder die LaCodea ID synchron",
           "41 Sprachen, unabhängig von der Sprache deines Geräts",
           "VoiceOver und Dynamic Type in der ganzen App"
         ]
@@ -67,7 +67,7 @@
         "title": "Deine Daten",
         "points": [
           "App-Sperre mit Face ID, Touch ID oder eigenem Code",
-          "Du wählst, wo deine Daten liegen: nur auf diesem Gerät oder in deiner iCloud",
+          "Du wählst, wo deine Daten liegen: nur auf diesem Gerät, in deiner iCloud oder Ende-zu-Ende-verschlüsselt bei der LaCodea ID",
           "Datenschutz auf einer Seite: jede Berechtigung und deine Daten im Überblick",
           "Auf Wunsch die LaCodea ID, ein Konto für alle Apps von LaCodea – SimpleTime geht auch ohne",
           "Keine Werbung, kein Verkauf deiner Daten – ohne Konto gehen an uns nur anonyme Absturzberichte und Nutzungszahlen, abschaltbar",
@@ -87,7 +87,7 @@
         "Ziele je Aufgabe – für den Tag, die Woche oder den Monat",
         "Fokusfilter: Der Arbeitsfokus geht an, die Liste zeigt nur die Arbeit, die Uhr läuft",
         "Schnellstart-Widget, das du selbst bestückst",
-        "Sieben Akzentfarben oder eine eigene, dazu sechzehn App-Symbole",
+        "Sieben Akzentfarben oder eine eigene, sechs Schriften und sechzehn App-Symbole",
         "Zusätzliche Abschnitte im PDF-Bericht: Verlauf, Tagesverteilung, Vergleich, Ziele"
       ],
       "pricing": "Pro gibt es im Monat, im Jahr oder einmalig für immer. Wer neu abonniert, bekommt eine Gratiswoche, und mit der Familienfreigabe können bis zu sechs Personen Pro nutzen. Die Preise stehen in der App. Monat und Jahr verlängern sich automatisch, bis du kündigst; das geht jederzeit in den Einstellungen des App Store. Was künftig dazukommt, ist enthalten."
@@ -111,7 +111,7 @@
     },
     "devices": {
       "title": "Auf allen deinen Geräten.",
-      "subtitle": "iPhone, iPad und Mac gleichen sich über iCloud ab – und die Uhr läuft mit: auf dem Sperrbildschirm, in der Dynamic Island und am Handgelenk."
+      "subtitle": "iPhone, iPad und Mac gleichen sich über iCloud oder die LaCodea ID ab – und die Uhr läuft mit: auf dem Sperrbildschirm, in der Dynamic Island und am Handgelenk."
     },
     "showcase": [
       {
@@ -263,8 +263,8 @@
       },
       {
         "id": "style",
-        "title": "Farben und App-Symbole",
-        "body": "Sieben Akzentfarben oder eine eigene, die sich durch die ganze App zieht – dazu sechzehn App-Symbole."
+        "title": "Farben, Schriften und App-Symbole",
+        "body": "Sieben Akzentfarben oder eine eigene, die sich durch die ganze App zieht – dazu sechs Schriften und sechzehn App-Symbole."
       },
       {
         "id": "report",
@@ -305,7 +305,7 @@
     "terms": "Nutzungsbedingungen (EULA)",
     "privacy": "Datenschutzerklärung",
     "freeTitle": "Was kostenlos bleibt",
-    "freeBody": "Alles, was du zum Erfassen brauchst: Aufgaben und Unteraufgaben, Tagesansicht und Zeitachse, Diagramme und Statistiken, PDF-Bericht und CSV-Export, Widgets, die Live-Aktivität, Kontrollzentrum und Siri, iCloud-Sync und Backup-Pläne sowie die App-Sperre – in 41 Sprachen. Ohne Konto, ohne Werbung, ohne Verkauf deiner Daten.",
+    "freeBody": "Alles, was du zum Erfassen brauchst: Aufgaben und Unteraufgaben, feste Zeiten, Tagesansicht und Zeitachse, Diagramme und Statistiken, PDF-Bericht und CSV-Export, Widgets, die Live-Aktivität, Kontrollzentrum und Siri, der Abgleich über iCloud oder die LaCodea ID, Backup-Pläne und die App-Sperre – in 41 Sprachen. Ohne Konto, ohne Werbung, ohne Verkauf deiner Daten.",
     "howTitle": "So bekommst du Pro",
     "how": [
       "Öffne in SimpleTime Einstellungen › SimpleTime Pro.",

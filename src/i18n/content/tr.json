@@ -1,7 +1,7 @@
 {
   "store": {
     "lead": "SimpleTime zamanının nereye gittiğini kaydeder. Tek dokunuş başlatır, tek dokunuş durdurur.",
-    "promise": "Hesap gerekmez, reklam yok. Saatlerin cihazında kalır – istersen kendi iCloud’unda da.",
+    "promise": "Hesap gerekmez, reklam yok. Saatlerin cihazında kalır – istersen kendi iCloud’unda ya da LaCodea ID’de de.",
     "sections": [
       {
         "id": "tracking",
@@ -57,7 +57,7 @@
         "id": "devices",
         "title": "Tüm cihazlarında",
         "points": [
-          "iPhone, iPad ve Mac, iCloud üzerinden eşzamanlı",
+          "iPhone, iPad ve Mac, iCloud ya da LaCodea ID üzerinden eşzamanlı",
           "Cihazının dilinden bağımsız 41 dil",
           "Uygulamanın tamamında VoiceOver ve dinamik yazı tipi"
         ]
@@ -67,7 +67,7 @@
         "title": "Verilerin",
         "points": [
           "Face ID, Touch ID ya da kendi kodunla uygulama kilidi",
-          "Verilerinin nerede duracağını sen seçersin: yalnızca bu cihazda ya da iCloud’unda",
+          "Verilerinin nerede duracağını sen seçersin: yalnızca bu cihazda, iCloud’unda ya da uçtan uca şifrelenmiş olarak LaCodea ID’de",
           "Gizlilik tek sayfada: tüm izinlere ve verilerine genel bakış",
           "İstersen LaCodea ID, tüm LaCodea uygulamaları için tek hesap – SimpleTime onsuz da çalışır",
           "Reklam yok, verilerin satılmaz – hesap olmadan bize yalnızca anonim çökme raporları ve kullanım istatistikleri gelir, onları da kapatabilirsin",
@@ -87,7 +87,7 @@
         "Görev başına hedefler – gün, hafta ya da ay için",
         "Odak filtresi: iş odağı açılır, liste yalnızca işi gösterir, saat çoktan işlemektedir",
         "Kendi doldurduğun bir hızlı başlat widget'ı",
-        "Yedi vurgu rengi ya da kendi rengin, ayrıca on altı uygulama simgesi",
+        "Yedi vurgu rengi ya da kendi rengin, altı yazı tipi ve on altı uygulama simgesi",
         "PDF raporda ek bölümler: gelişim, gün içi dağılım, karşılaştırma, hedefler"
       ],
       "pricing": "Pro aylık, yıllık ya da tek seferde sonsuza dek alınabilir. Yeni abonelere ilk hafta ücretsiz, Aile Paylaşımı ile de Pro'yu en fazla altı kişi kullanabilir. Fiyatlar uygulamada gösterilir. Aylık ve yıllık, sen iptal edene dek otomatik yenilenir; bunu istediğin an App Store ayarlarından yapabilirsin. Sonradan eklenenler dahildir."
@@ -111,7 +111,7 @@
     },
     "devices": {
       "title": "Tüm cihazlarında.",
-      "subtitle": "iPhone, iPad ve Mac iCloud üzerinden eşzamanlı kalır; süre kilitli ekranda, Dynamic Island'da ve bileğinde işlemeye devam eder."
+      "subtitle": "iPhone, iPad ve Mac iCloud ya da LaCodea ID üzerinden eşzamanlı kalır; süre kilitli ekranda, Dynamic Island'da ve bileğinde işlemeye devam eder."
     },
     "showcase": [
       {
@@ -263,8 +263,8 @@
       },
       {
         "id": "style",
-        "title": "Renkler ve uygulama simgeleri",
-        "body": "Yedi vurgu rengi ya da kendi rengin, uygulamanın tamamında – ayrıca on altı uygulama simgesi."
+        "title": "Renkler, yazı tipleri ve uygulama simgeleri",
+        "body": "Yedi vurgu rengi ya da kendi rengin, uygulamanın tamamında – ayrıca altı yazı tipi ve on altı uygulama simgesi."
       },
       {
         "id": "report",
@@ -305,7 +305,7 @@
     "terms": "Kullanım koşulları (EULA)",
     "privacy": "Gizlilik politikası",
     "freeTitle": "Ücretsiz kalanlar",
-    "freeBody": "Kayıt için ihtiyacın olan her şey: görevler ve alt görevler, gün görünümü ve zaman çizelgesi, grafikler ve istatistikler, PDF rapor ve CSV dışa aktarma, widget'lar, Canlı Etkinlik, Denetim Merkezi ve Siri, iCloud eşitlemesi ve yedekleme planları, uygulama kilidi – 41 dilde. Hesap yok, reklam yok, verilerin satılmaz.",
+    "freeBody": "Kayıt için ihtiyacın olan her şey: görevler ve alt görevler, sabit saatler, gün görünümü ve zaman çizelgesi, grafikler ve istatistikler, PDF rapor ve CSV dışa aktarma, widget'lar, Canlı Etkinlik, Denetim Merkezi ve Siri, iCloud ya da LaCodea ID üzerinden eşitleme, yedekleme planları ve uygulama kilidi – 41 dilde. Hesap yok, reklam yok, verilerin satılmaz.",
     "howTitle": "Pro'yu nasıl alırsın",
     "how": [
       "SimpleTime'da Ayarlar › SimpleTime Pro'yu aç.",

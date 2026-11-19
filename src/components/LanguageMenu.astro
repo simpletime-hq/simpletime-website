@@ -31,8 +31,8 @@ const options = (Object.keys(languages) as Lang[]).map((code) => ({
 */}
 <details class={`lang-menu relative ${className}`}>
   <summary
-    class="flex h-9 cursor-pointer list-none items-center gap-1.5 rounded-full px-2.5 text-[12.5px] font-medium text-ink/75 transition-colors hover:bg-surface-2 hover:text-ink"
-    aria-label={`${t('nav.language')}: ${languages[lang]}`}
+    class="flex h-9 cursor-pointer list-none items-center gap-1.5 rounded-full px-2.5 text-[12.5px] font-medium text-ink/85 transition-colors hover:bg-surface-2 hover:text-ink"
+    aria-label={`${lang.toUpperCase()} – ${t('nav.language')}: ${languages[lang]}`}
   >
     <svg
       class="h-4 w-4"

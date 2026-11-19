@@ -51,7 +51,7 @@ const ticks = Array.from({ length: 60 }, (_, i) => {
       </p>
 
       <div class="rise delay-3 mt-8 flex flex-wrap items-center gap-x-8 gap-y-5 sm:mt-10">
-        <AppStoreButton label={t('appstore.download')} size="lg" />
+        <AppStoreButton size="lg" />
         <a href="#features" class="link-more text-[17px]">
           {hero.cta}
           <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
@@ -66,15 +66,18 @@ const ticks = Array.from({ length: 60 }, (_, i) => {
     </ul>
 
     <div class="hero-visual relative">
-      <div class="hero-stage">
+      <div class="hero-stage" data-loop>
         <svg class="hero-dial rise-media" viewBox="0 0 400 400" aria-hidden="true">
           <circle cx="200" cy="200" r="150" class="hero-dial__face" />
           {ticks.map((tick) => <line x1={tick.x1} y1={tick.y1} x2={tick.x2} y2={tick.y2} class:list={['hero-dial__tick', tick.major && 'is-major']} />)}
         </svg>
 
+        {/* Below 1024 px the same sizes as the tour's first picture, the same screenshot
+            a little larger: both then share one file. Sized for the hero alone, a 3×
+            phone fetched 26 KB here and 43 KB for the tour (audit 19.11.2026). */}
         <div class="hero-phone rise-media delay-1">
           <div class="drift-a">
-            <DeviceFrame image={phoneScreen(lang, 'tracking')} alt={shots[0].alt} loading="eager" sizes="(min-width: 1024px) 320px, 64vw" />
+            <DeviceFrame image={phoneScreen(lang, 'tracking')} alt={shots[0].alt} loading="eager" sizes="(min-width: 1024px) 302px, (min-width: 420px) 288px, 69vw" />
           </div>
         </div>
 
@@ -104,8 +107,11 @@ const ticks = Array.from({ length: 60 }, (_, i) => {
   /* Phones: the words, the phone, then the promises under it – so the product
      is in the first screenful. From 1024px the promises go back under the
      words and the phone stands beside both. */
+  /* One column no wider than the page: without minmax(0, …) it grew to the
+     longest promise – 312px of Greek in a 280px gutter at 320px. */
   .hero-grid {
     display: grid;
+    grid-template-columns: minmax(0, 1fr);
     grid-template-areas: 'copy' 'visual' 'proof';
     row-gap: 3rem;
   }
@@ -148,9 +154,16 @@ const ticks = Array.from({ length: 60 }, (_, i) => {
     }
   }
 
-  /* The dot belongs to the item before it, so a wrapped line never starts with one. */
+  /* The dot belongs to the item before it, so a wrapped line never starts with one.
+     Below 480px a promise may wrap inside itself – some are longer than the line. */
   .hero-proof li {
     white-space: nowrap;
+  }
+
+  @media (max-width: 479px) {
+    .hero-proof li {
+      white-space: normal;
+    }
   }
 
   .hero-proof li:not(:last-child)::after {
@@ -235,8 +248,13 @@ const ticks = Array.from({ length: 60 }, (_, i) => {
     }
   }
 
+  /* No backdrop blur here: the card drifts, so the blur behind it was redrawn
+     every frame, and through a ground 94 % opaque it changed at most 12 of 255
+     in a colour channel (audit 19.11.2026). */
   .hero-live :global(.live-card) {
     --tint: #5e5ce6;
+    -webkit-backdrop-filter: none;
+    backdrop-filter: none;
   }
 
   .hero-live :global(.live-card__timer) {

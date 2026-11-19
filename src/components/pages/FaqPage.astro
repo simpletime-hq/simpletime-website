@@ -157,10 +157,16 @@ const faqSchema = {
     const groups = [...root.querySelectorAll<HTMLElement>('[data-faq-group]')];
     const lang = document.documentElement.lang;
 
-    // Case- and accent-insensitive: "resume" finds "résumé". Only Latin, Greek
-    // and Cyrillic accents are folded – other scripts carry meaning in their marks.
+    // Case- and accent-insensitive: "resume" finds "résumé". Folded are the marks
+    // people leave out when they type: Latin, Greek and Cyrillic accents; Arabic
+    // harakat, shadda, superscript alef and tatweel ("مشفرة" finds "مشفّرة"); Hebrew
+    // points; the Devanagari nukta ("फाइल" finds "फ़ाइल"). Marks that carry meaning
+    // – Devanagari vowel signs, Japanese dakuten – stay.
     const fold = (text: string) =>
-      text.toLocaleLowerCase(lang).normalize('NFD').replace(/[̀-ͯ]/g, '');
+      text
+        .toLocaleLowerCase(lang)
+        .normalize('NFD')
+        .replace(/[̀-ًͯ-ٰٟـ֑-़ׇֽֿׁׂׅׄ]/g, '');
 
     const index = [...root.querySelectorAll<HTMLDetailsElement>('[data-faq-item]')].map((item) => ({
       item,
@@ -205,7 +211,8 @@ const faqSchema = {
       if (status) status.textContent = searching ? (root.dataset.results ?? '').replace('{count}', String(count)) : '';
       if (empty) empty.hidden = !(searching && count === 0);
       if (emptyText && searching && count === 0) {
-        emptyText.textContent = (root.dataset.noResults ?? '').replace('{query}', query);
+        // A function, not the string: "$&" or "$'" in what was typed must show as typed.
+        emptyText.textContent = (root.dataset.noResults ?? '').replace('{query}', () => query);
       }
     };
 

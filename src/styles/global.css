@@ -261,6 +261,13 @@ main > :first-child {
   text-wrap: balance;
 }
 
+/* Japanese has no spaces: headings broke inside a word at 320px ("ワンタ/ップで").
+   auto-phrase breaks between phrases where the browser can (Chromium); others
+   ignore it and break as before. */
+:lang(ja) :is(.t-hero, .t-section, .t-title, .eyebrow) {
+  word-break: auto-phrase;
+}
+
 .t-hero {
   font-size: clamp(3rem, 1.1rem + 5.5vw, 6.25rem);
   line-height: 0.95;
@@ -363,11 +370,12 @@ h3 {
   font-variant-numeric: tabular-nums;
 }
 
-/* Visible, consistent keyboard focus everywhere. */
+/* Visible, consistent keyboard focus everywhere. The outline follows each
+   element's own corners – a border-radius here turned every pill and the App
+   Store badge square while focused, and beat Tailwind's rounded-* (audit 19.11.2026). */
 :focus-visible {
   outline: 2px solid var(--accent);
   outline-offset: 3px;
-  border-radius: 4px;
 }
 
 /* ------------------------------------------------------------- layout --- */
@@ -781,6 +789,16 @@ h3 {
   .drift-c {
     animation: none;
   }
+}
+
+/* Endless animations rest while their part of the page is out of sight: the
+   script in Layout.astro marks a [data-loop] that has left the window. Without
+   script nothing is marked and everything moves as before. */
+.is-resting,
+.is-resting *,
+.is-resting *::before,
+.is-resting *::after {
+  animation-play-state: paused !important;
 }
 
 /* Ring charts (src/i18n/ring.ts): every slice fills in its turn – when the

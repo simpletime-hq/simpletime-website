@@ -3,3 +3,6 @@
 # Without it, every /app/… address shows the one page that explains where it leads –
 # with status 200 and the address unchanged.
 /app/* /app/ 200
+
+# Many tools look for the sitemap at /sitemap.xml; robots.txt names the index.
+/sitemap.xml /sitemap-index.xml 301

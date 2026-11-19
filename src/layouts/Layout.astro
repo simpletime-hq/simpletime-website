@@ -64,6 +64,10 @@ const dir = RTL_LOCALES.has(lang) ? 'rtl' : 'ltr';
 // and never fetch Inter or Noto. The headlines are another matter – every
 // device sets them in Mona Sans, and the hero's arrives with the first bytes.
 // Latin only: other scripts fall back to the text face for their headlines.
+// Their digits and the brand are Latin, so the file comes there too, later, and
+// its swap lays the page out again. Preloaded on /ar/ and /ja/ (audit 19.11.2026,
+// phone ×4 CPU) that second layout only moved before the first paint – ~0.5 s
+// later, the same work in all – so the preload stays where the headline needs it.
 const LATIN = new Set<Lang>(['en', 'de', 'nl', 'sv', 'fr', 'it', 'es', 'pt', 'tr']);
 
 const appSchema = {
@@ -167,6 +171,12 @@ const jsonLdPayload = JSON.stringify(graph).replace(/</g, '\\u003c');
           saved === 'dark' ||
           (!saved && window.matchMedia('(prefers-color-scheme: dark)').matches);
         root.classList.toggle('dark', dark);
+        // A choice of one's own also colours the browser bar, not only the OS setting.
+        if (saved) {
+          document
+            .querySelectorAll('meta[name="theme-color"]')
+            .forEach((m) => m.setAttribute('content', dark ? '#06080f' : '#f5f6fa'));
+        }
       })();
     </script>
 
@@ -202,6 +212,11 @@ const jsonLdPayload = JSON.stringify(graph).replace(/</g, '\\u003c');
     <Footer lang={lang} />
 
     <script>
+      // The running clocks, here rather than in each of the four drawings that
+      // show one: imported there, every page fetched four 33-byte modules and a
+      // fifth behind them; here it is part of this one script.
+      import '../scripts/live-timer';
+
       // Reveal sections as they scroll into view. The `.js` class on <html>
       // means no-JS visitors never see the hidden starting state. Delays come
       // from the `delay-*` classes in global.css – the CSP allows no inline styles.
@@ -222,6 +237,17 @@ const jsonLdPayload = JSON.stringify(graph).replace(/</g, '\\u003c');
           { rootMargin: '0px 0px -8% 0px', threshold: 0.08 },
         );
         items.forEach((el) => observer.observe(el));
+      }
+
+      // Endless animations rest while their part of the page is out of sight
+      // (`.is-resting` in global.css): the app lock's dots kept the main thread
+      // at 60 frames a second wherever the page stood (audit 19.11.2026).
+      const loops = document.querySelectorAll<HTMLElement>('[data-loop]');
+      if (loops.length && 'IntersectionObserver' in window) {
+        const loopObserver = new IntersectionObserver((entries) => {
+          entries.forEach((entry) => entry.target.classList.toggle('is-resting', !entry.isIntersecting));
+        });
+        loops.forEach((el) => loopObserver.observe(el));
       }
     </script>
   </body>

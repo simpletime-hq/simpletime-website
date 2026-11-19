@@ -60,7 +60,7 @@ const alt = (id: string) => shots.find((s) => s.id === id)?.alt ?? '';
       <h1 class="rise delay-2 t-hero mt-5">{pro.title}</h1>
       <p class="rise delay-3 t-intro mx-auto mt-7 max-w-2xl text-muted">{pro.subtitle}</p>
       <div class="rise delay-4 mt-9 flex justify-center">
-        <AppStoreButton label={t('appstore.download')} variant="onAccent" size="lg" />
+        <AppStoreButton variant="onAccent" size="lg" />
       </div>
     </div>
 
@@ -75,7 +75,7 @@ const alt = (id: string) => shots.find((s) => s.id === id)?.alt ?? '';
         loading="eager"
         finish="black"
         class="pro-hero__phone"
-        sizes="(min-width: 1024px) 320px, 60vw"
+        sizes="(min-width: 1024px) 274px, (min-width: 460px) 235px, 53vw"
         widths={[240, 320, 480, 640]}
       />
       <WatchFrame class="pro-hero__watch pro-hero__watch--right">

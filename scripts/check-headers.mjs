@@ -62,11 +62,12 @@ const UNGOVERNED_HEADERS = new Set(['strict-transport-security']);
 const HASHED_DIRECTIVES = ['script-src', 'style-src'];
 
 /**
- * Hosts a hashed directive may name after its placeholder – the Atriya server
- * the visitor statistics script comes from. They must come through the build
+ * Sources a hashed directive may name after its placeholder – the visitor
+ * statistics script itself, not the whole Atriya host, where the dashboard and
+ * its bundles live too (audit 19.11.2026). They must come through the build
  * unchanged, after the hashes; any other source is rejected.
  */
-const EXTERNAL_SOURCES = { 'script-src': ['https://intern.atriya.io'], 'style-src': [] };
+const EXTERNAL_SOURCES = { 'script-src': ['https://intern.atriya.io/t.js'], 'style-src': [] };
 
 /** base64 of a 32-byte digest is 43 chars plus one '=' of padding. */
 const SHA256_TOKEN = /^'sha256-[A-Za-z0-9+/]{43}='$/;

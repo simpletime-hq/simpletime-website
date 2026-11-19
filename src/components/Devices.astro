@@ -38,11 +38,15 @@ const endonym = (code: string) => {
 };
 const local = new Intl.DisplayNames([lang], { type: 'language' });
 const pickerCodes = [lang, ...['en', 'fr', 'ja', 'ar'].filter((c) => c !== lang)].slice(0, 4);
+// A name in another script is set in the system face: outside Safari the text
+// face would fetch a whole Noto file for it – 55 KB of Arabic for one word on
+// the English, French and Japanese pages (audit 19.11.2026).
 const picker = pickerCodes.map((code) => ({
   code,
   endonym: endonym(code),
   local: local.of(code) ?? code,
   current: code === lang,
+  system: code !== lang && /[^\u0000-\u024f]/u.test(endonym(code)),
 }));
 ---
 
@@ -62,10 +66,10 @@ const picker = pickerCodes.map((code) => ({
         </div>
         <div class="bento-mac__stage">
           <div class="bento-mac__mac">
-            <MacFrame image={macScreen(lang, 'chart')} alt={alt('chart')} />
+            <MacFrame image={macScreen(lang, 'chart')} alt={alt('chart')} sizes="(min-width: 1024px) 516px, (min-width: 520px) 75vw, 61vw" />
           </div>
           <div class="bento-mac__ipad">
-            <IpadFrame image={ipadScreen(lang, 'timeline')} alt={alt('timeline')} sizes="(min-width: 1024px) 200px, 34vw" />
+            <IpadFrame image={ipadScreen(lang, 'timeline')} alt={alt('timeline')} sizes="(min-width: 1024px) 192px, 24vw" />
           </div>
         </div>
       </article>
@@ -113,7 +117,7 @@ const picker = pickerCodes.map((code) => ({
               picker.map((row) => (
                 <li class:list={['picker__row', row.current && 'is-current']}>
                   <span class="picker__names">
-                    <span class="picker__name" lang={row.code}>{row.endonym}</span>
+                    <span class:list={['picker__name', row.system && 'is-system']} lang={row.code}>{row.endonym}</span>
                     {!row.current && <span class="picker__local">{row.local}</span>}
                   </span>
                   {row.current && (
@@ -411,6 +415,10 @@ const picker = pickerCodes.map((code) => ({
     font-weight: 560;
     line-height: 1.3;
     color: var(--ink);
+  }
+
+  .picker__name.is-system {
+    font-family: system-ui, sans-serif;
   }
 
   .picker__local {

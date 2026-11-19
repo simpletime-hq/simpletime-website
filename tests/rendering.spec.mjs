@@ -38,6 +38,27 @@ test('long words wrap at 320 px (400 % zoom) instead of widening the page', asyn
   expect(wide).toEqual([]);
 });
 
+// The hero clips what overflows (overflow-x: clip), so the page never scrolls –
+// and a Greek promise 312 px wide was cut off instead (audit 19.11.2026). Its words
+// and promises must stay inside the window.
+test('the hero text stays inside the window at 320 px', async ({ browser }) => {
+  const context = await browser.newContext({ viewport: { width: 320, height: 640 }, reducedMotion: 'reduce' });
+  const page = await context.newPage();
+  const cut = [];
+  for (const path of ['/el/', '/fr/', '/it/', '/nl/', '/hy/', '/ar/']) {
+    await page.goto(ORIGIN + path);
+    const edges = await page.evaluate(() => {
+      const boxes = [...document.querySelectorAll('.hero-copy *, .hero-proof *')]
+        .map((el) => el.getBoundingClientRect())
+        .filter((b) => b.width > 0);
+      return { left: Math.min(...boxes.map((b) => b.left)), right: Math.max(...boxes.map((b) => b.right)) };
+    });
+    if (edges.left < 0 || edges.right > 320) cut.push(`${path} from ${edges.left} to ${edges.right} px`);
+  }
+  await context.close();
+  expect(cut).toEqual([]);
+});
+
 // The headline is what a visitor reads first and what Largest Contentful Paint
 // measures. A scroll reveal kept it at opacity 0 until script and observer had
 // run and then faded it in for 0.9 s – LCP came over a second after the first

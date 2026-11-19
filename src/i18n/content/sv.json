@@ -1,7 +1,7 @@
 {
   "store": {
     "lead": "SimpleTime registrerar vad din tid går till. En tryckning startar, en tryckning stoppar.",
-    "promise": "Inget konto behövs, inga annonser. Dina timmar stannar på din enhet – och i ditt iCloud, om du vill.",
+    "promise": "Inget konto behövs, inga annonser. Dina timmar stannar på din enhet – och i ditt iCloud eller hos LaCodea ID, om du vill.",
     "sections": [
       {
         "id": "tracking",
@@ -57,7 +57,7 @@
         "id": "devices",
         "title": "På alla dina enheter",
         "points": [
-          "iPhone, iPad och Mac, synkade via iCloud",
+          "iPhone, iPad och Mac, synkade via iCloud eller LaCodea ID",
           "41 språk, oberoende av enhetens språk",
           "VoiceOver och dynamisk text i hela appen"
         ]
@@ -67,7 +67,7 @@
         "title": "Dina data",
         "points": [
           "Applås med Face ID, Touch ID eller en egen kod",
-          "Du väljer var dina data finns: bara på den här enheten eller i ditt iCloud",
+          "Du väljer var dina data finns: bara på den här enheten, i ditt iCloud eller totalsträckskrypterade hos LaCodea ID",
           "Integritet på en sida: överblick över alla behörigheter och dina data",
           "Om du vill: LaCodea ID, ett konto för alla LaCodea-appar – SimpleTime fungerar även utan",
           "Inga annonser, ingen försäljning av dina data – utan konto tar vi bara emot anonyma kraschrapporter och användningsstatistik, och de går att stänga av",
@@ -87,7 +87,7 @@
         "Mål per uppgift – för dagen, veckan eller månaden",
         "Fokusfilter: arbetsfokus slås på, listan visar bara arbetet och klockan går redan",
         "En snabbstartswidget som du fyller själv",
-        "Sju dekorfärger eller en egen, plus sexton appsymboler",
+        "Sju dekorfärger eller en egen, sex typsnitt och sexton appsymboler",
         "Fler avsnitt i PDF-rapporten: förlopp, dygnsfördelning, jämförelse, mål"
       ],
       "pricing": "Pro finns per månad, per år eller en gång för alltid. Nya prenumeranter får en vecka gratis, och med Familjedelning kan upp till sex personer använda Pro. Priserna visas i appen. Månad och år förnyas automatiskt tills du säger upp, vilket går när som helst i inställningarna för App Store. Det som tillkommer senare ingår."
@@ -111,7 +111,7 @@
     },
     "devices": {
       "title": "På alla dina enheter.",
-      "subtitle": "iPhone, iPad och Mac hålls synkade via iCloud – och klockan fortsätter att gå på låsskärmen, i Dynamic Island och på handleden."
+      "subtitle": "iPhone, iPad och Mac hålls synkade via iCloud eller LaCodea ID – och klockan fortsätter att gå på låsskärmen, i Dynamic Island och på handleden."
     },
     "showcase": [
       {
@@ -263,8 +263,8 @@
       },
       {
         "id": "style",
-        "title": "Färger och appsymboler",
-        "body": "Sju dekorfärger eller en egen, som går genom hela appen – plus sexton appsymboler."
+        "title": "Färger, typsnitt och appsymboler",
+        "body": "Sju dekorfärger eller en egen, som går genom hela appen – plus sex typsnitt och sexton appsymboler."
       },
       {
         "id": "report",
@@ -305,7 +305,7 @@
     "terms": "Användarvillkor (EULA)",
     "privacy": "Integritetspolicy",
     "freeTitle": "Det här förblir gratis",
-    "freeBody": "Allt du behöver för att registrera: uppgifter och deluppgifter, dagsvyn och tidsaxeln, diagram och statistik, PDF-rapporten och CSV-exporten, widgetar, liveaktiviteten, Kontrollcenter och Siri, iCloud-synk och planer för säkerhetskopiering samt applåset – på 41 språk. Inget konto, inga annonser, ingen försäljning av dina data.",
+    "freeBody": "Allt du behöver för att registrera: uppgifter och deluppgifter, fasta tider, dagsvyn och tidsaxeln, diagram och statistik, PDF-rapporten och CSV-exporten, widgetar, liveaktiviteten, Kontrollcenter och Siri, synk via iCloud eller LaCodea ID, planer för säkerhetskopiering samt applåset – på 41 språk. Inget konto, inga annonser, ingen försäljning av dina data.",
     "howTitle": "Så får du Pro",
     "how": [
       "Öppna Inställningar › SimpleTime Pro i SimpleTime.",

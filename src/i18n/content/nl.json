@@ -1,7 +1,7 @@
 {
   "store": {
     "lead": "SimpleTime registreert waar je tijd naartoe gaat. Eén tik start, één tik stopt.",
-    "promise": "Geen account nodig, geen advertenties. Je uren blijven op je apparaat – en in je iCloud, als je dat wilt.",
+    "promise": "Geen account nodig, geen advertenties. Je uren blijven op je apparaat – en in je iCloud of bij LaCodea ID, als je dat wilt.",
     "sections": [
       {
         "id": "tracking",
@@ -57,7 +57,7 @@
         "id": "devices",
         "title": "Op al je apparaten",
         "points": [
-          "iPhone, iPad en Mac, gesynchroniseerd via iCloud",
+          "iPhone, iPad en Mac, gesynchroniseerd via iCloud of LaCodea ID",
           "41 talen, los van de taal van je apparaat",
           "VoiceOver en dynamische tekst in de hele app"
         ]
@@ -67,7 +67,7 @@
         "title": "Je gegevens",
         "points": [
           "App-vergrendeling met Face ID, Touch ID of een eigen code",
-          "Jij kiest waar je gegevens staan: alleen op dit apparaat of in je iCloud",
+          "Jij kiest waar je gegevens staan: alleen op dit apparaat, in je iCloud of end-to-end versleuteld bij LaCodea ID",
           "Privacy op één pagina: alle toestemmingen en je gegevens op een rij",
           "Desgewenst LaCodea ID, één account voor alle LaCodea-apps – SimpleTime werkt ook zonder",
           "Geen advertenties, geen verkoop van je gegevens – zonder account ontvangen we alleen anonieme crashrapporten en gebruiksstatistieken, en die kun je uitzetten",
@@ -87,7 +87,7 @@
         "Doelen per taak – voor de dag, de week of de maand",
         "Focusfilter: de werkfocus gaat aan, de lijst toont alleen werk en de klok loopt al",
         "Een snelstart-widget die je zelf samenstelt",
-        "Zeven accentkleuren of een eigen, plus zestien app-symbolen",
+        "Zeven accentkleuren of een eigen, zes lettertypen en zestien app-symbolen",
         "Extra onderdelen in het pdf-rapport: verloop, dagverdeling, vergelijking, doelen"
       ],
       "pricing": "Pro is er per maand, per jaar of eenmalig voor altijd. Nieuwe abonnees krijgen een week gratis, en met Delen met gezin kunnen maximaal zes personen Pro gebruiken. De prijzen staan in de app. Maand en jaar worden automatisch verlengd tot je opzegt; dat kan altijd in je App Store-instellingen. Wat er later bij komt, zit erbij."
@@ -111,7 +111,7 @@
     },
     "devices": {
       "title": "Op al je apparaten.",
-      "subtitle": "iPhone, iPad en Mac blijven via iCloud gelijk – en de klok loopt mee op het toegangsscherm, in het Dynamic Island en om je pols."
+      "subtitle": "iPhone, iPad en Mac blijven via iCloud of LaCodea ID gelijk – en de klok loopt mee op het toegangsscherm, in het Dynamic Island en om je pols."
     },
     "showcase": [
       {
@@ -263,8 +263,8 @@
       },
       {
         "id": "style",
-        "title": "Kleuren en app-symbolen",
-        "body": "Zeven accentkleuren of een eigen kleur, die door de hele app loopt – plus zestien app-symbolen."
+        "title": "Kleuren, lettertypen en app-symbolen",
+        "body": "Zeven accentkleuren of een eigen kleur, die door de hele app loopt – plus zes lettertypen en zestien app-symbolen."
       },
       {
         "id": "report",
@@ -305,7 +305,7 @@
     "terms": "Gebruiksvoorwaarden (EULA)",
     "privacy": "Privacybeleid",
     "freeTitle": "Wat gratis blijft",
-    "freeBody": "Alles wat je nodig hebt om te registreren: taken en subtaken, de dagweergave en de tijdlijn, grafieken en statistieken, het pdf-rapport en de CSV-export, widgets, de Live activiteit, het bedieningspaneel en Siri, iCloud-synchronisatie en back-upplannen, en de app-vergrendeling – in 41 talen. Geen account, geen advertenties, geen verkoop van je gegevens.",
+    "freeBody": "Alles wat je nodig hebt om te registreren: taken en subtaken, vaste tijden, de dagweergave en de tijdlijn, grafieken en statistieken, het pdf-rapport en de CSV-export, widgets, de Live activiteit, het bedieningspaneel en Siri, synchronisatie via iCloud of LaCodea ID, back-upplannen, en de app-vergrendeling – in 41 talen. Geen account, geen advertenties, geen verkoop van je gegevens.",
     "howTitle": "Zo krijg je Pro",
     "how": [
       "Open in SimpleTime Instellingen › SimpleTime Pro.",

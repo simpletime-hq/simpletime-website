@@ -32,6 +32,9 @@ const iconFiles = import.meta.glob<{ default: ImageMetadata }>('../assets/pro/ic
 const icons = ['standard', 'petrol', 'violet', 'slate', 'forest', 'burgundy', 'graphite', 'espresso'].map(
   (name) => iconFiles[`../assets/pro/icon-${name}.webp`].default,
 );
+// The six fonts of the font page, in its order: standard, rounded, serif,
+// monospace, narrow, wide – iOS's own, so on Apple devices they are the real ones.
+const fonts = ['standard', 'rounded', 'serif', 'mono', 'narrow', 'wide'];
 
 // A year of days, the way the year overview draws it: 53 weeks of seven,
 // brighter the more was tracked. Weekdays carry more than weekends, and a
@@ -250,6 +253,11 @@ const arrival = placeNotice(lang, taskName(lang, 'work'), clock(lang, 8 * 60 + 2
               <span class="pro-style__icons">
                 {icons.map((icon) => (
                   <Image src={icon} alt="" width={56} height={56} widths={[56, 112]} sizes="56px" class="pro-style__icon" />
+                ))}
+              </span>
+              <span class="pro-style__fonts">
+                {fonts.map((font, j) => (
+                  <span class:list={['pro-style__font', `pf-${font}`, j === 0 && 'is-current']}>Aa</span>
                 ))}
               </span>
               <span class="pro-style__accents">
@@ -761,24 +769,56 @@ const arrival = placeNotice(lang, taskName(lang, 'work'), clock(lang, 8 * 60 + 2
     white-space: nowrap;
   }
 
+  /* Icons, fonts and colours – what Pro lets you change, a row each. */
   .pro-style {
     display: grid;
-    gap: 1.25rem;
+    gap: 0.9rem;
     justify-items: center;
   }
 
   /* Two rows of four – the tile is a third of the row on wide screens, too. */
   .pro-style__icons {
     display: grid;
-    grid-template-columns: repeat(4, 3.25rem);
-    gap: 0.75rem;
+    grid-template-columns: repeat(4, 2.75rem);
+    gap: 0.6rem;
   }
 
   .pro-style :global(.pro-style__icon) {
-    width: 3.25rem;
-    height: 3.25rem;
+    width: 2.75rem;
+    height: 2.75rem;
     border-radius: 22.5%;
   }
+
+  .pro-style__fonts {
+    display: flex;
+    gap: 0.4rem;
+  }
+
+  .pro-style__font {
+    display: grid;
+    place-items: center;
+    width: 2.1rem;
+    height: 2.1rem;
+    border-radius: 0.6rem;
+    background: var(--surface);
+    box-shadow: 0 0 0 1px var(--line);
+    color: var(--ink);
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1;
+  }
+
+  /* The font in use, ringed as the font page rings it. */
+  .pro-style__font.is-current {
+    box-shadow: 0 0 0 2px var(--accent);
+  }
+
+  .pf-standard { font-family: system-ui, -apple-system, sans-serif; }
+  .pf-rounded { font-family: var(--font-rounded); }
+  .pf-serif { font-family: ui-serif, 'New York', Georgia, serif; }
+  .pf-mono { font-family: ui-monospace, 'SF Mono', Menlo, monospace; font-weight: 500; }
+  .pf-narrow { font-family: system-ui, -apple-system, sans-serif; font-stretch: condensed; }
+  .pf-wide { font-family: system-ui, -apple-system, sans-serif; font-stretch: expanded; }
 
   .pro-style__accents {
     display: flex;

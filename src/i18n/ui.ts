@@ -27,12 +27,12 @@ export const ui = {
   en: {
     'meta.title': 'SimpleTime – Time Tracker for iPhone, iPad and Mac',
     'meta.description':
-      'One tap starts the clock. SimpleTime tracks where your time goes – no account, no ads, no selling of your data. Your hours stay on your device and in your iCloud.',
+      'One tap starts the clock. SimpleTime tracks where your time goes – no account, no ads, no selling of your data. Your hours stay on your device – and in your iCloud or with the LaCodea ID, if you want.',
 
     'meta.contact.description':
       'Questions, feedback or a bug to report? Reach SimpleTime by email – every message is read and answered within a few working days.',
     'meta.privacy.description':
-      'How SimpleTime handles your data: no account, no ads. Your entries stay on your devices and in your private iCloud.',
+      'How SimpleTime handles your data: no account, no ads. Your entries stay on your devices – and in your private iCloud or end-to-end encrypted with the LaCodea ID, if you want.',
     'meta.imprint.description':
       'Legal notice for simple-time.app under § 5 DDG – operator, contact details and liability information for the SimpleTime app and website.',
     'meta.terms.description':
@@ -119,12 +119,12 @@ export const ui = {
   de: {
     'meta.title': 'SimpleTime – Zeiterfassung für iPhone, iPad und Mac',
     'meta.description':
-      'Ein Tipp startet die Uhr. SimpleTime erfasst deine Zeit – ohne Konto, ohne Werbung, ohne Verkauf deiner Daten. Deine Zeiten bleiben auf deinem Gerät und in deiner iCloud.',
+      'Ein Tipp startet die Uhr. SimpleTime erfasst deine Zeit – ohne Konto, ohne Werbung, ohne Verkauf deiner Daten. Deine Zeiten bleiben auf deinem Gerät – und in deiner iCloud oder bei der LaCodea ID, wenn du willst.',
 
     'meta.contact.description':
       'Fragen, Rückmeldungen oder ein Fehler? Schreib SimpleTime eine E-Mail – jede Nachricht wird gelesen und innerhalb weniger Werktage beantwortet.',
     'meta.privacy.description':
-      'Wie SimpleTime mit deinen Daten umgeht: kein Konto, keine Werbung. Deine Einträge bleiben auf deinen Geräten und in deiner privaten iCloud.',
+      'Wie SimpleTime mit deinen Daten umgeht: kein Konto, keine Werbung. Deine Einträge bleiben auf deinen Geräten – und in deiner privaten iCloud oder Ende-zu-Ende-verschlüsselt bei der LaCodea ID, wenn du willst.',
     'meta.imprint.description':
       'Impressum für simple-time.app nach § 5 DDG – Betreiber, Kontaktdaten und Haftungshinweise zur SimpleTime-App und zur Website.',
     'meta.terms.description':
@@ -211,11 +211,11 @@ export const ui = {
   fr: {
     'meta.title': 'SimpleTime – Suivi du temps pour iPhone, iPad et Mac',
     'meta.description':
-      'Un geste lance le chrono. SimpleTime enregistre où passe votre temps, sans compte, sans publicité ni vente de vos données. Vos heures restent sur votre appareil et dans votre iCloud.',
+      'Un geste lance le chrono. SimpleTime enregistre où passe votre temps, sans compte, sans publicité ni vente de vos données. Vos heures restent sur votre appareil – et dans votre iCloud ou auprès du LaCodea ID si vous voulez.',
     'meta.contact.description':
       'Une question, un retour ou un bug à signaler ? Écrivez à SimpleTime par e-mail — chaque message est lu et reçoit une réponse sous quelques jours ouvrés.',
     'meta.privacy.description':
-      'Comment SimpleTime traite vos données : aucun compte, aucune publicité. Vos entrées restent sur vos appareils et dans votre iCloud privé.',
+      'Comment SimpleTime traite vos données : aucun compte, aucune publicité. Vos entrées restent sur vos appareils – et dans votre iCloud privé ou chiffrées de bout en bout auprès du LaCodea ID si vous voulez.',
     'meta.imprint.description':
       'Mentions légales de simple-time.app selon le § 5 DDG — éditeur, coordonnées et informations de responsabilité pour l’app et le site SimpleTime.',
     'meta.terms.description':
@@ -302,11 +302,11 @@ export const ui = {
   es: {
     'meta.title': 'SimpleTime – Control de horas para iPhone, iPad y Mac',
     'meta.description':
-      'Un toque pone el reloj en marcha. SimpleTime registra en qué se va tu tiempo, sin cuenta, sin publicidad ni venta de tus datos. Tus horas quedan en tu dispositivo y en tu iCloud.',
+      'Un toque pone el reloj en marcha. SimpleTime registra en qué se va tu tiempo, sin cuenta, sin publicidad ni venta de tus datos. Tus horas quedan en tu dispositivo – y en tu iCloud o en LaCodea ID, si quieres.',
     'meta.contact.description':
       '¿Tienes una pregunta, un comentario o un fallo que informar? Escribe a SimpleTime por correo: leemos cada mensaje y respondemos en pocos días laborables.',
     'meta.privacy.description':
-      'Cómo trata SimpleTime tus datos: sin cuenta, sin publicidad. Tus entradas se quedan en tus dispositivos y en tu iCloud privado.',
+      'Cómo trata SimpleTime tus datos: sin cuenta, sin publicidad. Tus entradas se quedan en tus dispositivos – y en tu iCloud privado o cifradas de extremo a extremo en LaCodea ID, si quieres.',
     'meta.imprint.description':
       'Aviso legal de simple-time.app según el § 5 DDG: titular, datos de contacto e información sobre responsabilidad de la app y el sitio de SimpleTime.',
     'meta.terms.description':
@@ -393,11 +393,11 @@ export const ui = {
   it: {
     'meta.title': 'SimpleTime – Ore e attività per iPhone, iPad e Mac',
     'meta.description':
-      'Un tocco avvia il cronometro. SimpleTime registra come passi il tempo, senza account, pubblicità né vendita dei tuoi dati. Le tue ore restano sul tuo dispositivo e nel tuo iCloud.',
+      'Un tocco avvia il cronometro. SimpleTime registra come passi il tempo, senza account, pubblicità né vendita dei tuoi dati. Le tue ore restano sul tuo dispositivo – e nel tuo iCloud o presso LaCodea ID, se vuoi.',
     'meta.contact.description':
       'Hai una domanda, un suggerimento o un bug da segnalare? Scrivi a SimpleTime via e-mail: leggiamo ogni messaggio e rispondiamo in pochi giorni lavorativi.',
     'meta.privacy.description':
-      'Come SimpleTime tratta i tuoi dati: nessun account, nessuna pubblicità. Le tue voci restano sui tuoi dispositivi e nel tuo iCloud privato.',
+      'Come SimpleTime tratta i tuoi dati: nessun account, nessuna pubblicità. Le tue voci restano sui tuoi dispositivi – e nel tuo iCloud privato o cifrate end-to-end presso LaCodea ID, se vuoi.',
     'meta.imprint.description':
       'Note legali di simple-time.app ai sensi del § 5 DDG: titolare, contatti e informazioni sulla responsabilità per l’app e il sito SimpleTime.',
     'meta.terms.description':
@@ -484,11 +484,11 @@ export const ui = {
   ru: {
     'meta.title': 'SimpleTime – учёт времени для iPhone, iPad и Mac',
     'meta.description':
-      'Одно касание запускает часы. SimpleTime записывает, на что уходит ваше время, — без учётной записи, рекламы и продажи ваших данных. Ваши часы остаются на устройстве и в вашем iCloud.',
+      'Одно касание запускает часы. SimpleTime записывает, на что уходит ваше время, — без учётной записи, рекламы и продажи ваших данных. Ваши часы остаются на устройстве — и в вашем iCloud или в LaCodea ID, если хотите.',
     'meta.contact.description':
       'Есть вопрос, отзыв или сообщение об ошибке? Напишите SimpleTime по электронной почте — мы читаем каждое сообщение и отвечаем в течение нескольких рабочих дней.',
     'meta.privacy.description':
-      'Как SimpleTime обращается с вашими данными: без учётной записи, без рекламы. Ваши записи хранятся на ваших устройствах и в личном iCloud.',
+      'Как SimpleTime обращается с вашими данными: без учётной записи, без рекламы. Ваши записи хранятся на ваших устройствах — и в личном iCloud или со сквозным шифрованием в LaCodea ID, если хотите.',
     'meta.imprint.description':
       'Выходные данные simple-time.app согласно § 5 DDG: владелец, контактные данные и сведения об ответственности за приложение и сайт SimpleTime.',
     'meta.terms.description':
@@ -575,11 +575,11 @@ export const ui = {
   hy: {
     'meta.title': 'SimpleTime – ժամանակի հաշվառում iPhone-ի, iPad-ի և Mac-ի համար',
     'meta.description':
-      'Մեկ հպում՝ ժամանակը գնաց։ SimpleTime-ը գրանցում է, թե ուր է գնում ձեր ժամանակը՝ առանց հաշվի, գովազդի և ձեր տվյալների վաճառքի։ Ձեր ժամերը մնում են ձեր սարքում և ձեր iCloud-ում։',
+      'Մեկ հպում՝ ժամանակը գնաց։ SimpleTime-ը գրանցում է, թե ուր է գնում ձեր ժամանակը՝ առանց հաշվի, գովազդի և ձեր տվյալների վաճառքի։ Ձեր ժամերը մնում են ձեր սարքում, իսկ եթե ցանկանաք՝ նաև ձեր iCloud-ում կամ LaCodea ID-ում։',
     'meta.contact.description':
       'Հարց, կարծիք կամ սխալի մասին հաղորդում ունե՞ք։ Գրեք SimpleTime-ին էլ․ փոստով․ մենք կարդում ենք յուրաքանչյուր նամակ և պատասխանում ենք մի քանի աշխատանքային օրվա ընթացքում։',
     'meta.privacy.description':
-      'Ինչպես է SimpleTime-ը վարվում ձեր տվյալների հետ՝ առանց հաշվի և գովազդի։ Ձեր գրառումները մնում են ձեր սարքերում և անձնական iCloud-ում։',
+      'Ինչպես է SimpleTime-ը վարվում ձեր տվյալների հետ՝ առանց հաշվի և գովազդի։ Ձեր գրառումները մնում են ձեր սարքերում, իսկ եթե ցանկանաք՝ նաև ձեր անձնական iCloud-ում կամ ծայրից ծայր գաղտնագրված տեսքով LaCodea ID-ում։',
     'meta.imprint.description':
       'simple-time.app-ի իրավական տվյալները § 5 DDG-ի համաձայն․ տիրապետող, կապի տվյալներ և պատասխանատվության մասին տեղեկություններ SimpleTime հավելվածի և կայքի համար։',
     'meta.terms.description':
@@ -666,11 +666,11 @@ export const ui = {
   pt: {
     'meta.title': 'SimpleTime – Registo de horas para iPhone, iPad e Mac',
     'meta.description':
-      'Um toque inicia o relógio. O SimpleTime regista onde passa o seu tempo, sem conta, sem publicidade nem venda dos seus dados. As suas horas ficam no seu dispositivo e no seu iCloud.',
+      'Um toque inicia o relógio. O SimpleTime regista onde passa o seu tempo, sem conta, sem publicidade nem venda dos seus dados. As suas horas ficam no seu dispositivo – e no seu iCloud ou no LaCodea ID, se quiser.',
     'meta.contact.description':
       'Tem uma pergunta, uma sugestão ou um erro a comunicar? Escreva ao SimpleTime por e-mail: lemos todas as mensagens e respondemos em poucos dias úteis.',
     'meta.privacy.description':
-      'Como o SimpleTime trata os seus dados: sem conta, sem publicidade. Os seus registos ficam nos seus dispositivos e no seu iCloud privado.',
+      'Como o SimpleTime trata os seus dados: sem conta, sem publicidade. Os seus registos ficam nos seus dispositivos – e no seu iCloud privado ou cifrados ponto a ponto no LaCodea ID, se quiser.',
     'meta.imprint.description':
       'Informação legal de simple-time.app nos termos do § 5 DDG: titular, contactos e informações de responsabilidade da aplicação e do site SimpleTime.',
     'meta.terms.description':
@@ -757,11 +757,11 @@ export const ui = {
   tr: {
     'meta.title': 'SimpleTime – iPhone, iPad ve Mac için zaman takibi',
     'meta.description':
-      'Tek dokunuş saati başlatır. SimpleTime zamanının nereye gittiğini kaydeder – hesap yok, reklam yok, verilerin satılmaz. Saatlerin cihazında ve kendi iCloud\'unda kalır.',
+      'Tek dokunuş saati başlatır. SimpleTime zamanının nereye gittiğini kaydeder – hesap yok, reklam yok, verilerin satılmaz. Saatlerin cihazında kalır – istersen kendi iCloud\'unda ya da LaCodea ID\'de de.',
     'meta.contact.description':
       'Sorun, önerin ya da bildirmek istediğin bir hata mı var? SimpleTime’a e-posta yaz: her mesajı okuyor ve birkaç iş günü içinde yanıtlıyoruz.',
     'meta.privacy.description':
-      'SimpleTime verilerini nasıl işler: hesap yok, reklam yok. Kayıtların cihazlarında ve sana özel iCloud alanında kalır.',
+      'SimpleTime verilerini nasıl işler: hesap yok, reklam yok. Kayıtların cihazlarında kalır – istersen sana özel iCloud alanında ya da uçtan uca şifrelenmiş olarak LaCodea ID\'de de.',
     'meta.imprint.description':
       'simple-time.app için § 5 DDG uyarınca yasal bilgiler: sahibi, iletişim bilgileri ve SimpleTime uygulaması ile sitesine ilişkin sorumluluk bilgileri.',
     'meta.terms.description':
@@ -848,11 +848,11 @@ export const ui = {
   ar: {
     'meta.title': 'SimpleTime – تتبّع الوقت على iPhone و iPad و Mac',
     'meta.description':
-      'لمسة واحدة تُشغّل الساعة. يسجّل SimpleTime أين يذهب وقتك – بلا حساب، بلا إعلانات، بلا بيع لبياناتك. تبقى ساعاتك على جهازك وفي iCloud الخاص بك.',
+      'لمسة واحدة تُشغّل الساعة. يسجّل SimpleTime أين يذهب وقتك – بلا حساب، بلا إعلانات، بلا بيع لبياناتك. تبقى ساعاتك على جهازك – وفي iCloud الخاص بك أو لدى LaCodea ID إن أردت.',
     'meta.contact.description':
       'لديك سؤال أو ملاحظة أو خلل تريد الإبلاغ عنه؟ راسل SimpleTime بالبريد الإلكتروني: نقرأ كل رسالة ونردّ خلال أيام عمل قليلة.',
     'meta.privacy.description':
-      'كيف يتعامل SimpleTime مع بياناتك: بلا حساب، بلا إعلانات. تبقى إدخالاتك على أجهزتك وفي iCloud الخاص بك.',
+      'كيف يتعامل SimpleTime مع بياناتك: بلا حساب، بلا إعلانات. تبقى إدخالاتك على أجهزتك – وفي iCloud الخاص بك أو مشفّرة تشفيرًا تامًا بين الطرفين لدى LaCodea ID إن أردت.',
     'meta.imprint.description':
       'البيانات القانونية لموقع simple-time.app وفقًا للمادة 5 من قانون DDG: المالك وبيانات الاتصال ومعلومات المسؤولية عن تطبيق SimpleTime وموقعه.',
     'meta.terms.description':
@@ -939,11 +939,11 @@ export const ui = {
   ja: {
     'meta.title': 'SimpleTime – iPhone、iPad、Mac のための時間記録アプリ',
     'meta.description':
-      'ワンタップで計測開始。SimpleTime は、時間の使い道を記録します — アカウントなし、広告なし、データの販売なし。記録は端末とご自分の iCloud に残ります。',
+      'ワンタップで計測開始。SimpleTime は、時間の使い道を記録します — アカウントなし、広告なし、データの販売なし。記録は端末に残ります — 必要なら、ご自分の iCloud または LaCodea ID にも。',
     'meta.contact.description':
       'ご質問、ご意見、不具合のご報告はありませんか。SimpleTime までメールでお知らせください。すべてのメッセージに目を通し、数営業日以内にお返事します。',
     'meta.privacy.description':
-      'SimpleTime のデータの扱い方：アカウントなし、広告なし。記録はお使いの端末と、ご自分のプライベートな iCloud に残ります。',
+      'SimpleTime のデータの扱い方：アカウントなし、広告なし。記録はお使いの端末に残ります — 必要なら、ご自分のプライベートな iCloud または LaCodea ID（エンドツーエンドで暗号化）にも。',
     'meta.imprint.description':
       'simple-time.app の運営者情報（ドイツ DDG 第5条）。運営者、連絡先、SimpleTime アプリおよびサイトに関する責任事項。',
     'meta.terms.description':
@@ -1030,11 +1030,11 @@ export const ui = {
   zh: {
     'meta.title': 'SimpleTime – 适用于 iPhone、iPad 和 Mac 的时间记录 App',
     'meta.description':
-      '轻点一下，计时开始。SimpleTime 记录你的时间去了哪里 — 无需账号，没有广告，不出售你的数据。你的时间留在设备和你自己的 iCloud 里。',
+      '轻点一下，计时开始。SimpleTime 记录你的时间去了哪里 — 无需账号，没有广告，不出售你的数据。你的时间留在设备上 — 如果你愿意，也可以留在你自己的 iCloud 或 LaCodea ID 里。',
     'meta.contact.description':
       '有问题、建议或想反馈错误？请发邮件给 SimpleTime，我们会阅读每一封来信，并在几个工作日内回复。',
     'meta.privacy.description':
-      'SimpleTime 如何处理你的数据：无需账号，没有广告。你的记录保存在你的设备和你的私人 iCloud 中。',
+      'SimpleTime 如何处理你的数据：无需账号，没有广告。你的记录保存在你的设备上 — 如果你愿意，也可以保存在你的私人 iCloud 中，或以端到端加密的方式保存在 LaCodea ID 中。',
     'meta.imprint.description':
       'simple-time.app 依据德国 DDG 第 5 条的法律声明：运营者、联系方式，以及 SimpleTime 应用与网站的责任说明。',
     'meta.terms.description':
@@ -1121,11 +1121,11 @@ export const ui = {
   hi: {
     'meta.title': 'SimpleTime – iPhone, iPad और Mac के लिए समय ट्रैकर',
     'meta.description':
-      'एक टैप और घड़ी चालू। SimpleTime दर्ज करता है कि आपका समय कहाँ जाता है – न खाता, न विज्ञापन, न आपके डेटा की बिक्री। आपके घंटे आपके डिवाइस और आपके अपने iCloud में रहते हैं।',
+      'एक टैप और घड़ी चालू। SimpleTime दर्ज करता है कि आपका समय कहाँ जाता है – न खाता, न विज्ञापन, न आपके डेटा की बिक्री। आपके घंटे आपके डिवाइस पर रहते हैं – और चाहें तो आपके अपने iCloud में या LaCodea ID पर भी।',
     'meta.contact.description':
       'कोई सवाल, सुझाव या कोई गड़बड़ी बतानी है? SimpleTime को ईमेल लिखें — हम हर संदेश पढ़ते हैं और कुछ कार्यदिवसों में जवाब देते हैं।',
     'meta.privacy.description':
-      'SimpleTime आपके डेटा को कैसे संभालता है: कोई खाता नहीं, कोई विज्ञापन नहीं। आपकी प्रविष्टियाँ आपके डिवाइस पर और आपके निजी iCloud में रहती हैं।',
+      'SimpleTime आपके डेटा को कैसे संभालता है: कोई खाता नहीं, कोई विज्ञापन नहीं। आपकी प्रविष्टियाँ आपके डिवाइस पर रहती हैं – और चाहें तो आपके निजी iCloud में या एंड-टू-एंड एन्क्रिप्टेड रूप में LaCodea ID पर भी।',
     'meta.imprint.description':
       'simple-time.app की कानूनी जानकारी, जर्मन DDG की धारा 5 के अनुसार: संचालक, संपर्क विवरण और SimpleTime ऐप व वेबसाइट से जुड़ी उत्तरदायित्व जानकारी।',
     'meta.terms.description':
@@ -1212,11 +1212,11 @@ export const ui = {
   nl: {
     'meta.title': 'SimpleTime – Tijdregistratie voor iPhone, iPad en Mac',
     'meta.description':
-      'Eén tik start de klok. SimpleTime registreert waar je tijd naartoe gaat – geen account, geen advertenties, geen verkoop van je gegevens. Je uren blijven op je apparaat en in je iCloud.',
+      'Eén tik start de klok. SimpleTime registreert waar je tijd naartoe gaat – geen account, geen advertenties, geen verkoop van je gegevens. Je uren blijven op je apparaat – en in je iCloud of bij LaCodea ID, als je dat wilt.',
     'meta.contact.description':
       'Een vraag, suggestie of bug om te melden? Mail SimpleTime — we lezen elk bericht en antwoorden binnen enkele werkdagen.',
     'meta.privacy.description':
-      'Hoe SimpleTime met je gegevens omgaat: geen account, geen advertenties. Je registraties blijven op je apparaten en in je persoonlijke iCloud.',
+      'Hoe SimpleTime met je gegevens omgaat: geen account, geen advertenties. Je registraties blijven op je apparaten – en in je persoonlijke iCloud of end-to-end versleuteld bij LaCodea ID, als je dat wilt.',
     'meta.imprint.description':
       'Colofon van simple-time.app volgens § 5 DDG — exploitant, contactgegevens en aansprakelijkheidsinformatie voor de SimpleTime-app en de site.',
     'meta.terms.description':
@@ -1303,11 +1303,11 @@ export const ui = {
   sv: {
     'meta.title': 'SimpleTime – Tidrapportering för iPhone, iPad och Mac',
     'meta.description':
-      'En tryckning startar tiden. SimpleTime registrerar vad din tid går till – inget konto, inga annonser, ingen försäljning av dina data. Dina timmar stannar på din enhet och i ditt iCloud.',
+      'En tryckning startar tiden. SimpleTime registrerar vad din tid går till – inget konto, inga annonser, ingen försäljning av dina data. Dina timmar stannar på din enhet – och i ditt iCloud eller hos LaCodea ID, om du vill.',
     'meta.contact.description':
       'Har du en fråga, en synpunkt eller ett fel att rapportera? Mejla SimpleTime – vi läser varje meddelande och svarar inom några arbetsdagar.',
     'meta.privacy.description':
-      'Så hanterar SimpleTime dina data: inget konto, ingen reklam. Dina tidposter stannar på dina enheter och i din privata iCloud.',
+      'Så hanterar SimpleTime dina data: inget konto, ingen reklam. Dina tidposter stannar på dina enheter – och i din privata iCloud eller totalsträckskrypterade hos LaCodea ID, om du vill.',
     'meta.imprint.description':
       'Ansvarig utgivare för simple-time.app enligt § 5 DDG – innehavare, kontaktuppgifter och ansvarsinformation för appen och webbplatsen SimpleTime.',
     'meta.terms.description':
@@ -1394,11 +1394,11 @@ export const ui = {
   uk: {
     'meta.title': 'SimpleTime – облік часу для iPhone, iPad і Mac',
     'meta.description':
-      'Один дотик запускає годинник. SimpleTime записує, на що йде ваш час, — без облікового запису, реклами й продажу ваших даних. Ваші години лишаються на пристрої та у вашому iCloud.',
+      'Один дотик запускає годинник. SimpleTime записує, на що йде ваш час, — без облікового запису, реклами й продажу ваших даних. Ваші години лишаються на пристрої — і у вашому iCloud або в LaCodea ID, якщо хочете.',
     'meta.contact.description':
       'Маєте запитання, відгук або повідомлення про помилку? Напишіть SimpleTime на електронну пошту — ми читаємо кожен лист і відповідаємо протягом кількох робочих днів.',
     'meta.privacy.description':
-      'Як SimpleTime поводиться з вашими даними: без облікового запису, без реклами. Ваші записи зберігаються на ваших пристроях і в особистому iCloud.',
+      'Як SimpleTime поводиться з вашими даними: без облікового запису, без реклами. Ваші записи зберігаються на ваших пристроях — і в особистому iCloud або з наскрізним шифруванням у LaCodea ID, якщо хочете.',
     'meta.imprint.description':
       'Вихідні дані simple-time.app згідно з § 5 DDG: власник, контактні дані та відомості про відповідальність щодо застосунку й сайту SimpleTime.',
     'meta.terms.description':
@@ -1485,11 +1485,11 @@ export const ui = {
   el: {
     'meta.title': 'SimpleTime – Καταγραφή ώρας για iPhone, iPad και Mac',
     'meta.description':
-      'Το SimpleTime καταγράφει πού πάει ο χρόνος σου – χωρίς λογαριασμό, διαφημίσεις ή πώληση των δεδομένων σου. Οι ώρες σου μένουν στη συσκευή και στο iCloud σου.',
+      'Το SimpleTime καταγράφει πού πάει ο χρόνος σου – χωρίς λογαριασμό, διαφημίσεις ή πώληση των δεδομένων σου. Οι ώρες σου μένουν στη συσκευή – και στο iCloud σου ή στο LaCodea ID, αν θέλεις.',
     'meta.contact.description':
       'Έχετε μια ερώτηση, μια πρόταση ή ένα σφάλμα να αναφέρετε; Γράψτε στο SimpleTime με e-mail — διαβάζουμε κάθε μήνυμα και απαντάμε μέσα σε λίγες εργάσιμες ημέρες.',
     'meta.privacy.description':
-      'Πώς χειρίζεται το SimpleTime τα δεδομένα σου: χωρίς λογαριασμό και διαφημίσεις. Οι εγγραφές σου μένουν στις συσκευές και στο iCloud σου.',
+      'Πώς χειρίζεται το SimpleTime τα δεδομένα σου: χωρίς λογαριασμό και διαφημίσεις. Οι εγγραφές σου μένουν στις συσκευές – και στο iCloud σου ή κρυπτογραφημένες από άκρο σε άκρο στο LaCodea ID, αν θέλεις.',
     'meta.imprint.description':
       'Νομικά στοιχεία του simple-time.app σύμφωνα με το § 5 DDG: κάτοχος, στοιχεία επικοινωνίας και πληροφορίες ευθύνης για την εφαρμογή και τον ιστότοπο SimpleTime.',
     'meta.terms.description':
@@ -1576,11 +1576,11 @@ export const ui = {
   he: {
     'meta.title': 'SimpleTime – מעקב זמן ל‑iPhone, ל‑iPad ול‑Mac',
     'meta.description':
-      'הקשה אחת מפעילה את השעון. SimpleTime מתעד לאן הולך הזמן שלך – בלי חשבון, בלי פרסומות, בלי מכירת הנתונים שלך. השעות שלך נשארות במכשיר שלך וב‑iCloud שלך.',
+      'הקשה אחת מפעילה את השעון. SimpleTime מתעד לאן הולך הזמן שלך – בלי חשבון, בלי פרסומות, בלי מכירת הנתונים שלך. השעות שלך נשארות במכשיר שלך – וב‑iCloud שלך או ב‑LaCodea ID, אם תרצה.',
     'meta.contact.description':
       'יש לכם שאלה, הצעה או באג לדווח עליו? כתבו ל‑SimpleTime במייל — אנחנו קוראים כל הודעה ומשיבים בתוך כמה ימי עסקים.',
     'meta.privacy.description':
-      'איך SimpleTime מטפל בנתונים שלך: בלי חשבון, בלי פרסומות. הרשומות שלך נשארות במכשירים שלך וב‑iCloud הפרטי שלך.',
+      'איך SimpleTime מטפל בנתונים שלך: בלי חשבון, בלי פרסומות. הרשומות שלך נשארות במכשירים שלך – וב‑iCloud הפרטי שלך או מוצפנות מקצה לקצה ב‑LaCodea ID, אם תרצה.',
     'meta.imprint.description':
       'פרטים משפטיים של simple-time.app לפי § 5 DDG: בעלים, פרטי התקשרות ומידע על אחריות עבור אפליקציית SimpleTime והאתר.',
     'meta.terms.description':

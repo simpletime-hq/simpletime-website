@@ -1,7 +1,7 @@
 {
   "store": {
     "lead": "SimpleTime tracks where your time goes. One tap starts it, one tap stops it.",
-    "promise": "No account needed, no ads. Your hours stay on your device – and in your iCloud, if you want.",
+    "promise": "No account needed, no ads. Your hours stay on your device – and in your iCloud or with the LaCodea ID, if you want.",
     "sections": [
       {
         "id": "tracking",
@@ -57,7 +57,7 @@
         "id": "devices",
         "title": "On every device",
         "points": [
-          "iPhone, iPad, and Mac, kept in sync through iCloud",
+          "iPhone, iPad, and Mac, kept in sync through iCloud or the LaCodea ID",
           "41 languages, independent of your device language",
           "VoiceOver and Dynamic Type throughout"
         ]
@@ -67,7 +67,7 @@
         "title": "Your data",
         "points": [
           "App lock with Face ID, Touch ID, or a code of your own",
-          "You choose where your data lives: only on this device or in your iCloud",
+          "You choose where your data lives: only on this device, in your iCloud, or end-to-end encrypted with the LaCodea ID",
           "Privacy on one page: every permission and all your data at a glance",
           "If you like, the LaCodea ID, one account for all LaCodea apps – SimpleTime works without it, too",
           "No ads, no selling of your data – without an account, all we receive are anonymous crash reports and usage statistics, and you can turn them off",
@@ -87,7 +87,7 @@
         "Goals per task – for the day, the week, or the month",
         "Focus filter: your work focus turns on, the list shows only work, the clock is already running",
         "A quick-start widget you fill yourself",
-        "Seven accent colours or one of your own, plus sixteen app icons",
+        "Seven accent colours or one of your own, six fonts, and sixteen app icons",
         "Extra sections in the PDF report: trend, daily spread, comparison, goals"
       ],
       "pricing": "Pro comes monthly, yearly, or once and for good. New subscribers get a free week, and with Family Sharing up to six people can use Pro. Prices are shown in the app. Monthly and yearly renew automatically until you cancel, which you can do at any time in your App Store settings. Whatever comes later is included."
@@ -111,7 +111,7 @@
     },
     "devices": {
       "title": "On every device you use.",
-      "subtitle": "iPhone, iPad, and Mac stay in sync through iCloud – and the clock keeps running on the Lock Screen, in the Dynamic Island, and on your wrist."
+      "subtitle": "iPhone, iPad, and Mac stay in sync through iCloud or the LaCodea ID – and the clock keeps running on the Lock Screen, in the Dynamic Island, and on your wrist."
     },
     "showcase": [
       {
@@ -263,8 +263,8 @@
       },
       {
         "id": "style",
-        "title": "Colours and app icons",
-        "body": "Seven accent colours or one of your own, running through the whole app – plus sixteen app icons."
+        "title": "Colours, fonts and app icons",
+        "body": "Seven accent colours or one of your own, running through the whole app – plus six fonts and sixteen app icons."
       },
       {
         "id": "report",
@@ -305,7 +305,7 @@
     "terms": "Terms of Use (EULA)",
     "privacy": "Privacy Policy",
     "freeTitle": "What stays free",
-    "freeBody": "Everything you need for tracking: tasks and subtasks, the day view and timeline, charts and statistics, the PDF report and CSV export, widgets, the Live Activity, Control Center and Siri, iCloud sync and backup plans, and the app lock – in 41 languages. No account, no ads, no selling of your data.",
+    "freeBody": "Everything you need for tracking: tasks and subtasks, Fixed Times, the day view and timeline, charts and statistics, the PDF report and CSV export, widgets, the Live Activity, Control Center and Siri, sync through iCloud or the LaCodea ID, backup plans, and the app lock – in 41 languages. No account, no ads, no selling of your data.",
     "howTitle": "How to get Pro",
     "how": [
       "In SimpleTime, open Settings › SimpleTime Pro.",

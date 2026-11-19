@@ -72,11 +72,12 @@ const ticks = Array.from({ length: 60 }, (_, i) => {
           {ticks.map((tick) => <line x1={tick.x1} y1={tick.y1} x2={tick.x2} y2={tick.y2} class:list={['hero-dial__tick', tick.major && 'is-major']} />)}
         </svg>
 
-        {/* sizes as drawn: 60 % of the window, 301 px from 500 px on. "64vw" fetched
-            the 1080 px file for 235 px on a 3× phone (audit 19.11.2026). */}
+        {/* Below 1024 px the same sizes as the tour's first picture, the same screenshot
+            a little larger: both then share one file. Sized for the hero alone, a 3×
+            phone fetched 26 KB here and 43 KB for the tour (audit 19.11.2026). */}
         <div class="hero-phone rise-media delay-1">
           <div class="drift-a">
-            <DeviceFrame image={phoneScreen(lang, 'tracking')} alt={shots[0].alt} loading="eager" sizes="(min-width: 500px) 302px, 61vw" />
+            <DeviceFrame image={phoneScreen(lang, 'tracking')} alt={shots[0].alt} loading="eager" sizes="(min-width: 1024px) 302px, (min-width: 420px) 288px, 69vw" />
           </div>
         </div>
 

@@ -63,9 +63,12 @@ const dir = RTL_LOCALES.has(lang) ? 'rtl' : 'ltr';
 // Body text needs no preload: Apple devices set it in their own system face
 // and never fetch Inter or Noto. The headlines are another matter – every
 // device sets them in Mona Sans, and the hero's arrives with the first bytes.
-// On every page: headlines in other scripts fall back to the text face, but
-// their digits, spaces and the brand are Latin, so the file came anyway – only
-// late, and its swap laid out /ja/, /ar/ and /hy/ a second time (audit 19.11.2026).
+// Latin only: other scripts fall back to the text face for their headlines.
+// Their digits and the brand are Latin, so the file comes there too, later, and
+// its swap lays the page out again. Preloaded on /ar/ and /ja/ (audit 19.11.2026,
+// phone ×4 CPU) that second layout only moved before the first paint – ~0.5 s
+// later, the same work in all – so the preload stays where the headline needs it.
+const LATIN = new Set<Lang>(['en', 'de', 'nl', 'sv', 'fr', 'it', 'es', 'pt', 'tr']);
 
 const appSchema = {
   '@context': 'https://schema.org',
@@ -123,7 +126,7 @@ const jsonLdPayload = JSON.stringify(graph).replace(/</g, '\\u003c');
         Android mostly. The app itself comes from the App Store; the site stays
         a site ("display": "browser"). */}
     <link rel="manifest" href="/manifest.webmanifest" />
-    <link rel="preload" as="font" type="font/woff2" href={displayLatin} crossorigin="anonymous" />
+    {LATIN.has(lang) && <link rel="preload" as="font" type="font/woff2" href={displayLatin} crossorigin="anonymous" />}
 
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="SimpleTime" />

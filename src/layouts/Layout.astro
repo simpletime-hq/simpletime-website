@@ -167,6 +167,12 @@ const jsonLdPayload = JSON.stringify(graph).replace(/</g, '\\u003c');
           saved === 'dark' ||
           (!saved && window.matchMedia('(prefers-color-scheme: dark)').matches);
         root.classList.toggle('dark', dark);
+        // A choice of one's own also colours the browser bar, not only the OS setting.
+        if (saved) {
+          document
+            .querySelectorAll('meta[name="theme-color"]')
+            .forEach((m) => m.setAttribute('content', dark ? '#06080f' : '#f5f6fa'));
+        }
       })();
     </script>
 

@@ -808,6 +808,19 @@ const arrival = placeNotice(lang, taskName(lang, 'work'), clock(lang, 8 * 60 + 2
     line-height: 1;
   }
 
+  /* At 320px six samples of 2.1rem overran the picture by 5px. */
+  @media (max-width: 374px) {
+    .pro-style__fonts {
+      gap: 0.3rem;
+    }
+
+    .pro-style__font {
+      width: 1.85rem;
+      height: 1.85rem;
+      font-size: 0.9rem;
+    }
+  }
+
   /* The font in use, ringed as the font page rings it. */
   .pro-style__font.is-current {
     box-shadow: 0 0 0 2px var(--accent);

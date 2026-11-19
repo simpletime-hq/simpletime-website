@@ -242,17 +242,24 @@ def measure(draw, text, weight, size) -> float:
 
 
 def draw_text(draw, x, y, text, weight, size, fill) -> None:
-    """`y` is the ascender line, matching Pillow's default text anchor."""
-    for sub, seg in runs(text):
+    """`y` is the ascender line of the tallest font in the line; all runs share
+    its baseline.
+
+    Each run used to hang from its own font's ascender, so a line mixing scripts
+    had as many baselines as fonts – "iPhone · iPad · Mac" sat about 10px above
+    the Arabic beside it (audit 19.11.2026). A line in one script sits where it
+    always did.
+    """
+    parts = runs(text)
+    baseline = y + max(font(sub, weight, size).getmetrics()[0] for sub, _ in parts)
+    for sub, seg in parts:
         face = font(sub, weight, size)
         if sub in SHAPED:
             mask, advance, mask_baseline = shaped_run(sub, seg, weight, size)
-            ascent = face.getmetrics()[0]
-            # Line the shaped mask's baseline up with Pillow's.
-            draw._image.paste(fill, (int(x), int(y + ascent - mask_baseline)), mask)
+            draw._image.paste(fill, (int(x), int(baseline - mask_baseline)), mask)
             x += advance
         else:
-            draw.text((x, y), seg, font=face, fill=fill)
+            draw.text((x, baseline), seg, font=face, fill=fill, anchor="ls")
             x += draw.textlength(seg, font=face)
 
 

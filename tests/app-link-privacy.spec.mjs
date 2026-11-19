@@ -8,11 +8,12 @@ const ID = '11111111-2222-3333-4444-555555555555';
 const ENTRY = `/app/entry/${ID}/`;
 
 /** Stands in for intern.atriya.io/t.js and reports what the real one reports: the path
-    and the referrer without query and fragment. */
+    and the referrer without query and fragment – to the real endpoint, the only one the
+    CSP lets through (connect-src …/api/ingest/). */
 const TRACKER = `
   (function () {
     var bare = function (u) { return String(u || '').split(/[?#]/)[0]; };
-    fetch('https://intern.atriya.io/api/collect', {
+    fetch('https://intern.atriya.io/api/ingest/v1/events', {
       method: 'POST', keepalive: true,
       body: JSON.stringify({ path: location.pathname, referrer: bare(document.referrer) })
     });

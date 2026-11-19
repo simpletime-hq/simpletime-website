@@ -193,7 +193,7 @@ const icons: Record<string, string> = {
     </div>
 
     <div class="sheet__store">
-      <AppStoreButton label={t('appstore.download')} />
+      <AppStoreButton />
     </div>
   </div>
 </header>
@@ -791,6 +791,10 @@ const icons: Record<string, string> = {
     b.addEventListener('click', () => {
       const dark = root.classList.toggle('dark');
       showTheme();
+      // The browser bar follows the choice too (colours as in Layout's theme-color).
+      document
+        .querySelectorAll('meta[name="theme-color"]')
+        .forEach((m) => m.setAttribute('content', dark ? '#06080f' : '#f5f6fa'));
       try {
         localStorage.setItem('theme', dark ? 'dark' : 'light');
       } catch {

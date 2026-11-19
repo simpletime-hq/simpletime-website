@@ -10,10 +10,17 @@
 
 import { createServer } from 'node:http';
 import { readFile, stat } from 'node:fs/promises';
-import { join, extname } from 'node:path';
+import { join, extname, resolve as resolvePath, sep } from 'node:path';
+import { fileURLToPath } from 'node:url';
 
-const DIST = new URL('../dist/', import.meta.url).pathname;
+// The folder itself, without a trailing separator, and everything below it.
+const DIST = resolvePath(fileURLToPath(new URL('../dist/', import.meta.url)));
 const PORT = Number(process.env.PORT ?? 4322);
+// Only this machine: the server is for tests and checks, and an address in the
+// local network would hand dist/ – and, before the path check below, any file –
+// to every device on it. Hosts other than these are refused (DNS rebinding).
+const HOST = '127.0.0.1';
+const HOSTS = new Set([`127.0.0.1:${PORT}`, `localhost:${PORT}`, `[::1]:${PORT}`]);
 
 const TYPES = {
   '.html': 'text/html; charset=utf-8',
@@ -78,7 +85,10 @@ const matches = (pattern, path) =>
   pattern.endsWith('*') ? path.startsWith(pattern.slice(0, -1)) : pattern === path;
 
 async function resolve(urlPath) {
-  const candidates = [join(DIST, urlPath), join(DIST, urlPath, 'index.html')];
+  // Never leave dist/: "/../package.json" or "/..%2f..%2fetc/hosts" stay outside.
+  const base = resolvePath(DIST, `.${urlPath}`);
+  if (base !== DIST && !base.startsWith(DIST + sep)) return null;
+  const candidates = [base, join(base, 'index.html')];
   for (const c of candidates) {
     try {
       if ((await stat(c)).isFile()) return c;
@@ -90,7 +100,18 @@ async function resolve(urlPath) {
 }
 
 createServer(async (req, res) => {
-  const path = decodeURIComponent(new URL(req.url, 'http://x').pathname);
+  if (!HOSTS.has(req.headers.host ?? '')) {
+    res.writeHead(421).end();
+    return;
+  }
+  let path;
+  try {
+    path = decodeURIComponent(new URL(req.url, 'http://x').pathname);
+  } catch {
+    // A broken escape such as "%E0%A4%A" – answer instead of crashing the server.
+    res.writeHead(400).end();
+    return;
+  }
   const rewrite = (await resolve(path)) ? null : rewrites.find((r) => matches(r.from, path));
   const file = await resolve(rewrite ? rewrite.to : path);
 
@@ -107,7 +128,7 @@ createServer(async (req, res) => {
   if (!file) {
     // As Cloudflare does (not_found_handling "404-page"): the nearest 404.html,
     // from the requested folder up to the root – /de/… gets the German one.
-    const folders = decodeURIComponent(new URL(req.url, 'http://x').pathname).split('/').slice(1, -1);
+    const folders = path.split('/').slice(1, -1);
     let notFound = null;
     for (let depth = folders.length; depth >= 0 && !notFound; depth--) {
       notFound = await resolve(`/${[...folders.slice(0, depth), '404.html'].join('/')}`);
@@ -120,6 +141,6 @@ createServer(async (req, res) => {
   res.setHeader('Content-Type', TYPES[extname(file)] ?? 'application/octet-stream');
   res.writeHead(200);
   res.end(await readFile(file));
-}).listen(PORT, () => {
-  console.log(`dist/ with _headers applied on http://localhost:${PORT}`);
+}).listen(PORT, HOST, () => {
+  console.log(`dist/ with _headers applied on http://${HOST}:${PORT}`);
 });

@@ -30,12 +30,34 @@ test('FAQ search filters, reports and resets', async ({ page }, testInfo) => {
   await expect(page.locator('#faq-empty-text')).toContainText('zzqxv');
   expect(await items.evaluateAll((all) => all.filter((el) => !el.hidden).length)).toBe(0);
 
+  // Echoed exactly as typed – "$&" and "$'" are text, not replacement patterns (audit 19.11.2026).
+  await search.fill("zz$&q$'x");
+  await expect(page.locator('#faq-empty-text')).toContainText("zz$&q$'x");
+
   // Escape clears the field and brings every question back, closed.
   await search.press('Escape');
   await expect(search).toHaveValue('');
   await expect(page.locator('#faq-empty')).toBeHidden();
   expect(await items.evaluateAll((all) => all.filter((el) => !el.hidden).length)).toBe(total);
   expect(await items.evaluateAll((all) => all.filter((el) => el.open).length)).toBe(0);
+});
+
+// Typed without the optional marks, Arabic and Hindi still find their answers: the
+// FAQ writes "مشفّرة" and "फ़ाइल", people type "مشفرة" and "फाइल" (audit 19.11.2026).
+test('the search ignores optional marks in Arabic and Hindi', async ({ page }, testInfo) => {
+  test.skip(testInfo.project.name !== 'faq-desktop', 'opens its own pages; once is enough');
+
+  for (const [route, query] of [
+    ['/ar/faq/', 'مشفرة'],
+    ['/hi/faq/', 'फाइल'],
+  ]) {
+    await page.goto(route);
+    await page.locator('#faq-search').fill(query);
+    const shown = await page
+      .locator('[data-faq-item]')
+      .evaluateAll((all) => all.filter((el) => !el.hidden).length);
+    expect(shown, `${route} “${query}”`).toBeGreaterThan(0);
+  }
 });
 
 test('a link to a question opens its answer', async ({ page }, testInfo) => {

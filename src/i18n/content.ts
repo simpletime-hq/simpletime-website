@@ -1,6 +1,7 @@
 import type { Lang } from './ui';
 import type en from './content/en.json';
 import { langPrefix } from './utils';
+import { LEGAL_IN_ENGLISH } from './legal';
 
 /**
  * Everything a visitor reads about the app, per language: the App Store text,
@@ -18,7 +19,11 @@ export type FaqItem = Content['faq']['categories'][number]['items'][number];
 const files = import.meta.glob<{ default: Content }>('./content/*.json', { eager: true });
 
 export function getContent(lang: Lang): Content {
-  return (files[`./content/${lang}.json`] ?? files['./content/en.json']).default;
+  const own = (files[`./content/${lang}.json`] ?? files['./content/en.json']).default;
+  if (!LEGAL_IN_ENGLISH.has(lang)) return own;
+  // The legal texts of these languages are the English ones (see legal.ts).
+  const { privacy, terms, accessibility } = files['./content/en.json'].default;
+  return { ...own, privacy, terms, accessibility };
 }
 
 /** Every FAQ entry by id, across all categories. */

@@ -22,6 +22,11 @@ import { join } from 'node:path';
 const ROOT = new URL('../', import.meta.url).pathname;
 const CONTENT = join(ROOT, 'src/i18n/content');
 const { ui, languages } = await import(join(ROOT, 'src/i18n/ui.ts'));
+const { LEGAL_IN_ENGLISH } = await import(join(ROOT, 'src/i18n/legal.ts'));
+// Languages with English legal texts (legal.ts) carry no legal sections and no imprint.* keys of their own;
+// only they need legal.englishOnly.
+const LEGAL = ['privacy', 'terms', 'accessibility'];
+const without = (object, drop) => Object.fromEntries(Object.entries(object).filter(([key]) => !drop(key)));
 
 const LINK = /\[([^\]]+)\]\(([^)\s]+)\)/g;
 const PLACEHOLDER = /\{[a-z]+\}/g;
@@ -78,7 +83,11 @@ for (const lang of langs) {
     continue;
   }
   const data = JSON.parse(await readFile(join(CONTENT, `${lang}.json`), 'utf8'));
-  if (lang !== 'en') compare(english, data, '', lang);
+  if (lang === 'en') continue;
+  if (LEGAL_IN_ENGLISH.has(lang)) {
+    for (const key of LEGAL) if (key in data) problems.push(`${lang}: ${key} must not be in ${lang}.json – this language shows the English legal texts`);
+    compare(without(english, (key) => LEGAL.includes(key)), without(data, (key) => LEGAL.includes(key)), '', lang);
+  } else compare(english, data, '', lang);
 }
 for (const file of files) {
   if (!langs.includes(file.replace(/\.json$/, ''))) problems.push(`src/i18n/content/${file} is not a site language`);
@@ -91,7 +100,9 @@ for (const lang of langs) {
     problems.push(`${lang}: no block in src/i18n/ui.ts`);
     continue;
   }
-  if (lang !== 'en') compare(ui.en, ui[lang], 'ui', lang);
+  if (lang === 'en') continue;
+  const drop = LEGAL_IN_ENGLISH.has(lang) ? (key) => key.startsWith('imprint.') : (key) => key === 'legal.englishOnly';
+  compare(without(ui.en, drop), ui[lang], 'ui', lang);
 }
 
 if (problems.length) {

@@ -1,0 +1,950 @@
+{
+  "store": {
+    "lead": "SimpleTime registrerer hvor tiden din blir av. Ett trykk starter, ett trykk stopper.",
+    "promise": "Ingen konto nødvendig, ingen reklame. Timene dine blir på enheten din – og i din iCloud eller hos LaCodea ID, om du vil.",
+    "sections": [
+      {
+        "id": "tracking",
+        "title": "Registrering",
+        "points": [
+          "Ett trykk starter og stopper – i appen, fra hjemskjermen, fra Kontrollsenter, fra søket på iPhone eller med Siri",
+          "Faste tider: sett opp undervisning eller vakter én gang – SimpleTime legger dem inn av seg selv hver uke",
+          "Oppgaver med underoppgaver, i like mange nivåer som arbeidet ditt har",
+          "Glemte du å starte? Legg inn tiden etterpå, og endre den når du vil",
+          "Farge, symbol, favoritter og en rekkefølge du bestemmer selv"
+        ]
+      },
+      {
+        "id": "day",
+        "title": "Dagen din",
+        "points": [
+          "En liste eller en tidslinje fra 0 til 24, med en markering for klokkeslettet nå",
+          "Notater på hver oppføring",
+          "Hvordan i dag står mot i går, øverst på siden"
+        ]
+      },
+      {
+        "id": "insights",
+        "title": "Innsikt",
+        "points": [
+          "Kakediagrammer etter oppgave og etter produktivitet",
+          "Dag, uke, måned, år",
+          "Statistikk: sammenligning med forrige periode, utvikling, fordeling gjennom dagen, lengste og korteste oppføring",
+          "Hver oppgave med sine egne tall – første oppføring, lengste, denne uken, i år",
+          "Del ethvert diagram som bilde"
+        ]
+      },
+      {
+        "id": "reports",
+        "title": "Rapporter og eksport",
+        "points": [
+          "En PDF-rapport der du selv velger og ordner delene",
+          "CSV for Excel og Numbers",
+          "Sikkerhetskopiplaner: automatisk til iCloud Drive, en mappe i Filer som Dropbox eller Google Drive, din egen server eller enheten – kryptert med passord om du vil"
+        ]
+      },
+      {
+        "id": "widgets",
+        "title": "Widgeter og Siri",
+        "points": [
+          "I dag, oppgaven som går, og uken på hjemskjermen",
+          "Tiden som går på låst skjerm og i Dynamic Island",
+          "En bryter i Kontrollsenter som starter og stopper registreringen",
+          "Siri og snarveier: start, stopp eller spør hva som går"
+        ]
+      },
+      {
+        "id": "devices",
+        "title": "På alle enheter",
+        "points": [
+          "iPhone, iPad og Mac, holdt i synk via iCloud eller LaCodea ID",
+          "41 språk, uavhengig av språket på enheten din",
+          "VoiceOver og dynamisk tekst overalt"
+        ]
+      },
+      {
+        "id": "data",
+        "title": "Dataene dine",
+        "points": [
+          "Applås med Face ID, Touch ID eller en kode du velger selv",
+          "Du velger hvor dataene dine ligger: bare på denne enheten, i din iCloud eller ende-til-ende-kryptert hos LaCodea ID",
+          "Personvern på én side: alle tillatelser og dataene dine på ett blikk",
+          "Valgfri LaCodea ID, én konto for alle LaCodea-apper – SimpleTime fungerer også uten",
+          "Ingen reklame, ikke noe salg av dataene dine – uten konto mottar vi bare anonyme krasjrapporter og bruksstatistikk, og det kan slås av",
+          "Slett alt på én gang – på enheten, i iCloud og i sikkerhetskopiene"
+        ]
+      }
+    ],
+    "pro": {
+      "title": "SimpleTime Pro",
+      "intro": "Alt over forblir gratis. Pro legger til:",
+      "points": [
+        "Apple Watch: start og stopp fra håndleddet, start tidligere, dagen, uken og målene dine med ett blikk – med tiden som går på urskiven",
+        "Tilbakeblikk: uken, måneden og året ditt som kort – til å bla i og dele",
+        "Steder: oppgaver starter av seg selv når du kommer fram – etter en ventetid, om du vil",
+        "Kalender: hver oppføring som en hendelse i kalenderen din – pluss oppgaver fra kalendere som «Jobb» eller «Familie»",
+        "Året på ett blikk: hver dag i året som ett bilde, med rekkene dine",
+        "Mål per oppgave – for dagen, uken eller måneden",
+        "Fokusfilter: arbeidsfokuset ditt slår seg på, listen viser bare arbeid, klokken går allerede",
+        "En widget for hurtigstart som du fyller selv",
+        "Sju aksentfarger eller en du velger selv, seks skrifter og seksten appsymboler",
+        "Flere deler i PDF-rapporten: utvikling, fordeling gjennom dagen, sammenligning, mål"
+      ],
+      "pricing": "Pro fås månedlig, årlig eller én gang for alle. Nye abonnenter får en gratis uke, og med Familiedeling kan opptil seks personer bruke Pro. Prisene står i appen. Månedlig og årlig fornyes automatisk til du sier opp, og det kan du gjøre når som helst i App Store-innstillingene. Det som kommer til senere, er med."
+    },
+    "closing": "Laget for alle som vil vite hvor tiden egentlig blir av – på jobben, i studiene, på trening eller for sin egen del."
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Tidsregistrering for iPhone, iPad og Mac",
+      "titleLead": "Ett trykk",
+      "titleAccent": "starter klokken.",
+      "cta": "Se funksjonene",
+      "proof": [
+        "Gratis å laste ned",
+        "Ingen konto",
+        "Ingen reklame, ikke noe datasalg"
+      ]
+    },
+    "tour": {
+      "tracking": "Start der du er."
+    },
+    "devices": {
+      "title": "På alle enhetene dine.",
+      "subtitle": "iPhone, iPad og Mac holdes i synk via iCloud eller LaCodea ID – og klokken går videre på låst skjerm, i Dynamic Island og på håndleddet."
+    },
+    "showcase": [
+      {
+        "id": "day",
+        "title": "Hele dagen din på ett blikk."
+      },
+      {
+        "id": "insights",
+        "title": "Se hvor timene dine faktisk blir av."
+      },
+      {
+        "id": "reports",
+        "title": "En rapport på sekunder."
+      }
+    ],
+    "features": {
+      "title": "Alt du trenger. Gratis.",
+      "subtitle": "Alle funksjonene på denne listen er med i den gratis appen."
+    },
+    "pro": {
+      "button": "Alt om SimpleTime Pro"
+    },
+    "audience": {
+      "title": "Laget for alle som vil vite hvor tiden blir av.",
+      "subtitle": "På jobben, i studiene, på trening – eller bare for deg selv.",
+      "groups": [
+        {
+          "id": "work",
+          "title": "Jobb & frilans",
+          "body": "Hold kunder og prosjekter adskilt som oppgaver og underoppgaver, og eksporter en ryddig oversikt når du trenger det."
+        },
+        {
+          "id": "study",
+          "title": "Studier & læring",
+          "body": "Se hvor mye tid et fag faktisk tar, og planlegg neste uke med ekte tall."
+        },
+        {
+          "id": "training",
+          "title": "Trening & vaner",
+          "body": "Registrer treningsøkter, øving eller søvn, og se hvordan regelmessigheten vokser fram uke for uke."
+        },
+        {
+          "id": "everyday",
+          "title": "Hverdagen",
+          "body": "Finn ut hvor timene faktisk blir av – og bestem selv hva du vil endre."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Vanlige spørsmål.",
+      "subtitle": "De viktigste svarene på ett blikk – og mange flere på siden med vanlige spørsmål.",
+      "button": "Alle spørsmål og svar"
+    },
+    "cta": {
+      "title": "Klar til å komme i gang?",
+      "subtitle": "Gratis på iPhone, iPad og Mac. Ingen konto, ingen reklame, ikke noe salg av dataene dine.",
+      "note": "Appen for Apple Watch er en del av SimpleTime Pro."
+    }
+  },
+  "shots": [
+    {
+      "id": "tracking",
+      "title": "Registrer",
+      "caption": "Ett trykk starter klokken",
+      "alt": "Fanen Registrering med favorittene øverst og en oppgave som går"
+    },
+    {
+      "id": "day",
+      "title": "Dagen din",
+      "caption": "Hver oppføring, på sekundet",
+      "alt": "Dagsvisningen som en liste over oppføringer med tidene sine"
+    },
+    {
+      "id": "timeline",
+      "title": "Tidslinje",
+      "caption": "Hele dagen på ett blikk",
+      "alt": "Dagsvisningen som tidslinje fra 0 til 24"
+    },
+    {
+      "id": "chart",
+      "title": "Analyser",
+      "caption": "Hvor timene dine faktisk blir av",
+      "alt": "En uke som kakediagram etter oppgave"
+    },
+    {
+      "id": "statistics",
+      "title": "Statistikk",
+      "caption": "Sammenlign uker og se utviklingen",
+      "alt": "Statistikk som sammenligner denne uken med forrige"
+    },
+    {
+      "id": "report",
+      "title": "Rapporter",
+      "caption": "En detaljert PDF med hver oppgave",
+      "alt": "En side i en PDF-rapport med hver oppgave"
+    },
+    {
+      "id": "pro",
+      "title": "Få Pro",
+      "caption": "Mål, året ditt, dine egne farger",
+      "alt": "Siden for SimpleTime Pro i appen"
+    }
+  ],
+  "pro": {
+    "eyebrow": "SimpleTime Pro",
+    "title": "Få mer ut av tiden du registrerer.",
+    "subtitle": "SimpleTime forblir gratis – alt appen kan uten Pro, er og blir gratis. Pro legger til Apple Watch, steder som starter oppgaver av seg selv, tilbakeblikk på uken, måneden og året ditt, mål og mer.",
+    "featuresTitle": "Dette legger Pro til",
+    "features": [
+      {
+        "id": "watch",
+        "title": "Apple Watch",
+        "body": "Start og stopp fra håndleddet, start tidligere, dagen, uken og målene dine med ett blikk – med tiden som går på urskiven."
+      },
+      {
+        "id": "reviews",
+        "title": "Tilbakeblikk",
+        "body": "Uken, måneden og året ditt som kort – til å bla i og dele."
+      },
+      {
+        "id": "places",
+        "title": "Steder",
+        "body": "Oppgaver starter av seg selv når du kommer fram – etter en ventetid, om du vil, så ingenting starter når du bare kjører forbi."
+      },
+      {
+        "id": "calendar",
+        "title": "Kalender",
+        "body": "Hver oppføring som en hendelse i kalenderen din – pluss oppgaver fra kalendere som «Jobb» eller «Familie»."
+      },
+      {
+        "id": "year",
+        "title": "Året på ett blikk",
+        "body": "Hver dag i året som ett bilde, med din nåværende og din lengste rekke."
+      },
+      {
+        "id": "goals",
+        "title": "Mål",
+        "body": "Et mål per oppgave – for dagen, uken eller måneden. Underoppgaver teller med."
+      },
+      {
+        "id": "focus",
+        "title": "Fokusfilter",
+        "body": "Arbeidsfokuset ditt slår seg på, listen viser bare arbeid – og registreringen kan starte og slutte med det."
+      },
+      {
+        "id": "widget",
+        "title": "Hurtigstart-widget",
+        "body": "Du bestemmer hvilke oppgaver som ligger på den. Ett trykk på hjemskjermen starter dem."
+      },
+      {
+        "id": "style",
+        "title": "Farger, skrifter og appsymboler",
+        "body": "Sju aksentfarger eller en du velger selv, som går igjen i hele appen – pluss seks skrifter og seksten appsymboler."
+      },
+      {
+        "id": "report",
+        "title": "Mer i PDF-rapporten",
+        "body": "Utvikling, fordeling gjennom dagen, sammenligning med forrige periode og mål – i den rekkefølgen du velger."
+      },
+      {
+        "id": "future",
+        "title": "Alt som kommer senere",
+        "body": "Det som kommer til senere, er med – uten nytt kjøp."
+      }
+    ],
+    "plansTitle": "Tre veier til Pro",
+    "plansSubtitle": "Prisene avhenger av landet ditt og vises i appen i din valuta før du kjøper.",
+    "plans": [
+      {
+        "id": "monthly",
+        "title": "Månedlig",
+        "body": "Belastes hver måned. Du kan si opp når som helst."
+      },
+      {
+        "id": "yearly",
+        "title": "Årlig",
+        "body": "Belastes én gang i året – appen viser hvor mye du sparer sammenlignet med å betale månedlig."
+      },
+      {
+        "id": "lifetime",
+        "title": "For alltid",
+        "body": "Betal én gang, og behold Pro for godt. Det utløper aldri."
+      }
+    ],
+    "notes": [
+      "Nye abonnenter kan prøve Månedlig eller Årlig gratis i en uke.",
+      "Familiedeling: ett kjøp for opptil seks personer.",
+      "Det som kommer til senere, er med – uten nytt kjøp."
+    ],
+    "legal": "Månedlig og årlig fornyes automatisk til du sier opp. Du kan si opp når som helst i App Store-innstillingene. «For alltid» er en engangsbetaling og utløper aldri.",
+    "terms": "Bruksvilkår (EULA)",
+    "privacy": "Personvernerklæring",
+    "freeTitle": "Dette forblir gratis",
+    "freeBody": "Alt du trenger for å registrere: oppgaver og underoppgaver, faste tider, dagsvisningen og tidslinjen, diagrammer og statistikk, PDF-rapporten og CSV-eksporten, widgeter, Live-aktiviteten, Kontrollsenter og Siri, synkronisering via iCloud eller LaCodea ID, sikkerhetskopiplaner og applåsen – på 41 språk. Ingen konto, ingen reklame, ikke noe salg av dataene dine.",
+    "howTitle": "Slik får du Pro",
+    "how": [
+      "Åpne Innstillinger › SimpleTime Pro i SimpleTime.",
+      "Velg Månedlig, Årlig eller For alltid – du betaler via Apple-kontoen din.",
+      "Pro låses opp med en gang, på alle enhetene dine med samme Apple-konto."
+    ],
+    "faqTitle": "Spørsmål om Pro",
+    "ctaTitle": "Kom i gang gratis.",
+    "ctaSubtitle": "Last ned SimpleTime – og lås opp Pro i appen når du vil."
+  },
+  "faq": {
+    "title": "Vanlige spørsmål.",
+    "subtitle": "Alt om SimpleTime – fra det første trykket til SimpleTime Pro.",
+    "searchLabel": "Søk i spørsmålene",
+    "searchPlaceholder": "f.eks. «sikkerhetskopi» eller «Apple Watch»",
+    "results": "Spørsmål som passer: {count}",
+    "noResults": "Ingen spørsmål passer til «{query}».",
+    "noResultsHint": "Prøv et annet ord – eller [skriv til oss](@contact).",
+    "topics": "Emner",
+    "moreTitle": "Har du flere spørsmål?",
+    "moreBody": "Skriv til oss – hver melding blir lest og besvart.",
+    "moreButton": "Kontakt",
+    "categories": [
+      {
+        "id": "basics",
+        "title": "Kom i gang",
+        "items": [
+          {
+            "id": "what-is",
+            "q": "Hva er SimpleTime?",
+            "a": [
+              "SimpleTime er en app for tidsregistrering på iPhone, iPad og Mac. Ett trykk starter klokken, ett trykk stopper den. Deretter viser SimpleTime deg hvor tiden din blir av – som dagsliste eller tidslinje, i diagrammer og statistikk og som PDF-rapport eller CSV-fil. Ingen konto nødvendig, ingen reklame, ikke noe salg av dataene dine."
+            ]
+          },
+          {
+            "id": "first-steps",
+            "q": "Hvordan kommer jeg i gang?",
+            "a": [
+              "Trykk på + i fanen Registrering for å lage en oppgave – med navn, farge og symbol. Trykk på trekanten ved siden av, så går klokken; trykk på Stopp for å avslutte. Første gang du åpner appen, viser en kort omvisning de viktigste knappene. Du kan se den igjen når som helst under Innstillinger › Vis omvisningen igjen."
+            ]
+          },
+          {
+            "id": "free",
+            "q": "Er SimpleTime gratis?",
+            "a": [
+              "Ja. Det er gratis å laste ned SimpleTime, og det samme gjelder alt du trenger for å registrere: oppgaver og underoppgaver, faste tider, dagsvisningen, diagrammer og statistikk, rapporter og eksport, widgeter, synkronisering via iCloud eller LaCodea ID og sikkerhetskopier. SimpleTime Pro er valgfritt og legger til appen for Apple Watch, tilbakeblikk, steder, mål og mer. [Alt om SimpleTime Pro](@pro)"
+            ]
+          },
+          {
+            "id": "account",
+            "q": "Trenger jeg en konto?",
+            "a": [
+              "Nei. Du åpner appen og setter i gang – uten å opprette noen konto. Bruker du iCloud, går synkroniseringen via din egen Apple-konto, som vi aldri ser. Om du vil, kan du logge på med LaCodea ID, kontoen vår for alle LaCodea-apper. Da lagrer vi kontoen din og kjøpene dine av SimpleTime Pro – oppføringene dine bare hvis du velger LaCodea ID som lagringssted under Data og synkronisering, og da ende-til-ende-kryptert."
+            ]
+          },
+          {
+            "id": "lacodea-id",
+            "q": "Hva er LaCodea ID?",
+            "a": [
+              "LaCodea ID er den valgfrie kontoen vår for alle LaCodea-apper. Du logger på øverst i Innstillinger – med Apple, en passnøkkel eller en kode på e-post. Med den kan du synkronisere ende-til-ende-kryptert via LaCodea ID, og et kjøp av SimpleTime Pro gjelder på alle enheter der du er logget på; SimpleTime fungerer likevel fint uten."
+            ]
+          },
+          {
+            "id": "devices",
+            "q": "Hvilke enheter fungerer SimpleTime på?",
+            "a": [
+              "På iPhone og iPad med iOS 26 eller iPadOS 26 eller nyere, og på Mac med macOS 26 eller nyere. Appen for Apple Watch er en del av SimpleTime Pro og krever watchOS 26. Velger du iCloud eller LaCodea ID under Innstillinger › Data og synkronisering, holdes oppføringene dine i synk på alle enheter med samme Apple-konto eller samme LaCodea ID."
+            ]
+          },
+          {
+            "id": "mac",
+            "q": "Hva kan SimpleTime på Mac?",
+            "a": [
+              "Nesten alt den kan på iPhone – registrering, dagsvisningen, innsikt, rapporter, eksport, sikkerhetskopier, synkronisering og applåsen; der du sveiper på iPhone, høyreklikker du på Mac. I tillegg kommer stoppeklokken i menylinjen og widgeter på skrivebordet. Steder, Live-aktiviteter, appen for Apple Watch og alternative appsymboler finnes ikke på Mac."
+            ]
+          },
+          {
+            "id": "languages",
+            "q": "Hvilke språk snakker SimpleTime?",
+            "a": [
+              "41 – fra norsk, engelsk og tysk til arabisk, hindi og japansk. Under Innstillinger › Språk kan du velge språket i appen uavhengig av språket på enheten din."
+            ]
+          },
+          {
+            "id": "offline",
+            "q": "Fungerer SimpleTime uten internett?",
+            "a": [
+              "Ja. Registrering, dagsvisningen, diagrammer og rapporter fungerer uten tilkobling. Tilkobling trenger du for synkronisering, sikkerhetskopier til din egen server, pålogging med LaCodea ID, kjøp av Pro og adressesøk for et sted. Det som blir liggende, tar SimpleTime igjen – synkroniseringen så snart enheten er på nett igjen, en sikkerhetskopi som uteble, neste gang du åpner appen."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tracking",
+        "title": "Registrering",
+        "items": [
+          {
+            "id": "start-stop",
+            "q": "Hvordan starter og stopper jeg en registrering?",
+            "a": [
+              "Trykk på trekanten ved siden av en oppgave for å starte den. Oppgaven som går, vises øverst i fanen Registrering; trykk på Stopp for å avslutte den. Et trykk på navnet åpner underoppgavene, et sveip til venstre lar deg redigere, arkivere eller slette oppgaven, og et sveip til høyre viser infoen med alle tallene – på Mac finner du alt dette med et høyreklikk."
+            ]
+          },
+          {
+            "id": "one-at-a-time",
+            "q": "Kan to oppgaver gå samtidig?",
+            "a": [
+              "Nei. Bare én oppføring går om gangen: Når du starter en annen oppgave, avsluttes oppføringen som går, i samme øyeblikk – slik overlapper ikke oppføringene dine."
+            ]
+          },
+          {
+            "id": "keeps-running",
+            "q": "Går klokken videre når jeg lukker SimpleTime?",
+            "a": [
+              "Ja. SimpleTime husker når du startet, og regner ut varigheten fra det – registreringen fortsetter når du lukker appen, låser iPhonen eller starter den på nytt. På låst skjerm og i Dynamic Island viser Live-aktiviteten tiden som går, med en knapp for å stoppe, og påminnelsene dine kommer også når appen er lukket."
+            ]
+          },
+          {
+            "id": "add-later",
+            "q": "Jeg glemte å starte – kan jeg legge inn tid etterpå?",
+            "a": [
+              "Ja. I fanen Dag trykker du på + for å legge til en oppføring med start og slutt, eller på en eksisterende oppføring for å endre den. Oppføringer kan ikke overlappe: SimpleTime sier fra hvis en periode kolliderer med en annen oppføring. Går klokken allerede, trykker du på den pågående oppføringen øverst i fanen Registrering og flytter starten bakover – helt til slutten av forrige oppføring."
+            ]
+          },
+          {
+            "id": "restore-entry",
+            "q": "Jeg slettet en oppføring – kan jeg få den tilbake?",
+            "a": [
+              "Ja. Sletter du en oppføring i fanen Dag, med et sveip til venstre eller et høyreklikk på Mac, havner den i papirkurven: Øverst til venstre i fanen Dag under «Slettede oppføringer» henter du den tilbake med «Gjenopprett», eller du sletter den for godt. Slettede oppgaver venter i papirkurven øverst til venstre i fanen Registrering, sammen med oppføringene sine. Er noe slettet for godt, er det bare en sikkerhetskopi som kan hente det tilbake."
+            ]
+          },
+          {
+            "id": "fixed-times",
+            "q": "Hva er faste tider?",
+            "a": [
+              "Gjentakende tider som undervisning, vakter eller kontortid setter du opp én gang: oppgave, ukedager, start og slutt, hver uke eller annenhver uke, fra en dag du velger, og med sluttdato om du vil. Så snart en tid er over, legger SimpleTime den inn av seg selv – på alle enheter der du åpner SimpleTime, og likevel bare én gang; i etterkant legges tider inn høyst 31 dager tilbake. Du registrerer bare det som kommer i tillegg; du finner det under Innstillinger › Registrering › Faste tider, uten Pro."
+            ]
+          },
+          {
+            "id": "fixed-times-pause",
+            "q": "Kan jeg sette faste tider på pause eller endre dem?",
+            "a": [
+              "Ja. For skoleferie, fri eller sykdom legger du inn en pause under Innstillinger › Registrering › Faste tider med «Ta pause» – i pausen legger SimpleTime ikke inn noe; en enkelt tid slår du av med bryteren ved siden av den. Oppføringer som allerede er lagt inn, kan endres eller slettes som alle andre, og endrer eller sletter du en fast tid, blir det som allerede er lagt inn, stående. Overlapper en fast tid en oppføring som finnes fra før, legger SimpleTime den ikke inn."
+            ]
+          },
+          {
+            "id": "subtasks",
+            "q": "Hvordan fungerer underoppgaver?",
+            "a": [
+              "Trykk på navnet til en oppgave for å åpne den, og legg til underoppgaver der med +. Du kan bygge dem i like mange nivåer som arbeidet ditt har – kunde, prosjekt, fase. I diagrammer, rapporter og mål teller underoppgaver med i oppgaven over."
+            ]
+          },
+          {
+            "id": "order",
+            "q": "Hvordan holder jeg orden på oppgavelisten?",
+            "a": [
+              "Merk oppgavene du bruker hver dag, som favoritter – de blir liggende øverst. Resten kan sorteres alfabetisk, etter mest brukt, etter sist brukt eller i egen rekkefølge. En farge og et symbol – eller en emoji – gjør hver oppgave lett å kjenne igjen."
+            ]
+          },
+          {
+            "id": "archive-trash",
+            "q": "Hva er forskjellen på å arkivere og å slette?",
+            "a": [
+              "Å arkivere skjuler bare en oppgave: Oppføringene blir værende og teller fortsatt med i alle analyser. Å slette flytter oppgaven og oppføringene til papirkurven – da teller tiden ikke med noe sted lenger. Arkivet og papirkurven finner du øverst til venstre i fanen Registrering: Fra arkivet henter du en oppgave tilbake med «Gjenopprett», fra papirkurven oppgaven sammen med oppføringene – eller du sletter den for godt der."
+            ]
+          },
+          {
+            "id": "notes",
+            "q": "Kan jeg legge til notater på oppføringer?",
+            "a": [
+              "Ja, hver oppføring kan ha et notat – hva du jobbet med, eller hvem du jobbet sammen med. Du skriver det når du lager eller redigerer en oppføring i fanen Dag, og mens klokken går, ved å trykke på den pågående oppføringen øverst i fanen Registrering. Notatet ser du når du åpner oppføringen, i infoen til en oppgave under «Alle oppføringer», i delen «Alle oppføringer» i PDF-rapporten og i CSV-eksporten; sikkerhetskopiene tar det med."
+            ]
+          },
+          {
+            "id": "reminders",
+            "q": "Kan SimpleTime gi meg påminnelser?",
+            "a": [
+              "Ja. Under Innstillinger › Still inn varsler lager du regler – for eksempel en påminnelse når en oppgave har gått i 60 minutter, for alle oppgaver eller bare utvalgte, på ukedagene du velger. Med «Påminn meg når ingenting går» sier SimpleTime også fra når ingenting er registrert på en stund."
+            ]
+          },
+          {
+            "id": "time-zone",
+            "q": "Jeg har reist til en annen tidssone – hvorfor vises oppføringene mine med andre klokkeslett?",
+            "a": [
+              "Som standard viser SimpleTime hver oppføring i tidssonen enheten er i akkurat nå – som Kalender fra Apple: Det du registrerte kl. 9 i New York, vises kl. 15 i Berlin. Under Innstillinger › Tidssone kan du i stedet velge «Tidssonen ved registreringen»: Da vises hver oppføring med klokkeslettet og på dagen du registrerte den – overalt der tider og summer vises. Varigheten er den samme uansett; oppføringer fra versjoner før 4.7 vises alltid i enhetens tidssone."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "insights",
+        "title": "Dagsvisning og innsikt",
+        "items": [
+          {
+            "id": "day-view",
+            "q": "Hva viser dagsvisningen?",
+            "a": [
+              "Hver oppføring på en dag med start, slutt og varighet – som liste eller som tidslinje fra 0 til 24, i dag med en markering for klokkeslettet nå; på brede skjermer som iPad og Mac vises begge side om side. Øverst ser du summen for dagen og hvordan den står mot dagen før."
+            ]
+          },
+          {
+            "id": "charts",
+            "q": "Hvilke diagrammer og statistikker finnes?",
+            "a": [
+              "I fanen Diagram: kakediagrammer etter oppgave og etter produktivitet, for en dag, en uke, en måned eller et år. Øverst til høyre under «Flere statistikker» finner du sammenligningen med forrige periode, utviklingen, de største oppgavene dine og den lengste og korteste oppføringen – og fra en uke og oppover hvordan tiden din fordeler seg gjennom dagen, med den travleste timen din. Hver oppgave har også sin egen infoside – første oppføring, lengste oppføring, denne uken, i år."
+            ]
+          },
+          {
+            "id": "productivity",
+            "q": "Hva er produktivitetsscoren?",
+            "a": [
+              "Når du redigerer en oppgave, gir du den en kategori under «Produktivitet»: produktiv, uproduktiv, nødvendig – eller «Teller ikke med i produktiviteten». Underoppgaver uten egen kategori får kategorien til oppgaven over, og «Teller ikke med i produktiviteten» gjelder for alt under. Scoren viser hvor mye av den vurderte tiden din som var produktiv eller nødvendig: (produktiv + nødvendig) ÷ (produktiv + uproduktiv + nødvendig) × 100. Tid uten kategori eller med «Teller ikke med i produktiviteten» teller ikke med."
+            ]
+          },
+          {
+            "id": "goals",
+            "q": "Hvordan fungerer mål?",
+            "a": [
+              "Med SimpleTime Pro setter du et mål per oppgave under Innstillinger › Mål: minst eller høyst så mye tid per dag, uke eller måned – for eksempel minst 8 timer trening i uken eller høyst 2 timer sosiale medier om dagen. Underoppgaver teller med, og det er den nåværende perioden som måles. Hvor du står, ser du i fanen Diagram og på Apple Watch; i delen «Mål» sammenligner PDF-rapporten snittet i den valgte perioden med målet ditt."
+            ]
+          },
+          {
+            "id": "share-chart",
+            "q": "Kan jeg dele et diagram?",
+            "a": [
+              "Ja, alle diagrammer kan deles som bilde eller lagres i Bilder. For å lagre ber SimpleTime bare om tillatelse til å legge til bilder – appen kan ikke se bildebiblioteket ditt."
+            ]
+          },
+          {
+            "id": "pdf-report",
+            "q": "Hvordan lager jeg en PDF-rapport?",
+            "a": [
+              "Under Innstillinger › Eksporter rapport velger du en periode (fra i dag til hele perioden, eller en egendefinert), velger delene du vil ha, og drar dem i den rekkefølgen du vil. SimpleTime lager PDF-en med hver oppgave og underoppgave, klar til å dele eller lagre. SimpleTime Pro legger til flere deler: «Over tid», «Gjennom dagen», «Sammenligning» og «Mål».",
+              "For timelister finnes delen «Alle oppføringer»: hver oppføring dag for dag med start, slutt, oppgave og notat, pluss dagssummer, totalsum og desimaltimer – perfekt for å sjekke timene dine mot lønnsslippen. Den er gratis, også uten Pro, og slått på fra start."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "shortcuts",
+        "title": "Widgeter, Siri og Fokus",
+        "items": [
+          {
+            "id": "widgets",
+            "q": "Hvilke widgeter finnes?",
+            "a": [
+              "For hjemskjermen: «I dag», «Oppgave som går» og «Uke» – «I dag» og «Oppgave som går» med knapper for å starte og stoppe. For låst skjerm: hva som går, og hvor lenge. I tillegg finnes bryteren «Tidsregistrering» for Kontrollsenter. Mens en oppgave går, viser en Live-aktivitet den på låst skjerm og i Dynamic Island, med en knapp for å stoppe. Med SimpleTime Pro får du også en widget for hurtigstart som du fyller med dine egne oppgaver."
+            ]
+          },
+          {
+            "id": "without-opening",
+            "q": "Kan jeg starte registreringen uten å åpne appen?",
+            "a": [
+              "Ja, på flere måter. Hold fingeren på appsymbolet for å stoppe det som går, eller for å starte en av oppgavene dine. Skriv navnet på en oppgave i søket på iPhone, og trykk på treffet. Eller bruk en widget, Siri eller bryteren «Tidsregistrering» – i Kontrollsenter, på låst skjerm eller på handlingsknappen fra iPhone 15 Pro – og med SimpleTime Pro også Apple Watch."
+            ]
+          },
+          {
+            "id": "siri",
+            "q": "Hvordan fungerer SimpleTime med Siri og Snarveier?",
+            "a": [
+              "Si for eksempel «Start Work in SimpleTime», «Stop tracking in SimpleTime», «How much did I track today in SimpleTime?» eller «What’s running in SimpleTime?». Siri forstår disse setningene på engelsk og tysk. På alle språk finner du handlingene i Snarveier-appen, der du også kan gi dem en egen setning."
+            ]
+          },
+          {
+            "id": "focus-filter",
+            "q": "Hva gjør fokusfilteret?",
+            "a": [
+              "Med et fokusfilter følger SimpleTime fokuset ditt: Når «Arbeid» slås på, viser oppgavelisten bare arbeidskategorien din – og registreringen kan starte og slutte med fokuset. Du setter det opp i iOS-innstillingene under Fokus › fokuset ditt › Fokusfiltre › Legg til filter › SimpleTime. Fokusfilteret er en del av SimpleTime Pro."
+            ]
+          },
+          {
+            "id": "calendar-entries",
+            "q": "Kan SimpleTime legge oppføringene mine inn i kalenderen?",
+            "a": [
+              "Ja, med SimpleTime Pro: Slå på «Oppføringer i Kalender» under Innstillinger › Kalender – fra den dagen vises hver avsluttede oppføring som en hendelse, i en egen kalender, «SimpleTime», eller i en du velger, per oppgave om du vil. Endrer eller sletter du en oppføring, følger hendelsen med, og lenken i hendelsen åpner oppføringen i SimpleTime. Slår du funksjonen av, blir hendelsene liggende i kalenderen.",
+              "«Oppgaver fra kalendere» gjør kalendere som «Jobb» til oppgaver; hendelser som allerede står i kalenderen, blir likevel ikke til oppføringer. Hendelsene lagres hos leverandøren av kalenderen din og viser navnene på oppgavene dine til alle du deler kalenderen med – også når applåsen er på."
+            ]
+          },
+          {
+            "id": "menu-bar",
+            "q": "Kan jeg bruke SimpleTime fra menylinjen på Mac?",
+            "a": [
+              "Ja. En stoppeklokke i menylinjen viser om en oppgave går; klikk på den for å starte, stoppe eller bytte oppgave uten å åpne vinduet. Du slår den på eller av under Innstillinger › Menylinje › Vis i menylinje. Er applåsen satt opp, viser menyen ingen oppgavenavn og tilbyr bare Stopp."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "data",
+        "title": "Synkronisering, sikkerhetskopi og eksport",
+        "items": [
+          {
+            "id": "sync",
+            "q": "Synkroniserer SimpleTime mellom enhetene mine?",
+            "a": [
+              "Ja, via iCloud eller via LaCodea ID – det velger du på hver enhet under Innstillinger › Data og synkronisering. Med iCloud synkroniseres hver enhet der du har valgt iCloud og er logget på med samme Apple-konto; når det skjer, bestemmer systemet. Det kan ikke tvinges fram – «Synkroniser nå» sjekker da kontoen og tilkoblingen, og den samme siden viser når det sist ble synkronisert.",
+              "Med LaCodea ID synkroniseres hver enhet der du er logget på med samme LaCodea ID og har valgt den, også med en annen Apple-konto – ende-til-ende-kryptert og, når SimpleTime er åpen på begge enhetene, i løpet av noen sekunder."
+            ]
+          },
+          {
+            "id": "sync-trouble",
+            "q": "Oppføringene mine kommer ikke fram på den andre enheten – hva kan jeg gjøre?",
+            "a": [
+              "Sjekk Innstillinger › Data og synkronisering på begge enhetene: Begge trenger samme sted – iCloud med samme Apple-konto, eller LaCodea ID med samme pålogging. Står det at et bytte først gjelder senere, avslutter du SimpleTime helt og åpner appen igjen; hold også appen oppdatert på alle enhetene dine.",
+              "Med iCloud viser «Siste synk» i Innstillinger under Synkronisering når data sist ble overført, og «Sjekk synk» ser på kontoen og tilkoblingen og oppgir årsaken hvis noe er galt – for eksempel full iCloud-lagring. Med LaCodea ID viser siden «Data og synkronisering» om endringer venter på tilkobling, om en annen konto er logget på, eller om enheten trenger gjenopprettingsnøkkelen din. Hjelper ikke det, [skriv til oss](@contact)."
+            ]
+          },
+          {
+            "id": "without-icloud",
+            "q": "Kan jeg bruke SimpleTime uten iCloud?",
+            "a": [
+              "Ja. Velg «Bare på denne enheten» i Innstillinger under Data og synkronisering – da blir dataene dine på denne ene enheten. Desto viktigere blir sikkerhetskopier: En sikkerhetskopiplan lagrer dem automatisk, for eksempel i en mappe i Filer-appen eller på din egen server. Vil du likevel synkronisere flere enheter uten iCloud, velger du LaCodea ID der; en enhet uten iCloud-nøkkelringen din ber da én gang om gjenopprettingsnøkkelen."
+            ]
+          },
+          {
+            "id": "switch-storage",
+            "q": "Hvordan bytter jeg hvor dataene mine ligger?",
+            "a": [
+              "Under Innstillinger › Data og synkronisering trykker du på stedet der dataene skal ligge, og deretter på «Bytt til iCloud», «Bytt til LaCodea ID» eller «Behold bare på denne enheten»; for LaCodea ID logger du på underveis. Før byttet til iCloud eller LaCodea ID tar SimpleTime en sikkerhetskopi av denne enheten, og finnes det allerede data der, velger du mellom «Slå sammen» og «Bruk dataene fra …».",
+              "Byttet gjelder bare denne enheten og trer som regel i kraft når du har avsluttet SimpleTime helt og åpnet appen igjen – siden sier fra. De andre enhetene dine fortsetter å synkronisere som før til du bytter der også. Etterpå tilbyr SimpleTime å slette dataene på det gamle stedet; gjør det først når de andre enhetene dine også har byttet – ellers mister de også disse dataene."
+            ]
+          },
+          {
+            "id": "recovery-key",
+            "q": "Hva er gjenopprettingsnøkkelen?",
+            "a": [
+              "Med LaCodea ID som lagringssted krypterer SimpleTime dataene dine ende-til-ende; Apple-enhetene dine får vanligvis nøkkelen av seg selv via iCloud-nøkkelringen. En enhet uten iCloud-nøkkelringen din – for eksempel med en annen Apple-konto – trenger gjenopprettingsnøkkelen din én gang: 24 bokstaver og sifre. Du finner den under Innstillinger › Data og synkronisering › Gjenopprettingsnøkkel, etter Face ID eller enhetskoden; til du bekrefter at du har tatt vare på den, minner siden «Sikkerhet» deg på det. Oppbevar den i passordbehandleren din eller på papir – uten den og uten enhetene dine kan ingen åpne dataene dine, heller ikke vi."
+            ]
+          },
+          {
+            "id": "recovery-key-lost",
+            "q": "Jeg har mistet gjenopprettingsnøkkelen min – hva nå?",
+            "a": [
+              "På en enhet som fortsatt kan lese dataene dine, viser SimpleTime den igjen under Innstillinger › Data og synkronisering › Gjenopprettingsnøkkel med «Vis gjenopprettingsnøkkel» – eller du lager en ny der, og da slutter den gamle å virke. Kan ingen av enhetene dine åpne dataene lenger, kan ingen gjenopprette dem – heller ikke vi. Trykk da på «Jeg har mistet gjenopprettingsnøkkelen min» når du blir bedt om den, og begynn på nytt med dataene på denne enheten; det som bare lå på serveren eller på de andre enhetene dine, går tapt."
+            ]
+          },
+          {
+            "id": "backups",
+            "q": "Hvordan fungerer sikkerhetskopier?",
+            "a": [
+              "Under Innstillinger › Sikkerhetskopier lager du så mange sikkerhetskopiplaner du vil. Hver plan har et sted (iCloud Drive, en mappe i Filer-appen som Dropbox eller Google Drive, din egen server via WebDAV eller denne enheten), en tidsplan fra hver time til månedlig, en oppbevaringstid og, om du vil, et passord. På den samme siden kan du også ta en sikkerhetskopi manuelt når som helst."
+            ]
+          },
+          {
+            "id": "backup-password",
+            "q": "Kan jeg beskytte sikkerhetskopiene mine med et passord?",
+            "a": [
+              "Ja. Velger du et passord for en plan, krypteres hver sikkerhetskopi på enheten din før den lagres. Ta godt vare på passordet: Uten det kan ingen gjenopprette sikkerhetskopien – verken du eller vi. Det finnes ingen vei utenom."
+            ]
+          },
+          {
+            "id": "backup-files",
+            "q": "Hvor finner jeg sikkerhetskopiene mine?",
+            "a": [
+              "Sikkerhetskopier fra en plan med «Bare på denne enheten» finner du også i Filer-appen under «På iPhone» (eller «På iPad») › SimpleTime › Backups, og de fra en plan i iCloud Drive under iCloud Drive › SimpleTime › Backups. Planer for en mappe i Filer-appen eller din egen server legger dem der du valgte. Sikkerhetskopier på enheten går tapt med enheten – og når du sletter SimpleTime. Gi helst planene dine et passord: Uten passord kan alle som har tilgang til stedet, åpne en sikkerhetskopi – på enheten alle som låser den opp, også når applåsen er på."
+            ]
+          },
+          {
+            "id": "restore",
+            "q": "Hvordan gjenoppretter jeg en sikkerhetskopi?",
+            "a": [
+              "Under Innstillinger › Sikkerhetskopier gjenoppretter du en sikkerhetskopi – fra en av planene dine eller fra en fil. Eksisterende data blir beholdt, og det som mangler, legges til. Sikkerhetskopier fra SimpleTime 4.7 og eldre importerer du under Innstillinger › Eksporter / importer data › Importer sikkerhetskopi fra JSON. På en ny enhet bør du helst vente til synkroniseringen via iCloud eller LaCodea ID har levert dataene dine – ellers kan du ende opp med doble oppgaver."
+            ]
+          },
+          {
+            "id": "export",
+            "q": "Kan jeg eksportere dataene mine?",
+            "a": [
+              "Ja, når som helst: som CSV-fil med én rad per oppføring (dato, start, slutt, oppgave, varighet, desimaltimer og notat, for Excel, Numbers eller et hvilket som helst regnearkprogram), som PDF-rapport eller som sikkerhetskopi.",
+              "Under Innstillinger › Eksporter / importer data velger du perioden for CSV-filen – fra i dag til hele perioden, eller en egen, for eksempel forrige måned. En sikkerhetskopi tar du under Innstillinger › Sikkerhetskopier."
+            ]
+          },
+          {
+            "id": "timesheet",
+            "q": "Hvordan får jeg timene mine til en timeliste?",
+            "a": [
+              "Som PDF: Under Innstillinger › Eksporter rapport velger du perioden, for eksempel «Forrige måned», og lar delen «Alle oppføringer» være slått på; den viser hver oppføring med start, slutt, oppgave og notat, pluss dagssummer, totalsum og desimaltimer. Som regneark: Under Innstillinger › Eksporter / importer data velger du perioden og trykker på «Eksporter data som CSV» – én rad per oppføring med dato, start, slutt, oppgave, varighet, desimaltimer og notat, for Excel eller Numbers. Begge deler er gratis, og oppføringer fra faste tider teller som alle andre."
+            ]
+          },
+          {
+            "id": "rounding",
+            "q": "Kan SimpleTime runde av tider, for eksempel til kvarter?",
+            "a": [
+              "Nei, det finnes ingen innstilling for avrunding: SimpleTime lagrer start og slutt slik du registrerer dem. I delen «Alle oppføringer» i PDF-rapporten og i CSV-eksporten er hver rad avrundet til minuttet og oppgitt i desimaltimer med to desimaler; i PDF-en summeres akkurat disse verdiene. Trenger du kvarter, endrer du start og slutt i oppføringen eller runder av i regnearkprogrammet ditt."
+            ]
+          },
+          {
+            "id": "import",
+            "q": "Kan jeg importere data fra en annen app?",
+            "a": [
+              "Nei. SimpleTime leser bare sine egne sikkerhetskopier – CSV-filer kan ikke importeres, heller ikke de SimpleTime selv har laget, og hendelser fra kalenderen din blir ikke til oppføringer. Tidligere tider kan du legge inn manuelt i fanen Dag med +."
+            ]
+          },
+          {
+            "id": "new-device",
+            "q": "Hvordan flytter jeg til en ny iPhone?",
+            "a": [
+              "Logg på med samme Apple-konto, og installer SimpleTime – bruker du iCloud (Innstillinger › Data og synkronisering), kommer oppføringene dine tilbake av seg selv. Bruker du LaCodea ID, logger du på med den på den nye enheten og velger den under Data og synkronisering; får ikke enheten nøkkelen av seg selv via iCloud-nøkkelringen din, ber appen én gang om gjenopprettingsnøkkelen. Ellers tar du en sikkerhetskopi på den gamle enheten og gjenoppretter den på den nye. Steder og innstillinger hører til hver enkelt enhet – de blir verken synkronisert eller sikkerhetskopiert."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "privacy",
+        "title": "Personvern og sikkerhet",
+        "items": [
+          {
+            "id": "data-location",
+            "q": "Hvor lagres dataene mine?",
+            "a": [
+              "Der du velger: I Innstillinger under Data og synkronisering velger du mellom «Bare på denne enheten», din private iCloud, der Apple krypterer dataene, og LaCodea ID, der de er ende-til-ende-kryptert – vi kan ikke lese oppføringene dine på noen av disse stedene. Sikkerhetskopier lagres der sikkerhetskopiplanene dine legger dem; uten passord kan alle som har tilgang til stedet, lese dem. Slår du på «Oppføringer i Kalender» med Pro, vises avsluttede oppføringer også som hendelser i kalenderen din – synlige for leverandøren og for alle du deler den med."
+            ]
+          },
+          {
+            "id": "lacodea-id-privacy",
+            "q": "Hvem kan lese oppføringene mine når jeg synkroniserer via LaCodea ID?",
+            "a": [
+              "Bare enhetene dine. SimpleTime krypterer oppgaver, oppføringer med tider og notater, faste tider, mål og påminnelser på enheten din (AES-GCM med 256 bit) før de sendes til SimpleTimes egen server – bare enhetene dine har nøkkelen, ikke vi. Serveren ser bare hvor mange poster av hvilken type det finnes, omtrent hvor store de er, når de ble skrevet, og om de er slettet; den står i et datasenter i Frankfurt am Main. Detaljene står i [personvernerklæringen vår](@privacy)."
+            ]
+          },
+          {
+            "id": "tracking-me",
+            "q": "Sporer SimpleTime meg?",
+            "a": [
+              "Nei. SimpleTime viser ingen reklame, selger ingen data, lager ingen brukerprofiler og følger deg ikke på tvers av andre apper og nettsteder. For at vi raskt skal finne feil, sender appen anonyme krasjrapporter og bruksstatistikk til vår egen server – uten enhets-ID og aldri med oppgavene, tidene eller notatene dine. Du kan slå dette av under Innstillinger › Personvern › Oversikt og tillatelser. Detaljene står i [personvernerklæringen vår](@privacy)."
+            ]
+          },
+          {
+            "id": "permissions",
+            "q": "Hvilke tillatelser ber SimpleTime om?",
+            "a": [
+              "Bare det en funksjon trenger, og først når du bruker den: varslinger for påminnelser og varsler fra steder, posisjonen din for steder, kalenderne dine for «Oppføringer i Kalender», tilgang til å legge til i Bilder når du lagrer noe som bilde, og Face ID eller Touch ID for applåsen. I innstillingene under Personvern › Oversikt og tillatelser ser du hver av dem med gjeldende status."
+            ]
+          },
+          {
+            "id": "location",
+            "q": "Hvorfor vil SimpleTime vite posisjonen min?",
+            "a": [
+              "Bare for steder, som er en del av SimpleTime Pro: slik at en oppgave kan starte når du kommer fram et sted. iOS følger med på områdene du har satt opp, og sier fra til appen når du kommer eller drar. Stedene dine blir på enheten din, og SimpleTime fører ingen logg over hvor du har vært. Uten steder trenger ikke SimpleTime posisjonen din."
+            ]
+          },
+          {
+            "id": "app-lock",
+            "q": "Hvordan fungerer applåsen?",
+            "a": [
+              "Under Innstillinger › Applås velger du om SimpleTime skal åpnes med Face ID eller Touch ID og enhetskoden, eller med en egen kode – sifre eller et passord. I appveksleren forblir SimpleTime tildekket, og oppgavenavn vises ikke lenger i søket på iPhone eller på appsymbolet; under «Utenfor appen» velger du hva varsler, widgeter og Apple Watch viser. I tilfelle du glemmer din egen kode, kan du på forhånd slå på «Tilbakestill glemt kode med enhetskode» eller velge et nødpassord. Uten noen av delene er eneste vei tilbake å slette appen og installere den på nytt – og det som bare lå på denne enheten, er da tapt hvis du ikke har en sikkerhetskopi."
+            ]
+          },
+          {
+            "id": "security-overview",
+            "q": "Hva viser siden «Sikkerhet»?",
+            "a": [
+              "Under Innstillinger › Sikkerhet › Oversikt ser du på ett blikk hvor godt dataene dine er beskyttet: enhetskode, applås, automatiske og krypterte sikkerhetskopier og hvor dataene dine ligger – med LaCodea ID også ende-til-ende-kryptering og gjenopprettingsnøkkel. Det som fortsatt mangler, står under «Anbefalt»; hvert punkt forklarer hvordan det beskytter deg, og tar deg ved behov til riktig innstilling."
+            ]
+          },
+          {
+            "id": "delete-all",
+            "q": "Hvordan sletter jeg alle dataene mine?",
+            "a": [
+              "I Innstillinger under Personvern › Slett alle data fjerner du alt på én gang – oppføringer og oppgaver, mål, steder, papirkurven, påminnelser, sikkerhetskopiene fra planene dine og de gamle sikkerhetskopiene i iCloud Drive, eksporter, innstillinger med koden til applåsen og hendelsene SimpleTime har lagt inn i kalenderen din.",
+              "Alt slettes på denne enheten, i iCloud og – hvis du synkroniserer via LaCodea ID – på serveren; via iCloud når slettingen også de andre enhetene dine så snart de er på nett. Synkroniserer du via LaCodea ID, beholder de andre enhetene dine dataene sine og slutter å synkronisere til du setter det opp der igjen – slett dataene der også – og kontoen din hos LaCodea ID blir værende. Dette kan ikke angres."
+            ]
+          },
+          {
+            "id": "delete-app",
+            "q": "Hva skjer hvis jeg sletter SimpleTime?",
+            "a": [
+              "Da forsvinner det som bare lå på denne enheten: oppføringene dine hvis du valgte «Bare på denne enheten», sikkerhetskopiene fra en plan med «Bare på denne enheten», stedene dine og innstillingene dine, også applåsen. Det som ligger i iCloud eller hos LaCodea ID, blir liggende der og kommer tilbake når du har installert appen på nytt og bruker det samme stedet under Data og synkronisering igjen.",
+              "Sikkerhetskopier i iCloud Drive, i en mappe i Filer-appen eller på serveren din blir liggende, og det samme gjør hendelsene i kalenderen din; for en kryptert sikkerhetskopi trenger du da passordet til den. Et abonnement fortsetter til du sier det opp, og din LaCodea ID blir værende. Vil du fjerne alt først, bruker du Innstillinger › Personvern › Slett alle data."
+            ]
+          },
+          {
+            "id": "lacodea-id-delete",
+            "q": "Hvordan logger jeg av eller sletter min LaCodea ID?",
+            "a": [
+              "Trykk på din LaCodea ID øverst i Innstillinger: «Logg av» logger deg av alle LaCodea-apper på denne enheten – dataene dine blir her og synkroniseres igjen så snart du logger på. «Koble fra SimpleTime» kobler bare SimpleTime fra kontoen din; «Slett LaCodea ID» sletter kontoen for alle LaCodea-apper – det kan du også gjøre på account.lacodea.com. Enten du kobler fra eller sletter, sletter SimpleTimes server de synkroniserte dataene dine der; det som ligger på enhetene dine eller i iCloud, blir værende. Et abonnement via Apple fortsetter til du sier det opp i innstillingene på enheten."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "pro",
+        "title": "SimpleTime Pro",
+        "items": [
+          {
+            "id": "pro-includes",
+            "q": "Hva er med i SimpleTime Pro?",
+            "a": [
+              "Appen for Apple Watch, tilbakeblikk på uken, måneden og året ditt, steder, oppføringene dine som hendelser i kalenderen og oppgaver fra kalenderne dine, året på ett blikk, mål, fokusfilteret, en widget for hurtigstart, sju aksentfarger eller en du velger selv, seks skrifter, seksten appsymboler og flere deler i PDF-rapporten. Appen for Apple Watch krever en iPhone; steder og appsymboler finnes på iPhone og iPad. Det som kommer til senere, er med. [Alt om SimpleTime Pro](@pro)"
+            ]
+          },
+          {
+            "id": "pro-price",
+            "q": "Hva koster SimpleTime Pro?",
+            "a": [
+              "Pro fås månedlig, årlig eller som engangskjøpet «For alltid». Prisene avhenger av land og valuta og vises i appen før du kjøper."
+            ]
+          },
+          {
+            "id": "trial",
+            "q": "Kan jeg prøve Pro først?",
+            "a": [
+              "Ja. Nye abonnenter kan prøve Månedlig eller Årlig gratis i en uke; appen viser om prøveperioden gjelder for deg. Sier du ikke opp senest 24 timer før den slutter, fornyes abonnementet til prisen som vises."
+            ]
+          },
+          {
+            "id": "family",
+            "q": "Kan familien min også bruke Pro?",
+            "a": [
+              "Ja. SimpleTime Pro fungerer med Familiedeling – ett kjøp for opptil seks personer."
+            ]
+          },
+          {
+            "id": "restore-purchase",
+            "q": "Jeg har kjøpt Pro – hvordan får jeg det på de andre enhetene mine?",
+            "a": [
+              "Pro hører til Apple-kontoen din: På de andre enhetene dine med samme konto blir det vanligvis låst opp av seg selv. Hvis ikke, trykker du der på «Gjenopprett» under Innstillinger › SimpleTime Pro.",
+              "På en enhet med en annen Apple-konto får du Pro via LaCodea ID: Logg på med samme LaCodea ID på begge enhetene. Kjøpte du Pro før du logget på, logger du også på med din LaCodea ID på en enhet med Apple-kontoen du kjøpte med – derfra melder SimpleTime kjøpet til kontoen din. Pro-siden viser da «Via LaCodea ID-kontoen din» og, for et abonnement, hvor du tegnet det – bare der kan du endre det."
+            ]
+          },
+          {
+            "id": "cancel",
+            "q": "Hvordan sier jeg opp abonnementet mitt?",
+            "a": [
+              "I App Store-innstillingene dine – på iPhone under Innstillinger › navnet ditt › Abonnementer – eller i appen på Pro-siden under Administrer abonnement. Det går bare på en enhet med Apple-kontoen du tegnet abonnementet med; har du Pro via din LaCodea ID, viser Pro-siden hvilke enheter det gjelder. Pro forblir aktivt til slutten av perioden du allerede har betalt for, og det å slette din LaCodea ID avslutter heller ikke et abonnement."
+            ]
+          },
+          {
+            "id": "lifetime-switch",
+            "q": "Jeg har et abonnement – kan jeg bytte til «For alltid»?",
+            "a": [
+              "Ja, rett på Pro-siden. Apple avslutter likevel ikke abonnementet av seg selv: Si det opp etterpå, så det ikke fornyes. Appen minner deg på det."
+            ]
+          },
+          {
+            "id": "pro-ends",
+            "q": "Hva skjer når Pro utløper?",
+            "a": [
+              "Ingenting går tapt. Oppføringene, målene og stedene dine forblir lagret. Pro-funksjonene låses igjen – steder starter for eksempel ikke lenger oppgaver – og alt er tilbake så snart Pro er aktivt igjen."
+            ]
+          },
+          {
+            "id": "pro-offline",
+            "q": "Trenger Pro internettilkobling?",
+            "a": [
+              "Nei. SimpleTime sjekker kjøpet ditt hos App Store – og, hvis du er logget på med LaCodea ID, også hos kontoen din – når det er mulig. Uten tilkobling fortsetter Pro å virke – i opptil to uker uten kontakt."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "watch-places",
+        "title": "Apple Watch og steder",
+        "items": [
+          {
+            "id": "watch-setup",
+            "q": "Hvordan setter jeg opp appen for Apple Watch?",
+            "a": [
+              "Appen for Apple Watch er en del av SimpleTime Pro. Installer den på klokken, og åpne deretter SimpleTime én gang på iPhonen – etter noen sekunder viser klokken oppgavene dine. iPhonen er fortsatt kilden: Det klokken starter, registreres der, med den samme Live-aktiviteten og de samme widgetene."
+            ]
+          },
+          {
+            "id": "watch-features",
+            "q": "Hva kan jeg gjøre på Apple Watch?",
+            "a": [
+              "Start og stopp fra håndleddet – favorittene dine, det du brukte sist, eller hvilken som helst oppgave via søk. Start tidligere: for 5, 15, 30 eller 60 minutter siden, eller sømløst fra slutten av den siste oppføringen din. Stopp med et dobbelttrykk. Ha dagen, uken og målene dine for øye, med tiden som går på urskiven og i Smart stabel. Er iPhonen utenfor rekkevidde, tas trykkene dine vare på med klokkeslettet og leveres senere."
+            ]
+          },
+          {
+            "id": "places-how",
+            "q": "Hvordan fungerer steder?",
+            "a": [
+              "Legg til et sted – for eksempel kontoret eller treningssenteret ditt – med en radius fra 50 m til 10 km, og velg en oppgave. Når du kommer fram, starter oppgaven av seg selv, eller SimpleTime spør først. Med en ventetid starter ingenting hvis du bare passerer. Når du drar, kan oppgaven stoppe, og du kan begrense et sted til bestemte dager og tider."
+            ]
+          },
+          {
+            "id": "places-late",
+            "q": "Hvorfor starter et sted sent eller ikke i det hele tatt?",
+            "a": [
+              "Steder trenger posisjonstilgangen «Alltid» med «Nøyaktig posisjon» slått på. Under 100 m merker iOS ofte ankomsten sent, fordi posisjonen i bakgrunnen som regel kommer fra Wi-Fi og mobilnettet, ikke fra GPS – en større radius hjelper. iOS overvåker høyst 20 steder per app, og på Mac finnes det ingen steder."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "more",
+        "title": "Annet",
+        "items": [
+          {
+            "id": "look",
+            "q": "Kan jeg endre hvordan SimpleTime ser ut?",
+            "a": [
+              "Ja: lyst, mørkt eller som systemet, tre radhøyder for oppgavelisten og under Innstillinger › Skrift en egen tekststørrelse og fet tekst. Med SimpleTime Pro får du også sju aksentfarger eller en du velger selv (den går igjen i knapper, brytere og diagrammer), seks skrifter og, på iPhone og iPad, seksten appsymboler."
+            ]
+          },
+          {
+            "id": "accessibility",
+            "q": "Er SimpleTime tilgjengelig for alle?",
+            "a": [
+              "Ja. VoiceOver leser opp knapper, diagrammer og tidslinjen på alle språkene i appen, og diagrammene finnes også som lydgrafer. Teksten følger tekststørrelsen i iOS helt opp til de største trinnene – bare i toppfeltet og på tidslinjen vokser den opp til en grense, så ingenting dekker kontrollene. Mer står i [tilgjengelighetserklæringen vår](@accessibility); hvis noe ikke fungerer for deg, si gjerne fra."
+            ]
+          },
+          {
+            "id": "freelance",
+            "q": "Passer SimpleTime for frilansere?",
+            "a": [
+              "For å registrere tiden din, ja: Hold kunder og prosjekter adskilt som oppgaver og underoppgaver, og eksporter en PDF-rapport eller en CSV-fil når du trenger dokumentasjon. Timepriser og fakturaer er ikke en del av SimpleTime – til det tar du med eksporten inn i faktureringsprogrammet ditt."
+            ]
+          },
+          {
+            "id": "platforms",
+            "q": "Finnes det en versjon for Android, Windows eller nettet?",
+            "a": [
+              "Nei. SimpleTime er laget for iPhone, iPad, Mac og Apple Watch. Du kan når som helst eksportere dataene dine som CSV."
+            ]
+          },
+          {
+            "id": "account-web",
+            "q": "Hva kan jeg gjøre på account.lacodea.com?",
+            "a": [
+              "Der administrerer du din LaCodea ID i nettleseren: påloggingsmåtene dine, abonnementene dine, nedlasting av kontodataene dine og sletting av kontoen – i SimpleTime når du den samme kontoen øverst i Innstillinger. Oppføringene dine ser du ikke der: De finnes bare i SimpleTime på iPhone, iPad, Mac og Apple Watch. Synkroniserer du via LaCodea ID, ligger de ende-til-ende-kryptert på SimpleTimes server – LaCodea ID selv får dem aldri."
+            ]
+          },
+          {
+            "id": "feedback",
+            "q": "Jeg har funnet en feil eller har en idé – hvor sender jeg den?",
+            "a": [
+              "Skriv til oss på [contact@simple-time.app](mailto:contact@simple-time.app) – fra appen kan du også gå via Innstillinger › Tilbakemelding. Ved en feil: Oppgi gjerne enhetsmodellen, versjonen av iOS, iPadOS eller macOS og versjonen av SimpleTime (du finner den under Innstillinger › Om SimpleTime), og beskriv kort hva du holdt på med. Hver melding blir lest."
+            ]
+          },
+          {
+            "id": "support-us",
+            "q": "Hvordan kan jeg støtte SimpleTime?",
+            "a": [
+              "SimpleTime lages av én person. En vurdering i App Store hjelper, det samme gjør det å fortelle andre om appen – og SimpleTime Pro holder utviklingen i gang."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

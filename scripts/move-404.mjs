@@ -30,8 +30,11 @@ for (const entry of await readdir(DIST, { withFileTypes: true })) {
   moved += 1;
 }
 
-if (moved !== 17) {
-  console.error(`move-404: moved ${moved} pages, expected 17 (one per language besides English)`);
+// One per language besides English – counted from the language list, so a new language needs no edit here.
+const { languages } = await import(new URL('../src/i18n/ui.ts', import.meta.url).pathname);
+const expected = Object.keys(languages).length - 1;
+if (moved !== expected) {
+  console.error(`move-404: moved ${moved} pages, expected ${expected} (one per language besides English)`);
   process.exit(1);
 }
 console.log(`move-404: ${moved} language 404 pages in place`);

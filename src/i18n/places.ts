@@ -25,6 +25,14 @@ export const PLACE_NOTICE: Record<Lang, { place: string; started: string }> = {
   uk: { place: 'Офіс', started: '«%1$@» триває з %2$@.' },
   el: { place: 'Γραφείο', started: 'Η «%1$@» τρέχει από τις %2$@.' },
   he: { place: 'משרד', started: '‏„%1$@“ פועלת מאז %2$@.' },
+  nb: { place: 'Kontor', started: '%1$@ har gått siden kl. %2$@.' },
+  da: { place: 'Kontor', started: '%1$@ har kørt siden kl. %2$@.' },
+  hu: { place: 'Iroda', started: '%1$@: %2$@ óta fut.' },
+  cs: { place: 'Kancelář', started: '„%1$@” běží od %2$@.' },
+  hr: { place: 'Ured', started: '„%1$@” teče od %2$@.' },
+  ro: { place: 'Birou', started: '„%1$@” e în curs de la %2$@.' },
+  pl: { place: 'Biuro', started: '„%1$@” trwa od %2$@.' },
+  fi: { place: 'Toimisto', started: '%1$@ on käynnissä klo %2$@ alkaen.' },
 };
 
 export const placeNotice = (lang: Lang, task: string, time: string) => {

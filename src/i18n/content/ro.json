@@ -1,0 +1,950 @@
+{
+  "store": {
+    "lead": "SimpleTime înregistrează unde se duce timpul tău. O atingere pornește, o atingere oprește.",
+    "promise": "Cont opțional, fără reclame. Orele tale rămân pe dispozitivul tău – și în iCloud-ul tău sau în LaCodea ID, dacă vrei.",
+    "sections": [
+      {
+        "id": "tracking",
+        "title": "Înregistrare",
+        "points": [
+          "O atingere pornește și oprește – în aplicație, de pe ecranul principal, din Centrul de control, din căutarea de pe iPhone sau cu Siri",
+          "Intervale fixe: cursuri sau ture create o dată apar săptămânal",
+          "Activități cu subactivități, pe câte niveluri are munca ta",
+          "Ai uitat să pornești? Adaugă timpul după și modifică-l oricând",
+          "Culoare, simbol, favorite și o ordine stabilită de tine"
+        ]
+      },
+      {
+        "id": "day",
+        "title": "Ziua ta",
+        "points": [
+          "O listă sau o cronologie de la 0 la 24, cu un semn pentru ora curentă",
+          "Note la orice înregistrare",
+          "Cum stă ziua de azi față de ieri, chiar sus"
+        ]
+      },
+      {
+        "id": "insights",
+        "title": "Analiză",
+        "points": [
+          "Grafice circulare pe activități și pe productivitate",
+          "Zi, săptămână, lună, an",
+          "Statistici: comparație cu perioada anterioară, evoluție, distribuția de-a lungul zilei, cea mai lungă și cea mai scurtă înregistrare",
+          "Fiecare activitate cu cifrele ei – prima înregistrare, cea mai lungă, săptămâna aceasta, anul acesta",
+          "Distribuie orice grafic ca imagine"
+        ]
+      },
+      {
+        "id": "reports",
+        "title": "Rapoarte și export",
+        "points": [
+          "Un raport PDF ale cărui secțiuni le alegi și le aranjezi singur",
+          "CSV pentru Excel și Numbers",
+          "Planuri de copii de siguranță: automat în iCloud Drive, într-un dosar din aplicația Fișiere, cum ar fi Dropbox sau Google Drive, pe propriul tău server sau pe dispozitiv – criptate cu parolă dacă vrei"
+        ]
+      },
+      {
+        "id": "widgets",
+        "title": "Widgeturi și Siri",
+        "points": [
+          "Azi, activitatea în curs și săptămâna pe ecranul principal",
+          "Timpul care curge pe ecranul blocat și în Dynamic Island",
+          "Un comutator în Centrul de control care pornește și oprește înregistrarea",
+          "Siri și Scurtături: pornești, oprești sau întrebi ce e în curs"
+        ]
+      },
+      {
+        "id": "devices",
+        "title": "Pe toate dispozitivele",
+        "points": [
+          "iPhone, iPad și Mac, ținute la zi prin iCloud sau LaCodea ID",
+          "41 de limbi, independent de limba dispozitivului",
+          "VoiceOver și text dinamic peste tot"
+        ]
+      },
+      {
+        "id": "data",
+        "title": "Datele tale",
+        "points": [
+          "Blocarea aplicației cu Face ID, Touch ID sau un cod propriu",
+          "Tu alegi unde sunt datele tale: doar pe acest dispozitiv, în iCloud-ul tău sau criptate integral în LaCodea ID",
+          "Confidențialitate pe o singură pagină: toate permisiunile și datele tale dintr-o privire",
+          "LaCodea ID opțional: un cont pentru aplicațiile LaCodea",
+          "Fără reclame, nu vindem date – fără cont primim doar rapoarte de erori și statistici anonime, dezactivabile",
+          "Șterge tot dintr-o dată – de pe dispozitiv, din iCloud și din copii"
+        ]
+      }
+    ],
+    "pro": {
+      "title": "SimpleTime Pro",
+      "intro": "Tot ce e mai sus rămâne gratuit. Pro adaugă:",
+      "points": [
+        "Apple Watch: pornești și oprești de la încheietură, pornești mai devreme, ziua, săptămâna și obiectivele dintr-o privire – cu timpul care curge pe cadran",
+        "Retrospective: săptămâna, luna și anul tău pe carduri – de răsfoit și de distribuit",
+        "Locuri: activitățile pornesc singure când ajungi – dacă vrei, abia după un timp de așteptare",
+        "Calendar: fiecare înregistrare ca eveniment în calendarul tău – plus activități din calendare precum „Serviciu” sau „Familie”",
+        "Anul dintr-o privire: fiecare zi a anului într-o singură imagine, cu seriile tale",
+        "Obiective pentru fiecare activitate – pe zi, pe săptămână sau pe lună",
+        "Filtru Focalizare: Focalizarea de serviciu pornește, lista arată doar munca, ceasul merge deja",
+        "Un widget de pornire rapidă pe care îl umpli tu",
+        "Șapte culori de accent sau una a ta, șase fonturi și șaisprezece simboluri de aplicație",
+        "Secțiuni în plus în raportul PDF: evoluție, distribuția pe zi, comparație, obiective"
+      ],
+      "pricing": "Pro vine lunar, anual sau o singură dată, pentru totdeauna. Abonații noi primesc o săptămână gratuită, iar cu Partajarea familială până la șase persoane pot folosi Pro. Prețurile se văd în aplicație. Abonamentele lunar și anual se reînnoiesc automat până când renunți, iar asta poți face oricând din setările App Store. Ce se adaugă mai târziu e inclus."
+    },
+    "closing": "Făcut pentru oricine vrea să știe unde i se duce de fapt timpul – la serviciu, la facultate, la antrenament sau pentru sine."
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Înregistrarea timpului pentru iPhone, iPad și Mac",
+      "titleLead": "O atingere",
+      "titleAccent": "pornește ceasul.",
+      "cta": "Vezi funcțiile",
+      "proof": [
+        "Descărcare gratuită",
+        "Fără cont",
+        "Fără reclame, fără vânzare de date"
+      ]
+    },
+    "tour": {
+      "tracking": "Pornește de oriunde te-ai afla."
+    },
+    "devices": {
+      "title": "Pe toate dispozitivele tale.",
+      "subtitle": "iPhone, iPad și Mac rămân sincronizate prin iCloud sau LaCodea ID – iar ceasul merge mai departe pe ecranul blocat, în Dynamic Island și la încheietura ta."
+    },
+    "showcase": [
+      {
+        "id": "day",
+        "title": "Toată ziua ta, dintr-o privire."
+      },
+      {
+        "id": "insights",
+        "title": "Vezi unde se duc de fapt orele tale."
+      },
+      {
+        "id": "reports",
+        "title": "Un raport în câteva secunde."
+      }
+    ],
+    "features": {
+      "title": "Tot ce-ți trebuie. Gratuit.",
+      "subtitle": "Fiecare funcție din această listă face parte din aplicația gratuită."
+    },
+    "pro": {
+      "button": "Totul despre SimpleTime Pro"
+    },
+    "audience": {
+      "title": "Pentru oricine vrea să știe unde i se duce timpul.",
+      "subtitle": "La serviciu, la facultate, la antrenament – sau doar pentru tine.",
+      "groups": [
+        {
+          "id": "work",
+          "title": "Muncă și freelancing",
+          "body": "Ține separat clienții și proiectele, ca activități și subactivități, și exportă o evidență clară ori de câte ori ai nevoie de una."
+        },
+        {
+          "id": "study",
+          "title": "Studiu și învățare",
+          "body": "Vezi cât timp îți ia de fapt o materie și planifică săptămâna următoare cu cifre reale."
+        },
+        {
+          "id": "training",
+          "title": "Antrenament și obiceiuri",
+          "body": "Înregistrează antrenamentele, exersarea sau somnul și urmărește cum se clădește constanța, săptămână de săptămână."
+        },
+        {
+          "id": "everyday",
+          "title": "Viața de zi cu zi",
+          "body": "Află unde se duc de fapt orele – și decide tu ce vrei să schimbi."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Întrebări și răspunsuri.",
+      "subtitle": "Cele mai importante răspunsuri dintr-o privire – și multe altele pe pagina de întrebări frecvente.",
+      "button": "Toate întrebările și răspunsurile"
+    },
+    "cta": {
+      "title": "Gata să începi?",
+      "subtitle": "Gratuit pe iPhone, iPad și Mac. Fără cont, fără reclame, fără vânzarea datelor tale.",
+      "note": "Aplicația pentru Apple Watch face parte din SimpleTime Pro."
+    }
+  },
+  "shots": [
+    {
+      "id": "tracking",
+      "title": "Înregistrează",
+      "caption": "O atingere pornește ceasul",
+      "alt": "Fila Înregistrare cu o activitate în curs și favoritele sus"
+    },
+    {
+      "id": "day",
+      "title": "Ziua ta",
+      "caption": "Fiecare înregistrare, la secundă",
+      "alt": "Vizualizarea zilei ca listă de înregistrări cu orele lor"
+    },
+    {
+      "id": "timeline",
+      "title": "Cronologie",
+      "caption": "Toată ziua dintr-o privire",
+      "alt": "Vizualizarea zilei ca cronologie de la 0 la 24"
+    },
+    {
+      "id": "chart",
+      "title": "Analizează",
+      "caption": "Unde se duc de fapt orele tale",
+      "alt": "O săptămână ca grafic circular pe activități"
+    },
+    {
+      "id": "statistics",
+      "title": "Statistici",
+      "caption": "Compară săptămânile și vezi tendința",
+      "alt": "Statistici care compară săptămâna aceasta cu cea anterioară"
+    },
+    {
+      "id": "report",
+      "title": "Rapoarte",
+      "caption": "Un PDF detaliat cu fiecare activitate",
+      "alt": "O pagină dintr-un raport PDF cu fiecare activitate"
+    },
+    {
+      "id": "pro",
+      "title": "Treci la Pro",
+      "caption": "Obiective, anul tău, culorile tale",
+      "alt": "Pagina SimpleTime Pro din aplicație"
+    }
+  ],
+  "pro": {
+    "eyebrow": "SimpleTime Pro",
+    "title": "Mai mult din timpul pe care îl înregistrezi.",
+    "subtitle": "SimpleTime rămâne gratuită – tot ce poate face fără Pro rămâne gratuit. Pro adaugă Apple Watch-ul tău, locuri care pornesc singure activitățile, retrospective ale săptămânii, lunii și anului tău, obiective și multe altele.",
+    "featuresTitle": "Ce adaugă Pro",
+    "features": [
+      {
+        "id": "watch",
+        "title": "Apple Watch",
+        "body": "Pornești și oprești de la încheietură, pornești mai devreme, ziua, săptămâna și obiectivele dintr-o privire – cu timpul care curge pe cadran."
+      },
+      {
+        "id": "reviews",
+        "title": "Retrospective",
+        "body": "Săptămâna, luna și anul tău pe carduri – de răsfoit și de distribuit."
+      },
+      {
+        "id": "places",
+        "title": "Locuri",
+        "body": "Activitățile pornesc singure când ajungi – dacă vrei, abia după un timp de așteptare, ca să nu pornească nimic când doar treci pe acolo."
+      },
+      {
+        "id": "calendar",
+        "title": "Calendar",
+        "body": "Fiecare înregistrare ca eveniment în calendarul tău – plus activități din calendare precum „Serviciu” sau „Familie”."
+      },
+      {
+        "id": "year",
+        "title": "Anul dintr-o privire",
+        "body": "Fiecare zi a anului într-o singură imagine, cu seria curentă și cea mai lungă serie."
+      },
+      {
+        "id": "goals",
+        "title": "Obiective",
+        "body": "Un obiectiv pentru fiecare activitate – pe zi, pe săptămână sau pe lună. Subactivitățile se socotesc și ele."
+      },
+      {
+        "id": "focus",
+        "title": "Filtru Focalizare",
+        "body": "Focalizarea de serviciu pornește, lista arată doar munca – iar înregistrarea poate începe și se poate încheia odată cu ea."
+      },
+      {
+        "id": "widget",
+        "title": "Widget de pornire rapidă",
+        "body": "Tu decizi ce activități apar pe el. O atingere pe ecranul principal le pornește."
+      },
+      {
+        "id": "style",
+        "title": "Culori, fonturi și simboluri de aplicație",
+        "body": "Șapte culori de accent sau una a ta, în toată aplicația – plus șase fonturi și șaisprezece simboluri de aplicație."
+      },
+      {
+        "id": "report",
+        "title": "Mai mult în raportul PDF",
+        "body": "Evoluție, distribuția de-a lungul zilei, comparație cu perioada anterioară și obiective – în ordinea pe care o alegi tu."
+      },
+      {
+        "id": "future",
+        "title": "Tot ce va urma",
+        "body": "Ce se adaugă mai târziu e inclus – fără altă achiziție."
+      }
+    ],
+    "plansTitle": "Trei căi spre Pro",
+    "plansSubtitle": "Prețurile depind de țara ta și le vezi în aplicație, în moneda ta, înainte de cumpărare.",
+    "plans": [
+      {
+        "id": "monthly",
+        "title": "Lunar",
+        "body": "Se facturează în fiecare lună. Poți renunța oricând."
+      },
+      {
+        "id": "yearly",
+        "title": "Anual",
+        "body": "Se facturează o dată pe an – aplicația îți arată cât economisești față de plata lunară."
+      },
+      {
+        "id": "lifetime",
+        "title": "Pe viață",
+        "body": "Plătești o dată și Pro rămâne al tău pentru totdeauna. Nu expiră niciodată."
+      }
+    ],
+    "notes": [
+      "Abonații noi pot încerca Lunar sau Anual gratuit timp de o săptămână.",
+      "Partajare familială: o singură achiziție pentru până la șase persoane.",
+      "Ce se adaugă mai târziu e inclus – fără altă achiziție."
+    ],
+    "legal": "Lunar și anual se reînnoiesc automat până când renunți. Poți renunța oricând din setările App Store. Pe viață e o plată unică și nu expiră.",
+    "terms": "Termeni de utilizare (EULA)",
+    "privacy": "Politica de confidențialitate",
+    "freeTitle": "Ce rămâne gratuit",
+    "freeBody": "Tot ce-ți trebuie ca să-ți înregistrezi timpul: activități și subactivități, Intervale fixe, vizualizarea zilei și cronologia, grafice și statistici, raportul PDF și exportul CSV, widgeturi, activitatea live, Centrul de control și Siri, sincronizarea prin iCloud sau LaCodea ID, planuri de copii de siguranță și blocarea aplicației – în 41 de limbi. Fără cont, fără reclame, fără vânzarea datelor tale.",
+    "howTitle": "Cum obții Pro",
+    "how": [
+      "În SimpleTime, deschide Setări › SimpleTime Pro.",
+      "Alege Lunar, Anual sau Pe viață – plătești prin contul tău Apple.",
+      "Pro se deblochează imediat, pe toate dispozitivele tale cu același cont Apple."
+    ],
+    "faqTitle": "Întrebări despre Pro",
+    "ctaTitle": "Începe gratuit.",
+    "ctaSubtitle": "Descarcă SimpleTime – și deblochează Pro în aplicație oricând vrei."
+  },
+  "faq": {
+    "title": "Întrebări și răspunsuri.",
+    "subtitle": "Totul despre SimpleTime – de la prima atingere la SimpleTime Pro.",
+    "searchLabel": "Caută în întrebări",
+    "searchPlaceholder": "de ex. „copie” sau „Apple Watch”",
+    "results": "Întrebări găsite: {count}",
+    "noResults": "Nicio întrebare nu se potrivește cu „{query}”.",
+    "noResultsHint": "Încearcă alt cuvânt – sau [scrie-ne](@contact).",
+    "topics": "Teme",
+    "moreTitle": "Mai ai o întrebare?",
+    "moreBody": "Scrie-ne – citim fiecare mesaj și răspundem la fiecare.",
+    "moreButton": "Contact",
+    "categories": [
+      {
+        "id": "basics",
+        "title": "Primii pași",
+        "items": [
+          {
+            "id": "what-is",
+            "q": "Ce este SimpleTime?",
+            "a": [
+              "SimpleTime este o aplicație de înregistrare a timpului pentru iPhone, iPad și Mac. O atingere pornește ceasul, o atingere îl oprește. Apoi SimpleTime îți arată unde se duce timpul tău – ca listă a zilei sau ca cronologie, în grafice și statistici, și ca raport PDF sau fișier CSV. Fără cont obligatoriu, fără reclame, fără vânzarea datelor tale."
+            ]
+          },
+          {
+            "id": "first-steps",
+            "q": "Cum încep?",
+            "a": [
+              "Atinge + în fila Înregistrare ca să creezi o activitate – cu nume, culoare și simbol. Atinge triunghiul de lângă ea și ceasul pornește; cu Oprește îl oprești. La prima pornire, o scurtă prezentare îți arată cele mai importante butoane. O poți revedea oricând în Setări › Arată din nou prezentarea."
+            ]
+          },
+          {
+            "id": "free",
+            "q": "SimpleTime e gratuită?",
+            "a": [
+              "Da. Descărcarea aplicației SimpleTime e gratuită, la fel ca tot ce-ți trebuie ca să-ți înregistrezi timpul: activități și subactivități, intervale fixe, vizualizarea zilei, grafice și statistici, rapoarte și export, widgeturi, sincronizarea prin iCloud sau LaCodea ID și copiile de siguranță. SimpleTime Pro e opțional și adaugă aplicația pentru Apple Watch, retrospective, locuri, obiective și multe altele. [Totul despre SimpleTime Pro](@pro)"
+            ]
+          },
+          {
+            "id": "account",
+            "q": "Am nevoie de un cont?",
+            "a": [
+              "Nu. Deschizi aplicația și începi – fără să-ți creezi un cont. Dacă folosești iCloud, sincronizarea trece prin propriul tău cont Apple, pe care noi nu-l vedem niciodată. Dacă vrei, te poți autentifica cu LaCodea ID, contul nostru pentru toate aplicațiile LaCodea. Atunci stocăm contul tău și achizițiile tale de SimpleTime Pro – înregistrările tale doar dacă alegi LaCodea ID ca loc de stocare la Date și sincronizare, și atunci criptate integral."
+            ]
+          },
+          {
+            "id": "lacodea-id",
+            "q": "Ce este LaCodea ID?",
+            "a": [
+              "LaCodea ID este contul nostru opțional pentru toate aplicațiile LaCodea. Te autentifici chiar sus în Setări – cu Apple, cu o cheie de logare sau cu un cod prin e-mail. Cu el poți sincroniza criptat integral prin LaCodea ID, iar o achiziție SimpleTime Pro e valabilă pe fiecare dispozitiv pe care ești autentificat; SimpleTime funcționează însă foarte bine și fără el."
+            ]
+          },
+          {
+            "id": "devices",
+            "q": "Pe ce dispozitive funcționează SimpleTime?",
+            "a": [
+              "Pe iPhone și iPad cu iOS 26 sau iPadOS 26 ori mai nou și pe Mac cu macOS 26 sau mai nou. Aplicația pentru Apple Watch face parte din SimpleTime Pro și are nevoie de watchOS 26. Dacă alegi iCloud sau LaCodea ID în Setări › Date și sincronizare, înregistrările tale rămân sincronizate pe toate dispozitivele cu același cont Apple sau cu același LaCodea ID."
+            ]
+          },
+          {
+            "id": "mac",
+            "q": "Ce poate face SimpleTime pe Mac?",
+            "a": [
+              "Aproape tot ce face pe iPhone – înregistrarea, vizualizarea zilei, analiza, rapoartele, exportul, copiile de siguranță, sincronizarea și blocarea aplicației; unde pe iPhone glisezi, pe Mac faci clic dreapta. În plus, există cronometrul din bara de meniu și widgeturile de pe desktop. Locurile, activitățile live, aplicația pentru Apple Watch și simbolurile alternative de aplicație nu sunt disponibile pe Mac."
+            ]
+          },
+          {
+            "id": "languages",
+            "q": "Ce limbi vorbește SimpleTime?",
+            "a": [
+              "41 – de la engleză și germană până la arabă, hindi și japoneză. În Setări › Limbă poți alege limba aplicației independent de limba dispozitivului."
+            ]
+          },
+          {
+            "id": "offline",
+            "q": "SimpleTime funcționează fără internet?",
+            "a": [
+              "Da. Înregistrarea, vizualizarea zilei, graficele și rapoartele funcționează toate fără conexiune. Ai nevoie de una ca să sincronizezi, să faci copii de siguranță pe propriul server, să te autentifici cu LaCodea ID, să cumperi Pro și să cauți adresa unui loc. SimpleTime recuperează tot ce a rămas în urmă – sincronizarea imediat ce dispozitivul tău e din nou online, o copie de siguranță ratată data viitoare când deschizi aplicația."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tracking",
+        "title": "Înregistrare",
+        "items": [
+          {
+            "id": "start-stop",
+            "q": "Cum pornesc și cum opresc înregistrarea?",
+            "a": [
+              "Atinge triunghiul de lângă o activitate ca s-o pornești. Activitatea în curs apare sus în fila Înregistrare; cu Oprește o oprești. O atingere pe numele unei activități îi deschide subactivitățile, glisarea la stânga îți permite s-o editezi, s-o arhivezi sau s-o ștergi, iar glisarea la dreapta îi arată informațiile cu toate cifrele – pe Mac, toate acestea le găsești cu un clic dreapta."
+            ]
+          },
+          {
+            "id": "one-at-a-time",
+            "q": "Pot fi două activități în curs în același timp?",
+            "a": [
+              "Nu. E în curs mereu o singură înregistrare: când pornești altă activitate, înregistrarea în curs se încheie chiar în acel moment – așa că înregistrările tale nu se suprapun."
+            ]
+          },
+          {
+            "id": "keeps-running",
+            "q": "Ceasul merge mai departe dacă închid SimpleTime?",
+            "a": [
+              "Da. SimpleTime reține când ai pornit și din asta calculează durata – înregistrarea continuă când închizi aplicația, îți blochezi iPhone-ul sau îl repornești. Pe ecranul blocat și în Dynamic Island, activitatea live arată timpul care curge, cu un buton de oprire, iar mementourile tale sosesc chiar și cu aplicația închisă."
+            ]
+          },
+          {
+            "id": "add-later",
+            "q": "Am uitat să pornesc – pot adăuga timpul după?",
+            "a": [
+              "Da. În fila Zi, atinge + ca să adaugi o înregistrare cu început și sfârșit sau atinge una existentă ca s-o modifici. Înregistrările nu se pot suprapune: SimpleTime îți spune dacă o perioadă se suprapune cu altă înregistrare. Dacă ceasul merge deja, atinge înregistrarea în curs, sus în fila Înregistrare, și mută-i începutul înapoi – până la sfârșitul înregistrării anterioare."
+            ]
+          },
+          {
+            "id": "restore-entry",
+            "q": "Am șters o înregistrare – o pot recupera?",
+            "a": [
+              "Da. Dacă ștergi o înregistrare în fila Zi – glisând la stânga sau, pe Mac, cu un clic dreapta –, ea ajunge în coș: sus în stânga, în fila Zi, la „Înregistrări șterse”, o readuci cu „Restaurează” sau o ștergi definitiv. Activitățile șterse așteaptă, împreună cu înregistrările lor, în coșul din stânga sus al filei Înregistrare. Ce a fost șters definitiv poate fi readus doar dintr-o copie de siguranță."
+            ]
+          },
+          {
+            "id": "fixed-times",
+            "q": "Ce sunt intervalele fixe?",
+            "a": [
+              "Intervalele care se repetă, precum cursuri, ture sau ore de consultații, le creezi o singură dată: activitatea, zilele săptămânii, începutul și sfârșitul, în fiecare săptămână sau o dată la două săptămâni, de la o zi aleasă de tine și, dacă vrei, cu o dată de încheiere. Imediat ce un interval s-a terminat, SimpleTime îl trece singură ca înregistrare – pe fiecare dispozitiv pe care deschizi SimpleTime și totuși o singură dată; recuperează cel mult 31 de zile în urmă. Tu înregistrezi doar ce vine în plus; găsești funcția în Setări › Înregistrare › Intervale fixe, fără Pro."
+            ]
+          },
+          {
+            "id": "fixed-times-pause",
+            "q": "Pot pune pe pauză sau modifica intervalele fixe?",
+            "a": [
+              "Da. Pentru vacanțe școlare, concediu sau boală, adaugi o pauză în Setări › Înregistrare › Intervale fixe cu „Adaugă o pauză” – în timpul ei SimpleTime nu trece nimic; un singur interval îl dezactivezi cu comutatorul lui. Înregistrările deja făcute le modifici sau le ștergi ca pe oricare altele, iar dacă modifici sau ștergi un interval fix, ce e deja trecut rămâne. Dacă un interval fix se suprapune cu o înregistrare care există deja, SimpleTime nu-l mai trece."
+            ]
+          },
+          {
+            "id": "subtasks",
+            "q": "Cum funcționează subactivitățile?",
+            "a": [
+              "Atinge numele unei activități ca s-o deschizi, apoi adaugă acolo subactivități cu +. Poți merge pe câte niveluri are munca ta – client, proiect, etapă. În grafice, rapoarte și obiective, subactivitățile se socotesc la activitatea de deasupra lor."
+            ]
+          },
+          {
+            "id": "order",
+            "q": "Cum îmi țin lista de activități în ordine?",
+            "a": [
+              "Marchează ca favorite activitățile pe care le folosești zilnic – ele rămân sus. Pe celelalte le poți sorta alfabetic, după cele mai folosite, după cele folosite recent sau într-o ordine proprie. O culoare și un simbol – sau un emoji – fac fiecare activitate ușor de recunoscut."
+            ]
+          },
+          {
+            "id": "archive-trash",
+            "q": "Care e diferența dintre arhivare și ștergere?",
+            "a": [
+              "Arhivarea doar ascunde o activitate: înregistrările ei rămân și se socotesc mai departe în toate analizele. Ștergerea mută activitatea și înregistrările ei în coș – timpul lor nu se mai socotește nicăieri. Arhiva și coșul le găsești sus în stânga, în fila Înregistrare: din arhivă, „Restaurează” readuce o activitate; din coș, o readuce împreună cu înregistrările ei – sau o ștergi acolo definitiv."
+            ]
+          },
+          {
+            "id": "notes",
+            "q": "Pot adăuga note la înregistrări?",
+            "a": [
+              "Da, fiecare înregistrare poate avea o notă – la ce ai lucrat sau cu cine. O adaugi când creezi sau editezi o înregistrare în fila Zi ori, cât timp ceasul merge, atingând înregistrarea în curs, sus în fila Înregistrare. Nota o vezi când deschizi înregistrarea, în informațiile unei activități la „Toate înregistrările”, în secțiunea PDF „Toate înregistrările” și în exportul CSV; copiile de siguranță o includ."
+            ]
+          },
+          {
+            "id": "reminders",
+            "q": "Îmi poate trimite SimpleTime mementouri?",
+            "a": [
+              "Da. În Setări › Configurează notificările stabilești reguli – de exemplu un memento când o activitate e în curs de 60 de minute, pentru toate activitățile sau doar pentru unele alese, în zilele săptămânii pe care le alegi. Cu „Amintește-mi când nimic nu e în curs”, SimpleTime te anunță și când nu s-a înregistrat nimic de ceva vreme."
+            ]
+          },
+          {
+            "id": "time-zone",
+            "q": "Am călătorit într-un alt fus orar – de ce înregistrările mele apar la alte ore?",
+            "a": [
+              "Implicit, SimpleTime arată fiecare înregistrare în fusul orar în care se află acum dispozitivul tău – ca în Calendarul Apple: ce ai înregistrat la ora 9 la New York apare la ora 15 la Berlin. În Setări › Fus orar poți alege în schimb „Fusul orar al înregistrării”: atunci fiecare înregistrare apare cu ora și în ziua în care ai înregistrat-o – peste tot unde apar ore și totaluri. Durata rămâne aceeași în ambele cazuri; înregistrările din versiunile dinainte de 4.7 apar mereu în fusul orar al dispozitivului."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "insights",
+        "title": "Vizualizarea zilei și analiză",
+        "items": [
+          {
+            "id": "day-view",
+            "q": "Ce arată vizualizarea zilei?",
+            "a": [
+              "Fiecare înregistrare a unei zile, cu început, sfârșit și durată – ca listă sau ca cronologie de la 0 la 24 cu un semn pentru ora curentă, dacă e ziua de azi; pe ecranele largi, ca la iPad și Mac, apar amândouă una lângă alta. Sus vezi totalul zilei și cum stă față de ziua anterioară."
+            ]
+          },
+          {
+            "id": "charts",
+            "q": "Ce grafice și statistici există?",
+            "a": [
+              "În fila Grafic: grafice circulare pe activități și pe productivitate, pentru o zi, o săptămână, o lună sau un an. Sus în dreapta, la „Mai multe statistici”, găsești comparația cu perioada anterioară, evoluția, activitățile principale și cea mai lungă și cea mai scurtă înregistrare – iar de la o săptămână în sus, și cum ți se distribuie timpul de-a lungul zilei, cu ora cea mai plină. Fiecare activitate are și propria pagină de informații – prima înregistrare, cea mai lungă înregistrare, săptămâna aceasta, anul acesta."
+            ]
+          },
+          {
+            "id": "productivity",
+            "q": "Ce este scorul de productivitate?",
+            "a": [
+              "Când editezi o activitate, îi atribui o categorie la „Productivitate”: productiv, neproductiv, necesar – sau „Exclude din productivitate”. Subactivitățile fără o categorie proprie o preiau pe cea a activității de deasupra, iar „Exclude din productivitate” se aplică la tot ce e dedesubt. Scorul arată ce parte din timpul tău evaluat a fost productivă sau necesară: (productiv + necesar) ÷ (productiv + neproductiv + necesar) × 100. Timpul fără categorie sau setat pe „Exclude din productivitate” nu se ia în calcul."
+            ]
+          },
+          {
+            "id": "goals",
+            "q": "Cum funcționează obiectivele?",
+            "a": [
+              "Cu SimpleTime Pro îți stabilești în Setări › Obiective un obiectiv pentru fiecare activitate: cel puțin sau cel mult un anumit timp pe zi, pe săptămână sau pe lună – de exemplu cel puțin 8 ore de sport pe săptămână sau cel mult 2 ore de rețele sociale pe zi. Subactivitățile se socotesc și ele, iar măsurată e perioada curentă. Unde ai ajuns vezi în fila Grafic și pe Apple Watch; în secțiunea „Obiective”, raportul PDF compară media din perioada aleasă cu obiectivul tău."
+            ]
+          },
+          {
+            "id": "share-chart",
+            "q": "Pot distribui un grafic?",
+            "a": [
+              "Da, orice grafic poate fi distribuit ca imagine sau salvat în Poze. Pentru salvare, SimpleTime cere doar permisiunea de a adăuga poze – nu îți poate vedea biblioteca foto."
+            ]
+          },
+          {
+            "id": "pdf-report",
+            "q": "Cum creez un raport PDF?",
+            "a": [
+              "În Setări › Exportă raportul alegi o perioadă – de la azi la toată perioada sau una personalizată –, selectezi secțiunile dorite și le tragi în ordinea pe care o vrei. SimpleTime creează PDF-ul cu fiecare activitate și subactivitate, gata de distribuit sau de salvat. SimpleTime Pro adaugă secțiuni în plus: „În timp”, „De-a lungul zilei”, „Comparație” și „Obiective”.",
+              "Pentru foile de pontaj există secțiunea „Toate înregistrările”: fiecare înregistrare zi de zi, cu început, sfârșit, activitate și notă, plus totaluri zilnice, un total general și ore zecimale – perfect ca să-ți verifici orele cu fluturașul de salariu. E gratuită, fără Pro, și activată implicit."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "shortcuts",
+        "title": "Widgeturi, Siri și Focalizare",
+        "items": [
+          {
+            "id": "widgets",
+            "q": "Ce widgeturi există?",
+            "a": [
+              "Pentru ecranul principal: Azi, Activitate în curs și Săptămână – Azi și Activitate în curs cu butoane de pornire și oprire. Pentru ecranul blocat: ce e în curs și de cât timp. Mai există și comutatorul „Înregistrarea timpului” pentru Centrul de control. Cât timp o activitate e în curs, apare ca activitate live pe ecranul blocat și în Dynamic Island, cu un buton de oprire. Cu SimpleTime Pro primești și un widget de pornire rapidă pe care îl umpli cu propriile activități."
+            ]
+          },
+          {
+            "id": "without-opening",
+            "q": "Pot porni înregistrarea fără să deschid aplicația?",
+            "a": [
+              "Da, în mai multe feluri. Ține apăsat pe simbolul aplicației ca să oprești ce e în curs sau să pornești una dintre activitățile tale. Scrie numele unei activități în căutarea de pe iPhone și atinge-o. Sau folosește un widget, Siri ori comutatorul „Înregistrarea timpului” – în Centrul de control, pe ecranul blocat sau pe butonul Acțiune, de la iPhone 15 Pro –, iar cu SimpleTime Pro și Apple Watch-ul tău."
+            ]
+          },
+          {
+            "id": "siri",
+            "q": "Cum funcționează SimpleTime cu Siri și Scurtături?",
+            "a": [
+              "Spune, de exemplu, „Start Work in SimpleTime”, „Stop tracking in SimpleTime”, „How much did I track today in SimpleTime?” sau „What’s running in SimpleTime?”. Siri înțelege aceste fraze în engleză și germană. În orice limbă, acțiunile sunt disponibile în aplicația Scurtături, unde le poți da și o frază proprie."
+            ]
+          },
+          {
+            "id": "focus-filter",
+            "q": "Ce face filtrul Focalizare?",
+            "a": [
+              "Cu un filtru Focalizare, SimpleTime urmează modul tău de concentrare: când se activează „Muncă”, lista de activități arată doar categoria ta de muncă – iar înregistrarea poate începe și se poate încheia odată cu modul de concentrare. Îl configurezi în Configurări iOS, la Concentrare › modul tău › Filtre de concentrare › Adăugați un filtru › SimpleTime. Filtrul Focalizare face parte din SimpleTime Pro."
+            ]
+          },
+          {
+            "id": "calendar-entries",
+            "q": "Poate SimpleTime să-mi treacă înregistrările în calendar?",
+            "a": [
+              "Da, cu SimpleTime Pro: activează „Înregistrări în Calendar” în Setări › Calendar – din ziua aceea, fiecare înregistrare încheiată apare ca eveniment, într-un calendar propriu „SimpleTime” sau într-unul ales de tine, dacă vrei pentru fiecare activitate în parte. Când modifici sau ștergi o înregistrare, evenimentul se schimbă și el, iar linkul din eveniment deschide înregistrarea în SimpleTime. Dacă dezactivezi opțiunea, evenimentele rămân în calendar.",
+              "„Activități din calendare” transformă calendare precum „Serviciu” în activități; evenimentele aflate deja în calendar nu devin însă înregistrări. Evenimentele sunt stocate la furnizorul calendarului tău și arată numele activităților tale tuturor celor cu care partajezi calendarul – chiar și cu blocarea aplicației activată."
+            ]
+          },
+          {
+            "id": "menu-bar",
+            "q": "Pot folosi SimpleTime din bara de meniu a Mac-ului?",
+            "a": [
+              "Da. Un cronometru în bara de meniu arată dacă o activitate e în curs; fă clic pe el ca să pornești, să oprești sau să schimbi activitatea fără să deschizi fereastra. Îl activezi sau îl dezactivezi în Setări › Bara de meniu › Afișează în bara de meniu. Cu blocarea aplicației configurată, meniul nu arată nume de activități și oferă doar Oprește."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "data",
+        "title": "Sincronizare, copii de siguranță și export",
+        "items": [
+          {
+            "id": "sync",
+            "q": "SimpleTime se sincronizează între dispozitivele mele?",
+            "a": [
+              "Da, prin iCloud sau prin LaCodea ID – alegi pe fiecare dispozitiv în Setări › Date și sincronizare. Cu iCloud se sincronizează fiecare dispozitiv pe care ai ales iCloud și ești autentificat cu același cont Apple; când anume, decide sistemul. Sincronizarea nu poate fi forțată – „Sincronizează acum” verifică atunci contul și conexiunea, iar aceeași pagină arată când s-a sincronizat ultima dată.",
+              "Cu LaCodea ID se sincronizează fiecare dispozitiv pe care ești autentificat cu același LaCodea ID și pe care l-ai ales, chiar și cu alt cont Apple – criptat integral și, dacă SimpleTime e deschisă pe ambele dispozitive, în câteva secunde."
+            ]
+          },
+          {
+            "id": "sync-trouble",
+            "q": "Înregistrările mele nu apar pe celălalt dispozitiv – ce pot face?",
+            "a": [
+              "Verifică Setări › Date și sincronizare pe ambele dispozitive: amândouă au nevoie de același loc – iCloud cu același cont Apple sau LaCodea ID cu același cont. Dacă scrie acolo că o schimbare intră în vigoare abia mai târziu, închide complet SimpleTime și redeschide-o; ține, de asemenea, aplicația la zi pe toate dispozitivele.",
+              "Cu iCloud, „Ultima sincronizare” din Setări, la Sincronizare, arată când s-au transferat ultima dată date, iar „Verifică sincronizarea” se uită la cont și la conexiune și, dacă e o problemă, îți spune cauza – de exemplu spațiul iCloud plin. Cu LaCodea ID, pagina Date și sincronizare arată dacă modificările așteaptă o conexiune, dacă e autentificat alt cont sau dacă dispozitivul are nevoie de cheia ta de recuperare. Dacă asta nu ajută, [scrie-ne](@contact)."
+            ]
+          },
+          {
+            "id": "without-icloud",
+            "q": "Pot folosi SimpleTime fără iCloud?",
+            "a": [
+              "Da. Alege „Doar pe acest dispozitiv” în Setări, la Date și sincronizare – datele tale rămân atunci doar pe acest dispozitiv. Cu atât mai importante devin copiile de siguranță: un plan de copii de siguranță le salvează automat, de exemplu într-un dosar din aplicația Fișiere sau pe propriul tău server. Dacă vrei totuși să sincronizezi mai multe dispozitive fără iCloud, alege acolo LaCodea ID; un dispozitiv fără Portcheiul tău iCloud îți cere atunci o singură dată cheia de recuperare."
+            ]
+          },
+          {
+            "id": "switch-storage",
+            "q": "Cum schimb locul în care sunt datele mele?",
+            "a": [
+              "În Setări › Date și sincronizare, atinge locul în care vrei să fie datele, apoi „Treci la iCloud”, „Treci la LaCodea ID” sau „Păstrează doar pe acest dispozitiv”; pentru LaCodea ID te autentifici pe parcurs. Înainte de trecerea la iCloud sau la LaCodea ID, SimpleTime face o copie de protecție a acestui dispozitiv, iar dacă acolo există deja date, alegi între „Îmbină” și „Folosește datele din …”.",
+              "Schimbarea se aplică doar acestui dispozitiv și de obicei intră în vigoare după ce ai închis complet și ai redeschis SimpleTime – pagina îți spune. Celelalte dispozitive se sincronizează mai departe ca până acum, până când schimbi și pe ele. După aceea, SimpleTime îți propune să ștergi datele din locul vechi; fă asta doar după ce și celelalte dispozitive au trecut – altfel pierd și ele acele date."
+            ]
+          },
+          {
+            "id": "recovery-key",
+            "q": "Ce este cheia de recuperare?",
+            "a": [
+              "Cu LaCodea ID ca loc de stocare, SimpleTime îți criptează datele integral; dispozitivele tale Apple primesc de obicei cheia singure, prin Portcheiul iCloud. Un dispozitiv fără Portcheiul tău iCloud – de exemplu cu alt cont Apple – are nevoie o singură dată de cheia ta de recuperare: 24 de litere și cifre. O găsești în Setări › Date și sincronizare › Cheie de recuperare, după Face ID sau codul dispozitivului; până confirmi că ai salvat-o, pagina Securitate îți amintește de ea. Păstreaz-o în managerul de parole sau pe hârtie – fără ea și fără dispozitivele tale, nimeni nu-ți poate deschide datele, nici măcar noi."
+            ]
+          },
+          {
+            "id": "recovery-key-lost",
+            "q": "Mi-am pierdut cheia de recuperare – ce fac acum?",
+            "a": [
+              "Pe un dispozitiv care încă îți poate citi datele, SimpleTime ți-o arată din nou în Setări › Date și sincronizare › Cheie de recuperare cu „Afișează cheia de recuperare” – sau creezi acolo una nouă, iar cea veche nu mai funcționează. Dacă niciunul dintre dispozitivele tale nu mai poate deschide datele, nimeni nu le mai poate recupera – nici măcar noi. Atunci atinge „Am pierdut cheia de recuperare” când ți se cere și pornește de la capăt cu datele de pe acest dispozitiv; ce era doar pe server sau pe celelalte dispozitive se pierde."
+            ]
+          },
+          {
+            "id": "backups",
+            "q": "Cum funcționează copiile de siguranță?",
+            "a": [
+              "În Setări › Copii de siguranță creezi câte planuri de copii de siguranță vrei. Fiecare plan are un loc – iCloud Drive, un dosar din aplicația Fișiere, cum ar fi Dropbox sau Google Drive, propriul tău server prin WebDAV sau acest dispozitiv –, un program de la o dată pe oră până la o dată pe lună, o perioadă de păstrare și, dacă vrei, o parolă. Pe aceeași pagină poți face oricând și manual o copie de siguranță."
+            ]
+          },
+          {
+            "id": "backup-password",
+            "q": "Îmi pot proteja copiile de siguranță cu o parolă?",
+            "a": [
+              "Da. Dacă setezi o parolă pentru un plan, fiecare copie de siguranță e criptată pe dispozitivul tău înainte de a fi salvată. Păstrează bine parola: fără ea, nimeni nu poate restaura copia – nici tu, nici noi. Nu există altă cale."
+            ]
+          },
+          {
+            "id": "backup-files",
+            "q": "Unde îmi găsesc copiile de siguranță?",
+            "a": [
+              "Copiile unui plan setat pe „Doar pe acest dispozitiv” apar și în aplicația Fișiere, la „Pe iPhone” (sau „Pe iPad”) › SimpleTime › Backups, iar cele ale unui plan iCloud Drive la iCloud Drive › SimpleTime › Backups. Planurile pentru un dosar din aplicația Fișiere sau pentru propriul server le pun acolo unde ai ales. Copiile de pe dispozitiv se pierd odată cu dispozitivul – și când ștergi SimpleTime. Cel mai bine e să le dai planurilor tale o parolă: fără ea, oricine are acces la locul respectiv poate deschide o copie – pe dispozitiv, oricine îl deblochează, chiar și cu blocarea aplicației activată."
+            ]
+          },
+          {
+            "id": "restore",
+            "q": "Cum restaurez o copie de siguranță?",
+            "a": [
+              "În Setări › Copii de siguranță restaurezi o copie – dintr-unul dintre planurile tale sau dintr-un fișier. Datele existente se păstrează, iar ce lipsește se adaugă. Copiile din SimpleTime 4.7 și mai vechi se importă în Setări › Exportă / importă date › Importă copia dintr-un JSON. Pe un dispozitiv nou, cel mai bine e să aștepți până când sincronizarea prin iCloud sau LaCodea ID ți-a adus datele – altfel activitățile pot apărea de două ori."
+            ]
+          },
+          {
+            "id": "export",
+            "q": "Îmi pot exporta datele?",
+            "a": [
+              "Da, oricând: ca fișier CSV cu un rând pentru fiecare înregistrare – dată, început, sfârșit, activitate, durată, ore zecimale și notă, pentru Excel, Numbers sau orice aplicație de foi de calcul –, ca raport PDF sau ca copie de siguranță.",
+              "În Setări › Exportă / importă date alegi perioada fișierului CSV – de la azi la toată perioada sau una personalizată, cum ar fi luna trecută. O copie de siguranță faci în Setări › Copii de siguranță."
+            ]
+          },
+          {
+            "id": "timesheet",
+            "q": "Cum îmi obțin orele pentru foaia de pontaj?",
+            "a": [
+              "Ca PDF: în Setări › Exportă raportul alege perioada – de exemplu „Luna trecută” – și lasă activată secțiunea „Toate înregistrările”; ea listează fiecare înregistrare cu început, sfârșit, activitate și notă, plus totaluri zilnice, un total general și ore zecimale. Ca foaie de calcul: în Setări › Exportă / importă date alege perioada și atinge „Exportă datele ca CSV” – un rând pentru fiecare înregistrare cu dată, început, sfârșit, activitate, durată, ore zecimale și notă, pentru Excel sau Numbers. Amândouă sunt gratuite, iar înregistrările din intervalele fixe se socotesc ca oricare altele."
+            ]
+          },
+          {
+            "id": "rounding",
+            "q": "Poate SimpleTime să rotunjească orele, de exemplu la sfert de oră?",
+            "a": [
+              "Nu, nu există o setare de rotunjire: SimpleTime salvează începutul și sfârșitul exact cum le înregistrezi. În secțiunea PDF „Toate înregistrările” și în exportul CSV, fiecare rând e rotunjit la minut și dat în ore zecimale, cu două zecimale; în PDF, totalurile adună exact aceste valori. Dacă ai nevoie de sferturi de oră, modifică începutul și sfârșitul în înregistrare sau rotunjește în aplicația de foi de calcul."
+            ]
+          },
+          {
+            "id": "import",
+            "q": "Pot importa date din altă aplicație?",
+            "a": [
+              "Nu. SimpleTime citește doar propriile copii de siguranță – fișierele CSV, nici măcar cele proprii, nu pot fi importate, iar evenimentele din calendar nu devin înregistrări. Timpul de dinainte îl poți adăuga manual în fila Zi, cu +."
+            ]
+          },
+          {
+            "id": "new-device",
+            "q": "Cum trec pe un iPhone nou?",
+            "a": [
+              "Autentifică-te cu același cont Apple și instalează SimpleTime – dacă folosești iCloud (Setări › Date și sincronizare), înregistrările tale revin singure. Dacă folosești LaCodea ID, autentifică-te cu el pe noul dispozitiv și alege-l la Date și sincronizare; dacă dispozitivul nu primește singur cheia prin Portcheiul tău iCloud, aplicația îți cere o singură dată cheia de recuperare. Altfel, fă o copie de siguranță pe vechiul dispozitiv și restaureaz-o pe cel nou. Locurile și setările țin de fiecare dispozitiv – nu sunt nici sincronizate, nici incluse în copiile de siguranță."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "privacy",
+        "title": "Confidențialitate și securitate",
+        "items": [
+          {
+            "id": "data-location",
+            "q": "Unde sunt stocate datele mele?",
+            "a": [
+              "Acolo unde alegi tu: în Setări, la Date și sincronizare, decizi între „Doar pe acest dispozitiv”, iCloud-ul tău privat, unde le criptează Apple, și LaCodea ID, unde sunt criptate integral – în niciunul dintre aceste locuri nu-ți putem citi înregistrările. Copiile de siguranță sunt stocate acolo unde le pun planurile tale; fără parolă, oricine are acces la acel loc le poate citi. Dacă activezi „Înregistrări în Calendar” cu Pro, înregistrările încheiate apar și ca evenimente în calendarul tău – vizibile pentru furnizorul lui și pentru toți cei cu care îl partajezi."
+            ]
+          },
+          {
+            "id": "lacodea-id-privacy",
+            "q": "Cine îmi poate citi înregistrările când sincronizez prin LaCodea ID?",
+            "a": [
+              "Doar dispozitivele tale. SimpleTime criptează activitățile, înregistrările cu orele și notele lor, intervalele fixe, obiectivele și mementourile pe dispozitivul tău (AES-GCM pe 256 de biți) înainte ca ele să ajungă pe serverul propriu al SimpleTime – cheia o au doar dispozitivele tale, nu noi. Serverul vede doar câte elemente de fiecare tip există, cât de mari sunt aproximativ, când au fost scrise și dacă au fost șterse; se află într-un centru de date din Frankfurt pe Main. Detaliile sunt în [politica noastră de confidențialitate](@privacy)."
+            ]
+          },
+          {
+            "id": "tracking-me",
+            "q": "Mă urmărește SimpleTime?",
+            "a": [
+              "Nu. SimpleTime nu afișează reclame, nu vinde date, nu creează profiluri de utilizator și nu te urmărește prin alte aplicații și site-uri. Ca să putem găsi repede erorile, aplicația trimite rapoarte de erori și statistici de utilizare anonime către propriul nostru server – fără ID de dispozitiv și niciodată cu activitățile, orele sau notele tale. Poți dezactiva asta în Setări › Confidențialitate › Prezentare generală și permisiuni. Detaliile sunt în [politica noastră de confidențialitate](@privacy)."
+            ]
+          },
+          {
+            "id": "permissions",
+            "q": "Ce permisiuni cere SimpleTime?",
+            "a": [
+              "Doar ce îi trebuie unei funcții și doar când o folosești: notificări pentru mementouri și pentru anunțurile locurilor, localizarea pentru locuri, calendarele pentru „Înregistrări în Calendar”, adăugarea de poze pentru salvarea imaginilor și Face ID sau Touch ID pentru blocarea aplicației. În setări, la Confidențialitate › Prezentare generală și permisiuni, le vezi pe toate, fiecare cu starea ei actuală."
+            ]
+          },
+          {
+            "id": "location",
+            "q": "De ce vrea SimpleTime localizarea mea?",
+            "a": [
+              "Doar pentru locuri, care fac parte din SimpleTime Pro: ca o activitate să poată porni când ajungi undeva. iOS supraveghează zonele pe care le setezi și îi spune aplicației când ajungi sau pleci. Locurile tale rămân pe dispozitivul tău, iar SimpleTime nu ține nicio evidență a locurilor prin care ai fost. Fără locuri, SimpleTime nu are nevoie de localizarea ta."
+            ]
+          },
+          {
+            "id": "app-lock",
+            "q": "Cum funcționează blocarea aplicației?",
+            "a": [
+              "În Setări › Blocarea aplicației alegi dacă SimpleTime se deschide cu Face ID sau Touch ID și codul dispozitivului ori cu un cod propriu – cifre sau o parolă. În comutatorul de aplicații, SimpleTime rămâne acoperită, iar numele activităților nu mai apar în căutarea de pe iPhone sau pe simbolul aplicației; la „În afara aplicației” alegi ce arată notificările, widgeturile și Apple Watch. Pentru cazul în care îți uiți codul propriu, poți activa dinainte „Resetează codul uitat cu codul dispozitivului” sau poți seta o parolă de urgență. Fără niciuna dintre ele, singura cale înapoi e să ștergi și să reinstalezi aplicația – iar ce era doar pe acest dispozitiv se pierde, dacă nu ai o copie de siguranță."
+            ]
+          },
+          {
+            "id": "security-overview",
+            "q": "Ce arată pagina Securitate?",
+            "a": [
+              "În Setări › Securitate › Rezumat vezi dintr-o privire cât de bine îți sunt protejate datele: codul dispozitivului, blocarea aplicației, copiile de siguranță automate și criptate și locul în care sunt datele tale – cu LaCodea ID, și criptarea integrală și cheia de recuperare. Ce lipsește încă apare la „Recomandat”; fiecare punct explică cum te protejează și, unde e nevoie, te duce la setarea potrivită."
+            ]
+          },
+          {
+            "id": "delete-all",
+            "q": "Cum îmi șterg toate datele?",
+            "a": [
+              "În Setări, la Confidențialitate › Șterge toate datele, elimini totul dintr-o dată – înregistrările și activitățile, obiectivele, locurile, coșul, mementourile, copiile de siguranță ale planurilor tale și vechile copii din iCloud Drive, exporturile, setările – inclusiv codul blocării aplicației – și evenimentele pe care SimpleTime le-a adăugat în calendarul tău.",
+              "Totul se șterge pe acest dispozitiv, în iCloud și – dacă sincronizezi prin LaCodea ID – pe server; prin iCloud, ștergerea ajunge și pe celelalte dispozitive imediat ce sunt online. Dacă sincronizezi prin LaCodea ID, celelalte dispozitive își păstrează datele și nu se mai sincronizează până nu configurezi din nou sincronizarea pe ele – acolo le ștergi la fel –, iar contul tău LaCodea ID rămâne. Acțiunea nu poate fi anulată."
+            ]
+          },
+          {
+            "id": "delete-app",
+            "q": "Ce se întâmplă dacă șterg SimpleTime?",
+            "a": [
+              "Atunci dispare tot ce era doar pe acest dispozitiv: înregistrările tale, dacă ai ales „Doar pe acest dispozitiv”, copiile unui plan „Doar pe acest dispozitiv”, locurile și setările tale, inclusiv blocarea aplicației. Ce e în iCloud sau în LaCodea ID rămâne acolo și revine după reinstalare, imediat ce folosești din nou același loc la Date și sincronizare.",
+              "Copiile de siguranță din iCloud Drive, dintr-un dosar din aplicația Fișiere sau de pe serverul tău rămân, la fel și evenimentele din calendar; pentru o copie criptată vei avea nevoie apoi de parola ei. Un abonament continuă până când îl anulezi, iar LaCodea ID-ul tău rămâne. Dacă vrei să elimini mai întâi totul, folosește Setări › Confidențialitate › Șterge toate datele."
+            ]
+          },
+          {
+            "id": "lacodea-id-delete",
+            "q": "Cum ies din cont sau cum îmi șterg LaCodea ID-ul?",
+            "a": [
+              "Atinge LaCodea ID-ul tău chiar sus în Setări: „Ieși din cont” te scoate din cont în toate aplicațiile LaCodea de pe acest dispozitiv – datele tale rămân aici și se sincronizează din nou imediat ce te autentifici. „Deconectează SimpleTime” desprinde doar SimpleTime de contul tău; „Șterge LaCodea ID” șterge contul pentru toate aplicațiile LaCodea – poți face asta și pe account.lacodea.com. Fie că deconectezi, fie că ștergi, serverul SimpleTime îți șterge acolo datele sincronizate; ce e pe dispozitivele tale sau în iCloud rămâne. Un abonament prin Apple continuă până când îl anulezi în configurările dispozitivului tău."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "pro",
+        "title": "SimpleTime Pro",
+        "items": [
+          {
+            "id": "pro-includes",
+            "q": "Ce include SimpleTime Pro?",
+            "a": [
+              "Aplicația pentru Apple Watch, retrospective ale săptămânii, lunii și anului tău, locuri, înregistrările tale ca evenimente în calendar și activități din calendarele tale, anul dintr-o privire, obiective, filtrul Focalizare, un widget de pornire rapidă, șapte culori de accent sau una a ta, șase fonturi, șaisprezece simboluri de aplicație și secțiuni în plus în raportul PDF. Aplicația pentru ceas are nevoie de un iPhone; locurile și simbolurile de aplicație sunt disponibile pe iPhone și iPad. Ce se adaugă mai târziu e inclus. [Totul despre SimpleTime Pro](@pro)"
+            ]
+          },
+          {
+            "id": "pro-price",
+            "q": "Cât costă SimpleTime Pro?",
+            "a": [
+              "Pro e disponibil lunar, anual sau ca achiziție unică „Pe viață”. Prețurile depind de țara și moneda ta și le vezi în aplicație înainte de cumpărare."
+            ]
+          },
+          {
+            "id": "trial",
+            "q": "Pot încerca Pro mai întâi?",
+            "a": [
+              "Da. Abonații noi pot încerca Lunar sau Anual gratuit timp de o săptămână; aplicația îți arată dacă perioada de probă se aplică în cazul tău. Dacă nu renunți cu cel puțin 24 de ore înainte de încheierea ei, abonamentul se reînnoiește la prețul afișat."
+            ]
+          },
+          {
+            "id": "family",
+            "q": "Poate și familia mea să folosească Pro?",
+            "a": [
+              "Da. SimpleTime Pro funcționează cu Partajare familială – o singură achiziție pentru până la șase persoane."
+            ]
+          },
+          {
+            "id": "restore-purchase",
+            "q": "Am cumpărat Pro – cum îl am și pe celelalte dispozitive?",
+            "a": [
+              "Pro ține de contul tău Apple: pe celelalte dispozitive cu același cont se deblochează de obicei singur. Dacă nu, atinge acolo „Restaurează” în Setări › SimpleTime Pro.",
+              "Pe un dispozitiv cu alt cont Apple primești Pro prin LaCodea ID: autentifică-te cu același LaCodea ID pe ambele dispozitive. Dacă ai cumpărat Pro înainte de autentificare, autentifică-te cu LaCodea ID-ul tău și pe un dispozitiv cu contul Apple cu care l-ai cumpărat – de acolo, SimpleTime îi transmite achiziția contului tău. Pagina Pro arată apoi „Prin contul tău LaCodea ID” și, pentru un abonament, unde l-ai încheiat – doar acolo îl poți modifica."
+            ]
+          },
+          {
+            "id": "cancel",
+            "q": "Cum îmi anulez abonamentul?",
+            "a": [
+              "În setările App Store – pe iPhone, în Configurări › numele tău › Abonamente – sau în aplicație, pe pagina Pro, la Gestionează abonamentul. Merge doar pe un dispozitiv cu contul Apple cu care te-ai abonat; dacă ai Pro prin LaCodea ID-ul tău, pagina Pro numește acele dispozitive. Pro rămâne activ până la sfârșitul perioadei deja plătite, și nici ștergerea LaCodea ID-ului nu încheie un abonament."
+            ]
+          },
+          {
+            "id": "lifetime-switch",
+            "q": "Am un abonament – pot trece la „Pe viață”?",
+            "a": [
+              "Da, direct pe pagina Pro. Apple nu încheie însă singur abonamentul: anulează-l apoi, ca să nu se reînnoiască. Aplicația îți amintește de asta."
+            ]
+          },
+          {
+            "id": "pro-ends",
+            "q": "Ce se întâmplă când se termină Pro?",
+            "a": [
+              "Nu se pierde nimic. Înregistrările, obiectivele și locurile tale rămân salvate. Funcțiile Pro se blochează din nou – locurile, de exemplu, nu mai pornesc activități – și totul revine imediat ce Pro e din nou activ."
+            ]
+          },
+          {
+            "id": "pro-offline",
+            "q": "Are Pro nevoie de conexiune la internet?",
+            "a": [
+              "Nu. SimpleTime îți verifică achiziția la App Store – și, dacă ești autentificat cu LaCodea ID, și în contul tău – ori de câte ori poate. Fără conexiune, Pro funcționează mai departe – până la două săptămâni fără contact."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "watch-places",
+        "title": "Apple Watch și locuri",
+        "items": [
+          {
+            "id": "watch-setup",
+            "q": "Cum configurez aplicația pentru Apple Watch?",
+            "a": [
+              "Aplicația pentru Apple Watch face parte din SimpleTime Pro. Instaleaz-o pe ceas, apoi deschide o dată SimpleTime pe iPhone – după câteva secunde, ceasul îți arată activitățile. iPhone-ul rămâne sursa: ce pornește ceasul se înregistrează acolo, cu aceeași activitate live și aceleași widgeturi."
+            ]
+          },
+          {
+            "id": "watch-features",
+            "q": "Ce pot face pe Apple Watch?",
+            "a": [
+              "Pornești și oprești de la încheietură – favoritele, ce ai folosit ultima dată sau orice activitate prin căutare. Pornești mai devreme: acum 5, 15, 30 sau 60 de minute ori în continuarea ultimei înregistrări, fără niciun gol. Oprești cu o atingere dublă. Ai ziua, săptămâna și obiectivele sub ochi, cu timpul care curge pe cadran și în Stiva inteligentă. Dacă iPhone-ul nu e în apropiere, atingerile tale sunt păstrate cu ora lor și transmise mai târziu."
+            ]
+          },
+          {
+            "id": "places-how",
+            "q": "Cum funcționează locurile?",
+            "a": [
+              "Adaugă un loc – de exemplu biroul sau sala de sport – cu o rază de la 50 m la 10 km și alege o activitate. Când ajungi, activitatea pornește singură sau SimpleTime te întreabă mai întâi. Cu un timp de așteptare, nu pornește nimic când doar treci pe acolo. Când pleci, activitatea se poate opri, iar un loc îl poți limita la anumite zile și ore."
+            ]
+          },
+          {
+            "id": "places-late",
+            "q": "De ce pornește un loc târziu sau deloc?",
+            "a": [
+              "Locurile au nevoie de accesul la localizare setat pe „Întotdeauna” și de „Localizare precisă” activată. Sub 100 m, iOS observă adesea târziu că ai ajuns, pentru că în fundal localizarea vine de obicei din Wi-Fi și din rețeaua mobilă, nu din GPS – o rază mai mare ajută. iOS supraveghează cel mult 20 de locuri pe aplicație, iar pe Mac nu există locuri."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "more",
+        "title": "Altele",
+        "items": [
+          {
+            "id": "look",
+            "q": "Pot schimba aspectul aplicației SimpleTime?",
+            "a": [
+              "Da: luminos, întunecat sau ca sistemul, trei înălțimi de rând pentru lista de activități și, în Setări › Font, o mărime proprie a textului și text aldin. Cu SimpleTime Pro primești în plus șapte culori de accent sau una a ta – se regăsește în butoane, comutatoare și grafice –, șase fonturi și, pe iPhone și iPad, șaisprezece simboluri de aplicație."
+            ]
+          },
+          {
+            "id": "accessibility",
+            "q": "Este SimpleTime accesibilă?",
+            "a": [
+              "Da. VoiceOver citește cu voce tare butoanele, graficele și cronologia în fiecare limbă a aplicației, iar graficele există și ca grafice audio. Textul urmează mărimea textului din iOS până la cele mai mari trepte – doar în antet și pe cronologie crește până la o limită, ca nimic să nu acopere comenzile. Mai multe găsești în [declarația noastră de accesibilitate](@accessibility); dacă ceva nu funcționează pentru tine, te rugăm să ne spui."
+            ]
+          },
+          {
+            "id": "freelance",
+            "q": "Este SimpleTime potrivită pentru freelanceri?",
+            "a": [
+              "Pentru înregistrarea timpului, da: ține separat clienții și proiectele, ca activități și subactivități, și exportă un raport PDF sau un fișier CSV ori de câte ori ai nevoie de o evidență. Tarifele orare și facturile nu fac parte din SimpleTime – pentru ele, preia exportul în programul tău de facturare."
+            ]
+          },
+          {
+            "id": "platforms",
+            "q": "Există o versiune pentru Android, Windows sau web?",
+            "a": [
+              "Nu. SimpleTime e făcută pentru iPhone, iPad, Mac și Apple Watch. Îți poți exporta oricând datele ca CSV."
+            ]
+          },
+          {
+            "id": "account-web",
+            "q": "Ce pot face pe account.lacodea.com?",
+            "a": [
+              "Acolo îți gestionezi LaCodea ID-ul în browser: metodele de autentificare, abonamentele, descărcarea datelor contului și ștergerea contului – în SimpleTime ajungi la același cont chiar sus în Setări. Înregistrările tale nu le vezi acolo: ele există doar în SimpleTime pe iPhone, iPad, Mac și Apple Watch. Dacă sincronizezi prin LaCodea ID, ele stau criptate integral pe serverul SimpleTime – LaCodea ID nu le primește niciodată."
+            ]
+          },
+          {
+            "id": "feedback",
+            "q": "Am găsit o eroare sau am o idee – unde o trimit?",
+            "a": [
+              "Scrie-ne la [contact@simple-time.app](mailto:contact@simple-time.app) – din aplicație poți folosi și Setări › Feedback. Pentru o eroare, te rugăm să ne spui modelul dispozitivului, versiunea de iOS, iPadOS sau macOS și versiunea de SimpleTime – o găsești în Setări › Despre SimpleTime – și să descrii pe scurt ce făceai. Citim fiecare mesaj."
+            ]
+          },
+          {
+            "id": "support-us",
+            "q": "Cum pot susține SimpleTime?",
+            "a": [
+              "SimpleTime e făcută de o singură persoană. O evaluare în App Store ajută, la fel și să le povestești altora despre ea – iar SimpleTime Pro ține dezvoltarea în mișcare."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

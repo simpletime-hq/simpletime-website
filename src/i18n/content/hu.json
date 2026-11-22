@@ -1,0 +1,950 @@
+{
+  "store": {
+    "lead": "A SimpleTime megmutatja, mire megy az időd. Egy koppintás elindítja, egy koppintás megállítja.",
+    "promise": "Nem kell fiók, nincs hirdetés. Az óráid a készülékeden maradnak – és ha akarod, az iCloudodban vagy a LaCodea ID-nál is.",
+    "sections": [
+      {
+        "id": "tracking",
+        "title": "Időmérés",
+        "points": [
+          "Egy koppintás indít és állít – az appban, a kezdőképernyőről, a Vezérlőközpontból, az iPhone keresőjéből vagy Sirivel",
+          "Fix időpontok: a tanórákat vagy a műszakokat elég egyszer felvenned – a SimpleTime minden héten magától bejegyzi őket",
+          "Feladatok alfeladatokkal, olyan mélyen egymásba ágyazva, amilyen a munkád",
+          "Elfelejtetted elindítani? Vedd fel az időt utólag, és módosítsd, amikor csak akarod",
+          "Szín, szimbólum, kedvencek és sorrend, amit te állítasz be"
+        ]
+      },
+      {
+        "id": "day",
+        "title": "A napod",
+        "points": [
+          "Lista vagy idővonal 0-tól 24-ig, az aktuális idő jelölésével",
+          "Jegyzet bármelyik bejegyzéshez",
+          "Rögtön felül, hogy a mai nap hogyan áll a tegnapihoz képest"
+        ]
+      },
+      {
+        "id": "insights",
+        "title": "Elemzés",
+        "points": [
+          "Kördiagramok feladatonként és produktivitás szerint",
+          "Nap, hét, hónap, év",
+          "Statisztika: összevetés az előző időszakkal, trend, eloszlás a napon belül, leghosszabb és legrövidebb bejegyzés",
+          "Minden feladat a saját számaival – első bejegyzés, leghosszabb, ezen a héten, idén",
+          "Minden diagram megosztható képként"
+        ]
+      },
+      {
+        "id": "reports",
+        "title": "Jelentés és export",
+        "points": [
+          "PDF-jelentés, amelynek szakaszait te választod ki és rendezed",
+          "CSV az Excelhez és a Numbershöz",
+          "Mentési tervek: automatikusan az iCloud Drive-ra, a Fájlok app egy mappájába, például a Dropboxba vagy a Google Drive-ra, a saját szerveredre vagy a készülékre – ha akarod, jelszóval titkosítva"
+        ]
+      },
+      {
+        "id": "widgets",
+        "title": "Widgetek és Siri",
+        "points": [
+          "Ma, futó feladat és hét a kezdőképernyőn",
+          "A futó idő a zárolt képernyőn és a Dynamic Islanden",
+          "Kapcsoló a Vezérlőközpontban, amely elindítja és leállítja a mérést",
+          "Siri és Parancsok: indítsd el, állítsd le, vagy kérdezd meg, mi fut éppen"
+        ]
+      },
+      {
+        "id": "devices",
+        "title": "Minden készüléken",
+        "points": [
+          "iPhone, iPad és Mac, iClouddal vagy a LaCodea ID-val szinkronban",
+          "41 nyelv, a készülék nyelvétől függetlenül",
+          "VoiceOver és Dynamic Type mindenütt"
+        ]
+      },
+      {
+        "id": "data",
+        "title": "Az adataid",
+        "points": [
+          "Alkalmazászár Face ID-val, Touch ID-val vagy saját kóddal",
+          "Te döntöd el, hol legyenek az adataid: csak ezen a készüléken, az iCloudodban vagy végpontok között titkosítva a LaCodea ID-nál",
+          "Adatvédelem egy oldalon: áttekintheted az összes engedélyt és az adataidat",
+          "Igény szerint a LaCodea ID, egy fiók az összes LaCodea-apphoz – a SimpleTime nélküle is működik",
+          "Nincs hirdetés, nem adjuk el az adataidat – fiók nélkül csak névtelen összeomlási jelentéseket és használati statisztikát kapunk, és ez kikapcsolható",
+          "Mindent törölhetsz egyszerre – a készüléken, az iCloudban és a mentésekben is"
+        ]
+      }
+    ],
+    "pro": {
+      "title": "SimpleTime Pro",
+      "intro": "A fentiek mind ingyenesek maradnak. A Pro hozzáteszi:",
+      "points": [
+        "Apple Watch: indítás és leállítás a csuklódon, korábbi indítás, a napod, a heted és a céljaid egy pillantással – a futó idővel a számlapon",
+        "Visszatekintők: a heted, a hónapod és az éved lapozható, megosztható kártyákon",
+        "Helyek: a feladatok maguktól indulnak, amikor megérkezel – ha szeretnéd, csak egy várakozási idő után",
+        "Naptár: minden bejegyzés eseményként a naptáradban – és feladatok a naptáraidból, például „Munka” vagy „Család”",
+        "Az év egy pillantásra: az év minden napja egy képen, a sorozataiddal",
+        "Célok feladatonként – napra, hétre vagy hónapra",
+        "Fókuszszűrő: bekapcsol a munka fókuszod, a lista csak a munkát mutatja, az óra pedig már megy",
+        "Gyorsindító widget, amit te töltesz meg",
+        "Hét kiemelőszín vagy egy saját, hat betűtípus és tizenhat alkalmazásikon",
+        "További szakaszok a PDF-jelentésben: trend, napi eloszlás, összevetés, célok"
+      ],
+      "pricing": "A Pro havi, éves vagy egyszeri, örökre szóló formában érhető el. Az új előfizetők egy hetet ingyen kapnak, a Családi megosztással pedig akár hat ember is használhatja a Prót. Az árakat az appban látod. A havi és az éves automatikusan megújul, amíg le nem mondod – bármikor megteheted az App Store beállításaiban. Ami később jön, benne van."
+    },
+    "closing": "Mindenkinek, aki tudni szeretné, mire megy el valójában az ideje – a munkában, az egyetemen, az edzéseken vagy egyszerűen a saját kedvéért."
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Időmérés iPhone-ra, iPadre és Macre",
+      "titleLead": "Egy koppintás",
+      "titleAccent": "elindítja az órát.",
+      "cta": "Funkciók megtekintése",
+      "proof": [
+        "Ingyenesen letölthető",
+        "Nem kell fiók",
+        "Nincs hirdetés, nincs adateladás"
+      ]
+    },
+    "tour": {
+      "tracking": "Indítsd ott, ahol éppen vagy."
+    },
+    "devices": {
+      "title": "Minden készülékeden.",
+      "subtitle": "Az iPhone, az iPad és a Mac szinkronban marad az iClouddal vagy a LaCodea ID-val – az óra pedig tovább fut a zárolt képernyőn, a Dynamic Islanden és a csuklódon."
+    },
+    "showcase": [
+      {
+        "id": "day",
+        "title": "Az egész napod egy pillantásra."
+      },
+      {
+        "id": "insights",
+        "title": "Lásd, mire mennek el valójában az óráid."
+      },
+      {
+        "id": "reports",
+        "title": "Jelentés másodpercek alatt."
+      }
+    ],
+    "features": {
+      "title": "Minden, amire szükséged van. Ingyen.",
+      "subtitle": "A listán szereplő összes funkció az ingyenes app része."
+    },
+    "pro": {
+      "button": "Minden a SimpleTime Próról"
+    },
+    "audience": {
+      "title": "Mindenkinek, aki tudni szeretné, mire megy az ideje.",
+      "subtitle": "A munkában, az egyetemen, az edzéseken – vagy egyszerűen a saját kedvedért.",
+      "groups": [
+        {
+          "id": "work",
+          "title": "Munka és szabadúszás",
+          "body": "Különítsd el az ügyfeleket és a projekteket feladatokként és alfeladatokként, és exportálj rendezett kimutatást, amikor csak szükséged van rá."
+        },
+        {
+          "id": "study",
+          "title": "Egyetem és tanulás",
+          "body": "Lásd, mennyi időt visz el valójában egy tantárgy, és tervezd meg a következő hetet valós számokkal."
+        },
+        {
+          "id": "training",
+          "title": "Edzés és szokások",
+          "body": "Rögzítsd az edzéseket, a gyakorlást vagy az alvást, és figyeld, hogyan épül fel hétről hétre a rendszeresség."
+        },
+        {
+          "id": "everyday",
+          "title": "Hétköznapok",
+          "body": "Derítsd ki, mire mennek el valójában az órák – és döntsd el magad, min szeretnél változtatni."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Gyakori kérdések.",
+      "subtitle": "A legfontosabb válaszok egy pillantásra – és még sok más a GYIK-oldalon.",
+      "button": "Az összes kérdés és válasz"
+    },
+    "cta": {
+      "title": "Indulhat a mérés?",
+      "subtitle": "Ingyenes iPhone-ra, iPadre és Macre. Nem kell fiók, nincs hirdetés, és nem adjuk el az adataidat.",
+      "note": "Az Apple Watchra készült app a SimpleTime Pro része."
+    }
+  },
+  "shots": [
+    {
+      "id": "tracking",
+      "title": "Mérés",
+      "caption": "Egy koppintás elindítja az órát",
+      "alt": "A Mérés fül egy futó feladattal és felül a kedvencekkel"
+    },
+    {
+      "id": "day",
+      "title": "A napod",
+      "caption": "Minden bejegyzés másodpercre pontosan",
+      "alt": "A napi nézet a bejegyzések listájaként, az időpontjaikkal"
+    },
+    {
+      "id": "timeline",
+      "title": "Idővonal",
+      "caption": "Az egész napod egy pillantásra",
+      "alt": "A napi nézet idővonalként 0-tól 24-ig"
+    },
+    {
+      "id": "chart",
+      "title": "Elemzés",
+      "caption": "Mire mennek el valójában az óráid",
+      "alt": "Egy hét kördiagramon, feladatonként"
+    },
+    {
+      "id": "statistics",
+      "title": "Statisztika",
+      "caption": "Vesd össze a heteket, lásd a trendet",
+      "alt": "Statisztika: ez a hét az előzőhöz képest"
+    },
+    {
+      "id": "report",
+      "title": "Jelentések",
+      "caption": "Részletes PDF minden feladatról",
+      "alt": "Egy PDF-jelentés oldala az összes feladattal"
+    },
+    {
+      "id": "pro",
+      "title": "Irány a Pro",
+      "caption": "Célok, az éved, a saját színeid",
+      "alt": "A SimpleTime Pro oldala az appban"
+    }
+  ],
+  "pro": {
+    "eyebrow": "SimpleTime Pro",
+    "title": "Hozz ki többet a mért idődből.",
+    "subtitle": "A SimpleTime ingyenes marad, és minden, amit Pro nélkül tud, továbbra is ingyenes. A Pro hozzáteszi az Apple Watchot, a helyeket, ahol a feladatok maguktól indulnak, a heted, a hónapod és az éved visszatekintőit, a célokat és még sok mást.",
+    "featuresTitle": "Amit a Pro hozzátesz",
+    "features": [
+      {
+        "id": "watch",
+        "title": "Apple Watch",
+        "body": "Indítás és leállítás a csuklódon, korábbi indítás, a napod, a heted és a céljaid egy pillantással – a futó idővel a számlapon."
+      },
+      {
+        "id": "reviews",
+        "title": "Visszatekintők",
+        "body": "A heted, a hónapod és az éved lapozható, megosztható kártyákon."
+      },
+      {
+        "id": "places",
+        "title": "Helyek",
+        "body": "A feladatok maguktól indulnak, amikor megérkezel – ha szeretnéd, csak egy várakozási idő után, így semmi sem indul el, ha csak elhaladsz mellette."
+      },
+      {
+        "id": "calendar",
+        "title": "Naptár",
+        "body": "Minden bejegyzés eseményként a naptáradban – és feladatok a naptáraidból, például „Munka” vagy „Család”."
+      },
+      {
+        "id": "year",
+        "title": "Az év egy pillantásra",
+        "body": "Az év minden napja egyetlen képen, a jelenlegi és a leghosszabb sorozatoddal."
+      },
+      {
+        "id": "goals",
+        "title": "Célok",
+        "body": "Egy cél feladatonként – napra, hétre vagy hónapra. Az alfeladatok is beleszámítanak."
+      },
+      {
+        "id": "focus",
+        "title": "Fókuszszűrő",
+        "body": "Bekapcsol a munka Fókuszod, a listában csak a munka látszik – és a mérés vele együtt indulhat és állhat le."
+      },
+      {
+        "id": "widget",
+        "title": "Gyorsindító widget",
+        "body": "Te döntöd el, mely feladatok kerüljenek rá. Egy koppintás a kezdőképernyőn elindítja őket."
+      },
+      {
+        "id": "style",
+        "title": "Színek, betűtípusok és alkalmazásikonok",
+        "body": "Hét kiemelőszín vagy egy saját, amely végigfut az egész appon – mellé hat betűtípus és tizenhat alkalmazásikon."
+      },
+      {
+        "id": "report",
+        "title": "Több a PDF-jelentésben",
+        "body": "Trend, eloszlás a napon belül, összevetés az előző időszakkal és célok – az általad választott sorrendben."
+      },
+      {
+        "id": "future",
+        "title": "Minden, ami még jön",
+        "body": "Ami később jön, az is benne van – újabb vásárlás nélkül."
+      }
+    ],
+    "plansTitle": "Három út a Próhoz",
+    "plansSubtitle": "Az árak az országodtól függenek, és vásárlás előtt a saját pénznemedben látod őket az appban.",
+    "plans": [
+      {
+        "id": "monthly",
+        "title": "Havi",
+        "body": "Havonta fizetsz. Bármikor lemondhatod."
+      },
+      {
+        "id": "yearly",
+        "title": "Éves",
+        "body": "Évente egyszer fizetsz – az app megmutatja, mennyit spórolsz a havi fizetéshez képest."
+      },
+      {
+        "id": "lifetime",
+        "title": "Örökre",
+        "body": "Egyszer fizetsz, és a Pro örökre a tiéd. Soha nem jár le."
+      }
+    ],
+    "notes": [
+      "Az új előfizetők egy hétig ingyen kipróbálhatják a havi vagy az éves előfizetést.",
+      "Családi megosztás: egy vásárlás akár hat embernek.",
+      "Ami később jön, az is benne van – újabb vásárlás nélkül."
+    ],
+    "legal": "A havi és az éves előfizetés automatikusan megújul, amíg le nem mondod. Bármikor lemondhatod az App Store beállításaiban. Az örökre szóló változat egyszeri fizetés, és soha nem jár le.",
+    "terms": "Felhasználási feltételek (EULA)",
+    "privacy": "Adatvédelmi nyilatkozat",
+    "freeTitle": "Ami ingyenes marad",
+    "freeBody": "Minden, ami a méréshez kell: feladatok és alfeladatok, Fix időpontok, napi nézet és idővonal, diagramok és statisztika, PDF-jelentés és CSV-export, widgetek, az élő tevékenység, a Vezérlőközpont és a Siri, szinkronizálás az iClouddal vagy a LaCodea ID-val, mentési tervek és az alkalmazászár – 41 nyelven. Nem kell fiók, nincs hirdetés, és nem adjuk el az adataidat.",
+    "howTitle": "Így kapod meg a Prót",
+    "how": [
+      "A SimpleTime-ban nyisd meg a Beállítások › SimpleTime Pro menüt.",
+      "Válaszd a Havi, az Éves vagy az Örökre lehetőséget – az Apple-fiókodon keresztül fizetsz.",
+      "A Pro azonnal fel van oldva minden készülékeden, amely ugyanazt az Apple-fiókot használja."
+    ],
+    "faqTitle": "Kérdések a Próról",
+    "ctaTitle": "Kezdd ingyen.",
+    "ctaSubtitle": "Töltsd le a SimpleTime-ot – és oldd fel a Prót az appban, amikor csak szeretnéd."
+  },
+  "faq": {
+    "title": "Gyakori kérdések.",
+    "subtitle": "Minden a SimpleTime-ról – az első koppintástól a SimpleTime Próig.",
+    "searchLabel": "Keresés a kérdések között",
+    "searchPlaceholder": "pl. „mentés” vagy „Apple Watch”",
+    "results": "Találatok: {count}",
+    "noResults": "Nincs találat erre: „{query}”.",
+    "noResultsHint": "Próbálj egy másik szót – vagy [írj nekünk](@contact).",
+    "topics": "Témák",
+    "moreTitle": "Van még kérdésed?",
+    "moreBody": "Írj nekünk – minden üzenetet elolvasunk és megválaszolunk.",
+    "moreButton": "Kapcsolat",
+    "categories": [
+      {
+        "id": "basics",
+        "title": "Első lépések",
+        "items": [
+          {
+            "id": "what-is",
+            "q": "Mi az a SimpleTime?",
+            "a": [
+              "A SimpleTime időmérő app iPhone-ra, iPadre és Macre. Egy koppintás elindítja az órát, egy koppintás megállítja. Utána a SimpleTime megmutatja, mire megy az időd – napi listaként vagy idővonalként, diagramokon és statisztikában, valamint PDF-jelentésként vagy CSV-fájlként. Nem kell fiók, nincs hirdetés, és nem adjuk el az adataidat."
+            ]
+          },
+          {
+            "id": "first-steps",
+            "q": "Hogyan kezdjek hozzá?",
+            "a": [
+              "A Mérés fülön koppints a + gombra, és hozz létre egy feladatot – névvel, színnel és szimbólummal. Koppints a mellette lévő háromszögre, és indul az óra; a Leállítás gombbal állítod le. Az első indításkor egy rövid bemutató megmutatja a legfontosabb gombokat. Bármikor újra megnézheted a Beállítások › Bemutató újra alatt."
+            ]
+          },
+          {
+            "id": "free",
+            "q": "Ingyenes a SimpleTime?",
+            "a": [
+              "Igen. A SimpleTime letöltése ingyenes, ahogy minden, ami a méréshez kell: feladatok és alfeladatok, fix időpontok, napi nézet, diagramok és statisztika, jelentések és export, widgetek, szinkronizálás az iClouddal vagy a LaCodea ID-val, valamint mentések. A SimpleTime Pro nem kötelező, és hozzáadja az Apple Watchra készült appot, a visszatekintőket, a helyeket, a célokat és még sok mást. [Minden a SimpleTime Próról](@pro)"
+            ]
+          },
+          {
+            "id": "account",
+            "q": "Kell hozzá fiók?",
+            "a": [
+              "Nem. Megnyitod az appot, és már kezdheted is – regisztráció nélkül. Ha az iCloudot használod, a szinkronizálás a saját Apple-fiókodon keresztül zajlik, amelyet mi soha nem látunk. Ha szeretnéd, bejelentkezhetsz a LaCodea ID-val, a mi fiókunkkal az összes LaCodea-apphoz. Ilyenkor a fiókodat és a SimpleTime Pro-vásárlásaidat tároljuk – a bejegyzéseidet csak akkor, ha az Adatok és szinkronizálás alatt a LaCodea ID-t választod tárolási helynek, és akkor is végpontok között titkosítva."
+            ]
+          },
+          {
+            "id": "lacodea-id",
+            "q": "Mi az a LaCodea ID?",
+            "a": [
+              "A LaCodea ID a mi választható fiókunk az összes LaCodea-apphoz. A Beállítások legtetején jelentkezhetsz be – az Apple-lel, jelkulccsal vagy e-mailben kapott kóddal. Vele végpontok között titkosítva szinkronizálhatsz a LaCodea ID-n keresztül, a SimpleTime Pro-vásárlásod pedig minden olyan készüléken érvényes, amelyen be vagy jelentkezve; a SimpleTime persze nélküle is remekül működik."
+            ]
+          },
+          {
+            "id": "devices",
+            "q": "Milyen készülékeken fut a SimpleTime?",
+            "a": [
+              "iPhone-on és iPaden iOS 26, illetve iPadOS 26 vagy újabb rendszerrel, Macen pedig macOS 26 vagy újabb rendszerrel. Az Apple Watchra készült app a SimpleTime Pro része, és watchOS 26 kell hozzá. Ha a Beállítások › Adatok és szinkronizálás alatt az iCloudot vagy a LaCodea ID-t választod, a bejegyzéseid szinkronban maradnak minden olyan készüléken, amely ugyanazt az Apple-fiókot vagy ugyanazt a LaCodea ID-t használja."
+            ]
+          },
+          {
+            "id": "mac",
+            "q": "Mit tud a SimpleTime a Macen?",
+            "a": [
+              "Szinte mindent, amit az iPhone-on – mérés, napi nézet, elemzés, jelentések, export, mentések, szinkronizálás és alkalmazászár; ahol az iPhone-on húzol, ott a Macen jobb gombbal kattintasz. Ráadásul ott van a stopper a menüsorban és a widgetek az íróasztalon. A helyek, az élő tevékenységek, az Apple Watchra készült app és az alternatív alkalmazásikonok a Macen nem érhetők el."
+            ]
+          },
+          {
+            "id": "languages",
+            "q": "Milyen nyelveken beszél a SimpleTime?",
+            "a": [
+              "41 nyelven – az angoltól és a némettől az arabig, a hindiig és a japánig. A Beállítások › Nyelv alatt az app nyelvét a készüléked nyelvétől függetlenül választhatod ki."
+            ]
+          },
+          {
+            "id": "offline",
+            "q": "Működik a SimpleTime internet nélkül?",
+            "a": [
+              "Igen. A mérés, a napi nézet, a diagramok és a jelentések kapcsolat nélkül is működnek. Kapcsolat a szinkronizáláshoz, a saját szerverre készülő mentésekhez, a LaCodea ID-val való bejelentkezéshez, a Pro megvásárlásához és egy hely címének kereséséhez kell. Ami elmaradt, azt a SimpleTime pótolja – a szinkronizálást, amint a készüléked újra online, a kimaradt mentést pedig, amikor legközelebb megnyitod az appot."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tracking",
+        "title": "Időmérés",
+        "items": [
+          {
+            "id": "start-stop",
+            "q": "Hogyan indítom és állítom le a mérést?",
+            "a": [
+              "Egy feladat indításához koppints a mellette lévő háromszögre. A futó feladat a Mérés fül tetején jelenik meg; a Leállítás gombbal állítod le. Ha egy feladat nevére koppintasz, megnyílnak az alfeladatai; balra húzva szerkesztheted, archiválhatod vagy törölheted, jobbra húzva pedig megjelenik az infója az összes számmal – a Macen mindezt jobb kattintással éred el."
+            ]
+          },
+          {
+            "id": "one-at-a-time",
+            "q": "Futhat egyszerre két feladat?",
+            "a": [
+              "Nem. Egyszerre mindig csak egy bejegyzés fut: ha elindítasz egy másik feladatot, a futó bejegyzés ugyanabban a pillanatban véget ér – így a bejegyzéseid nem fedik egymást."
+            ]
+          },
+          {
+            "id": "keeps-running",
+            "q": "Tovább fut az óra, ha bezárom a SimpleTime-ot?",
+            "a": [
+              "Igen. A SimpleTime megjegyzi, mikor indítottál, és ebből számolja az időtartamot – a mérés akkor is tovább fut, ha bezárod az appot, zárolod vagy újraindítod az iPhone-odat. A zárolt képernyőn és a Dynamic Islanden az élő tevékenység mutatja a futó időt egy gombbal, amellyel le is állíthatod, az emlékeztetőid pedig bezárt app mellett is megérkeznek."
+            ]
+          },
+          {
+            "id": "add-later",
+            "q": "Elfelejtettem elindítani – felvehetem utólag az időt?",
+            "a": [
+              "Igen. A Nap fülön a + gombbal felvehetsz egy bejegyzést a kezdetével és a végével, vagy egy meglévőre koppintva módosíthatod. A bejegyzések nem fedhetik egymást: a SimpleTime szól, ha egy időszak ütközik egy másik bejegyzéssel. Ha az óra már fut, koppints a futó bejegyzésre a Mérés fül tetején, és tedd korábbra a kezdetét – legfeljebb az előző bejegyzés végéig."
+            ]
+          },
+          {
+            "id": "restore-entry",
+            "q": "Töröltem egy bejegyzést – visszakaphatom?",
+            "a": [
+              "Igen. Ha a Nap fülön törölsz egy bejegyzést – balra húzással, a Macen jobb kattintással –, a kukába kerül: a Nap fül bal felső sarkában, a „Törölt bejegyzések” alatt a „Visszaállítás” visszahozza, vagy véglegesen törölheted. A törölt feladatok a bejegyzéseikkel együtt a Mérés fül bal felső sarkában, a kukában várnak. Amit véglegesen töröltél, azt már csak egy mentés hozza vissza."
+            ]
+          },
+          {
+            "id": "fixed-times",
+            "q": "Mik azok a fix időpontok?",
+            "a": [
+              "Az ismétlődő időpontokat – például tanórákat, műszakokat vagy fogadóórákat – elég egyszer felvenned: feladat, a hét napjai, kezdés és vége, minden héten vagy kéthetente, egy általad választott naptól, és ha szeretnéd, záró dátummal. Amint egy időpont lejárt, a SimpleTime magától bejegyzi – minden készüléken, ahol megnyitod a SimpleTime-ot, mégis csak egyszer; legfeljebb 31 napra visszamenőleg pótol. Te már csak azt méred, ami ezen felül jön; a Beállítások › Mérés › Fix időpontok alatt találod, Pro nélkül is."
+            ]
+          },
+          {
+            "id": "fixed-times-pause",
+            "q": "Szüneteltethetem vagy módosíthatom a fix időpontokat?",
+            "a": [
+              "Igen. Iskolai szünetre, szabadságra vagy betegség idejére a Beállítások › Mérés › Fix időpontok alatt a „Szünet beállítása” gombbal adhatsz meg szünetet – ez alatt a SimpleTime semmit sem jegyez be; egy-egy időpontot a saját kapcsolójával kapcsolhatsz ki. A már elkészült bejegyzéseket ugyanúgy módosíthatod vagy törölheted, mint bármely más bejegyzést, és ha egy fix időpontot módosítasz vagy törölsz, ami már be van jegyezve, megmarad. Ha egy fix időpont átfedésben van egy már meglévő bejegyzéssel, a SimpleTime nem jegyzi be."
+            ]
+          },
+          {
+            "id": "subtasks",
+            "q": "Hogyan működnek az alfeladatok?",
+            "a": [
+              "Koppints egy feladat nevére a megnyitásához, majd ott a + gombbal adj hozzá alfeladatokat. Olyan mélyen ágyazhatod egymásba őket, amilyen a munkád – ügyfél, projekt, szakasz. A diagramokban, a jelentésekben és a célokban az alfeladatok a fölöttük lévő feladathoz számítanak."
+            ]
+          },
+          {
+            "id": "order",
+            "q": "Hogyan tartom rendben a feladatlistámat?",
+            "a": [
+              "Jelöld kedvencként azokat a feladatokat, amelyeket naponta használsz – ezek mindig felül maradnak. A többit rendezheted ábécérendben, használat szerint, a legutóbbi használat szerint vagy saját sorrendben. Egy szín és egy szimbólum – vagy egy emoji – minden feladatot könnyen felismerhetővé tesz."
+            ]
+          },
+          {
+            "id": "archive-trash",
+            "q": "Mi a különbség az archiválás és a törlés között?",
+            "a": [
+              "Az archiválás csak elrejti a feladatot: a bejegyzései megmaradnak, és minden elemzésben tovább számítanak. A törlés a feladatot a bejegyzéseivel együtt a kukába teszi – az idejük ettől kezdve sehol sem számít. Az archívumot és a kukát a Mérés fül bal felső sarkában találod: az archívumból a „Visszaállítás” visszahozza a feladatot, a kukából a bejegyzéseivel együtt hozza vissza – vagy ott véglegesen törölheted."
+            ]
+          },
+          {
+            "id": "notes",
+            "q": "Írhatok jegyzetet a bejegyzésekhez?",
+            "a": [
+              "Igen, minden bejegyzéshez tartozhat jegyzet – hogy min dolgoztál, vagy kivel. A Nap fülön egy bejegyzés létrehozásakor vagy szerkesztésekor írhatod hozzá, amíg pedig fut az óra, a Mérés fül tetején a futó bejegyzésre koppintva. A jegyzetet látod, ha megnyitod a bejegyzést, egy feladat infójában a „Minden bejegyzés” alatt, a PDF „Összes bejegyzés” szakaszában és a CSV-exportban; a mentések is tartalmazzák."
+            ]
+          },
+          {
+            "id": "reminders",
+            "q": "Tud emlékeztetni a SimpleTime?",
+            "a": [
+              "Igen. A Beállítások › Értesítések beállítása alatt szabályokat adhatsz meg – például emlékeztetőt, ha egy feladat már 60 perce fut, az összes feladatra vagy csak a kiválasztottakra, a hét általad választott napjain. A „Szólj, ha semmi sem fut” beállítással a SimpleTime akkor is jelez, ha egy ideje semmit sem mértél."
+            ]
+          },
+          {
+            "id": "time-zone",
+            "q": "Másik időzónába utaztam – miért más időpontokat mutatnak a bejegyzéseim?",
+            "a": [
+              "Alapértelmezés szerint a SimpleTime minden bejegyzést abban az időzónában mutat, amelyben a készüléked éppen van – akárcsak az Apple Naptár appja: amit New Yorkban reggel 9-kor mértél, az Berlinben délután 3-kor jelenik meg. A Beállítások › Időzóna alatt ehelyett „A mérés időzónája” lehetőséget is választhatod: ekkor minden bejegyzés azzal az időponttal és azon a napon jelenik meg, amikor mérted – mindenütt, ahol időpontok és összegek szerepelnek. Az időtartam mindkét esetben ugyanaz marad; a 4.7 előtti verziók bejegyzései mindig a készülék időzónájában jelennek meg."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "insights",
+        "title": "Napi nézet és elemzés",
+        "items": [
+          {
+            "id": "day-view",
+            "q": "Mit mutat a napi nézet?",
+            "a": [
+              "Egy nap minden bejegyzését a kezdetével, a végével és az időtartamával – listaként vagy 0-tól 24-ig tartó idővonalként, ma az aktuális idő jelölésével; széles kijelzőn, például iPaden és Macen, a kettő egymás mellett látszik. Felül a nap összesített idejét látod, és azt, hogyan áll az előző naphoz képest."
+            ]
+          },
+          {
+            "id": "charts",
+            "q": "Milyen diagramok és statisztikák vannak?",
+            "a": [
+              "A Diagram fülön: kördiagramok feladatonként és produktivitás szerint, egy napra, egy hétre, egy hónapra vagy egy évre. Jobbra fent, a „További statisztika” alatt találod az összevetést az előző időszakkal, a trendet, a legfontosabb feladataidat, valamint a leghosszabb és a legrövidebb bejegyzéseket – egy héttől felfelé pedig azt is, hogyan oszlik el az időd a nap folyamán, a legmozgalmasabb órával együtt. Minden feladatnak saját infóoldala is van – első bejegyzés, leghosszabb bejegyzés, ezen a héten, idén."
+            ]
+          },
+          {
+            "id": "productivity",
+            "q": "Mi az a produktivitási pontszám?",
+            "a": [
+              "Egy feladat szerkesztésekor a „Produktivitás” alatt kategóriát adsz neki: produktív, nem produktív, szükséges – vagy „Kihagyás a produktivitásból”. A saját kategória nélküli alfeladatok a fölöttük lévő feladatét veszik át, a „Kihagyás a produktivitásból” pedig mindenre érvényes, ami alatta van. A pontszám azt mutatja, hogy az értékelt idődből mennyi volt produktív vagy szükséges: (produktív + szükséges) ÷ (produktív + nem produktív + szükséges) × 100. A besorolás nélküli és a „Kihagyás a produktivitásból” beállítású idő nem számít bele."
+            ]
+          },
+          {
+            "id": "goals",
+            "q": "Hogyan működnek a célok?",
+            "a": [
+              "A SimpleTime Próval a Beállítások › Célok alatt feladatonként célt adhatsz meg: legalább vagy legfeljebb meghatározott időt naponta, hetente vagy havonta – például hetente legalább 8 óra sportot vagy naponta legfeljebb 2 óra közösségi médiát. Az alfeladatok is beleszámítanak, és mindig a folyamatban lévő időszakot méri. Hogy hol tartasz, azt a Diagram fülön és az Apple Watchon látod; a PDF-jelentés a „Célok” szakaszban a kiválasztott időszak átlagát veti össze a céloddal."
+            ]
+          },
+          {
+            "id": "share-chart",
+            "q": "Megoszthatok egy diagramot?",
+            "a": [
+              "Igen, bármelyik diagram megosztható képként, vagy elmenthető a Fotókba. A mentéshez a SimpleTime csak a fotók hozzáadására kér engedélyt – a fotókönyvtáradat nem látja."
+            ]
+          },
+          {
+            "id": "pdf-report",
+            "q": "Hogyan készítek PDF-jelentést?",
+            "a": [
+              "A Beállítások › Jelentés exportálása alatt válassz időszakot – a mai naptól a teljes időszakig, vagy egy egyénit –, jelöld ki a kívánt szakaszokat, és húzd őket sorrendbe. A SimpleTime minden feladattal és alfeladattal elkészíti a PDF-et, amelyet aztán megoszthatsz vagy elmenthetsz. A SimpleTime Pro további szakaszokat ad hozzá: „Időben”, „A nap folyamán”, „Összehasonlítás” és „Célok”.",
+              "Munkaidő-nyilvántartáshoz ott az „Összes bejegyzés” szakasz: minden bejegyzés napról napra a kezdéssel, a véggel, a feladattal és a jegyzettel, továbbá napi összesítések, végösszeg és tizedes formában megadott órák – ideális arra, hogy összevesd az óráidat a bérjegyzékeddel. Ingyenes, Pro nélkül is használható, és alapból be van kapcsolva."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "shortcuts",
+        "title": "Widgetek, Siri és Fókusz",
+        "items": [
+          {
+            "id": "widgets",
+            "q": "Milyen widgetek vannak?",
+            "a": [
+              "A kezdőképernyőre: Ma, Futó feladat és Hét – a Ma és a Futó feladat indító és leállító gombokkal. A zárolt képernyőre: mi fut, és mióta. A Vezérlőközpontba pedig ott az „Időmérés” kapcsoló. Amíg egy feladat fut, egy élő tevékenység mutatja a zárolt képernyőn és a Dynamic Islanden, egy gombbal, amellyel leállíthatod. A SimpleTime Próval egy gyorsindító widgetet is kapsz, amelyet a saját feladataiddal töltesz meg."
+            ]
+          },
+          {
+            "id": "without-opening",
+            "q": "Elindíthatom a mérést az app megnyitása nélkül?",
+            "a": [
+              "Igen, többféleképpen is. Tartsd az ujjad az alkalmazásikonon, és leállíthatod, ami fut, vagy elindíthatod valamelyik feladatodat. Írd be egy feladat nevét az iPhone keresőjébe, és koppints rá. Vagy használj widgetet, a Sirit vagy az „Időmérés” kapcsolót – a Vezérlőközpontban, a zárolt képernyőn vagy az iPhone 15 Prótól kezdve a Művelet gombon –, a SimpleTime Próval pedig az Apple Watchodat."
+            ]
+          },
+          {
+            "id": "siri",
+            "q": "Hogyan működik együtt a SimpleTime a Sirivel és a Parancsokkal?",
+            "a": [
+              "Mondd például: „Start Work in SimpleTime”, „Stop tracking in SimpleTime”, „How much did I track today in SimpleTime?” vagy „What’s running in SimpleTime?”. Ezeket a mondatokat a Siri angolul és németül érti. A műveletek minden nyelven elérhetők a Parancsok appban, ahol saját mondatot is adhatsz nekik."
+            ]
+          },
+          {
+            "id": "focus-filter",
+            "q": "Mit csinál a fókuszszűrő?",
+            "a": [
+              "Fókuszszűrővel a SimpleTime követi a Fókuszodat: ha bekapcsol a „Munka”, a feladatlista csak a munka kategóriádat mutatja – és a mérés a Fókusszal együtt indulhat és állhat le. Az iOS beállításaiban állíthatod be: Fókusz › a Fókuszod › Fókuszszűrők › Szűrő hozzáadása › SimpleTime. A fókuszszűrő a SimpleTime Pro része."
+            ]
+          },
+          {
+            "id": "calendar-entries",
+            "q": "Be tudja írni a SimpleTime a bejegyzéseimet a naptáramba?",
+            "a": [
+              "Igen, a SimpleTime Próval: kapcsold be a „Bejegyzések a Naptárban” lehetőséget a Beállítások › Naptár alatt – attól a naptól kezdve minden befejezett bejegyzés eseményként jelenik meg, egy saját „SimpleTime” naptárban vagy egy általad választottban, ha szeretnéd, feladatonként külön. Ha módosítasz vagy törölsz egy bejegyzést, az esemény is követi, és az eseményben lévő link megnyitja a bejegyzést a SimpleTime-ban. Ha kikapcsolod, az események a naptáradban maradnak.",
+              "A „Feladatok naptárakból” a „Munka” és a hasonló naptárakból feladatokat készít; a naptáradban már meglévő eseményekből viszont nem lesznek bejegyzések. Az eseményeket a naptárad szolgáltatója tárolja, és a feladataid nevét mindenki látja, akivel megosztod a naptárat – bekapcsolt alkalmazászár mellett is."
+            ]
+          },
+          {
+            "id": "menu-bar",
+            "q": "Használhatom a SimpleTime-ot a Mac menüsorából?",
+            "a": [
+              "Igen. A menüsorban egy stopper mutatja, hogy fut-e feladat; rákattintva az ablak megnyitása nélkül indíthatsz, állíthatsz le vagy válthatsz feladatot. Be- és kikapcsolni a Beállítások › Menüsor › Megjelenítés a menüsorban alatt lehet. Beállított alkalmazászárnál a menü nem mutat feladatneveket, és csak a Leállítást kínálja."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "data",
+        "title": "Szinkronizálás, mentés és export",
+        "items": [
+          {
+            "id": "sync",
+            "q": "Szinkronizál a SimpleTime a készülékeim között?",
+            "a": [
+              "Igen, az iCloudon vagy a LaCodea ID-n keresztül – hogy melyiken, azt minden készüléken a Beállítások › Adatok és szinkronizálás alatt választhatod ki. Az iClouddal minden olyan készülék szinkronizál, amelyen az iCloudot választottad, és ugyanazzal az Apple-fiókkal vagy bejelentkezve; hogy mikor, azt a rendszer dönti el. Kikényszeríteni nem lehet – ilyenkor a „Szinkronizálás most” ellenőrzi a fiókodat és a kapcsolatot, ugyanez az oldal pedig azt is mutatja, mikor volt az utolsó szinkronizálás.",
+              "A LaCodea ID-val minden olyan készülék szinkronizál, amelyen ugyanazzal a LaCodea ID-val vagy bejelentkezve, és azt választottad, akkor is, ha más Apple-fiókot használ – végpontok között titkosítva, és ha mindkét készüléken nyitva van a SimpleTime, néhány másodpercen belül."
+            ]
+          },
+          {
+            "id": "sync-trouble",
+            "q": "A bejegyzéseim nem jelennek meg a másik készülékemen – mit tehetek?",
+            "a": [
+              "Nézd meg mindkét készüléken a Beállítások › Adatok és szinkronizálás oldalt: mindkettőn ugyanannak a helynek kell lennie – iCloud ugyanazzal az Apple-fiókkal, vagy LaCodea ID ugyanazzal a bejelentkezéssel. Ha ott az áll, hogy egy váltás csak később lép életbe, zárd be teljesen a SimpleTime-ot, és nyisd meg újra; és tartsd naprakészen az appot minden készülékeden.",
+              "iCloud esetén a Beállításokban a Szinkronizálás alatt az „Utolsó szinkron” mutatja, mikor ment át utoljára adat, a „Szinkron ellenőrzése” pedig megnézi a fiókodat és a kapcsolatot, és ha gond van, megnevezi az okát – például hogy betelt az iCloud-tárhely. A LaCodea ID esetén az Adatok és szinkronizálás oldal mutatja, hogy várnak-e módosítások kapcsolatra, hogy egy másik fiók van-e bejelentkezve, vagy hogy a készüléknek szüksége van-e a helyreállítási kulcsodra. Ha ez sem segít, [írj nekünk](@contact)."
+            ]
+          },
+          {
+            "id": "without-icloud",
+            "q": "Használhatom a SimpleTime-ot iCloud nélkül?",
+            "a": [
+              "Igen. Válaszd a Beállításokban az Adatok és szinkronizálás alatt a „Csak ezen a készüléken” lehetőséget – ekkor az adataid ezen az egy készüléken maradnak. Így a mentések még fontosabbak: egy mentési terv automatikusan elmenti őket, például a Fájlok app egy mappájába vagy a saját szerveredre. Ha iCloud nélkül is több készüléket szeretnél szinkronizálni, válaszd ott a LaCodea ID-t; az a készülék, amelyen nincs meg az iCloud-kulcskarikád, egyszer elkéri a helyreállítási kulcsodat."
+            ]
+          },
+          {
+            "id": "switch-storage",
+            "q": "Hogyan változtathatom meg, hol legyenek az adataim?",
+            "a": [
+              "A Beállítások › Adatok és szinkronizálás alatt koppints arra a helyre, ahol az adataidat szeretnéd tudni, majd a „Váltás iCloudra”, a „Váltás erre: LaCodea ID” vagy a „Csak ezen a készüléken marad” lehetőségre; a LaCodea ID-hoz közben be is jelentkezel. Mielőtt az iCloudra vagy a LaCodea ID-ra váltasz, a SimpleTime biztonsági másolatot készít erről a készülékről, és ha ott már vannak adatok, az „Egyesítés” és „A(z) … adatainak használata” között választhatsz.",
+              "A váltás csak erre a készülékre vonatkozik, és többnyire akkor lép életbe, amikor a SimpleTime-ot teljesen bezártad, majd újra megnyitottad – az oldal jelzi ezt. A többi készüléked ugyanúgy szinkronizál tovább, amíg ott is nem váltasz. Utána a SimpleTime felajánlja, hogy törli a régi helyen lévő adatokat; ezt csak akkor tedd meg, ha a többi készüléked is átváltott – különben ott is elvesznek ezek az adatok."
+            ]
+          },
+          {
+            "id": "recovery-key",
+            "q": "Mi az a helyreállítási kulcs?",
+            "a": [
+              "Ha a LaCodea ID a tárolási helyed, a SimpleTime végpontok között titkosítja az adataidat; az Apple-készülékeid a kulcsot általában maguktól megkapják az iCloud-kulcskarikán keresztül. Az a készülék, amelyen nincs meg az iCloud-kulcskarikád – például mert más Apple-fiókot használ –, egyszer elkéri a helyreállítási kulcsodat, amely 24 betűből és számjegyből áll. A Beállítások › Adatok és szinkronizálás › Helyreállítási kulcs alatt találod, Face ID vagy a készülék jelkódja után; amíg meg nem erősíted, hogy elmentetted, a Biztonság oldal emlékeztet rá. Tartsd a jelszókezelődben vagy papíron – nélküle és a készülékeid nélkül senki sem tudja megnyitni az adataidat, még mi sem."
+            ]
+          },
+          {
+            "id": "recovery-key-lost",
+            "q": "Elvesztettem a helyreállítási kulcsomat – most mi lesz?",
+            "a": [
+              "Egy olyan készüléken, amely még olvasni tudja az adataidat, a SimpleTime a Beállítások › Adatok és szinkronizálás › Helyreállítási kulcs alatt a „Helyreállítási kulcs megjelenítése” gombbal újra megmutatja – vagy ott újat hozhatsz létre, és akkor a régi már nem működik. Ha egyik készüléked sem tudja már megnyitni az adatokat, senki sem tudja visszaállítani őket – még mi sem. Ilyenkor, amikor a kulcsot kéri, koppints az „Elvesztettem a helyreállítási kulcsomat” lehetőségre, és kezdd újra az ezen a készüléken lévő adatokkal; ami csak a szerveren vagy a többi készülékeden volt, elvész."
+            ]
+          },
+          {
+            "id": "backups",
+            "q": "Hogyan működnek a mentések?",
+            "a": [
+              "A Beállítások › Mentések alatt annyi mentési tervet hozhatsz létre, amennyit csak szeretnél. Minden tervnek van egy helye – iCloud Drive, a Fájlok app egy mappája, például a Dropbox vagy a Google Drive, a saját szervered WebDAV-on keresztül, vagy ez a készülék –, egy gyakorisága az óránkéntitől a haviig, egy megőrzési ideje, és ha szeretnéd, egy jelszava. Ugyanezen az oldalon bármikor kézzel is készíthetsz mentést."
+            ]
+          },
+          {
+            "id": "backup-password",
+            "q": "Védhetem jelszóval a mentéseimet?",
+            "a": [
+              "Igen. Ha egy tervhez jelszót adsz meg, minden mentés még a készülékeden titkosítva lesz, mielőtt elmentődik. Jól őrizd meg a jelszót: nélküle senki sem tudja visszaállítani a mentést – sem te, sem mi. Kerülőút nincs."
+            ]
+          },
+          {
+            "id": "backup-files",
+            "q": "Hol találom a mentéseimet?",
+            "a": [
+              "A „Csak ezen a készüléken” beállítású tervek mentései a Fájlok appban is megtalálhatók a „Saját iPhone-on” (illetve „Saját iPaden”) › SimpleTime › Backups alatt, az iCloud Drive-ra mentő terveké pedig az iCloud Drive › SimpleTime › Backups alatt. A Fájlok app egy mappájába vagy a saját szerveredre mentő tervek oda teszik őket, ahová választottad. A készüléken lévő mentések a készülékkel együtt elvesznek – és akkor is, ha törlöd a SimpleTime-ot. A legjobb, ha jelszót adsz a terveidnek: jelszó nélkül bárki megnyithatja a mentést, aki hozzáfér a helyéhez – a készüléken bárki, aki feloldja, még bekapcsolt alkalmazászár mellett is."
+            ]
+          },
+          {
+            "id": "restore",
+            "q": "Hogyan állíthatok vissza egy mentést?",
+            "a": [
+              "A Beállítások › Mentések alatt állíthatsz vissza mentést – valamelyik tervedből vagy egy fájlból. A meglévő adatok megmaradnak, a hiányzók pedig bekerülnek. A SimpleTime 4.7-es és korábbi verzióinak mentéseit a Beállítások › Adatok exportálása / importálása › Mentés importálása JSON-ból alatt importálhatod. Új készüléken a legjobb, ha megvárod, amíg az iCloudon vagy a LaCodea ID-n keresztüli szinkronizálás meghozza az adataidat – különben a feladatok kétszer is létrejöhetnek."
+            ]
+          },
+          {
+            "id": "export",
+            "q": "Exportálhatom az adataimat?",
+            "a": [
+              "Igen, bármikor: CSV-fájlként, bejegyzésenként egy sorral – dátum, kezdés, vége, feladat, időtartam, órák tizedes formában és jegyzet, az Excelhez, a Numbershöz vagy bármely táblázatkezelőhöz –, PDF-jelentésként vagy mentésként.",
+              "A Beállítások › Adatok exportálása / importálása alatt választod ki a CSV-fájl időszakát – a mai naptól a teljes időszakig, vagy egy egyénit, például a múlt hónapot. Mentést a Beállítások › Mentések alatt készíthetsz."
+            ]
+          },
+          {
+            "id": "timesheet",
+            "q": "Hogyan kapom meg az óráimat munkaidő-nyilvántartáshoz?",
+            "a": [
+              "PDF-ként: a Beállítások › Jelentés exportálása alatt válaszd ki az időszakot – például a „Múlt hónapban” lehetőséget –, és hagyd bekapcsolva az „Összes bejegyzés” szakaszt; ez minden bejegyzést felsorol a kezdéssel, a véggel, a feladattal és a jegyzettel, továbbá napi összesítéseket, végösszeget és tizedes formában megadott órákat is tartalmaz. Táblázatként: a Beállítások › Adatok exportálása / importálása alatt válaszd ki az időszakot, és koppints az „Adatok exportálása CSV-ként” gombra – bejegyzésenként egy sor dátummal, kezdéssel, véggel, feladattal, időtartammal, tizedes órákkal és jegyzettel, az Excelhez vagy a Numbershöz. Mindkettő ingyenes, és a fix időpontokból származó bejegyzések ugyanúgy számítanak, mint a többi."
+            ]
+          },
+          {
+            "id": "rounding",
+            "q": "Tudja kerekíteni a SimpleTime az időket, például negyedórára?",
+            "a": [
+              "Nem, kerekítési beállítás nincs: a SimpleTime úgy tárolja a kezdést és a véget, ahogy mérted. A PDF „Összes bejegyzés” szakaszában és a CSV-exportban minden sor percre kerekítve, két tizedesjegyre megadott órákban szerepel; a PDF-ben az összesítések pontosan ezeket az értékeket adják össze. Ha negyedórákra van szükséged, módosítsd a bejegyzés kezdését és végét, vagy kerekíts a táblázatkezelődben."
+            ]
+          },
+          {
+            "id": "import",
+            "q": "Átvehetek adatokat egy másik appból?",
+            "a": [
+              "Nem. A SimpleTime csak a saját mentéseit olvassa be – CSV-fájlokat nem lehet importálni, még a saját exportjait sem, és a naptárad eseményeiből sem lesznek bejegyzések. Korábbi időket a Nap fülön a + gombbal kézzel vehetsz fel."
+            ]
+          },
+          {
+            "id": "new-device",
+            "q": "Hogyan költözöm át egy új iPhone-ra?",
+            "a": [
+              "Jelentkezz be ugyanazzal az Apple-fiókkal, és telepítsd a SimpleTime-ot – ha az iCloudot használod (Beállítások › Adatok és szinkronizálás), a bejegyzéseid maguktól visszajönnek. Ha a LaCodea ID-t használod, jelentkezz be vele az új készüléken, és válaszd ki az Adatok és szinkronizálás alatt; ha a készülék nem kapja meg magától a kulcsot az iCloud-kulcskarikádon keresztül, az app egyszer elkéri a helyreállítási kulcsodat. Egyébként készíts mentést a régi készüléken, és állítsd vissza az újon. A helyek és a beállítások az adott készülékhez tartoznak – nem szinkronizálódnak, és mentés sem készül róluk."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "privacy",
+        "title": "Adatvédelem és biztonság",
+        "items": [
+          {
+            "id": "data-location",
+            "q": "Hol tárolódnak az adataim?",
+            "a": [
+              "Ott, ahol te választod: a Beállításokban az Adatok és szinkronizálás alatt döntesz a „Csak ezen a készüléken”, a privát iCloudod – ahol az Apple titkosítja őket – és a LaCodea ID között, ahol végpontok között titkosítva vannak; a bejegyzéseidet egyik helyen sem tudjuk elolvasni. A mentések ott tárolódnak, ahová a mentési terveid teszik őket; jelszó nélkül bárki elolvashatja őket, aki hozzáfér az adott helyhez. Ha a Próval bekapcsolod a „Bejegyzések a Naptárban” funkciót, a befejezett bejegyzések eseményként a naptáradban is megjelennek – a naptár szolgáltatója és mindenki számára láthatóan, akivel megosztod."
+            ]
+          },
+          {
+            "id": "lacodea-id-privacy",
+            "q": "Ki olvashatja a bejegyzéseimet, ha a LaCodea ID-n keresztül szinkronizálok?",
+            "a": [
+              "Csak a készülékeid. A SimpleTime a feladatokat, a bejegyzéseket az időpontjaikkal és jegyzeteikkel, a fix időpontokat, a célokat és az emlékeztetőket a készülékeden titkosítja (AES-GCM, 256 bites kulccsal), mielőtt a SimpleTime saját szerverére kerülnek – a kulcs csak a készülékeidnél van meg, nálunk nem. A szerver csak azt látja, melyik fajta rekordból hány van, nagyjából mekkorák, mikor íródtak, és törölték-e őket; egy Frankfurt am Main-i adatközpontban áll. A részletek az [adatvédelmi nyilatkozatunkban](@privacy) olvashatók."
+            ]
+          },
+          {
+            "id": "tracking-me",
+            "q": "Követ engem a SimpleTime?",
+            "a": [
+              "Nem. A SimpleTime nem mutat hirdetést, nem ad el adatokat, nem készít felhasználói profilt, és nem követ téged más appokon és webhelyeken át. Hogy gyorsan megtaláljuk a hibákat, az app névtelen összeomlási jelentéseket és használati statisztikát küld a saját szerverünkre – készülékazonosító nélkül, és soha nem a feladataidat, az időpontjaidat vagy a jegyzeteidet. Ezt a Beállítások › Adatvédelem › Áttekintés és engedélyek alatt kapcsolhatod ki. A részletek az [adatvédelmi nyilatkozatunkban](@privacy) olvashatók."
+            ]
+          },
+          {
+            "id": "permissions",
+            "q": "Milyen engedélyeket kér a SimpleTime?",
+            "a": [
+              "Csak azt, amire egy funkciónak szüksége van, és csak akkor, amikor használod: értesítéseket az emlékeztetőkhöz és a helyek értesítéseihez, a helyzetedet a helyekhez, a naptáraidat a „Bejegyzések a Naptárban” funkcióhoz, fotók hozzáadását a képek mentéséhez, valamint Face ID-t vagy Touch ID-t az alkalmazászárhoz. A beállításokban az Adatvédelem › Áttekintés és engedélyek alatt mindegyiket látod az aktuális állapotával."
+            ]
+          },
+          {
+            "id": "location",
+            "q": "Miért kéri a SimpleTime a helyzetemet?",
+            "a": [
+              "Csak a helyekhez, amelyek a SimpleTime Pro részei: hogy egy feladat elindulhasson, amikor megérkezel valahová. Az iOS figyeli az általad megadott területeket, és szól az appnak, amikor megérkezel vagy távozol. A helyeid a készülékeden maradnak, és a SimpleTime nem tartja nyilván, hol jártál. Helyek nélkül a SimpleTime-nak nincs szüksége a helyzetedre."
+            ]
+          },
+          {
+            "id": "app-lock",
+            "q": "Hogyan működik az alkalmazászár?",
+            "a": [
+              "A Beállítások › Alkalmazászár alatt választod ki, hogy a SimpleTime Face ID-val vagy Touch ID-val és a készülék jelkódjával nyíljon meg, vagy egy saját kóddal – számjegyekkel vagy jelszóval. Az appváltóban a SimpleTime takarva marad, a feladatnevek pedig nem jelennek meg sem az iPhone keresőjében, sem az alkalmazásikonon; „Az alkalmazáson kívül” alatt döntheted el, mit mutassanak az értesítések, a widgetek és az Apple Watch. Arra az esetre, ha elfelejtenéd a saját kódodat, előre bekapcsolhatod az „Elfelejtett kód visszaállítása a készülék jelkódjával” lehetőséget, vagy megadhatsz egy vészjelszót. Ha egyik sincs, az egyetlen út vissza az app törlése és újratelepítése – és ami csak ezen a készüléken volt, mentés nélkül elvész."
+            ]
+          },
+          {
+            "id": "security-overview",
+            "q": "Mit mutat a Biztonság oldal?",
+            "a": [
+              "A Beállítások › Biztonság › Áttekintés alatt egy pillantással látod, mennyire védettek az adataid: a készülék jelkódja, az alkalmazászár, az automatikus és titkosított mentések, valamint az, hogy hol vannak az adataid – a LaCodea ID-val a végpontok közötti titkosítás és a helyreállítási kulcsod is. Ami még hiányzik, az „Ajánlott” alatt szerepel; minden pont elmagyarázza, hogyan véd, és ha kell, a megfelelő beállításhoz visz."
+            ]
+          },
+          {
+            "id": "delete-all",
+            "q": "Hogyan törölhetem az összes adatomat?",
+            "a": [
+              "A Beállításokban az Adatvédelem › Minden adat törlése alatt egyszerre mindent eltávolíthatsz – a bejegyzéseket és a feladatokat, a célokat, a helyeket, a kukát, az emlékeztetőket, a terveid mentéseit és a régi mentéseket az iCloud Drive-ban, az exportokat, a beállításokat az alkalmazászár kódjával együtt, valamint azokat az eseményeket, amelyeket a SimpleTime a naptáradba írt.",
+              "A törlés ezen a készüléken, az iCloudban és – ha a LaCodea ID-n keresztül szinkronizálsz – a szerveren történik; az iCloudon keresztül a törlés a többi készülékedre is eljut, amint azok online lesznek. Ha a LaCodea ID-n keresztül szinkronizálsz, a többi készüléked megtartja az adatait, és addig nem szinkronizál, amíg ott újra be nem állítod – ott is ugyanígy törölj –, a LaCodea ID-fiókod pedig megmarad. Ez nem vonható vissza."
+            ]
+          },
+          {
+            "id": "delete-app",
+            "q": "Mi történik, ha törlöm a SimpleTime-ot?",
+            "a": [
+              "Akkor elvész minden, ami csak ezen a készüléken volt: a bejegyzéseid, ha a „Csak ezen a készüléken” lehetőséget választottad, a „Csak ezen a készüléken” beállítású tervek mentései, a helyeid és a beállításaid az alkalmazászárral együtt. Ami az iCloudban vagy a LaCodea ID-nál van, ott marad, és az újratelepítés után visszajön, amint az Adatok és szinkronizálás alatt újra ugyanazt a helyet használod.",
+              "Az iCloud Drive-ban, a Fájlok app egy mappájában vagy a szervereden lévő mentések megmaradnak, ahogy a naptáradban lévő események is; egy titkosított mentéshez ezután a jelszavára lesz szükséged. Az előfizetés addig fut tovább, amíg le nem mondod, és a LaCodea ID-d is megmarad. Ha előbb mindent el szeretnél távolítani, használd a Beállítások › Adatvédelem › Minden adat törlése lehetőséget."
+            ]
+          },
+          {
+            "id": "lacodea-id-delete",
+            "q": "Hogyan jelentkezhetek ki, vagy törölhetem a LaCodea ID-mat?",
+            "a": [
+              "Koppints a Beállítások tetején a LaCodea ID-dra: a „Kijelentkezés” ezen a készüléken az összes LaCodea-appból kijelentkeztet – az adataid itt maradnak, és újra szinkronizálódnak, amint bejelentkezel. A „SimpleTime leválasztása” csak a SimpleTime-ot választja le a fiókodról; a „LaCodea ID törlése” az összes LaCodea-apphoz törli a fiókot – ezt az account.lacodea.com oldalon is megteheted. Akár leválasztod, akár törlöd, a SimpleTime szervere törli az ott szinkronizált adataidat; ami a készülékeiden vagy az iCloudban van, megmarad. Az Apple-nél kötött előfizetés addig fut tovább, amíg le nem mondod a készüléked beállításaiban."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "pro",
+        "title": "SimpleTime Pro",
+        "items": [
+          {
+            "id": "pro-includes",
+            "q": "Mit tartalmaz a SimpleTime Pro?",
+            "a": [
+              "Az Apple Watchra készült appot, a heted, a hónapod és az éved visszatekintőit, a helyeket, a bejegyzéseidet eseményként a naptáradban és feladatokat a naptáraidból, az egész évet egy pillantásra, a célokat, a fókuszszűrőt, egy gyorsindító widgetet, hét kiemelőszínt vagy egy sajátot, hat betűtípust, tizenhat alkalmazásikont és további szakaszokat a PDF-jelentésben. Az órán futó apphoz iPhone kell; a helyek és az alkalmazásikonok iPhone-on és iPaden érhetők el. Ami később jön, az is benne van. [Minden a SimpleTime Próról](@pro)"
+            ]
+          },
+          {
+            "id": "pro-price",
+            "q": "Mennyibe kerül a SimpleTime Pro?",
+            "a": [
+              "A Pro havi vagy éves előfizetésként, illetve egyszeri vásárlásként (Örökre) érhető el. Az árak az országodtól és a pénznemedtől függenek, és vásárlás előtt az appban látod őket."
+            ]
+          },
+          {
+            "id": "trial",
+            "q": "Kipróbálhatom előbb a Prót?",
+            "a": [
+              "Igen. Az új előfizetők a havi vagy az éves előfizetést egy hétig ingyen kipróbálhatják; az app megmutatja, hogy rád vonatkozik-e a próbaidőszak. Ha nem mondod le legalább 24 órával a lejárta előtt, az előfizetés a feltüntetett áron megújul."
+            ]
+          },
+          {
+            "id": "family",
+            "q": "A családom is használhatja a Prót?",
+            "a": [
+              "Igen. A SimpleTime Pro támogatja a Családi megosztást – egy vásárlás akár hat embernek."
+            ]
+          },
+          {
+            "id": "restore-purchase",
+            "q": "Megvettem a Prót – hogyan kapom meg a többi készülékemen?",
+            "a": [
+              "A Pro az Apple-fiókodhoz tartozik: a többi, ugyanazt a fiókot használó készülékeden általában magától feloldódik. Ha mégsem, koppints ott a Beállítások › SimpleTime Pro alatt a „Visszaállítás” gombra.",
+              "Egy más Apple-fiókot használó készüléken a LaCodea ID-n keresztül kapod meg a Prót: jelentkezz be mindkét készüléken ugyanazzal a LaCodea ID-val. Ha a Prót a bejelentkezés előtt vetted meg, jelentkezz be a LaCodea ID-ddal egy olyan készüléken is, amely azt az Apple-fiókot használja, amellyel vásároltál – a SimpleTime onnan jelenti a vásárlást a fiókodnak. A Pro-oldalon ezután „A LaCodea ID révén” áll, előfizetésnél pedig az is, hol kötötted meg – csak ott módosíthatod."
+            ]
+          },
+          {
+            "id": "cancel",
+            "q": "Hogyan mondhatom le az előfizetésemet?",
+            "a": [
+              "Az App Store beállításaiban – iPhone-on a Beállítások › a neved › Előfizetések alatt –, vagy az appban, a Pro-oldalon az Előfizetés kezelése alatt. Ez csak olyan készüléken működik, amely azt az Apple-fiókot használja, amellyel előfizettél; ha a Pro a LaCodea ID-d révén jár neked, a Pro-oldal megnevezi ezeket a készülékeket. A Pro a már kifizetett időszak végéig aktív marad, és a LaCodea ID-d törlése sem szünteti meg az előfizetést."
+            ]
+          },
+          {
+            "id": "lifetime-switch",
+            "q": "Előfizetésem van – átválthatok az örökre szóló változatra?",
+            "a": [
+              "Igen, közvetlenül a Pro-oldalon. Az Apple azonban nem szünteti meg magától az előfizetést: utána mondd le, hogy ne újuljon meg. Az app emlékeztet rá."
+            ]
+          },
+          {
+            "id": "pro-ends",
+            "q": "Mi történik, ha lejár a Pro?",
+            "a": [
+              "Semmi sem vész el. A bejegyzéseid, a céljaid és a helyeid mentve maradnak. A Pro-funkciók újra zárolva lesznek – a helyek például már nem indítanak feladatot –, és minden visszatér, amint a Pro újra aktív."
+            ]
+          },
+          {
+            "id": "pro-offline",
+            "q": "Kell a Próhoz internetkapcsolat?",
+            "a": [
+              "Nem. A SimpleTime, amikor csak tudja, ellenőrzi a vásárlásodat az App Store-nál – és ha be vagy jelentkezve a LaCodea ID-val, a fiókodnál is. Kapcsolat nélkül is tovább működik a Pro – akár két hétig."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "watch-places",
+        "title": "Apple Watch és helyek",
+        "items": [
+          {
+            "id": "watch-setup",
+            "q": "Hogyan állítom be az appot az Apple Watchon?",
+            "a": [
+              "Az Apple Watchra készült app a SimpleTime Pro része. Telepítsd az órádra, majd nyisd meg egyszer a SimpleTime-ot az iPhone-odon – néhány másodperc múlva az óra megmutatja a feladataidat. Az iPhone marad a forrás: amit az óra elindít, azt az iPhone méri, ugyanazzal az élő tevékenységgel és ugyanazokkal a widgetekkel."
+            ]
+          },
+          {
+            "id": "watch-features",
+            "q": "Mit csinálhatok az Apple Watchon?",
+            "a": [
+              "Indítás és leállítás a csuklódon – a kedvenceid, a legutóbb használtak vagy bármelyik feladat kereséssel. Korábbi indítás: 5, 15, 30 vagy 60 perccel ezelőttre, vagy hézagmentesen az utolsó bejegyzésed végétől. Leállítás dupla koppintással. A napod, a heted és a céljaid egy pillantással, a futó idővel a számlapon és az Intelligens pakliban. Ha az iPhone-od nincs elérhető közelségben, a koppintásaid az időpontjukkal együtt megmaradnak, és később kerülnek át."
+            ]
+          },
+          {
+            "id": "places-how",
+            "q": "Hogyan működnek a helyek?",
+            "a": [
+              "Adj hozzá egy helyet – például az irodádat vagy az edzőtermedet – 50 m és 10 km közötti sugárral, és válassz hozzá feladatot. Ha megérkezel, a feladat magától elindul, vagy a SimpleTime előbb rákérdez. Várakozási idővel semmi sem indul el, ha csak elhaladsz mellette. Távozáskor a feladat leállhat, és egy helyet bizonyos napokra és időpontokra is korlátozhatsz."
+            ]
+          },
+          {
+            "id": "places-late",
+            "q": "Miért indul késve egy hely, vagy miért nem indul el egyáltalán?",
+            "a": [
+              "A helyekhez a helyzethez való hozzáférést „Mindig” értékre kell állítani, és be kell kapcsolni a Pontos helyzetet. 100 m alatt az iOS gyakran csak későn veszi észre az érkezésedet, mert a háttérben a helyzeted általában Wi-Fi-ből és mobilhálózatból származik, nem GPS-ből – egy nagyobb sugár segít. Az iOS egy apphoz legfeljebb 20 helyet figyel, a Macen pedig nincsenek helyek."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "more",
+        "title": "Egyéb",
+        "items": [
+          {
+            "id": "look",
+            "q": "Megváltoztathatom a SimpleTime megjelenését?",
+            "a": [
+              "Igen: világos, sötét vagy a rendszert követő megjelenés, három sormagasság a feladatlistához, a Beállítások › Betűtípus alatt pedig saját szövegméret és félkövér szöveg. A SimpleTime Próval hét kiemelőszín vagy egy saját is jár – ez végigfut a gombokon, a kapcsolókon és a diagramokon –, valamint hat betűtípus és iPhone-on és iPaden tizenhat alkalmazásikon."
+            ]
+          },
+          {
+            "id": "accessibility",
+            "q": "Akadálymentes a SimpleTime?",
+            "a": [
+              "Igen. A VoiceOver az app minden nyelvén felolvassa a gombokat, a diagramokat és az idővonalat, a diagramok pedig hanggrafikonként is elérhetők. A szöveg a legnagyobb fokozatokig követi az iOS szövegméretét – csak a fejlécben és az idővonalon nő egy határig, hogy semmi ne takarja el a kezelőelemeket. Bővebben az [akadálymentességi nyilatkozatunkban](@accessibility) olvashatsz; ha valami nem működik neked, kérjük, szólj nekünk."
+            ]
+          },
+          {
+            "id": "freelance",
+            "q": "Alkalmas a SimpleTime szabadúszóknak?",
+            "a": [
+              "Az időd rögzítésére igen: különítsd el az ügyfeleket és a projekteket feladatokként és alfeladatokként, és exportálj PDF-jelentést vagy CSV-fájlt, amikor kimutatásra van szükséged. Óradíjakat és számlákat a SimpleTime nem kezel – ezekhez vidd át az exportot a számlázóprogramodba."
+            ]
+          },
+          {
+            "id": "platforms",
+            "q": "Van Androidra, Windowsra vagy böngészőre készült változat?",
+            "a": [
+              "Nincs. A SimpleTime iPhone-ra, iPadre, Macre és Apple Watchra készült. Az adataidat bármikor exportálhatod CSV-ként."
+            ]
+          },
+          {
+            "id": "account-web",
+            "q": "Mit csinálhatok az account.lacodea.com oldalon?",
+            "a": [
+              "Ott a böngészőben kezelheted a LaCodea ID-dat: a bejelentkezési módjaidat, az előfizetéseidet, a fiókadataid letöltését és a fiók törlését – a SimpleTime-ban ugyanezt a fiókot a Beállítások tetején éred el. A bejegyzéseidet ott nem látod: azok csak a SimpleTime-ban léteznek iPhone-on, iPaden, Macen és Apple Watchon. Ha a LaCodea ID-n keresztül szinkronizálsz, végpontok között titkosítva vannak a SimpleTime szerverén – maga a LaCodea ID soha nem kapja meg őket."
+            ]
+          },
+          {
+            "id": "feedback",
+            "q": "Hibát találtam, vagy ötletem van – hová küldjem?",
+            "a": [
+              "Írj nekünk a [contact@simple-time.app](mailto:contact@simple-time.app) címre – az appból a Beállítások › Visszajelzés menün keresztül is megteheted. Hiba esetén kérjük, add meg a készüléked típusát, az iOS, iPadOS vagy macOS verzióját és a SimpleTime verzióját – ezt a Beállítások › A SimpleTime-ról alatt találod –, és írd le röviden, mit csináltál éppen. Minden üzenetet elolvasunk."
+            ]
+          },
+          {
+            "id": "support-us",
+            "q": "Hogyan támogathatom a SimpleTime-ot?",
+            "a": [
+              "A SimpleTime-ot egyetlen ember készíti. Sokat segít egy értékelés az App Store-ban, és az is, ha másoknak is mesélsz róla – a SimpleTime Pro pedig életben tartja a fejlesztést."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

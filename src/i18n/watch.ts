@@ -28,6 +28,14 @@ export const WATCH: Record<Lang, { total: string; clock: string }> = {
   uk: { total: '9 год, 2 хв', clock: '18:47' },
   el: { total: '9 ώ., 2 λ.', clock: '6:47' },
   he: { total: '9 שע׳ ו2 דק׳', clock: '18:47' },
+  nb: { total: '9 t, 2 min', clock: '18:47' },
+  da: { total: '9 t. og 2 min.', clock: '18:47' },
+  hu: { total: '9 ó és 2 p', clock: '18:47' },
+  cs: { total: '9 h, 2 min', clock: '18:47' },
+  hr: { total: '9 h, 2 min', clock: '18:47' },
+  ro: { total: '9 ore, 2 min.', clock: '18:47' },
+  pl: { total: '9 godz. i 2 min', clock: '18:47' },
+  fi: { total: '9 h 2 min', clock: '18:47' },
 };
 
 /** Arabic-Indic digits where the watch uses them. */

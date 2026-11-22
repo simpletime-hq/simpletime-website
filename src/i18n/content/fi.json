@@ -1,0 +1,950 @@
+{
+  "store": {
+    "lead": "SimpleTime kirjaa, mihin aikasi menee. Napautus aloittaa, napautus pysäyttää.",
+    "promise": "Tiliä ei tarvita, ei mainoksia. Tuntisi pysyvät laitteellasi – ja halutessasi iCloudissasi tai LaCodea ID:ssä.",
+    "sections": [
+      {
+        "id": "tracking",
+        "title": "Kirjaus",
+        "points": [
+          "Napautus aloittaa ja pysäyttää – apissa, Koti-valikosta, Ohjauskeskuksesta, iPhonen hausta tai Sirillä",
+          "Kiinteät ajat: lisää opetus tai työvuoro kerran – SimpleTime kirjaa ne itsestään joka viikko",
+          "Tehtävät alatehtävineen, niin monessa tasossa kuin työsi vaatii",
+          "Unohtuiko aloitus? Lisää aika jälkikäteen ja muokkaa sitä milloin haluat",
+          "Väri, symboli, suosikit ja itse valitsemasi järjestys"
+        ]
+      },
+      {
+        "id": "day",
+        "title": "Päiväsi",
+        "points": [
+          "Lista tai aikajana 0–24, mukana merkintä nykyisestä kellonajasta",
+          "Muistiinpanot mihin tahansa merkintään",
+          "Miten tämä päivä suhtautuu eiliseen, heti ylhäällä"
+        ]
+      },
+      {
+        "id": "insights",
+        "title": "Analyysi",
+        "points": [
+          "Ympyräkaaviot tehtävittäin ja tuottavuuden mukaan",
+          "Päivä, viikko, kuukausi, vuosi",
+          "Tilastot: vertailu edelliseen jaksoon, kehitys, jakautuminen päivän mittaan, pisin ja lyhin merkintä",
+          "Jokaisella tehtävällä omat lukunsa – ensimmäinen merkintä, pisin, tämä viikko, tämä vuosi",
+          "Jaa mikä tahansa kaavio kuvana"
+        ]
+      },
+      {
+        "id": "reports",
+        "title": "Raportit ja vienti",
+        "points": [
+          "PDF-raportti, jonka osat valitset ja järjestät itse",
+          "CSV Exceliä ja Numbersia varten",
+          "Varmuuskopiointisuunnitelmat: automaattisesti iCloud Driveen, Tiedostot-apin kansioon kuten Dropboxiin tai Google Driveen, omalle palvelimellesi tai laitteelle – halutessasi salasanalla suojattuna"
+        ]
+      },
+      {
+        "id": "widgets",
+        "title": "Widgetit ja Siri",
+        "points": [
+          "Tänään, käynnissä oleva tehtävä ja viikko Koti-valikossa",
+          "Kuluva aika näkyy lukitulla näytöllä ja Dynamic Islandissa",
+          "Ohjauskeskuksen kytkin, joka aloittaa ja pysäyttää kirjauksen",
+          "Siri ja pikakomennot: aloita, pysäytä tai kysy, mikä on käynnissä"
+        ]
+      },
+      {
+        "id": "devices",
+        "title": "Kaikilla laitteilla",
+        "points": [
+          "iPhone, iPad ja Mac, iCloudin tai LaCodea ID:n kautta synkronoituna",
+          "41 kieltä, laitteesi kielestä riippumatta",
+          "VoiceOver ja dynaaminen teksti kaikkialla"
+        ]
+      },
+      {
+        "id": "data",
+        "title": "Tietosi",
+        "points": [
+          "Apin lukitus Face ID:llä, Touch ID:llä tai omalla koodillasi",
+          "Sinä valitset, missä tietosi ovat: vain tällä laitteella, iCloudissasi tai päästä päähän salattuina LaCodea ID:ssä",
+          "Yksityisyys yhdellä sivulla: yleiskatsaus kaikkiin käyttöoikeuksiin ja tietoihisi",
+          "Halutessasi LaCodea ID, yksi tili kaikkiin LaCodea-appeihin – SimpleTime toimii myös ilman",
+          "Ei mainoksia, ei tietojesi myyntiä – ilman tiliä saamme vain nimettömiä kaatumisraportteja ja käyttötilastoja, ja ne voi kytkeä pois",
+          "Poista kaikki kerralla – laitteelta, iCloudista ja varmuuskopioista"
+        ]
+      }
+    ],
+    "pro": {
+      "title": "SimpleTime Pro",
+      "intro": "Kaikki edellä mainittu pysyy ilmaisena. Pro lisää:",
+      "points": [
+        "Apple Watch: aloita ja pysäytä ranteesta, aloita aiemmin, päivä, viikko ja tavoitteet yhdellä silmäyksellä – kuluva aika näkyy kellotaulussa",
+        "Katsaukset: viikkosi, kuukautesi ja vuotesi kortteina – selattavaksi ja jaettavaksi",
+        "Paikat: tehtävät alkavat itsestään, kun saavut – halutessasi vasta odotusajan jälkeen",
+        "Kalenteri: jokainen merkintä tapahtumana kalenterissasi – sekä tehtävät kalentereista, kuten ”Työ” tai ”Perhe”",
+        "Vuosi yhdellä silmäyksellä: vuoden jokainen päivä yhtenä kuvana, putkien kanssa",
+        "Tavoitteet tehtävää kohti – päivälle, viikolle tai kuukaudelle",
+        "Keskittymissuodatin: työkeskittymisesi kytkeytyy päälle, lista näyttää vain työn, kello käy jo",
+        "Pikakäynnistys-widget, jonka täytät itse",
+        "Seitsemän korostusväriä tai oma värisi, kuusi fonttia ja kuusitoista apin symbolia",
+        "Lisäosiot PDF-raporttiin: kehitys, jakautuminen päivän mittaan, vertailu, tavoitteet"
+      ],
+      "pricing": "Pron saa kuukaudeksi, vuodeksi tai kerralla ikuisesti. Uudet tilaajat saavat viikon ilmaiseksi, ja Perhejaon avulla Prota voi käyttää jopa kuusi henkilöä. Hinnat näkyvät apissa. Kuukausi- ja vuositilaus uusiutuvat automaattisesti, kunnes irtisanot ne, minkä voit tehdä milloin tahansa App Storen asetuksissa. Mitä myöhemmin tulee, kuuluu mukaan."
+    },
+    "closing": "Tehty kaikille, jotka haluavat tietää, mihin heidän aikansa oikeasti menee – töissä, opinnoissa, treeneissä tai ihan itseään varten."
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Ajanseuranta iPhonelle, iPadille ja Macille",
+      "titleLead": "Yksi napautus",
+      "titleAccent": "käynnistää kellon.",
+      "cta": "Katso ominaisuudet",
+      "proof": [
+        "Ilmainen ladata",
+        "Tiliä ei tarvita",
+        "Ei mainoksia, ei tietojen myyntiä"
+      ]
+    },
+    "tour": {
+      "tracking": "Aloita missä vain."
+    },
+    "devices": {
+      "title": "Kaikilla laitteillasi.",
+      "subtitle": "iPhone, iPad ja Mac pysyvät synkronoituina iCloudin tai LaCodea ID:n kautta – ja kello käy myös lukitulla näytöllä, Dynamic Islandissa ja ranteessasi."
+    },
+    "showcase": [
+      {
+        "id": "day",
+        "title": "Koko päiväsi yhdellä silmäyksellä."
+      },
+      {
+        "id": "insights",
+        "title": "Näe, mihin tuntisi oikeasti menevät."
+      },
+      {
+        "id": "reports",
+        "title": "Raportti sekunneissa."
+      }
+    ],
+    "features": {
+      "title": "Kaikki, mitä tarvitset. Ilmaiseksi.",
+      "subtitle": "Jokainen tämän listan ominaisuus kuuluu ilmaiseen appiin."
+    },
+    "pro": {
+      "button": "Kaikki SimpleTime Prosta"
+    },
+    "audience": {
+      "title": "Kaikille, jotka haluavat tietää, mihin aika menee.",
+      "subtitle": "Töissä, opinnoissa, treeneissä – tai ihan itseäsi varten.",
+      "groups": [
+        {
+          "id": "work",
+          "title": "Työ ja freelance",
+          "body": "Pidä asiakkaat ja projektit erillään tehtävinä ja alatehtävinä, ja vie tarvittaessa siisti erittely tunneistasi."
+        },
+        {
+          "id": "study",
+          "title": "Opinnot ja oppiminen",
+          "body": "Näe, kuinka paljon aikaa oppiaine todella vie, ja suunnittele seuraava viikko oikeiden lukujen pohjalta."
+        },
+        {
+          "id": "training",
+          "title": "Treenit ja tottumukset",
+          "body": "Kirjaa treenit, harjoittelu tai uni ja katso, miten säännöllisyys rakentuu viikko viikolta."
+        },
+        {
+          "id": "everyday",
+          "title": "Arki",
+          "body": "Selvitä, mihin tunnit oikeasti menevät – ja päätä itse, mitä haluat muuttaa."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Usein kysyttyä.",
+      "subtitle": "Tärkeimmät vastaukset lyhyesti – ja paljon lisää Usein kysyttyä -sivulla.",
+      "button": "Kaikki kysymykset ja vastaukset"
+    },
+    "cta": {
+      "title": "Valmis aloittamaan?",
+      "subtitle": "Ilmainen iPhonelle, iPadille ja Macille. Ei tiliä, ei mainoksia, ei tietojesi myyntiä.",
+      "note": "Apple Watch -appi kuuluu SimpleTime Prohon."
+    }
+  },
+  "shots": [
+    {
+      "id": "tracking",
+      "title": "Kirjaa",
+      "caption": "Yksi napautus käynnistää kellon",
+      "alt": "Kirjaus-välilehti, jonka ylälaidassa on käynnissä oleva tehtävä ja suosikit"
+    },
+    {
+      "id": "day",
+      "title": "Päiväsi",
+      "caption": "Jokainen merkintä sekunnin tarkkuudella",
+      "alt": "Päivänäkymä listana merkinnöistä ja niiden ajoista"
+    },
+    {
+      "id": "timeline",
+      "title": "Aikajana",
+      "caption": "Koko päiväsi yhdellä silmäyksellä",
+      "alt": "Päivänäkymä aikajanana 0–24"
+    },
+    {
+      "id": "chart",
+      "title": "Analysoi",
+      "caption": "Mihin tuntisi oikeasti menevät",
+      "alt": "Viikko ympyräkaaviona tehtävittäin"
+    },
+    {
+      "id": "statistics",
+      "title": "Tilastot",
+      "caption": "Vertaa viikkoja ja näe kehitys",
+      "alt": "Tilastot, joissa tätä viikkoa verrataan edelliseen"
+    },
+    {
+      "id": "report",
+      "title": "Raportit",
+      "caption": "Yksityiskohtainen PDF jokaisesta tehtävästä",
+      "alt": "PDF-raportin sivu, jossa on jokainen tehtävä"
+    },
+    {
+      "id": "pro",
+      "title": "Hanki Pro",
+      "caption": "Tavoitteet, vuotesi, omat värisi",
+      "alt": "SimpleTime Pro -sivu apissa"
+    }
+  ],
+  "pro": {
+    "eyebrow": "SimpleTime Pro",
+    "title": "Enemmän irti kirjaamastasi ajasta.",
+    "subtitle": "SimpleTime pysyy ilmaisena – kaikki, mitä se osaa ilman Prota, pysyy sellaisena. Pro lisää Apple Watchin, paikat, joissa tehtävät alkavat itsestään, katsaukset viikkoosi, kuukauteesi ja vuoteesi, tavoitteet ja paljon muuta.",
+    "featuresTitle": "Mitä Pro lisää",
+    "features": [
+      {
+        "id": "watch",
+        "title": "Apple Watch",
+        "body": "Aloita ja pysäytä ranteesta, aloita aiemmin, päivä, viikko ja tavoitteet yhdellä silmäyksellä – kuluva aika näkyy kellotaulussa."
+      },
+      {
+        "id": "reviews",
+        "title": "Katsaukset",
+        "body": "Viikkosi, kuukautesi ja vuotesi kortteina – selattavaksi ja jaettavaksi."
+      },
+      {
+        "id": "places",
+        "title": "Paikat",
+        "body": "Tehtävät alkavat itsestään, kun saavut – halutessasi vasta odotusajan jälkeen, jotta mitään ei käynnistyisi, kun vain ajat ohi."
+      },
+      {
+        "id": "calendar",
+        "title": "Kalenteri",
+        "body": "Jokainen merkintä tapahtumana kalenterissasi – sekä tehtävät kalentereista, kuten ”Työ” tai ”Perhe”."
+      },
+      {
+        "id": "year",
+        "title": "Vuosi yhdellä silmäyksellä",
+        "body": "Vuoden jokainen päivä yhtenä kuvana – mukana nykyinen ja pisin putkesi."
+      },
+      {
+        "id": "goals",
+        "title": "Tavoitteet",
+        "body": "Tavoite tehtävää kohti – päivälle, viikolle tai kuukaudelle. Alatehtävät lasketaan mukaan."
+      },
+      {
+        "id": "focus",
+        "title": "Keskittymissuodatin",
+        "body": "Työkeskittymisesi kytkeytyy päälle, lista näyttää vain työn – ja kirjaus voi alkaa ja päättyä sen mukana."
+      },
+      {
+        "id": "widget",
+        "title": "Pikakäynnistys-widget",
+        "body": "Sinä päätät, mitkä tehtävät siihen tulevat. Yksi napautus Koti-valikossa – ja tehtävä alkaa."
+      },
+      {
+        "id": "style",
+        "title": "Värit, fontit ja apin symbolit",
+        "body": "Seitsemän korostusväriä tai oma värisi, joka näkyy koko apissa – lisäksi kuusi fonttia ja kuusitoista apin symbolia."
+      },
+      {
+        "id": "report",
+        "title": "Enemmän PDF-raporttiin",
+        "body": "Kehitys, jakautuminen päivän mittaan, vertailu edelliseen jaksoon ja tavoitteet – valitsemassasi järjestyksessä."
+      },
+      {
+        "id": "future",
+        "title": "Kaikki tuleva",
+        "body": "Mitä myöhemmin tulee, kuuluu mukaan – ilman uutta ostosta."
+      }
+    ],
+    "plansTitle": "Kolme tapaa saada Pro",
+    "plansSubtitle": "Hinnat riippuvat maastasi, ja ne näkyvät apissa omassa valuutassasi ennen ostoa.",
+    "plans": [
+      {
+        "id": "monthly",
+        "title": "Kuukausittain",
+        "body": "Laskutetaan kuukausittain. Voit irtisanoa tilauksen milloin tahansa."
+      },
+      {
+        "id": "yearly",
+        "title": "Vuosittain",
+        "body": "Laskutetaan kerran vuodessa – appi näyttää, paljonko säästät kuukausimaksuun verrattuna."
+      },
+      {
+        "id": "lifetime",
+        "title": "Ikuisesti",
+        "body": "Maksa kerran ja pidä Pro ikuisesti. Se ei vanhene koskaan."
+      }
+    ],
+    "notes": [
+      "Uudet tilaajat voivat kokeilla kuukausi- tai vuositilausta viikon ilmaiseksi.",
+      "Perhejako: yksi osto jopa kuudelle henkilölle.",
+      "Mitä myöhemmin tulee, kuuluu mukaan – ilman uutta ostosta."
+    ],
+    "legal": "Kuukausi- ja vuositilaus uusiutuvat automaattisesti, kunnes irtisanot ne. Voit irtisanoa ne milloin tahansa App Storen asetuksissa. Ikuisesti-vaihtoehto on kertamaksu, eikä se vanhene koskaan.",
+    "terms": "Käyttöehdot (EULA)",
+    "privacy": "Tietosuojakäytäntö",
+    "freeTitle": "Mikä pysyy ilmaisena",
+    "freeBody": "Kaikki, mitä kirjaamiseen tarvitset: tehtävät ja alatehtävät, kiinteät ajat, päivänäkymä ja aikajana, kaaviot ja tilastot, PDF-raportti ja CSV-vienti, widgetit, liveseuranta, Ohjauskeskus ja Siri, synkronointi iCloudin tai LaCodea ID:n kautta, varmuuskopiosuunnitelmat ja apin lukitus – 41 kielellä. Ei tiliä, ei mainoksia, ei tietojesi myyntiä.",
+    "howTitle": "Näin saat Pron",
+    "how": [
+      "Avaa SimpleTimessa Asetukset › SimpleTime Pro.",
+      "Valitse Kuukausittain, Vuosittain tai Ikuisesti – maksat Apple-tilisi kautta.",
+      "Pro avautuu heti kaikilla laitteillasi, joilla on sama Apple-tili."
+    ],
+    "faqTitle": "Kysymyksiä Prosta",
+    "ctaTitle": "Aloita ilmaiseksi.",
+    "ctaSubtitle": "Lataa SimpleTime – ja avaa Pro apissa milloin haluat."
+  },
+  "faq": {
+    "title": "Usein kysyttyä.",
+    "subtitle": "Kaikki SimpleTimesta – ensimmäisestä napautuksesta SimpleTime Prohon.",
+    "searchLabel": "Hae kysymyksistä",
+    "searchPlaceholder": "esim. ”varmuuskopio” tai ”Apple Watch”",
+    "results": "Hakua vastaavia kysymyksiä: {count}",
+    "noResults": "Yksikään kysymys ei vastaa hakua ”{query}”.",
+    "noResultsHint": "Kokeile toista sanaa – tai [kirjoita meille](@contact).",
+    "topics": "Aiheet",
+    "moreTitle": "Vieläkö kysyttävää?",
+    "moreBody": "Kirjoita meille – jokainen viesti luetaan ja siihen vastataan.",
+    "moreButton": "Ota yhteyttä",
+    "categories": [
+      {
+        "id": "basics",
+        "title": "Aloittaminen",
+        "items": [
+          {
+            "id": "what-is",
+            "q": "Mikä SimpleTime on?",
+            "a": [
+              "SimpleTime on ajanseuranta iPhonelle, iPadille ja Macille. Yksi napautus käynnistää kellon, toinen pysäyttää sen. Sen jälkeen SimpleTime näyttää, mihin aikasi menee – päivän listana tai aikajanana, kaavioina ja tilastoina sekä PDF-raporttina tai CSV-tiedostona. Tiliä ei tarvita, ei mainoksia, ei tietojesi myyntiä."
+            ]
+          },
+          {
+            "id": "first-steps",
+            "q": "Miten pääsen alkuun?",
+            "a": [
+              "Luo tehtävä napauttamalla Kirjaus-välilehdellä + ja anna sille nimi, väri ja symboli. Napauta sen vieressä olevaa kolmiota, niin kello käy; lopeta napauttamalla Pysäytä. Ensimmäisellä käynnistyskerralla lyhyt esittely näyttää tärkeimmät painikkeet. Voit katsoa sen uudelleen milloin tahansa: Asetukset › Näytä esittely uudelleen."
+            ]
+          },
+          {
+            "id": "free",
+            "q": "Onko SimpleTime ilmainen?",
+            "a": [
+              "Kyllä. SimpleTimen lataaminen on ilmaista, kuten myös kaikki, mitä kirjaamiseen tarvitset: tehtävät ja alatehtävät, kiinteät ajat, päivänäkymä, kaaviot ja tilastot, raportit ja vienti, widgetit, synkronointi iCloudin tai LaCodea ID:n kautta sekä varmuuskopiot. SimpleTime Pro on vapaaehtoinen, ja se lisää Apple Watch -apin, katsaukset, paikat, tavoitteet ja paljon muuta. [Kaikki SimpleTime Prosta](@pro)"
+            ]
+          },
+          {
+            "id": "account",
+            "q": "Tarvitsenko tilin?",
+            "a": [
+              "Et tarvitse. Avaat apin ja aloitat – rekisteröitymistä ei tarvita. Jos käytät iCloudia, synkronointi kulkee oman Apple-tilisi kautta, jota emme koskaan näe. Halutessasi voit kirjautua sisään LaCodea ID:llä, joka on yhteinen tilimme kaikkiin LaCodea-appeihin. Silloin tallennamme tilisi ja SimpleTime Pro -ostoksesi – merkintäsi vain, jos valitset kohdassa Tiedot ja synkronointi tallennuspaikaksi LaCodea ID:n, ja silloinkin päästä päähän salattuina."
+            ]
+          },
+          {
+            "id": "lacodea-id",
+            "q": "Mikä LaCodea ID on?",
+            "a": [
+              "LaCodea ID on vapaaehtoinen tilimme kaikkiin LaCodea-appeihin. Kirjaudut sisään Asetusten yläreunassa – Applella, pääsyavaimella tai sähköpostiin tulevalla koodilla. Sen avulla voit synkronoida päästä päähän salattuna LaCodea ID:n kautta, ja SimpleTime Pro -ostos on voimassa jokaisella laitteella, jolla olet kirjautuneena; SimpleTime toimii kuitenkin hyvin myös ilman sitä."
+            ]
+          },
+          {
+            "id": "devices",
+            "q": "Millä laitteilla SimpleTime toimii?",
+            "a": [
+              "iPhonella ja iPadilla, joissa on iOS 26 tai iPadOS 26 tai uudempi, sekä Macilla, jossa on macOS 26 tai uudempi. Apple Watch -appi kuuluu SimpleTime Prohon ja vaatii watchOS 26:n. Jos valitset kohdassa Asetukset › Tiedot ja synkronointi iCloudin tai LaCodea ID:n, merkintäsi pysyvät synkronoituina kaikilla laitteilla, joilla on sama Apple-tili tai sama LaCodea ID."
+            ]
+          },
+          {
+            "id": "mac",
+            "q": "Mitä SimpleTime osaa Macilla?",
+            "a": [
+              "Lähes kaiken saman kuin iPhonella – kirjauksen, päivänäkymän, analyysin, raportit, viennin, varmuuskopiot, synkronoinnin ja apin lukituksen; missä iPhonella pyyhkäiset, Macilla klikkaat oikealla painikkeella. Lisäksi valikkorivillä on sekuntikello ja työpöydällä widgetit. Paikat, liveseuranta, Apple Watch -appi ja vaihtoehtoiset apin symbolit eivät ole saatavilla Macilla."
+            ]
+          },
+          {
+            "id": "languages",
+            "q": "Mitä kieliä SimpleTime puhuu?",
+            "a": [
+              "41 – suomesta, englannista ja saksasta arabiaan, hindiin ja japaniin. Kohdassa Asetukset › Kieli voit valita apin kielen laitteesi kielestä riippumatta."
+            ]
+          },
+          {
+            "id": "offline",
+            "q": "Toimiiko SimpleTime ilman verkkoyhteyttä?",
+            "a": [
+              "Kyllä. Kirjaus, päivänäkymä, kaaviot ja raportit toimivat kaikki ilman yhteyttä. Yhteyttä tarvitaan synkronointiin, varmuuskopiointiin omalle palvelimellesi, LaCodea ID:llä kirjautumiseen, Pron ostamiseen ja paikan osoitteen hakemiseen. Kesken jääneet asiat SimpleTime hoitaa myöhemmin – synkronoinnin heti, kun laitteesi on taas verkossa, ja väliin jääneen varmuuskopion, kun avaat apin seuraavan kerran."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tracking",
+        "title": "Kirjaus",
+        "items": [
+          {
+            "id": "start-stop",
+            "q": "Miten aloitan ja pysäytän kirjauksen?",
+            "a": [
+              "Aloita tehtävä napauttamalla sen vieressä olevaa kolmiota. Käynnissä oleva tehtävä näkyy Kirjaus-välilehden ylälaidassa; lopeta se napauttamalla Pysäytä. Tehtävän nimen napauttaminen avaa sen alatehtävät, vasemmalle pyyhkäisemällä voit muokata, arkistoida tai poistaa sen, ja oikealle pyyhkäisy näyttää sen tiedot kaikkine lukuineen – Macilla kaikki tämä löytyy klikkaamalla oikealla painikkeella."
+            ]
+          },
+          {
+            "id": "one-at-a-time",
+            "q": "Voiko kaksi tehtävää olla käynnissä yhtä aikaa?",
+            "a": [
+              "Ei. Vain yksi merkintä voi olla kerrallaan käynnissä: kun aloitat toisen tehtävän, käynnissä oleva merkintä päättyy samalla hetkellä – näin merkintäsi eivät mene päällekkäin."
+            ]
+          },
+          {
+            "id": "keeps-running",
+            "q": "Jatkaako kello käyntiään, kun suljen SimpleTimen?",
+            "a": [
+              "Kyllä. SimpleTime muistaa, milloin aloitit, ja laskee keston sen perusteella – kirjaus jatkuu, vaikka suljet apin, lukitset iPhonesi tai käynnistät sen uudelleen. Lukitulla näytöllä ja Dynamic Islandissa liveseuranta näyttää kuluvan ajan ja pysäytyspainikkeen, ja muistutuksesi tulevat perille, vaikka appi olisi suljettu."
+            ]
+          },
+          {
+            "id": "add-later",
+            "q": "Unohdin aloittaa – voinko lisätä ajan jälkikäteen?",
+            "a": [
+              "Kyllä. Päivä-välilehdellä voit lisätä merkinnän alku- ja loppuaikoineen napauttamalla + tai muuttaa olemassa olevaa napauttamalla sitä. Merkinnät eivät voi mennä päällekkäin: SimpleTime kertoo, jos jakso osuu toisen merkinnän kanssa päällekkäin. Jos kello on jo käynnissä, napauta käynnissä olevaa merkintää Kirjaus-välilehden ylälaidassa ja siirrä sen alkua aiemmaksi – enintään edellisen merkinnän loppuun asti."
+            ]
+          },
+          {
+            "id": "restore-entry",
+            "q": "Poistin merkinnän – saanko sen takaisin?",
+            "a": [
+              "Kyllä. Kun poistat merkinnän Päivä-välilehdellä – pyyhkäisemällä vasemmalle tai Macilla klikkaamalla oikealla painikkeella –, se siirtyy roskakoriin: Päivä-välilehden vasemmassa yläkulmassa kohdassa ”Poistetut merkinnät” saat sen takaisin valitsemalla ”Palauta” tai voit poistaa sen pysyvästi. Poistetut tehtävät odottavat merkintöineen roskakorissa Kirjaus-välilehden vasemmassa yläkulmassa. Kun jokin on poistettu pysyvästi, sen saa takaisin vain varmuuskopiosta."
+            ]
+          },
+          {
+            "id": "fixed-times",
+            "q": "Mitä kiinteät ajat ovat?",
+            "a": [
+              "Toistuvat ajat, kuten oppitunnit, työvuorot tai vastaanottoajat, lisäät vain kerran: tehtävä, viikonpäivät, alku ja loppu, joka viikko tai joka toinen viikko, valitsemastasi päivästä alkaen ja halutessasi päättymispäivän kanssa. Heti kun aika on päättynyt, SimpleTime kirjaa sen itsestään – jokaisella laitteella, jolla avaat SimpleTimen, ja silti vain kerran; jälkikäteen se kirjaa enintään 31 päivää taaksepäin. Itse kirjaat enää vain sen, mitä tulee lisää; löydät toiminnon kohdasta Asetukset › Kirjaus › Kiinteät ajat, eikä se vaadi Prota."
+            ]
+          },
+          {
+            "id": "fixed-times-pause",
+            "q": "Voinko keskeyttää tai muuttaa kiinteitä aikoja?",
+            "a": [
+              "Kyllä. Koululomien, lomien tai sairauden ajaksi voit lisätä tauon kohdassa Asetukset › Kirjaus › Kiinteät ajat valitsemalla ”Pidä tauko” – tauon aikana SimpleTime ei kirjaa mitään; yksittäisen ajan voit kytkeä pois sen omalla kytkimellä. Jo kirjattuja merkintöjä voit muuttaa tai poistaa kuten muitakin, ja jos muutat tai poistat kiinteän ajan, jo kirjattu säilyy. Jos kiinteä aika menee päällekkäin jo olemassa olevan merkinnän kanssa, SimpleTime ei kirjaa sitä."
+            ]
+          },
+          {
+            "id": "subtasks",
+            "q": "Miten alatehtävät toimivat?",
+            "a": [
+              "Avaa tehtävä napauttamalla sen nimeä ja lisää siellä alatehtäviä napauttamalla +. Voit lisätä niitä niin moneen tasoon kuin työsi vaatii – asiakas, projekti, vaihe. Kaavioissa, raporteissa ja tavoitteissa alatehtävät lasketaan niiden yläpuolella olevaan tehtävään."
+            ]
+          },
+          {
+            "id": "order",
+            "q": "Miten pidän tehtävälistani järjestyksessä?",
+            "a": [
+              "Merkitse päivittäin käyttämäsi tehtävät suosikeiksi – ne pysyvät ylimpänä. Muut voit järjestää aakkosjärjestykseen, eniten käytettyjen tai viimeksi käytettyjen mukaan tai omaan järjestykseen. Väri ja symboli – tai emoji – tekevät jokaisesta tehtävästä helposti tunnistettavan."
+            ]
+          },
+          {
+            "id": "archive-trash",
+            "q": "Mitä eroa on arkistoinnilla ja poistamisella?",
+            "a": [
+              "Arkistointi vain piilottaa tehtävän: sen merkinnät säilyvät ja lasketaan edelleen mukaan kaikkiin analyyseihin. Poistaminen siirtää tehtävän merkintöineen roskakoriin – silloin niiden aikaa ei enää lasketa missään. Arkiston ja roskakorin löydät Kirjaus-välilehden vasemmasta yläkulmasta: arkistosta ”Palauta” tuo tehtävän takaisin, roskakorista se tuo takaisin tehtävän merkintöineen – tai voit poistaa sen siellä pysyvästi."
+            ]
+          },
+          {
+            "id": "notes",
+            "q": "Voinko lisätä merkintöihin muistiinpanoja?",
+            "a": [
+              "Kyllä, jokaisella merkinnällä voi olla muistiinpano – mitä teit tai kenen kanssa. Lisäät sen, kun luot tai muokkaat merkintää Päivä-välilehdellä, tai kellon käydessä napauttamalla käynnissä olevaa merkintää Kirjaus-välilehden ylälaidassa. Muistiinpanon näet, kun avaat merkinnän, tehtävän tiedoissa kohdassa ”Kaikki merkinnät”, PDF-raportin osiossa ”Kaikki merkinnät” ja CSV-viennissä; varmuuskopiot sisältävät sen."
+            ]
+          },
+          {
+            "id": "reminders",
+            "q": "Voiko SimpleTime muistuttaa minua?",
+            "a": [
+              "Kyllä. Kohdassa Asetukset › Määritä ilmoitukset luot sääntöjä – esimerkiksi muistutuksen, kun tehtävä on ollut käynnissä 60 minuuttia, kaikille tehtäville tai vain valituille, valitseminasi viikonpäivinä. Valinnalla ”Muistuta, kun mikään ei ole käynnissä” SimpleTime ilmoittaa myös, kun mitään ei ole kirjattu vähään aikaan."
+            ]
+          },
+          {
+            "id": "time-zone",
+            "q": "Matkustin toiselle aikavyöhykkeelle – miksi merkintäni näkyvät eri kellonajoilla?",
+            "a": [
+              "Oletuksena SimpleTime näyttää jokaisen merkinnän siinä aikavyöhykkeessä, jossa laitteesi juuri nyt on – kuten Applen Kalenteri: New Yorkissa klo 9 kirjaamasi aika näkyy Berliinissä klo 15. Kohdassa Asetukset › Aikavyöhyke voit valita sen sijaan vaihtoehdon ”Kirjauksen aikavyöhyke”: silloin jokainen merkintä näkyy sillä kellonajalla ja sinä päivänä, jolloin kirjasit sen – kaikkialla, missä ajat ja summat näkyvät. Kesto pysyy kummassakin tapauksessa samana; ennen versiota 4.7 tehdyt merkinnät näkyvät aina laitteen aikavyöhykkeessä."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "insights",
+        "title": "Päivänäkymä ja analyysi",
+        "items": [
+          {
+            "id": "day-view",
+            "q": "Mitä päivänäkymä näyttää?",
+            "a": [
+              "Päivän jokaisen merkinnän alkuineen, loppuineen ja kestoineen – listana tai aikajanana 0–24 (tänään nykyinen kellonaika merkittynä); leveillä näytöillä, kuten iPadilla ja Macilla, molemmat näkyvät rinnakkain. Ylhäällä näet päivän kokonaisajan ja sen, miten päivä suhtautuu edelliseen."
+            ]
+          },
+          {
+            "id": "charts",
+            "q": "Mitä kaavioita ja tilastoja on?",
+            "a": [
+              "Kaavio-välilehdellä: ympyräkaaviot tehtävittäin ja tuottavuuden mukaan päivälle, viikolle, kuukaudelle tai vuodelle. Oikeasta yläkulmasta kohdasta ”Lisää tilastoja” löydät vertailun edelliseen jaksoon, kehityksen, kärkitehtäväsi sekä pisimmän ja lyhimmän merkinnän – ja viikosta alkaen myös sen, miten aikasi jakautuu päivän mittaan, ja aktiivisimman tuntisi. Jokaisella tehtävällä on lisäksi oma tietosivunsa – ensimmäinen merkintä, pisin merkintä, tämä viikko, tämä vuosi."
+            ]
+          },
+          {
+            "id": "productivity",
+            "q": "Mitä tuottavuuspisteet ovat?",
+            "a": [
+              "Kun muokkaat tehtävää, annat sille kohdassa ”Tuottavuus” luokan: tuottava, tuottamaton, välttämätön – tai ”Jätä pois tuottavuudesta”. Alatehtävät, joilla ei ole omaa luokkaa, saavat yläpuolisen tehtävän luokan, ja ”Jätä pois tuottavuudesta” koskee kaikkea sen alla. Pisteet kertovat, kuinka suuri osa luokitellusta ajastasi oli tuottavaa tai välttämätöntä: (tuottava + välttämätön) ÷ (tuottava + tuottamaton + välttämätön) × 100. Aikaa, jolla ei ole luokkaa tai jonka valinta on ”Jätä pois tuottavuudesta”, ei lasketa."
+            ]
+          },
+          {
+            "id": "goals",
+            "q": "Miten tavoitteet toimivat?",
+            "a": [
+              "SimpleTime Prolla asetat kohdassa Asetukset › Tavoitteet tavoitteen tehtävää kohti: vähintään tai enintään tietyn määrän aikaa päivässä, viikossa tai kuukaudessa – esimerkiksi vähintään 8 tuntia liikuntaa viikossa tai enintään 2 tuntia sosiaalista mediaa päivässä. Alatehtävät lasketaan mukaan, ja mittaus koskee käynnissä olevaa jaksoa. Tilanteesi näet Kaavio-välilehdellä ja Apple Watchissa; PDF-raportin osio ”Tavoitteet” vertaa valitun jakson keskiarvoa tavoitteeseesi."
+            ]
+          },
+          {
+            "id": "share-chart",
+            "q": "Voinko jakaa kaavion?",
+            "a": [
+              "Kyllä, minkä tahansa kaavion voi jakaa kuvana tai tallentaa Kuviin. Tallentamista varten SimpleTime pyytää vain lupaa lisätä kuvia – se ei näe kuvakirjastoasi."
+            ]
+          },
+          {
+            "id": "pdf-report",
+            "q": "Miten luon PDF-raportin?",
+            "a": [
+              "Valitse kohdassa Asetukset › Vie raportti jakso – tästä päivästä koko aikaan tai oma jakso –, valitse haluamasi osiot ja vedä ne haluamaasi järjestykseen. SimpleTime luo PDF:n, jossa on jokainen tehtävä ja alatehtävä, valmiina jaettavaksi tai tallennettavaksi. SimpleTime Pro tuo lisäosiot: ”Ajan mittaan”, ”Päivän mittaan”, ”Vertailu” ja ”Tavoitteet”.",
+              "Tuntilistoja varten on osio ”Kaikki merkinnät”: jokainen merkintä päivä päivältä alkuineen, loppuineen, tehtävineen ja muistiinpanoineen sekä päiväsummat, kokonaissumma ja tunnit desimaaleina – sopii erinomaisesti tuntien vertaamiseen palkkalaskelmaan. Se on ilmainen, ei vaadi Prota ja on oletuksena päällä."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "shortcuts",
+        "title": "Widgetit, Siri ja Keskity-tila",
+        "items": [
+          {
+            "id": "widgets",
+            "q": "Mitä widgetejä on?",
+            "a": [
+              "Koti-valikkoon: Tänään, Käynnissä oleva tehtävä ja Viikko – Tänään ja Käynnissä oleva tehtävä aloitus- ja pysäytyspainikkeineen. Lukitulle näytölle: mikä on käynnissä ja kuinka kauan. Lisäksi Ohjauskeskukseen on ”Ajan kirjaus” -kytkin. Kun tehtävä on käynnissä, liveseuranta näyttää sen lukitulla näytöllä ja Dynamic Islandissa pysäytyspainikkeen kera. SimpleTime Prolla saat lisäksi pikakäynnistys-widgetin, jonka täytät omilla tehtävilläsi."
+            ]
+          },
+          {
+            "id": "without-opening",
+            "q": "Voinko aloittaa kirjauksen avaamatta appia?",
+            "a": [
+              "Kyllä, monella tavalla. Pidä apin symbolia painettuna, niin voit pysäyttää käynnissä olevan tehtävän tai aloittaa jonkin tehtävistäsi. Kirjoita tehtävän nimi iPhonen hakuun ja napauta sitä. Tai käytä widgetiä, Siriä tai ”Ajan kirjaus” -kytkintä – Ohjauskeskuksessa, lukitulla näytöllä tai toimintopainikkeessa iPhone 15 Prosta alkaen –, ja SimpleTime Prolla myös Apple Watchia."
+            ]
+          },
+          {
+            "id": "siri",
+            "q": "Miten SimpleTime toimii Sirin ja Pikakomentojen kanssa?",
+            "a": [
+              "Sano esimerkiksi ”Start Work in SimpleTime”, ”Stop tracking in SimpleTime”, ”How much did I track today in SimpleTime?” tai ”What’s running in SimpleTime?”. Siri ymmärtää nämä lauseet englanniksi ja saksaksi. Kaikilla kielillä toiminnot löytyvät Pikakomennot-apista, jossa voit myös antaa niille oman lauseen."
+            ]
+          },
+          {
+            "id": "focus-filter",
+            "q": "Mitä keskittymissuodatin tekee?",
+            "a": [
+              "Keskittymissuodattimen avulla SimpleTime seuraa Keskity-tilaasi: kun ”Työ” menee päälle, tehtävälista näyttää vain työhön kuuluvat tehtäväsi – ja kirjaus voi alkaa ja päättyä Keskity-tilan mukana. Otat sen käyttöön iOS:n Asetuksissa kohdassa Keskity-tila › haluamasi tila › Keskity-suodattimet › Lisää suodatin › SimpleTime. Keskittymissuodatin kuuluu SimpleTime Prohon."
+            ]
+          },
+          {
+            "id": "calendar-entries",
+            "q": "Voiko SimpleTime lisätä merkintäni kalenteriini?",
+            "a": [
+              "Kyllä, SimpleTime Prolla: laita päälle ”Merkinnät kalenteriin” kohdassa Asetukset › Kalenteri – siitä päivästä alkaen jokainen päättynyt merkintä näkyy tapahtumana omassa ”SimpleTime”-kalenterissaan tai valitsemassasi kalenterissa, halutessasi tehtäväkohtaisesti. Kun muutat tai poistat merkinnän, tapahtuma muuttuu mukana, ja tapahtuman linkki avaa merkinnän SimpleTimessa. Jos laitat toiminnon pois päältä, tapahtumat jäävät kalenteriisi.",
+              "”Tehtävät kalentereista” tekee kalentereista, kuten ”Työ”, tehtäviä; kalenterissasi jo olevista tapahtumista ei kuitenkaan tule merkintöjä. Tapahtumat tallentuvat kalenterisi palveluntarjoajalle, ja niissä näkyvät tehtäviesi nimet kaikille, joiden kanssa jaat kalenterin – myös kun apin lukitus on päällä."
+            ]
+          },
+          {
+            "id": "menu-bar",
+            "q": "Voinko käyttää SimpleTimea Macin valikkoriviltä?",
+            "a": [
+              "Kyllä. Valikkorivin sekuntikello näyttää, onko jokin tehtävä käynnissä; klikkaa sitä, niin voit aloittaa, pysäyttää tai vaihtaa tehtäviä avaamatta ikkunaa. Kytket sen päälle tai pois kohdassa Asetukset › Valikkorivi › Näytä valikkorivillä. Kun apin lukitus on otettu käyttöön, valikko ei näytä tehtävien nimiä ja tarjoaa vain Pysäytä-toiminnon."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "data",
+        "title": "Synkronointi, varmuuskopiot ja vienti",
+        "items": [
+          {
+            "id": "sync",
+            "q": "Synkronoiko SimpleTime laitteideni välillä?",
+            "a": [
+              "Kyllä, iCloudin tai LaCodea ID:n kautta – valitset tavan jokaisella laitteella kohdassa Asetukset › Tiedot ja synkronointi. iCloudia käytettäessä synkronoi jokainen laite, jolla olet valinnut iCloudin ja olet kirjautunut samalla Apple-tilillä; järjestelmä päättää, milloin. Synkronointia ei voi pakottaa – ”Synkronoi nyt” tarkistaa silloin tilisi ja yhteytesi, ja samalla sivulla näkyy, milloin synkronointi viimeksi tapahtui.",
+              "LaCodea ID:tä käytettäessä synkronoi jokainen laite, jolla olet kirjautunut samalla LaCodea ID:llä ja valinnut sen, myös eri Apple-tilillä – päästä päähän salattuna ja, kun SimpleTime on auki molemmilla laitteilla, muutamassa sekunnissa."
+            ]
+          },
+          {
+            "id": "sync-trouble",
+            "q": "Merkintäni eivät näy toisella laitteellani – mitä voin tehdä?",
+            "a": [
+              "Tarkista molemmilla laitteilla Asetukset › Tiedot ja synkronointi: molemmissa pitää olla sama paikka – iCloud samalla Apple-tilillä tai LaCodea ID samalla kirjautumisella. Jos siellä lukee, että vaihto tulee voimaan vasta myöhemmin, sulje SimpleTime kokonaan ja avaa se uudelleen; pidä appi lisäksi ajan tasalla kaikilla laitteillasi.",
+              "iCloudia käytettäessä Asetusten Synkronointi-kohdan ”Viimeisin synkronointi” näyttää, milloin tietoja viimeksi siirrettiin, ja ”Tarkista synkronointi” tarkistaa tilisi ja yhteytesi ja kertoo ongelman syyn – esimerkiksi täyden iCloud-tallennustilan. LaCodea ID:tä käytettäessä Tiedot ja synkronointi -sivu näyttää, odottavatko muutokset yhteyttä, onko kirjautuneena eri tili tai tarvitseeko laite palautusavaintasi. Jos tämä ei auta, [kirjoita meille](@contact)."
+            ]
+          },
+          {
+            "id": "without-icloud",
+            "q": "Voinko käyttää SimpleTimea ilman iCloudia?",
+            "a": [
+              "Kyllä. Valitse Asetuksissa kohdassa Tiedot ja synkronointi ”Vain tällä laitteella” – silloin tietosi pysyvät vain tällä yhdellä laitteella. Sitä tärkeämpiä ovat varmuuskopiot: varmuuskopiosuunnitelma tallentaa ne automaattisesti, esimerkiksi Tiedostot-apin kansioon tai omalle palvelimellesi. Jos haluat silti synkronoida useita laitteita ilman iCloudia, valitse siellä LaCodea ID; laite, jolla ei ole iCloud-avainnippuasi, kysyy silloin kerran palautusavaintasi."
+            ]
+          },
+          {
+            "id": "switch-storage",
+            "q": "Miten vaihdan tietojeni tallennuspaikan?",
+            "a": [
+              "Napauta kohdassa Asetukset › Tiedot ja synkronointi haluamaasi tallennuspaikkaa ja sitten ”Vaihda iCloudiin”, ”Vaihda: LaCodea ID” tai ”Säilytä vain tällä laitteella”; LaCodea ID:tä varten kirjaudut samalla sisään. Ennen vaihtoa iCloudiin tai LaCodea ID:hen SimpleTime tekee tästä laitteesta turvakopion, ja jos siellä on jo tietoja, valitset vaihtoehdoista ”Yhdistä” ja ”Käytä kohteen … tietoja”.",
+              "Vaihto koskee vain tätä laitetta, ja se tulee yleensä voimaan vasta, kun olet sulkenut SimpleTimen kokonaan ja avannut sen uudelleen – sivu kertoo sen sinulle. Muut laitteesi synkronoivat kuten ennenkin, kunnes vaihdat niilläkin. Sen jälkeen SimpleTime tarjoutuu poistamaan tiedot vanhasta paikasta; tee se vasta, kun myös muut laitteesi ovat vaihtaneet – muuten nekin menettävät nämä tiedot."
+            ]
+          },
+          {
+            "id": "recovery-key",
+            "q": "Mikä palautusavain on?",
+            "a": [
+              "Kun tallennuspaikkasi on LaCodea ID, SimpleTime salaa tietosi päästä päähän; Apple-laitteesi saavat avaimen yleensä itsestään iCloud-avainnipun kautta. Laite, jolla ei ole iCloud-avainnippuasi – esimerkiksi eri Apple-tilillä –, tarvitsee kerran palautusavaintasi: 24 kirjainta ja numeroa. Löydät sen kohdasta Asetukset › Tiedot ja synkronointi › Palautusavain, kun olet tunnistautunut Face ID:llä tai laitteen pääsykoodilla; kunnes vahvistat tallentaneesi sen, turvallisuuden yleiskatsaus muistuttaa sinua siitä. Säilytä sitä salasananhallinnassa tai paperilla – ilman sitä ja ilman laitteitasi kukaan ei voi avata tietojasi, emme mekään."
+            ]
+          },
+          {
+            "id": "recovery-key-lost",
+            "q": "Kadotin palautusavaimeni – mitä nyt?",
+            "a": [
+              "Laitteella, joka pystyy yhä lukemaan tietojasi, SimpleTime näyttää sen uudelleen kohdassa Asetukset › Tiedot ja synkronointi › Palautusavain valinnalla ”Näytä palautusavain” – tai voit luoda siellä uuden, jolloin vanha lakkaa toimimasta. Jos yksikään laitteistasi ei enää pysty avaamaan tietoja, kukaan ei voi palauttaa niitä – emme mekään. Napauta silloin avainta kysyttäessä ”Kadotin palautusavaimeni” ja aloita alusta tämän laitteen tiedoilla; kaikki, mikä oli vain palvelimella tai muilla laitteillasi, menetetään."
+            ]
+          },
+          {
+            "id": "backups",
+            "q": "Miten varmuuskopiot toimivat?",
+            "a": [
+              "Kohdassa Asetukset › Varmuuskopiot luot niin monta varmuuskopiosuunnitelmaa kuin haluat. Jokaisella suunnitelmalla on paikka – iCloud Drive, Tiedostot-apin kansio kuten Dropbox tai Google Drive, oma palvelimesi WebDAVin kautta tai tämä laite –, aikataulu tunneittaisesta kuukausittaiseen, säilytysaika ja halutessasi salasana. Samalla sivulla voit myös milloin tahansa tehdä varmuuskopion käsin."
+            ]
+          },
+          {
+            "id": "backup-password",
+            "q": "Voinko suojata varmuuskopioni salasanalla?",
+            "a": [
+              "Kyllä. Jos asetat suunnitelmalle salasanan, jokainen varmuuskopio salataan laitteellasi ennen tallentamista. Säilytä salasana hyvin: ilman sitä kukaan ei voi palauttaa varmuuskopiota – et sinä emmekä me. Kiertotietä ei ole."
+            ]
+          },
+          {
+            "id": "backup-files",
+            "q": "Mistä löydän varmuuskopioni?",
+            "a": [
+              "”Vain tällä laitteella” -suunnitelman varmuuskopiot näkyvät myös Tiedostot-apissa kohdassa ”Oma iPhone” (tai ”Oma iPad”) › SimpleTime › Backups ja iCloud Drive -suunnitelman varmuuskopiot kohdassa iCloud Drive › SimpleTime › Backups. Tiedostot-apin kansioon tai omalle palvelimellesi tallentavat suunnitelmat vievät ne valitsemaasi paikkaan. Laitteella olevat varmuuskopiot katoavat laitteen mukana – ja silloin, kun poistat SimpleTimen. Anna suunnitelmillesi mieluiten salasana: ilman sitä varmuuskopion voi avata kuka tahansa, jolla on pääsy sen sijaintiin – laitteella kuka tahansa, joka avaa laitteen lukituksen, myös kun apin lukitus on päällä."
+            ]
+          },
+          {
+            "id": "restore",
+            "q": "Miten palautan varmuuskopion?",
+            "a": [
+              "Kohdassa Asetukset › Varmuuskopiot palautat varmuuskopion – jostakin suunnitelmastasi tai tiedostosta. Olemassa olevat tiedot säilyvät, ja puuttuvat lisätään. SimpleTimen versiosta 4.7 tai vanhemmista peräisin olevat varmuuskopiot tuot kohdassa Asetukset › Vie / tuo tiedot › Tuo varmuuskopio JSON-tiedostosta. Uudella laitteella kannattaa odottaa, kunnes synkronointi iCloudin tai LaCodea ID:n kautta on tuonut tietosi – muuten tehtäviä voi syntyä kahteen kertaan."
+            ]
+          },
+          {
+            "id": "export",
+            "q": "Voinko viedä tietoni?",
+            "a": [
+              "Kyllä, milloin tahansa: CSV-tiedostona, jossa on rivi jokaista merkintää kohti – päivämäärä, alku, loppu, tehtävä, kesto, tunnit desimaaleina ja muistiinpano, Exceliin, Numbersiin tai mihin tahansa taulukkolaskentaohjelmaan –, PDF-raporttina tai varmuuskopiona.",
+              "Kohdassa Asetukset › Vie / tuo tiedot valitset CSV-tiedoston jakson – tästä päivästä koko aikaan tai oman, esimerkiksi viime kuukauden. Varmuuskopion teet kohdassa Asetukset › Varmuuskopiot."
+            ]
+          },
+          {
+            "id": "timesheet",
+            "q": "Miten saan tuntini tuntilistaa varten?",
+            "a": [
+              "PDF:nä: valitse kohdassa Asetukset › Vie raportti jakso – esimerkiksi ”Viime kuukausi” – ja jätä osio ”Kaikki merkinnät” päälle; se luettelee jokaisen merkinnän alkuineen, loppuineen, tehtävineen ja muistiinpanoineen sekä päiväsummat, kokonaissumman ja tunnit desimaaleina. Taulukkona: valitse kohdassa Asetukset › Vie / tuo tiedot jakso ja napauta ”Vie tiedot CSV-muodossa” – rivi jokaista merkintää kohti, jossa on päivämäärä, alku, loppu, tehtävä, kesto, tunnit desimaaleina ja muistiinpano, Exceliä tai Numbersia varten. Molemmat ovat ilmaisia, ja kiinteistä ajoista syntyneet merkinnät lasketaan kuten muutkin."
+            ]
+          },
+          {
+            "id": "rounding",
+            "q": "Voiko SimpleTime pyöristää aikoja, esimerkiksi varttitunteihin?",
+            "a": [
+              "Ei, pyöristysasetusta ei ole: SimpleTime tallentaa alun ja lopun juuri niin kuin kirjaat ne. PDF-raportin osiossa ”Kaikki merkinnät” ja CSV-viennissä jokainen rivi on pyöristetty minuutin tarkkuuteen ja ilmoitettu tunteina kahden desimaalin tarkkuudella; PDF:ssä summat lasketaan juuri näistä arvoista. Jos tarvitset varttitunteja, muuta merkinnän alkua ja loppua tai pyöristä taulukkolaskentaohjelmassasi."
+            ]
+          },
+          {
+            "id": "import",
+            "q": "Voinko tuoda tietoja toisesta apista?",
+            "a": [
+              "Et voi. SimpleTime lukee vain omia varmuuskopioitaan – CSV-tiedostoja ei voi tuoda, ei edes sen omia, eivätkä kalenterisi tapahtumat muutu merkinnöiksi. Aiemmat ajat voit lisätä käsin Päivä-välilehdellä napauttamalla +."
+            ]
+          },
+          {
+            "id": "new-device",
+            "q": "Miten siirryn uuteen iPhoneen?",
+            "a": [
+              "Kirjaudu sisään samalla Apple-tilillä ja asenna SimpleTime – jos käytät iCloudia (Asetukset › Tiedot ja synkronointi), merkintäsi palaavat itsestään. Jos käytät LaCodea ID:tä, kirjaudu sillä sisään uudella laitteella ja valitse se kohdassa Tiedot ja synkronointi; jos laite ei saa avainta itsestään iCloud-avainnippusi kautta, appi kysyy kerran palautusavaintasi. Muussa tapauksessa tee vanhalla laitteella varmuuskopio ja palauta se uudella. Paikat ja asetukset kuuluvat kullekin laitteelle – niitä ei synkronoida eikä varmuuskopioida."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "privacy",
+        "title": "Yksityisyys ja turvallisuus",
+        "items": [
+          {
+            "id": "data-location",
+            "q": "Mihin tietoni tallennetaan?",
+            "a": [
+              "Sinne, minne itse valitset: Asetuksissa kohdassa Tiedot ja synkronointi päätät, ovatko ne ”Vain tällä laitteella”, yksityisessä iCloudissasi, jossa Apple salaa ne, vai LaCodea ID:ssä, jossa ne on salattu päästä päähän – emme pysty lukemaan merkintöjäsi missään näistä paikoista. Varmuuskopiot tallentuvat sinne, minne varmuuskopiosuunnitelmasi ne vievät; ilman salasanaa ne voi lukea kuka tahansa, jolla on pääsy siihen paikkaan. Jos laitat Prolla päälle ”Merkinnät kalenteriin”, päättyneet merkinnät näkyvät lisäksi tapahtumina kalenterissasi – kalenterin palveluntarjoajan ja kaikkien niiden nähtävillä, joiden kanssa jaat sen."
+            ]
+          },
+          {
+            "id": "lacodea-id-privacy",
+            "q": "Kuka voi lukea merkintäni, kun synkronoin LaCodea ID:n kautta?",
+            "a": [
+              "Vain laitteesi. SimpleTime salaa tehtävät, merkinnät aikoineen ja muistiinpanoineen, kiinteät ajat, tavoitteet ja muistutukset laitteellasi (AES-GCM, 256 bittiä), ennen kuin ne lähtevät SimpleTimen omalle palvelimelle – avain on vain laitteillasi, ei meillä. Palvelin näkee vain, kuinka monta minkäkin tyyppistä tietuetta on, suunnilleen kuinka suuria ne ovat, milloin ne on kirjoitettu ja onko ne poistettu; se sijaitsee konesalissa Frankfurt am Mainissa. Yksityiskohdat löydät [tietosuojakäytännöstämme](@privacy)."
+            ]
+          },
+          {
+            "id": "tracking-me",
+            "q": "Seuraako SimpleTime minua?",
+            "a": [
+              "Ei. SimpleTime ei näytä mainoksia, ei myy tietoja, ei luo käyttäjäprofiileja eikä seuraa sinua muissa apeissa ja verkkosivustoilla. Jotta löytäisimme virheet nopeasti, appi lähettää nimettömiä kaatumisraportteja ja käyttötilastoja omalle palvelimellemme – ilman laitetunnusta, eikä niissä ole koskaan tehtäviäsi, aikojasi tai muistiinpanojasi. Voit kytkeä tämän pois kohdassa Asetukset › Yksityisyys › Yleiskatsaus ja käyttöoikeudet. Yksityiskohdat löydät [tietosuojakäytännöstämme](@privacy)."
+            ]
+          },
+          {
+            "id": "permissions",
+            "q": "Mitä käyttöoikeuksia SimpleTime pyytää?",
+            "a": [
+              "Vain ne, joita jokin toiminto tarvitsee, ja vasta kun käytät sitä: ilmoitukset muistutuksia ja paikkailmoituksia varten, sijaintisi paikkoja varten, kalenterisi toimintoa ”Merkinnät kalenteriin” varten, luvan lisätä kuvia kaavioiden tallentamiseen sekä Face ID:n tai Touch ID:n apin lukitusta varten. Asetuksissa kohdassa Yksityisyys › Yleiskatsaus ja käyttöoikeudet näet jokaisen ja sen nykyisen tilan."
+            ]
+          },
+          {
+            "id": "location",
+            "q": "Miksi SimpleTime haluaa tietää sijaintini?",
+            "a": [
+              "Vain paikkoja varten, jotka kuuluvat SimpleTime Prohon: jotta tehtävä voi alkaa, kun saavut jonnekin. iOS valvoo määrittämiäsi alueita ja kertoo apille, kun saavut tai lähdet. Paikkasi pysyvät laitteellasi, eikä SimpleTime pidä kirjaa siitä, missä olet ollut. Ilman paikkoja SimpleTime ei tarvitse sijaintiasi."
+            ]
+          },
+          {
+            "id": "app-lock",
+            "q": "Miten apin lukitus toimii?",
+            "a": [
+              "Kohdassa Asetukset › Apin lukitus valitset, avautuuko SimpleTime Face ID:llä tai Touch ID:llä ja laitteen pääsykoodilla vai omalla koodillasi – numeroilla tai salasanalla. Apinvaihtajassa SimpleTime pysyy peitettynä, eivätkä tehtävien nimet enää näy iPhonen haussa tai apin symbolissa; kohdassa ”Apin ulkopuolella” valitset, mitä ilmoitukset, widgetit ja Apple Watch näyttävät. Siltä varalta, että unohdat oman koodisi, voit etukäteen ottaa käyttöön valinnan ”Nollaa unohtunut koodi laitteen pääsykoodilla” tai asettaa varasalasanan. Ilman kumpaakaan ainoa tie takaisin on poistaa appi ja asentaa se uudelleen – ja kaikki, mikä oli vain tällä laitteella, menetetään, jos sinulla ei ole varmuuskopiota."
+            ]
+          },
+          {
+            "id": "security-overview",
+            "q": "Mitä turvallisuuden yleiskatsaus näyttää?",
+            "a": [
+              "Kohdassa Asetukset › Turvallisuus › Yleiskatsaus näet yhdellä silmäyksellä, kuinka hyvin tietosi on suojattu: laitteen pääsykoodi, apin lukitus, automaattiset ja salatut varmuuskopiot sekä tietojesi sijainti – LaCodea ID:tä käytettäessä myös päästä päähän -salaus ja palautusavaimesi. Kaikki, mikä vielä puuttuu, näkyy kohdassa ”Suositeltu”; jokainen kohta kertoo, miten se suojaa sinua, ja vie tarvittaessa oikeaan asetukseen."
+            ]
+          },
+          {
+            "id": "delete-all",
+            "q": "Miten poistan kaikki tietoni?",
+            "a": [
+              "Asetuksissa kohdassa Yksityisyys › Poista kaikki tiedot poistat kaiken kerralla – merkinnät ja tehtävät, tavoitteet, paikat, roskakorin, muistutukset, suunnitelmiesi varmuuskopiot ja vanhat varmuuskopiot iCloud Drivessa, viennit, asetukset apin lukituksen koodia myöten sekä tapahtumat, jotka SimpleTime on lisännyt kalenteriisi.",
+              "Tiedot poistetaan tältä laitteelta, iCloudista ja – jos synkronoit LaCodea ID:n kautta – palvelimelta; iCloudin kautta poisto ulottuu myös muihin laitteisiisi heti, kun ne ovat verkossa. Jos synkronoit LaCodea ID:n kautta, muut laitteesi säilyttävät tietonsa ja lopettavat synkronoinnin, kunnes otat sen niillä uudelleen käyttöön – poista tiedot myös niiltä – ja LaCodea ID -tilisi säilyy. Poistoa ei voi perua."
+            ]
+          },
+          {
+            "id": "delete-app",
+            "q": "Mitä tapahtuu, jos poistan SimpleTimen?",
+            "a": [
+              "Silloin katoaa kaikki, mikä oli vain tällä laitteella: merkintäsi, jos valitsit ”Vain tällä laitteella”, ”Vain tällä laitteella” -suunnitelman varmuuskopiot, paikkasi ja asetuksesi apin lukitusta myöten. Se, mikä on iCloudissa tai LaCodea ID:ssä, säilyy siellä ja palaa uudelleenasennuksen jälkeen, kun käytät taas samaa paikkaa kohdassa Tiedot ja synkronointi.",
+              "Varmuuskopiot iCloud Drivessa, Tiedostot-apin kansiossa tai palvelimellasi säilyvät, samoin kalenterisi tapahtumat; salatun varmuuskopion palauttamiseen tarvitset silloin sen salasanan. Tilaus jatkuu, kunnes irtisanot sen, ja LaCodea ID:si säilyy. Jos haluat ensin poistaa kaiken, käytä kohtaa Asetukset › Yksityisyys › Poista kaikki tiedot."
+            ]
+          },
+          {
+            "id": "lacodea-id-delete",
+            "q": "Miten kirjaudun ulos tai poistan LaCodea ID:ni?",
+            "a": [
+              "Napauta LaCodea ID:täsi Asetusten yläreunassa: ”Kirjaudu ulos” kirjaa sinut ulos kaikista tämän laitteen LaCodea-apeista – tietosi pysyvät täällä ja synkronoituvat taas heti, kun kirjaudut sisään. ”Katkaise apin SimpleTime yhteys” irrottaa vain SimpleTimen tilistäsi; ”Poista LaCodea ID” poistaa tilin kaikista LaCodea-apeista – sen voit tehdä myös osoitteessa account.lacodea.com. Molemmissa tapauksissa SimpleTimen palvelin poistaa sinne synkronoidut tietosi; kaikki laitteillasi tai iCloudissa oleva säilyy. Applen kautta tehty tilaus jatkuu, kunnes irtisanot sen laitteesi asetuksissa."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "pro",
+        "title": "SimpleTime Pro",
+        "items": [
+          {
+            "id": "pro-includes",
+            "q": "Mitä SimpleTime Prohon kuuluu?",
+            "a": [
+              "Apple Watch -appi, katsaukset viikkoosi, kuukauteesi ja vuoteesi, paikat, merkintäsi tapahtumina kalenterissasi ja tehtävät kalentereistasi, vuosi yhdellä silmäyksellä, tavoitteet, keskittymissuodatin, pikakäynnistys-widget, seitsemän korostusväriä tai oma värisi, kuusi fonttia, kuusitoista apin symbolia ja lisäosiot PDF-raporttiin. Kelloappi tarvitsee iPhonen; paikat ja apin symbolit ovat saatavilla iPhonella ja iPadilla. Mitä myöhemmin tulee, kuuluu mukaan. [Kaikki SimpleTime Prosta](@pro)"
+            ]
+          },
+          {
+            "id": "pro-price",
+            "q": "Mitä SimpleTime Pro maksaa?",
+            "a": [
+              "Pron saa kuukausi- tai vuositilauksena tai kertaostona ”Ikuisesti”. Hinnat riippuvat maastasi ja valuutastasi, ja ne näkyvät apissa ennen ostoa."
+            ]
+          },
+          {
+            "id": "trial",
+            "q": "Voinko kokeilla Prota ensin?",
+            "a": [
+              "Kyllä. Uudet tilaajat voivat kokeilla kuukausi- tai vuositilausta viikon ilmaiseksi; appi näyttää, koskeeko kokeilujakso sinua. Jos et irtisano tilausta viimeistään 24 tuntia ennen kokeilujakson päättymistä, se uusiutuu näytettyyn hintaan."
+            ]
+          },
+          {
+            "id": "family",
+            "q": "Voiko perheenikin käyttää Prota?",
+            "a": [
+              "Kyllä. SimpleTime Pro toimii Perhejaon kanssa – yksi osto jopa kuudelle henkilölle."
+            ]
+          },
+          {
+            "id": "restore-purchase",
+            "q": "Ostin Pron – miten saan sen muille laitteilleni?",
+            "a": [
+              "Pro kuuluu Apple-tiliisi: muilla saman tilin laitteillasi se avautuu yleensä itsestään. Jos ei, napauta siellä ”Palauta” kohdassa Asetukset › SimpleTime Pro.",
+              "Laitteella, jossa on eri Apple-tili, saat Pron LaCodea ID:n kautta: kirjaudu molemmilla laitteilla sisään samalla LaCodea ID:llä. Jos ostit Pron ennen kirjautumista, kirjaudu LaCodea ID:lläsi sisään myös laitteella, jossa on se Apple-tili, jolla ostit sen – sieltä SimpleTime ilmoittaa ostoksen tilillesi. Pro-sivulla lukee silloin ”LaCodea ID -tilisi kautta” ja tilauksen kohdalla, missä teit sen – vain siellä voit muuttaa sitä."
+            ]
+          },
+          {
+            "id": "cancel",
+            "q": "Miten irtisanon tilaukseni?",
+            "a": [
+              "App Storen asetuksissa – iPhonella kohdassa Asetukset › oma nimesi › Tilaukset – tai apin Pro-sivulla kohdassa Hallinnoi tilausta. Tämä onnistuu vain laitteella, jossa on se Apple-tili, jolla teit tilauksen; jos sinulla on Pro LaCodea ID:si kautta, Pro-sivu kertoo, mitkä laitteet ovat kyseessä. Pro pysyy käytössä jo maksetun jakson loppuun, eikä LaCodea ID:n poistaminenkaan lopeta tilausta."
+            ]
+          },
+          {
+            "id": "lifetime-switch",
+            "q": "Minulla on tilaus – voinko vaihtaa Ikuisesti-vaihtoehtoon?",
+            "a": [
+              "Kyllä, suoraan Pro-sivulla. Apple ei kuitenkaan lopeta tilausta itsestään: irtisano se sen jälkeen, jottei se uusiudu. Appi muistuttaa sinua siitä."
+            ]
+          },
+          {
+            "id": "pro-ends",
+            "q": "Mitä tapahtuu, kun Pro päättyy?",
+            "a": [
+              "Mitään ei menetetä. Merkintäsi, tavoitteesi ja paikkasi pysyvät tallessa. Pro-ominaisuudet lukittuvat uudelleen – paikat eivät esimerkiksi enää aloita tehtäviä – ja kaikki palaa heti, kun Pro on taas käytössä."
+            ]
+          },
+          {
+            "id": "pro-offline",
+            "q": "Tarvitseeko Pro internetyhteyden?",
+            "a": [
+              "Ei. SimpleTime tarkistaa ostoksesi App Storesta – ja jos olet kirjautunut LaCodea ID:llä, myös tililtäsi – aina kun mahdollista. Ilman yhteyttä Pro toimii edelleen – jopa kaksi viikkoa."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "watch-places",
+        "title": "Apple Watch ja paikat",
+        "items": [
+          {
+            "id": "watch-setup",
+            "q": "Miten otan Apple Watch -apin käyttöön?",
+            "a": [
+              "Apple Watch -appi kuuluu SimpleTime Prohon. Asenna se kelloosi ja avaa sitten SimpleTime kerran iPhonessasi – muutaman sekunnin kuluttua kello näyttää tehtäväsi. iPhone pysyy lähteenä: kaikki, minkä kello aloittaa, kirjataan siellä, samalla liveseurannalla ja samoilla widgeteillä."
+            ]
+          },
+          {
+            "id": "watch-features",
+            "q": "Mitä voin tehdä Apple Watchilla?",
+            "a": [
+              "Aloita ja pysäytä ranteesta – suosikkisi, viimeksi käyttämäsi tai mikä tahansa tehtävä haun kautta. Aloita aiemmin: 5, 15, 30 tai 60 minuuttia sitten tai saumattomasti edellisen merkintäsi lopusta. Pysäytä kaksoisnapautuksella. Päivä, viikko ja tavoitteet yhdellä silmäyksellä – kuluva aika näkyy kellotaulussa ja Älykkäässä pinossa. Jos iPhone on kantaman ulkopuolella, napautuksesi tallennetaan kellonaikoineen ja välitetään myöhemmin."
+            ]
+          },
+          {
+            "id": "places-how",
+            "q": "Miten paikat toimivat?",
+            "a": [
+              "Lisää paikka – esimerkiksi toimistosi tai kuntosalisi – säteellä 50 metristä 10 kilometriin ja valitse sille tehtävä. Kun saavut, tehtävä alkaa itsestään, tai SimpleTime kysyy ensin. Odotusajan ansiosta mitään ei käynnisty, jos vain kuljet ohi. Kun lähdet, tehtävä voi pysähtyä, ja voit rajata paikan tiettyihin päiviin ja kellonaikoihin."
+            ]
+          },
+          {
+            "id": "places-late",
+            "q": "Miksi paikka käynnistyy myöhässä tai ei lainkaan?",
+            "a": [
+              "Paikat tarvitsevat sijainnin käyttöoikeudeksi ”Aina” ja ”Tarkka sijainti” -asetuksen päälle. Alle 100 metrin säteellä iOS huomaa saapumisesi usein myöhään, koska taustalla sijaintisi tulee yleensä Wi-Fi- ja mobiiliverkosta eikä GPS:stä – suurempi säde auttaa. iOS valvoo enintään 20 paikkaa appia kohti, eikä Macilla ole paikkoja."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "more",
+        "title": "Muuta",
+        "items": [
+          {
+            "id": "look",
+            "q": "Voinko muuttaa SimpleTimen ulkoasua?",
+            "a": [
+              "Kyllä: vaalea, tumma tai järjestelmän mukaan, kolme rivin korkeutta tehtävälistalle sekä kohdassa Asetukset › Fontti oma tekstin koko ja lihavoitu teksti. SimpleTime Prolla saat lisäksi seitsemän korostusväriä tai oman värisi – se näkyy painikkeissa, kytkimissä ja kaavioissa –, kuusi fonttia sekä iPhonella ja iPadilla kuusitoista apin symbolia."
+            ]
+          },
+          {
+            "id": "accessibility",
+            "q": "Onko SimpleTime saavutettava?",
+            "a": [
+              "Kyllä. VoiceOver lukee painikkeet, kaaviot ja aikajanan ääneen apin kaikilla kielillä, ja kaaviot ovat saatavilla myös äänigraafeina. Teksti seuraa iOS:n tekstikokoa suurimpiin asetuksiin asti – vain yläpalkissa ja aikajanalla se kasvaa tiettyyn rajaan asti, jotta mikään ei peitä säätimiä. Lisää kerromme [saavutettavuusselosteessamme](@accessibility); jos jokin ei toimi sinulle, kerrothan meille."
+            ]
+          },
+          {
+            "id": "freelance",
+            "q": "Sopiiko SimpleTime freelancereille?",
+            "a": [
+              "Ajan kirjaamiseen kyllä: pidä asiakkaat ja projektit erillään tehtävinä ja alatehtävinä, ja vie PDF-raportti tai CSV-tiedosto aina, kun tarvitset selvityksen. Tuntihintoja ja laskuja SimpleTimessa ei ole – niitä varten vie tiedot laskutusohjelmaasi."
+            ]
+          },
+          {
+            "id": "platforms",
+            "q": "Onko SimpleTimesta versiota Androidille, Windowsille tai verkkoon?",
+            "a": [
+              "Ei. SimpleTime on tehty iPhonelle, iPadille, Macille ja Apple Watchille. Voit viedä tietosi CSV-muodossa milloin tahansa."
+            ]
+          },
+          {
+            "id": "account-web",
+            "q": "Mitä voin tehdä osoitteessa account.lacodea.com?",
+            "a": [
+              "Siellä hallinnoit LaCodea ID:täsi selaimessa: kirjautumistapojasi, tilauksiasi, tilitietojesi lataamista ja tilin poistamista – SimpleTimessa pääset samaan tiliin Asetusten yläreunasta. Merkintöjäsi et näe siellä: ne ovat olemassa vain SimpleTimessa iPhonella, iPadilla, Macilla ja Apple Watchilla. Jos synkronoit LaCodea ID:n kautta, ne ovat päästä päähän salattuina SimpleTimen palvelimella – LaCodea ID itse ei saa niitä koskaan."
+            ]
+          },
+          {
+            "id": "feedback",
+            "q": "Löysin virheen tai minulla on idea – minne lähetän sen?",
+            "a": [
+              "Kirjoita meille osoitteeseen [contact@simple-time.app](mailto:contact@simple-time.app) – apista voit myös käyttää kohtaa Asetukset › Palaute. Kerro virheen yhteydessä laitteesi malli, iOS-, iPadOS- tai macOS-versiosi sekä SimpleTime-versiosi – sen löydät kohdasta Asetukset › Tietoja SimpleTimesta – ja kuvaile lyhyesti, mitä olit tekemässä. Jokainen viesti luetaan."
+            ]
+          },
+          {
+            "id": "support-us",
+            "q": "Miten voin tukea SimpleTimea?",
+            "a": [
+              "SimpleTimea tekee yksi ihminen. Arvio App Storessa auttaa, samoin se, että kerrot apista muille – ja SimpleTime Pro pitää kehityksen käynnissä."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

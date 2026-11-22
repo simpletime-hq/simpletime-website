@@ -4,6 +4,7 @@ import PageHeader from './PageHeader.astro';
 import RichText from './RichText.astro';
 import type { Lang } from '../i18n/ui';
 import { useTranslations, CONTACT_EMAIL } from '../i18n/utils';
+import { LEGAL_IN_ENGLISH } from '../i18n/legal';
 
 /**
  * A text with legal weight – privacy policy, terms of use, accessibility
@@ -32,17 +33,22 @@ interface Props {
   description: string;
   /** Bump when the content changes – the date is part of the text. */
   lastUpdated: string;
+  /** The page's own name in its language – the heading where the text itself is English (legal.ts). */
+  localTitle: string;
 }
 
-const { lang, doc, path, description, lastUpdated } = Astro.props;
+const { lang, doc, path, description, lastUpdated, localTitle } = Astro.props;
+// Newer languages show the English legal text, marked as English, under a heading and a note in their own language.
+const english = LEGAL_IN_ENGLISH.has(lang);
+const title = english ? localTitle : doc.title;
 const t = useTranslations(lang);
 
-const DATE_LOCALE: Record<Lang, string> = {
+const DATE_LOCALE: Partial<Record<Lang, string>> = {
   en: 'en-US', de: 'de-DE', nl: 'nl-NL', sv: 'sv-SE', fr: 'fr-FR', it: 'it-IT', es: 'es-ES',
   pt: 'pt-PT', ru: 'ru-RU', uk: 'uk-UA', el: 'el-GR', tr: 'tr-TR', hy: 'hy-AM', ar: 'ar',
   he: 'he-IL', hi: 'hi-IN', zh: 'zh-CN', ja: 'ja-JP',
 };
-const formatted = new Date(lastUpdated).toLocaleDateString(DATE_LOCALE[lang], {
+const formatted = new Date(lastUpdated).toLocaleDateString(english ? 'en-US' : (DATE_LOCALE[lang] ?? 'en-US'), {
   year: 'numeric',
   month: 'long',
   day: 'numeric',
@@ -50,10 +56,11 @@ const formatted = new Date(lastUpdated).toLocaleDateString(DATE_LOCALE[lang], {
 });
 ---
 
-<Layout lang={lang} path={path} title={`${doc.title} · SimpleTime`} description={description}>
-  <PageHeader title={doc.title} />
+<Layout lang={lang} path={path} title={`${title} · SimpleTime`} description={description}>
+  <PageHeader title={title} />
 
-  <article class="mx-auto max-w-3xl px-5 py-16 sm:px-8 sm:py-20">
+  <article class="mx-auto max-w-3xl px-5 py-16 sm:px-8 sm:py-20" lang={english ? 'en' : undefined}>
+    {english && <p class="mb-6 rounded-2xl bg-canvas-alt px-5 py-4 text-[15px] leading-relaxed text-muted dark:bg-surface" lang={lang}>{t('legal.englishOnly')}</p>}
     <p class="text-sm text-subtle">{doc.updated}: {formatted}</p>
 
     {

@@ -48,6 +48,16 @@ export const PLACE_NOTICE: Record<Lang, { place: string; started: string }> = {
   am: { place: 'ቢሮ', started: '%1$@ ከ%2$@ ጀምሮ እየሄደ ነው።' },
   ur: { place: 'دفتر', started: 'کام «%1$@» %2$@ سے جاری ہے۔' },
   fa: { place: 'دفتر', started: '‏«%1$@» از %2$@ در جریان است.' },
+  'pt-br': { place: 'Escritório', started: '%1$@ em andamento desde as %2$@.' },
+  ms: { place: 'Pejabat', started: '%1$@ berjalan sejak %2$@.' },
+  sk: { place: 'Kancelária', started: '%1$@ beží od %2$@.' },
+  so: { place: 'Xafiis', started: '%1$@ waxay socotaa tan iyo %2$@.' },
+  bs: { place: 'Kancelarija', started: '„%1$@“ se mjeri od %2$@.' },
+  sq: { place: 'Zyra', started: '%1$@ është në vazhdim që nga %2$@.' },
+  ta: { place: 'அலுவலகம்', started: '“%1$@” %2$@ முதல் இயங்குகிறது.' },
+  te: { place: 'ఆఫీసు', started: '“%1$@” %2$@ నుండి నడుస్తోంది.' },
+  mr: { place: 'ऑफिस', started: '‘%1$@’ %2$@ पासून चालू आहे.' },
+  pa: { place: 'ਦਫ਼ਤਰ', started: '“%1$@” %2$@ ਤੋਂ ਚੱਲ ਰਿਹਾ ਹੈ।' },
 };
 
 export const placeNotice = (lang: Lang, task: string, time: string) => {

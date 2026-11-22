@@ -1,0 +1,950 @@
+{
+  "store": {
+    "lead": "SimpleTime wuxuu diiwaangeliyaa halka waqtigaagu aado. Hal taabasho ayaa bilaabaysa, hal taabasho ayaa joojinaysa.",
+    "promise": "Akoon looma baahna, xayaysiis ma jiro. Saacadahaagu qalabkaaga ayay ku jiraan – iyo, haddii aad rabto, iCloud-kaaga ama LaCodea ID-ga.",
+    "sections": [
+      {
+        "id": "tracking",
+        "title": "Diiwaangelin",
+        "points": [
+          "Hal taabasho ayaa bilaabaysa oo joojinaysa – app-ka, Shaashadda Hore, Xarunta Xakamaynta, raadinta iPhone-ka ama Siri",
+          "Waqtiyada go'an: hal mar deji fasallada ama wareegyada shaqada – SimpleTime toddobaad kasta si iskiis ah ayuu u diiwaangeliyaa",
+          "Hawlo leh hawlo hoose, heer kasta oo ay shaqadaadu u baahan tahay",
+          "Ma illowday inaad bilowdo? Waqtiga mar dambe ku dar oo wax ka beddel mar kasta oo aad rabto",
+          "Midab, calaamad, kuwa la jecel yahay iyo habayn aad adigu dejisato"
+        ]
+      },
+      {
+        "id": "day",
+        "title": "Maalintaada",
+        "points": [
+          "Liis ama khadka waqtiga ee 0 ilaa 24, oo leh calaamad muujinaysa waqtiga hadda",
+          "Diiwaan kasta wuxuu yeelan karaa qoraal",
+          "Isbarbardhigga maanta iyo shalay – isla xagga sare"
+        ]
+      },
+      {
+        "id": "insights",
+        "title": "Falanqayn",
+        "points": [
+          "Jaantusyo goobaabeed oo loo kala qaybiyay hawl iyo wax-soosaar",
+          "Maalin, toddobaad, bil, sannad",
+          "Tirakoob: isbarbardhig iyo muddadii hore, socodka, kala-firidhsanaanta maalinta, diiwaanka ugu dheer iyo kan ugu gaaban",
+          "Hawl kasta oo leh tirooyinkeeda gaarka ah – diiwaanka koowaad, kan ugu dheer, toddobaadkan, sannadkan",
+          "Jaantus kasta u wadaag sawir ahaan"
+        ]
+      },
+      {
+        "id": "reports",
+        "title": "Warbixinno iyo dhoofin",
+        "points": [
+          "Warbixin PDF ah oo aad adigu dooranayso qaybaheeda iyo kala horreyntooda",
+          "CSV loogu talagalay Excel iyo Numbers",
+          "Qorshayaal kayd: si toos ah ugu kaydi iCloud Drive, gal ku jira app-ka Faylasha sida Dropbox ama Google Drive, server-kaaga ama qalabka – haddii aad rabto, iyagoo eray sir ah lagu sireeyay"
+        ]
+      },
+      {
+        "id": "widgets",
+        "title": "Widgets iyo Siri",
+        "points": [
+          "Maanta, hawsha socota iyo toddobaadka oo ku yaal Shaashaddaada Hore",
+          "Waqtiga socda oo ka muuqda Shaashadda Qufulka iyo Dynamic Island",
+          "Badhan ku jira Xarunta Xakamaynta oo bilaaba ama joojiya diiwaangelinta",
+          "Siri iyo Amarrada Gaagaaban: bilow, jooji ama weydii waxa socda"
+        ]
+      },
+      {
+        "id": "devices",
+        "title": "Qalab kasta",
+        "points": [
+          "iPhone, iPad iyo Mac, oo la isku-waafajiyo iyadoo loo marayo iCloud ama LaCodea ID",
+          "41 luqadood, oo aan ku xirnayn luqadda qalabkaaga",
+          "VoiceOver iyo Dynamic Type app-ka oo dhan"
+        ]
+      },
+      {
+        "id": "data",
+        "title": "Xogtaada",
+        "points": [
+          "Qufulka app-ka oo leh Face ID, Touch ID ama koodh adiga kuu gaar ah",
+          "Adigaa dooranaya halka xogtaadu ku jirto: qalabkan oo keliya, iCloud-kaaga ama LaCodea ID-ga, iyadoo lagu sireeyay dhammaad-ilaa-dhammaad",
+          "Asturnaanta oo hal bog ah: oggolaansho kasta iyo xogtaada oo dhan hal jaleec",
+          "Haddii aad rabto, LaCodea ID, oo ah hal akoon oo loogu talagalay dhammaan app-yada LaCodea – SimpleTime sidoo kale wuu shaqeeyaa akoon la'aan",
+          "Xayaysiis ma jiro, xogtaadana lama iibiyo – akoon la'aan, waxa keliya ee na soo gaara waa warbixinnada burburka iyo tirakoobka isticmaalka oo aan magac lahayn, waadna dami kartaa",
+          "Hal mar tirtir wax walba – qalabka, iCloud iyo kaydadka"
+        ]
+      }
+    ],
+    "pro": {
+      "title": "SimpleTime Pro",
+      "intro": "Wax kasta oo kor ku xusan bilaash ayay ahaanayaan. Pro wuxuu ku darayaa:",
+      "points": [
+        "Apple Watch: ka bilow oo ka jooji gacantaada, hore u bilow, la soco maalintaada, toddobaadkaaga iyo hadafyadaada – adigoo waqtiga socda ku arkaya wejiga saacaddaada",
+        "Dib-u-eegisyo: toddobaadkaaga, bishaada iyo sannadkaaga oo kaarar ah – si aad u eegto oo u wadaagto",
+        "Meelaha: hawluhu si iskood ah ayay u bilaabmaan marka aad timaado – haddii aad rabto, waqti sugitaan kadib",
+        "Kalandar: diiwaan kasta oo dhacdo ahaan uga muuqda kalandarkaaga – iyo hawlo ka yimid kalandarrada sida “Shaqo” ama “Qoys”",
+        "Guudmarka sannadka: maalin kasta oo sannadka ah oo hal sawir ah, oo leh taxanayaashaada",
+        "Hadafyo hawl kasta – maalinta, toddobaadka ama bisha",
+        "Shaandhada Diiradda: Diiradda shaqadu way daaranaysaa, liisku wuxuu muujiyaa shaqada oo keliya, saacadduna horeba way socotaa",
+        "Widget bilow degdeg ah oo aad adigu buuxiso",
+        "Toddoba midab oo xoojin ah ama mid adiga kuu gaar ah, lix farood iyo lix iyo toban astaamood oo app ah",
+        "Qaybo dheeraad ah oo warbixinta PDF ah: socodka, kala-firidhsanaanta maalinta, isbarbardhig, hadafyo"
+      ],
+      "pricing": "Pro waxaad u heli kartaa bille, sannadle ama hal mar oo weligaa ah. Kuwa ishtiraakka ku cusub waxay helayaan toddobaad bilaash ah, Wadaagista Qoyskana waxay u oggolaanaysaa ilaa lix qof inay Pro isticmaalaan. Qiimayaasha waxaa lagu muujiyaa app-ka. Bille iyo Sannadle si toos ah ayay u cusboonaadaan ilaa aad joojiso, taas oo aad waqti kasta ka samayn karto dejinta App Store-ka. Wax kasta oo dambe soo kordha way ku jiraan."
+    },
+    "closing": "Waxaa loo sameeyay qof kasta oo doonaya inuu ogaado halka waqtigiisu dhab ahaan aado – shaqada, jaamacadda, tababarka ama naftiisa aawadeed."
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Diiwaangelinta waqtiga ee iPhone, iPad iyo Mac",
+      "titleLead": "Hal taabasho",
+      "titleAccent": "ayaa saacadda bilaabaysa.",
+      "cta": "Eeg sifooyinka",
+      "proof": [
+        "Bilaash ku soo deji",
+        "Akoon la'aan",
+        "Xayaysiis ma jiro, xog lama iibiyo"
+      ]
+    },
+    "tour": {
+      "tracking": "Ka bilow meel kasta oo aad joogto."
+    },
+    "devices": {
+      "title": "Qalab kasta oo aad isticmaasho.",
+      "subtitle": "iPhone, iPad iyo Mac waxaa la isku-waafajiyaa iyadoo loo marayo iCloud ama LaCodea ID – saacadduna way kula socotaa: Shaashadda Qufulka, Dynamic Island iyo gacantaada."
+    },
+    "showcase": [
+      {
+        "id": "day",
+        "title": "Maalintaada oo dhan, hal jaleec."
+      },
+      {
+        "id": "insights",
+        "title": "Arag halka saacadahaagu dhab ahaan aadaan."
+      },
+      {
+        "id": "reports",
+        "title": "Warbixin ilbiriqsiyo gudahood."
+      }
+    ],
+    "features": {
+      "title": "Wax kasta oo aad u baahan tahay. Bilaash.",
+      "subtitle": "Sifo kasta oo liiskan ku jirta waxay ka mid tahay app-ka bilaashka ah."
+    },
+    "pro": {
+      "button": "Wax walba oo ku saabsan SimpleTime Pro"
+    },
+    "audience": {
+      "title": "Loogu talagalay qof kasta oo doonaya inuu ogaado halka waqtigiisu aado.",
+      "subtitle": "Shaqada, jaamacadda, tababarka – ama adiga naftaada.",
+      "groups": [
+        {
+          "id": "work",
+          "title": "Xirfad & shaqo xor ah",
+          "body": "Macaamiisha iyo mashaariicda u kala saar hawlo iyo hawlo hoose, oo dhoofi caddayn nadiif ah mar kasta oo aad u baahato."
+        },
+        {
+          "id": "study",
+          "title": "Jaamacad & waxbarasho",
+          "body": "Arag inta waqti ee maaddo dhab ahaan qaadato, oo toddobaadka xiga ku qorshee tirooyin dhab ah."
+        },
+        {
+          "id": "training",
+          "title": "Tababar & caadooyin",
+          "body": "Diiwaangeli tababarrada, layliga ama hurdada, oo arag sida joogtayntu u koraysa toddobaad ka toddobaad."
+        },
+        {
+          "id": "everyday",
+          "title": "Nolol maalmeed",
+          "body": "Ogow halka saacaduhu dhab ahaan aadaan – oo adigu go'aanso waxa aad rabto inaad beddesho."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Su'aalaha caadiga ah.",
+      "subtitle": "Jawaabaha ugu muhiimsan hal jaleec – iyo kuwo kale oo badan oo ku jira bogga su'aalaha.",
+      "button": "Dhammaan su'aalaha iyo jawaabaha"
+    },
+    "cta": {
+      "title": "Ma diyaar u tahay inaad bilowdo?",
+      "subtitle": "Bilaash ku hel iPhone, iPad iyo Mac. Akoon la'aan, xayaysiis la'aan, xogtaadana lama iibiyo.",
+      "note": "App-ka Apple Watch wuxuu ka mid yahay SimpleTime Pro."
+    }
+  },
+  "shots": [
+    {
+      "id": "tracking",
+      "title": "Diiwaangeli",
+      "caption": "Hal taabasho ayaa saacadda bilaabaysa",
+      "alt": "Tabka Diiwaangelin oo leh hawl socota iyo kuwa la jecel yahay oo xagga sare ku yaal"
+    },
+    {
+      "id": "day",
+      "title": "Maalintaada",
+      "caption": "Diiwaan kasta, ilaa ilbiriqsiga",
+      "alt": "Aragtida maalinta oo ah liis diiwaanno ah iyo waqtiyadooda"
+    },
+    {
+      "id": "timeline",
+      "title": "Khadka waqtiga",
+      "caption": "Maalintaada oo dhan hal jaleec",
+      "alt": "Aragtida maalinta oo ah khadka waqtiga ee 0 ilaa 24"
+    },
+    {
+      "id": "chart",
+      "title": "Falanqee",
+      "caption": "Halka saacadahaagu dhab ahaan aadaan",
+      "alt": "Toddobaad oo ah jaantus goobaabeed, oo loo kala qaybiyay hawlaha"
+    },
+    {
+      "id": "statistics",
+      "title": "Tirakoob",
+      "caption": "Isbarbardhig toddobaadyada oo arag socodka",
+      "alt": "Tirakoob isbarbardhigaya toddobaadkan iyo kii ka horreeyay"
+    },
+    {
+      "id": "report",
+      "title": "Warbixinno",
+      "caption": "PDF faahfaahsan oo hawl kasta ah",
+      "alt": "Bog ka mid ah warbixin PDF ah oo leh hawl kasta"
+    },
+    {
+      "id": "pro",
+      "title": "Hel Pro",
+      "caption": "Hadafyo, sannadkaaga, midabbadaada",
+      "alt": "Bogga SimpleTime Pro ee app-ka"
+    }
+  ],
+  "pro": {
+    "eyebrow": "SimpleTime Pro",
+    "title": "Wax badan ka hel waqtiga aad diiwaangeliso.",
+    "subtitle": "SimpleTime bilaash ayuu ahaanayaa – wax kasta oo uu Pro la'aan qabto sidaas ayay ahaanayaan. Pro wuxuu ku darayaa Apple Watch-kaaga, meelo si iskood ah u bilaaba hawlaha, dib-u-eegisyo toddobaadkaaga, bishaada iyo sannadkaaga, hadafyo iyo in ka badan.",
+    "featuresTitle": "Waxa Pro ku darayo",
+    "features": [
+      {
+        "id": "watch",
+        "title": "Apple Watch",
+        "body": "Ka bilow oo ka jooji gacantaada, hore u bilow, la soco maalintaada, toddobaadkaaga iyo hadafyadaada – adigoo waqtiga socda ku arkaya wejiga saacaddaada."
+      },
+      {
+        "id": "reviews",
+        "title": "Dib-u-eegisyo",
+        "body": "Toddobaadkaaga, bishaada iyo sannadkaaga oo kaarar ah – si aad u eegto oo u wadaagto."
+      },
+      {
+        "id": "places",
+        "title": "Meelaha",
+        "body": "Hawluhu si iskood ah ayay u bilaabmaan marka aad timaado – haddii aad rabto, waqti sugitaan kadib, si aysan waxba u bilaabmin marka aad uun dhaafto."
+      },
+      {
+        "id": "calendar",
+        "title": "Kalandar",
+        "body": "Diiwaan kasta oo dhacdo ahaan uga muuqda kalandarkaaga – iyo hawlo ka yimid kalandarrada sida “Shaqo” ama “Qoys”."
+      },
+      {
+        "id": "year",
+        "title": "Guudmarka sannadka",
+        "body": "Maalmaha sannadka oo dhan oo hal sawir ah, oo leh taxanahaaga hadda socda iyo kan ugu dheer."
+      },
+      {
+        "id": "goals",
+        "title": "Hadafyo",
+        "body": "Hadaf hawl kasta – maalinta, toddobaadka ama bisha. Hawlaha hoose waa lagu xisaabiyaa."
+      },
+      {
+        "id": "focus",
+        "title": "Shaandhada Diiradda",
+        "body": "Diiradda shaqadu way daaranaysaa, liisku wuxuu muujiyaa shaqada oo keliya – diiwaangelintuna way la bilaabmi kartaa oo la dhammaan kartaa."
+      },
+      {
+        "id": "widget",
+        "title": "Widget-ka bilowga degdegga ah",
+        "body": "Adigaa dooranaya hawlaha saaran. Shaashadda Hore hal taabasho ayaad kaga bilaabaysaa."
+      },
+      {
+        "id": "style",
+        "title": "Midabbo, farood iyo astaamaha app-ka",
+        "body": "Toddoba midab oo xoojin ah ama mid adiga kuu gaar ah, oo ku jira app-ka oo dhan – iyo lix farood iyo lix iyo toban astaamood oo app ah."
+      },
+      {
+        "id": "report",
+        "title": "Wax dheeraad ah oo warbixinta PDF",
+        "body": "Socodka, kala-firidhsanaanta maalinta, isbarbardhig muddadii hore iyo hadafyo – kala horreyn aad adigu doorato."
+      },
+      {
+        "id": "future",
+        "title": "Wax kasta oo weli imaanaya",
+        "body": "Wax kasta oo dambe soo kordha way ku jiraan – iibsasho dheeraad ah la'aan."
+      }
+    ],
+    "plansTitle": "Saddex waddo oo Pro lagu helo",
+    "plansSubtitle": "Qiimayaashu waxay ku xiran yihiin dalkaaga, waxaana app-ka lagugu tusayaa lacagtaada ka hor inta aadan iibsan.",
+    "plans": [
+      {
+        "id": "monthly",
+        "title": "Bille",
+        "body": "Bil kasta ayaa lacagta la bixiyaa. Waqti kasta waad joojin kartaa."
+      },
+      {
+        "id": "yearly",
+        "title": "Sannadle",
+        "body": "Sannadkii hal mar ayaa lacagta la bixiyaa – app-ku wuxuu muujiyaa inta aad ku kaydsanayso marka loo eego bixinta bille."
+      },
+      {
+        "id": "lifetime",
+        "title": "Weligaa",
+        "body": "Hal mar bixi oo Pro weligaa hayso. Waqtigiisu weligii ma dhammaado."
+      }
+    ],
+    "notes": [
+      "Kuwa ishtiraakka ku cusub waxay Bille ama Sannadle ku tijaabin karaan toddobaad bilaash ah.",
+      "Wadaagista Qoyska: hal iibsasho oo loogu talagalay ilaa lix qof.",
+      "Wax kasta oo dambe soo kordha way ku jiraan – iibsasho dheeraad ah la'aan."
+    ],
+    "legal": "Qorshayaasha Bille iyo Sannadle si toos ah ayay u cusboonaadaan ilaa aad joojiso. Waxaad ka joojin kartaa waqti kasta dejinta App Store. Weligaa waa lacag-bixin hal mar ah, waqtigeeduna weligii ma dhammaado.",
+    "terms": "Shuruudaha Isticmaalka (EULA)",
+    "privacy": "Siyaasadda Asturnaanta",
+    "freeTitle": "Waxa bilaash ahaanaya",
+    "freeBody": "Wax kasta oo aad diiwaangelinta ugu baahan tahay: hawlo iyo hawlo hoose, Waqtiyada go'an, aragtida maalinta iyo khadka waqtiga, jaantusyo iyo tirakoob, warbixinta PDF iyo dhoofinta CSV, widgets, Dhaqdhaqaaqa Tooska ah, Xarunta Xakamaynta iyo Siri, isku-waafajinta iCloud ama LaCodea ID, qorshayaasha kaydka iyo qufulka app-ka – 41 luqadood. Akoon la'aan, xayaysiis la'aan, xogtaadana lama iibiyo.",
+    "howTitle": "Sida Pro loo helo",
+    "how": [
+      "SimpleTime gudihiisa, fur Dejinta › SimpleTime Pro.",
+      "Dooro Bille, Sannadle ama Weligaa – lacag-bixintu waxay maraysaa Apple Account-kaaga.",
+      "Pro isla markiiba wuu furmayaa, dhammaan qalabkaaga leh isla Apple Account-ka."
+    ],
+    "faqTitle": "Su'aalo ku saabsan Pro",
+    "ctaTitle": "Bilaash ku bilow.",
+    "ctaSubtitle": "Soo deji SimpleTime – Pro-na ka fur app-ka mar kasta oo aad doonto."
+  },
+  "faq": {
+    "title": "Su'aalaha caadiga ah.",
+    "subtitle": "Wax walba oo ku saabsan SimpleTime – laga bilaabo taabashada koowaad ilaa SimpleTime Pro.",
+    "searchLabel": "Raadi su'aalaha",
+    "searchPlaceholder": "tusaale “kayd” ama “Apple Watch”",
+    "results": "Su'aalaha ku habboon: {count}",
+    "noResults": "Ma jirto su'aal ku habboon “{query}”.",
+    "noResultsHint": "Isku day eray kale – ama [noo soo qor](@contact).",
+    "topics": "Mawduucyada",
+    "moreTitle": "Weli su'aal ma qabtaa?",
+    "moreBody": "Noo soo qor – fariin kasta waa la akhriyaa, waana laga jawaabaa.",
+    "moreButton": "La xiriir",
+    "categories": [
+      {
+        "id": "basics",
+        "title": "Bilowga",
+        "items": [
+          {
+            "id": "what-is",
+            "q": "Waa maxay SimpleTime?",
+            "a": [
+              "SimpleTime waa app diiwaangelinta waqtiga oo loogu talagalay iPhone, iPad iyo Mac. Hal taabasho ayaa saacadda bilaabaysa, hal taabasho ayaa joojinaysa. Kadib SimpleTime wuxuu ku tusayaa halka waqtigaagu aado – liiska maalinta ama khadka waqtiga, jaantusyo iyo tirakoob, iyo warbixin PDF ah ama fayl CSV ah. Akoon looma baahna, xayaysiis ma jiro, xogtaadana lama iibiyo."
+            ]
+          },
+          {
+            "id": "first-steps",
+            "q": "Sideen ku bilaabaa?",
+            "a": [
+              "Tabka Diiwaangelin ku taabo + si aad u samayso hawl – leh magac, midab iyo calaamad. Taabo saddex-xagalka agteeda ku yaal, saacadduna way socotaa; taabo Jooji si aad u dhammayso. Marka ugu horreysa ee aad furto app-ka, hagid gaaban ayaa ku tusaysa badhamada ugu muhiimsan. Waqti kasta waad mar kale eegi kartaa: Dejinta › Mar kale eeg hagidda."
+            ]
+          },
+          {
+            "id": "free",
+            "q": "SimpleTime ma bilaash baa?",
+            "a": [
+              "Haa. Soo dejinta SimpleTime waa bilaash, sidoo kalena wax kasta oo aad diiwaangelinta ugu baahan tahay waa bilaash: hawlo iyo hawlo hoose, waqtiyada go'an, aragtida maalinta, jaantusyo iyo tirakoob, warbixinno iyo dhoofin, widgets, isku-waafajinta iCloud ama LaCodea ID iyo kaydad. SimpleTime Pro waa ikhtiyaari, wuxuuna ku darayaa app-ka Apple Watch, dib-u-eegisyo, meelo, hadafyo iyo in ka badan. [Wax walba oo ku saabsan SimpleTime Pro](@pro)"
+            ]
+          },
+          {
+            "id": "account",
+            "q": "Ma u baahanahay akoon?",
+            "a": [
+              "Maya. App-ka ayaad furaysaa oo bilaabaysaa – uma baahnid inaad akoon samaysato. Haddii aad isticmaasho iCloud, isku-waafajintu waxay maraysaa Apple Account-kaaga gaarka ah – annaguna weligeen ma aragno. Haddii aad rabto, waxaad ku soo geli kartaa LaCodea ID, oo ah akoonkayaga dhammaan app-yada LaCodea. Markaas waxaan kaydinaa akoonkaaga iyo iibsashooyinkaaga SimpleTime Pro – diiwaannadaada oo keliya haddii aad LaCodea ID uga doorato meesha kaydinta Xogta iyo isku-waafajinta, markaasna iyagoo lagu sireeyay dhammaad-ilaa-dhammaad."
+            ]
+          },
+          {
+            "id": "lacodea-id",
+            "q": "Waa maxay LaCodea ID?",
+            "a": [
+              "LaCodea ID waa akoonkayaga ikhtiyaariga ah ee dhammaan app-yada LaCodea. Waxaad ka soo gashaa xagga sare ee Dejinta – adigoo isticmaalaya Apple, passkey ama koodh iimayl ahaan laguugu soo diro. Haddii aad leedahay, waxaad isku-waafajin kartaa adigoo maraya LaCodea ID, iyadoo xogta lagu sireeyay dhammaad-ilaa-dhammaad, iibsashada SimpleTime Pro-na waxay khusaysaa qalab kasta oo aad ku soo gashay; hase yeeshee SimpleTime si fiican ayuu u shaqeeyaa xitaa LaCodea ID la'aantiis."
+            ]
+          },
+          {
+            "id": "devices",
+            "q": "SimpleTime qalabkee ayuu ka shaqeeyaa?",
+            "a": [
+              "iPhone iyo iPad leh iOS 26 ama iPadOS 26 ama ka dambe, iyo Mac leh macOS 26 ama ka dambe. App-ka Apple Watch wuxuu ka mid yahay SimpleTime Pro, wuxuuna u baahan yahay watchOS 26. Haddii aad iCloud ama LaCodea ID ka doorato Dejinta › Xogta iyo isku-waafajinta, diiwaannadaada waxaa la isku-waafajinayaa dhammaan qalabka leh isla Apple Account-ka ama isla LaCodea ID-ga."
+            ]
+          },
+          {
+            "id": "mac",
+            "q": "SimpleTime maxuu ka qaban karaa Mac-ka?",
+            "a": [
+              "Ku dhawaad wax kasta oo uu iPhone-ka ka qabto – diiwaangelinta, aragtida maalinta, falanqaynta, warbixinnada, dhoofinta, kaydadka, isku-waafajinta iyo qufulka app-ka; meesha aad iPhone-ka ku jiidayso, Mac-ka waxaad ku samaysaa midig-gujin. Intaas waxaa dheer saacadda tirinta ee safka menu-ga iyo widgets-ka desktop-kaaga. Meelaha, Dhaqdhaqaaqyada Tooska ah, app-ka Apple Watch iyo astaamaha kale ee app-ka kuma jiraan Mac-ka."
+            ]
+          },
+          {
+            "id": "languages",
+            "q": "SimpleTime luqadahee ayuu ku hadlaa?",
+            "a": [
+              "41 – laga bilaabo af-Ingiriis iyo af-Jarmal ilaa af-Carabi, af-Hindi iyo af-Jabbaaniis. Dejinta › Luqadda ayaad ka dooran kartaa luqadda app-ka, adigoon ku xirnayn luqadda qalabkaaga."
+            ]
+          },
+          {
+            "id": "offline",
+            "q": "SimpleTime ma shaqeeyaa internet la'aan?",
+            "a": [
+              "Haa. Diiwaangelinta, aragtida maalinta, jaantusyada iyo warbixinnada dhammaantood waxay shaqeeyaan xiriir la'aan. Xiriir waxaa u baahan isku-waafajinta, kaydadka server-kaaga, soo gelitaanka LaCodea ID, iibsashada Pro iyo raadinta cinwaanka meel. Wixii hadha, SimpleTime ayaa mar dambe dhammaystira – isku-waafajinta isla marka qalabkaagu khadka dib ugu soo laabto, kayd la seegay marka xigta ee aad furto app-ka."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tracking",
+        "title": "Diiwaangelin",
+        "items": [
+          {
+            "id": "start-stop",
+            "q": "Sideen u bilaabaa oo u joojiyaa diiwaangelinta?",
+            "a": [
+              "Taabo saddex-xagalka ku ag yaal hawl si aad u bilowdo. Hawsha socota waxay ka muuqataa xagga sare ee tabka Diiwaangelin; taabo Jooji si aad u dhammayso. Haddii aad taabto magaca hawl, hawlaheeda hoose ayaa furmaya; haddii aad bidix u jiido, waad wax ka beddeli kartaa, arshiifin kartaa ama tirtiri kartaa, haddii aad midig u jiidona waxaa soo baxaysa faahfaahinteeda oo leh dhammaan tirooyinka – Mac-ka, midig-gujin ayaa intaas oo dhan kuu soo bandhigta."
+            ]
+          },
+          {
+            "id": "one-at-a-time",
+            "q": "Laba hawlood ma wada socon karaan isku mar?",
+            "a": [
+              "Maya. Hal diiwaan oo keliya ayaa socda mar kasta: marka aad bilowdo hawl kale, diiwaanka socda isla markaas ayuu dhammaadaa – sidaas darteed diiwaannadaadu iskuma dhacaan."
+            ]
+          },
+          {
+            "id": "keeps-running",
+            "q": "Saacaddu ma sii socotaa marka aan xiro SimpleTime?",
+            "a": [
+              "Haa. SimpleTime wuxuu xasuustaa goorta aad bilowday, muddadana halkaas ayuu ka xisaabiyaa – diiwaangelintu way sii socotaa marka aad xirto app-ka, qufusho iPhone-kaaga ama dib u kiciso. Shaashadda Qufulka iyo Dynamic Island, Dhaqdhaqaaqa Tooska ah wuxuu muujiyaa waqtiga socda, oo leh badhan lagu joojiyo, xasuusinnadaaduna way ku soo gaaraan xitaa marka app-ku xiran yahay."
+            ]
+          },
+          {
+            "id": "add-later",
+            "q": "Waan illoobay inaan bilaabo – ma ku dari karaa waqti mar dambe?",
+            "a": [
+              "Haa. Tabka Maalin, taabo + si aad ugu darto diiwaan leh bilowgiisa iyo dhammaadkiisa, ama taabo mid jira si aad wax uga beddesho. Diiwaannadu iskuma dhici karaan: SimpleTime ayaa kuu sheega haddii muddo iyo diiwaan kale ay isku dhacaan. Haddii saacaddu horeba socoto, taabo diiwaanka socda ee xagga sare ee tabka Diiwaangelin oo bilowgiisa dib u dhig – ilaa dhammaadka diiwaankii hore."
+            ]
+          },
+          {
+            "id": "restore-entry",
+            "q": "Waxaan tirtiray diiwaan – ma soo celin karaa?",
+            "a": [
+              "Haa. Haddii aad diiwaan ka tirtirto tabka Maalin – adigoo bidix u jiidaya, ama Mac-ka adigoo midig-gujinaya –, wuxuu u wareegaa qashinka: xagga bidix ee sare ee tabka Maalin, hoosta “Diiwaannada la tirtiray”, “Soo celi” ayaa dib u keena, ama gebi ahaanba waad tirtiri kartaa. Hawlaha la tirtiray waxay ku sugayaan qashinka xagga bidix ee sare ee tabka Diiwaangelin, iyagoo wata diiwaannadooda. Marka wax gebi ahaanba la tirtiro, kayd oo keliya ayaa soo celin kara."
+            ]
+          },
+          {
+            "id": "fixed-times",
+            "q": "Waa maxay waqtiyada go'an?",
+            "a": [
+              "Waqtiyada soo noqnoqda sida fasallada, wareegyada shaqada ama saacadaha xafiiska hal mar ayaad dejisaa: hawsha, maalmaha toddobaadka, bilowga iyo dhammaadka, toddobaad kasta ama labadii toddobaadba mar, laga bilaabo maalin aad doorato, haddii aad rabtana leh taariikh dhammaad. Isla marka waqti dhammaado, SimpleTime iskiis ayuu u diiwaangeliyaa – qalab kasta oo aad ka furto SimpleTime, haddana hal mar oo keliya; wixii dib u dhacay wuxuu ku soo daraa ugu badnaan 31 maalmood oo dib ah. Adigu waxaad diiwaangelisaa oo keliya waxa intaas ku soo kordha; waxaad ka helaysaa Dejinta › Diiwaangelin › Waqtiyada go'an, Pro looma baahna."
+            ]
+          },
+          {
+            "id": "fixed-times-pause",
+            "q": "Ma hakin karaa ama ma beddeli karaa waqtiyada go'an?",
+            "a": [
+              "Haa. Fasaxyada dugsiga, fasax ama jiro darteed, ku dar hakad Dejinta › Diiwaangelin › Waqtiyada go'an adigoo taabanaya “Ku dar hakad” – inta uu socdo, SimpleTime waxba kuma daro; waqti go'an oo keliya waxaad ku dami kartaa badhankiisa daar/dami. Diiwaannada horey loo geliyay waad beddeli kartaa ama tirtiri kartaa sida kuwa kale, haddii aad beddesho ama tirtirto waqti go'anna, waxa horey loo diiwaangeliyay way sii jirayaan. Haddii waqti go'an uu isku dhaco diiwaan horey u jiray, SimpleTime ma geliyo."
+            ]
+          },
+          {
+            "id": "subtasks",
+            "q": "Hawlaha hoose sidee bay u shaqeeyaan?",
+            "a": [
+              "Taabo magaca hawl si aad u furto, kadibna halkaas ku dar hawlo hoose adigoo isticmaalaya +. Heerar badan ayaad isku dhex dhigi kartaa, inta shaqadaadu u baahato – macmiil, mashruuc, marxalad. Jaantusyada, warbixinnada iyo hadafyada, hawlaha hoose waxaa lagu xisaabiyaa hawsha ka sarreysa."
+            ]
+          },
+          {
+            "id": "order",
+            "q": "Sideen liiska hawlahayga u nidaamiyaa?",
+            "a": [
+              "Hawlaha aad maalin kasta isticmaasho ku dar kuwa la jecel yahay – waxay ku hadhaan xagga sare. Inta kale waxaa loo kala soocaa sida alifbeetada, ugu isticmaalka badan, dhawaan la isticmaalay ama habayn gaar ah. Midab iyo calaamad – ama emoji – ayaa hawl kasta ka dhiga mid si fudud loo aqoonsado."
+            ]
+          },
+          {
+            "id": "archive-trash",
+            "q": "Maxay ku kala duwan yihiin arshiifinta iyo tirtiridda?",
+            "a": [
+              "Arshiifintu waxay hawsha qarisaa oo keliya: diiwaannadeedu way sii jiraan, waxayna ku sii xisaabmayaan falanqayn kasta. Tirtiriddu waxay hawsha iyo diiwaannadeeda u wareejisaa qashinka – markaas waqtigoodu meelna laguma xisaabiyo. Arshiifka iyo qashinka waxaad ka helaysaa xagga bidix ee sare ee tabka Diiwaangelin: arshiifka, “Soo celi” ayaa hawsha soo celiya; qashinka, wuxuu soo celiyaa hawsha iyo diiwaannadeeda – ama halkaas ayaad gebi ahaanba ka tirtiri kartaa."
+            ]
+          },
+          {
+            "id": "notes",
+            "q": "Ma ku dari karaa qoraallo diiwaannada?",
+            "a": [
+              "Haa, diiwaan kasta wuxuu yeelan karaa qoraal – waxa aad ka shaqaynaysay, ama qofka aad la shaqaynaysay. Waxaad ku qortaa marka aad samaynayso ama wax ka beddelayso diiwaan tabka Maalin, ama, inta saacaddu socoto, adigoo taabanaya diiwaanka socda ee xagga sare ee tabka Diiwaangelin. Qoraalka waxaad arkaysaa marka aad furto diiwaanka, faahfaahinta hawsha hoosta “Dhammaan diiwaannada”, qaybta PDF-ka “Dhammaan diiwaannada” iyo dhoofinta CSV; kaydaduna way wataan."
+            ]
+          },
+          {
+            "id": "reminders",
+            "q": "SimpleTime ma i xasuusin karaa?",
+            "a": [
+              "Haa. Dejinta › Habee ogeysiisyada, waxaad ka samaysaa xeerar – tusaale ahaan xasuusin marka hawl ay socotay 60 daqiiqo, dhammaan hawlaha ama kuwa la doortay oo keliya, maalmaha toddobaadka ee aad doorato. Adigoo daaraya “I xasuusi marka aan waxba socon”, SimpleTime wuxuu sidoo kale ku ogeysiiyaa marka muddo waxba la diiwaangelin."
+            ]
+          },
+          {
+            "id": "time-zone",
+            "q": "Waxaan u safray aag waqti oo kale – maxay diiwaannadaydu u muujinayaan waqtiyo kale?",
+            "a": [
+              "Caadi ahaan, SimpleTime wuxuu diiwaan kasta ku muujiyaa aagga waqtiga uu qalabkaagu hadda ku jiro – sida kalandarka Apple: wixii aad New York ku diiwaangelisay 9-ka subaxnimo, Berlin wuxuu ka muuqdaa 3-da galabnimo. Dejinta › Aagga waqtiga, waxaad taa beddelkeeda dooran kartaa “Aagga waqtiga diiwaangelinta”: markaas diiwaan kastaa wuxuu ku muuqdaa saacadda iyo maalinta aad diiwaangelisay – meel kasta oo waqtiyo iyo wadarro ka muuqdaan. Muddadu labada xaaladoodba waa isku mid; diiwaannada ka yimid noocyada ka horreeyay 4.7 had iyo jeer waxay ku muuqdaan aagga waqtiga qalabka."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "insights",
+        "title": "Aragtida maalinta iyo falanqaynta",
+        "items": [
+          {
+            "id": "day-view",
+            "q": "Aragtida maalintu maxay muujisaa?",
+            "a": [
+              "Diiwaan kasta oo maalin ah oo leh bilowgiisa, dhammaadkiisa iyo muddadiisa – liis ahaan, ama khadka waqtiga ee 0 ilaa 24 oo maanta leh calaamad muujinaysa waqtiga hadda; shaashadaha ballaaran sida iPad iyo Mac, labaduba dhinac-dhinac ayay u muuqdaan. Xagga sare waxaad ku arkaysaa wadarta maalinta iyo isbarbardhigga maalintii ka horreysay."
+            ]
+          },
+          {
+            "id": "charts",
+            "q": "Jaantusyo iyo tirakoob noocee ah ayaa jira?",
+            "a": [
+              "Tabka Jaantus: jaantusyo goobaabeed oo loo kala qaybiyay hawl iyo wax-soosaar, maalin, toddobaad, bil ama sannad. Xagga midig ee sare, hoosta “Tirakoob dheeraad ah”, waxaad ka helaysaa isbarbardhigga muddadii hore, socodka, hawlahaaga ugu sarreeya iyo diiwaannada ugu dheer iyo kuwa ugu gaaban – iyo, laga bilaabo toddobaad iyo wixii ka badan, sida waqtigaagu ugu kala firidhsan yahay maalinta, oo leh saacaddaada ugu mashquulsan. Hawl kastaa waxay sidoo kale leedahay bog faahfaahin u gaar ah – diiwaanka koowaad, diiwaanka ugu dheer, toddobaadkan, sannadkan."
+            ]
+          },
+          {
+            "id": "productivity",
+            "q": "Waa maxay dhibcaha wax-soosaarka?",
+            "a": [
+              "Marka aad wax ka beddelayso hawl, waxaad siisaa qayb hoosta “Wax-soosaarka”: wax-soosaar leh, aan wax-soosaar lahayn, waajib – ama “Ka reeb wax-soosaarka”. Hawlaha hoose ee aan lahayn qayb u gaar ah waxay qaataan tan hawsha ka sarreysa, “Ka reeb wax-soosaarka”-na wuxuu khuseeyaa wax kasta oo ka hooseeya. Dhibcuhu waxay muujinayaan inta ka mid ah waqtigaaga la qiimeeyay ee ahayd wax-soosaar leh ama waajib: (wax-soosaar leh + waajib) ÷ (wax-soosaar leh + aan wax-soosaar lahayn + waajib) × 100. Waqtiga aan qayb lahayn ama lagu calaamadeeyay “Ka reeb wax-soosaarka” laguma xisaabiyo."
+            ]
+          },
+          {
+            "id": "goals",
+            "q": "Hadafyadu sidee bay u shaqeeyaan?",
+            "a": [
+              "Adigoo leh SimpleTime Pro, waxaad hawl kasta u dejisaa hadaf Dejinta › Hadafyada: ugu yaraan ama ugu badnaan waqti cayiman maalintii, toddobaadkii ama bishii – tusaale ahaan, ugu yaraan 8 saacadood oo isboorti ah toddobaadkii ama ugu badnaan 2 saacadood oo baraha bulshada ah maalintii. Hawlaha hoose waa lagu xisaabiyaa, waxaana la cabbiraa muddada hadda socota. Halka aad marayso waxaad ku arkaysaa tabka Jaantus iyo Apple Watch-kaaga; qaybta “Hadafyada”, warbixinta PDF-ku waxay isbarbardhigtaa celceliska muddada la doortay iyo hadafkaaga."
+            ]
+          },
+          {
+            "id": "share-chart",
+            "q": "Ma wadaagi karaa jaantus?",
+            "a": [
+              "Haa, jaantus kasta waxaa loo wadaagi karaa sawir ahaan ama lagu kaydin karaa Sawirrada. Si loo kaydiyo, SimpleTime wuxuu codsadaa oo keliya oggolaansho uu sawirro ku daro – ma arki karo maktabadda sawirradaada."
+            ]
+          },
+          {
+            "id": "pdf-report",
+            "q": "Sideen u sameeyaa warbixin PDF ah?",
+            "a": [
+              "Dejinta › Dhoofi warbixinta, dooro muddo – laga bilaabo maanta ilaa waqtiga oo dhan, ama mid adiga kuu gaar ah – dooro qaybaha aad rabto oo u kala horraysii adigoo jiidaya. SimpleTime wuxuu sameeyaa PDF-ka oo leh hawl kasta iyo hawl hoose kasta, oo diyaar u ah in la wadaago ama la kaydiyo. SimpleTime Pro wuxuu ku darayaa qaybo dheeraad ah: “Socodka”, “Maalinta oo dhan”, “Isbarbardhig” iyo “Hadafyada”.",
+              "Waraaqaha saacadaha shaqada waxaa loogu talagalay qaybta “Dhammaan diiwaannada”: diiwaan kasta maalin-maalin oo leh bilow, dhammaad, hawl iyo qoraal, iyo wadarta maalin kasta, wadarta guud iyo saacado tobanle ah – ku habboon in saacadahaaga lagu barbardhigo warqadda mushaharkaaga. Waa bilaash, Pro looma baahna, waana daaran yahay bilowgaba."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "shortcuts",
+        "title": "Widgets, Siri iyo Diiradda",
+        "items": [
+          {
+            "id": "widgets",
+            "q": "Widgets noocee ah ayaa jira?",
+            "a": [
+              "Shaashadda Hore: Maanta, Hawsha socota iyo Toddobaad – Maanta iyo Hawsha socota oo leh badhamo lagu bilaabo laguna joojiyo. Shaashadda Qufulka: waxa socda iyo muddada uu socday. Waxaa kale oo jira badhanka “Diiwaangelinta waqtiga” ee Xarunta Xakamaynta. Inta hawl socoto, Dhaqdhaqaaq Toos ah ayaa ku muujiya Shaashadda Qufulka iyo Dynamic Island, oo leh badhan lagu joojiyo. SimpleTime Pro waxaad sidoo kale ku helaysaa widget bilow degdeg ah oo aad ku buuxiso hawlahaaga."
+            ]
+          },
+          {
+            "id": "without-opening",
+            "q": "Ma bilaabi karaa diiwaangelinta anigoon furin app-ka?",
+            "a": [
+              "Haa, siyaabo badan. Taabo oo hay astaanta app-ka si aad u joojiso waxa socda ama aad u bilowdo mid ka mid ah hawlahaaga. Ku qor magaca hawl raadinta iPhone-ka oo taabo. Ama isticmaal widget, Siri ama badhanka “Diiwaangelinta waqtiga” – Xarunta Xakamaynta, Shaashadda Qufulka ama Badhanka Ficilka laga bilaabo iPhone 15 Pro –, iyo, adigoo leh SimpleTime Pro, Apple Watch-kaaga."
+            ]
+          },
+          {
+            "id": "siri",
+            "q": "SimpleTime sidee ugu shaqeeyaa Siri iyo Amarrada Gaagaaban?",
+            "a": [
+              "Tusaale ahaan dheh “Start Work in SimpleTime”, “Stop tracking in SimpleTime”, “How much did I track today in SimpleTime?” ama “What’s running in SimpleTime?”. Siri wuxuu jumladahan ku fahmaa af-Ingiriis iyo af-Jarmal. Luqad kasta, ficilladu waxay ku jiraan app-ka Amarrada Gaagaaban, halkaas oo aad sidoo kale siin karto jumlad adiga kuu gaar ah."
+            ]
+          },
+          {
+            "id": "focus-filter",
+            "q": "Shaandhada Diiraddu maxay qabataa?",
+            "a": [
+              "Adigoo isticmaalaya Shaandhada Diiradda, SimpleTime wuxuu raacaa Diiraddaada: marka “Shaqo” daaranto, liiska hawlaha wuxuu muujiyaa qaybtaada shaqada oo keliya – diiwaangelintuna way bilaabmi kartaa oo dhammaan kartaa marka Diiraddu daaranto ama damto. Waxaad ku dejisaa Dejinta iOS, hoosta Diiradda › Diiraddaada › Shaandhooyinka Diiradda › Ku dar shaandho › SimpleTime. Shaandhada Diiradda waxay ka mid tahay SimpleTime Pro."
+            ]
+          },
+          {
+            "id": "calendar-entries",
+            "q": "SimpleTime ma geli karaa diiwaannadayda kalandarkayga?",
+            "a": [
+              "Haa, adigoo leh SimpleTime Pro: daar “Diiwaannada kalandarka” Dejinta › Kalandar – maalintaas laga bilaabo, diiwaan kasta oo dhammaaday wuxuu dhacdo ahaan uga muuqdaa kalandar u gaar ah oo la yiraahdo “SimpleTime” ama mid aad doorato, haddii aad rabtona hawl-hawl. Marka aad wax ka beddesho ama tirtirto diiwaan, dhacdaduna way raacdaa, xiriirka ku jira dhacdaduna wuxuu diiwaanka ka furaa SimpleTime. Haddii aad damiso, dhacdooyinku waxay ku sii jirayaan kalandarkaaga.",
+              "“Hawlo ka yimid kalandarrada” wuxuu kalandarrada sida “Shaqo” ka dhigaa hawlo; hase yeeshee dhacdooyinka horey ugu jiray kalandarkaaga ma noqdaan diiwaanno. Dhacdooyinka waxaa lagu kaydiyaa bixiyaha kalandarkaaga, waxayna magacyada hawlahaaga u muujiyaan qof kasta oo aad la wadaagto kalandarka – xitaa marka qufulka app-ku daaran yahay."
+            ]
+          },
+          {
+            "id": "menu-bar",
+            "q": "Ma ka isticmaali karaa SimpleTime safka menu-ga ee Mac-kayga?",
+            "a": [
+              "Haa. Saacad tirin oo ku jirta safka menu-ga ayaa muujisa haddii hawl socoto; guji si aad u bilowdo, u joojiso ama u beddesho hawlaha adigoon furin daaqadda. Waxaad ku daartaa ama ku damisaa Dejinta › Safka menu-ga › Ku tus safka menu-ga. Marka qufulka app-ka la dejiyo, menu-gu ma muujiyo magacyada hawlaha, wuxuuna bixiyaa oo keliya Jooji."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "data",
+        "title": "Isku-waafajin, kayd iyo dhoofin",
+        "items": [
+          {
+            "id": "sync",
+            "q": "SimpleTime ma isku-waafajiyaa qalabkayga?",
+            "a": [
+              "Haa, iyadoo loo marayo iCloud ama LaCodea ID – qalab kasta waxaad ka doorataa Dejinta › Xogta iyo isku-waafajinta. Adigoo isticmaalaya iCloud, qalab kasta oo aad iCloud ku dooratay oo aad ku soo gashay isla Apple Account-ka ayaa la isku-waafajiyaa; goorta waxaa go'aamiya nidaamka. Lama khasbi karo – markaas “Isku-waafaji hadda” wuxuu hubiyaa akoonkaaga iyo xiriirka, isla boggaasna wuxuu muujiyaa goorta isku-waafajintii u dambeysay.",
+              "Adigoo isticmaalaya LaCodea ID, qalab kasta oo aad ku soo gashay isla LaCodea ID-ga oo aad dooratay ayaa la isku-waafajiyaa, xitaa haddii uu leeyahay Apple Account kale – iyadoo lagu sireeyay dhammaad-ilaa-dhammaad, haddii SimpleTime ka furan yahay labada qalabna, dhowr ilbiriqsi gudahood."
+            ]
+          },
+          {
+            "id": "sync-trouble",
+            "q": "Diiwaannadaydu kama muuqdaan qalabkayga kale – maxaan samayn karaa?",
+            "a": [
+              "Labada qalabba ka hubi Dejinta › Xogta iyo isku-waafajinta: labaduba waxay u baahan yihiin isla meel – iCloud oo leh isla Apple Account-ka, ama LaCodea ID oo leh isla soo gelitaanka. Haddii ay ku qoran tahay in beddelku dhaqan geli doono mar dambe, gebi ahaanba xir SimpleTime oo dib u fur; sidoo kale app-ka ku cusboonaysii dhammaan qalabkaaga.",
+              "Adigoo isticmaalaya iCloud, “Isku-waafajintii u dambeysay” oo ku jirta Dejinta hoosta Isku-waafajin waxay muujisaa goorta xog la gudbiyay markii u dambeysay, “Hubi isku-waafajinta”-na wuxuu eegaa akoonkaaga iyo xiriirka, haddii dhibaato jirtana wuxuu sheegaa sababta – tusaale ahaan, boos iCloud oo buuxa. Adigoo isticmaalaya LaCodea ID, bogga Xogta iyo isku-waafajinta ayaa muujiya haddii isbeddello ay sugayaan xiriir, haddii akoon kale uu soo galay ama haddii qalabku u baahan yahay furahaaga soo celinta. Haddii taasi aysan caawin, [noo soo qor](@contact)."
+            ]
+          },
+          {
+            "id": "without-icloud",
+            "q": "Ma isticmaali karaa SimpleTime iCloud la'aan?",
+            "a": [
+              "Haa. Dejinta hoosta Xogta iyo isku-waafajinta ka dooro “Qalabkan oo keliya” – markaas xogtaadu waxay ku jiraysaa qalabkan keliya. Taasi waxay kaydadka ka dhigaysaa kuwo aad u muhiim ah: qorshe kayd ayaa si toos ah u kaydiya, tusaale ahaan gal ku jira app-ka Faylasha ama server-kaaga. Haddii aad weli rabto inaad isku-waafajiso dhowr qalab iCloud la'aan, halkaas ka dooro LaCodea ID; markaas qalab aan lahayn xirmada furayaasha iCloud-kaaga hal mar ayuu ku weydiinayaa furahaaga soo celinta."
+            ]
+          },
+          {
+            "id": "switch-storage",
+            "q": "Sideen u beddelaa meesha xogtaydu ku jirto?",
+            "a": [
+              "Dejinta › Xogta iyo isku-waafajinta, taabo meesha aad rabto in xogtaadu ku jirto, kadibna “U wareeg iCloud”, “U wareeg LaCodea ID” ama “Ku hay qalabkan oo keliya”; LaCodea ID-ga, inta lagu jiro ayaad soo gelaysaa. Ka hor inta aan loo wareegin iCloud ama LaCodea ID, SimpleTime wuxuu sameeyaa nuqul badbaado oo qalabkan ah, haddii halkaas horeba xog ku jirtana, waxaad dooranaysaa “Isku dar” ama “Qaado xogta …”.",
+              "Beddelku wuxuu khuseeyaa qalabkan oo keliya, badanaana wuxuu dhaqan galaa marka aad SimpleTime gebi ahaanba xirto oo dib u furto – boggu wuu kuu sheegayaa. Qalabkaaga kale waxay sii wadaan isku-waafajinta sidii hore ilaa aad halkaas sidoo kale ku beddesho. Kadib, SimpleTime wuxuu kuu soo bandhigaa inuu tirtiro xogta meeshii hore; taas samee oo keliya marka qalabkaaga kale ay iyaguna wareegaan – haddii kale xogtaas way lumin doonaan."
+            ]
+          },
+          {
+            "id": "recovery-key",
+            "q": "Waa maxay furaha soo celinta?",
+            "a": [
+              "Marka LaCodea ID uu yahay meesha kaydinta, SimpleTime wuxuu xogtaada u sireeyaa dhammaad-ilaa-dhammaad; qalabkaaga Apple inta badan iskood ayay furaha u helaan iyagoo maraya xirmada furayaasha iCloud. Qalab aan lahayn xirmada furayaasha iCloud-kaaga – tusaale ahaan mid leh Apple Account kale – hal mar ayuu u baahan yahay furahaaga soo celinta: 24 xaraf iyo lambar. Waxaad ka helaysaa Dejinta › Xogta iyo isku-waafajinta › Furaha soo celinta, kadib Face ID ama koodhka qalabkaaga; ilaa aad xaqiijiso inaad kaydisay, bogga Ammaanka ayaa ku xasuusinaya. Ku hay maamulahaaga erayada sirta ama warqad – isaga iyo qalabkaaga la'aantood, qofna ma furi karo xogtaada, xitaa annaga."
+            ]
+          },
+          {
+            "id": "recovery-key-lost",
+            "q": "Waan lumiyay furahayga soo celinta – hadda maxaa xiga?",
+            "a": [
+              "Qalab weli akhriyi kara xogtaada, SimpleTime wuxuu mar kale kaaga muujinayaa Dejinta › Xogta iyo isku-waafajinta › Furaha soo celinta adigoo taabanaya “Muuji furaha soo celinta” – ama halkaas mid cusub ayaad ka samaysan kartaa, kii horena mar dambe ma shaqeeyo. Haddii qalabkaaga midkoodna aanu mar dambe furi karin xogta, qofna ma soo celin karo – xitaa annaga. Markaas, marka lagu weydiiyo, taabo “Waan lumiyay furahayga soo celinta” oo dib ugu bilow xogta qalabkan; wixii ku jiray server-ka ama qalabkaaga kale oo keliya way lumayaan."
+            ]
+          },
+          {
+            "id": "backups",
+            "q": "Kaydadku sidee bay u shaqeeyaan?",
+            "a": [
+              "Dejinta › Kaydadka, waxaad ka samaysan kartaa qorshayaal kayd inta aad rabto. Qorshe kastaa wuxuu leeyahay meel – iCloud Drive, gal ku jira app-ka Faylasha sida Dropbox ama Google Drive, server-kaaga adigoo adeegsanaya WebDAV, ama qalabkan –, jadwal laga bilaabo saacad kasta ilaa bil kasta, muddo haynta ah, haddii aad rabtana eray sir ah. Isla boggaas, waqti kasta waxaad sidoo kale gacanta ku samayn kartaa kayd."
+            ]
+          },
+          {
+            "id": "backup-password",
+            "q": "Ma ku ilaalin karaa kaydadkayga eray sir ah?",
+            "a": [
+              "Haa. Haddii aad qorshe u dejiso eray sir ah, kayd kasta waxaa lagu sireeyaa qalabkaaga ka hor inta aan la kaydin. Erayga sirta si fiican u ilaali: la'aantiis, qofna ma soo celin karo kaydka – adiga iyo annagaba. Waddo kale ma jirto."
+            ]
+          },
+          {
+            "id": "backup-files",
+            "q": "Xaggee ka helaa kaydadkayga?",
+            "a": [
+              "Kaydadka qorshe lagu dejiyay “Qalabkan oo keliya” waxay sidoo kale ka muuqdaan app-ka Faylasha, hoosta “On My iPhone” (ama “On My iPad”) › SimpleTime › Backups, kuwa qorshe iCloud Drive ahna hoosta iCloud Drive › SimpleTime › Backups. Qorshayaasha gal ku jira app-ka Faylasha ama server-kaaga waxay dhigaan meesha aad dooratay. Kaydadka qalabka ku jira waxay la lumayaan qalabka – iyo marka aad tirtirto SimpleTime. Waxaa fiican inaad qorshayaashaada siiso eray sir ah: la'aantiis, qof kasta oo gelitaan u leh meesha wuu furi karaa kayd – qalabka, qof kasta oo fura, xitaa marka qufulka app-ku daaran yahay."
+            ]
+          },
+          {
+            "id": "restore",
+            "q": "Sideen u soo celiyaa kayd?",
+            "a": [
+              "Dejinta › Kaydadka, waxaad ka soo celisaa kayd – mid ka mid ah qorshayaashaada ama fayl. Xogta jirta waa la hayaa, wixii maqanna waa lagu daraa. Kaydadka SimpleTime 4.7 iyo wixii ka horreeyay waxaa lagu soo dhoofiyaa Dejinta › Dhoofi / soo dhoofi xogta › Soo dhoofi kayd JSON ah. Haddii uu yahay qalab cusub, waxaa fiican inaad sugto ilaa isku-waafajinta iCloud ama LaCodea ID ay keento xogtaada – haddii kale hawluhu waxay noqon karaan laba jeer."
+            ]
+          },
+          {
+            "id": "export",
+            "q": "Ma dhoofin karaa xogtayda?",
+            "a": [
+              "Haa, waqti kasta: fayl CSV ah oo diiwaan kastaa leeyahay saf – taariikh, bilow, dhammaad, hawl, muddo, saacado tobanle ah iyo qoraal, loogu talagalay Excel, Numbers ama app kasta oo xaashi xisaabeed ah –, warbixin PDF ah ama kayd.",
+              "Dejinta › Dhoofi / soo dhoofi xogta, waxaad ka doorataa muddada faylka CSV – laga bilaabo maanta ilaa waqtiga oo dhan, ama mid adiga kuu gaar ah, sida bishii hore. Kayd waxaad ka samaysaa Dejinta › Kaydadka."
+            ]
+          },
+          {
+            "id": "timesheet",
+            "q": "Sideen u helaa saacadahayga warqadda saacadaha shaqada?",
+            "a": [
+              "PDF ahaan: Dejinta › Dhoofi warbixinta, dooro muddada – tusaale ahaan “Bishii hore” – oo qaybta “Dhammaan diiwaannada” daaran u daa; waxay liis gareysaa diiwaan kasta oo leh bilow, dhammaad, hawl iyo qoraal, iyo wadarta maalin kasta, wadarta guud iyo saacado tobanle ah. Xaashi xisaabeed ahaan: Dejinta › Dhoofi / soo dhoofi xogta, dooro muddada oo taabo “Dhoofi xogta CSV ahaan” – saf diiwaan kasta oo leh taariikh, bilow, dhammaad, hawl, muddo, saacado tobanle ah iyo qoraal, loogu talagalay Excel ama Numbers. Labaduba waa bilaash, diiwaannada ka yimid waqtiyada go'anna waa la xisaabiyaa sida kuwa kale."
+            ]
+          },
+          {
+            "id": "rounding",
+            "q": "SimpleTime ma u dhoweyn karaa waqtiyada, tusaale ahaan rubuc saacadood?",
+            "a": [
+              "Maya, dejin u dhowayn ma jirto: SimpleTime wuxuu kaydiyaa bilowga iyo dhammaadka sida aad u diiwaangeliso. Qaybta PDF-ka “Dhammaan diiwaannada” iyo dhoofinta CSV, saf kasta waxaa loo dhoweeyaa daqiiqadda, waxaana lagu qoraa saacado tobanle ah oo leh laba lambar kadib dhibicda; PDF-ka, wadarradu waxay si sax ah isugu geeyaan qiimayaashan. Haddii aad u baahan tahay rubuc saacadood, ka beddel bilowga iyo dhammaadka diiwaanka ama ku dhowee app-kaaga xaashida xisaabta."
+            ]
+          },
+          {
+            "id": "import",
+            "q": "Ma soo dhoofin karaa xog ka timid app kale?",
+            "a": [
+              "Maya. SimpleTime wuxuu akhriyaa oo keliya kaydadkiisa – faylasha CSV, xitaa kuwiisa, lama soo dhoofin karo, dhacdooyinka kalandarkaaguna ma noqdaan diiwaanno. Waqtiyadii hore waxaad gacanta ku dari kartaa tabka Maalin adigoo isticmaalaya +."
+            ]
+          },
+          {
+            "id": "new-device",
+            "q": "Sideen ugu guuraa iPhone cusub?",
+            "a": [
+              "Ku soo gal isla Apple Account-ka oo rakib SimpleTime – haddii aad isticmaasho iCloud (Dejinta › Xogta iyo isku-waafajinta), diiwaannadaadu iskood ayay u soo noqdaan. Haddii aad isticmaasho LaCodea ID, ku soo gal qalabka cusub oo ka dooro Xogta iyo isku-waafajinta; haddii qalabku aanu iskiis u helin furaha isagoo maraya xirmada furayaasha iCloud-kaaga, app-ku hal mar ayuu ku weydiinayaa furahaaga soo celinta. Haddii kale, kayd ku samee qalabka hore oo ku soo celi kan cusub. Meelaha iyo dejintu waxay ka tirsan yihiin qalab kasta – lama isku-waafajiyo, kaydna laguma sameeyo."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "privacy",
+        "title": "Asturnaanta iyo ammaanka",
+        "items": [
+          {
+            "id": "data-location",
+            "q": "Xaggee lagu kaydiyaa xogtayda?",
+            "a": [
+              "Meesha aad doorato: Dejinta hoosta Xogta iyo isku-waafajinta, waxaad kala dooranaysaa “Qalabkan oo keliya”, iCloud-kaaga gaarka ah, oo Apple ay ku sireyso, iyo LaCodea ID, oo lagu sireeyo dhammaad-ilaa-dhammaad – meelahaas midkoodna diiwaannadaada ma akhriyi karno. Kaydadka waxaa lagu kaydiyaa meel kasta oo qorshayaashaada kaydku dhigaan; eray sir ah la'aantiis, qof kasta oo gelitaan u leh meeshaas wuu akhriyi karaa. Haddii aad Pro ku daarto “Diiwaannada kalandarka”, diiwaannada dhammaaday waxay sidoo kale kalandarkaaga uga muuqdaan dhacdooyin – oo ay arki karaan bixiyihiisa iyo qof kasta oo aad la wadaagto."
+            ]
+          },
+          {
+            "id": "lacodea-id-privacy",
+            "q": "Yaa akhriyi kara diiwaannadayda marka aan ku isku-waafajiyo LaCodea ID?",
+            "a": [
+              "Qalabkaaga oo keliya. SimpleTime wuxuu qalabkaaga ku sireeyaa hawlaha, diiwaannada iyo waqtiyadooda iyo qoraalladooda, waqtiyada go'an, hadafyada iyo xasuusinnada (AES-GCM oo leh 256 bit) ka hor inta aysan u gudbin server-ka SimpleTime – furaha waxaa haysta oo keliya qalabkaaga, ee ma aha annaga. Server-ku wuxuu arkaa oo keliya tirada walxaha nooc kasta, qiyaas ahaan cabbirkooda, goorta la qoray iyo haddii la tirtiray; wuxuu ku yaal xarun xog oo ku taal Frankfurt am Main. Faahfaahinta waxay ku qoran tahay [siyaasaddayada asturnaanta](@privacy)."
+            ]
+          },
+          {
+            "id": "tracking-me",
+            "q": "SimpleTime ma i raad-raacaa?",
+            "a": [
+              "Maya. SimpleTime ma muujiyo xayaysiis, xog ma iibiyo, ma dhiso faylal ku saabsan isticmaaleyaasha, kumana raad-raaco app-yada iyo mareegaha kale. Si aan khaladaadka si degdeg ah u helno, app-ku wuxuu server-kayaga u diraa warbixinnada burburka iyo tirakoobka isticmaalka oo aan magac lahayn – aqoonsi qalab ma leh, weligeedna kuma jiraan hawlahaaga, waqtiyadaada ama qoraalladaada. Waxaad ka dami kartaa Dejinta › Asturnaanta › Guudmar iyo oggolaanshaha. Faahfaahinta waxay ku qoran tahay [siyaasaddayada asturnaanta](@privacy)."
+            ]
+          },
+          {
+            "id": "permissions",
+            "q": "SimpleTime oggolaansho noocee ah ayuu codsadaa?",
+            "a": [
+              "Kaliya waxa sifo u baahan tahay, kaliyana marka aad isticmaasho: ogeysiisyo loogu talagalay xasuusinnada iyo ogeysiisyada meelaha, goobtaada loogu talagalay meelaha, kalandarradaada loogu talagalay “Diiwaannada kalandarka”, ku darista sawirrada si sawirro loo kaydiyo, iyo Face ID ama Touch ID loogu talagalay qufulka app-ka. Dejinta gudaheeda, hoosta Asturnaanta › Guudmar iyo oggolaanshaha, waxaad ku arkaysaa mid kasta iyo xaaladdiisa hadda."
+            ]
+          },
+          {
+            "id": "location",
+            "q": "SimpleTime muxuu goobtayda ugu baahan yahay?",
+            "a": [
+              "Kaliya meelaha, oo ka mid ah SimpleTime Pro: si hawl ay u bilaabato marka aad meel timaado. iOS wuxuu ilaaliyaa aagagga aad dejiso, wuxuuna app-ka u sheegaa marka aad timaado ama baxdo. Meelahaagu waxay ku jiraan qalabkaaga, SimpleTime-na ma kaydiyo halka aad tagtay. Meelo la'aan, SimpleTime uma baahna goobtaada."
+            ]
+          },
+          {
+            "id": "app-lock",
+            "q": "Qufulka app-ku sidee buu u shaqeeyaa?",
+            "a": [
+              "Dejinta › Qufulka app-ka, waxaad ka doorataa in SimpleTime lagu furo Face ID ama Touch ID iyo koodhka qalabkaaga, ama koodh adiga kuu gaar ah – lambarro ama eray sir ah. Beddelaha app-yada gudihiisa, SimpleTime wuu daboolnaanayaa, magacyada hawlahana mar dambe kama muuqdaan raadinta iPhone-ka ama astaanta app-ka; hoosta “Ka baxsan app-ka”, waxaad ka doorataa waxa ogeysiisyada, widgets-ka iyo Apple Watch-ku muujinayaan. Haddii aad illowdo koodhkaaga gaarka ah, waxaad horay u daari kartaa “Dib u deji koodhka la ilaaway adigoo adeegsanaya koodhka qalabka” ama aad dejisan kartaa eray sir ah oo degdeg ah. Labadaas la'aantood, waddada keliya ee dib loogu noqon karo waa in la tirtiro oo dib loo rakibo app-ka – wixii qalabkan oo keliya ku jirayna way lumayaan haddii aadan kayd haysan."
+            ]
+          },
+          {
+            "id": "security-overview",
+            "q": "Bogga Ammaanka maxuu muujiyaa?",
+            "a": [
+              "Dejinta › Ammaanka › Guudmar, hal jaleec ayaad ku arkaysaa sida xogtaadu u ilaalisan tahay: koodhka qalabka, qufulka app-ka, kaydad toos ah iyo kuwo la sireeyay iyo meesha xogtaadu ku jirto – LaCodea ID-ga, sidoo kale sireynta dhammaad-ilaa-dhammaad iyo furahaaga soo celinta. Wixii weli maqan waxay ku qoran yihiin hoosta “Lagu taliyay”; shay kastaa wuxuu sharxaa sida uu kuu ilaaliyo, haddii loo baahdana wuxuu kuu geeyaa dejinta ku habboon."
+            ]
+          },
+          {
+            "id": "delete-all",
+            "q": "Sideen u tirtiraa dhammaan xogtayda?",
+            "a": [
+              "Dejinta hoosta Asturnaanta › Tirtir dhammaan xogta, hal mar ayaad ka saartaa wax walba – diiwaannada iyo hawlaha, hadafyada, meelaha, qashinka, xasuusinnada, kaydadka qorshayaashaada iyo kaydadkii hore ee iCloud Drive, dhoofinnada, dejinta oo uu ku jiro koodhka qufulka app-ka iyo dhacdooyinka SimpleTime ku daray kalandarkaaga.",
+              "Waxaa laga tirtiraa qalabkan, iCloud iyo – haddii aad ku isku-waafajiso LaCodea ID – server-ka; iyadoo loo marayo iCloud, tirtirku wuxuu sidoo kale gaaraa qalabkaaga kale isla marka ay khadka ku soo galaan. Haddii aad ku isku-waafajiso LaCodea ID, qalabkaaga kale xogtooda way haystaan, isku-waafajintuna way joogsanaysaa ilaa aad halkaas dib ugu dejiso – halkaasna ka tirtir – akoonkaaga LaCodea ID-na wuu sii jirayaa. Tan dib looma celin karo."
+            ]
+          },
+          {
+            "id": "delete-app",
+            "q": "Maxaa dhacaya haddii aan tirtiro SimpleTime?",
+            "a": [
+              "Markaas wixii qalabkan oo keliya ku jiray way baaba'aan: diiwaannadaada haddii aad dooratay “Qalabkan oo keliya”, kaydadka qorshe “Qalabkan oo keliya” ah, meelahaaga iyo dejintaada oo uu ku jiro qufulka app-ka. Wixii ku jira iCloud ama LaCodea ID halkaas ayay ku sii jiraan, waxayna soo noqdaan kadib dib-u-rakibidda marka aad mar kale isticmaasho isla meesha Xogta iyo isku-waafajinta.",
+              "Kaydadka ku jira iCloud Drive, gal ku jira app-ka Faylasha ama server-kaaga way sii jiraan, sidoo kale dhacdooyinka kalandarkaaga; kayd la sireeyay, markaas waxaad u baahan doontaa eraygiisa sirta. Ishtiraakku wuu sii socdaa ilaa aad joojiso, LaCodea ID-gaaguna wuu sii jirayaa. Haddii aad rabto inaad marka hore wax walba ka saarto, isticmaal Dejinta › Asturnaanta › Tirtir dhammaan xogta."
+            ]
+          },
+          {
+            "id": "lacodea-id-delete",
+            "q": "Sideen uga baxaa ama u tirtiraa LaCodea ID-gayga?",
+            "a": [
+              "Taabo LaCodea ID-gaaga xagga sare ee Dejinta: “Ka bax” wuxuu kaa saaraa dhammaan app-yada LaCodea ee qalabkan – xogtaadu halkan ayay ku jiraysaa, waxaana mar kale la isku-waafajinayaa isla marka aad soo gasho. “Ka goo SimpleTime” wuxuu SimpleTime ka gooyaa akoonkaaga oo keliya; “Tirtir LaCodea ID” wuxuu tirtiraa akoonka dhammaan app-yada LaCodea – taas waxaad sidoo kale ku samayn kartaa account.lacodea.com. Haddii aad gooyso ama tirtirto, server-ka SimpleTime wuxuu halkaas ka tirtiraa xogtaada la isku-waafajiyay; wixii ku jira qalabkaaga ama iCloud way sii jiraan. Ishtiraak Apple lagu qaatay wuu sii socdaa ilaa aad ka joojiso dejinta qalabkaaga."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "pro",
+        "title": "SimpleTime Pro",
+        "items": [
+          {
+            "id": "pro-includes",
+            "q": "Maxaa ku jira SimpleTime Pro?",
+            "a": [
+              "App-ka Apple Watch, dib-u-eegisyada toddobaadkaaga, bishaada iyo sannadkaaga, meelaha, diiwaannadaada oo dhacdooyin ahaan uga muuqda kalandarkaaga iyo hawlo ka yimid kalandarradaada, guudmarka sannadka, hadafyada, Shaandhada Diiradda, widget bilow degdeg ah, toddoba midab oo xoojin ah ama mid adiga kuu gaar ah, lix farood, lix iyo toban astaamood oo app ah iyo qaybo dheeraad ah oo warbixinta PDF ah. App-ka saacaddu wuxuu u baahan yahay iPhone; meelaha iyo astaamaha app-ka waxaa laga heli karaa iPhone iyo iPad. Wax kasta oo dambe soo kordha way ku jiraan. [Wax walba oo ku saabsan SimpleTime Pro](@pro)"
+            ]
+          },
+          {
+            "id": "pro-price",
+            "q": "Imisa ayuu ku kacaa SimpleTime Pro?",
+            "a": [
+              "Pro waxaa lagu heli karaa bille, sannadle ama iibsasho hal mar ah – “Weligaa”. Qiimayaashu waxay ku xiran yihiin dalkaaga iyo lacagtaada, waxaana lagu muujiyaa app-ka ka hor inta aadan iibsan."
+            ]
+          },
+          {
+            "id": "trial",
+            "q": "Ma marka hore tijaabin karaa Pro?",
+            "a": [
+              "Haa. Kuwa ishtiraakka ku cusub waxay Bille ama Sannadle ku tijaabin karaan toddobaad bilaash ah; app-ku wuxuu muujiyaa haddii tijaabadu adiga ku khusayso. Haddii aadan joojin ugu yaraan 24 saacadood ka hor inta aysan dhammaan, ishtiraakku wuxuu ku cusboonaadaa qiimaha la muujiyay."
+            ]
+          },
+          {
+            "id": "family",
+            "q": "Qoyskaygu ma isticmaali karaa Pro?",
+            "a": [
+              "Haa. SimpleTime Pro wuxuu la shaqeeyaa Wadaagista Qoyska – hal iibsasho oo loogu talagalay ilaa lix qof."
+            ]
+          },
+          {
+            "id": "restore-purchase",
+            "q": "Waxaan iibsaday Pro – sideen ugu helaa qalabkayga kale?",
+            "a": [
+              "Pro wuxuu ka tirsan yahay Apple Account-kaaga: qalabkaaga kale ee leh isla akoonka, inta badan iskiis ayuu u furmaa. Haddii kale, halkaas ka taabo “Soo celi” Dejinta › SimpleTime Pro.",
+              "Qalab leh Apple Account kale, Pro waxaad ku helaysaa LaCodea ID: labada qalabba ku soo gal isla LaCodea ID-ga. Haddii aad Pro iibsatay ka hor inta aadan soo gelin, sidoo kale LaCodea ID-gaaga ku soo gal qalab leh Apple Account-ka aad ku iibsatay – SimpleTime halkaas ayuu iibsashada uga warbixiyaa akoonkaaga. Kadib bogga Pro wuxuu muujiyaa “Iyadoo loo marayo LaCodea ID-gaaga” iyo, haddii uu yahay ishtiraak, meesha aad ka qaadatay – halkaas oo keliya ayaad ka beddeli kartaa."
+            ]
+          },
+          {
+            "id": "cancel",
+            "q": "Sideen u joojiyaa ishtiraakkayga?",
+            "a": [
+              "Dejinta App Store-kaaga gudaheeda – iPhone-ka, hoosta Dejinta › magacaaga › Ishtiraakyada – ama app-ka gudihiisa, bogga Pro hoosta Maamul ishtiraakka. Tani waxay ka shaqaysaa oo keliya qalab leh Apple Account-ka aad ishtiraakka ku qaadatay; haddii aad Pro ku haysato LaCodea ID-gaaga, bogga Pro ayaa magacaabaya qalabkaas. Pro wuu firfircoonaanayaa ilaa dhammaadka muddada aad horeba u bixisay, tirtirka LaCodea ID-gaaguna sidoo kale ma joojiyo ishtiraak."
+            ]
+          },
+          {
+            "id": "lifetime-switch",
+            "q": "Ishtiraak ayaan haystaa – ma u wareegi karaa Weligaa?",
+            "a": [
+              "Haa, isla bogga Pro. Hase yeeshee Apple si toos ah uma joojiso ishtiraakka: kadib jooji si uusan isu cusboonaysiin. App-ku wuu ku xasuusinayaa."
+            ]
+          },
+          {
+            "id": "pro-ends",
+            "q": "Maxaa dhacaya marka Pro dhammaado?",
+            "a": [
+              "Waxba ma lumaan. Diiwaannadaada, hadafyadaada iyo meelahaagu way kaydsanaanayaan. Sifooyinka Pro mar kale ayaa la xirayaa – tusaale ahaan, meeluhu mar dambe ma bilaabaan hawlo – wax walbana way soo noqonayaan isla marka Pro mar kale firfircoonaado."
+            ]
+          },
+          {
+            "id": "pro-offline",
+            "q": "Pro ma u baahan yahay xiriir internet?",
+            "a": [
+              "Maya. SimpleTime wuxuu iibsashadaada ka hubiyaa App Store-ka – haddii aad ku soo gashay LaCodea ID, sidoo kale akoonkaaga – mar kasta oo uu awoodo. Xiriir la'aan, Pro wuu sii shaqaynayaa – ilaa laba toddobaad oo xiriir la'aan ah."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "watch-places",
+        "title": "Apple Watch iyo meelaha",
+        "items": [
+          {
+            "id": "watch-setup",
+            "q": "Sideen u dejiyaa app-ka Apple Watch?",
+            "a": [
+              "App-ka Apple Watch wuxuu ka mid yahay SimpleTime Pro. Ku rakib saacaddaada, kadibna hal mar ka fur SimpleTime iPhone-kaaga – dhowr ilbiriqsi kadib, saacaddu waxay muujinaysaa hawlahaaga. iPhone-kaagu wuxuu ahaanayaa isha: wixii saacaddu bilowdo halkaas ayaa lagu diiwaangeliyaa, iyadoo la adeegsanayo isla Dhaqdhaqaaqa Tooska ah iyo isla widgets-ka."
+            ]
+          },
+          {
+            "id": "watch-features",
+            "q": "Maxaan ka samayn karaa Apple Watch-kayga?",
+            "a": [
+              "Ka bilow oo ka jooji gacantaada – kuwa aad jeceshahay, kuwa dhawaan la isticmaalay, ama hawl kasta adigoo raadinaya. Hore u bilow: 5, 15, 30 ama 60 daqiiqo ka hor, ama si aan kala go' lahayn laga bilaabo dhammaadka diiwaankaagii u dambeeyay. Ku jooji laba-taabasho. La soco maalintaada, toddobaadkaaga iyo hadafyadaada, adigoo waqtiga socda ku arkaya wejiga saacaddaada iyo Smart Stack. Haddii iPhone-kaagu aanu kuu dhowayn, taabashooyinkaaga waxaa lagu hayaa waqtigooda, waxaana la gudbiyaa mar dambe."
+            ]
+          },
+          {
+            "id": "places-how",
+            "q": "Meeluhu sidee bay u shaqeeyaan?",
+            "a": [
+              "Ku dar meel – tusaale ahaan xafiiskaaga ama goobtaada jimicsiga – oo leh baaxad laga bilaabo 50 m ilaa 10 km, oo dooro hawl. Marka aad timaado, hawshu si iskeed ah ayay u bilaabataa, ama SimpleTime ayaa marka hore ku weydiinaya. Haddii aad dejiso waqti sugitaan, waxba ma bilaabmaan marka aad uun dhaafto. Marka aad baxdo, hawshu way joogsan kartaa, waxaadna meel ku xaddidi kartaa maalmo iyo saacado gaar ah."
+            ]
+          },
+          {
+            "id": "places-late",
+            "q": "Maxay meel u bilaabataa goor dambe ama aysan gebi ahaanba u bilaabmin?",
+            "a": [
+              "Meeluhu waxay u baahan yihiin gelitaanka goobta oo lagu dejiyay “Mar walba”, iyo Goobta Saxda ah oo daaran. Ka yar 100 m, iOS badanaa wuxuu ogaadaa imaatinkaaga goor dambe, sababtoo ah marka uu gadaal ka shaqaynayo, goobtaadu badanaa waxay ka timaadaa Wi-Fi iyo shabakadda mobilka, ee ma aha GPS – baaxad ka weyn ayaa caawisa. iOS wuxuu la socon karaa ugu badnaan 20 meelood app kasta, Mac-kana meelo ma jiraan."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "more",
+        "title": "Waxyaabo kale",
+        "items": [
+          {
+            "id": "look",
+            "q": "Ma beddeli karaa muuqaalka SimpleTime?",
+            "a": [
+              "Haa: iftiin, mugdi ama sida nidaamka, saddex dherer oo saf ah oo liiska hawlaha ah, iyo, Dejinta › Farta gudaheeda, cabbir qoraal oo adiga kuu gaar ah iyo far buuran. SimpleTime Pro waxaad sidoo kale ku helaysaa toddoba midab oo xoojin ah ama mid adiga kuu gaar ah – wuxuu ku jiraa badhamada, badhamada daar/dami iyo jaantusyada –, lix farood iyo, iPhone iyo iPad, lix iyo toban astaamood oo app ah."
+            ]
+          },
+          {
+            "id": "accessibility",
+            "q": "SimpleTime ma u fudud yahay qof kasta inuu isticmaalo?",
+            "a": [
+              "Haa. VoiceOver wuxuu kor u akhriyaa badhamada, jaantusyada iyo khadka waqtiga luqad kasta oo app-ka ah, jaantusyaduna waxay sidoo kale u yimaadaan garaafyo cod ah. Qoraalku wuxuu raacaa cabbirka qoraalka iOS ilaa heerarka ugu weyn – kaliya madaxa iyo khadka waqtiga ayuu ku koraa ilaa xad, si aanu waxba u daboolin badhamada. Wax badan ayaa ku qoran [bayaankayaga helitaanka](@accessibility); haddii wax kuu shaqayn waayaan, fadlan noo sheeg."
+            ]
+          },
+          {
+            "id": "freelance",
+            "q": "SimpleTime ma u habboon yahay shaqaalaha xorta ah?",
+            "a": [
+              "Diiwaangelinta waqtigaaga, haa: macaamiisha iyo mashaariicda u kala saar hawlo iyo hawlo hoose, oo dhoofi warbixin PDF ah ama fayl CSV ah mar kasta oo aad caddayn u baahato. Qiimaha saacadda iyo biilasha kuma jiraan SimpleTime – kuwaas, dhoofinta u qaado barnaamijkaaga biilasha."
+            ]
+          },
+          {
+            "id": "platforms",
+            "q": "Ma jiraa nooc Android, Windows ama webka ah?",
+            "a": [
+              "Maya. SimpleTime waxaa loo sameeyay iPhone, iPad, Mac iyo Apple Watch. Xogtaada waxaad CSV ahaan u dhoofin kartaa waqti kasta."
+            ]
+          },
+          {
+            "id": "account-web",
+            "q": "Maxaan ka samayn karaa account.lacodea.com?",
+            "a": [
+              "Halkaas waxaad LaCodea ID-gaaga ku maamushaa browser-ka: hababka aad ku soo gasho, ishtiraakyadaada, soo dejinta xogta akoonkaaga iyo tirtirka akoonka – SimpleTime gudihiisa, isla akoonkaas waxaad ka gaartaa xagga sare ee Dejinta. Diiwaannadaada halkaas kama arki doontid: waxay ku jiraan oo keliya SimpleTime ee iPhone, iPad, Mac iyo Apple Watch. Haddii aad ku isku-waafajiso LaCodea ID, waxay ku jiraan server-ka SimpleTime iyagoo lagu sireeyay dhammaad-ilaa-dhammaad – LaCodea ID laftiisu weligiis ma helo."
+            ]
+          },
+          {
+            "id": "feedback",
+            "q": "Waxaan helay khalad ama fikrad ayaan qabaa – xaggee u diraa?",
+            "a": [
+              "Noogu soo qor [contact@simple-time.app](mailto:contact@simple-time.app) – app-ka waxaad sidoo kale ka mari kartaa Dejinta › Jawaab-celin. Haddii uu yahay khalad, fadlan noo sheeg moodelka qalabkaaga, nooca iOS, iPadOS ama macOS iyo nooca SimpleTime – waxaad ka helaysaa Dejinta › Ku saabsan SimpleTime – oo si kooban u sharax waxa aad samaynaysay. Fariin kasta waa la akhriyaa."
+            ]
+          },
+          {
+            "id": "support-us",
+            "q": "Sideen u taageeri karaa SimpleTime?",
+            "a": [
+              "SimpleTime waxaa sameeya hal qof. Qiimayn App Store-ka ah way caawisaa, sidoo kale u sheegidda dadka kale – SimpleTime Pro-na wuxuu horumarinta ka dhigaa mid sii socota."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

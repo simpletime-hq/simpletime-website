@@ -10,4 +10,4 @@ import type { Lang } from './ui';
  * content/<lang>.json has no legal sections of its own; getContent() takes
  * them from en.json, and their ui.ts block has no imprint.* keys.
  */
-export const LEGAL_IN_ENGLISH: ReadonlySet<Lang> = new Set<Lang>(['nb', 'da', 'hu', 'cs', 'hr', 'ro', 'pl', 'fi', 'fil', 'sr', 'vi', 'zh-hant', 'id', 'ko', 'bg', 'th', 'ku', 'sw', 'ps', 'bn', 'am', 'ur', 'fa']);
+export const LEGAL_IN_ENGLISH: ReadonlySet<Lang> = new Set<Lang>(['nb', 'da', 'hu', 'cs', 'hr', 'ro', 'pl', 'fi', 'fil', 'sr', 'vi', 'zh-hant', 'id', 'ko', 'bg', 'th', 'ku', 'sw', 'ps', 'bn', 'am', 'ur', 'fa', 'pt-br', 'ms', 'sk', 'so', 'bs', 'sq', 'ta', 'te', 'mr', 'pa']);

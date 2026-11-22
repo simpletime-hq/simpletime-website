@@ -51,6 +51,16 @@ export const WATCH: Record<Lang, { total: string; clock: string }> = {
   am: { total: '9 ሰዓ እና 2 ደቂቃ', clock: '6:47' },
   ur: { total: '9 گھنٹے اور 2 منٹ', clock: '6:47' },
   fa: { total: '۹ ساعت،‏ ۲ دقیقه', clock: '۱۸:۴۷' },
+  'pt-br': { total: '9 h e 2 min', clock: '18:47' },
+  ms: { total: '9 j dan 2 min', clock: '6:47' },
+  sk: { total: '9 h 2 min', clock: '18:47' },
+  so: { total: '9 scd, 2 daqiiqo', clock: '6:47' },
+  bs: { total: '9 h i 2 min.', clock: '18:47' },
+  sq: { total: '9 orë e 2 min.', clock: '6:47' },
+  ta: { total: '9 ம., 2 நிமி.', clock: '6:47' },
+  te: { total: '9 గం., 2 నిమి.', clock: '6:47' },
+  mr: { total: '9 ता, 2 मिनि', clock: '6:47' },
+  pa: { total: '9 ਘੰਟੇ, 2 ਮਿੰਟ', clock: '6:47' },
 };
 
 /** Arabic-Indic digits where the watch uses them – and the Persian forms in Persian and Pashto, as their formatters write. */

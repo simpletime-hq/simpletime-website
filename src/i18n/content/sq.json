@@ -1,0 +1,950 @@
+{
+  "store": {
+    "lead": "SimpleTime regjistron ku shkon koha juaj. Një prekje e nis, një prekje e ndalon.",
+    "promise": "Nuk nevojitet llogari, pa reklama. Orët tuaja mbeten në pajisjen tuaj – dhe, nëse doni, në iCloud-in tuaj ose te LaCodea ID.",
+    "sections": [
+      {
+        "id": "tracking",
+        "title": "Regjistrimi",
+        "points": [
+          "Një prekje nis dhe ndalon – në aplikacion, nga ekrani bazë, nga Qendra e kontrollit, nga kërkimi në iPhone ose me Siri",
+          "Oraret fikse: krijoni një herë orët e mësimit ose turnet – SimpleTime i regjistron vetë çdo javë",
+          "Detyra me nëndetyra, në aq nivele sa e kërkon puna juaj",
+          "Harruat ta nisni? Shtojeni kohën më vonë dhe ndryshojeni kur të doni",
+          "Ngjyrë, simbol, të preferuara dhe një renditje që e caktoni vetë"
+        ]
+      },
+      {
+        "id": "day",
+        "title": "Dita juaj",
+        "points": [
+          "Listë ose bosht kohor nga ora 0 deri në 24, me një shenjë për orën aktuale",
+          "Shënime për çdo regjistrim",
+          "Krahasimi me dje, menjëherë në krye"
+        ]
+      },
+      {
+        "id": "insights",
+        "title": "Analizat",
+        "points": [
+          "Grafikë rrethorë sipas detyrës dhe sipas produktivitetit",
+          "Dita, java, muaji, viti",
+          "Statistika: krahasimi me periudhën e mëparshme, ecuria, shpërndarja gjatë ditës, regjistrimi më i gjatë dhe më i shkurtër",
+          "Çdo detyrë me shifrat e veta – regjistrimi i parë, më i gjati, këtë javë, këtë vit",
+          "Ndani çdo grafik si imazh"
+        ]
+      },
+      {
+        "id": "reports",
+        "title": "Raportet dhe eksportimi",
+        "points": [
+          "Një raport PDF me seksione që i zgjidhni dhe i renditni vetë",
+          "CSV për Excel dhe Numbers",
+          "Planet e rezervimit: automatikisht në iCloud Drive, në një dosje të aplikacionit Skedarët si Dropbox ose Google Drive, në serverin tuaj ose në pajisje – nëse doni, të enkriptuara me fjalëkalim"
+        ]
+      },
+      {
+        "id": "widgets",
+        "title": "Miniaplikacionet dhe Siri",
+        "points": [
+          "Sot, detyra në vazhdim dhe java në ekranin bazë",
+          "Koha që ecën në ekranin e kyçjes dhe në Dynamic Island",
+          "Një ndërprerës në Qendrën e kontrollit që e nis dhe e ndalon regjistrimin",
+          "Siri dhe Shkurtoret: nisni, ndaloni ose pyesni çfarë është në vazhdim"
+        ]
+      },
+      {
+        "id": "devices",
+        "title": "Në çdo pajisje",
+        "points": [
+          "Sinkronizim mes iPhone, iPad dhe Mac përmes iCloud ose LaCodea ID",
+          "41 gjuhë, pavarësisht nga gjuha e pajisjes suaj",
+          "VoiceOver dhe Dynamic Type në të gjithë aplikacionin"
+        ]
+      },
+      {
+        "id": "data",
+        "title": "Të dhënat tuaja",
+        "points": [
+          "Kyçja e aplikacionit me Face ID, Touch ID ose me një kod personal",
+          "Ju zgjidhni ku ruhen të dhënat tuaja: vetëm në këtë pajisje, në iCloud-in tuaj ose të enkriptuara nga skaji në skaj te LaCodea ID",
+          "Privatësia në një faqe: çdo leje dhe të gjitha të dhënat tuaja me një vështrim",
+          "Nëse doni, LaCodea ID, një llogari për të gjitha aplikacionet e LaCodea – SimpleTime funksionon edhe pa të",
+          "Pa reklama, pa shitje të të dhënave tuaja – pa llogari, ne marrim vetëm raporte anonime ndërprerjesh dhe statistika përdorimi, të cilat mund t’i çaktivizoni",
+          "Fshini gjithçka njëherësh – në pajisje, në iCloud dhe në kopjet rezervë"
+        ]
+      }
+    ],
+    "pro": {
+      "title": "SimpleTime Pro",
+      "intro": "Gjithçka më sipër mbetet falas. Pro shton:",
+      "points": [
+        "Apple Watch: nisni dhe ndaloni nga kyçi i dorës, nisni më herët, mbani nën sy ditën, javën dhe objektivat – me kohën në vazhdim në fytyrën e orës",
+        "Përmbledhjet: java, muaji dhe viti juaj si karta – për t’i shfletuar dhe për t’i ndarë",
+        "Vendet: detyrat nisin vetë kur mbërrini – nëse doni, pas një kohe pritjeje",
+        "Kalendari: çdo regjistrim si ngjarje në kalendarin tuaj – plus detyra nga kalendarët si “Puna” ose “Familja”",
+        "Viti me një vështrim: çdo ditë e vitit në një pamje të vetme, me seritë tuaja",
+        "Objektiva për çdo detyrë – për ditën, javën ose muajin",
+        "Filtri i Fokusit: Fokusi për punën aktivizohet, lista shfaq vetëm punën, kronometri ka nisur tashmë",
+        "Një miniaplikacion i nisjes së shpejtë që e mbushni vetë",
+        "Shtatë ngjyra theksuese ose një ngjyrë sipas dëshirës, gjashtë fonte dhe gjashtëmbëdhjetë ikona aplikacioni",
+        "Seksione shtesë në raportin PDF: ecuria, shpërndarja gjatë ditës, krahasimi, objektivat"
+      ],
+      "pricing": "Pro ofrohet me abonim mujor ose vjetor, ose me një pagesë të vetme përgjithmonë. Abonentët e rinj marrin një javë falas, dhe me Ndarjen familjare deri në gjashtë persona mund ta përdorin Pro. Çmimet shfaqen në aplikacion. Abonimet mujore dhe vjetore rinovohen automatikisht derisa t’i anuloni – këtë mund ta bëni në çdo kohë te cilësimet e App Store. Çdo gjë që vjen më pas është e përfshirë."
+    },
+    "closing": "Për të gjithë ata që duan të dinë ku shkon vërtet koha e tyre – në punë, në universitet, në stërvitje apo për veten e tyre."
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Regjistrimi i kohës për iPhone, iPad dhe Mac",
+      "titleLead": "Një prekje",
+      "titleAccent": "nis kronometrin.",
+      "cta": "Shihni veçoritë",
+      "proof": [
+        "Shkarkim falas",
+        "Pa llogari",
+        "Pa reklama, pa shitje të dhënash"
+      ]
+    },
+    "tour": {
+      "tracking": "Nisni kudo që të jeni."
+    },
+    "devices": {
+      "title": "Në çdo pajisje që përdorni.",
+      "subtitle": "iPhone, iPad dhe Mac sinkronizohen përmes iCloud ose LaCodea ID – dhe kronometri vazhdon të ecë në ekranin e kyçjes, në Dynamic Island dhe në kyçin e dorës."
+    },
+    "showcase": [
+      {
+        "id": "day",
+        "title": "E gjithë dita juaj, me një vështrim."
+      },
+      {
+        "id": "insights",
+        "title": "Shihni ku shkojnë vërtet orët tuaja."
+      },
+      {
+        "id": "reports",
+        "title": "Një raport në pak sekonda."
+      }
+    ],
+    "features": {
+      "title": "Gjithçka që ju nevojitet. Falas.",
+      "subtitle": "Çdo veçori në këtë listë është pjesë e aplikacionit falas."
+    },
+    "pro": {
+      "button": "Gjithçka për SimpleTime Pro"
+    },
+    "audience": {
+      "title": "Për të gjithë ata që duan të dinë ku shkon koha e tyre.",
+      "subtitle": "Në punë, në universitet, në stërvitje – ose thjesht për veten tuaj.",
+      "groups": [
+        {
+          "id": "work",
+          "title": "Punë dhe freelance",
+          "body": "Mbani të ndarë klientët dhe projektet si detyra dhe nëndetyra, dhe eksportoni një evidencë të qartë sa herë që ju duhet."
+        },
+        {
+          "id": "study",
+          "title": "Studime dhe mësim",
+          "body": "Shihni sa kohë kërkon vërtet një lëndë dhe planifikoni javën e ardhshme me shifra reale."
+        },
+        {
+          "id": "training",
+          "title": "Stërvitje dhe zakone",
+          "body": "Regjistroni seancat, ushtrimet ose gjumin dhe shihni si rritet rregullsia javë pas jave."
+        },
+        {
+          "id": "everyday",
+          "title": "Jeta e përditshme",
+          "body": "Zbuloni ku shkojnë vërtet orët – dhe vendosni vetë çfarë doni të ndryshoni."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Pyetje dhe përgjigje.",
+      "subtitle": "Përgjigjet më të rëndësishme me një vështrim – dhe shumë të tjera në faqen e pyetjeve të shpeshta.",
+      "button": "Të gjitha pyetjet dhe përgjigjet"
+    },
+    "cta": {
+      "title": "Gati për të nisur?",
+      "subtitle": "Falas në iPhone, iPad dhe Mac. Pa llogari, pa reklama, pa shitje të të dhënave tuaja.",
+      "note": "Aplikacioni për Apple Watch është pjesë e SimpleTime Pro."
+    }
+  },
+  "shots": [
+    {
+      "id": "tracking",
+      "title": "Regjistroni",
+      "caption": "Një prekje nis kronometrin",
+      "alt": "Skeda Regjistrimi me një detyrë në vazhdim dhe të preferuarat në krye"
+    },
+    {
+      "id": "day",
+      "title": "Dita juaj",
+      "caption": "Çdo regjistrim, deri në sekondë",
+      "alt": "Pamja e ditës si listë regjistrimesh me oraret e tyre"
+    },
+    {
+      "id": "timeline",
+      "title": "Boshti kohor",
+      "caption": "E gjithë dita juaj me një vështrim",
+      "alt": "Pamja e ditës si bosht kohor nga ora 0 deri në 24"
+    },
+    {
+      "id": "chart",
+      "title": "Analizoni",
+      "caption": "Ku shkojnë vërtet orët tuaja",
+      "alt": "Një javë si grafik rrethor sipas detyrave"
+    },
+    {
+      "id": "statistics",
+      "title": "Statistikat",
+      "caption": "Krahasoni javët dhe dalloni ecurinë",
+      "alt": "Statistika që krahasojnë këtë javë me javën e kaluar"
+    },
+    {
+      "id": "report",
+      "title": "Raportet",
+      "caption": "Një PDF i detajuar me çdo detyrë",
+      "alt": "Një faqe e një raporti PDF me çdo detyrë"
+    },
+    {
+      "id": "pro",
+      "title": "Kaloni në Pro",
+      "caption": "Objektiva, viti juaj, ngjyrat tuaja",
+      "alt": "Faqja e SimpleTime Pro në aplikacion"
+    }
+  ],
+  "pro": {
+    "eyebrow": "SimpleTime Pro",
+    "title": "Më shumë nga koha që regjistroni.",
+    "subtitle": "SimpleTime mbetet falas – gjithçka që bën pa Pro mbetet e tillë. Pro shton aplikacionin për Apple Watch, vende që i nisin vetë detyrat, përmbledhje të javës, muajit dhe vitit tuaj, objektiva dhe më shumë.",
+    "featuresTitle": "Çfarë shton Pro",
+    "features": [
+      {
+        "id": "watch",
+        "title": "Apple Watch",
+        "body": "Nisni dhe ndaloni nga kyçi i dorës, nisni më herët, mbani nën sy ditën, javën dhe objektivat – me kohën në vazhdim në fytyrën e orës."
+      },
+      {
+        "id": "reviews",
+        "title": "Përmbledhjet",
+        "body": "Java, muaji dhe viti juaj si karta – për t’i shfletuar dhe për t’i ndarë."
+      },
+      {
+        "id": "places",
+        "title": "Vendet",
+        "body": "Detyrat nisin vetë kur mbërrini – nëse doni, pas një kohe pritjeje, që të mos nisë asgjë kur thjesht kaloni pranë."
+      },
+      {
+        "id": "calendar",
+        "title": "Kalendari",
+        "body": "Çdo regjistrim si ngjarje në kalendarin tuaj – plus detyra nga kalendarët si “Puna” ose “Familja”."
+      },
+      {
+        "id": "year",
+        "title": "Viti me një vështrim",
+        "body": "Çdo ditë e vitit në një pamje të vetme, me serinë tuaj aktuale dhe atë më të gjatë."
+      },
+      {
+        "id": "goals",
+        "title": "Objektivat",
+        "body": "Një objektiv për çdo detyrë – për ditën, javën ose muajin. Llogariten edhe nëndetyrat."
+      },
+      {
+        "id": "focus",
+        "title": "Filtri i Fokusit",
+        "body": "Fokusi për punën aktivizohet, lista shfaq vetëm punën – dhe regjistrimi mund të nisë e të përfundojë bashkë me të."
+      },
+      {
+        "id": "widget",
+        "title": "Miniaplikacioni i nisjes së shpejtë",
+        "body": "Ju vendosni cilat detyra ndodhen në të. Një prekje në ekranin bazë i nis."
+      },
+      {
+        "id": "style",
+        "title": "Ngjyra, fonte dhe ikona aplikacioni",
+        "body": "Shtatë ngjyra theksuese ose një ngjyrë sipas dëshirës, që përshkon të gjithë aplikacionin – plus gjashtë fonte dhe gjashtëmbëdhjetë ikona aplikacioni."
+      },
+      {
+        "id": "report",
+        "title": "Më shumë në raportin PDF",
+        "body": "Ecuria, shpërndarja gjatë ditës, krahasimi me periudhën e mëparshme dhe objektivat – në renditjen që zgjidhni ju."
+      },
+      {
+        "id": "future",
+        "title": "Gjithçka që do të vijë",
+        "body": "Çdo gjë që shtohet më vonë është e përfshirë – pa blerje tjetër."
+      }
+    ],
+    "plansTitle": "Tri mënyra për të marrë Pro",
+    "plansSubtitle": "Çmimet varen nga shteti juaj dhe shfaqen në aplikacion, në monedhën tuaj, para se të blini.",
+    "plans": [
+      {
+        "id": "monthly",
+        "title": "Mujor",
+        "body": "Faturohet çdo muaj. Mund ta anuloni në çdo kohë."
+      },
+      {
+        "id": "yearly",
+        "title": "Vjetor",
+        "body": "Faturohet një herë në vit – aplikacioni tregon sa kurseni krahasuar me pagesën mujore."
+      },
+      {
+        "id": "lifetime",
+        "title": "Përgjithmonë",
+        "body": "Paguani një herë dhe Pro mbetet i juaji përgjithmonë. Nuk skadon kurrë."
+      }
+    ],
+    "notes": [
+      "Abonentët e rinj mund ta provojnë falas për një javë planin Mujor ose Vjetor.",
+      "Ndarja familjare: një blerje për deri në gjashtë persona.",
+      "Çdo gjë që shtohet më vonë është e përfshirë – pa blerje tjetër."
+    ],
+    "legal": "Abonimet mujore dhe vjetore rinovohen automatikisht derisa t’i anuloni. Mund t’i anuloni në çdo kohë te cilësimet e App Store. “Përgjithmonë” është një pagesë e vetme dhe nuk skadon kurrë.",
+    "terms": "Kushtet e përdorimit (EULA)",
+    "privacy": "Politika e privatësisë",
+    "freeTitle": "Çfarë mbetet falas",
+    "freeBody": "Gjithçka që ju nevojitet për regjistrimin e kohës: detyrat dhe nëndetyrat, Oraret fikse, pamja e ditës dhe boshti kohor, grafikët dhe statistikat, raporti PDF dhe eksportimi CSV, miniaplikacionet, Aktiviteti i drejtpërdrejtë, Qendra e kontrollit dhe Siri, sinkronizimi përmes iCloud ose LaCodea ID, planet e rezervimit dhe kyçja e aplikacionit – në 41 gjuhë. Pa llogari, pa reklama, pa shitje të të dhënave tuaja.",
+    "howTitle": "Si ta merrni Pro",
+    "how": [
+      "Në SimpleTime, hapni Cilësimet › SimpleTime Pro.",
+      "Zgjidhni Mujor, Vjetor ose Përgjithmonë – paguani përmes llogarisë suaj Apple.",
+      "Pro zhbllokohet menjëherë, në të gjitha pajisjet tuaja me të njëjtën llogari Apple."
+    ],
+    "faqTitle": "Pyetje për Pro",
+    "ctaTitle": "Nisni falas.",
+    "ctaSubtitle": "Shkarkoni SimpleTime – dhe zhbllokoni Pro në aplikacion kur të doni."
+  },
+  "faq": {
+    "title": "Pyetje dhe përgjigje.",
+    "subtitle": "Gjithçka për SimpleTime – nga prekja e parë deri te SimpleTime Pro.",
+    "searchLabel": "Kërkoni në pyetje",
+    "searchPlaceholder": "p.sh. “kopje rezervë” ose “Apple Watch”",
+    "results": "Pyetje që përputhen: {count}",
+    "noResults": "Asnjë pyetje nuk përputhet me “{query}”.",
+    "noResultsHint": "Provoni një fjalë tjetër – ose [na shkruani](@contact).",
+    "topics": "Temat",
+    "moreTitle": "Keni ende ndonjë pyetje?",
+    "moreBody": "Na shkruani – çdo mesazh lexohet dhe merr përgjigje.",
+    "moreButton": "Kontakti",
+    "categories": [
+      {
+        "id": "basics",
+        "title": "Hapat e parë",
+        "items": [
+          {
+            "id": "what-is",
+            "q": "Çfarë është SimpleTime?",
+            "a": [
+              "SimpleTime është një aplikacion për regjistrimin e kohës në iPhone, iPad dhe Mac. Një prekje nis kronometrin, një prekje e ndalon. Më pas SimpleTime ju tregon ku shkon koha juaj – si listë e ditës ose bosht kohor, në grafikë dhe statistika, si dhe si raport PDF ose skedar CSV. Nuk nevojitet llogari, pa reklama, pa shitje të të dhënave tuaja."
+            ]
+          },
+          {
+            "id": "first-steps",
+            "q": "Si të filloj?",
+            "a": [
+              "Prekni + te skeda Regjistrimi për të krijuar një detyrë – me emër, ngjyrë dhe simbol. Prekni trekëndëshin pranë saj dhe kronometri nis; prekni Ndalo për ta ndalur. Në hapjen e parë, një prezantim i shkurtër ju tregon butonat më të rëndësishëm. Mund ta shihni përsëri në çdo kohë te Cilësimet › Shfaq sërish prezantimin."
+            ]
+          },
+          {
+            "id": "free",
+            "q": "A është SimpleTime falas?",
+            "a": [
+              "Po. Shkarkimi i SimpleTime është falas, ashtu si edhe gjithçka që ju nevojitet për regjistrimin e kohës: detyrat dhe nëndetyrat, oraret fikse, pamja e ditës, grafikët dhe statistikat, raportet dhe eksportimi, miniaplikacionet, sinkronizimi përmes iCloud ose LaCodea ID dhe kopjet rezervë. SimpleTime Pro është opsional dhe shton aplikacionin për Apple Watch, përmbledhjet, vendet, objektivat dhe më shumë. [Gjithçka për SimpleTime Pro](@pro)"
+            ]
+          },
+          {
+            "id": "account",
+            "q": "A më duhet një llogari?",
+            "a": [
+              "Jo. Hapni aplikacionin dhe nisni – pa pasur nevojë të krijoni llogari. Nëse përdorni iCloud, sinkronizimi kalon përmes llogarisë suaj Apple, të cilën ne nuk e shohim kurrë. Nëse doni, mund të hyni me LaCodea ID, llogarinë tonë për të gjitha aplikacionet e LaCodea. Në atë rast ne ruajmë llogarinë tuaj dhe blerjet tuaja të SimpleTime Pro – regjistrimet tuaja vetëm nëse te Të dhënat dhe sinkronizimi zgjidhni LaCodea ID si vendin ku ruhen të dhënat, dhe atëherë të enkriptuara nga skaji në skaj."
+            ]
+          },
+          {
+            "id": "lacodea-id",
+            "q": "Çfarë është LaCodea ID?",
+            "a": [
+              "LaCodea ID është llogaria jonë opsionale për të gjitha aplikacionet e LaCodea. Hyni te pjesa e sipërme e Cilësimeve – me Apple, me një passkey ose me një kod me email. Me të mund të sinkronizoni përmes LaCodea ID me enkriptim nga skaji në skaj, dhe një blerje e SimpleTime Pro vlen në çdo pajisje ku keni hyrë; megjithatë, SimpleTime funksionon shumë mirë edhe pa të."
+            ]
+          },
+          {
+            "id": "devices",
+            "q": "Në cilat pajisje funksionon SimpleTime?",
+            "a": [
+              "Në iPhone dhe iPad me iOS 26 ose iPadOS 26 e më të ri, dhe në Mac me macOS 26 e më të ri. Aplikacioni për Apple Watch është pjesë e SimpleTime Pro dhe kërkon watchOS 26. Nëse te Cilësimet › Të dhënat dhe sinkronizimi zgjidhni iCloud ose LaCodea ID, regjistrimet tuaja mbeten të sinkronizuara në të gjitha pajisjet me të njëjtën llogari Apple ose me të njëjtën LaCodea ID."
+            ]
+          },
+          {
+            "id": "mac",
+            "q": "Çfarë mund të bëjë SimpleTime në Mac?",
+            "a": [
+              "Pothuajse gjithçka që bën në iPhone – regjistrimin, pamjen e ditës, analizat, raportet, eksportimin, kopjet rezervë, sinkronizimin dhe kyçjen e aplikacionit; aty ku në iPhone rrëshqitni, në Mac klikoni me të djathtën. Përveç kësaj, ka kronometrin në shiritin e menysë dhe miniaplikacionet në desktop. Vendet, Aktivitetet e drejtpërdrejta, aplikacioni për Apple Watch dhe ikonat alternative të aplikacionit nuk ofrohen në Mac."
+            ]
+          },
+          {
+            "id": "languages",
+            "q": "Cilat gjuhë flet SimpleTime?",
+            "a": [
+              "41 – nga anglishtja dhe gjermanishtja deri te arabishtja, hindishtja dhe japonishtja. Te Cilësimet › Gjuha mund ta zgjidhni gjuhën e aplikacionit pavarësisht nga gjuha e pajisjes suaj."
+            ]
+          },
+          {
+            "id": "offline",
+            "q": "A funksionon SimpleTime pa internet?",
+            "a": [
+              "Po. Regjistrimi, pamja e ditës, grafikët dhe raportet funksionojnë pa lidhje. Lidhja nevojitet për sinkronizimin, për kopjet rezervë në serverin tuaj, për hyrjen me LaCodea ID, për blerjen e Pro dhe për kërkimin e një adrese për një vend. Çdo gjë që mbetet pezull, SimpleTime e plotëson më vonë – sinkronizimin sapo pajisja juaj të jetë sërish në linjë, një kopje rezervë të anashkaluar herën tjetër që hapni aplikacionin."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tracking",
+        "title": "Regjistrimi",
+        "items": [
+          {
+            "id": "start-stop",
+            "q": "Si ta nis dhe ta ndal regjistrimin?",
+            "a": [
+              "Prekni trekëndëshin pranë një detyre për ta nisur. Detyra në vazhdim shfaqet në krye të skedës Regjistrimi; prekni Ndalo për ta ndalur. Me një prekje në emrin e një detyre hapen nëndetyrat e saj, me rrëshqitje majtas mund ta modifikoni, ta arkivoni ose ta fshini, dhe me rrëshqitje djathtas shfaqet info e saj me të gjitha shifrat – në Mac, të gjitha këto i gjeni me një klikim me të djathtën."
+            ]
+          },
+          {
+            "id": "one-at-a-time",
+            "q": "A mund të jenë dy detyra në vazhdim njëkohësisht?",
+            "a": [
+              "Jo. Në çdo kohë është në vazhdim vetëm një regjistrim: kur nisni një detyrë tjetër, regjistrimi në vazhdim përfundon në po atë çast – kështu regjistrimet tuaja nuk mbivendosen."
+            ]
+          },
+          {
+            "id": "keeps-running",
+            "q": "A vazhdon kronometri kur e mbyll SimpleTime?",
+            "a": [
+              "Po. SimpleTime mban mend kur e nisët dhe e llogarit kohëzgjatjen nga ky moment – regjistrimi vazhdon edhe kur mbyllni aplikacionin, kyçni iPhone-in ose e rinisni. Në ekranin e kyçjes dhe në Dynamic Island, Aktiviteti i drejtpërdrejtë tregon kohën që ecën, me një buton për ta ndalur, dhe përkujtuesit tuaj mbërrijnë edhe kur aplikacioni është i mbyllur."
+            ]
+          },
+          {
+            "id": "add-later",
+            "q": "Harrova ta nis – a mund ta shtoj kohën më vonë?",
+            "a": [
+              "Po. Te skeda Dita, prekni + për të shtuar një regjistrim me fillimin dhe mbarimin e tij, ose prekni një regjistrim ekzistues për ta ndryshuar. Regjistrimet nuk mund të mbivendosen: SimpleTime ju njofton nëse një periudhë përplaset me një regjistrim tjetër. Nëse kronometri është tashmë në vazhdim, prekni regjistrimin në vazhdim në krye të skedës Regjistrimi dhe zhvendoseni fillimin e tij më herët – deri te mbarimi i regjistrimit të mëparshëm."
+            ]
+          },
+          {
+            "id": "restore-entry",
+            "q": "Fshiva një regjistrim – a mund ta rikthej?",
+            "a": [
+              "Po. Nëse fshini një regjistrim te skeda Dita – me një rrëshqitje majtas ose, në Mac, me një klikim me të djathtën –, ai shkon në kosh: lart majtas te skeda Dita, te “Regjistrimet e fshira”, me “Rikthe” e ktheni përsëri, ose e fshini përgjithmonë. Detyrat e fshira presin në kosh lart majtas te skeda Regjistrimi, bashkë me regjistrimet e tyre. Ajo që është fshirë përgjithmonë mund të kthehet vetëm nga një kopje rezervë."
+            ]
+          },
+          {
+            "id": "fixed-times",
+            "q": "Çfarë janë oraret fikse?",
+            "a": [
+              "Oraret që përsëriten, si orët e mësimit, turnet ose orari i pritjes, i krijoni një herë: detyrën, ditët e javës, fillimin dhe mbarimin, çdo javë ose çdo dy javë, nga një ditë që zgjidhni ju dhe, nëse doni, me një datë mbarimi. Sapo të mbarojë një orar, SimpleTime e regjistron vetë – në çdo pajisje ku hapni SimpleTime, e megjithatë vetëm një herë; plotëson më së shumti 31 ditët e fundit. Ju regjistroni vetëm atë që shtohet përveç tyre; e gjeni te Cilësimet › Regjistrimi › Oraret fikse, pa pasur nevojë për Pro."
+            ]
+          },
+          {
+            "id": "fixed-times-pause",
+            "q": "A mund t’i pezulloj ose t’i ndryshoj oraret fikse?",
+            "a": [
+              "Po. Për pushimet e shkollës, pushimet vjetore ose sëmundjen, shtoni një pauzë te Cilësimet › Regjistrimi › Oraret fikse me “Shto pauzë” – gjatë saj SimpleTime nuk regjistron asgjë; një orar të vetëm e çaktivizoni me ndërprerësin e tij. Regjistrimet e bëra tashmë mund t’i ndryshoni ose t’i fshini si çdo regjistrim tjetër, dhe nëse ndryshoni ose fshini një orar fiks, ajo që është regjistruar tashmë mbetet. Nëse një orar fiks mbivendoset me një regjistrim që ekziston tashmë, SimpleTime nuk e regjistron."
+            ]
+          },
+          {
+            "id": "subtasks",
+            "q": "Si funksionojnë nëndetyrat?",
+            "a": [
+              "Prekni emrin e një detyre për ta hapur, pastaj shtoni aty nëndetyra me +. Mund t’i strukturoni në aq nivele sa e kërkon puna juaj – klient, projekt, fazë. Në grafikë, raporte dhe objektiva, nëndetyrat llogariten te detyra mbi to."
+            ]
+          },
+          {
+            "id": "order",
+            "q": "Si ta mbaj në rregull listën e detyrave?",
+            "a": [
+              "Shënoni si të preferuara detyrat që përdorni çdo ditë – ato mbeten në krye. Të tjerat mund t’i renditni sipas alfabetit, sipas përdorimit më të shpeshtë, sipas përdorimit më të fundit ose në një renditje sipas dëshirës. Një ngjyrë dhe një simbol – ose një emoji – e bëjnë çdo detyrë të lehtë për t’u dalluar."
+            ]
+          },
+          {
+            "id": "archive-trash",
+            "q": "Cili është ndryshimi mes arkivimit dhe fshirjes?",
+            "a": [
+              "Arkivimi thjesht e fsheh një detyrë: regjistrimet e saj mbeten dhe vazhdojnë të llogariten në të gjitha analizat. Fshirja e zhvendos detyrën bashkë me regjistrimet e saj në kosh – atëherë koha e tyre nuk llogaritet më askund. Arkivin dhe koshin i gjeni lart majtas te skeda Regjistrimi: nga arkivi, “Rikthe” e kthen një detyrë; nga koshi, e kthen detyrën bashkë me regjistrimet e saj – ose aty e fshini përgjithmonë."
+            ]
+          },
+          {
+            "id": "notes",
+            "q": "A mund t’u shtoj shënime regjistrimeve?",
+            "a": [
+              "Po, çdo regjistrim mund të ketë një shënim – për çfarë keni punuar ose me kë. E shtoni kur krijoni ose modifikoni një regjistrim te skeda Dita, ose, ndërsa kronometri është në vazhdim, duke prekur regjistrimin në vazhdim në krye të skedës Regjistrimi. Shënimin e shihni kur hapni regjistrimin, te info e një detyre nën “Të gjitha regjistrimet”, në seksionin “Të gjitha regjistrimet” të raportit PDF dhe në eksportimin CSV; kopjet rezervë e përfshijnë."
+            ]
+          },
+          {
+            "id": "reminders",
+            "q": "A mund të më kujtojë SimpleTime?",
+            "a": [
+              "Po. Te Cilësimet › Konfiguro njoftimet caktoni rregulla – për shembull një përkujtues kur një detyrë është në vazhdim prej 60 minutash, për të gjitha detyrat ose vetëm për disa të zgjedhura, në ditët e javës që zgjidhni. Me “Më kujto kur asgjë nuk është në vazhdim”, SimpleTime ju njofton edhe kur për një kohë nuk është regjistruar asgjë."
+            ]
+          },
+          {
+            "id": "time-zone",
+            "q": "Udhëtova në një brez orar tjetër – pse regjistrimet e mia shfaqen me orë të tjera?",
+            "a": [
+              "Si parazgjedhje, SimpleTime e shfaq çdo regjistrim në brezin orar ku ndodhet tani pajisja juaj – si Kalendari i Apple: ajo që keni regjistruar në orën 9 në New York shfaqet në orën 15 në Berlin. Te Cilësimet › Brezi orar mund të zgjidhni në vend të kësaj “Brezi orar i regjistrimit”: atëherë çdo regjistrim shfaqet me orën dhe në ditën kur e regjistruat – kudo ku shfaqen oraret dhe totalet. Kohëzgjatja mbetet e njëjtë në të dyja rastet; regjistrimet nga versionet para 4.7 shfaqen gjithmonë në brezin orar të pajisjes."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "insights",
+        "title": "Pamja e ditës dhe analizat",
+        "items": [
+          {
+            "id": "day-view",
+            "q": "Çfarë tregon pamja e ditës?",
+            "a": [
+              "Çdo regjistrim të një dite me fillimin, mbarimin dhe kohëzgjatjen – si listë ose si bosht kohor nga ora 0 deri në 24 me një shenjë për orën aktuale, kur është dita e sotme; në ekranet e gjera si iPad dhe Mac, shfaqen të dyja krah për krah. Në krye shihni totalin e ditës dhe krahasimin me ditën e mëparshme."
+            ]
+          },
+          {
+            "id": "charts",
+            "q": "Çfarë grafikësh dhe statistikash ka?",
+            "a": [
+              "Te skeda Grafiku: grafikë rrethorë sipas detyrës dhe sipas produktivitetit, për një ditë, një javë, një muaj ose një vit. Lart djathtas, te “Më shumë statistika”, gjeni krahasimin me periudhën e mëparshme, ecurinë, detyrat tuaja kryesore dhe regjistrimin më të gjatë e më të shkurtër – dhe, nga java e lart, si shpërndahet koha juaj gjatë ditës, me orën tuaj më të ngarkuar. Çdo detyrë ka gjithashtu faqen e vet me info – regjistrimi i parë, regjistrimi më i gjatë, këtë javë, këtë vit."
+            ]
+          },
+          {
+            "id": "productivity",
+            "q": "Çfarë është rezultati i produktivitetit?",
+            "a": [
+              "Kur modifikoni një detyrë, te “Produktiviteti” i jepni një kategori: aktivitete produktive, aktivitete joproduktive, detyrime të domosdoshme – ose “Përjashto nga produktiviteti”. Nëndetyrat pa kategori të vetën marrin atë të detyrës mbi to, dhe “Përjashto nga produktiviteti” vlen për gjithçka poshtë saj. Rezultati tregon sa nga koha juaj e vlerësuar ishte produktive ose e domosdoshme: (produktive + të domosdoshme) ÷ (produktive + joproduktive + të domosdoshme) × 100. Koha pa kategori ose e vendosur te “Përjashto nga produktiviteti” nuk llogaritet."
+            ]
+          },
+          {
+            "id": "goals",
+            "q": "Si funksionojnë objektivat?",
+            "a": [
+              "Me SimpleTime Pro, te Cilësimet › Objektivat caktoni një objektiv për çdo detyrë: të paktën ose më së shumti një kohë të caktuar në ditë, në javë ose në muaj – për shembull, të paktën 8 orë sport në javë ose më së shumti 2 orë rrjete sociale në ditë. Nëndetyrat llogariten në objektiv, dhe matet periudha aktuale. Sa keni përparuar e shihni te skeda Grafiku dhe në Apple Watch; te seksioni “Objektivat”, raporti PDF e krahason mesataren në periudhën e zgjedhur me objektivin tuaj."
+            ]
+          },
+          {
+            "id": "share-chart",
+            "q": "A mund ta ndaj një grafik?",
+            "a": [
+              "Po, çdo grafik mund të ndahet si imazh ose të ruhet te Fotografitë. Për ta ruajtur, SimpleTime kërkon vetëm lejen për të shtuar fotografi – nuk mund ta shohë bibliotekën tuaj të fotografive."
+            ]
+          },
+          {
+            "id": "pdf-report",
+            "q": "Si ta krijoj një raport PDF?",
+            "a": [
+              "Te Cilësimet › Eksporto raportin zgjidhni një periudhë – nga sot deri te e gjithë periudha, ose një periudhë të personalizuar –, shënoni seksionet që doni dhe tërhiqini në renditjen e dëshiruar. SimpleTime krijon raportin PDF me çdo detyrë dhe nëndetyrë, gati për ta ndarë ose për ta ruajtur. SimpleTime Pro shton seksione të tjera: “Ecuria”, “Gjatë ditës”, “Krahasimi” dhe “Objektivat”.",
+              "Për fletët e orëve ka seksionin “Të gjitha regjistrimet”: çdo regjistrim ditë pas dite me fillimin, mbarimin, detyrën dhe shënimin, plus totalet ditore, totalin e përgjithshëm dhe orët dhjetore – ideal për t’i krahasuar orët tuaja me fletëpagesën. Është falas, pa pasur nevojë për Pro, dhe i aktivizuar si parazgjedhje."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "shortcuts",
+        "title": "Miniaplikacionet, Siri dhe Fokusi",
+        "items": [
+          {
+            "id": "widgets",
+            "q": "Cilat miniaplikacione ka?",
+            "a": [
+              "Për ekranin bazë: Sot, Detyra në vazhdim dhe Java – Sot dhe Detyra në vazhdim me butona për të nisur dhe për të ndalur. Për ekranin e kyçjes: çfarë është në vazhdim dhe prej sa kohësh. Ka edhe ndërprerësin “Regjistrimi i kohës” për Qendrën e kontrollit. Ndërsa një detyrë është në vazhdim, një Aktivitet i drejtpërdrejtë e shfaq atë në ekranin e kyçjes dhe në Dynamic Island, me një buton për ta ndalur. Me SimpleTime Pro merrni edhe një miniaplikacion të nisjes së shpejtë, që e mbushni me detyrat tuaja."
+            ]
+          },
+          {
+            "id": "without-opening",
+            "q": "A mund ta nis regjistrimin pa e hapur aplikacionin?",
+            "a": [
+              "Po, në disa mënyra. Prekni dhe mbani të shtypur ikonën e aplikacionit për të ndalur atë që është në vazhdim ose për të nisur një nga detyrat tuaja. Shkruani emrin e një detyre te kërkimi në iPhone dhe prekeni. Ose përdorni një miniaplikacion, Siri ose ndërprerësin “Regjistrimi i kohës” – në Qendrën e kontrollit, në ekranin e kyçjes ose te butoni i veprimit nga iPhone 15 Pro e lart –, dhe me SimpleTime Pro, edhe orën tuaj Apple Watch."
+            ]
+          },
+          {
+            "id": "siri",
+            "q": "Si funksionon SimpleTime me Siri dhe Shkurtoret?",
+            "a": [
+              "Thoni, për shembull, “Start Work in SimpleTime”, “Stop tracking in SimpleTime”, “How much did I track today in SimpleTime?” ose “What’s running in SimpleTime?”. Siri i kupton këto fraza në anglisht dhe gjermanisht. Në çdo gjuhë, veprimet janë në dispozicion në aplikacionin Shkurtoret, ku mund t’u jepni edhe një frazë tuajën."
+            ]
+          },
+          {
+            "id": "focus-filter",
+            "q": "Çfarë bën filtri i Fokusit?",
+            "a": [
+              "Me një filtër Fokusi, SimpleTime ndjek Fokusin tuaj: kur aktivizohet “Puna”, lista e detyrave shfaq vetëm kategorinë tuaj të punës – dhe regjistrimi mund të nisë e të përfundojë bashkë me Fokusin. E konfiguroni te cilësimet e iOS, te Fokusi › Fokusi juaj › Filtrat e Fokusit › Shto filtër › SimpleTime. Filtri i Fokusit është pjesë e SimpleTime Pro."
+            ]
+          },
+          {
+            "id": "calendar-entries",
+            "q": "A mund t’i vendosë SimpleTime regjistrimet e mia në kalendar?",
+            "a": [
+              "Po, me SimpleTime Pro: aktivizoni “Regjistrimet në kalendar” te Cilësimet › Kalendari – nga ajo ditë, çdo regjistrim i përfunduar shfaqet si ngjarje, në kalendarin e vet “SimpleTime” ose në një kalendar që zgjidhni ju, nëse doni, veçmas për çdo detyrë. Kur ndryshoni ose fshini një regjistrim, ngjarja ndryshon ose fshihet bashkë me të, dhe lidhja në ngjarje e hap regjistrimin në SimpleTime. Nëse e çaktivizoni, ngjarjet mbeten në kalendarin tuaj.",
+              "“Detyra nga kalendarët” i kthen në detyra kalendarët si “Puna”; megjithatë, ngjarjet që janë tashmë në kalendarin tuaj nuk bëhen regjistrime. Ngjarjet ruhen te ofruesi i kalendarit tuaj dhe ua tregojnë emrat e detyrave tuaja të gjithë atyre me të cilët e ndani kalendarin – edhe kur kyçja e aplikacionit është aktive."
+            ]
+          },
+          {
+            "id": "menu-bar",
+            "q": "A mund ta përdor SimpleTime nga shiriti i menysë në Mac?",
+            "a": [
+              "Po. Një kronometër në shiritin e menysë tregon nëse një detyrë është në vazhdim; klikojeni për të nisur, për të ndalur ose për të ndërruar detyrat pa e hapur dritaren. E aktivizoni ose e çaktivizoni te Cilësimet › Shiriti i menysë › Shfaq në shiritin e menysë. Kur kyçja e aplikacionit është e konfiguruar, menyja nuk shfaq emra detyrash dhe ofron vetëm Ndalo."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "data",
+        "title": "Sinkronizimi, kopjet rezervë dhe eksportimi",
+        "items": [
+          {
+            "id": "sync",
+            "q": "A sinkronizohet SimpleTime mes pajisjeve të mia?",
+            "a": [
+              "Po, përmes iCloud ose përmes LaCodea ID – këtë e zgjidhni në çdo pajisje te Cilësimet › Të dhënat dhe sinkronizimi. Me iCloud sinkronizohet çdo pajisje ku keni zgjedhur iCloud dhe keni hyrë me të njëjtën llogari Apple; kur ndodh kjo, e vendos sistemi. Sinkronizimi nuk mund të detyrohet – atëherë “Sinkronizo tani” kontrollon llogarinë dhe lidhjen tuaj, dhe po ajo faqe tregon kur u bë sinkronizimi i fundit.",
+              "Me LaCodea ID sinkronizohet çdo pajisje ku keni hyrë me të njëjtën LaCodea ID dhe e keni zgjedhur atë, edhe me një llogari tjetër Apple – me enkriptim nga skaji në skaj dhe, kur SimpleTime është i hapur në të dyja pajisjet, brenda pak sekondash."
+            ]
+          },
+          {
+            "id": "sync-trouble",
+            "q": "Regjistrimet e mia nuk shfaqen në pajisjen tjetër – çfarë mund të bëj?",
+            "a": [
+              "Kontrolloni Cilësimet › Të dhënat dhe sinkronizimi në të dyja pajisjet: të dyja kanë nevojë për të njëjtin vend – iCloud me të njëjtën llogari Apple, ose LaCodea ID me të njëjtën llogari. Nëse aty shkruhet se një kalim hyn në fuqi vetëm më vonë, mbylleni plotësisht SimpleTime dhe hapeni përsëri; gjithashtu mbajeni aplikacionin të përditësuar në të gjitha pajisjet tuaja.",
+              "Me iCloud, “Sinkronizimi i fundit” te Cilësimet, në seksionin Sinkronizimi, tregon kur u transferuan të dhëna për herë të fundit, dhe “Kontrollo sinkronizimin” shqyrton llogarinë dhe lidhjen tuaj dhe, nëse ka ndonjë problem, tregon arsyen – për shembull, hapësirën e mbushur në iCloud. Me LaCodea ID, faqja Të dhënat dhe sinkronizimi tregon nëse ka ndryshime që presin një lidhje, nëse ka hyrë një llogari tjetër ose nëse pajisja ka nevojë për çelësin tuaj të rikuperimit. Nëse kjo nuk ndihmon, [na shkruani](@contact)."
+            ]
+          },
+          {
+            "id": "without-icloud",
+            "q": "A mund ta përdor SimpleTime pa iCloud?",
+            "a": [
+              "Po. Zgjidhni “Vetëm në këtë pajisje” te Cilësimet › Të dhënat dhe sinkronizimi – atëherë të dhënat tuaja mbeten vetëm në këtë pajisje. Kjo i bën kopjet rezervë edhe më të rëndësishme: një plan rezervimi i ruan automatikisht, për shembull në një dosje të aplikacionit Skedarët ose në serverin tuaj. Nëse sidoqoftë doni të sinkronizoni disa pajisje pa iCloud, zgjidhni aty LaCodea ID; një pajisje pa zinxhirin tuaj të çelësave në iCloud ju kërkon atëherë një herë çelësin e rikuperimit."
+            ]
+          },
+          {
+            "id": "switch-storage",
+            "q": "Si ta ndryshoj vendin ku ruhen të dhënat e mia?",
+            "a": [
+              "Te Cilësimet › Të dhënat dhe sinkronizimi, prekni vendin ku duhet të ruhen të dhënat tuaja, pastaj “Kalo në iCloud”, “Kalo në LaCodea ID” ose “Mbaji vetëm në këtë pajisje”; për LaCodea ID, hyni gjatë procesit. Para kalimit në iCloud ose në LaCodea ID, SimpleTime krijon një kopje sigurie të kësaj pajisjeje, dhe nëse atje ka tashmë të dhëna, zgjidhni midis “Bashko” dhe “Përdor të dhënat nga …”.",
+              "Kalimi vlen vetëm për këtë pajisje dhe zakonisht hyn në fuqi pasi ta keni mbyllur plotësisht SimpleTime dhe ta keni hapur përsëri – faqja jua tregon. Pajisjet tuaja të tjera vazhdojnë të sinkronizohen si më parë, derisa të kaloni edhe atje. Më pas, SimpleTime ju ofron t’i fshini të dhënat në vendin e vjetër; bëjeni këtë vetëm pasi të kenë kaluar edhe pajisjet tuaja të tjera – përndryshe edhe ato i humbin këto të dhëna."
+            ]
+          },
+          {
+            "id": "recovery-key",
+            "q": "Çfarë është çelësi i rikuperimit?",
+            "a": [
+              "Me LaCodea ID si vendin ku ruhen të dhënat, SimpleTime i enkripton të dhënat tuaja nga skaji në skaj; pajisjet tuaja Apple zakonisht e marrin çelësin vetë përmes zinxhirit të çelësave në iCloud. Një pajisje pa zinxhirin tuaj të çelësave në iCloud – për shembull me një llogari tjetër Apple – ka nevojë një herë për çelësin tuaj të rikuperimit: 24 shkronja dhe shifra. E gjeni te Cilësimet › Të dhënat dhe sinkronizimi › Çelësi i rikuperimit, pas Face ID ose kodit të pajisjes; derisa të konfirmoni që e keni ruajtur, faqja “Siguria” jua kujton. Ruajeni në menaxherin tuaj të fjalëkalimeve ose në letër – pa të dhe pa pajisjet tuaja, askush nuk mund t’i hapë të dhënat tuaja, as ne."
+            ]
+          },
+          {
+            "id": "recovery-key-lost",
+            "q": "E kam humbur çelësin e rikuperimit – po tani?",
+            "a": [
+              "Në një pajisje që mund t’i lexojë ende të dhënat tuaja, SimpleTime jua shfaq përsëri te Cilësimet › Të dhënat dhe sinkronizimi › Çelësi i rikuperimit me “Shfaq çelësin e rikuperimit” – ose aty krijoni një të ri, dhe i vjetri nuk funksionon më. Nëse asnjë nga pajisjet tuaja nuk mund t’i hapë më të dhënat, askush nuk mund t’i rikuperojë – as ne. Atëherë prekni “E kam humbur çelësin e rikuperimit” kur t’ju kërkohet dhe nisni nga e para me të dhënat e kësaj pajisjeje; çdo gjë që ishte vetëm në server ose në pajisjet tuaja të tjera humbet."
+            ]
+          },
+          {
+            "id": "backups",
+            "q": "Si funksionojnë kopjet rezervë?",
+            "a": [
+              "Te Cilësimet › Kopjet rezervë krijoni sa plane rezervimi të doni. Çdo plan ka një vend – iCloud Drive, një dosje të aplikacionit Skedarët si Dropbox ose Google Drive, serverin tuaj përmes WebDAV ose këtë pajisje –, një orar nga çdo orë deri në çdo muaj, një kohëzgjatje ruajtjeje dhe, nëse doni, një fjalëkalim. Në po atë faqe mund të krijoni edhe manualisht një kopje rezervë në çdo kohë."
+            ]
+          },
+          {
+            "id": "backup-password",
+            "q": "A mund t’i mbroj kopjet rezervë me fjalëkalim?",
+            "a": [
+              "Po. Nëse caktoni një fjalëkalim për një plan, çdo kopje rezervë enkriptohet në pajisjen tuaj para se të ruhet. Ruajeni mirë fjalëkalimin: pa të, askush nuk mund ta rikthejë kopjen rezervë – as ju, as ne. Nuk ka rrugë tjetër."
+            ]
+          },
+          {
+            "id": "backup-files",
+            "q": "Ku i gjej kopjet e mia rezervë?",
+            "a": [
+              "Kopjet rezervë të një plani me “Vetëm në këtë pajisje” shfaqen edhe në aplikacionin Skedarët te “Në iPhone-in tim” (ose “Në iPad-in tim”) › SimpleTime › Backups, dhe ato të një plani në iCloud Drive te iCloud Drive › SimpleTime › Backups. Planet për një dosje të aplikacionit Skedarët ose për serverin tuaj i vendosin aty ku zgjodhët. Kopjet rezervë në pajisje humbasin bashkë me pajisjen – dhe kur fshini SimpleTime. Më mirë u jepni planeve tuaja një fjalëkalim: pa të, kushdo që ka qasje në atë vend mund ta hapë një kopje rezervë – në pajisje, kushdo që e shkyç atë, edhe kur kyçja e aplikacionit është aktive."
+            ]
+          },
+          {
+            "id": "restore",
+            "q": "Si ta rikthej një kopje rezervë?",
+            "a": [
+              "Te Cilësimet › Kopjet rezervë riktheni një kopje rezervë – nga një prej planeve tuaja ose nga një skedar. Të dhënat ekzistuese ruhen, dhe ajo që mungon shtohet. Kopjet rezervë nga SimpleTime 4.7 e më të hershme importohen te Cilësimet › Eksporto / importo të dhënat › Importo kopjen rezervë nga JSON. Në një pajisje të re, më mirë prisni derisa sinkronizimi përmes iCloud ose LaCodea ID t’i ketë sjellë të dhënat tuaja – përndryshe detyrat mund të dyfishohen."
+            ]
+          },
+          {
+            "id": "export",
+            "q": "A mund t’i eksportoj të dhënat e mia?",
+            "a": [
+              "Po, në çdo kohë: si skedar CSV me një rresht për çdo regjistrim – data, fillimi, mbarimi, detyra, kohëzgjatja, orët dhjetore dhe shënimi, për Excel, Numbers ose çdo program fletëllogaritës –, si raport PDF ose si kopje rezervë.",
+              "Te Cilësimet › Eksporto / importo të dhënat zgjidhni periudhën e skedarit CSV – nga sot deri te e gjithë periudha, ose një periudhë të personalizuar, si muajin e kaluar. Një kopje rezervë e krijoni te Cilësimet › Kopjet rezervë."
+            ]
+          },
+          {
+            "id": "timesheet",
+            "q": "Si t’i marr orët e mia për fletën e orëve?",
+            "a": [
+              "Si PDF: te Cilësimet › Eksporto raportin zgjidhni periudhën – për shembull “Muajin e kaluar” – dhe lëreni të aktivizuar seksionin “Të gjitha regjistrimet”; ai rendit çdo regjistrim me fillimin, mbarimin, detyrën dhe shënimin, plus totalet ditore, totalin e përgjithshëm dhe orët dhjetore. Si tabelë: te Cilësimet › Eksporto / importo të dhënat zgjidhni periudhën dhe prekni “Eksporto të dhënat si CSV” – një rresht për çdo regjistrim me datën, fillimin, mbarimin, detyrën, kohëzgjatjen, orët dhjetore dhe shënimin, për Excel ose Numbers. Të dyja janë falas, dhe regjistrimet nga oraret fikse llogariten si çdo regjistrim tjetër."
+            ]
+          },
+          {
+            "id": "rounding",
+            "q": "A mund t’i rrumbullakojë SimpleTime kohët, për shembull në çerekë ore?",
+            "a": [
+              "Jo, nuk ka cilësim për rrumbullakim: SimpleTime ruan fillimin dhe mbarimin ashtu siç i regjistroni. Në seksionin “Të gjitha regjistrimet” të raportit PDF dhe në eksportimin CSV, çdo rresht rrumbullakohet në minutë dhe jepet në orë dhjetore me dy shifra pas presjes; në PDF, totalet mbledhin pikërisht këto vlera. Nëse ju duhen çerekë ore, ndryshoni fillimin dhe mbarimin në regjistrim ose rrumbullakojini në programin tuaj fletëllogaritës."
+            ]
+          },
+          {
+            "id": "import",
+            "q": "A mund të importoj të dhëna nga një aplikacion tjetër?",
+            "a": [
+              "Jo. SimpleTime lexon vetëm kopjet e veta rezervë – skedarët CSV, përfshirë ata të vetë SimpleTime, nuk mund të importohen, dhe ngjarjet nga kalendari juaj nuk bëhen regjistrime. Kohët e mëparshme mund t’i shtoni manualisht te skeda Dita me +."
+            ]
+          },
+          {
+            "id": "new-device",
+            "q": "Si të kaloj në një iPhone të ri?",
+            "a": [
+              "Hyni me të njëjtën llogari Apple dhe instaloni SimpleTime – nëse përdorni iCloud (Cilësimet › Të dhënat dhe sinkronizimi), regjistrimet tuaja kthehen vetë. Nëse përdorni LaCodea ID, hyni me të në pajisjen e re dhe zgjidheni te Të dhënat dhe sinkronizimi; nëse pajisja nuk e merr vetë çelësin përmes zinxhirit tuaj të çelësave në iCloud, aplikacioni ju kërkon një herë çelësin e rikuperimit. Përndryshe, krijoni një kopje rezervë në pajisjen e vjetër dhe rikthejeni në të renë. Vendet dhe cilësimet i përkasin secilës pajisje – ato as nuk sinkronizohen, as nuk përfshihen në kopjet rezervë."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "privacy",
+        "title": "Privatësia dhe siguria",
+        "items": [
+          {
+            "id": "data-location",
+            "q": "Ku ruhen të dhënat e mia?",
+            "a": [
+              "Aty ku zgjidhni ju: te Cilësimet › Të dhënat dhe sinkronizimi vendosni midis “Vetëm në këtë pajisje”, iCloud-it tuaj privat, ku të dhënat i enkripton Apple, dhe LaCodea ID, ku ato janë të enkriptuara nga skaji në skaj – në asnjë nga këto vende ne nuk mund t’i lexojmë regjistrimet tuaja. Kopjet rezervë ruhen aty ku i vendosin planet tuaja të rezervimit; pa fjalëkalim, kushdo që ka qasje në atë vend mund t’i lexojë. Nëse me Pro aktivizoni “Regjistrimet në kalendar”, regjistrimet e përfunduara shfaqen edhe si ngjarje në kalendarin tuaj – të dukshme për ofruesin e tij dhe për të gjithë ata me të cilët e ndani."
+            ]
+          },
+          {
+            "id": "lacodea-id-privacy",
+            "q": "Kush mund t’i lexojë regjistrimet e mia kur sinkronizoj përmes LaCodea ID?",
+            "a": [
+              "Vetëm pajisjet tuaja. SimpleTime i enkripton detyrat, regjistrimet me kohët dhe shënimet e tyre, oraret fikse, objektivat dhe përkujtuesit në pajisjen tuaj (AES-GCM me 256 bit) para se të shkojnë në serverin e vetë SimpleTime – çelësin e kanë vetëm pajisjet tuaja, jo ne. Serveri sheh vetëm sa njësi të dhënash të secilit lloj ka, përafërsisht sa të mëdha janë, kur u shkruan dhe nëse u fshinë; ai ndodhet në një qendër të dhënash në Frankfurt am Main. Hollësitë gjenden në [politikën tonë të privatësisë](@privacy)."
+            ]
+          },
+          {
+            "id": "tracking-me",
+            "q": "A më gjurmon SimpleTime?",
+            "a": [
+              "Jo. SimpleTime nuk shfaq reklama, nuk shet të dhëna, nuk krijon profile përdoruesish dhe nuk ju ndjek nëpër aplikacione dhe faqe të tjera interneti. Që t’i gjejmë shpejt gabimet, aplikacioni dërgon raporte anonime ndërprerjesh dhe statistika përdorimi në serverin tonë – pa ID të pajisjes dhe kurrë me detyrat, kohët ose shënimet tuaja. Këtë mund ta çaktivizoni te Cilësimet › Privatësia › Pasqyra dhe lejet. Hollësitë gjenden në [politikën tonë të privatësisë](@privacy)."
+            ]
+          },
+          {
+            "id": "permissions",
+            "q": "Për cilat leje pyet SimpleTime?",
+            "a": [
+              "Vetëm për ato që i nevojiten një veçorie, dhe vetëm kur e përdorni: njoftimet për përkujtuesit dhe njoftimet e vendeve, vendndodhjen për vendet, kalendarët për “Regjistrimet në kalendar”, shtimin e fotografive për të ruajtur imazhe, dhe Face ID ose Touch ID për kyçjen e aplikacionit. Te Cilësimet, nën Privatësia › Pasqyra dhe lejet, i shihni të gjitha me gjendjen e tyre aktuale."
+            ]
+          },
+          {
+            "id": "location",
+            "q": "Pse dëshiron SimpleTime vendndodhjen time?",
+            "a": [
+              "Vetëm për vendet, që janë pjesë e SimpleTime Pro: që një detyrë të mund të nisë kur mbërrini diku. iOS vëzhgon zonat që caktoni dhe e njofton aplikacionin kur mbërrini ose largoheni. Vendet tuaja mbeten në pajisjen tuaj, dhe SimpleTime nuk mban asnjë historik të vendeve ku keni qenë. Pa vende, SimpleTime nuk ka nevojë për vendndodhjen tuaj."
+            ]
+          },
+          {
+            "id": "app-lock",
+            "q": "Si funksionon kyçja e aplikacionit?",
+            "a": [
+              "Te Cilësimet › Kyçja e aplikacionit zgjidhni nëse SimpleTime hapet me Face ID ose Touch ID dhe me kodin e pajisjes suaj, ose me një kod personal – shifra ose një fjalëkalim. Te ndërruesi i aplikacioneve, SimpleTime mbetet i mbuluar, dhe emrat e detyrave nuk shfaqen më te kërkimi në iPhone ose te ikona e aplikacionit; te “Jashtë aplikacionit” zgjidhni çfarë shfaqin njoftimet, miniaplikacionet dhe Apple Watch. Në rast se harroni kodin tuaj personal, mund të aktivizoni paraprakisht “Rivendos kodin e harruar me kodin e pajisjes” ose të caktoni një fjalëkalim emergjence. Pa asnjërën prej tyre, e vetmja rrugë kthimi është ta fshini dhe ta instaloni përsëri aplikacionin – dhe çdo gjë që ishte vetëm në këtë pajisje humbet, përveç nëse keni një kopje rezervë."
+            ]
+          },
+          {
+            "id": "security-overview",
+            "q": "Çfarë tregon faqja “Siguria”?",
+            "a": [
+              "Te Cilësimet › Siguria › Përmbledhje shihni me një vështrim sa mirë janë mbrojtur të dhënat tuaja: kodi i pajisjes, kyçja e aplikacionit, kopjet rezervë automatike dhe të enkriptuara dhe vendi ku ruhen të dhënat tuaja – me LaCodea ID edhe enkriptimi nga skaji në skaj dhe çelësi i rikuperimit. Çdo gjë që mungon ende renditet te “Të rekomanduara”; çdo pikë shpjegon si ju mbron dhe, kur duhet, ju çon te cilësimi i duhur."
+            ]
+          },
+          {
+            "id": "delete-all",
+            "q": "Si t’i fshij të gjitha të dhënat e mia?",
+            "a": [
+              "Te Cilësimet, nën Privatësia › Fshi të gjitha të dhënat, hiqni gjithçka njëherësh – regjistrimet dhe detyrat, objektivat, vendet, koshin, përkujtuesit, kopjet rezervë të planeve tuaja dhe kopjet e vjetra rezervë në iCloud Drive, eksportimet, cilësimet, përfshirë kodin e kyçjes së aplikacionit, dhe ngjarjet që SimpleTime ka shtuar në kalendarin tuaj.",
+              "Fshirja bëhet në këtë pajisje, në iCloud dhe – nëse sinkronizoni përmes LaCodea ID – në server; përmes iCloud, fshirja arrin edhe në pajisjet tuaja të tjera sapo ato të jenë në linjë. Nëse sinkronizoni përmes LaCodea ID, pajisjet tuaja të tjera i mbajnë të dhënat e tyre dhe ndalojnë sinkronizimin derisa ta konfiguroni sërish atje – fshijini edhe atje – dhe llogaria juaj LaCodea ID mbetet. Kjo nuk mund të zhbëhet."
+            ]
+          },
+          {
+            "id": "delete-app",
+            "q": "Çfarë ndodh nëse e fshij SimpleTime?",
+            "a": [
+              "Atëherë zhduket çdo gjë që ishte vetëm në këtë pajisje: regjistrimet tuaja, nëse keni zgjedhur “Vetëm në këtë pajisje”, kopjet rezervë të një plani “Vetëm në këtë pajisje”, vendet tuaja dhe cilësimet tuaja, përfshirë kyçjen e aplikacionit. Çdo gjë që ndodhet në iCloud ose te LaCodea ID mbetet atje dhe kthehet pas riinstalimit, sapo të përdorni sërish të njëjtin vend te Të dhënat dhe sinkronizimi.",
+              "Kopjet rezervë në iCloud Drive, në një dosje të aplikacionit Skedarët ose në serverin tuaj mbeten, ashtu si edhe ngjarjet në kalendarin tuaj; për një kopje rezervë të enkriptuar, do t’ju duhet më pas fjalëkalimi i saj. Një abonim vazhdon derisa ta anuloni, dhe LaCodea ID juaj mbetet. Nëse doni të hiqni gjithçka më parë, përdorni Cilësimet › Privatësia › Fshi të gjitha të dhënat."
+            ]
+          },
+          {
+            "id": "lacodea-id-delete",
+            "q": "Si të dal nga LaCodea ID ose si ta fshij?",
+            "a": [
+              "Prekni llogarinë tuaj LaCodea ID në krye të Cilësimeve: “Dil” ju nxjerr nga të gjitha aplikacionet e LaCodea në këtë pajisje – të dhënat tuaja mbeten këtu dhe sinkronizohen përsëri sapo të hyni. “Shkëput SimpleTime” e shkëput vetëm SimpleTime nga llogaria juaj; “Fshi LaCodea ID” e fshin llogarinë për të gjitha aplikacionet e LaCodea – këtë mund ta bëni edhe te account.lacodea.com. Si në shkëputje, ashtu edhe në fshirje, serveri i SimpleTime i fshin atje të dhënat tuaja të sinkronizuara; çdo gjë në pajisjet tuaja ose në iCloud mbetet. Një abonim përmes Apple vazhdon derisa ta anuloni te cilësimet e pajisjes suaj."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "pro",
+        "title": "SimpleTime Pro",
+        "items": [
+          {
+            "id": "pro-includes",
+            "q": "Çfarë përfshin SimpleTime Pro?",
+            "a": [
+              "Aplikacionin për Apple Watch, përmbledhjet e javës, muajit dhe vitit tuaj, vendet, regjistrimet tuaja si ngjarje në kalendar dhe detyra nga kalendarët tuaj, vitin me një vështrim, objektivat, filtrin e Fokusit, një miniaplikacion të nisjes së shpejtë, shtatë ngjyra theksuese ose një ngjyrë sipas dëshirës, gjashtë fonte, gjashtëmbëdhjetë ikona aplikacioni dhe seksione shtesë në raportin PDF. Aplikacioni për orën kërkon një iPhone; vendet dhe ikonat e aplikacionit ofrohen në iPhone dhe iPad. Çdo gjë që vjen më pas është e përfshirë. [Gjithçka për SimpleTime Pro](@pro)"
+            ]
+          },
+          {
+            "id": "pro-price",
+            "q": "Sa kushton SimpleTime Pro?",
+            "a": [
+              "Pro ofrohet me abonim mujor ose vjetor, ose si blerje e njëhershme “Përgjithmonë”. Çmimet varen nga shteti dhe monedha juaj dhe shfaqen në aplikacion para se të blini."
+            ]
+          },
+          {
+            "id": "trial",
+            "q": "A mund ta provoj fillimisht Pro?",
+            "a": [
+              "Po. Abonentët e rinj mund ta provojnë falas për një javë planin Mujor ose Vjetor; aplikacioni tregon nëse prova vlen për ju. Nëse nuk e anuloni të paktën 24 orë para se të përfundojë, abonimi rinovohet me çmimin e shfaqur."
+            ]
+          },
+          {
+            "id": "family",
+            "q": "A mund ta përdorë Pro edhe familja ime?",
+            "a": [
+              "Po. SimpleTime Pro funksionon me Ndarjen familjare – një blerje për deri në gjashtë persona."
+            ]
+          },
+          {
+            "id": "restore-purchase",
+            "q": "E bleva Pro – si ta kem edhe në pajisjet e mia të tjera?",
+            "a": [
+              "Pro i përket llogarisë suaj Apple: në pajisjet tuaja të tjera me të njëjtën llogari, zakonisht zhbllokohet vetë. Nëse jo, prekni aty “Rikthe blerjet” te Cilësimet › SimpleTime Pro.",
+              "Në një pajisje me një llogari tjetër Apple, Pro e merrni përmes LaCodea ID: hyni në të dyja pajisjet me të njëjtën LaCodea ID. Nëse e keni blerë Pro para se të hyni, hyni me LaCodea ID edhe në një pajisje me llogarinë Apple me të cilën e keni blerë – nga aty SimpleTime ia përcjell blerjen llogarisë suaj. Faqja Pro shfaq atëherë “Përmes llogarisë suaj LaCodea ID” dhe, për një abonim, ku jeni abonuar – vetëm aty mund ta ndryshoni."
+            ]
+          },
+          {
+            "id": "cancel",
+            "q": "Si ta anuloj abonimin?",
+            "a": [
+              "Te cilësimet e App Store – në iPhone te Cilësimet › emri juaj › Abonimet – ose në aplikacion, në faqen Pro, te “Menaxho abonimin”. Kjo funksionon vetëm në një pajisje me llogarinë Apple me të cilën jeni abonuar; nëse e keni Pro përmes LaCodea ID, faqja Pro i tregon këto pajisje. Pro mbetet aktiv deri në fund të periudhës që keni paguar tashmë, dhe as fshirja e LaCodea ID nuk e përfundon një abonim."
+            ]
+          },
+          {
+            "id": "lifetime-switch",
+            "q": "Kam një abonim – a mund të kaloj te “Përgjithmonë”?",
+            "a": [
+              "Po, drejtpërdrejt në faqen Pro. Megjithatë, Apple nuk e përfundon vetë abonimin: anulojeni më pas, që të mos rinovohet. Aplikacioni jua kujton."
+            ]
+          },
+          {
+            "id": "pro-ends",
+            "q": "Çfarë ndodh kur mbaron Pro?",
+            "a": [
+              "Nuk humbet asgjë. Regjistrimet, objektivat dhe vendet tuaja mbeten të ruajtura. Veçoritë Pro kyçen përsëri – vendet, për shembull, nuk nisin më detyra – dhe gjithçka rikthehet sapo Pro të jetë sërish aktiv."
+            ]
+          },
+          {
+            "id": "pro-offline",
+            "q": "A ka nevojë Pro për lidhje interneti?",
+            "a": [
+              "Jo. SimpleTime e kontrollon blerjen tuaj me App Store – dhe, nëse keni hyrë me LaCodea ID, edhe me llogarinë tuaj – sa herë që mundet. Pa lidhje, Pro vazhdon të funksionojë – deri në dy javë pa kontakt."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "watch-places",
+        "title": "Apple Watch dhe vendet",
+        "items": [
+          {
+            "id": "watch-setup",
+            "q": "Si ta konfiguroj aplikacionin për Apple Watch?",
+            "a": [
+              "Aplikacioni për Apple Watch është pjesë e SimpleTime Pro. Instalojeni në orën tuaj, pastaj hapni një herë SimpleTime në iPhone – pas pak sekondash, ora shfaq detyrat tuaja. iPhone mbetet burimi: çdo gjë që nis ora regjistrohet aty, me të njëjtin Aktivitet të drejtpërdrejtë dhe me të njëjtat miniaplikacione."
+            ]
+          },
+          {
+            "id": "watch-features",
+            "q": "Çfarë mund të bëj në Apple Watch?",
+            "a": [
+              "Nisni dhe ndaloni nga kyçi i dorës – të preferuarat tuaja, ato që keni përdorur së fundi ose çdo detyrë përmes kërkimit. Nisni më herët: 5, 15, 30 ose 60 minuta më parë, ose pa ndërprerje nga mbarimi i regjistrimit tuaj të fundit. Ndaloni me një prekje të dyfishtë. Mbani nën sy ditën, javën dhe objektivat, me kohën në vazhdim në fytyrën e orës dhe në Smart Stack. Nëse iPhone nuk është afër, prekjet tuaja ruhen me orën e tyre dhe dërgohen më vonë."
+            ]
+          },
+          {
+            "id": "places-how",
+            "q": "Si funksionojnë vendet?",
+            "a": [
+              "Shtoni një vend – për shembull zyrën ose palestrën tuaj – me një rreze nga 50 m deri në 10 km dhe zgjidhni një detyrë. Kur mbërrini, detyra nis vetë, ose SimpleTime ju pyet fillimisht. Me një kohë pritjeje, asgjë nuk nis kur thjesht kaloni pranë. Kur largoheni, detyra mund të ndalet, dhe mund ta kufizoni një vend në ditë dhe orë të caktuara."
+            ]
+          },
+          {
+            "id": "places-late",
+            "q": "Pse një vend nis me vonesë ose nuk nis fare?",
+            "a": [
+              "Vendet kanë nevojë për qasje në vendndodhje me opsionin “Gjithmonë” dhe me vendndodhjen e saktë të aktivizuar. Nën 100 m, iOS shpesh e vëren me vonesë mbërritjen tuaj, sepse në sfond vendndodhja zakonisht vjen nga Wi-Fi dhe rrjeti celular, jo nga GPS – një rreze më e madhe ndihmon. iOS monitoron më së shumti 20 vende për aplikacion, dhe në Mac nuk ka vende."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "more",
+        "title": "Të tjera",
+        "items": [
+          {
+            "id": "look",
+            "q": "A mund ta ndryshoj pamjen e SimpleTime?",
+            "a": [
+              "Po: e çelët, e errët ose sipas sistemit, tri lartësi rreshti për listën e detyrave dhe, te Cilësimet › Fonti, një madhësi teksti sipas dëshirës dhe tekst i trashë. Me SimpleTime Pro merrni edhe shtatë ngjyra theksuese ose një ngjyrë sipas dëshirës – ajo përshkon butonat, ndërprerësit dhe grafikët –, gjashtë fonte dhe, në iPhone dhe iPad, gjashtëmbëdhjetë ikona aplikacioni."
+            ]
+          },
+          {
+            "id": "accessibility",
+            "q": "A është SimpleTime i aksesueshëm?",
+            "a": [
+              "Po. VoiceOver lexon me zë butonat, grafikët dhe boshtin kohor në çdo gjuhë të aplikacionit, dhe grafikët ofrohen edhe si grafikë audio. Teksti ndjek madhësinë e tekstit të iOS deri te madhësitë më të mëdha – vetëm në shiritin e sipërm dhe në boshtin kohor rritet deri në një kufi, që asgjë të mos i mbulojë kontrollet. Më shumë gjeni në [deklaratën tonë të aksesueshmërisë](@accessibility); nëse diçka nuk funksionon për ju, ju lutemi na njoftoni."
+            ]
+          },
+          {
+            "id": "freelance",
+            "q": "A është SimpleTime i përshtatshëm për freelancerët?",
+            "a": [
+              "Për regjistrimin e kohës, po: mbani të ndarë klientët dhe projektet si detyra dhe nëndetyra, dhe eksportoni një raport PDF ose një skedar CSV sa herë që ju duhet një evidencë. Tarifat për orë dhe faturat nuk janë pjesë e SimpleTime – për to, çojeni eksportimin te programi juaj i faturimit."
+            ]
+          },
+          {
+            "id": "platforms",
+            "q": "A ka version për Android, Windows ose për ueb?",
+            "a": [
+              "Jo. SimpleTime është krijuar për iPhone, iPad, Mac dhe Apple Watch. Të dhënat tuaja mund t’i eksportoni në çdo kohë si CSV."
+            ]
+          },
+          {
+            "id": "account-web",
+            "q": "Çfarë mund të bëj te account.lacodea.com?",
+            "a": [
+              "Aty e menaxhoni LaCodea ID në shfletues: mënyrat tuaja të hyrjes, abonimet tuaja, shkarkimin e të dhënave të llogarisë dhe fshirjen e llogarisë – në SimpleTime, të njëjtën llogari e gjeni në krye të Cilësimeve. Regjistrimet tuaja nuk do t’i shihni aty: ato ekzistojnë vetëm në SimpleTime në iPhone, iPad, Mac dhe Apple Watch. Nëse sinkronizoni përmes LaCodea ID, ato ruhen të enkriptuara nga skaji në skaj në serverin e SimpleTime – vetë LaCodea ID nuk i merr kurrë."
+            ]
+          },
+          {
+            "id": "feedback",
+            "q": "Gjeta një gabim ose kam një ide – ku ta dërgoj?",
+            "a": [
+              "Na shkruani në [contact@simple-time.app](mailto:contact@simple-time.app) – nga aplikacioni mund ta bëni edhe te Cilësimet › Komente. Për një gabim, ju lutemi na tregoni modelin e pajisjes, versionin e iOS, iPadOS ose macOS dhe versionin e SimpleTime – e gjeni te Cilësimet › Rreth SimpleTime – dhe përshkruani shkurt çfarë po bënit. Çdo mesazh lexohet."
+            ]
+          },
+          {
+            "id": "support-us",
+            "q": "Si mund ta mbështes SimpleTime?",
+            "a": [
+              "SimpleTime krijohet nga një person i vetëm. Një vlerësim në App Store ndihmon, po ashtu edhe t’u tregoni të tjerëve për të – dhe SimpleTime Pro e mban gjallë zhvillimin."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

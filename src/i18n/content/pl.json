@@ -1,0 +1,950 @@
+{
+  "store": {
+    "lead": "SimpleTime pokazuje, na co idzie twój czas. Jedno dotknięcie uruchamia, jedno zatrzymuje.",
+    "promise": "Bez obowiązkowego konta, bez reklam. Twoje godziny zostają na urządzeniu – a jeśli chcesz, także w twoim iCloud albo w LaCodea ID.",
+    "sections": [
+      {
+        "id": "tracking",
+        "title": "Rejestracja czasu",
+        "points": [
+          "Jedno dotknięcie startuje i zatrzymuje – w aplikacji, z ekranu początkowego, z Centrum sterowania, z wyszukiwarki iPhone’a albo przez Siri",
+          "Stałe terminy: lekcje albo zmiany dodajesz raz – SimpleTime sam wpisuje je co tydzień",
+          "Zadania z podzadaniami, zagnieżdżone tak głęboko, jak twoja praca",
+          "Zapomniałeś włączyć? Dodaj czas później i zmieniaj go, kiedy chcesz",
+          "Kolor, symbol, ulubione i kolejność, którą ustalasz sam"
+        ]
+      },
+      {
+        "id": "day",
+        "title": "Twój dzień",
+        "points": [
+          "Lista albo oś czasu od 0 do 24, ze znacznikiem bieżącej godziny",
+          "Notatka przy każdym wpisie",
+          "Porównanie dzisiaj z wczoraj, zaraz na górze"
+        ]
+      },
+      {
+        "id": "insights",
+        "title": "Analiza",
+        "points": [
+          "Wykresy kołowe według zadań i według produktywności",
+          "Dzień, tydzień, miesiąc, rok",
+          "Statystyki: porównanie z poprzednim okresem, trend, rozkład w ciągu dnia, najdłuższy i najkrótszy wpis",
+          "Każde zadanie z własnymi liczbami – pierwszy wpis, najdłuższy, ten tydzień, ten rok",
+          "Każdy wykres do udostępnienia jako obraz"
+        ]
+      },
+      {
+        "id": "reports",
+        "title": "Raporty i eksport",
+        "points": [
+          "Raport PDF, którego sekcje sam wybierasz i układasz",
+          "CSV do Excela i Numbers",
+          "Plany kopii zapasowych: automatycznie do iCloud Drive, do folderu w aplikacji Pliki, np. Dropbox albo Google Drive, na własny serwer albo na urządzenie – jeśli chcesz, zaszyfrowane hasłem"
+        ]
+      },
+      {
+        "id": "widgets",
+        "title": "Widżety i Siri",
+        "points": [
+          "Dzisiaj, trwające zadanie i tydzień na ekranie początkowym",
+          "Licznik czasu na ekranie blokady i w polu Dynamic Island",
+          "Przełącznik w Centrum sterowania, który startuje i zatrzymuje zapis",
+          "Siri i Skróty: zaczynaj, zatrzymuj albo pytaj, co teraz trwa"
+        ]
+      },
+      {
+        "id": "devices",
+        "title": "Na każdym urządzeniu",
+        "points": [
+          "iPhone, iPad i Mac, zsynchronizowane przez iCloud albo LaCodea ID",
+          "41 języków, niezależnie od języka urządzenia",
+          "VoiceOver i Dynamic Type wszędzie"
+        ]
+      },
+      {
+        "id": "data",
+        "title": "Twoje dane",
+        "points": [
+          "Blokada aplikacji z Face ID, Touch ID albo własnym kodem",
+          "To ty decydujesz, gdzie są twoje dane: tylko na tym urządzeniu, w twoim iCloud albo szyfrowane od końca do końca w LaCodea ID",
+          "Prywatność na jednej stronie: przegląd wszystkich uprawnień i twoich danych",
+          "Opcjonalnie LaCodea ID, jedno konto do wszystkich aplikacji LaCodea",
+          "Bez reklam, bez sprzedawania twoich danych – bez konta dostajemy tylko anonimowe raporty o awariach i statystyki użycia, które można wyłączyć",
+          "Usunięcie wszystkiego naraz – na urządzeniu, w iCloud i w kopiach zapasowych"
+        ]
+      }
+    ],
+    "pro": {
+      "title": "SimpleTime Pro",
+      "intro": "Wszystko powyżej pozostaje bezpłatne. Pro dokłada:",
+      "points": [
+        "Apple Watch: zaczynaj i zatrzymuj na nadgarstku, zaczynaj wcześniej, dzień, tydzień i cele w jednym spojrzeniu – z licznikiem czasu na tarczy zegarka",
+        "Podsumowania: twój tydzień, miesiąc i rok jako karty – do przeglądania i udostępniania",
+        "Miejsca: zadania zaczynają się same, gdy dotrzesz na miejsce – jeśli chcesz, dopiero po czasie oczekiwania",
+        "Kalendarz: każdy wpis jako wydarzenie w twoim kalendarzu – oraz zadania z kalendarzy, takich jak „Praca” czy „Rodzina”",
+        "Rok na jednym obrazie: każdy dzień roku, z twoimi seriami",
+        "Cele dla zadania – na dzień, tydzień albo miesiąc",
+        "Filtr Skupienia: włącza się twoje skupienie na pracy, lista pokazuje tylko pracę, a zegar już idzie",
+        "Widżet szybkiego startu, który sam wypełniasz",
+        "Siedem kolorów akcentu albo własny, sześć krojów pisma i szesnaście ikon aplikacji",
+        "Dodatkowe sekcje w raporcie PDF: trend, rozkład dnia, porównanie, cele"
+      ],
+      "pricing": "Pro jest dostępne w wariancie miesięcznym, rocznym albo jednorazowym na zawsze. Nowi subskrybenci dostają tydzień za darmo, a dzięki Chmurze rodzinnej z Pro może korzystać nawet sześć osób. Ceny widać w aplikacji. Wariant miesięczny i roczny odnawiają się automatycznie, dopóki nie zrezygnujesz – możesz to zrobić w każdej chwili w ustawieniach App Store. To, co pojawi się później, jest wliczone."
+    },
+    "closing": "Dla wszystkich, którzy chcą wiedzieć, na co naprawdę idzie ich czas – w pracy, na studiach, na treningu albo dla siebie."
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Rejestracja czasu na iPhone’a, iPada i Maca",
+      "titleLead": "Jedno dotknięcie",
+      "titleAccent": "uruchamia zegar.",
+      "cta": "Zobacz funkcje",
+      "proof": [
+        "Bezpłatna do pobrania",
+        "Bez konta",
+        "Bez reklam i sprzedaży danych"
+      ]
+    },
+    "tour": {
+      "tracking": "Zaczynaj tam, gdzie jesteś."
+    },
+    "devices": {
+      "title": "Na każdym urządzeniu, którego używasz.",
+      "subtitle": "iPhone, iPad i Mac synchronizują się przez iCloud albo LaCodea ID – a zegar idzie dalej na ekranie blokady, w polu Dynamic Island i na twoim nadgarstku."
+    },
+    "showcase": [
+      {
+        "id": "day",
+        "title": "Cały twój dzień w jednym spojrzeniu."
+      },
+      {
+        "id": "insights",
+        "title": "Zobacz, na co naprawdę idą twoje godziny."
+      },
+      {
+        "id": "reports",
+        "title": "Raport w kilka sekund."
+      }
+    ],
+    "features": {
+      "title": "Wszystko, czego potrzebujesz. Za darmo.",
+      "subtitle": "Każda funkcja z tej listy jest częścią bezpłatnej aplikacji."
+    },
+    "pro": {
+      "button": "Wszystko o SimpleTime Pro"
+    },
+    "audience": {
+      "title": "Dla wszystkich, którzy chcą wiedzieć, na co idzie ich czas.",
+      "subtitle": "W pracy, na studiach, na treningu – albo po prostu dla siebie.",
+      "groups": [
+        {
+          "id": "work",
+          "title": "Praca i freelancing",
+          "body": "Rozdziel klientów i projekty na zadania i podzadania, a przejrzyste zestawienie eksportuj, kiedy tylko jest potrzebne."
+        },
+        {
+          "id": "study",
+          "title": "Studia i nauka",
+          "body": "Zobacz, ile czasu naprawdę zajmuje dany przedmiot, i planuj kolejny tydzień na podstawie prawdziwych liczb."
+        },
+        {
+          "id": "training",
+          "title": "Trening i nawyki",
+          "body": "Zapisuj treningi, ćwiczenia albo sen i obserwuj, jak z tygodnia na tydzień rośnie regularność."
+        },
+        {
+          "id": "everyday",
+          "title": "Codzienność",
+          "body": "Sprawdź, na co naprawdę idą godziny – i sam zdecyduj, co chcesz zmienić."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Pytania i odpowiedzi.",
+      "subtitle": "Najważniejsze odpowiedzi w jednym spojrzeniu – i wiele innych na stronie FAQ.",
+      "button": "Wszystkie pytania i odpowiedzi"
+    },
+    "cta": {
+      "title": "Zaczynamy?",
+      "subtitle": "Bezpłatnie na iPhonie, iPadzie i Macu. Bez konta, bez reklam, bez sprzedawania twoich danych.",
+      "note": "Aplikacja na Apple Watch należy do SimpleTime Pro."
+    }
+  },
+  "shots": [
+    {
+      "id": "tracking",
+      "title": "Zapisuj",
+      "caption": "Jedno dotknięcie uruchamia zegar",
+      "alt": "Karta „Zapis” z trwającym zadaniem i ulubionymi na górze"
+    },
+    {
+      "id": "day",
+      "title": "Twój dzień",
+      "caption": "Każdy wpis co do sekundy",
+      "alt": "Widok dnia jako lista wpisów z ich godzinami"
+    },
+    {
+      "id": "timeline",
+      "title": "Oś czasu",
+      "caption": "Cały dzień w jednym spojrzeniu",
+      "alt": "Widok dnia jako oś czasu od 0 do 24"
+    },
+    {
+      "id": "chart",
+      "title": "Analizuj",
+      "caption": "Na co naprawdę idą twoje godziny",
+      "alt": "Tydzień na wykresie kołowym według zadań"
+    },
+    {
+      "id": "statistics",
+      "title": "Statystyki",
+      "caption": "Porównuj tygodnie i dostrzegaj trend",
+      "alt": "Statystyki porównujące ten tydzień z poprzednim"
+    },
+    {
+      "id": "report",
+      "title": "Raporty",
+      "caption": "Szczegółowy PDF z każdym zadaniem",
+      "alt": "Strona raportu PDF z każdym zadaniem"
+    },
+    {
+      "id": "pro",
+      "title": "Przejdź na Pro",
+      "caption": "Cele, twój rok, twoje kolory",
+      "alt": "Strona SimpleTime Pro w aplikacji"
+    }
+  ],
+  "pro": {
+    "eyebrow": "SimpleTime Pro",
+    "title": "Więcej z czasu, który zapisujesz.",
+    "subtitle": "SimpleTime pozostaje bezpłatny – wszystko, co potrafi bez Pro, nadal będzie za darmo. Pro dokłada twój Apple Watch, miejsca, w których zadania zaczynają się same, podsumowania tygodnia, miesiąca i roku, cele i więcej.",
+    "featuresTitle": "Co dokłada Pro",
+    "features": [
+      {
+        "id": "watch",
+        "title": "Apple Watch",
+        "body": "Zaczynaj i zatrzymuj na nadgarstku, zaczynaj wcześniej, dzień, tydzień i cele w jednym spojrzeniu – z licznikiem czasu na tarczy zegarka."
+      },
+      {
+        "id": "reviews",
+        "title": "Podsumowania",
+        "body": "Twój tydzień, miesiąc i rok jako karty – do przeglądania i udostępniania."
+      },
+      {
+        "id": "places",
+        "title": "Miejsca",
+        "body": "Zadania zaczynają się same, gdy dotrzesz na miejsce – jeśli chcesz, dopiero po czasie oczekiwania, żeby nic się nie zaczynało, gdy tylko przejeżdżasz obok."
+      },
+      {
+        "id": "calendar",
+        "title": "Kalendarz",
+        "body": "Każdy wpis jako wydarzenie w twoim kalendarzu – oraz zadania z kalendarzy, takich jak „Praca” czy „Rodzina”."
+      },
+      {
+        "id": "year",
+        "title": "Rok na jednym obrazie",
+        "body": "Każdy dzień roku na jednym obrazie – z twoją obecną i najdłuższą serią."
+      },
+      {
+        "id": "goals",
+        "title": "Cele",
+        "body": "Cel dla każdego zadania – na dzień, tydzień albo miesiąc. Podzadania też się do niego liczą."
+      },
+      {
+        "id": "focus",
+        "title": "Filtr skupienia",
+        "body": "Włącza się twoje skupienie na pracy, lista pokazuje tylko pracę – a zapis może się zaczynać i kończyć razem z nim."
+      },
+      {
+        "id": "widget",
+        "title": "Widżet szybkiego startu",
+        "body": "To ty decydujesz, które zadania się na nim znajdą. Jedno dotknięcie na ekranie początkowym je uruchamia."
+      },
+      {
+        "id": "style",
+        "title": "Kolory, kroje pisma i ikony aplikacji",
+        "body": "Siedem kolorów akcentu albo własny, obecny w całej aplikacji – do tego sześć krojów pisma i szesnaście ikon aplikacji."
+      },
+      {
+        "id": "report",
+        "title": "Więcej w raporcie PDF",
+        "body": "Trend, rozkład w ciągu dnia, porównanie z poprzednim okresem i cele – w kolejności, którą wybierzesz."
+      },
+      {
+        "id": "future",
+        "title": "Wszystko, co jeszcze się pojawi",
+        "body": "To, co pojawi się później, jest wliczone – bez kolejnego zakupu."
+      }
+    ],
+    "plansTitle": "Trzy drogi do Pro",
+    "plansSubtitle": "Ceny zależą od kraju, a aplikacja pokazuje je przed zakupem w twojej walucie.",
+    "plans": [
+      {
+        "id": "monthly",
+        "title": "Miesięcznie",
+        "body": "Płatność co miesiąc. Zrezygnować możesz w każdej chwili."
+      },
+      {
+        "id": "yearly",
+        "title": "Rocznie",
+        "body": "Płatność raz w roku – aplikacja pokazuje, ile oszczędzasz w porównaniu z płatnością co miesiąc."
+      },
+      {
+        "id": "lifetime",
+        "title": "Na zawsze",
+        "body": "Płacisz raz i Pro zostaje z tobą na zawsze. Nigdy nie wygasa."
+      }
+    ],
+    "notes": [
+      "Nowi subskrybenci mogą przez tydzień za darmo wypróbować subskrypcję miesięczną albo roczną.",
+      "Chmura rodzinna: jeden zakup dla maksymalnie sześciu osób.",
+      "To, co pojawi się później, jest wliczone – bez kolejnego zakupu."
+    ],
+    "legal": "Subskrypcja miesięczna i roczna odnawiają się automatycznie, dopóki nie zrezygnujesz. Zrezygnować możesz w każdej chwili w ustawieniach App Store. „Na zawsze” to jednorazowa płatność, która nigdy nie wygasa.",
+    "terms": "Warunki korzystania (EULA)",
+    "privacy": "Polityka prywatności",
+    "freeTitle": "Co pozostaje bezpłatne",
+    "freeBody": "Wszystko, czego potrzebujesz do zapisu czasu: zadania i podzadania, stałe terminy, widok dnia i oś czasu, wykresy i statystyki, raport PDF i eksport CSV, widżety, Wydarzenie na żywo, Centrum sterowania i Siri, synchronizacja przez iCloud albo LaCodea ID, plany kopii zapasowych i blokada aplikacji – w 41 językach. Bez konta, bez reklam, bez sprzedawania twoich danych.",
+    "howTitle": "Jak zdobyć Pro",
+    "how": [
+      "W SimpleTime otwórz Ustawienia › SimpleTime Pro.",
+      "Wybierz „Miesięcznie”, „Rocznie” albo „Na zawsze” – płacisz przez swoje Konto Apple.",
+      "Pro odblokowuje się od razu na wszystkich twoich urządzeniach z tym samym Kontem Apple."
+    ],
+    "faqTitle": "Pytania o Pro",
+    "ctaTitle": "Zacznij za darmo.",
+    "ctaSubtitle": "Pobierz SimpleTime – a Pro odblokujesz w aplikacji, kiedy zechcesz."
+  },
+  "faq": {
+    "title": "Pytania i odpowiedzi.",
+    "subtitle": "Wszystko o SimpleTime – od pierwszego dotknięcia po SimpleTime Pro.",
+    "searchLabel": "Szukaj w pytaniach",
+    "searchPlaceholder": "np. „kopia zapasowa” albo „Apple Watch”",
+    "results": "Pasujące pytania: {count}",
+    "noResults": "Żadne pytanie nie pasuje do „{query}”.",
+    "noResultsHint": "Spróbuj innego słowa – albo [napisz do nas](@contact).",
+    "topics": "Tematy",
+    "moreTitle": "Masz jeszcze pytanie?",
+    "moreBody": "Napisz do nas – czytamy każdą wiadomość i na każdą odpowiadamy.",
+    "moreButton": "Kontakt",
+    "categories": [
+      {
+        "id": "basics",
+        "title": "Pierwsze kroki",
+        "items": [
+          {
+            "id": "what-is",
+            "q": "Czym jest SimpleTime?",
+            "a": [
+              "SimpleTime to aplikacja do rejestracji czasu na iPhone’a, iPada i Maca. Jedno dotknięcie uruchamia zegar, kolejne go zatrzymuje. Potem SimpleTime pokazuje ci, na co idzie twój czas – w postaci listy dnia albo osi czasu, na wykresach i w statystykach, a także w raporcie PDF albo pliku CSV. Bez obowiązkowego konta, bez reklam, bez sprzedawania twoich danych."
+            ]
+          },
+          {
+            "id": "first-steps",
+            "q": "Jak zacząć?",
+            "a": [
+              "Na karcie „Zapis” dotknij +, aby utworzyć zadanie – z nazwą, kolorem i symbolem. Dotknij trójkąta obok niego, a zegar ruszy; dotknij „Zatrzymaj”, aby zakończyć zapis. Przy pierwszym uruchomieniu krótkie wprowadzenie pokaże ci najważniejsze przyciski. W każdej chwili możesz je obejrzeć jeszcze raz: Ustawienia › Pokaż wprowadzenie ponownie."
+            ]
+          },
+          {
+            "id": "free",
+            "q": "Czy SimpleTime jest bezpłatny?",
+            "a": [
+              "Tak. Pobranie SimpleTime jest bezpłatne – tak samo jak wszystko, czego potrzebujesz do zapisu czasu: zadania i podzadania, stałe terminy, widok dnia, wykresy i statystyki, raporty i eksport, widżety, synchronizacja przez iCloud albo LaCodea ID oraz kopie zapasowe. SimpleTime Pro jest opcjonalne i dokłada aplikację na Apple Watch, podsumowania, miejsca, cele i więcej. [Wszystko o SimpleTime Pro](@pro)"
+            ]
+          },
+          {
+            "id": "account",
+            "q": "Czy potrzebuję konta?",
+            "a": [
+              "Nie. Otwierasz aplikację i zaczynasz – bez rejestracji. Jeśli korzystasz z iCloud, synchronizacja odbywa się przez twoje własne Konto Apple, którego nigdy nie widzimy. Jeśli chcesz, możesz zalogować się przez LaCodea ID, nasze konto do wszystkich aplikacji LaCodea. Wtedy przechowujemy twoje konto i twoje zakupy SimpleTime Pro – a twoje wpisy tylko wtedy, gdy w sekcji Dane i synchronizacja wybierzesz LaCodea ID jako miejsce przechowywania, i to zaszyfrowane od końca do końca."
+            ]
+          },
+          {
+            "id": "lacodea-id",
+            "q": "Czym jest LaCodea ID?",
+            "a": [
+              "LaCodea ID to nasze opcjonalne konto do wszystkich aplikacji LaCodea. Logujesz się na samej górze Ustawień – przez Apple, za pomocą klucza albo kodu z e-maila. Dzięki niemu możesz synchronizować dane z szyfrowaniem od końca do końca, a zakup SimpleTime Pro obowiązuje na każdym urządzeniu, na którym się zalogujesz; SimpleTime świetnie działa jednak także bez niego."
+            ]
+          },
+          {
+            "id": "devices",
+            "q": "Na jakich urządzeniach działa SimpleTime?",
+            "a": [
+              "Na iPhonie i iPadzie z systemem iOS 26 lub iPadOS 26 albo nowszym oraz na Macu z systemem macOS 26 albo nowszym. Aplikacja na Apple Watch należy do SimpleTime Pro i wymaga watchOS 26. Jeśli w Ustawieniach › Dane i synchronizacja wybierzesz iCloud albo LaCodea ID, twoje wpisy pozostaną zsynchronizowane na wszystkich urządzeniach z tym samym Kontem Apple albo tym samym LaCodea ID."
+            ]
+          },
+          {
+            "id": "mac",
+            "q": "Co potrafi SimpleTime na Macu?",
+            "a": [
+              "Prawie wszystko, co potrafi na iPhonie – zapis czasu, widok dnia, analizę, raporty, eksport, kopie zapasowe, synchronizację i blokadę aplikacji; tam, gdzie na iPhonie przesuwasz palcem, na Macu klikasz prawym przyciskiem. Do tego dochodzą stoper na pasku menu i widżety na biurku. Miejsc, Wydarzeń na żywo, aplikacji na Apple Watch i alternatywnych ikon aplikacji na Macu nie ma."
+            ]
+          },
+          {
+            "id": "languages",
+            "q": "W jakich językach mówi SimpleTime?",
+            "a": [
+              "W 41 – od angielskiego i niemieckiego po arabski, hindi i japoński. W Ustawieniach › Język możesz wybrać język aplikacji niezależnie od języka urządzenia."
+            ]
+          },
+          {
+            "id": "offline",
+            "q": "Czy SimpleTime działa bez internetu?",
+            "a": [
+              "Tak. Zapis czasu, widok dnia, wykresy i raporty działają bez połączenia. Jest ono potrzebne do synchronizacji, kopii zapasowych na własny serwer, logowania przez LaCodea ID, zakupu Pro i wyszukiwania adresu dla miejsca. To, co zostało do zrobienia, SimpleTime nadrobi – synchronizację, gdy tylko urządzenie znów będzie online, a pominiętą kopię zapasową przy następnym otwarciu aplikacji."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tracking",
+        "title": "Zapis czasu",
+        "items": [
+          {
+            "id": "start-stop",
+            "q": "Jak zacząć i zatrzymać zapis?",
+            "a": [
+              "Dotknij trójkąta obok zadania, aby je uruchomić. Trwające zadanie pojawia się na górze karty „Zapis”; dotknij „Zatrzymaj”, aby je zakończyć. Dotknięcie nazwy zadania otwiera jego podzadania, przesunięcie w lewo pozwala je edytować, zarchiwizować albo usunąć, a przesunięcie w prawo pokazuje informacje ze wszystkimi liczbami – na Macu wszystko to znajdziesz po kliknięciu prawym przyciskiem."
+            ]
+          },
+          {
+            "id": "one-at-a-time",
+            "q": "Czy dwa zadania mogą trwać jednocześnie?",
+            "a": [
+              "Nie. Trwa zawsze tylko jeden wpis: gdy uruchamiasz inne zadanie, trwający wpis kończy się dokładnie w tej chwili – dzięki temu twoje wpisy się nie nakładają."
+            ]
+          },
+          {
+            "id": "keeps-running",
+            "q": "Czy zegar idzie dalej, gdy zamknę SimpleTime?",
+            "a": [
+              "Tak. SimpleTime zapamiętuje moment startu i na tej podstawie liczy czas trwania – zapis trwa dalej, gdy zamkniesz aplikację, zablokujesz iPhone’a albo uruchomisz go ponownie. Na ekranie blokady i w polu Dynamic Island Wydarzenie na żywo pokazuje licznik czasu z przyciskiem do zatrzymania, a twoje przypomnienia przychodzą nawet przy zamkniętej aplikacji."
+            ]
+          },
+          {
+            "id": "add-later",
+            "q": "Zapomniałem włączyć zapis – czy mogę dodać czas później?",
+            "a": [
+              "Tak. Na karcie „Dzień” dotknij +, aby dodać wpis z początkiem i końcem, albo dotknij istniejącego wpisu, aby go zmienić. Wpisy nie mogą się nakładać: SimpleTime da ci znać, jeśli jakiś przedział koliduje z innym wpisem. Jeśli zegar już idzie, dotknij trwającego wpisu na górze karty „Zapis” i przesuń jego początek wstecz – najdalej do końca poprzedniego wpisu."
+            ]
+          },
+          {
+            "id": "restore-entry",
+            "q": "Usunięty wpis – czy mogę go odzyskać?",
+            "a": [
+              "Tak. Gdy usuniesz wpis na karcie „Dzień” – przesunięciem w lewo, a na Macu kliknięciem prawym przyciskiem – trafi on do kosza: w lewym górnym rogu karty „Dzień”, na ekranie „Usunięte wpisy”, przywrócisz go przyciskiem „Przywróć” albo usuniesz na stałe. Usunięte zadania czekają razem ze swoimi wpisami w koszu w lewym górnym rogu karty „Zapis”. To, co zostało usunięte na stałe, przywróci już tylko kopia zapasowa."
+            ]
+          },
+          {
+            "id": "fixed-times",
+            "q": "Czym są stałe terminy?",
+            "a": [
+              "Powtarzające się terminy, takie jak lekcje, zmiany czy dyżury, dodajesz tylko raz: zadanie, dni tygodnia, początek i koniec, co tydzień albo co dwa tygodnie, od wybranego dnia i – jeśli chcesz – z datą końcową. Gdy termin minie, SimpleTime sam dodaje go jako wpis – na każdym urządzeniu, na którym otworzysz SimpleTime, a mimo to tylko raz; zaległe terminy uzupełnia najwyżej 31 dni wstecz. Ty zapisujesz już tylko to, co dochodzi; znajdziesz je w Ustawieniach › Zapis › Stałe terminy, bez Pro."
+            ]
+          },
+          {
+            "id": "fixed-times-pause",
+            "q": "Czy mogę wstrzymać albo zmienić stałe terminy?",
+            "a": [
+              "Tak. Na ferie, urlop albo chorobę dodaj przerwę przyciskiem „Zrób przerwę” w Ustawieniach › Zapis › Stałe terminy – w tym czasie SimpleTime niczego nie wpisuje; pojedynczy termin wyłączysz jego przełącznikiem. Dodane już wpisy zmieniasz albo usuwasz jak każde inne, a gdy zmienisz albo usuniesz stały termin, to, co już wpisano, pozostaje. Jeśli stały termin nakłada się na istniejący wpis, SimpleTime go nie wpisuje."
+            ]
+          },
+          {
+            "id": "subtasks",
+            "q": "Jak działają podzadania?",
+            "a": [
+              "Dotknij nazwy zadania, aby je otworzyć, i dodaj tam podzadania przyciskiem +. Możesz zagnieżdżać je tak głęboko, jak twoja praca – klient, projekt, etap. Na wykresach, w raportach i celach podzadania liczą się do zadania nad nimi."
+            ]
+          },
+          {
+            "id": "order",
+            "q": "Jak utrzymać porządek na liście zadań?",
+            "a": [
+              "Zadania, których używasz codziennie, oznacz jako ulubione – zostaną na górze. Resztę możesz sortować alfabetycznie, według częstości użycia, według ostatniego użycia albo we własnej kolejności. Kolor i symbol – albo emoji – sprawiają, że każde zadanie łatwo rozpoznać."
+            ]
+          },
+          {
+            "id": "archive-trash",
+            "q": "Czym różni się archiwizowanie od usuwania?",
+            "a": [
+              "Archiwizowanie tylko ukrywa zadanie: jego wpisy zostają i nadal liczą się we wszystkich analizach. Usunięcie przenosi zadanie razem z wpisami do kosza – ich czas przestaje się wtedy wszędzie liczyć. Archiwum i kosz znajdziesz w lewym górnym rogu karty „Zapis”: z archiwum przycisk „Przywróć” przywraca zadanie, a z kosza – zadanie razem z jego wpisami; możesz też usunąć je tam na stałe."
+            ]
+          },
+          {
+            "id": "notes",
+            "q": "Czy mogę dodawać notatki do wpisów?",
+            "a": [
+              "Tak, każdy wpis może mieć notatkę – nad czym pracowałeś albo z kim. Dodajesz ją, gdy tworzysz lub edytujesz wpis na karcie „Dzień”, a gdy zegar idzie – dotykając trwającego wpisu na górze karty „Zapis”. Notatkę widać po otwarciu wpisu, w informacjach o zadaniu w części „Wszystkie wpisy”, w sekcji „Wszystkie wpisy” raportu PDF i w eksporcie CSV; kopie zapasowe też ją zawierają."
+            ]
+          },
+          {
+            "id": "reminders",
+            "q": "Czy SimpleTime może mi przypominać?",
+            "a": [
+              "Tak. W Ustawieniach › Ustaw powiadomienia określasz reguły – na przykład przypomnienie, gdy zadanie trwa już 60 minut, dla wszystkich zadań albo tylko wybranych, w wybrane dni tygodnia. Z opcją „Przypomnij, gdy nic nie trwa” SimpleTime da ci też znać, gdy przez jakiś czas nic nie było zapisywane."
+            ]
+          },
+          {
+            "id": "time-zone",
+            "q": "Podróż do innej strefy czasowej – dlaczego moje wpisy pokazują inne godziny?",
+            "a": [
+              "Domyślnie SimpleTime pokazuje każdy wpis w strefie czasowej, w której jest teraz twoje urządzenie – tak jak Kalendarz Apple: to, co zapiszesz o 9:00 w Nowym Jorku, w Berlinie pojawi się o 15:00. W Ustawieniach › Strefa czasowa możesz zamiast tego wybrać „Strefa czasowa zapisu”: wtedy każdy wpis pojawia się z godziną i w dniu, w którym został zapisany – wszędzie tam, gdzie widać godziny i sumy. Czas trwania w obu przypadkach jest taki sam; wpisy z wersji sprzed 4.7 zawsze pojawiają się w strefie czasowej urządzenia."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "insights",
+        "title": "Widok dnia i analiza",
+        "items": [
+          {
+            "id": "day-view",
+            "q": "Co pokazuje widok dnia?",
+            "a": [
+              "Każdy wpis danego dnia z początkiem, końcem i czasem trwania – jako listę albo jako oś czasu od 0 do 24 (dzisiaj ze znacznikiem bieżącej godziny); na szerokich ekranach, takich jak iPad i Mac, oba widoki są obok siebie. Na górze widzisz sumę dnia i porównanie z poprzednim dniem."
+            ]
+          },
+          {
+            "id": "charts",
+            "q": "Jakie są wykresy i statystyki?",
+            "a": [
+              "Na karcie „Wykres”: wykresy kołowe według zadań i według produktywności, za dzień, tydzień, miesiąc albo rok. W prawym górnym rogu, pod „Więcej statystyk”, znajdziesz porównanie z poprzednim okresem, trend, twoje największe zadania oraz najdłuższy i najkrótszy wpis – a od tygodnia wzwyż także rozkład twojego czasu w ciągu dnia z twoją najbardziej zajętą godziną. Każde zadanie ma też własną stronę z informacjami – pierwszy wpis, najdłuższy wpis, ten tydzień, ten rok."
+            ]
+          },
+          {
+            "id": "productivity",
+            "q": "Czym jest wynik produktywności?",
+            "a": [
+              "Podczas edycji zadania nadajesz mu w sekcji „Produktywność” kategorię: „Zajęcia produktywne”, „Zajęcia nieproduktywne”, „Obowiązki konieczne” – albo „Nie licz do produktywności”. Podzadania bez własnej kategorii przejmują kategorię zadania nad nimi, a „Nie licz do produktywności” dotyczy wszystkiego poniżej. Wynik pokazuje, jaka część czasu przypisanego do kategorii była produktywna albo konieczna: (produktywne + konieczne) ÷ (produktywne + nieproduktywne + konieczne) × 100. Czas „Bez kategorii” albo z opcją „Nie licz do produktywności” się nie liczy."
+            ]
+          },
+          {
+            "id": "goals",
+            "q": "Jak działają cele?",
+            "a": [
+              "Z SimpleTime Pro wyznaczasz każdemu zadaniu cel w Ustawieniach › Cele: co najmniej albo co najwyżej określony czas na dzień, tydzień lub miesiąc – na przykład co najmniej 8 godzin sportu w tygodniu albo najwyżej 2 godziny dziennie w mediach społecznościowych. Podzadania też się liczą, a mierzony jest bieżący okres. Jak ci idzie, widzisz na karcie „Wykres” i na Apple Watch; w sekcji „Cele” raport PDF porównuje średnią z wybranego okresu z twoim celem."
+            ]
+          },
+          {
+            "id": "share-chart",
+            "q": "Czy mogę udostępnić wykres?",
+            "a": [
+              "Tak, każdy wykres możesz udostępnić jako obraz albo zachować w aplikacji Zdjęcia. Aby go zachować, SimpleTime prosi tylko o pozwolenie na dodawanie zdjęć – twojej biblioteki zdjęć nie widzi."
+            ]
+          },
+          {
+            "id": "pdf-report",
+            "q": "Jak utworzyć raport PDF?",
+            "a": [
+              "W Ustawieniach › Eksportuj raport wybierz okres – od „Dzisiaj” po „Cały okres” albo własny – zaznacz potrzebne sekcje i ułóż je przeciąganiem w wybranej kolejności. SimpleTime tworzy PDF z każdym zadaniem i podzadaniem, gotowy do udostępnienia albo zachowania. SimpleTime Pro dokłada dodatkowe sekcje: „W czasie”, „W ciągu dnia”, „Porównanie” i „Cele”.",
+              "Do karty czasu pracy służy sekcja „Wszystkie wpisy”: każdy wpis dzień po dniu z początkiem, końcem, zadaniem i notatką, do tego sumy dzienne, suma całkowita i godziny w formie dziesiętnej – idealnie, by porównać swoje godziny z paskiem wypłaty. Jest bezpłatna, bez Pro, i domyślnie włączona."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "shortcuts",
+        "title": "Widżety, Siri i tryb skupienia",
+        "items": [
+          {
+            "id": "widgets",
+            "q": "Jakie są widżety?",
+            "a": [
+              "Na ekran początkowy: „Dzisiaj”, „Trwające zadanie” i „Tydzień” – „Dzisiaj” i „Trwające zadanie” z przyciskami do startu i zatrzymania. Na ekran blokady: co trwa i jak długo. Do tego przełącznik „Zapis czasu” do Centrum sterowania. Gdy trwa jakieś zadanie, Wydarzenie na żywo pokazuje je na ekranie blokady i w polu Dynamic Island, z przyciskiem do zatrzymania. Z SimpleTime Pro dostajesz też widżet szybkiego startu, który wypełniasz własnymi zadaniami."
+            ]
+          },
+          {
+            "id": "without-opening",
+            "q": "Czy mogę zacząć zapis bez otwierania aplikacji?",
+            "a": [
+              "Tak, na kilka sposobów. Przytrzymaj ikonę aplikacji, aby zatrzymać to, co trwa, albo uruchomić jedno ze swoich zadań. Wpisz nazwę zadania w wyszukiwarce iPhone’a i dotknij wyniku. Albo użyj widżetu, Siri lub przełącznika „Zapis czasu” – w Centrum sterowania, na ekranie blokady albo na przycisku czynności od iPhone’a 15 Pro – a z SimpleTime Pro także swojego Apple Watch."
+            ]
+          },
+          {
+            "id": "siri",
+            "q": "Jak SimpleTime współpracuje z Siri i Skrótami?",
+            "a": [
+              "Powiedz na przykład „Start Work in SimpleTime”, „Stop tracking in SimpleTime”, „How much did I track today in SimpleTime?” albo „What’s running in SimpleTime?”. Siri rozumie te zwroty po angielsku i niemiecku. W każdym języku czynności są dostępne w aplikacji Skróty – tam możesz też nadać im własny zwrot."
+            ]
+          },
+          {
+            "id": "focus-filter",
+            "q": "Co robi filtr skupienia?",
+            "a": [
+              "Dzięki filtrowi skupienia SimpleTime podąża za twoim trybem skupienia: gdy włącza się „Praca”, lista zadań pokazuje tylko twoją kategorię pracy – a zapis może zaczynać się i kończyć razem z trybem skupienia. Ustawiasz go w Ustawieniach iOS: Tryb skupienia › twój tryb skupienia › Filtry trybu skupienia › Dodaj filtr › SimpleTime. Filtr skupienia należy do SimpleTime Pro."
+            ]
+          },
+          {
+            "id": "calendar-entries",
+            "q": "Czy SimpleTime może przenosić moje wpisy do kalendarza?",
+            "a": [
+              "Tak, z SimpleTime Pro: włącz „Wpisy w Kalendarzu” w Ustawieniach › Kalendarz – od tego dnia każdy zakończony wpis pojawia się jako wydarzenie, we własnym kalendarzu „SimpleTime” albo w wybranym przez ciebie, jeśli chcesz, dla każdego zadania w innym. Gdy zmienisz albo usuniesz wpis, wydarzenie podąży za tą zmianą, a link w wydarzeniu otwiera wpis w SimpleTime. Jeśli wyłączysz tę funkcję, wydarzenia zostaną w kalendarzu.",
+              "„Zadania z kalendarzy” zamienia kalendarze, takie jak „Praca”, w zadania; wydarzenia, które już są w kalendarzu, nie stają się jednak wpisami. Wydarzenia są przechowywane u dostawcy twojego kalendarza i pokazują nazwy twoich zadań każdemu, komu udostępniasz kalendarz – nawet przy włączonej blokadzie aplikacji."
+            ]
+          },
+          {
+            "id": "menu-bar",
+            "q": "Czy mogę obsługiwać SimpleTime z paska menu na Macu?",
+            "a": [
+              "Tak. Stoper na pasku menu pokazuje, czy trwa jakieś zadanie; kliknij go, aby zaczynać, zatrzymywać lub zmieniać zadania bez otwierania okna. Włączasz go i wyłączasz w Ustawieniach › Pasek menu › Pokazuj na pasku menu. Gdy blokada aplikacji jest ustawiona, menu nie pokazuje nazw zadań i oferuje tylko „Zatrzymaj”."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "data",
+        "title": "Synchronizacja, kopie zapasowe i eksport",
+        "items": [
+          {
+            "id": "sync",
+            "q": "Czy SimpleTime synchronizuje dane między moimi urządzeniami?",
+            "a": [
+              "Tak, przez iCloud albo przez LaCodea ID – wybierasz to na każdym urządzeniu w Ustawieniach › Dane i synchronizacja. Z iCloud synchronizuje się każde urządzenie, na którym wybrano iCloud i zalogowano się na to samo Konto Apple; o tym, kiedy, decyduje system. Nie da się tego wymusić – „Synchronizuj teraz” sprawdza wtedy konto i połączenie, a ta sama strona pokazuje, kiedy ostatnio nastąpiła synchronizacja.",
+              "Z LaCodea ID synchronizuje się każde urządzenie, na którym zalogowano się do tego samego LaCodea ID i wybrano go jako miejsce danych, nawet z innym Kontem Apple – z szyfrowaniem od końca do końca, a gdy SimpleTime jest otwarty na obu urządzeniach, w ciągu kilku sekund."
+            ]
+          },
+          {
+            "id": "sync-trouble",
+            "q": "Moje wpisy nie pojawiają się na drugim urządzeniu – co mogę zrobić?",
+            "a": [
+              "Sprawdź na obu urządzeniach Ustawienia › Dane i synchronizacja: oba potrzebują tego samego miejsca – iCloud z tym samym Kontem Apple albo LaCodea ID z tym samym logowaniem. Jeśli widnieje tam informacja, że przejście zadziała dopiero później, całkowicie zamknij SimpleTime i otwórz go ponownie; poza tym aktualizuj aplikację na wszystkich swoich urządzeniach.",
+              "Przy iCloud „Ostatnia synchronizacja” w Ustawieniach, w sekcji Synchronizacja, pokazuje, kiedy ostatnio przesłano dane, a „Sprawdź synchronizację” kontroluje konto i połączenie i w razie problemu podaje przyczynę – na przykład brak miejsca w iCloud. Przy LaCodea ID strona „Dane i synchronizacja” pokazuje, czy zmiany czekają na połączenie, czy zalogowane jest inne konto albo czy urządzenie potrzebuje twojego klucza odzyskiwania. Jeśli to nie pomoże, [napisz do nas](@contact)."
+            ]
+          },
+          {
+            "id": "without-icloud",
+            "q": "Czy mogę używać SimpleTime bez iCloud?",
+            "a": [
+              "Tak. Wybierz „Tylko na tym urządzeniu” w Ustawieniach, w sekcji Dane i synchronizacja – wtedy twoje dane zostają na tym jednym urządzeniu. Tym ważniejsze są kopie zapasowe: plan kopii zapasowych zapisuje je automatycznie, na przykład w folderze w aplikacji Pliki albo na twoim własnym serwerze. Jeśli mimo to chcesz synchronizować kilka urządzeń bez iCloud, wybierz tam LaCodea ID; urządzenie bez twojego pęku kluczy w iCloud zapyta wtedy raz o twój klucz odzyskiwania."
+            ]
+          },
+          {
+            "id": "switch-storage",
+            "q": "Jak zmienić, gdzie są moje dane?",
+            "a": [
+              "W Ustawieniach › Dane i synchronizacja dotknij miejsca, w którym mają być twoje dane, a potem „Przejdź do iCloud”, „Przejdź do LaCodea ID” albo „Zachowaj tylko na tym urządzeniu”; przy LaCodea ID od razu się logujesz. Przed przejściem do iCloud albo LaCodea ID SimpleTime robi kopię bezpieczeństwa tego urządzenia, a jeśli są tam już dane, wybierasz między „Połącz” a „Użyj danych z …”.",
+              "Przejście dotyczy tylko tego urządzenia i zwykle zaczyna działać dopiero wtedy, gdy całkowicie zamkniesz SimpleTime i otworzysz go ponownie – strona ci o tym powie. Twoje inne urządzenia synchronizują się dalej jak dotąd, dopóki nie przełączysz także ich. Potem SimpleTime zaproponuje usunięcie danych ze starego miejsca; zrób to dopiero wtedy, gdy przejdą też twoje pozostałe urządzenia – inaczej one również stracą te dane."
+            ]
+          },
+          {
+            "id": "recovery-key",
+            "q": "Czym jest klucz odzyskiwania?",
+            "a": [
+              "Gdy miejscem przechowywania jest LaCodea ID, SimpleTime szyfruje twoje dane od końca do końca; twoje urządzenia Apple zwykle same dostają klucz przez pęk kluczy w iCloud. Urządzenie bez twojego pęku kluczy w iCloud – na przykład z innym Kontem Apple – jednorazowo potrzebuje twojego klucza odzyskiwania, który ma 24 litery i cyfry. Znajdziesz go w Ustawieniach › Dane i synchronizacja › Klucz odzyskiwania, po Face ID albo kodzie urządzenia; dopóki nie potwierdzisz, że masz go zapisany, strona „Bezpieczeństwo” będzie ci o tym przypominać. Przechowuj go w menedżerze haseł albo na papierze – bez niego i bez twoich urządzeń nikt nie otworzy twoich danych, nawet my."
+            ]
+          },
+          {
+            "id": "recovery-key-lost",
+            "q": "Nie mam już klucza odzyskiwania – co teraz?",
+            "a": [
+              "Na urządzeniu, które nadal może odczytać twoje dane, SimpleTime pokaże go ponownie w Ustawieniach › Dane i synchronizacja › Klucz odzyskiwania po dotknięciu „Pokaż klucz odzyskiwania” – możesz też utworzyć tam nowy, a stary przestanie działać. Jeśli żadne z twoich urządzeń nie może już otworzyć danych, nikt nie zdoła ich odzyskać – nawet my. Wtedy, gdy aplikacja poprosi o klucz, dotknij „Nie mam już klucza odzyskiwania” i zacznij od nowa z danymi z tego urządzenia; to, co było tylko na serwerze albo na twoich innych urządzeniach, przepadnie."
+            ]
+          },
+          {
+            "id": "backups",
+            "q": "Jak działają kopie zapasowe?",
+            "a": [
+              "W Ustawieniach › Kopie zapasowe tworzysz dowolnie wiele planów kopii zapasowych. Każdy plan ma miejsce – iCloud Drive, folder w aplikacji Pliki, np. Dropbox albo Google Drive, twój własny serwer przez WebDAV albo to urządzenie – harmonogram od „Co godzinę” do „Co miesiąc”, okres przechowywania i, jeśli chcesz, hasło. Na tej samej stronie możesz też w każdej chwili utworzyć kopię ręcznie."
+            ]
+          },
+          {
+            "id": "backup-password",
+            "q": "Czy mogę chronić kopie zapasowe hasłem?",
+            "a": [
+              "Tak. Jeśli ustawisz hasło dla planu, każda kopia zapasowa jest szyfrowana na twoim urządzeniu, zanim zostanie zapisana. Dobrze przechowuj hasło: bez niego nikt nie przywróci kopii – ani ty, ani my. Nie ma innej drogi."
+            ]
+          },
+          {
+            "id": "backup-files",
+            "q": "Gdzie znajdę moje kopie zapasowe?",
+            "a": [
+              "Kopie planu ustawionego na „Tylko na tym urządzeniu” widać też w aplikacji Pliki, w lokalizacji „Na moim iPhonie” (albo „Na moim iPadzie”) › SimpleTime › Backups, a kopie planu iCloud Drive – w iCloud Drive › SimpleTime › Backups. Plany dla folderu w aplikacji Pliki albo twojego własnego serwera zapisują je tam, gdzie wskażesz. Kopie na urządzeniu przepadają razem z urządzeniem – i wtedy, gdy usuniesz SimpleTime. Najlepiej nadaj swoim planom hasło: bez niego kopię może otworzyć każdy, kto ma dostęp do jej miejsca – na urządzeniu każdy, kto je odblokuje, nawet przy włączonej blokadzie aplikacji."
+            ]
+          },
+          {
+            "id": "restore",
+            "q": "Jak przywrócić kopię zapasową?",
+            "a": [
+              "W Ustawieniach › Kopie zapasowe przywracasz kopię – z jednego ze swoich planów albo z pliku. Istniejące dane zostają, a brakujące są uzupełniane. Kopie z SimpleTime 4.7 i starszych wersji importujesz w Ustawieniach › Eksportuj / importuj dane › Importuj kopię z pliku JSON. Na nowym urządzeniu najlepiej poczekaj, aż synchronizacja przez iCloud albo LaCodea ID dostarczy twoje dane – inaczej zadania mogą się zdublować."
+            ]
+          },
+          {
+            "id": "export",
+            "q": "Czy mogę eksportować moje dane?",
+            "a": [
+              "Tak, w każdej chwili: jako plik CSV z jednym wierszem na wpis – data, początek, koniec, zadanie, czas trwania, godziny w formie dziesiętnej i notatka, dla Excela, Numbers albo dowolnego arkusza kalkulacyjnego – jako raport PDF albo jako kopię zapasową.",
+              "W Ustawieniach › Eksportuj / importuj dane wybierasz okres pliku CSV – od „Dzisiaj” po „Cały okres” albo własny, na przykład poprzedni miesiąc. Kopię zapasową tworzysz w Ustawieniach › Kopie zapasowe."
+            ]
+          },
+          {
+            "id": "timesheet",
+            "q": "Jak przygotować godziny do karty czasu pracy?",
+            "a": [
+              "Jako PDF: w Ustawieniach › Eksportuj raport wybierz okres – na przykład „Poprzedni miesiąc” – i zostaw włączoną sekcję „Wszystkie wpisy”; zawiera ona każdy wpis z początkiem, końcem, zadaniem i notatką, do tego sumy dzienne, sumę całkowitą i godziny w formie dziesiętnej. Jako arkusz: w Ustawieniach › Eksportuj / importuj dane wybierz okres i dotknij „Eksportuj dane jako CSV” – jeden wiersz na wpis z datą, początkiem, końcem, zadaniem, czasem trwania, godzinami w formie dziesiętnej i notatką, dla Excela albo Numbers. Oba sposoby są bezpłatne, a wpisy ze stałych terminów liczą się jak wszystkie inne."
+            ]
+          },
+          {
+            "id": "rounding",
+            "q": "Czy SimpleTime może zaokrąglać czas, na przykład do kwadransa?",
+            "a": [
+              "Nie, nie ma ustawienia zaokrąglania: SimpleTime zachowuje początek i koniec dokładnie tak, jak je zapisujesz. W sekcji „Wszystkie wpisy” raportu PDF i w eksporcie CSV każdy wiersz jest zaokrąglony do minuty i podany w godzinach w formie dziesiętnej z dwoma miejscami po przecinku; w PDF sumy są liczone dokładnie z tych wartości. Jeśli potrzebujesz kwadransów, zmień początek i koniec we wpisie albo zaokrąglij w arkuszu kalkulacyjnym."
+            ]
+          },
+          {
+            "id": "import",
+            "q": "Czy mogę zaimportować dane z innej aplikacji?",
+            "a": [
+              "Nie. SimpleTime odczytuje tylko własne kopie zapasowe – plików CSV, także własnych, nie da się zaimportować, a wydarzenia z kalendarza nie stają się wpisami. Wcześniejsze godziny dodasz ręcznie na karcie „Dzień” przyciskiem +."
+            ]
+          },
+          {
+            "id": "new-device",
+            "q": "Jak przenieść się na nowego iPhone’a?",
+            "a": [
+              "Zaloguj się na to samo Konto Apple i zainstaluj SimpleTime – jeśli korzystasz z iCloud (Ustawienia › Dane i synchronizacja), twoje wpisy wrócą same. Jeśli korzystasz z LaCodea ID, zaloguj się do niego na nowym urządzeniu i wybierz go w sekcji Dane i synchronizacja; jeśli urządzenie nie dostanie klucza samo przez twój pęk kluczy w iCloud, aplikacja raz zapyta o twój klucz odzyskiwania. W przeciwnym razie utwórz kopię zapasową na starym urządzeniu i przywróć ją na nowym. Miejsca i ustawienia należą do danego urządzenia – nie są ani synchronizowane, ani uwzględniane w kopiach zapasowych."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "privacy",
+        "title": "Prywatność i bezpieczeństwo",
+        "items": [
+          {
+            "id": "data-location",
+            "q": "Gdzie są przechowywane moje dane?",
+            "a": [
+              "Tam, gdzie zechcesz: w Ustawieniach, w sekcji Dane i synchronizacja, wybierasz „Tylko na tym urządzeniu”, twój prywatny iCloud, gdzie dane szyfruje Apple, albo LaCodea ID, gdzie są szyfrowane od końca do końca – w żadnym z tych miejsc nie możemy odczytać twoich wpisów. Kopie zapasowe są przechowywane tam, gdzie zapisują je twoje plany kopii zapasowych; bez hasła może je odczytać każdy, kto ma dostęp do tego miejsca. Jeśli z Pro włączysz „Wpisy w Kalendarzu”, zakończone wpisy pojawią się też jako wydarzenia w twoim kalendarzu – widoczne dla jego dostawcy i dla wszystkich, którym go udostępniasz."
+            ]
+          },
+          {
+            "id": "lacodea-id-privacy",
+            "q": "Kto może czytać moje wpisy, gdy synchronizuję przez LaCodea ID?",
+            "a": [
+              "Tylko twoje urządzenia. SimpleTime szyfruje zadania, wpisy z ich godzinami i notatkami, stałe terminy, cele i przypomnienia na twoim urządzeniu (AES-GCM z kluczem 256-bitowym), zanim trafią na własny serwer SimpleTime – klucz mają tylko twoje urządzenia, nie my. Serwer widzi tylko, ile jest rekordów jakiego rodzaju, mniej więcej jak są duże, kiedy je zapisano i czy je usunięto; stoi w centrum danych we Frankfurcie nad Menem. Szczegóły znajdziesz w naszej [polityce prywatności](@privacy)."
+            ]
+          },
+          {
+            "id": "tracking-me",
+            "q": "Czy SimpleTime mnie śledzi?",
+            "a": [
+              "Nie. SimpleTime nie pokazuje reklam, nie sprzedaje danych, nie tworzy profili użytkowników i nie śledzi cię w innych aplikacjach ani na stronach internetowych. Żebyśmy mogli szybko znajdować błędy, aplikacja wysyła anonimowe raporty o awariach i statystyki użycia na nasz własny serwer – bez identyfikatora urządzenia i nigdy z twoimi zadaniami, godzinami ani notatkami. Możesz to wyłączyć w Ustawieniach › Prywatność › Przegląd i uprawnienia. Szczegóły znajdziesz w naszej [polityce prywatności](@privacy)."
+            ]
+          },
+          {
+            "id": "permissions",
+            "q": "O jakie uprawnienia prosi SimpleTime?",
+            "a": [
+              "Tylko o to, czego potrzebuje dana funkcja, i dopiero wtedy, gdy z niej korzystasz: o powiadomienia dla przypomnień i komunikatów o miejscach, o położenie dla miejsc, o kalendarze dla funkcji „Wpisy w Kalendarzu”, o dodawanie zdjęć do zachowywania obrazów oraz o Face ID albo Touch ID dla blokady aplikacji. W Ustawieniach › Prywatność › Przegląd i uprawnienia widzisz każde z nich wraz z bieżącym stanem."
+            ]
+          },
+          {
+            "id": "location",
+            "q": "Po co SimpleTime moje położenie?",
+            "a": [
+              "Tylko dla miejsc, które należą do SimpleTime Pro: żeby zadanie mogło się zacząć, gdy gdzieś dotrzesz. iOS obserwuje ustawione przez ciebie obszary i informuje aplikację, gdy przychodzisz albo wychodzisz. Twoje miejsca zostają na twoim urządzeniu, a SimpleTime nie prowadzi rejestru miejsc, w których bywasz. Bez miejsc SimpleTime nie potrzebuje twojego położenia."
+            ]
+          },
+          {
+            "id": "app-lock",
+            "q": "Jak działa blokada aplikacji?",
+            "a": [
+              "W Ustawieniach › Blokada aplikacji wybierasz, czy SimpleTime otwiera się za pomocą Face ID lub Touch ID i kodu urządzenia, czy własnego kodu – z cyfr albo w postaci hasła. W przełączniku aplikacji SimpleTime pozostaje zasłonięty, a nazwy zadań nie pojawiają się już w wyszukiwarce iPhone’a ani na ikonie aplikacji; w części „Poza aplikacją” wybierasz, co pokazują powiadomienia, widżety i Apple Watch. Na wypadek zapomnienia własnego kodu możesz wcześniej włączyć „Resetuj zapomniany kod kodem urządzenia” albo ustawić hasło awaryjne. Bez żadnego z nich jedyną drogą powrotu jest usunięcie i ponowna instalacja aplikacji – a to, co było tylko na tym urządzeniu, bez kopii zapasowej przepadnie."
+            ]
+          },
+          {
+            "id": "security-overview",
+            "q": "Co pokazuje strona „Bezpieczeństwo”?",
+            "a": [
+              "W Ustawieniach › Bezpieczeństwo › Przegląd widzisz w jednym spojrzeniu, jak dobrze chronione są twoje dane: kod urządzenia, blokada aplikacji, automatyczne i zaszyfrowane kopie zapasowe oraz miejsce przechowywania danych – przy LaCodea ID także szyfrowanie od końca do końca i twój klucz odzyskiwania. To, czego jeszcze brakuje, znajdziesz w części „Zalecane”; każdy punkt wyjaśnia, jak cię chroni, i w razie potrzeby prowadzi do właściwego ustawienia."
+            ]
+          },
+          {
+            "id": "delete-all",
+            "q": "Jak usunąć wszystkie moje dane?",
+            "a": [
+              "Opcja Ustawienia › Prywatność › Usuń wszystkie dane usuwa wszystko naraz – wpisy i zadania, cele, miejsca, kosz, przypomnienia, kopie zapasowe twoich planów i stare kopie w iCloud Drive, eksporty, ustawienia razem z kodem blokady aplikacji oraz wydarzenia, które SimpleTime dodał do twojego kalendarza.",
+              "Dane znikają z tego urządzenia, z iCloud oraz – jeśli synchronizujesz przez LaCodea ID – z serwera; przez iCloud usunięcie dociera też do twoich innych urządzeń, gdy tylko będą online. Przy synchronizacji przez LaCodea ID twoje inne urządzenia zachowują swoje dane i przestają się synchronizować, dopóki nie skonfigurujesz tam synchronizacji od nowa – tam też je usuń – a twoje konto LaCodea ID zostaje. Tego nie można cofnąć."
+            ]
+          },
+          {
+            "id": "delete-app",
+            "q": "Co się stanie, gdy usunę SimpleTime?",
+            "a": [
+              "Wtedy znika wszystko, co było tylko na tym urządzeniu: twoje wpisy przy ustawieniu „Tylko na tym urządzeniu”, kopie planu „Tylko na tym urządzeniu”, twoje miejsca i ustawienia razem z blokadą aplikacji. To, co jest w iCloud albo w LaCodea ID, tam zostaje i wraca po ponownej instalacji, gdy znów wybierzesz to samo miejsce w sekcji Dane i synchronizacja.",
+              "Kopie zapasowe w iCloud Drive, w folderze w aplikacji Pliki albo na twoim serwerze zostają, tak samo jak wydarzenia w twoim kalendarzu; do zaszyfrowanej kopii będziesz potem potrzebować jej hasła. Subskrypcja trwa dalej, dopóki z niej nie zrezygnujesz, a twój LaCodea ID zostaje. Jeśli chcesz najpierw usunąć wszystko, użyj opcji Ustawienia › Prywatność › Usuń wszystkie dane."
+            ]
+          },
+          {
+            "id": "lacodea-id-delete",
+            "q": "Jak się wylogować albo usunąć mój LaCodea ID?",
+            "a": [
+              "Dotknij swojego LaCodea ID na samej górze Ustawień: „Wyloguj się” wylogowuje cię ze wszystkich aplikacji LaCodea na tym urządzeniu – twoje dane zostają tutaj i znów się synchronizują, gdy tylko się zalogujesz. „Odłącz aplikację SimpleTime” odłącza od twojego konta tylko SimpleTime; „Usuń LaCodea ID” usuwa konto dla wszystkich aplikacji LaCodea – możesz to zrobić także na account.lacodea.com. Zarówno przy odłączeniu, jak i przy usunięciu serwer SimpleTime usuwa twoje zsynchronizowane dane, które się na nim znajdują; to, co jest na twoich urządzeniach albo w iCloud, zostaje. Subskrypcja przez Apple trwa dalej, dopóki nie zrezygnujesz z niej w ustawieniach urządzenia."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "pro",
+        "title": "SimpleTime Pro",
+        "items": [
+          {
+            "id": "pro-includes",
+            "q": "Co zawiera SimpleTime Pro?",
+            "a": [
+              "Aplikację na Apple Watch, podsumowania twojego tygodnia, miesiąca i roku, miejsca, twoje wpisy jako wydarzenia w kalendarzu i zadania z kalendarzy, rok na jednym obrazie, cele, filtr skupienia, widżet szybkiego startu, siedem kolorów akcentu albo własny, sześć krojów pisma, szesnaście ikon aplikacji i dodatkowe sekcje w raporcie PDF. Aplikacja na zegarek wymaga iPhone’a; miejsca i ikony aplikacji są dostępne na iPhonie i iPadzie. To, co pojawi się później, jest wliczone. [Wszystko o SimpleTime Pro](@pro)"
+            ]
+          },
+          {
+            "id": "pro-price",
+            "q": "Ile kosztuje SimpleTime Pro?",
+            "a": [
+              "Pro jest dostępne miesięcznie, rocznie albo jako jednorazowy zakup „Na zawsze”. Ceny zależą od kraju i waluty, a aplikacja pokazuje je przed zakupem."
+            ]
+          },
+          {
+            "id": "trial",
+            "q": "Czy mogę najpierw wypróbować Pro?",
+            "a": [
+              "Tak. Nowi subskrybenci mogą przez tydzień za darmo wypróbować subskrypcję miesięczną albo roczną; aplikacja pokazuje, czy okres próbny dotyczy ciebie. Jeśli nie zrezygnujesz najpóźniej 24 godziny przed jego końcem, subskrypcja odnowi się po wyświetlonej cenie."
+            ]
+          },
+          {
+            "id": "family",
+            "q": "Czy moja rodzina też może korzystać z Pro?",
+            "a": [
+              "Tak. SimpleTime Pro działa z Chmurą rodzinną – jeden zakup dla maksymalnie sześciu osób."
+            ]
+          },
+          {
+            "id": "restore-purchase",
+            "q": "Mam już Pro – jak dostać je na moich innych urządzeniach?",
+            "a": [
+              "Pro jest przypisane do twojego Konta Apple: na twoich innych urządzeniach z tym samym kontem zwykle odblokowuje się samo. Jeśli nie, dotknij tam „Przywróć” w Ustawieniach › SimpleTime Pro.",
+              "Na urządzeniu z innym Kontem Apple dostajesz Pro przez LaCodea ID: zaloguj się na obu urządzeniach do tego samego LaCodea ID. Jeśli Pro zostało kupione przed zalogowaniem, zaloguj się do LaCodea ID także na urządzeniu z Kontem Apple, przez które dokonano zakupu – stamtąd SimpleTime zgłosi zakup do twojego konta. Strona Pro pokazuje wtedy „Przez twoje konto LaCodea ID”, a przy subskrypcji – gdzie ją wykupiono; tylko tam możesz ją zmienić."
+            ]
+          },
+          {
+            "id": "cancel",
+            "q": "Jak zrezygnować z subskrypcji?",
+            "a": [
+              "W ustawieniach App Store – na iPhonie w Ustawieniach › twoje imię i nazwisko › Subskrypcje – albo w aplikacji na stronie Pro przez „Zarządzaj subskrypcją”. Działa to tylko na urządzeniu z Kontem Apple, przez które wykupiono subskrypcję; jeśli masz Pro przez swój LaCodea ID, strona Pro wymienia te urządzenia. Pro pozostaje aktywne do końca już opłaconego okresu, a usunięcie LaCodea ID też nie kończy subskrypcji."
+            ]
+          },
+          {
+            "id": "lifetime-switch",
+            "q": "Mam subskrypcję – czy mogę przejść na „Na zawsze”?",
+            "a": [
+              "Tak, bezpośrednio na stronie Pro. Apple nie kończy jednak przy tym subskrypcji automatycznie: zrezygnuj z niej potem, żeby się nie odnowiła. Aplikacja ci o tym przypomni."
+            ]
+          },
+          {
+            "id": "pro-ends",
+            "q": "Co się dzieje, gdy Pro się kończy?",
+            "a": [
+              "Nic nie przepada. Twoje wpisy, cele i miejsca zostają zapisane. Funkcje Pro są znów zablokowane – na przykład miejsca nie uruchamiają już zadań – a wszystko wraca, gdy tylko Pro znów będzie aktywne."
+            ]
+          },
+          {
+            "id": "pro-offline",
+            "q": "Czy Pro potrzebuje połączenia z internetem?",
+            "a": [
+              "Nie. SimpleTime sprawdza twój zakup w App Store – a jeśli korzystasz z LaCodea ID, także na twoim koncie – zawsze, gdy tylko może. Bez połączenia Pro działa dalej – do dwóch tygodni bez kontaktu."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "watch-places",
+        "title": "Apple Watch i miejsca",
+        "items": [
+          {
+            "id": "watch-setup",
+            "q": "Jak skonfigurować aplikację na Apple Watch?",
+            "a": [
+              "Aplikacja na Apple Watch należy do SimpleTime Pro. Zainstaluj ją na zegarku, a potem raz otwórz SimpleTime na iPhonie – po kilku sekundach zegarek pokaże twoje zadania. iPhone pozostaje źródłem: to, co uruchomisz na zegarku, zapisuje się tam – z tym samym Wydarzeniem na żywo i tymi samymi widżetami."
+            ]
+          },
+          {
+            "id": "watch-features",
+            "q": "Co mogę robić na Apple Watch?",
+            "a": [
+              "Zaczynaj i zatrzymuj na nadgarstku – ulubione, ostatnio używane albo dowolne zadanie przez wyszukiwanie. Zaczynaj wcześniej: 5, 15, 30 lub 60 minut temu albo płynnie od końca ostatniego wpisu. Zatrzymuj dwukrotnym stuknięciem. Dzień, tydzień i cele w jednym spojrzeniu, z licznikiem czasu na tarczy zegarka i w Stosie inteligentnym. Gdy iPhone jest poza zasięgiem, twoje dotknięcia są zapamiętywane razem z godziną i przekazywane później."
+            ]
+          },
+          {
+            "id": "places-how",
+            "q": "Jak działają miejsca?",
+            "a": [
+              "Dodaj miejsce – na przykład biuro albo siłownię – z promieniem od 50 m do 10 km i wybierz zadanie. Gdy dotrzesz na miejsce, zadanie zacznie się samo albo SimpleTime najpierw zapyta. Z czasem oczekiwania nic się nie zaczyna, gdy tylko przechodzisz obok. Gdy wychodzisz, zadanie może się zatrzymać, a działanie miejsca możesz ograniczyć do wybranych dni i godzin."
+            ]
+          },
+          {
+            "id": "places-late",
+            "q": "Dlaczego miejsce uruchamia zadanie za późno albo wcale?",
+            "a": [
+              "Miejsca potrzebują dostępu do położenia ustawionego na „Zawsze” i włączonej opcji „Dokładne położenie”. Poniżej 100 m iOS często późno zauważa twoje przybycie, bo w tle położenie pochodzi zwykle z Wi-Fi i sieci komórkowej, a nie z GPS – pomaga większy promień. iOS monitoruje najwyżej 20 miejsc na aplikację, a na Macu miejsc nie ma."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "more",
+        "title": "Pozostałe",
+        "items": [
+          {
+            "id": "look",
+            "q": "Czy mogę zmienić wygląd SimpleTime?",
+            "a": [
+              "Tak: wygląd jasny, ciemny albo zgodny z systemem, trzy wysokości wiersza na liście zadań, a w Ustawieniach › Krój pisma własny rozmiar tekstu i pogrubiony tekst. Z SimpleTime Pro dostajesz też siedem kolorów akcentu albo własny – obecny w przyciskach, przełącznikach i na wykresach – sześć krojów pisma oraz, na iPhonie i iPadzie, szesnaście ikon aplikacji."
+            ]
+          },
+          {
+            "id": "accessibility",
+            "q": "Czy SimpleTime dba o dostępność?",
+            "a": [
+              "Tak. VoiceOver odczytuje przyciski, wykresy i oś czasu w każdym języku aplikacji, a wykresy są też dostępne jako wykresy audio. Tekst dostosowuje się do rozmiaru tekstu w iOS aż do największych ustawień – tylko w nagłówku i na osi czasu rośnie do pewnej granicy, żeby nic nie zasłaniało elementów sterujących. Więcej znajdziesz w naszej [deklaracji dostępności](@accessibility); jeśli coś u ciebie nie działa, daj nam znać."
+            ]
+          },
+          {
+            "id": "freelance",
+            "q": "Czy SimpleTime nadaje się dla freelancerów?",
+            "a": [
+              "Do zapisu czasu – tak: rozdzielaj klientów i projekty jako zadania i podzadania, a gdy potrzebujesz zestawienia, eksportuj raport PDF albo plik CSV. Stawek godzinowych i faktur w SimpleTime nie ma – do tego przenieś eksport do swojego programu do fakturowania."
+            ]
+          },
+          {
+            "id": "platforms",
+            "q": "Czy jest wersja na Androida, Windowsa albo przeglądarkę?",
+            "a": [
+              "Nie. SimpleTime powstał dla iPhone’a, iPada, Maca i Apple Watch. Swoje dane możesz w każdej chwili wyeksportować jako CSV."
+            ]
+          },
+          {
+            "id": "account-web",
+            "q": "Co mogę zrobić na account.lacodea.com?",
+            "a": [
+              "Tam zarządzasz swoim LaCodea ID w przeglądarce: metodami logowania, subskrypcjami, pobieraniem danych konta i usunięciem konta – w SimpleTime do tego samego konta dotrzesz na samej górze Ustawień. Swoich wpisów tam nie zobaczysz: istnieją tylko w SimpleTime na iPhonie, iPadzie, Macu i Apple Watch. Jeśli synchronizujesz przez LaCodea ID, leżą zaszyfrowane od końca do końca na serwerze SimpleTime – sam LaCodea ID nigdy ich nie dostaje."
+            ]
+          },
+          {
+            "id": "feedback",
+            "q": "Błąd albo pomysł – gdzie mogę go zgłosić?",
+            "a": [
+              "Napisz do nas na [contact@simple-time.app](mailto:contact@simple-time.app) – z aplikacji możesz to zrobić także przez Ustawienia › Opinia. Przy błędzie podaj, proszę, model urządzenia, wersję iOS, iPadOS albo macOS i wersję SimpleTime – znajdziesz ją w Ustawieniach › O SimpleTime – i krótko opisz, co się działo. Czytamy każdą wiadomość."
+            ]
+          },
+          {
+            "id": "support-us",
+            "q": "Jak mogę wesprzeć SimpleTime?",
+            "a": [
+              "SimpleTime tworzy jedna osoba. Pomaga ocena w App Store, pomaga też polecanie aplikacji innym – a SimpleTime Pro pozwala dalej ją rozwijać."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

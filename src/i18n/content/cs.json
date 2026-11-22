@@ -1,0 +1,950 @@
+{
+  "store": {
+    "lead": "SimpleTime ukazuje, kam jde tvůj čas. Jedno klepnutí spustí, jedno zastaví.",
+    "promise": "Bez povinného účtu, bez reklam. Tvoje hodiny zůstávají v zařízení – a když chceš, i v tvém iCloudu nebo v LaCodea ID.",
+    "sections": [
+      {
+        "id": "tracking",
+        "title": "Sledování času",
+        "points": [
+          "Jedno klepnutí spouští a zastavuje – v aplikaci, z plochy, z Ovládacího centra, z vyhledávání na iPhonu nebo přes Siri",
+          "Pevné časy: výuku nebo směny zadáš jednou – SimpleTime je pak zapisuje každý týden automaticky",
+          "Úkoly s podúkoly, zanořené tak hluboko, jak je hluboká tvoje práce",
+          "Zapomněl jsi spustit? Přidej čas dodatečně a uprav ho, kdykoli chceš",
+          "Barva, symbol, oblíbené a pořadí, které si určíš sám"
+        ]
+      },
+      {
+        "id": "day",
+        "title": "Tvůj den",
+        "points": [
+          "Seznam nebo časová osa od 0 do 24, se značkou aktuálního času",
+          "Poznámka u každého záznamu",
+          "Porovnání dneška se včerejškem hned nahoře"
+        ]
+      },
+      {
+        "id": "insights",
+        "title": "Přehledy",
+        "points": [
+          "Koláčové grafy podle úkolů a podle produktivity",
+          "Den, týden, měsíc, rok",
+          "Statistiky: porovnání s předchozím obdobím, vývoj, rozložení během dne, nejdelší a nejkratší záznam",
+          "Každý úkol s vlastními čísly – první záznam, nejdelší, tento týden, tento rok",
+          "Každý graf lze sdílet jako obrázek"
+        ]
+      },
+      {
+        "id": "reports",
+        "title": "Reporty a export",
+        "points": [
+          "PDF report, jehož části si sám vybereš a uspořádáš",
+          "CSV pro Excel a Numbers",
+          "Plány záloh: automaticky na iCloud Drive, do složky v aplikaci Soubory, jako je Dropbox nebo Google Drive, na vlastní server nebo do zařízení – když chceš, chráněné heslem"
+        ]
+      },
+      {
+        "id": "widgets",
+        "title": "Widgety a Siri",
+        "points": [
+          "Dnes, běžící úkol a týden na ploše",
+          "Běžící čas na uzamčené obrazovce a na panelu Dynamic Island",
+          "Přepínač v Ovládacím centru, který spouští a zastavuje zápis",
+          "Siri a Zkratky: spusť, zastav nebo se zeptej, co právě běží"
+        ]
+      },
+      {
+        "id": "devices",
+        "title": "Na každém zařízení",
+        "points": [
+          "iPhone, iPad a Mac, sladěné přes iCloud nebo LaCodea ID",
+          "41 jazyků, nezávisle na jazyce zařízení",
+          "VoiceOver a Dynamic Type všude"
+        ]
+      },
+      {
+        "id": "data",
+        "title": "Tvoje data",
+        "points": [
+          "Zámek aplikace s Face ID, Touch ID nebo vlastním kódem",
+          "Ty rozhoduješ, kde jsou tvoje data: jen v tomto zařízení, v tvém iCloudu, nebo koncově šifrovaná v LaCodea ID",
+          "Soukromí na jedné stránce: přehled všech oprávnění a tvých dat",
+          "Na přání LaCodea ID, jeden účet pro všechny aplikace LaCodea – SimpleTime funguje i bez něj",
+          "Žádné reklamy, žádný prodej tvých dat – bez účtu dostáváme jen anonymní hlášení o pádech a statistiky používání, a ty se dají vypnout",
+          "Smazání všeho najednou – v zařízení, na iCloudu i v zálohách"
+        ]
+      }
+    ],
+    "pro": {
+      "title": "SimpleTime Pro",
+      "intro": "Všechno výše zůstává zdarma. Pro přidává:",
+      "points": [
+        "Apple Watch: spouštěj a zastavuj na zápěstí, spouštěj dříve, den, týden a cíle na první pohled – s běžícím časem na ciferníku",
+        "Ohlédnutí: tvůj týden, měsíc a rok jako karty – k listování i sdílení",
+        "Místa: úkoly se spustí samy, když dorazíš – na přání až po čekací době",
+        "Kalendář: každý záznam jako událost v tvém kalendáři – a k tomu úkoly z kalendářů jako „Práce“ nebo „Rodina“",
+        "Rok na jednom obrázku: každý den v roce, s tvými sériemi",
+        "Cíle pro úkol – na den, týden nebo měsíc",
+        "Filtr Soustředění: zapne se tvoje pracovní soustředění, seznam ukáže jen práci a hodiny už běží",
+        "Widget rychlého startu, který si naplníš sám",
+        "Sedm zvýrazňovacích barev nebo vlastní, šest písem a šestnáct ikon aplikace",
+        "Další části v PDF reportu: vývoj, rozložení dne, porovnání, cíle"
+      ],
+      "pricing": "Pro je k dispozici měsíčně, ročně nebo jednorázově navždy. Noví předplatitelé mají týden zdarma a s Rodinným sdílením může Pro používat až šest lidí. Ceny vidíš v aplikaci. Měsíční a roční se automaticky obnovují, dokud je nezrušíš – kdykoli v nastavení App Storu. Co přibude později, je zahrnuto."
+    },
+    "closing": "Pro každého, kdo chce vědět, kam mu doopravdy utíká čas – v práci, při studiu, na tréninku nebo jen pro sebe."
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Sledování času pro iPhone, iPad a Mac",
+      "titleLead": "Jedno klepnutí",
+      "titleAccent": "spustí hodiny.",
+      "cta": "Zobrazit funkce",
+      "proof": [
+        "Ke stažení zdarma",
+        "Bez účtu",
+        "Bez reklam a prodeje dat"
+      ]
+    },
+    "tour": {
+      "tracking": "Spusť, ať jsi kdekoli."
+    },
+    "devices": {
+      "title": "Na všech tvých zařízeních.",
+      "subtitle": "iPhone, iPad a Mac se synchronizují přes iCloud nebo LaCodea ID – a hodiny běží dál na uzamčené obrazovce, na panelu Dynamic Island i na zápěstí."
+    },
+    "showcase": [
+      {
+        "id": "day",
+        "title": "Celý tvůj den na jeden pohled."
+      },
+      {
+        "id": "insights",
+        "title": "Uvidíš, kam tvé hodiny opravdu mizí."
+      },
+      {
+        "id": "reports",
+        "title": "Report za pár sekund."
+      }
+    ],
+    "features": {
+      "title": "Vše, co potřebuješ. Zdarma.",
+      "subtitle": "Každá funkce z tohoto seznamu je součástí bezplatné aplikace."
+    },
+    "pro": {
+      "button": "Vše o SimpleTime Pro"
+    },
+    "audience": {
+      "title": "Pro každého, kdo chce vědět, kam mu utíká čas.",
+      "subtitle": "V práci, při studiu, na tréninku – nebo jen pro sebe.",
+      "groups": [
+        {
+          "id": "work",
+          "title": "Práce a freelancing",
+          "body": "Rozděl si klienty a projekty do úkolů a podúkolů a exportuj přehledný výkaz, kdykoli ho potřebuješ."
+        },
+        {
+          "id": "study",
+          "title": "Studium a učení",
+          "body": "Uvidíš, kolik času ti předmět doopravdy zabere, a další týden naplánuješ podle skutečných čísel."
+        },
+        {
+          "id": "training",
+          "title": "Trénink a návyky",
+          "body": "Zapisuj tréninky, cvičení nebo spánek a sleduj, jak z týdne na týden roste pravidelnost."
+        },
+        {
+          "id": "everyday",
+          "title": "Každodenní život",
+          "body": "Zjisti, kam ti hodiny doopravdy utíkají – a je jen na tobě, co změníš."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Časté otázky.",
+      "subtitle": "Nejdůležitější odpovědi na jeden pohled – a mnoho dalších na stránce častých otázek.",
+      "button": "Všechny otázky a odpovědi"
+    },
+    "cta": {
+      "title": "Pustíme se do toho?",
+      "subtitle": "Zdarma pro iPhone, iPad a Mac. Bez účtu, bez reklam, bez prodeje tvých dat.",
+      "note": "Aplikace pro Apple Watch je součástí SimpleTime Pro."
+    }
+  },
+  "shots": [
+    {
+      "id": "tracking",
+      "title": "Měř čas",
+      "caption": "Jedno klepnutí spustí hodiny",
+      "alt": "Karta Zápis s běžícím úkolem a oblíbenými nahoře"
+    },
+    {
+      "id": "day",
+      "title": "Tvůj den",
+      "caption": "Každý záznam na sekundu",
+      "alt": "Přehled dne jako seznam záznamů s jejich časy"
+    },
+    {
+      "id": "timeline",
+      "title": "Časová osa",
+      "caption": "Celý den na jeden pohled",
+      "alt": "Přehled dne jako časová osa od 0 do 24"
+    },
+    {
+      "id": "chart",
+      "title": "Analyzuj",
+      "caption": "Kam tvé hodiny opravdu mizí",
+      "alt": "Týden jako koláčový graf podle úkolů"
+    },
+    {
+      "id": "statistics",
+      "title": "Statistiky",
+      "caption": "Porovnej týdny, uvidíš trend",
+      "alt": "Statistiky: tento týden v porovnání s předchozím"
+    },
+    {
+      "id": "report",
+      "title": "Reporty",
+      "caption": "Podrobné PDF ke každému úkolu",
+      "alt": "Stránka PDF reportu se všemi úkoly"
+    },
+    {
+      "id": "pro",
+      "title": "Získej Pro",
+      "caption": "Cíle, tvůj rok, tvé barvy",
+      "alt": "Stránka SimpleTime Pro v aplikaci"
+    }
+  ],
+  "pro": {
+    "eyebrow": "SimpleTime Pro",
+    "title": "Víc z času, který zapisuješ.",
+    "subtitle": "SimpleTime zůstává zdarma – se vším, co umí bez Pro. Pro přidává tvoje Apple Watch, místa, která sama spouštějí úkoly, ohlédnutí za týdnem, měsícem a rokem, cíle a další.",
+    "featuresTitle": "Co přidává Pro",
+    "features": [
+      {
+        "id": "watch",
+        "title": "Apple Watch",
+        "body": "Spouštěj a zastavuj na zápěstí, spouštěj dříve, den, týden a cíle na první pohled – s běžícím časem na ciferníku."
+      },
+      {
+        "id": "reviews",
+        "title": "Ohlédnutí",
+        "body": "Tvůj týden, měsíc a rok jako karty – k listování i sdílení."
+      },
+      {
+        "id": "places",
+        "title": "Místa",
+        "body": "Úkoly se spustí samy, když dorazíš – na přání až po čekací době, aby se nic nespustilo, když jen projíždíš kolem."
+      },
+      {
+        "id": "calendar",
+        "title": "Kalendář",
+        "body": "Každý záznam jako událost v tvém kalendáři – a k tomu úkoly z kalendářů jako „Práce“ nebo „Rodina“."
+      },
+      {
+        "id": "year",
+        "title": "Rok na jeden pohled",
+        "body": "Každý den roku jako jeden obrázek, se současnou i nejdelší sérií."
+      },
+      {
+        "id": "goals",
+        "title": "Cíle",
+        "body": "Cíl pro každý úkol – na den, týden nebo měsíc. Podúkoly se do něj počítají."
+      },
+      {
+        "id": "focus",
+        "title": "Filtr soustředění",
+        "body": "Pracovní Soustředění se zapne, seznam ukáže jen práci – a zápis s ním může začít i skončit."
+      },
+      {
+        "id": "widget",
+        "title": "Widget rychlého startu",
+        "body": "Ty určuješ, které úkoly na něm budou. Jedno klepnutí na ploše je spustí."
+      },
+      {
+        "id": "style",
+        "title": "Barvy, písma a ikony aplikace",
+        "body": "Sedm barev zvýraznění nebo vlastní, která prostupuje celou aplikací – k tomu šest písem a šestnáct ikon aplikace."
+      },
+      {
+        "id": "report",
+        "title": "Víc v PDF reportu",
+        "body": "Vývoj, rozložení během dne, porovnání s předchozím obdobím a cíle – v pořadí, které si zvolíš."
+      },
+      {
+        "id": "future",
+        "title": "Vše, co teprve přijde",
+        "body": "Co přibude později, je zahrnuto – bez dalšího nákupu."
+      }
+    ],
+    "plansTitle": "Tři cesty k Pro",
+    "plansSubtitle": "Ceny závisí na tvé zemi a před nákupem je uvidíš v aplikaci ve své měně.",
+    "plans": [
+      {
+        "id": "monthly",
+        "title": "Měsíčně",
+        "body": "Platba každý měsíc. Zrušit můžeš kdykoli."
+      },
+      {
+        "id": "yearly",
+        "title": "Ročně",
+        "body": "Platba jednou ročně – aplikace ukáže, kolik ušetříš oproti měsíčnímu placení."
+      },
+      {
+        "id": "lifetime",
+        "title": "Navždy",
+        "body": "Zaplať jednou a Pro máš navždy. Nikdy nevyprší."
+      }
+    ],
+    "notes": [
+      "Noví předplatitelé si mohou měsíční nebo roční předplatné týden zdarma vyzkoušet.",
+      "Rodinné sdílení: jeden nákup až pro šest lidí.",
+      "Co přibude později, je zahrnuto – bez dalšího nákupu."
+    ],
+    "legal": "Měsíční a roční předplatné se automaticky obnovuje, dokud ho nezrušíš. Zrušit ho můžeš kdykoli v nastavení App Storu. „Navždy“ je jednorázová platba a nikdy nevyprší.",
+    "terms": "Podmínky použití (EULA)",
+    "privacy": "Zásady ochrany osobních údajů",
+    "freeTitle": "Co zůstává zdarma",
+    "freeBody": "Všechno, co k zápisu času potřebuješ: úkoly a podúkoly, Pevné časy, přehled dne a časová osa, grafy a statistiky, PDF report a export do CSV, widgety, živá aktivita, Ovládací centrum a Siri, synchronizace přes iCloud nebo LaCodea ID, plány záloh a zámek aplikace – ve 41 jazycích. Bez účtu, bez reklam, bez prodeje tvých dat.",
+    "howTitle": "Jak získat Pro",
+    "how": [
+      "V SimpleTime otevři Nastavení › SimpleTime Pro.",
+      "Vyber „Měsíčně“, „Ročně“ nebo „Navždy“ – platíš přes svůj účet Apple.",
+      "Pro se odemkne hned, a to na všech tvých zařízeních se stejným účtem Apple."
+    ],
+    "faqTitle": "Otázky k Pro",
+    "ctaTitle": "Začni zdarma.",
+    "ctaSubtitle": "Stáhni si SimpleTime – a Pro si v aplikaci odemkni, kdykoli budeš chtít."
+  },
+  "faq": {
+    "title": "Časté otázky.",
+    "subtitle": "Vše o SimpleTime – od prvního klepnutí po SimpleTime Pro.",
+    "searchLabel": "Hledat v otázkách",
+    "searchPlaceholder": "např. „zálohy“ nebo „Apple Watch“",
+    "results": "Odpovídající otázky: {count}",
+    "noResults": "Pro „{query}“ jsme nenašli žádnou otázku.",
+    "noResultsHint": "Zkus jiné slovo – nebo [nám napiš](@contact).",
+    "topics": "Témata",
+    "moreTitle": "Máš ještě otázku?",
+    "moreBody": "Napiš nám – každou zprávu si přečteme a odpovíme na ni.",
+    "moreButton": "Kontakt",
+    "categories": [
+      {
+        "id": "basics",
+        "title": "První kroky",
+        "items": [
+          {
+            "id": "what-is",
+            "q": "Co je SimpleTime?",
+            "a": [
+              "SimpleTime je aplikace na sledování času pro iPhone, iPad a Mac. Jedno klepnutí spustí hodiny, další je zastaví. SimpleTime ti pak ukáže, kam jde tvůj čas – jako seznam dne nebo časová osa, v grafech a statistikách a jako PDF report nebo soubor CSV. Účet není potřeba, žádné reklamy, žádný prodej tvých dat."
+            ]
+          },
+          {
+            "id": "first-steps",
+            "q": "Jak začít?",
+            "a": [
+              "Na kartě Zápis klepni na + a vytvoř úkol – s názvem, barvou a symbolem. Klepni na trojúhelník vedle něj a hodiny běží; klepnutím na „Zastavit“ zápis ukončíš. Při prvním spuštění ti krátká prohlídka ukáže nejdůležitější tlačítka. Kdykoli se k ní můžeš vrátit: Nastavení › Zobrazit prohlídku znovu."
+            ]
+          },
+          {
+            "id": "free",
+            "q": "Je SimpleTime zdarma?",
+            "a": [
+              "Ano. Stažení SimpleTime je zdarma, stejně jako všechno, co k zápisu času potřebuješ: úkoly a podúkoly, pevné časy, přehled dne, grafy a statistiky, reporty a export, widgety, synchronizace přes iCloud nebo LaCodea ID a zálohy. SimpleTime Pro je volitelné a přidává aplikaci pro Apple Watch, ohlédnutí, místa, cíle a další. [Vše o SimpleTime Pro](@pro)"
+            ]
+          },
+          {
+            "id": "account",
+            "q": "Potřebuji účet?",
+            "a": [
+              "Ne. Otevřeš aplikaci a začneš – žádná registrace. Když používáš iCloud, synchronizace běží přes tvůj vlastní účet Apple, který nikdy nevidíme. Na přání se můžeš přihlásit přes LaCodea ID, náš účet pro všechny aplikace LaCodea. Pak ukládáme tvůj účet a tvoje nákupy SimpleTime Pro – tvoje záznamy jen tehdy, když v části Data a synchronizace zvolíš jako místo uložení LaCodea ID, a to koncově šifrované."
+            ]
+          },
+          {
+            "id": "lacodea-id",
+            "q": "Co je LaCodea ID?",
+            "a": [
+              "LaCodea ID je náš volitelný účet pro všechny aplikace LaCodea. Přihlásíš se úplně nahoře v Nastavení – přes Apple, přístupovým klíčem nebo kódem z e-mailu. S ním můžeš synchronizovat koncově šifrovaně přes LaCodea ID a nákup SimpleTime Pro platí na každém zařízení, kde se přihlásíš; SimpleTime ale funguje dobře i bez něj."
+            ]
+          },
+          {
+            "id": "devices",
+            "q": "Na kterých zařízeních SimpleTime funguje?",
+            "a": [
+              "Na iPhonu a iPadu se systémem iOS 26 či iPadOS 26 nebo novějším a na Macu se systémem macOS 26 nebo novějším. Aplikace pro Apple Watch je součástí SimpleTime Pro a potřebuje watchOS 26. Když v Nastavení › Data a synchronizace zvolíš iCloud nebo LaCodea ID, tvoje záznamy zůstanou synchronizované na všech zařízeních se stejným účtem Apple nebo stejným LaCodea ID."
+            ]
+          },
+          {
+            "id": "mac",
+            "q": "Co SimpleTime umí na Macu?",
+            "a": [
+              "Skoro všechno, co umí na iPhonu – zápis času, přehled dne, vyhodnocení, reporty, export, zálohy, synchronizaci a zámek aplikace; kde na iPhonu přejedeš prstem, klikneš na Macu pravým tlačítkem. Navíc jsou tu stopky v řádku nabídek a widgety na ploše. Místa, živé aktivity, aplikace pro Apple Watch a alternativní ikony aplikace na Macu k dispozici nejsou."
+            ]
+          },
+          {
+            "id": "languages",
+            "q": "Jakými jazyky SimpleTime mluví?",
+            "a": [
+              "41 – od češtiny a angličtiny po arabštinu, hindštinu a japonštinu. V Nastavení › Jazyk si můžeš zvolit jazyk aplikace nezávisle na jazyce zařízení."
+            ]
+          },
+          {
+            "id": "offline",
+            "q": "Funguje SimpleTime bez internetu?",
+            "a": [
+              "Ano. Zápis času, přehled dne, grafy i reporty fungují bez připojení. Potřebuješ ho pro synchronizaci, zálohy na vlastní server, přihlášení přes LaCodea ID, nákup Pro a hledání adresy pro místo. Co zůstane nedodělané, SimpleTime dožene – synchronizaci, jakmile bude zařízení zase online, zmeškanou zálohu, až aplikaci příště otevřeš."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tracking",
+        "title": "Zápis času",
+        "items": [
+          {
+            "id": "start-stop",
+            "q": "Jak spustím a zastavím zápis?",
+            "a": [
+              "Klepnutím na trojúhelník vedle úkolu ho spustíš. Běžící úkol se zobrazí nahoře na kartě Zápis; klepnutím na „Zastavit“ ho ukončíš. Klepnutí na název úkolu otevře jeho podúkoly, přejetím doleva ho můžeš upravit, archivovat nebo smazat a přejetím doprava zobrazíš informace se všemi čísly – na Macu to všechno nabídne kliknutí pravým tlačítkem."
+            ]
+          },
+          {
+            "id": "one-at-a-time",
+            "q": "Můžou běžet dva úkoly současně?",
+            "a": [
+              "Ne. Vždy běží jen jeden záznam: když spustíš jiný úkol, běžící záznam v tu samou chvíli skončí – takže se tvoje záznamy nepřekrývají."
+            ]
+          },
+          {
+            "id": "keeps-running",
+            "q": "Běží čas dál, když SimpleTime zavřu?",
+            "a": [
+              "Ano. SimpleTime si pamatuje čas spuštění a dobu trvání z něj dopočítá – zápis běží dál, i když aplikaci zavřeš, iPhone zamkneš nebo ho restartuješ. Na uzamčené obrazovce a na panelu Dynamic Island ukazuje živá aktivita běžící čas s tlačítkem pro zastavení a připomínky ti přijdou i při zavřené aplikaci."
+            ]
+          },
+          {
+            "id": "add-later",
+            "q": "Zapomněl jsem spustit – můžu čas doplnit dodatečně?",
+            "a": [
+              "Ano. Na kartě Den přidáš přes + záznam se začátkem a koncem nebo klepneš na existující záznam a změníš ho. Záznamy se nesmějí překrývat: SimpleTime ti řekne, když se nějaký úsek kříží s jiným záznamem. Když už hodiny běží, klepni nahoře na kartě Zápis na běžící záznam a posuň jeho začátek zpět – nejdál ke konci předchozího záznamu."
+            ]
+          },
+          {
+            "id": "restore-entry",
+            "q": "Smazaný záznam – dá se vrátit?",
+            "a": [
+              "Ano. Když záznam na kartě Den smažeš – přejetím doleva, na Macu kliknutím pravým tlačítkem –, přesune se do koše: vlevo nahoře na kartě Den v části „Smazané záznamy“ ho tlačítkem „Obnovit“ vrátíš, nebo ho smažeš natrvalo. Smazané úkoly čekají i se svými záznamy v koši vlevo nahoře na kartě Zápis. Co je smazané natrvalo, vrátí už jen záloha."
+            ]
+          },
+          {
+            "id": "fixed-times",
+            "q": "Co jsou pevné časy?",
+            "a": [
+              "Opakující se časy, jako je výuka, směny nebo konzultační hodiny, zadáš jednou: úkol, dny v týdnu, začátek a konec, každý týden nebo jednou za dva týdny, od dne, který si zvolíš, a na přání s datem konce. Jakmile čas uplyne, SimpleTime ho sám zapíše jako záznam – na každém zařízení, kde SimpleTime otevřeš, a přesto jen jednou; zpětně doplní nejvýš 31 dní. Ty zapisuješ už jen to, co přibude navíc; funkci najdeš v Nastavení › Zápis › Pevné časy a Pro k ní nepotřebuješ."
+            ]
+          },
+          {
+            "id": "fixed-times-pause",
+            "q": "Můžu pevné časy pozastavit nebo změnit?",
+            "a": [
+              "Ano. Na prázdniny, dovolenou nebo nemoc přidáš v Nastavení › Zápis › Pevné časy pauzu tlačítkem „Přidat pauzu“ – během ní SimpleTime nic nezapisuje; jednotlivý čas vypneš jeho přepínačem. Už vytvořené záznamy změníš nebo smažeš jako kterékoli jiné a když pevný čas změníš nebo smažeš, zůstane, co už je zapsané. Když se pevný čas překrývá se záznamem, který už existuje, SimpleTime ho nezapíše."
+            ]
+          },
+          {
+            "id": "subtasks",
+            "q": "Jak fungují podúkoly?",
+            "a": [
+              "Klepnutím na název úkol otevřeš a pomocí + v něm přidáš podúkoly. Zanořovat je můžeš tak hluboko, jak je hluboká tvoje práce – klient, projekt, fáze. V grafech, reportech a cílech se podúkoly počítají do úkolu nad nimi."
+            ]
+          },
+          {
+            "id": "order",
+            "q": "Jak udržím seznam úkolů v pořádku?",
+            "a": [
+              "Úkoly, které používáš každý den, si označ jako oblíbené – zůstanou nahoře. Zbytek můžeš řadit abecedně, podle nejpoužívanějších, podle naposledy použitých nebo ve vlastním pořadí. Barva a symbol – nebo emoji – zajistí, že každý úkol hned poznáš."
+            ]
+          },
+          {
+            "id": "archive-trash",
+            "q": "Jaký je rozdíl mezi archivací a smazáním?",
+            "a": [
+              "Archivace úkol jen skryje: jeho záznamy zůstanou a dál se počítají do všech vyhodnocení. Smazání přesune úkol i s jeho záznamy do koše – jejich čas se pak už nikde nepočítá. Archiv a koš najdeš vlevo nahoře na kartě Zápis: z archivu vrátíš úkol tlačítkem „Obnovit“, z koše ho stejně vrátíš i s jeho záznamy – nebo ho tam smažeš natrvalo."
+            ]
+          },
+          {
+            "id": "notes",
+            "q": "Můžu k záznamům přidat poznámky?",
+            "a": [
+              "Ano, každý záznam může mít poznámku – na čem jsi pracoval nebo s kým. Přidáš ji při vytváření nebo úpravě záznamu na kartě Den; když hodiny běží, také klepnutím na běžící záznam nahoře na kartě Zápis. Poznámku uvidíš, když záznam otevřeš, v informacích o úkolu v části „Všechny záznamy“, v části „Všechny záznamy“ v PDF a v exportu CSV; zálohy ji obsahují také."
+            ]
+          },
+          {
+            "id": "reminders",
+            "q": "Může mi SimpleTime připomínat?",
+            "a": [
+              "Ano. V Nastavení › Nastavit oznámení si vytvoříš pravidla – třeba připomínku, když úkol běží 60 minut, pro všechny úkoly nebo jen pro vybrané, ve dnech, které si zvolíš. S volbou „Připomenout, když nic neběží“ se SimpleTime ozve i tehdy, když se chvíli nic nezapisuje."
+            ]
+          },
+          {
+            "id": "time-zone",
+            "q": "Jsem v jiném časovém pásmu – proč mají moje záznamy jiné časy?",
+            "a": [
+              "Ve výchozím stavu zobrazuje SimpleTime každý záznam v časovém pásmu, ve kterém je zařízení právě teď – jako Kalendář od Applu: záznam z New Yorku v 9:00 se v Berlíně zobrazí v 15:00. V Nastavení › Časové pásmo můžeš místo toho zvolit „Časové pásmo záznamu“: pak se každý záznam zobrazí s časem a v den, kdy byl pořízen – všude, kde se zobrazují časy a součty. Doba trvání zůstává v obou případech stejná; záznamy z verzí před 4.7 se vždy zobrazují v časovém pásmu zařízení."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "insights",
+        "title": "Přehled dne a vyhodnocení",
+        "items": [
+          {
+            "id": "day-view",
+            "q": "Co ukazuje přehled dne?",
+            "a": [
+              "Každý záznam dne se začátkem, koncem a dobou trvání – jako seznam nebo jako časová osa od 0 do 24 a dnes i se značkou aktuálního času; na širokých obrazovkách, jaké mají iPad a Mac, se zobrazí obojí vedle sebe. Nahoře vidíš součet dne a porovnání s předchozím dnem."
+            ]
+          },
+          {
+            "id": "charts",
+            "q": "Jaké grafy a statistiky jsou k dispozici?",
+            "a": [
+              "Na kartě Graf: koláčové grafy podle úkolů a podle produktivity, za den, týden, měsíc nebo rok. Vpravo nahoře v části „Více statistik“ najdeš porovnání s předchozím obdobím, vývoj, své největší úkoly a nejdelší a nejkratší záznam – a od týdne výš i to, jak se tvůj čas rozkládá během dne, včetně tvé nejrušnější hodiny. Každý úkol má navíc vlastní stránku s informacemi – první záznam, nejdelší záznam, tento týden, tento rok."
+            ]
+          },
+          {
+            "id": "productivity",
+            "q": "Co je skóre produktivity?",
+            "a": [
+              "Při úpravě úkolu mu v části „Produktivita“ přiřadíš kategorii: produktivní činnosti, neproduktivní činnosti, nutné povinnosti – nebo „Nepočítat do produktivity“. Podúkoly bez vlastní kategorie převezmou kategorii úkolu nad nimi a „Nepočítat do produktivity“ platí pro všechno pod ním. Skóre ukazuje, jaká část tvého hodnoceného času byla produktivní nebo nutná: (produktivní + nutné) ÷ (produktivní + neproduktivní + nutné) × 100. Čas „Bez kategorie“ nebo s volbou „Nepočítat do produktivity“ se nezapočítává."
+            ]
+          },
+          {
+            "id": "goals",
+            "q": "Jak fungují cíle?",
+            "a": [
+              "Se SimpleTime Pro si v Nastavení › Cíle určíš cíl pro každý úkol: alespoň nebo nejvýš určitý čas za den, týden nebo měsíc – třeba alespoň 8 hodin sportu týdně nebo nejvýš 2 hodiny na sociálních sítích denně. Podúkoly se do cíle počítají a měří se aktuální období. Jak na tom jsi, vidíš na kartě Graf a na Apple Watch; PDF report v části „Cíle“ porovná průměr za zvolené období s tvým cílem."
+            ]
+          },
+          {
+            "id": "share-chart",
+            "q": "Můžu graf sdílet?",
+            "a": [
+              "Ano, každý graf můžeš sdílet jako obrázek nebo uložit do Fotek. K uložení SimpleTime žádá jen o oprávnění přidávat fotky – tvoji knihovnu fotek nevidí."
+            ]
+          },
+          {
+            "id": "pdf-report",
+            "q": "Jak vytvořím PDF report?",
+            "a": [
+              "V Nastavení › Exportovat report zvol období – od „Dnes“ po „Celé období“ nebo vlastní –, vyber části, které chceš, a přetáhni je do požadovaného pořadí. SimpleTime vytvoří PDF se všemi úkoly a podúkoly, připravené ke sdílení nebo uložení. SimpleTime Pro přidává další části: „V čase“, „Během dne“, „Porovnání“ a „Cíle“.",
+              "Pro výkazy práce je tu část „Všechny záznamy“: každý záznam den po dni se začátkem, koncem, úkolem a poznámkou, k tomu denní součty, celkový součet a hodiny v desetinném tvaru – ideální k porovnání odpracovaných hodin s výplatní páskou. Je zdarma, bez Pro, a ve výchozím stavu zapnutá."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "shortcuts",
+        "title": "Widgety, Siri a Soustředění",
+        "items": [
+          {
+            "id": "widgets",
+            "q": "Jaké widgety jsou k dispozici?",
+            "a": [
+              "Na plochu: „Dnes“, „Běžící úkol“ a „Týden“ – „Dnes“ a „Běžící úkol“ s tlačítky pro spuštění a zastavení. Na uzamčenou obrazovku: co běží a jak dlouho. K tomu přepínač „Zápis času“ pro Ovládací centrum. Když úkol běží, ukazuje ho živá aktivita na uzamčené obrazovce a na panelu Dynamic Island, s tlačítkem pro zastavení. Se SimpleTime Pro máš navíc widget rychlého startu, který si naplníš vlastními úkoly."
+            ]
+          },
+          {
+            "id": "without-opening",
+            "q": "Můžu spustit zápis bez otevření aplikace?",
+            "a": [
+              "Ano, několika způsoby. Podrž ikonu aplikace a zastav, co běží, nebo spusť některý ze svých úkolů. Napiš název úkolu do vyhledávání na iPhonu a klepni na něj. Nebo použij widget, Siri či přepínač „Zápis času“ – v Ovládacím centru, na uzamčené obrazovce nebo na akčním tlačítku od iPhonu 15 Pro – a se SimpleTime Pro i svoje Apple Watch."
+            ]
+          },
+          {
+            "id": "siri",
+            "q": "Jak SimpleTime funguje se Siri a Zkratkami?",
+            "a": [
+              "Řekni třeba „Start Work in SimpleTime“, „Stop tracking in SimpleTime“, „How much did I track today in SimpleTime?“ nebo „What’s running in SimpleTime?“. Siri těmto větám rozumí v angličtině a němčině. Ve všech jazycích najdeš akce v aplikaci Zkratky, kde jim můžeš dát i vlastní větu."
+            ]
+          },
+          {
+            "id": "focus-filter",
+            "q": "Co dělá filtr soustředění?",
+            "a": [
+              "S filtrem soustředění se SimpleTime řídí tvým Soustředěním: když se zapne „Práce“, seznam úkolů ukáže jen tvoji pracovní kategorii – a zápis může začínat i končit spolu se Soustředěním. Nastavíš ho v Nastavení iOS v části Soustředění › tvůj režim › Filtry režimu soustředění › Přidat filtr › SimpleTime. Filtr soustředění je součástí SimpleTime Pro."
+            ]
+          },
+          {
+            "id": "calendar-entries",
+            "q": "Může SimpleTime zapisovat moje záznamy do kalendáře?",
+            "a": [
+              "Ano, se SimpleTime Pro: v Nastavení › Kalendář zapni „Záznamy v kalendáři“ – od toho dne se každý dokončený záznam objeví jako událost ve vlastním kalendáři „SimpleTime“ nebo v kalendáři, který si zvolíš; na přání může mít každý úkol svůj kalendář. Když záznam změníš nebo smažeš, událost se změní s ním a odkaz v události otevře záznam v SimpleTime. Když funkci vypneš, události v kalendáři zůstanou.",
+              "„Úkoly z kalendářů“ promění kalendáře jako „Práce“ v úkoly; události, které už v kalendáři jsou, se ale záznamy nestanou. Události jsou uložené u poskytovatele tvého kalendáře a názvy tvých úkolů vidí každý, s kým kalendář sdílíš – i při zapnutém zámku aplikace."
+            ]
+          },
+          {
+            "id": "menu-bar",
+            "q": "Můžu SimpleTime na Macu ovládat z řádku nabídek?",
+            "a": [
+              "Ano. Stopky v řádku nabídek ukazují, jestli běží nějaký úkol; kliknutím na ně spustíš, zastavíš nebo přepneš úkoly bez otevření okna. Zapneš nebo vypneš je v Nastavení › Řádek nabídek › Zobrazit v řádku nabídek. Když je nastavený zámek aplikace, nabídka neukazuje názvy úkolů a nabízí jen „Zastavit“."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "data",
+        "title": "Synchronizace, zálohy a export",
+        "items": [
+          {
+            "id": "sync",
+            "q": "Synchronizuje SimpleTime moje zařízení?",
+            "a": [
+              "Ano, přes iCloud nebo přes LaCodea ID – co z toho, zvolíš na každém zařízení v Nastavení › Data a synchronizace. S iCloudem se synchronizuje každé zařízení, na kterém je zvolený iCloud a přihlášený stejný účet Apple; kdy, rozhoduje systém. Vynutit to nejde – „Synchronizovat teď“ pak zkontroluje účet a připojení a na stejné stránce uvidíš, kdy proběhla poslední synchronizace.",
+              "S LaCodea ID se synchronizuje každé zařízení, na kterém je přihlášené a zvolené stejné LaCodea ID, i s jiným účtem Apple – koncově šifrovaně; je-li SimpleTime otevřený na obou zařízeních, tak během několika sekund."
+            ]
+          },
+          {
+            "id": "sync-trouble",
+            "q": "Moje záznamy se na druhém zařízení neobjevují – co s tím?",
+            "a": [
+              "Zkontroluj na obou zařízeních Nastavení › Data a synchronizace: obě potřebují stejné místo – iCloud se stejným účtem Apple nebo LaCodea ID se stejným přihlášením. Pokud je tam uvedeno, že přechod začne platit až později, SimpleTime úplně ukonči a znovu otevři; a měj aplikaci na všech zařízeních aktuální.",
+              "U iCloudu ukazuje „Poslední synchronizace“ v Nastavení v části Synchronizace, kdy se naposledy přenášela data, a „Zkontrolovat synchronizaci“ prověří účet a připojení a při problému řekne důvod – třeba plné úložiště iCloud. U LaCodea ID ukazuje stránka Data a synchronizace, jestli změny čekají na připojení, jestli je přihlášený jiný účet nebo jestli zařízení potřebuje tvůj obnovovací klíč. Pokud to nepomůže, [napiš nám](@contact)."
+            ]
+          },
+          {
+            "id": "without-icloud",
+            "q": "Můžu SimpleTime používat bez iCloudu?",
+            "a": [
+              "Ano. V Nastavení v části Data a synchronizace zvol „Jen na tomto zařízení“ – tvoje data pak zůstanou na tomto jednom zařízení. O to důležitější jsou zálohy: plán záloh je ukládá automaticky, třeba do složky v aplikaci Soubory nebo na tvůj vlastní server. Pokud chceš i bez iCloudu synchronizovat víc zařízení, zvol tam LaCodea ID; zařízení bez tvé Klíčenky na iCloudu si pak jednou řekne o tvůj obnovovací klíč."
+            ]
+          },
+          {
+            "id": "switch-storage",
+            "q": "Jak změním, kde jsou moje data uložená?",
+            "a": [
+              "V Nastavení › Data a synchronizace klepni na místo, kde mají být tvoje data, a pak na „Přejít na iCloud“, „Přejít na LaCodea ID“ nebo „Ponechat jen na tomto zařízení“; k LaCodea ID se přitom přihlásíš. Před přechodem na iCloud nebo LaCodea ID udělá SimpleTime bezpečnostní kopii tohoto zařízení a pokud tam už nějaká data jsou, vybereš si mezi „Sloučit“ a „Použít data z …“.",
+              "Přechod platí jen pro toto zařízení a většinou se projeví, až SimpleTime úplně ukončíš a znovu otevřeš – stránka ti to řekne. Tvoje ostatní zařízení se dál synchronizují jako dřív, dokud nepřejdeš i na nich. Potom SimpleTime nabídne smazání dat na starém místě; udělej to, až když přejdou i tvoje ostatní zařízení – jinak o ta data přijdou také."
+            ]
+          },
+          {
+            "id": "recovery-key",
+            "q": "Co je obnovovací klíč?",
+            "a": [
+              "S LaCodea ID jako místem uložení šifruje SimpleTime tvoje data koncově; tvoje zařízení Apple obvykle dostanou klíč sama přes Klíčenku na iCloudu. Zařízení bez tvé Klíčenky na iCloudu – třeba s jiným účtem Apple – jednou potřebuje tvůj obnovovací klíč: 24 písmen a číslic. Najdeš ho v Nastavení › Data a synchronizace › Obnovovací klíč, po ověření přes Face ID nebo kód zařízení; dokud nepotvrdíš, že ho máš uložený, připomíná ti to stránka Zabezpečení. Uschovej ho ve správci hesel nebo na papíře – bez něj a bez tvých zařízení nikdo tvoje data neotevře, ani my."
+            ]
+          },
+          {
+            "id": "recovery-key-lost",
+            "q": "Ztracený obnovovací klíč – co teď?",
+            "a": [
+              "Na zařízení, které tvoje data ještě umí přečíst, ti ho SimpleTime znovu ukáže v Nastavení › Data a synchronizace › Obnovovací klíč přes „Zobrazit obnovovací klíč“ – nebo tam vytvoříš nový a starý přestane platit. Pokud data už neotevře žádné z tvých zařízení, nikdo je neobnoví – ani my. Pak při výzvě k zadání klíče klepni na „Nemám obnovovací klíč“ a začni znovu s daty tohoto zařízení; co bylo jen na serveru nebo na tvých ostatních zařízeních, se ztratí."
+            ]
+          },
+          {
+            "id": "backups",
+            "q": "Jak fungují zálohy?",
+            "a": [
+              "V Nastavení › Zálohy si vytvoříš tolik plánů záloh, kolik chceš. Každý plán má místo – iCloud Drive, složku v aplikaci Soubory, jako je Dropbox nebo Google Drive, vlastní server přes WebDAV nebo toto zařízení –, interval od každé hodiny po jednou měsíčně, dobu uchování a na přání heslo. Na stejné stránce můžeš také kdykoli zálohovat ručně."
+            ]
+          },
+          {
+            "id": "backup-password",
+            "q": "Můžu zálohy chránit heslem?",
+            "a": [
+              "Ano. Když plánu nastavíš heslo, každá záloha se před uložením zašifruje přímo v tvém zařízení. Heslo si dobře uschovej: bez něj zálohu nikdo neobnoví – ani ty, ani my. Jiná cesta není."
+            ]
+          },
+          {
+            "id": "backup-files",
+            "q": "Kde najdu svoje zálohy?",
+            "a": [
+              "Zálohy plánu „Jen na tomto zařízení“ najdeš také v aplikaci Soubory v části „V mém iPhonu“ (nebo „V mém iPadu“) › SimpleTime › Backups a zálohy plánu pro iCloud Drive v iCloud Drive › SimpleTime › Backups. Plány pro složku v aplikaci Soubory nebo pro tvůj vlastní server je ukládají na místo, které zvolíš. Zálohy v zařízení se ztratí spolu se zařízením – a také když SimpleTime smažeš. Nejlepší je dát plánům heslo: bez něj může zálohu otevřít kdokoli, kdo má přístup k jejímu místu – v zařízení každý, kdo ho odemkne, i při zapnutém zámku aplikace."
+            ]
+          },
+          {
+            "id": "restore",
+            "q": "Jak obnovím zálohu?",
+            "a": [
+              "V Nastavení › Zálohy obnovíš zálohu – z některého ze svých plánů nebo ze souboru. Stávající data zůstanou zachována a co chybí, se doplní. Zálohy ze SimpleTime 4.7 a starších verzí importuješ v Nastavení › Exportovat / importovat data › Importovat zálohu z JSON. Na novém zařízení je nejlepší počkat, až synchronizace přes iCloud nebo LaCodea ID doručí tvoje data – jinak se můžou úkoly zdvojit."
+            ]
+          },
+          {
+            "id": "export",
+            "q": "Můžu svoje data exportovat?",
+            "a": [
+              "Ano, kdykoli: jako soubor CSV s jedním řádkem na záznam – datum, začátek, konec, úkol, doba trvání, hodiny v desetinném tvaru a poznámka, pro Excel, Numbers nebo jakoukoli tabulkovou aplikaci –, jako PDF report nebo jako zálohu.",
+              "V Nastavení › Exportovat / importovat data zvolíš období souboru CSV – od „Dnes“ po „Celé období“ nebo vlastní, třeba minulý měsíc. Zálohu vytvoříš v Nastavení › Zálohy."
+            ]
+          },
+          {
+            "id": "timesheet",
+            "q": "Jak dostanu své hodiny do výkazu práce?",
+            "a": [
+              "Jako PDF: v Nastavení › Exportovat report zvol období – třeba „Minulý měsíc“ – a nech zapnutou část „Všechny záznamy“; uvádí každý záznam se začátkem, koncem, úkolem a poznámkou, k tomu denní součty, celkový součet a hodiny v desetinném tvaru. Jako tabulku: v Nastavení › Exportovat / importovat data zvol období a klepni na „Exportovat data jako CSV“ – jeden řádek na záznam s datem, začátkem, koncem, úkolem, dobou trvání, hodinami v desetinném tvaru a poznámkou, pro Excel nebo Numbers. Obojí je zdarma a záznamy z pevných časů se počítají jako všechny ostatní."
+            ]
+          },
+          {
+            "id": "rounding",
+            "q": "Umí SimpleTime zaokrouhlovat časy, třeba na čtvrthodiny?",
+            "a": [
+              "Ne, nastavení pro zaokrouhlování tu není: SimpleTime ukládá začátek a konec přesně tak, jak je zapíšeš. V části „Všechny záznamy“ v PDF a v exportu CSV je každý řádek zaokrouhlený na minuty a uvedený v hodinách v desetinném tvaru na dvě desetinná místa; součty v PDF sčítají přesně tyto hodnoty. Pokud potřebuješ čtvrthodiny, změň začátek a konec v záznamu nebo zaokrouhli v tabulkové aplikaci."
+            ]
+          },
+          {
+            "id": "import",
+            "q": "Můžu importovat data z jiné aplikace?",
+            "a": [
+              "Ne. SimpleTime čte jen své vlastní zálohy – soubory CSV, ani ty vlastní, importovat nejde a události z tvého kalendáře se záznamy nestanou. Dřívější časy můžeš doplnit ručně na kartě Den pomocí +."
+            ]
+          },
+          {
+            "id": "new-device",
+            "q": "Jak přejdu na nový iPhone?",
+            "a": [
+              "Přihlas se stejným účtem Apple a nainstaluj SimpleTime – pokud používáš iCloud (Nastavení › Data a synchronizace), tvoje záznamy se vrátí samy. Pokud používáš LaCodea ID, přihlas se k němu na novém zařízení a zvol ho v části Data a synchronizace; když zařízení nedostane klíč samo přes Klíčenku na iCloudu, aplikace si jednou řekne o tvůj obnovovací klíč. Jinak vytvoř zálohu na starém zařízení a obnov ji na novém. Místa a nastavení patří ke konkrétnímu zařízení – nesynchronizují se ani nezálohují."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "privacy",
+        "title": "Soukromí a zabezpečení",
+        "items": [
+          {
+            "id": "data-location",
+            "q": "Kde jsou moje data uložená?",
+            "a": [
+              "Tam, kde chceš: v Nastavení v části Data a synchronizace se rozhodneš mezi „Jen na tomto zařízení“, svým soukromým iCloudem, kde je šifruje Apple, a LaCodea ID, kde jsou koncově šifrovaná – na žádném z těchto míst tvoje záznamy číst nemůžeme. Zálohy jsou tam, kam je ukládají tvoje plány záloh; bez hesla je může přečíst kdokoli, kdo má k tomu místu přístup. Když s Pro zapneš „Záznamy v kalendáři“, dokončené záznamy se objeví i jako události v tvém kalendáři – viditelné pro jeho poskytovatele a pro každého, s kým ho sdílíš."
+            ]
+          },
+          {
+            "id": "lacodea-id-privacy",
+            "q": "Kdo může číst moje záznamy, když synchronizuji přes LaCodea ID?",
+            "a": [
+              "Jen tvoje zařízení. SimpleTime šifruje úkoly, záznamy s jejich časy a poznámkami, pevné časy, cíle a připomínky přímo v tvém zařízení (AES-GCM s 256 bity), než putují na vlastní server SimpleTime – klíč mají jen tvoje zařízení, my ne. Server vidí jen, kolik datových záznamů jakého druhu existuje, jak jsou zhruba velké, kdy byly zapsány a jestli byly smazány; stojí v datovém centru ve Frankfurtu nad Mohanem. Podrobnosti najdeš v našich [zásadách ochrany osobních údajů](@privacy)."
+            ]
+          },
+          {
+            "id": "tracking-me",
+            "q": "Sleduje mě SimpleTime?",
+            "a": [
+              "Ne. SimpleTime nezobrazuje reklamy, neprodává data, nevytváří profily uživatelů a nesleduje tě napříč jinými aplikacemi a weby. Abychom mohli rychle najít chyby, posílá aplikace anonymní hlášení o pádech a statistiky používání na náš vlastní server – bez ID zařízení a nikdy s tvými úkoly, časy nebo poznámkami. Vypnout to můžeš v Nastavení › Soukromí › Přehled a oprávnění. Podrobnosti najdeš v našich [zásadách ochrany osobních údajů](@privacy)."
+            ]
+          },
+          {
+            "id": "permissions",
+            "q": "O jaká oprávnění SimpleTime žádá?",
+            "a": [
+              "Jen o ta, která potřebuje nějaká funkce, a teprve když ji použiješ: oznámení pro připomínky a pro hlášení z míst, polohu pro místa, kalendáře pro „Záznamy v kalendáři“, přidávání fotek pro ukládání obrázků a Face ID nebo Touch ID pro zámek aplikace. V nastavení v části Soukromí › Přehled a oprávnění uvidíš každé z nich s jeho aktuálním stavem."
+            ]
+          },
+          {
+            "id": "location",
+            "q": "Proč SimpleTime chce moji polohu?",
+            "a": [
+              "Jen kvůli místům, která jsou součástí SimpleTime Pro: aby se úkol mohl spustit, když někam dorazíš. iOS hlídá oblasti, které nastavíš, a dá aplikaci vědět, když dorazíš nebo odejdeš. Tvoje místa zůstávají v zařízení a SimpleTime si nevede žádnou historii tvé polohy. Bez míst SimpleTime tvoji polohu nepotřebuje."
+            ]
+          },
+          {
+            "id": "app-lock",
+            "q": "Jak funguje zámek aplikace?",
+            "a": [
+              "V Nastavení › Zámek aplikace si zvolíš, jestli se SimpleTime otevře přes Face ID nebo Touch ID a kód zařízení, nebo vlastním kódem – z číslic nebo jako heslo. V přepínači aplikací zůstane SimpleTime zakrytý a názvy úkolů se už neobjeví ve vyhledávání na iPhonu ani na ikoně aplikace; v části „Mimo aplikaci“ zvolíš, co ukazují oznámení, widgety a Apple Watch. Pro případ, že vlastní kód zapomeneš, můžeš předem zapnout „Obnovení zapomenutého kódu kódem zařízení“ nebo nastavit nouzové heslo. Bez obojího vede jediná cesta zpět přes smazání a novou instalaci aplikace – a co bylo jen na tomto zařízení, bez zálohy zmizí."
+            ]
+          },
+          {
+            "id": "security-overview",
+            "q": "Co ukazuje stránka Zabezpečení?",
+            "a": [
+              "V Nastavení › Zabezpečení › Přehled na jeden pohled uvidíš, jak dobře jsou tvoje data chráněná: kód zařízení, zámek aplikace, automatické a šifrované zálohy a kde jsou tvoje data uložená – s LaCodea ID i koncové šifrování a obnovovací klíč. Co ještě chybí, najdeš v části „Doporučené“; každá položka vysvětlí, jak tě chrání, a v případě potřeby tě dovede ke správnému nastavení."
+            ]
+          },
+          {
+            "id": "delete-all",
+            "q": "Jak smažu všechna svoje data?",
+            "a": [
+              "V Nastavení v části Soukromí › Smazat všechna data odstraníš všechno najednou – záznamy a úkoly, cíle, místa, koš, připomínky, zálohy tvých plánů i staré zálohy v iCloud Drive, exporty, nastavení včetně kódu zámku aplikace a události, které SimpleTime přidal do tvého kalendáře.",
+              "Smaže se to na tomto zařízení, v iCloudu a – pokud synchronizuješ přes LaCodea ID – na serveru; přes iCloud se smazání dostane i do tvých ostatních zařízení, jakmile budou online. Pokud synchronizuješ přes LaCodea ID, tvoje ostatní zařízení si svá data ponechají a přestanou se synchronizovat, dokud tam synchronizaci znovu nenastavíš – tam data smažeš stejným způsobem – a tvůj účet LaCodea ID zůstane. Vrátit se to nedá."
+            ]
+          },
+          {
+            "id": "delete-app",
+            "q": "Co se stane, když SimpleTime smažu?",
+            "a": [
+              "Pak zmizí všechno, co bylo jen na tomto zařízení: tvoje záznamy, pokud máš zvolené „Jen na tomto zařízení“, zálohy plánu „Jen na tomto zařízení“, tvoje místa a nastavení včetně zámku aplikace. Co je v iCloudu nebo v LaCodea ID, tam zůstane a po nové instalaci se vrátí, jakmile v části Data a synchronizace znovu zvolíš stejné místo.",
+              "Zálohy v iCloud Drive, ve složce v aplikaci Soubory nebo na tvém serveru zůstanou, stejně jako události v kalendáři; k šifrované záloze pak budeš potřebovat její heslo. Předplatné běží dál, dokud ho nezrušíš, a tvoje LaCodea ID zůstane. Pokud chceš nejdřív všechno odstranit, použij Nastavení › Soukromí › Smazat všechna data."
+            ]
+          },
+          {
+            "id": "lacodea-id-delete",
+            "q": "Jak se odhlásím nebo smažu svoje LaCodea ID?",
+            "a": [
+              "Klepni úplně nahoře v Nastavení na svoje LaCodea ID: „Odhlásit se“ tě odhlásí ze všech aplikací LaCodea na tomto zařízení – tvoje data tu zůstanou a po přihlášení se znovu synchronizují. „Odpojit aplikaci SimpleTime“ jen odpojí SimpleTime od tvého účtu; „Smazat LaCodea ID“ smaže účet pro všechny aplikace LaCodea – to jde i na account.lacodea.com. Ať aplikaci odpojíš, nebo účet smažeš, server SimpleTime smaže tvoje synchronizovaná data, která jsou na něm uložená; co je na tvých zařízeních nebo v iCloudu, zůstane. Předplatné přes Apple běží dál, dokud ho nezrušíš v nastavení svého zařízení."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "pro",
+        "title": "SimpleTime Pro",
+        "items": [
+          {
+            "id": "pro-includes",
+            "q": "Co obsahuje SimpleTime Pro?",
+            "a": [
+              "Aplikaci pro Apple Watch, ohlédnutí za týdnem, měsícem a rokem, místa, tvoje záznamy jako události v kalendáři a úkoly z tvých kalendářů, rok na jeden pohled, cíle, filtr soustředění, widget rychlého startu, sedm barev zvýraznění nebo vlastní, šest písem, šestnáct ikon aplikace a další části v PDF reportu. Aplikace pro hodinky potřebuje iPhone; místa a ikony aplikace jsou k dispozici na iPhonu a iPadu. Co přibude později, je zahrnuto. [Vše o SimpleTime Pro](@pro)"
+            ]
+          },
+          {
+            "id": "pro-price",
+            "q": "Kolik SimpleTime Pro stojí?",
+            "a": [
+              "Pro je k dispozici měsíčně, ročně nebo jako jednorázový nákup „Navždy“. Ceny závisí na tvé zemi a měně a před nákupem je uvidíš v aplikaci."
+            ]
+          },
+          {
+            "id": "trial",
+            "q": "Můžu si Pro nejdřív vyzkoušet?",
+            "a": [
+              "Ano. Noví předplatitelé si mohou měsíční nebo roční předplatné týden zdarma vyzkoušet; aplikace ukáže, jestli se zkušební týden týká i tebe. Pokud předplatné nezrušíš nejpozději 24 hodin před koncem zkušební doby, obnoví se za zobrazenou cenu."
+            ]
+          },
+          {
+            "id": "family",
+            "q": "Může Pro používat i moje rodina?",
+            "a": [
+              "Ano. SimpleTime Pro podporuje Rodinné sdílení – jeden nákup až pro šest lidí."
+            ]
+          },
+          {
+            "id": "restore-purchase",
+            "q": "Mám koupené Pro – jak ho dostanu na další zařízení?",
+            "a": [
+              "Pro patří k tvému účtu Apple: na dalších zařízeních se stejným účtem se obvykle odemkne samo. Pokud ne, klepni tam v Nastavení › SimpleTime Pro na „Obnovit“.",
+              "Na zařízení s jiným účtem Apple dostaneš Pro přes LaCodea ID: přihlas se na obou zařízeních stejným LaCodea ID. Pokud nákup Pro proběhl před přihlášením, přihlas se svým LaCodea ID i na zařízení s účtem Apple, přes který byl nákup proveden – odtud SimpleTime nákup nahlásí tvému účtu. Stránka Pro pak ukáže „Přes tvůj účet LaCodea ID“ a u předplatného i to, kde bylo sjednáno – jen tam ho jde změnit."
+            ]
+          },
+          {
+            "id": "cancel",
+            "q": "Jak zruším předplatné?",
+            "a": [
+              "V nastavení App Storu – na iPhonu v Nastavení › tvoje jméno › Předplatné – nebo v aplikaci na stránce Pro přes „Spravovat předplatné“. Jde to jen na zařízení s účtem Apple, přes který bylo předplatné sjednáno; pokud máš Pro přes LaCodea ID, stránka Pro tato zařízení vyjmenuje. Pro zůstává aktivní do konce už zaplaceného období a ani smazání tvého LaCodea ID předplatné neukončí."
+            ]
+          },
+          {
+            "id": "lifetime-switch",
+            "q": "Mám předplatné – můžu přejít na „Navždy“?",
+            "a": [
+              "Ano, přímo na stránce Pro. Apple ale předplatné sám neukončí: potom ho zruš, aby se dál neobnovovalo. Aplikace ti to připomene."
+            ]
+          },
+          {
+            "id": "pro-ends",
+            "q": "Co se stane, když Pro skončí?",
+            "a": [
+              "Nic se neztratí. Tvoje záznamy, cíle a místa zůstanou uložené. Funkce Pro se znovu zamknou – místa třeba přestanou spouštět úkoly – a všechno se vrátí, jakmile bude Pro zase aktivní."
+            ]
+          },
+          {
+            "id": "pro-offline",
+            "q": "Potřebuje Pro připojení k internetu?",
+            "a": [
+              "Ne. SimpleTime ověřuje tvůj nákup v App Storu – a při přihlášení přes LaCodea ID i u tvého účtu –, kdykoli to jde. Bez připojení Pro funguje dál – až dva týdny bez spojení."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "watch-places",
+        "title": "Apple Watch a místa",
+        "items": [
+          {
+            "id": "watch-setup",
+            "q": "Jak nastavím aplikaci pro Apple Watch?",
+            "a": [
+              "Aplikace pro Apple Watch je součástí SimpleTime Pro. Nainstaluj ji do hodinek a pak jednou otevři SimpleTime na iPhonu – za pár sekund hodinky ukážou tvoje úkoly. Zdrojem zůstává iPhone: co hodinky spustí, zapisuje se na něm, se stejnou živou aktivitou a stejnými widgety."
+            ]
+          },
+          {
+            "id": "watch-features",
+            "q": "Co můžu dělat na Apple Watch?",
+            "a": [
+              "Spouštěj a zastavuj na zápěstí – oblíbené, naposledy použité nebo jakýkoli úkol přes hledání. Spusť dříve: před 5, 15, 30 nebo 60 minutami, nebo plynule od konce posledního záznamu. Zastav poklepáním. Den, týden a cíle na první pohled, s běžícím časem na ciferníku a v Chytré sadě. Když je iPhone mimo dosah, tvoje klepnutí se uloží i s časem a doručí se později."
+            ]
+          },
+          {
+            "id": "places-how",
+            "q": "Jak fungují místa?",
+            "a": [
+              "Přidej místo – třeba kancelář nebo posilovnu – s poloměrem od 50 m do 10 km a vyber úkol. Až dorazíš, úkol se spustí sám, nebo se SimpleTime nejdřív zeptá. S čekací dobou se nic nespustí, když jen projíždíš kolem. Když odejdeš, úkol se může zastavit a místo můžeš omezit na určité dny a časy."
+            ]
+          },
+          {
+            "id": "places-late",
+            "q": "Proč místo spustí úkol pozdě, nebo vůbec ne?",
+            "a": [
+              "Místa potřebují přístup k poloze „Trvale“ a zapnutou „Přesnou polohu“. Pod 100 m si iOS příchodu často všimne až pozdě, protože na pozadí se poloha obvykle zjišťuje z Wi-Fi a mobilní sítě, ne z GPS – pomůže větší poloměr. iOS sleduje nejvýš 20 míst na aplikaci a na Macu místa nejsou."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "more",
+        "title": "Ostatní",
+        "items": [
+          {
+            "id": "look",
+            "q": "Můžu změnit vzhled SimpleTime?",
+            "a": [
+              "Ano: světlý nebo tmavý vzhled, případně podle systému, tři výšky řádků pro seznam úkolů a v Nastavení › Písmo vlastní velikost textu a tučný text. Se SimpleTime Pro máš navíc sedm barev zvýraznění nebo vlastní – prostupuje tlačítky, přepínači i grafy –, šest písem a na iPhonu a iPadu šestnáct ikon aplikace."
+            ]
+          },
+          {
+            "id": "accessibility",
+            "q": "Je SimpleTime přístupný?",
+            "a": [
+              "Ano. VoiceOver předčítá tlačítka, grafy i časovou osu v každém jazyce aplikace a grafy jsou k dispozici i jako audiografy. Text se řídí velikostí textu v iOS až po největší stupně – pouze v záhlaví a na časové ose roste jen do určité meze, aby nic nezakrylo ovládací prvky. Víc najdeš v našem [prohlášení o přístupnosti](@accessibility); pokud ti něco nefunguje, dej nám prosím vědět."
+            ]
+          },
+          {
+            "id": "freelance",
+            "q": "Hodí se SimpleTime pro freelancery?",
+            "a": [
+              "Pro zápis času ano: rozděl si klienty a projekty do úkolů a podúkolů a exportuj PDF report nebo soubor CSV, kdykoli potřebuješ výkaz. Hodinové sazby a faktury SimpleTime neobsahuje – na ně si export přenes do svého fakturačního programu."
+            ]
+          },
+          {
+            "id": "platforms",
+            "q": "Existuje verze pro Android, Windows nebo web?",
+            "a": [
+              "Ne. SimpleTime je vytvořený pro iPhone, iPad, Mac a Apple Watch. Svoje data můžeš kdykoli exportovat jako CSV."
+            ]
+          },
+          {
+            "id": "account-web",
+            "q": "Co můžu dělat na account.lacodea.com?",
+            "a": [
+              "Tam spravuješ svoje LaCodea ID v prohlížeči: způsoby přihlášení, předplatná, stažení dat účtu a smazání účtu – v SimpleTime se ke stejnému účtu dostaneš úplně nahoře v Nastavení. Svoje záznamy tam neuvidíš: existují jen v SimpleTime na iPhonu, iPadu, Macu a Apple Watch. Když synchronizuješ přes LaCodea ID, jsou koncově šifrované na serveru SimpleTime – samotné LaCodea ID je nikdy nedostane."
+            ]
+          },
+          {
+            "id": "feedback",
+            "q": "Chyba nebo nápad – kam s tím?",
+            "a": [
+              "Napiš nám na [contact@simple-time.app](mailto:contact@simple-time.app) – z aplikace to jde i přes Nastavení › Zpětná vazba. U chyby nám prosím uveď model zařízení, verzi iOS, iPadOS nebo macOS a verzi SimpleTime – najdeš ji v Nastavení › O SimpleTime – a krátce popiš, při čem chyba nastala. Každou zprávu si přečteme."
+            ]
+          },
+          {
+            "id": "support-us",
+            "q": "Jak můžu SimpleTime podpořit?",
+            "a": [
+              "SimpleTime dělá jeden člověk. Pomůže hodnocení v App Storu, stejně jako když o něm řekneš ostatním – a SimpleTime Pro udržuje vývoj v chodu."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

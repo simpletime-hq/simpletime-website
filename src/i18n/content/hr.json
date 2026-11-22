@@ -1,0 +1,950 @@
+{
+  "store": {
+    "lead": "SimpleTime pokazuje kamo ti odlazi vrijeme. Jedan dodir pokreće, jedan zaustavlja.",
+    "promise": "Račun nije potreban, nema oglasa. Tvoji sati ostaju na uređaju – a ako želiš, i u tvom iCloudu ili u LaCodea ID-u.",
+    "sections": [
+      {
+        "id": "tracking",
+        "title": "Mjerenje vremena",
+        "points": [
+          "Jedan dodir pokreće i zaustavlja – u aplikaciji, s početnog zaslona, iz Kontrolnog centra, iz pretraživanja na iPhoneu ili preko Siri",
+          "Stalni termini: nastavu ili smjene dodaj samo jednom – SimpleTime ih svaki tjedan unosi sam",
+          "Zadaci s podzadacima, ugniježđeni onoliko duboko koliko je duboka tvoja radna struktura",
+          "Zaboravio si pokrenuti? Dodaj vrijeme naknadno i uredi ga kad god želiš",
+          "Boja, simbol, favoriti i redoslijed koji sam određuješ"
+        ]
+      },
+      {
+        "id": "day",
+        "title": "Tvoj dan",
+        "points": [
+          "Popis ili vremenska crta od 0 do 24, s oznakom trenutačnog vremena",
+          "Bilješka uz svaki unos",
+          "Usporedba današnjeg dana s jučerašnjim, odmah na vrhu"
+        ]
+      },
+      {
+        "id": "insights",
+        "title": "Uvidi",
+        "points": [
+          "Kružni dijagrami po zadatku i po produktivnosti",
+          "Dan, tjedan, mjesec, godina",
+          "Statistika: usporedba s prethodnim razdobljem, kretanje, raspodjela tijekom dana, najdulji i najkraći unos",
+          "Svaki zadatak sa svojim brojevima – prvi unos, najdulji, ovaj tjedan, ova godina",
+          "Svaki dijagram možeš podijeliti kao sliku"
+        ]
+      },
+      {
+        "id": "reports",
+        "title": "Izvještaji i izvoz",
+        "points": [
+          "PDF izvještaj čije dijelove sam biraš i slažeš",
+          "CSV za Excel i Numbers",
+          "Planovi sigurnosnog kopiranja: automatski na iCloud Drive, u mapu u aplikaciji Datoteke poput Dropboxa ili Google Drivea, na vlastiti poslužitelj ili na uređaj – ako želiš, zaštićeni lozinkom"
+        ]
+      },
+      {
+        "id": "widgets",
+        "title": "Widgeti i Siri",
+        "points": [
+          "Danas, zadatak u tijeku i tjedan na početnom zaslonu",
+          "Vrijeme koje teče na zaključanom zaslonu i na Dynamic Islandu",
+          "Prekidač u Kontrolnom centru koji pokreće i zaustavlja mjerenje",
+          "Siri i Prečaci: pokreni, zaustavi ili pitaj što trenutno teče"
+        ]
+      },
+      {
+        "id": "devices",
+        "title": "Na svakom uređaju",
+        "points": [
+          "iPhone, iPad i Mac, usklađeni preko iClouda ili LaCodea ID-a",
+          "41 jezik, neovisno o jeziku uređaja",
+          "VoiceOver i Dynamic Type posvuda"
+        ]
+      },
+      {
+        "id": "data",
+        "title": "Tvoji podaci",
+        "points": [
+          "Zaključavanje aplikacije s Face ID, Touch ID ili vlastitim kôdom",
+          "Ti biraš gdje su tvoji podaci: samo na ovom uređaju, u tvom iCloudu ili potpuno šifrirani u LaCodea ID-u",
+          "Privatnost na jednoj stranici: pregled svih dopuštenja i tvojih podataka",
+          "Po želji LaCodea ID, jedan račun za sve LaCodea aplikacije – SimpleTime radi i bez njega",
+          "Bez oglasa, bez prodaje tvojih podataka – bez računa primamo samo anonimna izvješća o rušenju i statistiku korištenja, a to se može isključiti",
+          "Brisanje svega odjednom – na uređaju, u iCloudu i u sigurnosnim kopijama"
+        ]
+      }
+    ],
+    "pro": {
+      "title": "SimpleTime Pro",
+      "intro": "Sve navedeno ostaje besplatno. Pro dodaje:",
+      "points": [
+        "Apple Watch: pokreni i zaustavi na zapešću, pokreni ranije, dan, tjedan i ciljevi na jedan pogled – s vremenom koje teče na brojčaniku",
+        "Osvrti: tvoj tjedan, mjesec i godina kao kartice – za listanje i dijeljenje",
+        "Mjesta: zadaci se pokreću sami kad stigneš – po želji tek nakon vremena čekanja",
+        "Kalendar: svaki unos kao događaj u tvom kalendaru – i zadaci iz kalendara kao što su „Posao“ ili „Obitelj“",
+        "Godina na jednoj slici: svaki dan u godini, s tvojim nizovima",
+        "Ciljevi po zadatku – za dan, tjedan ili mjesec",
+        "Filtar Fokusa: uključi se tvoj radni Fokus, popis prikazuje samo posao, a sat već ide",
+        "Widget za brzi početak koji sam popunjavaš",
+        "Sedam boja naglaska ili jedna tvoja, šest fontova i šesnaest ikona aplikacije",
+        "Dodatni dijelovi u PDF izvještaju: kretanje, raspodjela dana, usporedba, ciljevi"
+      ],
+      "pricing": "Pro je dostupan mjesečno, godišnje ili jednokratno zauvijek. Novi pretplatnici dobivaju tjedan dana besplatno, a uz Dijeljenje s obitelji do šest osoba može koristiti Pro. Cijene vidiš u aplikaciji. Mjesečna i godišnja pretplata obnavljaju se automatski dok ih ne otkažeš – bilo kada u postavkama App Storea. Ono što dođe kasnije, uključeno je."
+    },
+    "closing": "Za svakoga tko želi znati kamo mu zapravo odlazi vrijeme – na poslu, na fakultetu, na treningu ili za sebe."
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Mjerenje vremena za iPhone, iPad i Mac",
+      "titleLead": "Jedan dodir",
+      "titleAccent": "pokreće sat.",
+      "cta": "Pogledaj mogućnosti",
+      "proof": [
+        "Besplatno preuzimanje",
+        "Bez računa",
+        "Bez oglasa i prodaje podataka"
+      ]
+    },
+    "tour": {
+      "tracking": "Pokreni odakle god želiš."
+    },
+    "devices": {
+      "title": "Na svim tvojim uređajima.",
+      "subtitle": "iPhone, iPad i Mac ostaju usklađeni preko iClouda ili LaCodea ID-a – a sat ide i dalje: na zaključanom zaslonu, na Dynamic Islandu i na tvom zapešću."
+    },
+    "showcase": [
+      {
+        "id": "day",
+        "title": "Cijeli tvoj dan na prvi pogled."
+      },
+      {
+        "id": "insights",
+        "title": "Pogledaj kamo ti zapravo odlaze sati."
+      },
+      {
+        "id": "reports",
+        "title": "Izvještaj u nekoliko sekundi."
+      }
+    ],
+    "features": {
+      "title": "Sve što ti treba. Besplatno.",
+      "subtitle": "Svaka mogućnost s ovog popisa dio je besplatne aplikacije."
+    },
+    "pro": {
+      "button": "Sve o SimpleTime Pro"
+    },
+    "audience": {
+      "title": "Za svakoga tko želi znati kamo mu odlazi vrijeme.",
+      "subtitle": "Na poslu, na fakultetu, na treningu – ili samo za sebe.",
+      "groups": [
+        {
+          "id": "work",
+          "title": "Posao i slobodnjački rad",
+          "body": "Razdvoji klijente i projekte kao zadatke i podzadatke i izvezi urednu evidenciju kad god ti zatreba."
+        },
+        {
+          "id": "study",
+          "title": "Studij i učenje",
+          "body": "Pogledaj koliko ti vremena neki predmet zapravo oduzima i planiraj sljedeći tjedan sa stvarnim brojkama."
+        },
+        {
+          "id": "training",
+          "title": "Trening i navike",
+          "body": "Bilježi treninge, vježbanje ili san i gledaj kako iz tjedna u tjedan raste tvoja redovitost."
+        },
+        {
+          "id": "everyday",
+          "title": "Svakodnevica",
+          "body": "Otkrij kamo zapravo odlaze sati – i sam odluči što želiš promijeniti."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Česta pitanja.",
+      "subtitle": "Najvažniji odgovori na prvi pogled – i još mnogo njih na stranici s čestim pitanjima.",
+      "button": "Sva pitanja i odgovori"
+    },
+    "cta": {
+      "title": "Počni mjeriti već danas.",
+      "subtitle": "Besplatno na iPhoneu, iPadu i Macu. Bez računa, bez oglasa, bez prodaje tvojih podataka.",
+      "note": "Aplikacija za Apple Watch dio je SimpleTime Pro."
+    }
+  },
+  "shots": [
+    {
+      "id": "tracking",
+      "title": "Mjeri",
+      "caption": "Jedan dodir pokreće sat",
+      "alt": "Kartica Mjerenje sa zadatkom u tijeku i favoritima na vrhu"
+    },
+    {
+      "id": "day",
+      "title": "Tvoj dan",
+      "caption": "Svaki unos, točno do sekunde",
+      "alt": "Prikaz dana kao popis unosa s njihovim vremenima"
+    },
+    {
+      "id": "timeline",
+      "title": "Vremenska crta",
+      "caption": "Cijeli dan na prvi pogled",
+      "alt": "Prikaz dana kao vremenska crta od 0 do 24"
+    },
+    {
+      "id": "chart",
+      "title": "Analiziraj",
+      "caption": "Kamo ti zapravo odlaze sati",
+      "alt": "Tjedan kao kružni dijagram po zadacima"
+    },
+    {
+      "id": "statistics",
+      "title": "Statistika",
+      "caption": "Usporedi tjedne, uoči trend",
+      "alt": "Statistika koja uspoređuje ovaj tjedan s prethodnim"
+    },
+    {
+      "id": "report",
+      "title": "Izvještaji",
+      "caption": "Detaljan PDF sa svakim zadatkom",
+      "alt": "Stranica PDF izvještaja sa svim zadacima"
+    },
+    {
+      "id": "pro",
+      "title": "Prijeđi na Pro",
+      "caption": "Ciljevi, tvoja godina, tvoje boje",
+      "alt": "Stranica SimpleTime Pro u aplikaciji"
+    }
+  ],
+  "pro": {
+    "eyebrow": "SimpleTime Pro",
+    "title": "Izvuci više iz vremena koje mjeriš.",
+    "subtitle": "SimpleTime ostaje besplatan – sve što aplikacija može bez Proa, tako i ostaje. Pro donosi aplikaciju za Apple Watch, mjesta koja sama pokreću zadatke, osvrte na tvoj tjedan, mjesec i godinu, ciljeve i još mnogo toga.",
+    "featuresTitle": "Što Pro dodaje",
+    "features": [
+      {
+        "id": "watch",
+        "title": "Apple Watch",
+        "body": "Pokreni i zaustavi na zapešću, pokreni ranije, dan, tjedan i ciljevi na jedan pogled – s vremenom koje teče na brojčaniku."
+      },
+      {
+        "id": "reviews",
+        "title": "Osvrti",
+        "body": "Tvoj tjedan, mjesec i godina kao kartice – za listanje i dijeljenje."
+      },
+      {
+        "id": "places",
+        "title": "Mjesta",
+        "body": "Zadaci se pokreću sami kad stigneš – po želji tek nakon vremena čekanja, da se ništa ne pokrene kad se samo provezeš mimo."
+      },
+      {
+        "id": "calendar",
+        "title": "Kalendar",
+        "body": "Svaki unos kao događaj u tvom kalendaru – i zadaci iz kalendara kao što su „Posao“ ili „Obitelj“."
+      },
+      {
+        "id": "year",
+        "title": "Godina na prvi pogled",
+        "body": "Svaki dan u godini na jednoj slici, s tvojim trenutačnim i najduljim nizom."
+      },
+      {
+        "id": "goals",
+        "title": "Ciljevi",
+        "body": "Jedan cilj po zadatku – za dan, tjedan ili mjesec. Podzadaci se uračunavaju."
+      },
+      {
+        "id": "focus",
+        "title": "Filtar fokusa",
+        "body": "Uključi se tvoj radni Fokus, popis prikazuje samo posao – a mjerenje može početi i završiti s njim."
+      },
+      {
+        "id": "widget",
+        "title": "Widget za brzi početak",
+        "body": "Ti biraš koji su zadaci na njemu – pokrećeš ih jednim dodirom na početnom zaslonu."
+      },
+      {
+        "id": "style",
+        "title": "Boje, fontovi i ikone aplikacije",
+        "body": "Sedam boja naglaska ili jedna tvoja, koja prolazi kroz cijelu aplikaciju – uz to šest fontova i šesnaest ikona aplikacije."
+      },
+      {
+        "id": "report",
+        "title": "Više u PDF izvještaju",
+        "body": "Kretanje, raspodjela tijekom dana, usporedba s prethodnim razdobljem i ciljevi – redoslijedom koji sam biraš."
+      },
+      {
+        "id": "future",
+        "title": "Sve što tek dolazi",
+        "body": "Sve što dođe kasnije, uključeno je – bez dodatne kupnje."
+      }
+    ],
+    "plansTitle": "Tri puta do Proa",
+    "plansSubtitle": "Cijene ovise o tvojoj zemlji i prije kupnje prikazuju se u aplikaciji, u tvojoj valuti.",
+    "plans": [
+      {
+        "id": "monthly",
+        "title": "Mjesečno",
+        "body": "Naplaćuje se svaki mjesec. Možeš otkazati bilo kada."
+      },
+      {
+        "id": "yearly",
+        "title": "Godišnje",
+        "body": "Naplaćuje se jednom godišnje – aplikacija pokazuje koliko štediš u odnosu na mjesečno plaćanje."
+      },
+      {
+        "id": "lifetime",
+        "title": "Zauvijek",
+        "body": "Platiš jednom i Pro ostaje tvoj zauvijek. Nikad ne istječe."
+      }
+    ],
+    "notes": [
+      "Novi pretplatnici mogu mjesečnu ili godišnju pretplatu tjedan dana isprobati besplatno.",
+      "Dijeljenje s obitelji: jedna kupnja za do šest osoba.",
+      "Sve što dođe kasnije, uključeno je – bez dodatne kupnje."
+    ],
+    "legal": "Mjesečna i godišnja pretplata automatski se obnavljaju dok ih ne otkažeš. Možeš ih otkazati bilo kada u postavkama App Storea. „Zauvijek” je jednokratno plaćanje i nikad ne istječe.",
+    "terms": "Uvjeti korištenja (EULA)",
+    "privacy": "Pravila privatnosti",
+    "freeTitle": "Što ostaje besplatno",
+    "freeBody": "Sve što ti treba za mjerenje: zadaci i podzadaci, stalni termini, prikaz dana i vremenska crta, dijagrami i statistika, PDF izvještaj i CSV izvoz, widgeti, aktivnost uživo, Kontrolni centar i Siri, sinkronizacija preko iClouda ili LaCodea ID-a, planovi sigurnosnih kopija i zaključavanje aplikacije – na 41 jeziku. Bez računa, bez oglasa, bez prodaje tvojih podataka.",
+    "howTitle": "Kako do Proa",
+    "how": [
+      "U aplikaciji SimpleTime otvori Postavke › SimpleTime Pro.",
+      "Odaberi „Mjesečno”, „Godišnje” ili „Zauvijek” – plaćaš preko svog Apple računa.",
+      "Pro se odmah otključava – na svim tvojim uređajima s istim Apple računom."
+    ],
+    "faqTitle": "Pitanja o SimpleTime Pro",
+    "ctaTitle": "Počni besplatno.",
+    "ctaSubtitle": "Preuzmi SimpleTime – i otključaj Pro u aplikaciji kad god želiš."
+  },
+  "faq": {
+    "title": "Česta pitanja.",
+    "subtitle": "Sve o aplikaciji SimpleTime – od prvog dodira do SimpleTime Pro.",
+    "searchLabel": "Pretraži pitanja",
+    "searchPlaceholder": "npr. „kopija” ili „Apple Watch”",
+    "results": "Odgovarajuća pitanja: {count}",
+    "noResults": "Nijedno pitanje ne odgovara upitu „{query}”.",
+    "noResultsHint": "Pokušaj s drugom riječju – ili nam [piši](@contact).",
+    "topics": "Teme",
+    "moreTitle": "Imaš još pitanja?",
+    "moreBody": "Piši nam – svaku poruku pročitamo i na nju odgovorimo.",
+    "moreButton": "Kontakt",
+    "categories": [
+      {
+        "id": "basics",
+        "title": "Prvi koraci",
+        "items": [
+          {
+            "id": "what-is",
+            "q": "Što je SimpleTime?",
+            "a": [
+              "SimpleTime je aplikacija za mjerenje vremena na iPhoneu, iPadu i Macu. Jedan dodir pokreće sat, jedan ga zaustavlja. Zatim SimpleTime pokazuje kamo ti odlazi vrijeme – na dnevnom popisu ili vremenskoj crti, u dijagramima i statistici te u PDF izvještaju ili CSV datoteci. Račun nije potreban, nema oglasa ni prodaje tvojih podataka."
+            ]
+          },
+          {
+            "id": "first-steps",
+            "q": "Kako početi?",
+            "a": [
+              "Dodirni + na kartici Mjerenje i stvori zadatak – s nazivom, bojom i simbolom. Dodirni trokut pokraj njega i sat kreće; „Zaustavi” ga završava. Pri prvom pokretanju kratak vodič pokazuje ti najvažnije tipke. Možeš ga ponovno pogledati bilo kada: Postavke › Ponovno prikaži vodič."
+            ]
+          },
+          {
+            "id": "free",
+            "q": "Je li SimpleTime besplatan?",
+            "a": [
+              "Da. Preuzimanje je besplatno, a besplatno je i sve što ti treba za mjerenje: zadaci i podzadaci, stalni termini, prikaz dana, dijagrami i statistika, izvještaji i izvoz, widgeti, sinkronizacija preko iClouda ili LaCodea ID-a te sigurnosne kopije. SimpleTime Pro nije obavezan i dodaje aplikaciju za Apple Watch, osvrte, mjesta, ciljeve i još mnogo toga. [Sve o SimpleTime Pro](@pro)"
+            ]
+          },
+          {
+            "id": "account",
+            "q": "Trebam li račun?",
+            "a": [
+              "Ne. Otvoriš aplikaciju i kreneš – bez registracije. Ako koristiš iCloud, sinkronizacija ide preko tvog vlastitog Apple računa, koji mi nikad ne vidimo. Po želji se možeš prijaviti LaCodea ID-om, našim računom za sve LaCodea aplikacije. Tada spremamo tvoj račun i tvoje kupnje SimpleTime Pro – tvoje unose samo ako pod Podaci i sinkronizacija odabereš LaCodea ID kao mjesto spremanja, i to potpuno šifrirane."
+            ]
+          },
+          {
+            "id": "lacodea-id",
+            "q": "Što je LaCodea ID?",
+            "a": [
+              "LaCodea ID naš je neobavezni račun za sve LaCodea aplikacije. Prijavljuješ se na samom vrhu Postavki – s Appleom, poveznim ključem ili kôdom iz e-maila. S njim možeš sinkronizirati potpuno šifrirano preko LaCodea ID-a, a kupnja SimpleTime Pro vrijedi na svakom uređaju na kojem se prijaviš; no SimpleTime sasvim dobro radi i bez njega."
+            ]
+          },
+          {
+            "id": "devices",
+            "q": "Na kojim uređajima radi SimpleTime?",
+            "a": [
+              "Na iPhoneu i iPadu s iOS-om 26 odnosno iPadOS-om 26 ili novijim te na Macu s macOS-om 26 ili novijim. Aplikacija za Apple Watch dio je SimpleTime Pro i treba watchOS 26. Ako pod Postavke › Podaci i sinkronizacija odabereš iCloud ili LaCodea ID, tvoji unosi ostaju usklađeni na svim uređajima s istim Apple računom odnosno istim LaCodea ID-om."
+            ]
+          },
+          {
+            "id": "mac",
+            "q": "Što SimpleTime može na Macu?",
+            "a": [
+              "Gotovo sve što može na iPhoneu – mjerenje, prikaz dana, uvide, izvještaje, izvoz, sigurnosne kopije, sinkronizaciju i zaključavanje aplikacije; gdje na iPhoneu povlačiš prstom, na Macu koristiš desni klik. Uz to tu su štoperica u traci s izbornicima i widgeti na radnoj površini. Mjesta, aktivnosti uživo, aplikacija za Apple Watch i zamjenske ikone aplikacije na Macu ne postoje."
+            ]
+          },
+          {
+            "id": "languages",
+            "q": "Koje jezike govori SimpleTime?",
+            "a": [
+              "41 – od engleskog i njemačkog do arapskog, hindskog i japanskog. Pod Postavke › Jezik možeš odabrati jezik aplikacije neovisno o jeziku uređaja."
+            ]
+          },
+          {
+            "id": "offline",
+            "q": "Radi li SimpleTime bez interneta?",
+            "a": [
+              "Da. Mjerenje, prikaz dana, dijagrami i izvještaji rade bez veze. Veza je potrebna za sinkronizaciju, sigurnosne kopije na vlastiti poslužitelj, prijavu LaCodea ID-om, kupnju Proa i traženje adrese za mjesto. Što ostane neobavljeno, SimpleTime nadoknadi – sinkronizaciju čim je uređaj ponovno na mreži, propuštenu kopiju kad sljedeći put otvoriš aplikaciju."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tracking",
+        "title": "Mjerenje",
+        "items": [
+          {
+            "id": "start-stop",
+            "q": "Kako pokrenuti i zaustaviti mjerenje?",
+            "a": [
+              "Zadatak pokrećeš dodirom na trokut pokraj njega. Zadatak u tijeku prikazuje se na vrhu kartice Mjerenje; „Zaustavi” ga završava. Dodir na naziv zadatka otvara njegove podzadatke, povlačenjem ulijevo možeš ga urediti, arhivirati ili obrisati, a povlačenjem udesno vidiš njegove podatke sa svim brojevima – na Macu sve to nudi desni klik."
+            ]
+          },
+          {
+            "id": "one-at-a-time",
+            "q": "Mogu li dva zadatka teći istodobno?",
+            "a": [
+              "Ne. Uvijek teče samo jedan unos: kad pokreneš drugi zadatak, unos u tijeku završava u istom trenutku – tako se tvoji unosi ne preklapaju."
+            ]
+          },
+          {
+            "id": "keeps-running",
+            "q": "Ide li sat dalje kad zatvorim SimpleTime?",
+            "a": [
+              "Da. SimpleTime pamti trenutak pokretanja i iz njega računa trajanje – mjerenje teče dalje kad zatvoriš aplikaciju, zaključaš iPhone ili ga ponovno pokreneš. Na zaključanom zaslonu i na Dynamic Islandu aktivnost uživo prikazuje vrijeme koje teče, s tipkom za zaustavljanje, a tvoji podsjetnici stižu i kad je aplikacija zatvorena."
+            ]
+          },
+          {
+            "id": "add-later",
+            "q": "Mogu li vrijeme dodati naknadno ako zaboravim pokrenuti mjerenje?",
+            "a": [
+              "Da. Na kartici Dan dodirni + i dodaj unos s početkom i krajem ili dodirni postojeći unos da ga promijeniš. Unosi se ne smiju preklapati: SimpleTime ti javlja ako se neko razdoblje preklapa s drugim unosom. Ako sat već ide, dodirni unos u tijeku na vrhu kartice Mjerenje i pomakni njegov početak unatrag – najviše do kraja prethodnog unosa."
+            ]
+          },
+          {
+            "id": "restore-entry",
+            "q": "Mogu li vratiti obrisani unos?",
+            "a": [
+              "Da. Ako obrišeš unos na kartici Dan – povlačenjem ulijevo, a na Macu desnim klikom –, on odlazi u smeće: gore lijevo na kartici Dan, pod „Obrisani unosi”, vraćaš ga s „Vrati” ili ga brišeš trajno. Obrisani zadaci čekaju zajedno sa svojim unosima u smeću gore lijevo na kartici Mjerenje. Ono što je trajno obrisano, može vratiti samo sigurnosna kopija."
+            ]
+          },
+          {
+            "id": "fixed-times",
+            "q": "Što su stalni termini?",
+            "a": [
+              "Termine koji se ponavljaju, poput nastave, smjena ili uredovnog vremena, postaviš samo jednom: zadatak, dane u tjednu, početak i kraj, svaki tjedan ili svaki drugi tjedan, od dana koji odabereš i po želji s datumom završetka. Čim termin prođe, SimpleTime ga sam unosi – na svakom uređaju na kojem otvoriš SimpleTime, a ipak samo jednom; unatrag nadoknađuje najviše 31 dan. Ti mjeriš samo ono što dođe povrh toga; funkciju nalaziš pod Postavke › Mjerenje › Stalni termini, bez Proa."
+            ]
+          },
+          {
+            "id": "fixed-times-pause",
+            "q": "Mogu li pauzirati ili promijeniti stalne termine?",
+            "a": [
+              "Da. Za školske praznike, godišnji odmor ili bolovanje postavi pauzu pod Postavke › Mjerenje › Stalni termini pomoću „Dodaj pauzu” – za to vrijeme SimpleTime ništa ne unosi; pojedini termin isključuješ njegovim prekidačem. Već stvorene unose mijenjaš ili brišeš kao i svaki drugi unos, a ako promijeniš ili obrišeš stalni termin, ono što je već uneseno ostaje. Ako se stalni termin preklapa s unosom koji već postoji, SimpleTime ga ne unosi."
+            ]
+          },
+          {
+            "id": "subtasks",
+            "q": "Kako funkcioniraju podzadaci?",
+            "a": [
+              "Dodirni naziv zadatka da ga otvoriš, a zatim ondje pomoću + dodaj podzadatke. Možeš ih ugnijezditi onoliko duboko koliko to traži tvoj posao – klijent, projekt, faza. U dijagramima, izvještajima i ciljevima podzadaci se uračunavaju u nadređeni zadatak."
+            ]
+          },
+          {
+            "id": "order",
+            "q": "Kako održati red na popisu zadataka?",
+            "a": [
+              "Zadatke koje koristiš svaki dan označi kao favorite – oni ostaju na vrhu. Ostale možeš poredati abecedno, po najčešćoj ili nedavnoj uporabi ili vlastitim redoslijedom. Boja i simbol – ili emoji – čine svaki zadatak lako prepoznatljivim."
+            ]
+          },
+          {
+            "id": "archive-trash",
+            "q": "Koja je razlika između arhiviranja i brisanja?",
+            "a": [
+              "Arhiviranje zadatak samo skriva: njegovi unosi ostaju i nastavljaju se računati u svim analizama. Brisanje premješta zadatak zajedno s unosima u smeće – njihovo se vrijeme tada više nigdje ne računa. Arhivu i smeće nalaziš gore lijevo na kartici Mjerenje: iz arhive „Vrati” vraća zadatak, a iz smeća vraća zadatak zajedno s njegovim unosima – ili ga ondje brišeš trajno."
+            ]
+          },
+          {
+            "id": "notes",
+            "q": "Mogu li unosima dodati bilješke?",
+            "a": [
+              "Da, svaki unos može imati bilješku – na čemu se radilo ili s kim. Dodaješ je kad stvaraš ili uređuješ unos na kartici Dan, a dok sat ide, dodirom na unos u tijeku na vrhu kartice Mjerenje. Bilješku vidiš kad otvoriš unos, u podacima zadatka pod „Svi unosi”, u odjeljku „Svi unosi” PDF izvještaja i u CSV izvozu; sigurnosne kopije je također spremaju."
+            ]
+          },
+          {
+            "id": "reminders",
+            "q": "Može li me SimpleTime podsjetiti?",
+            "a": [
+              "Da. Pod Postavke › Postavi obavijesti zadaješ pravila – na primjer podsjetnik kad zadatak teče već 60 minuta, za sve zadatke ili samo za odabrane, u dane u tjednu koje odabereš. S „Podsjeti me kad ništa ne teče” SimpleTime ti se javlja i kad neko vrijeme ništa nije izmjereno."
+            ]
+          },
+          {
+            "id": "time-zone",
+            "q": "Nakon putovanja u drugu vremensku zonu moji unosi pokazuju druga vremena – zašto?",
+            "a": [
+              "SimpleTime prema zadanim postavkama prikazuje svaki unos u vremenskoj zoni u kojoj je tvoj uređaj upravo sada – kao Appleov Kalendar: ono što je izmjereno u 9 sati u New Yorku, u Berlinu se prikazuje u 15 sati. Pod Postavke › Vremenska zona umjesto toga možeš odabrati „Vremenska zona mjerenja”: tada se svaki unos prikazuje s vremenom i na dan kad je izmjeren – svugdje gdje se prikazuju vremena i zbrojevi. Trajanje je u oba slučaja isto; unosi iz verzija prije 4.7 uvijek se prikazuju u vremenskoj zoni uređaja."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "insights",
+        "title": "Prikaz dana i uvidi",
+        "items": [
+          {
+            "id": "day-view",
+            "q": "Što vidim u prikazu dana?",
+            "a": [
+              "Svaki unos dana s početkom, krajem i trajanjem – kao popis ili kao vremensku crtu od 0 do 24 sata, a danas i s oznakom trenutačnog vremena; na širokim zaslonima poput iPada i Maca oboje se prikazuje jedno pokraj drugoga. Na vrhu vidiš zbroj dana i usporedbu s prethodnim danom."
+            ]
+          },
+          {
+            "id": "charts",
+            "q": "Koji dijagrami i statistike postoje?",
+            "a": [
+              "Na kartici Dijagram: kružni dijagrami po zadatku i po produktivnosti, za dan, tjedan, mjesec ili godinu. Gore desno pod „Više statistike” nalaziš usporedbu s prethodnim razdobljem, kretanje, vodeće zadatke te najdulji i najkraći unos – a od tjedna naviše i raspodjelu vremena tijekom dana, s tvojim najpunijim satom. Svaki zadatak ima i vlastitu stranicu s podacima – prvi unos, najdulji unos, ovaj tjedan, ova godina."
+            ]
+          },
+          {
+            "id": "productivity",
+            "q": "Što je ocjena produktivnosti?",
+            "a": [
+              "Kad uređuješ zadatak, pod „Produktivnost” mu dodjeljuješ kategoriju: produktivne aktivnosti, neproduktivne aktivnosti, nužne obveze – ili „Izuzmi iz produktivnosti”. Podzadaci bez vlastite kategorije preuzimaju kategoriju nadređenog zadatka, a „Izuzmi iz produktivnosti” vrijedi za sve ispod. Ocjena pokazuje koliko je tvog ocijenjenog vremena bilo produktivno ili nužno: (produktivno + nužno) ÷ (produktivno + neproduktivno + nužno) × 100. Vrijeme bez razvrstavanja ili s „Izuzmi iz produktivnosti” ne računa se."
+            ]
+          },
+          {
+            "id": "goals",
+            "q": "Kako funkcioniraju ciljevi?",
+            "a": [
+              "Uz SimpleTime Pro pod Postavke › Ciljevi zadaješ cilj po zadatku: najmanje ili najviše određeno vrijeme po danu, tjednu ili mjesecu – recimo najmanje 8 sati sporta tjedno ili najviše 2 sata društvenih mreža dnevno. Podzadaci se uračunavaju, a mjeri se tekuće razdoblje. Koliko si blizu cilja, vidiš na kartici Dijagram i na Apple Watchu; u odjeljku „Ciljevi” PDF izvještaj uspoređuje prosjek u odabranom razdoblju s tvojim ciljem."
+            ]
+          },
+          {
+            "id": "share-chart",
+            "q": "Mogu li podijeliti dijagram?",
+            "a": [
+              "Da, svaki dijagram možeš podijeliti kao sliku ili spremiti u Fotografije. Za spremanje SimpleTime traži samo dopuštenje za dodavanje fotografija – tvoju medijateku ne može vidjeti."
+            ]
+          },
+          {
+            "id": "pdf-report",
+            "q": "Kako izraditi PDF izvještaj?",
+            "a": [
+              "Pod Postavke › Izvoz izvještaja odaberi razdoblje – od „Danas” do „Cijelo razdoblje” ili prilagođeno –, izaberi odjeljke koje želiš i povuci ih željenim redoslijedom. SimpleTime izrađuje PDF sa svakim zadatkom i podzadatkom, spreman za dijeljenje ili spremanje. SimpleTime Pro donosi dodatne odjeljke: „Kroz vrijeme”, „Tijekom dana”, „Usporedba” i „Ciljevi”.",
+              "Za evidenciju radnog vremena tu je odjeljak „Svi unosi”: svaki unos dan po dan s početkom, krajem, zadatkom i bilješkom, uz dnevne zbrojeve, ukupni zbroj i sate u decimalnom obliku – idealno za usporedbu sati s platnom listom. Besplatan je, bez Proa, i uključen od početka."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "shortcuts",
+        "title": "Widgeti, Siri i Fokus",
+        "items": [
+          {
+            "id": "widgets",
+            "q": "Koji widgeti postoje?",
+            "a": [
+              "Za početni zaslon: „Danas”, „Zadatak u tijeku” i „Tjedan” – „Danas” i „Zadatak u tijeku” s tipkama za pokretanje i zaustavljanje. Za zaključani zaslon: što teče i koliko dugo. Tu je i prekidač „Mjerenje vremena” za Kontrolni centar. Dok zadatak teče, aktivnost uživo prikazuje ga na zaključanom zaslonu i na Dynamic Islandu, s tipkom za zaustavljanje. Uz SimpleTime Pro dobivaš i widget za brzi početak koji puniš vlastitim zadacima."
+            ]
+          },
+          {
+            "id": "without-opening",
+            "q": "Mogu li pokrenuti mjerenje bez otvaranja aplikacije?",
+            "a": [
+              "Da, na više načina. Dodirni i zadrži ikonu aplikacije da zaustaviš ono što teče ili pokreneš jedan od svojih zadataka. Upiši naziv zadatka u pretraživanje na iPhoneu i dodirni ga. Ili upotrijebi widget, Siri ili prekidač „Mjerenje vremena” – u Kontrolnom centru, na zaključanom zaslonu ili na tipki postupka od iPhonea 15 Pro –, a uz SimpleTime Pro i svoj Apple Watch."
+            ]
+          },
+          {
+            "id": "siri",
+            "q": "Kako SimpleTime radi sa Siri i Prečacima?",
+            "a": [
+              "Reci, na primjer, „Start Work in SimpleTime”, „Stop tracking in SimpleTime”, „How much did I track today in SimpleTime?” ili „What’s running in SimpleTime?”. Siri razumije te rečenice na engleskom i njemačkom. Na svim jezicima radnje su dostupne u aplikaciji Prečaci, gdje im možeš zadati i vlastitu rečenicu."
+            ]
+          },
+          {
+            "id": "focus-filter",
+            "q": "Što radi filtar fokusa?",
+            "a": [
+              "S filtrom fokusa SimpleTime prati tvoj Fokus: kad se uključi „Posao”, popis zadataka prikazuje samo tvoju radnu kategoriju – a mjerenje može početi i završiti s Fokusom. Postavljaš ga u Postavkama iOS-a pod Fokus › tvoj Fokus › Filtri fokusa › Dodaj filtar › SimpleTime. Filtar fokusa dio je SimpleTime Pro."
+            ]
+          },
+          {
+            "id": "calendar-entries",
+            "q": "Može li SimpleTime upisati moje unose u kalendar?",
+            "a": [
+              "Da, uz SimpleTime Pro: uključi „Unosi u Kalendaru” pod Postavke › Kalendar – od tog dana svaki završeni unos pojavljuje se kao događaj, u vlastitom kalendaru „SimpleTime” ili u onom koji odabereš, po želji zasebno za svaki zadatak. Kad promijeniš ili obrišeš unos, događaj se mijenja s njim, a poveznica u događaju otvara unos u aplikaciji SimpleTime. Ako to isključiš, događaji ostaju u kalendaru.",
+              "Funkcija „Zadaci iz kalendara” pretvara kalendare poput „Posao” u zadatke; događaji koji su već u tvom kalendaru ipak ne postaju unosi. Događaji se spremaju kod pružatelja tvog kalendara i prikazuju nazive tvojih zadataka svima s kojima dijeliš kalendar – čak i kad je uključeno zaključavanje aplikacije."
+            ]
+          },
+          {
+            "id": "menu-bar",
+            "q": "Mogu li SimpleTime na Macu koristiti iz trake s izbornicima?",
+            "a": [
+              "Da. Štoperica u traci s izbornicima pokazuje teče li neki zadatak; klikom na nju pokrećeš, zaustavljaš ili mijenjaš zadatke bez otvaranja prozora. Uključuješ je ili isključuješ pod Postavke › Traka s izbornicima › Prikaži u traci s izbornicima. Ako je postavljeno zaključavanje aplikacije, izbornik ne prikazuje nazive zadataka i nudi samo „Zaustavi”."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "data",
+        "title": "Sinkronizacija, sigurnosne kopije i izvoz",
+        "items": [
+          {
+            "id": "sync",
+            "q": "Sinkronizira li SimpleTime podatke između mojih uređaja?",
+            "a": [
+              "Da, preko iClouda ili preko LaCodea ID-a – to biraš na svakom uređaju pod Postavke › Podaci i sinkronizacija. S iCloudom se sinkronizira svaki uređaj na kojem je odabran iCloud i prijavljen isti Apple račun; kada, odlučuje sustav. To se ne može prisiliti – „Sinkroniziraj sada” tada provjerava račun i vezu, a ista stranica pokazuje kada je bila zadnja sinkronizacija.",
+              "S LaCodea ID-om sinkronizira se svaki uređaj na kojem je prijavljen isti LaCodea ID i na kojem je on odabran, čak i s drugim Apple računom – potpuno šifrirano i, kad je SimpleTime otvoren na oba uređaja, za nekoliko sekundi."
+            ]
+          },
+          {
+            "id": "sync-trouble",
+            "q": "Moji se unosi ne pojavljuju na drugom uređaju – što mogu učiniti?",
+            "a": [
+              "Na oba uređaja provjeri Postavke › Podaci i sinkronizacija: oba trebaju isto mjesto spremanja – iCloud s istim Apple računom ili LaCodea ID s istom prijavom. Ako ondje piše da promjena vrijedi tek kasnije, potpuno zatvori SimpleTime i ponovno ga otvori; osim toga, aplikaciju na svim uređajima drži ažurnom.",
+              "S iCloudom „Zadnja sinkronizacija” u Postavkama pod Sinkronizacija pokazuje kada su podaci zadnji put preneseni, a „Provjeri sinkronizaciju” provjerava račun i vezu te, ako postoji problem, navodi razlog – na primjer pun prostor na iCloudu. S LaCodea ID-om stranica „Podaci i sinkronizacija” pokazuje čekaju li promjene na vezu, je li prijavljen drugi račun ili treba li uređaju tvoj ključ za oporavak. Ako to ne pomogne, [piši nam](@contact)."
+            ]
+          },
+          {
+            "id": "without-icloud",
+            "q": "Mogu li koristiti SimpleTime bez iClouda?",
+            "a": [
+              "Da. U Postavkama pod Podaci i sinkronizacija odaberi „Samo na ovom uređaju” – tada tvoji podaci ostaju na tom jednom uređaju. Tim su važnije sigurnosne kopije: plan sigurnosnih kopija sprema ih automatski, na primjer u mapu u aplikaciji Datoteke ili na tvoj vlastiti poslužitelj. Ako ipak želiš sinkronizirati više uređaja bez iClouda, ondje odaberi LaCodea ID; uređaj bez tvog iCloud privjeska ključeva tada jednom traži tvoj ključ za oporavak."
+            ]
+          },
+          {
+            "id": "switch-storage",
+            "q": "Kako promijeniti mjesto na kojem su moji podaci?",
+            "a": [
+              "Pod Postavke › Podaci i sinkronizacija dodirni mjesto na kojem bi tvoji podaci trebali biti, a zatim „Prijeđi na iCloud”, „Prijeđi na LaCodea ID” ili „Zadrži samo na ovom uređaju”; za LaCodea ID usput se prijavljuješ. Prije prelaska na iCloud ili LaCodea ID SimpleTime izrađuje zaštitnu kopiju ovog uređaja, a ako ondje već ima podataka, biraš između „Spoji” i „Koristi podatke iz …”.",
+              "Promjena vrijedi samo za ovaj uređaj i obično stupa na snagu tek kad potpuno zatvoriš SimpleTime i ponovno ga otvoriš – stranica će ti to reći. Tvoji se ostali uređaji sinkroniziraju kao i dosad, dok i na njima ne prijeđeš. Nakon toga SimpleTime nudi brisanje podataka na starom mjestu; učini to tek kad prijeđu i tvoji ostali uređaji – inače i oni gube te podatke."
+            ]
+          },
+          {
+            "id": "recovery-key",
+            "q": "Što je ključ za oporavak?",
+            "a": [
+              "Ako je LaCodea ID tvoje mjesto spremanja, SimpleTime tvoje podatke potpuno šifrira; tvoji Apple uređaji ključ obično dobivaju sami preko iCloud privjeska ključeva. Uređaju bez tvog iCloud privjeska ključeva – na primjer s drugim Apple računom – jednom treba tvoj ključ za oporavak od 24 slova i znamenaka. Nalaziš ga pod Postavke › Podaci i sinkronizacija › Ključ za oporavak, nakon Face ID-ja ili šifre uređaja; dok ne potvrdiš da je spremljen, stranica „Sigurnost” te na to podsjeća. Čuvaj ga u upravitelju lozinki ili na papiru – bez njega i bez tvojih uređaja nitko ne može otvoriti tvoje podatke, pa ni mi."
+            ]
+          },
+          {
+            "id": "recovery-key-lost",
+            "q": "Nemam više ključ za oporavak – što sada?",
+            "a": [
+              "Na uređaju koji još može čitati tvoje podatke SimpleTime ga ponovno prikazuje pod Postavke › Podaci i sinkronizacija › Ključ za oporavak s „Prikaži ključ za oporavak” – ili ondje izradiš novi, pa stari prestaje vrijediti. Ako nijedan tvoj uređaj više ne može otvoriti podatke, nitko ih ne može vratiti – pa ni mi. Tada, kad se od tebe zatraži ključ, dodirni „Nemam ključ za oporavak” i kreni ispočetka s podacima s ovog uređaja; sve što je bilo samo na poslužitelju ili na tvojim ostalim uređajima, gubi se."
+            ]
+          },
+          {
+            "id": "backups",
+            "q": "Kako funkcioniraju sigurnosne kopije?",
+            "a": [
+              "Pod Postavke › Sigurnosne kopije postavljaš onoliko planova sigurnosnih kopija koliko želiš. Svaki plan ima mjesto – iCloud Drive, mapu u aplikaciji Datoteke poput Dropboxa ili Google Drivea, vlastiti poslužitelj preko WebDAV-a ili ovaj uređaj –, raspored od jednom na sat do jednom mjesečno, razdoblje čuvanja i po želji lozinku. Na istoj stranici možeš u bilo kojem trenutku izraditi i kopiju ručno."
+            ]
+          },
+          {
+            "id": "backup-password",
+            "q": "Mogu li sigurnosne kopije zaštititi lozinkom?",
+            "a": [
+              "Da. Ako za plan postaviš lozinku, svaka se kopija šifrira na tvom uređaju prije nego što se spremi. Dobro čuvaj lozinku: bez nje nitko ne može vratiti kopiju – ni ti ni mi. Zaobilaznog puta nema."
+            ]
+          },
+          {
+            "id": "backup-files",
+            "q": "Gdje mogu naći svoje sigurnosne kopije?",
+            "a": [
+              "Kopije plana „Samo na ovom uređaju” vidiš i u aplikaciji Datoteke pod „Na iPhoneu” (odnosno „Na iPadu”) › SimpleTime › Backups, a kopije plana za iCloud Drive pod iCloud Drive › SimpleTime › Backups. Planovi za mapu u aplikaciji Datoteke ili za tvoj poslužitelj spremaju ih na odabrano mjesto. Kopije na uređaju gube se zajedno s uređajem – i kad obrišeš SimpleTime. Najbolje je planovima dati lozinku: bez nje kopiju može otvoriti svatko tko ima pristup tom mjestu – na uređaju svatko tko ga otključa, čak i kad je uključeno zaključavanje aplikacije."
+            ]
+          },
+          {
+            "id": "restore",
+            "q": "Kako vratiti sigurnosnu kopiju?",
+            "a": [
+              "Pod Postavke › Sigurnosne kopije vraćaš kopiju – iz jednog od svojih planova ili iz datoteke. Postojeći podaci ostaju, a ono što nedostaje dodaje se. Kopije iz SimpleTime 4.7 i starijih verzija uvoze se pod Postavke › Izvoz / uvoz podataka › Uvezi kopiju iz JSON-a. Na novom uređaju najbolje je pričekati da sinkronizacija preko iClouda ili LaCodea ID-a dostavi tvoje podatke – inače se zadaci mogu udvostručiti."
+            ]
+          },
+          {
+            "id": "export",
+            "q": "Mogu li izvesti svoje podatke?",
+            "a": [
+              "Da, bilo kada: kao CSV datoteku s jednim retkom po unosu – datum, početak, kraj, zadatak, trajanje, sati u decimalnom obliku i bilješka, za Excel, Numbers ili bilo koju aplikaciju za tablice –, kao PDF izvještaj ili kao sigurnosnu kopiju.",
+              "Pod Postavke › Izvoz / uvoz podataka biraš razdoblje CSV datoteke – od „Danas” do „Cijelo razdoblje” ili prilagođeno, na primjer prošli mjesec. Sigurnosnu kopiju izrađuješ pod Postavke › Sigurnosne kopije."
+            ]
+          },
+          {
+            "id": "timesheet",
+            "q": "Kako dobiti sate za evidenciju radnog vremena?",
+            "a": [
+              "Kao PDF: pod Postavke › Izvoz izvještaja odaberi razdoblje – na primjer „Prošli mjesec” – i ostavi uključen odjeljak „Svi unosi”; on navodi svaki unos s početkom, krajem, zadatkom i bilješkom, uz dnevne zbrojeve, ukupni zbroj i sate u decimalnom obliku. Kao tablica: pod Postavke › Izvoz / uvoz podataka odaberi razdoblje i dodirni „Izvezi podatke kao CSV” – jedan redak po unosu s datumom, početkom, krajem, zadatkom, trajanjem, satima u decimalnom obliku i bilješkom, za Excel ili Numbers. Oboje je besplatno, a unosi iz stalnih termina računaju se kao i svi drugi."
+            ]
+          },
+          {
+            "id": "rounding",
+            "q": "Može li SimpleTime zaokruživati vremena, recimo na četvrt sata?",
+            "a": [
+              "Ne, postavka za zaokruživanje ne postoji: SimpleTime sprema početak i kraj točno onako kako ih mjeriš. U odjeljku „Svi unosi” PDF izvještaja i u CSV izvozu svaki je redak zaokružen na minutu i iskazan u satima u decimalnom obliku, s dvije decimale; u PDF-u se zbrojevi računaju upravo iz tih vrijednosti. Trebaš li četvrt sata, promijeni početak i kraj u unosu ili zaokruži u svojoj aplikaciji za tablice."
+            ]
+          },
+          {
+            "id": "import",
+            "q": "Mogu li uvesti podatke iz druge aplikacije?",
+            "a": [
+              "Ne. SimpleTime čita samo vlastite sigurnosne kopije – CSV datoteke, pa ni one koje je sam izradio, ne mogu se uvesti, a događaji iz tvog kalendara ne postaju unosi. Ranija vremena možeš ručno dodati na kartici Dan pomoću +."
+            ]
+          },
+          {
+            "id": "new-device",
+            "q": "Kako prijeći na novi iPhone?",
+            "a": [
+              "Prijavi se istim Apple računom i instaliraj SimpleTime – ako koristiš iCloud (Postavke › Podaci i sinkronizacija), tvoji se unosi vraćaju sami. Ako koristiš LaCodea ID, prijavi se njime na novom uređaju i odaberi ga pod Podaci i sinkronizacija; ako uređaj ključ ne dobije sam preko tvog iCloud privjeska ključeva, aplikacija jednom traži tvoj ključ za oporavak. Inače na starom uređaju izradi sigurnosnu kopiju i vrati je na novom. Mjesta i postavke pripadaju pojedinom uređaju – ne sinkroniziraju se niti se spremaju u kopije."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "privacy",
+        "title": "Privatnost i sigurnost",
+        "items": [
+          {
+            "id": "data-location",
+            "q": "Gdje se spremaju moji podaci?",
+            "a": [
+              "Ondje gdje odabereš: u Postavkama pod Podaci i sinkronizacija biraš između „Samo na ovom uređaju”, svog privatnog iClouda, gdje ih šifrira Apple, i LaCodea ID-a, gdje su potpuno šifrirani – ni na jednom od tih mjesta ne možemo čitati tvoje unose. Sigurnosne kopije nalaze se ondje kamo ih spremaju tvoji planovi; bez lozinke može ih čitati svatko tko ima pristup tom mjestu. Ako uz Pro uključiš „Unosi u Kalendaru”, završeni unosi pojavljuju se i kao događaji u tvom kalendaru – vidljivi njegovu pružatelju i svima s kojima ga dijeliš."
+            ]
+          },
+          {
+            "id": "lacodea-id-privacy",
+            "q": "Tko može čitati moje unose kad sinkroniziram preko LaCodea ID-a?",
+            "a": [
+              "Samo tvoji uređaji. SimpleTime na tvom uređaju šifrira zadatke, unose s njihovim vremenima i bilješkama, stalne termine, ciljeve i podsjetnike (AES-GCM s 256 bita) prije nego što odu na vlastiti poslužitelj aplikacije SimpleTime – ključ imaju samo tvoji uređaji, a ne mi. Poslužitelj vidi samo koliko zapisa koje vrste postoji, otprilike koliko su veliki, kada su zapisani i jesu li obrisani; nalazi se u podatkovnom centru u Frankfurtu na Majni. Pojedinosti su u našim [pravilima privatnosti](@privacy)."
+            ]
+          },
+          {
+            "id": "tracking-me",
+            "q": "Prati li me SimpleTime?",
+            "a": [
+              "Ne. SimpleTime ne prikazuje oglase, ne prodaje podatke, ne stvara korisničke profile i ne prati te kroz druge aplikacije i web-stranice. Kako bismo brzo pronašli pogreške, aplikacija šalje anonimna izvješća o rušenju i statistiku korištenja na naš vlastiti poslužitelj – bez ID-a uređaja i nikad s tvojim zadacima, vremenima ili bilješkama. To možeš isključiti pod Postavke › Privatnost › Pregled i dopuštenja. Pojedinosti su u našim [pravilima privatnosti](@privacy)."
+            ]
+          },
+          {
+            "id": "permissions",
+            "q": "Koja dopuštenja traži SimpleTime?",
+            "a": [
+              "Samo ono što neka funkcija treba, i tek kad je koristiš: obavijesti za podsjetnike i dojave mjesta, lokaciju za mjesta, kalendare za „Unosi u Kalendaru”, dodavanje fotografija za spremanje slika te Face ID ili Touch ID za zaključavanje aplikacije. U Postavkama pod Privatnost › Pregled i dopuštenja vidiš svako od njih s trenutačnim stanjem."
+            ]
+          },
+          {
+            "id": "location",
+            "q": "Zašto SimpleTime traži moju lokaciju?",
+            "a": [
+              "Samo za mjesta, koja su dio SimpleTime Pro: da bi se zadatak mogao pokrenuti kad negdje stigneš. iOS nadzire područja koja odrediš i javlja aplikaciji kad stigneš ili odeš. Tvoja mjesta ostaju na tvom uređaju, a SimpleTime ne vodi evidenciju o tvojim kretanjima. Bez mjesta SimpleTime ne treba tvoju lokaciju."
+            ]
+          },
+          {
+            "id": "app-lock",
+            "q": "Kako funkcionira zaključavanje aplikacije?",
+            "a": [
+              "Pod Postavke › Zaključavanje aplikacije biraš otvara li se SimpleTime s Face ID-jem ili Touch ID-jem i šifrom uređaja ili s vlastitim kôdom – znamenkama ili lozinkom. U izmjenjivaču aplikacija SimpleTime ostaje skriven, a nazivi zadataka više se ne pojavljuju u pretraživanju na iPhoneu ni na ikoni aplikacije; pod „Izvan aplikacije” biraš što prikazuju obavijesti, widgeti i Apple Watch. Za slučaj da zaboraviš vlastiti kôd, unaprijed možeš uključiti „Resetiraj zaboravljeni kôd šifrom uređaja” ili postaviti lozinku za nuždu. Bez jednog i drugog jedini put natrag jest brisanje i ponovna instalacija aplikacije – a sve što je bilo samo na ovom uređaju, bez sigurnosne kopije je izgubljeno."
+            ]
+          },
+          {
+            "id": "security-overview",
+            "q": "Što prikazuje stranica „Sigurnost”?",
+            "a": [
+              "Pod Postavke › Sigurnost › Pregled na prvi pogled vidiš koliko su dobro zaštićeni tvoji podaci: šifra uređaja, zaključavanje aplikacije, automatske i šifrirane sigurnosne kopije i gdje su tvoji podaci – uz LaCodea ID i potpuno šifriranje i tvoj ključ za oporavak. Ono što još nedostaje navedeno je pod „Preporučeno”; svaka stavka objašnjava kako te štiti i, gdje je potrebno, vodi te do prave postavke."
+            ]
+          },
+          {
+            "id": "delete-all",
+            "q": "Kako obrisati sve svoje podatke?",
+            "a": [
+              "U Postavkama pod Privatnost › Obriši sve podatke uklanjaš sve odjednom – unose i zadatke, ciljeve, mjesta, smeće, podsjetnike, kopije tvojih planova i stare kopije na iCloud Driveu, izvoze, postavke zajedno s kôdom zaključavanja aplikacije te događaje koje je SimpleTime dodao u tvoj kalendar.",
+              "Briše se na ovom uređaju, u iCloudu i – ako sinkroniziraš preko LaCodea ID-a – na poslužitelju; preko iClouda brisanje stiže i do tvojih ostalih uređaja čim budu na mreži. Ako sinkroniziraš preko LaCodea ID-a, tvoji ostali uređaji zadržavaju svoje podatke i prestaju se sinkronizirati dok ondje ponovno ne postaviš sinkronizaciju – i ondje ih obriši na isti način –, a tvoj račun LaCodea ID ostaje. To se ne može poništiti."
+            ]
+          },
+          {
+            "id": "delete-app",
+            "q": "Što se događa ako obrišem SimpleTime?",
+            "a": [
+              "Tada nestaje sve što je bilo samo na ovom uređaju: tvoji unosi ako je odabrano „Samo na ovom uređaju”, kopije plana „Samo na ovom uređaju”, tvoja mjesta i tvoje postavke zajedno sa zaključavanjem aplikacije. Ono što je u iCloudu ili u LaCodea ID-u ostaje ondje i vraća se nakon ponovne instalacije čim pod Podaci i sinkronizacija ponovno koristiš isto mjesto spremanja.",
+              "Kopije na iCloud Driveu, u mapi u aplikaciji Datoteke ili na tvom poslužitelju ostaju, kao i događaji u tvom kalendaru; za šifriranu kopiju tada ti treba njezina lozinka. Pretplata traje dok je ne otkažeš, a tvoj LaCodea ID ostaje. Ako želiš najprije sve ukloniti, upotrijebi Postavke › Privatnost › Obriši sve podatke."
+            ]
+          },
+          {
+            "id": "lacodea-id-delete",
+            "q": "Kako se odjaviti ili obrisati svoj LaCodea ID?",
+            "a": [
+              "Dodirni svoj LaCodea ID na samom vrhu Postavki: „Odjava” te odjavljuje iz svih LaCodea aplikacija na ovom uređaju – tvoji podaci ostaju ovdje i ponovno se sinkroniziraju čim se prijaviš. „Odspoji aplikaciju SimpleTime” odvaja samo SimpleTime od tvog računa; „Obriši LaCodea ID” briše račun za sve LaCodea aplikacije – to možeš učiniti i na account.lacodea.com. I kod odspajanja i kod brisanja poslužitelj aplikacije SimpleTime ondje briše tvoje sinkronizirane podatke; ono što je na tvojim uređajima ili u iCloudu, ostaje. Pretplata preko Applea traje dok je ne otkažeš u postavkama svog uređaja."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "pro",
+        "title": "SimpleTime Pro",
+        "items": [
+          {
+            "id": "pro-includes",
+            "q": "Što uključuje SimpleTime Pro?",
+            "a": [
+              "Aplikaciju za Apple Watch, osvrte na tvoj tjedan, mjesec i godinu, mjesta, tvoje unose kao događaje u kalendaru i zadatke iz tvojih kalendara, godinu na prvi pogled, ciljeve, filtar fokusa, widget za brzi početak, sedam boja naglaska ili jednu tvoju, šest fontova, šesnaest ikona aplikacije i dodatne odjeljke u PDF izvještaju. Aplikaciji za sat treba iPhone; mjesta i ikone aplikacije postoje na iPhoneu i iPadu. Sve što dođe kasnije, uključeno je. [Sve o SimpleTime Pro](@pro)"
+            ]
+          },
+          {
+            "id": "pro-price",
+            "q": "Koliko košta SimpleTime Pro?",
+            "a": [
+              "Pro je dostupan mjesečno, godišnje ili kao jednokratna kupnja „Zauvijek”. Cijene ovise o tvojoj zemlji i valuti i prikazuju se u aplikaciji prije kupnje."
+            ]
+          },
+          {
+            "id": "trial",
+            "q": "Mogu li najprije isprobati Pro?",
+            "a": [
+              "Da. Novi pretplatnici mogu mjesečnu ili godišnju pretplatu tjedan dana isprobati besplatno; aplikacija pokazuje vrijedi li probno razdoblje za tebe. Ako pretplatu ne otkažeš najmanje 24 sata prije kraja probnog razdoblja, ona se obnavlja po prikazanoj cijeni."
+            ]
+          },
+          {
+            "id": "family",
+            "q": "Može li i moja obitelj koristiti Pro?",
+            "a": [
+              "Da. SimpleTime Pro podržava Dijeljenje s obitelji – jedna kupnja za do šest osoba."
+            ]
+          },
+          {
+            "id": "restore-purchase",
+            "q": "Kako dobiti kupljeni Pro na ostalim uređajima?",
+            "a": [
+              "Pro pripada tvom Apple računu: na tvojim ostalim uređajima s istim računom obično se otključava sam. Ako ne, ondje pod Postavke › SimpleTime Pro dodirni „Obnovi kupnje”.",
+              "Na uređaju s drugim Apple računom Pro dobivaš preko LaCodea ID-a: prijavi se na oba uređaja istim LaCodea ID-om. Ako je Pro kupljen prije prijave, prijavi se svojim LaCodea ID-om i na uređaju s Apple računom kojim je kupnja obavljena – odande SimpleTime javlja kupnju tvom računu. Stranica Pro tada prikazuje „Putem tvog računa LaCodea ID”, a kod pretplate i gdje je sklopljena – samo se ondje može promijeniti."
+            ]
+          },
+          {
+            "id": "cancel",
+            "q": "Kako otkazati pretplatu?",
+            "a": [
+              "U postavkama App Storea – na iPhoneu pod Postavke › tvoje ime › Pretplate – ili u aplikaciji na stranici Pro pod „Upravljaj pretplatom”. To ide samo na uređaju s Apple računom kojim je pretplata sklopljena; ako imaš Pro preko svog LaCodea ID-a, stranica Pro navodi te uređaje. Pro ostaje aktivan do kraja već plaćenog razdoblja, a ni brisanje tvog LaCodea ID-a ne završava pretplatu."
+            ]
+          },
+          {
+            "id": "lifetime-switch",
+            "q": "Imam pretplatu – mogu li prijeći na „Zauvijek”?",
+            "a": [
+              "Da, izravno na stranici Pro. Apple pritom ne završava pretplatu sam: otkaži je nakon toga kako se ne bi obnovila. Aplikacija te na to podsjeća."
+            ]
+          },
+          {
+            "id": "pro-ends",
+            "q": "Što se događa kad Pro istekne?",
+            "a": [
+              "Ništa se ne gubi. Tvoji unosi, ciljevi i mjesta ostaju spremljeni. Pro mogućnosti ponovno se zaključavaju – mjesta, na primjer, više ne pokreću zadatke – a sve se vraća čim Pro ponovno postane aktivan."
+            ]
+          },
+          {
+            "id": "pro-offline",
+            "q": "Treba li Pro internetsku vezu?",
+            "a": [
+              "Ne. SimpleTime provjerava tvoju kupnju u App Storeu – a ako je prijavljen LaCodea ID, i na tvom računu – kad god može. Bez veze Pro radi dalje – do dva tjedna bez kontakta."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "watch-places",
+        "title": "Apple Watch i mjesta",
+        "items": [
+          {
+            "id": "watch-setup",
+            "q": "Kako postaviti aplikaciju za Apple Watch?",
+            "a": [
+              "Aplikacija za Apple Watch dio je SimpleTime Pro. Instaliraj je na sat, a zatim jednom otvori SimpleTime na iPhoneu – nakon nekoliko sekundi sat prikazuje tvoje zadatke. iPhone ostaje izvor: sve što sat pokrene mjeri se ondje, s istom aktivnošću uživo i istim widgetima."
+            ]
+          },
+          {
+            "id": "watch-features",
+            "q": "Što mogu raditi na Apple Watchu?",
+            "a": [
+              "Pokreni i zaustavi na zapešću – favorite, nedavno korišteno ili bilo koji zadatak preko pretraživanja. Pokreni ranije: prije 5, 15, 30 ili 60 minuta ili bez prekida od kraja zadnjeg unosa. Zaustavi dvostrukim dodirom. Dan, tjedan i ciljevi na jedan pogled, s vremenom koje teče na brojčaniku i u Pametnom stogu. Ako je iPhone izvan dosega, tvoji se dodiri pamte s vremenom i kasnije prenose."
+            ]
+          },
+          {
+            "id": "places-how",
+            "q": "Kako funkcioniraju mjesta?",
+            "a": [
+              "Dodaj mjesto – na primjer svoj ured ili teretanu – s polumjerom od 50 m do 10 km i odaberi zadatak. Kad stigneš, zadatak se pokreće sam ili SimpleTime najprije pita. S vremenom čekanja ništa se ne pokreće kad samo prolaziš. Pri odlasku zadatak se može zaustaviti, a mjesto možeš ograničiti na određene dane i sate."
+            ]
+          },
+          {
+            "id": "places-late",
+            "q": "Zašto se zadatak na mjestu pokreće kasno ili se uopće ne pokreće?",
+            "a": [
+              "Mjesta trebaju pristup lokaciji „Uvijek” i uključenu opciju „Precizna lokacija”. Ispod 100 m iOS tvoj dolazak često primijeti kasno, jer se lokacija u pozadini obično određuje iz Wi-Fi i mobilne mreže, a ne iz GPS-a – pomaže veći polumjer. iOS nadzire najviše 20 mjesta po aplikaciji, a na Macu mjesta ne postoje."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "more",
+        "title": "Ostalo",
+        "items": [
+          {
+            "id": "look",
+            "q": "Mogu li promijeniti izgled aplikacije SimpleTime?",
+            "a": [
+              "Da: svijetli, tamni ili izgled prema sustavu, tri visine retka za popis zadataka te pod Postavke › Font vlastita veličina teksta i podebljani tekst. Uz SimpleTime Pro dobivaš i sedam boja naglaska ili jednu svoju – ona prolazi kroz tipke, prekidače i dijagrame –, šest fontova i, na iPhoneu i iPadu, šesnaest ikona aplikacije."
+            ]
+          },
+          {
+            "id": "accessibility",
+            "q": "Je li SimpleTime pristupačan?",
+            "a": [
+              "Da. VoiceOver čita tipke, dijagrame i vremensku crtu na svakom jeziku aplikacije, a dijagrami postoje i kao audiograf. Tekst prati veličinu teksta postavljenu u iOS-u sve do najvećih stupnjeva – samo u zaglavlju i na vremenskoj crti raste do određene granice, kako ništa ne bi prekrilo kontrole. Više o tome piše u našoj [izjavi o pristupačnosti](@accessibility); ako ti nešto ne radi, javi nam."
+            ]
+          },
+          {
+            "id": "freelance",
+            "q": "Je li SimpleTime prikladan za slobodnjake?",
+            "a": [
+              "Za bilježenje vremena – da: razdvoji klijente i projekte kao zadatke i podzadatke i izvezi PDF izvještaj ili CSV datoteku kad god ti zatreba evidencija. Satnice i računi nisu dio aplikacije SimpleTime – za njih izvoz prenesi u svoj program za izdavanje računa."
+            ]
+          },
+          {
+            "id": "platforms",
+            "q": "Postoji li verzija za Android, Windows ili web?",
+            "a": [
+              "Ne. SimpleTime je napravljen za iPhone, iPad, Mac i Apple Watch. Svoje podatke možeš bilo kada izvesti kao CSV."
+            ]
+          },
+          {
+            "id": "account-web",
+            "q": "Što mogu raditi na account.lacodea.com?",
+            "a": [
+              "Ondje u pregledniku upravljaš svojim LaCodea ID-om: načinima prijave, pretplatama, preuzimanjem podataka računa i brisanjem računa – u aplikaciji SimpleTime isti račun nalaziš na samom vrhu Postavki. Svoje unose ondje nećeš vidjeti: postoje samo u aplikaciji SimpleTime na iPhoneu, iPadu, Macu i Apple Watchu. Ako sinkroniziraš preko LaCodea ID-a, potpuno su šifrirani na poslužitelju aplikacije SimpleTime – sam LaCodea ID ih nikad ne dobiva."
+            ]
+          },
+          {
+            "id": "feedback",
+            "q": "Kamo poslati prijavu pogreške ili ideju?",
+            "a": [
+              "Piši nam na [contact@simple-time.app](mailto:contact@simple-time.app) – iz aplikacije to ide i preko Postavke › Povratna informacija. Kod pogreške navedi model uređaja, verziju iOS-a, iPadOS-a ili macOS-a i verziju aplikacije SimpleTime – nalaziš je pod Postavke › O aplikaciji SimpleTime – i ukratko opiši kako je došlo do pogreške. Svaku poruku pročitamo."
+            ]
+          },
+          {
+            "id": "support-us",
+            "q": "Kako mogu podržati SimpleTime?",
+            "a": [
+              "SimpleTime radi jedan čovjek. Pomaže ocjena u App Storeu, pomaže i kad drugima preporučiš aplikaciju – a SimpleTime Pro omogućuje daljnji razvoj."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

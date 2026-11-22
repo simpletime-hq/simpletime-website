@@ -86,6 +86,14 @@ const TASK_NAMES: Record<Lang, Record<TaskKey, string>> = {
   hi: { work: 'काम', client: 'क्लाइंट प्रोजेक्ट', meetings: 'मीटिंग', study: 'पढ़ाई', sport: 'व्यायाम', reading: 'पठन', admin: 'कामकाज और ईमेल', social: 'सोशल मीडिया' },
   zh: { work: '工作', client: '客户项目', meetings: '会议', study: '学习', sport: '运动', reading: '阅读', admin: '事务与邮件', social: '社交媒体' },
   ja: { work: '仕事', client: 'クライアント案件', meetings: '打ち合わせ', study: '勉強', sport: '運動', reading: '読書', admin: '事務とメール', social: 'SNS' },
+  nb: { work: 'Arbeid', client: 'Kundeprosjekt', meetings: 'Møter', study: 'Studier', sport: 'Trening', reading: 'Lesing', admin: 'Admin og e-post', social: 'Sosiale medier' },
+  da: { work: 'Arbejde', client: 'Kundeprojekt', meetings: 'Møder', study: 'Studier', sport: 'Træning', reading: 'Læsning', admin: 'Admin og e-mail', social: 'Sociale medier' },
+  hu: { work: 'Munka', client: 'Ügyfélprojekt', meetings: 'Megbeszélések', study: 'Tanulás', sport: 'Sport', reading: 'Olvasás', admin: 'Ügyintézés és e-mail', social: 'Közösségi média' },
+  cs: { work: 'Práce', client: 'Klientský projekt', meetings: 'Schůzky', study: 'Studium', sport: 'Sport', reading: 'Čtení', admin: 'Administrativa a e-mail', social: 'Sociální sítě' },
+  hr: { work: 'Posao', client: 'Klijentski projekt', meetings: 'Sastanci', study: 'Učenje', sport: 'Sport', reading: 'Čitanje', admin: 'Administracija i e-pošta', social: 'Društvene mreže' },
+  ro: { work: 'Muncă', client: 'Proiect client', meetings: 'Ședințe', study: 'Studiu', sport: 'Sport', reading: 'Lectură', admin: 'Administrare și e-mail', social: 'Rețele sociale' },
+  pl: { work: 'Praca', client: 'Projekt klienta', meetings: 'Spotkania', study: 'Nauka', sport: 'Sport', reading: 'Czytanie', admin: 'Sprawy i e-mail', social: 'Social media' },
+  fi: { work: 'Työ', client: 'Asiakasprojekti', meetings: 'Palaverit', study: 'Opiskelu', sport: 'Liikunta', reading: 'Lukeminen', admin: 'Hallinto ja sähköposti', social: 'Sosiaalinen media' },
 };
 
 // The build stops rather than a page showing an empty legend entry.

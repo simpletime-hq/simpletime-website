@@ -33,6 +33,14 @@ export const PLACE_NOTICE: Record<Lang, { place: string; started: string }> = {
   ro: { place: 'Birou', started: '„%1$@” e în curs de la %2$@.' },
   pl: { place: 'Biuro', started: '„%1$@” trwa od %2$@.' },
   fi: { place: 'Toimisto', started: '%1$@ on käynnissä klo %2$@ alkaen.' },
+  fil: { place: 'Opisina', started: 'Tumatakbo ang “%1$@” mula %2$@.' },
+  sr: { place: 'Канцеларија', started: '„%1$@“ тече од %2$@.' },
+  vi: { place: 'Văn phòng', started: '“%1$@” đang chạy từ %2$@.' },
+  'zh-hant': { place: '辦公室', started: '「%1$@」自 %2$@ 起進行中。' },
+  id: { place: 'Kantor', started: '“%1$@” berjalan sejak pukul %2$@.' },
+  ko: { place: '사무실', started: '「%1$@」 %2$@부터 기록 중입니다.' },
+  bg: { place: 'Офис', started: '„%1$@“ тече от %2$@.' },
+  th: { place: 'ที่ทำงาน', started: 'กำลังจับเวลา “%1$@” ตั้งแต่ %2$@' },
 };
 
 export const placeNotice = (lang: Lang, task: string, time: string) => {

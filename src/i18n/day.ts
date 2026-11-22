@@ -94,6 +94,14 @@ const TASK_NAMES: Record<Lang, Record<TaskKey, string>> = {
   ro: { work: 'Muncă', client: 'Proiect client', meetings: 'Ședințe', study: 'Studiu', sport: 'Sport', reading: 'Lectură', admin: 'Administrare și e-mail', social: 'Rețele sociale' },
   pl: { work: 'Praca', client: 'Projekt klienta', meetings: 'Spotkania', study: 'Nauka', sport: 'Sport', reading: 'Czytanie', admin: 'Sprawy i e-mail', social: 'Social media' },
   fi: { work: 'Työ', client: 'Asiakasprojekti', meetings: 'Palaverit', study: 'Opiskelu', sport: 'Liikunta', reading: 'Lukeminen', admin: 'Hallinto ja sähköposti', social: 'Sosiaalinen media' },
+  fil: { work: 'Trabaho', client: 'Proyekto ng kliyente', meetings: 'Mga pulong', study: 'Pag-aaral', sport: 'Ehersisyo', reading: 'Pagbabasa', admin: 'Admin at email', social: 'Social media' },
+  sr: { work: 'Посао', client: 'Клијентски пројекат', meetings: 'Састанци', study: 'Учење', sport: 'Тренинг', reading: 'Читање', admin: 'Администрација и имејл', social: 'Друштвене мреже' },
+  vi: { work: 'Công việc', client: 'Dự án khách hàng', meetings: 'Họp', study: 'Học', sport: 'Thể thao', reading: 'Đọc sách', admin: 'Hành chính và email', social: 'Mạng xã hội' },
+  'zh-hant': { work: '工作', client: '客戶專案', meetings: '會議', study: '學習', sport: '運動', reading: '閱讀', admin: '行政與郵件', social: '社群媒體' },
+  id: { work: 'Kerja', client: 'Proyek klien', meetings: 'Rapat', study: 'Belajar', sport: 'Olahraga', reading: 'Membaca', admin: 'Administrasi dan email', social: 'Media sosial' },
+  ko: { work: '업무', client: '클라이언트 프로젝트', meetings: '회의', study: '공부', sport: '운동', reading: '독서', admin: '사무와 이메일', social: '소셜 미디어' },
+  bg: { work: 'Работа', client: 'Клиентски проект', meetings: 'Срещи', study: 'Учене', sport: 'Тренировка', reading: 'Четене', admin: 'Администрация и имейл', social: 'Социални мрежи' },
+  th: { work: 'งาน', client: 'โปรเจกต์ลูกค้า', meetings: 'ประชุม', study: 'เรียน', sport: 'ออกกำลังกาย', reading: 'อ่านหนังสือ', admin: 'งานเอกสารและอีเมล', social: 'โซเชียลมีเดีย' },
 };
 
 // The build stops rather than a page showing an empty legend entry.

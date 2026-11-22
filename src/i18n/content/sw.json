@@ -1,0 +1,950 @@
+{
+  "store": {
+    "lead": "SimpleTime hupima muda wako na kukuonyesha unakokwenda. Mguso mmoja huanzisha, mguso mmoja husimamisha.",
+    "promise": "Akaunti haihitajiki, hakuna matangazo. Muda wako uliopimwa unabaki kwenye kifaa chako – na kwenye iCloud yako au kwa LaCodea ID, ukipenda.",
+    "sections": [
+      {
+        "id": "tracking",
+        "title": "Upimaji",
+        "points": [
+          "Mguso mmoja huanzisha na kusimamisha – ndani ya programu, kwenye Skrini ya Mwanzo, kwenye Kituo cha Udhibiti, kwenye utafutaji wa iPhone au kwa Siri",
+          "Nyakati za kudumu: weka ratiba ya madarasa au zamu mara moja – SimpleTime huiingiza yenyewe kila wiki",
+          "Kazi zenye kazi ndogo, kwa ngazi nyingi kadiri shughuli zako zinavyohitaji",
+          "Umesahau kuanzisha? Ongeza muda baadaye na uubadilishe wakati wowote",
+          "Rangi, alama, vipendwa na mpangilio unaouchagua mwenyewe"
+        ]
+      },
+      {
+        "id": "day",
+        "title": "Siku yako",
+        "points": [
+          "Orodha au mstari wa muda kutoka 0 hadi 24, pamoja na kiashiria cha saa ya sasa",
+          "Madokezo kwenye kumbukumbu yoyote",
+          "Ulinganisho wa leo na jana, juu kabisa"
+        ]
+      },
+      {
+        "id": "insights",
+        "title": "Uchambuzi",
+        "points": [
+          "Chati za duara kwa kazi na kwa tija",
+          "Siku, wiki, mwezi, mwaka",
+          "Takwimu: ulinganisho na kipindi kilichopita, mwelekeo, mtawanyiko wa mchana, kumbukumbu ndefu zaidi na fupi zaidi",
+          "Kila kazi na namba zake – kumbukumbu ya kwanza, ndefu zaidi, wiki hii, mwaka huu",
+          "Shiriki chati yoyote kama picha"
+        ]
+      },
+      {
+        "id": "reports",
+        "title": "Ripoti na uhamishaji",
+        "points": [
+          "Ripoti ya PDF ambayo sehemu zake unazichagua na kuzipanga mwenyewe",
+          "CSV kwa Excel na Numbers",
+          "Mipango ya nakala rudufu: kiotomatiki kwenye iCloud Drive, kwenye folda katika programu ya Faili kama Dropbox au Google Drive, kwenye seva yako mwenyewe au kwenye kifaa – zikiwa zimesimbwa kwa nenosiri, ukipenda"
+        ]
+      },
+      {
+        "id": "widgets",
+        "title": "Wijeti na Siri",
+        "points": [
+          "Leo, kazi inayoendelea na wiki kwenye Skrini yako ya Mwanzo",
+          "Muda unaoendelea kwenye Skrini iliyofungwa na kwenye Dynamic Island",
+          "Swichi kwenye Kituo cha Udhibiti inayoanzisha na kusimamisha upimaji",
+          "Siri na Njia za Mkato: anzisha, simamisha au uliza kinachoendelea"
+        ]
+      },
+      {
+        "id": "devices",
+        "title": "Kwenye kila kifaa",
+        "points": [
+          "iPhone, iPad na Mac, zikisawazishwa kupitia iCloud au LaCodea ID",
+          "Lugha 41 – bila kutegemea lugha ya kifaa chako",
+          "VoiceOver na Dynamic Type kwenye programu nzima"
+        ]
+      },
+      {
+        "id": "data",
+        "title": "Data yako",
+        "points": [
+          "Kufunga programu kwa Face ID, Touch ID au msimbo wako mwenyewe",
+          "Unachagua data yako ikae wapi: kwenye kifaa hiki pekee, kwenye iCloud yako au ikiwa imesimbwa fiche mwanzo hadi mwisho kwa LaCodea ID",
+          "Faragha kwenye ukurasa mmoja: kila ruhusa na data yako yote kwa mtazamo mmoja",
+          "Ukipenda, LaCodea ID, akaunti moja kwa programu zote za LaCodea – SimpleTime inafanya kazi pia bila hiyo",
+          "Hakuna matangazo, data yako haiuzwi – bila akaunti, tunapokea tu ripoti za hitilafu na takwimu za matumizi bila kutambulisha mtu, na unaweza kuzizima",
+          "Futa kila kitu kwa mpigo – kwenye kifaa, kwenye iCloud na kwenye nakala rudufu"
+        ]
+      }
+    ],
+    "pro": {
+      "title": "SimpleTime Pro",
+      "intro": "Kila kitu kilicho hapo juu kinabaki bure. Pro huongeza:",
+      "points": [
+        "Apple Watch: anzisha na simamisha kwenye kifundo cha mkono, anza mapema, fuatilia siku, wiki na malengo yako – pamoja na muda unaoendelea kwenye uso wa saa",
+        "Mapitio: wiki, mwezi na mwaka wako kama kadi – za kupitia na kushiriki",
+        "Maeneo: kazi huanza zenyewe unapofika – baada ya muda wa kusubiri, ukipenda",
+        "Kalenda: kila kumbukumbu kama tukio kwenye kalenda yako – pamoja na kazi kutoka kwa kalenda zako kama “Ofisini” au “Familia”",
+        "Mwaka kwa mtazamo mmoja: kila siku ya mwaka kama picha moja, pamoja na mifululizo yako",
+        "Malengo kwa kila kazi – kwa siku, wiki au mwezi",
+        "Kichujio cha Focus: Focus yako ya kazi inawaka, orodha inaonyesha kazi pekee, na saa tayari inakwenda",
+        "Wijeti ya anzo la haraka unayoijaza mwenyewe",
+        "Rangi saba za msisitizo au yako mwenyewe, fonti sita na aikoni kumi na sita za programu",
+        "Sehemu za ziada kwenye ripoti ya PDF: mwelekeo, mtawanyiko wa mchana, ulinganisho, malengo"
+      ],
+      "pricing": "Pro inapatikana kwa usajili wa kila mwezi au wa kila mwaka, au kwa malipo ya mara moja yanayodumu milele. Wanaojisajili kwa mara ya kwanza hupata wiki moja bure, na kwa Kushiriki na Familia hadi watu sita wanaweza kutumia Pro. Bei zinaonyeshwa ndani ya programu. Usajili wa kila mwezi na wa kila mwaka hujifanya upya kiotomatiki hadi utakapoughairi, jambo unaloweza kufanya wakati wowote kwenye mipangilio yako ya App Store. Chochote kitakachokuja baadaye kimejumuishwa."
+    },
+    "closing": "Imetengenezwa kwa ajili ya yeyote anayetaka kujua muda wake unakwenda wapi hasa – kazini, chuoni, mazoezini au kwa ajili yake mwenyewe."
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Upimaji wa muda kwa iPhone, iPad na Mac",
+      "titleLead": "Mguso mmoja",
+      "titleAccent": "unaanzisha saa.",
+      "cta": "Tazama vipengele",
+      "proof": [
+        "Kupakua ni bure",
+        "Bila akaunti",
+        "Bila matangazo, data haiuzwi"
+      ]
+    },
+    "tour": {
+      "tracking": "Anzisha popote ulipo."
+    },
+    "devices": {
+      "title": "Kwenye kila kifaa unachotumia.",
+      "subtitle": "iPhone, iPad na Mac zinasawazishwa kupitia iCloud au LaCodea ID – na saa inaendelea kwenda kwenye Skrini iliyofungwa, kwenye Dynamic Island na kwenye kifundo cha mkono wako."
+    },
+    "showcase": [
+      {
+        "id": "day",
+        "title": "Siku yako nzima kwa mtazamo mmoja."
+      },
+      {
+        "id": "insights",
+        "title": "Ona muda wako unakwenda wapi hasa."
+      },
+      {
+        "id": "reports",
+        "title": "Ripoti ndani ya sekunde chache."
+      }
+    ],
+    "features": {
+      "title": "Kila unachohitaji. Bure.",
+      "subtitle": "Kila kipengele kwenye orodha hii ni sehemu ya programu ya bure."
+    },
+    "pro": {
+      "button": "Yote kuhusu SimpleTime Pro"
+    },
+    "audience": {
+      "title": "Kwa yeyote anayetaka kujua muda wake unakwenda wapi.",
+      "subtitle": "Kazini, chuoni, mazoezini – au kwa ajili yako tu.",
+      "groups": [
+        {
+          "id": "work",
+          "title": "Ajira na kujiajiri",
+          "body": "Tenganisha wateja na miradi kama kazi na kazi ndogo, na uhamishe rekodi safi kila unapoihitaji."
+        },
+        {
+          "id": "study",
+          "title": "Masomo na kujifunza",
+          "body": "Ona somo linachukua muda kiasi gani hasa, na upange wiki ijayo kwa namba halisi."
+        },
+        {
+          "id": "training",
+          "title": "Mazoezi na mazoea",
+          "body": "Pima vipindi vya mazoezi, muda wa kujizoeza au usingizi, na uone mwendelezo ukijengeka wiki baada ya wiki."
+        },
+        {
+          "id": "everyday",
+          "title": "Maisha ya kila siku",
+          "body": "Gundua saa zako zinakwenda wapi hasa – na uamue mwenyewe unachotaka kubadilisha."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Maswali na majibu.",
+      "subtitle": "Majibu muhimu zaidi kwa mtazamo mmoja – na mengine mengi kwenye ukurasa wa maswali.",
+      "button": "Maswali na majibu yote"
+    },
+    "cta": {
+      "title": "Uko tayari kuanza kupima?",
+      "subtitle": "Bure kwenye iPhone, iPad na Mac. Bila akaunti, bila matangazo, data yako haiuzwi.",
+      "note": "Programu ya Apple Watch ni sehemu ya SimpleTime Pro."
+    }
+  },
+  "shots": [
+    {
+      "id": "tracking",
+      "title": "Pima",
+      "caption": "Mguso mmoja unaanzisha saa",
+      "alt": "Kichupo cha Upimaji chenye kazi inayoendelea na vipendwa juu"
+    },
+    {
+      "id": "day",
+      "title": "Siku yako",
+      "caption": "Kila kumbukumbu, kwa usahihi wa sekunde",
+      "alt": "Mwonekano wa siku kama orodha ya kumbukumbu pamoja na nyakati zake"
+    },
+    {
+      "id": "timeline",
+      "title": "Mstari wa muda",
+      "caption": "Siku yako nzima kwa mtazamo mmoja",
+      "alt": "Mwonekano wa siku kama mstari wa muda kutoka 0 hadi 24"
+    },
+    {
+      "id": "chart",
+      "title": "Changanua",
+      "caption": "Saa zako zinakwenda wapi hasa",
+      "alt": "Wiki moja kama chati ya duara kwa kazi"
+    },
+    {
+      "id": "statistics",
+      "title": "Takwimu",
+      "caption": "Linganisha wiki na uone mwelekeo",
+      "alt": "Takwimu zinazolinganisha wiki hii na iliyotangulia"
+    },
+    {
+      "id": "report",
+      "title": "Ripoti",
+      "caption": "PDF ya kina yenye kila kazi",
+      "alt": "Ukurasa wa ripoti ya PDF wenye kila kazi"
+    },
+    {
+      "id": "pro",
+      "title": "Pata Pro",
+      "caption": "Malengo, mwaka wako, rangi zako mwenyewe",
+      "alt": "Ukurasa wa SimpleTime Pro ndani ya programu"
+    }
+  ],
+  "pro": {
+    "eyebrow": "SimpleTime Pro",
+    "title": "Pata zaidi kutoka kwa muda unaopima.",
+    "subtitle": "SimpleTime inabaki bure – kila inachoweza kufanya bila Pro kinabaki hivyo. Pro huongeza Apple Watch yako, maeneo yanayoanzisha kazi yenyewe, mapitio ya wiki, mwezi na mwaka wako, malengo na zaidi.",
+    "featuresTitle": "Pro huongeza nini",
+    "features": [
+      {
+        "id": "watch",
+        "title": "Apple Watch",
+        "body": "Anzisha na simamisha kwenye kifundo cha mkono, anza mapema, fuatilia siku, wiki na malengo yako – pamoja na muda unaoendelea kwenye uso wa saa."
+      },
+      {
+        "id": "reviews",
+        "title": "Mapitio",
+        "body": "Wiki, mwezi na mwaka wako kama kadi – za kupitia na kushiriki."
+      },
+      {
+        "id": "places",
+        "title": "Maeneo",
+        "body": "Kazi huanza zenyewe unapofika – baada ya muda wa kusubiri, ukipenda, ili chochote kisianze unapopita tu."
+      },
+      {
+        "id": "calendar",
+        "title": "Kalenda",
+        "body": "Kila kumbukumbu kama tukio kwenye kalenda yako – pamoja na kazi kutoka kwa kalenda zako kama “Ofisini” au “Familia”."
+      },
+      {
+        "id": "year",
+        "title": "Mwaka kwa mtazamo mmoja",
+        "body": "Kila siku ya mwaka kama picha moja, pamoja na mfululizo wako wa sasa na mrefu zaidi."
+      },
+      {
+        "id": "goals",
+        "title": "Malengo",
+        "body": "Lengo moja kwa kila kazi – kwa siku, wiki au mwezi. Kazi ndogo huhesabiwa kwenye lengo."
+      },
+      {
+        "id": "focus",
+        "title": "Kichujio cha Focus",
+        "body": "Focus yako ya kazi inawaka, orodha inaonyesha kazi pekee – na upimaji unaweza kuanza na kuisha pamoja nayo."
+      },
+      {
+        "id": "widget",
+        "title": "Wijeti ya anzo la haraka",
+        "body": "Wewe unaamua ni kazi zipi ziwe juu yake. Mguso mmoja kwenye Skrini ya Mwanzo unazianzisha."
+      },
+      {
+        "id": "style",
+        "title": "Rangi, fonti na aikoni za programu",
+        "body": "Rangi saba za msisitizo au yako mwenyewe, inayopita kwenye programu nzima – pamoja na fonti sita na aikoni kumi na sita za programu."
+      },
+      {
+        "id": "report",
+        "title": "Zaidi kwenye ripoti ya PDF",
+        "body": "Mwelekeo, mtawanyiko wa mchana, ulinganisho na kipindi kilichopita, na malengo – kwa mpangilio unaouchagua."
+      },
+      {
+        "id": "future",
+        "title": "Kila kitakachokuja",
+        "body": "Chochote kitakachoongezwa baadaye kimejumuishwa – bila ununuzi wa ziada."
+      }
+    ],
+    "plansTitle": "Njia tatu za kupata Pro",
+    "plansSubtitle": "Bei hutegemea nchi yako na huonyeshwa ndani ya programu kwa sarafu yako kabla ya kununua.",
+    "plans": [
+      {
+        "id": "monthly",
+        "title": "Kila mwezi",
+        "body": "Unatozwa kila mwezi. Unaweza kughairi wakati wowote."
+      },
+      {
+        "id": "yearly",
+        "title": "Kila mwaka",
+        "body": "Unatozwa mara moja kwa mwaka – programu inaonyesha unaokoa kiasi gani ukilinganisha na kulipa kila mwezi."
+      },
+      {
+        "id": "lifetime",
+        "title": "Milele",
+        "body": "Lipa mara moja na Pro iwe yako milele. Haiishi kamwe."
+      }
+    ],
+    "notes": [
+      "Wanaojisajili kwa mara ya kwanza wanaweza kujaribu Kila mwezi au Kila mwaka bure kwa wiki moja.",
+      "Kushiriki na Familia: ununuzi mmoja kwa hadi watu sita.",
+      "Chochote kitakachoongezwa baadaye kimejumuishwa – bila ununuzi wa ziada."
+    ],
+    "legal": "Usajili wa kila mwezi na wa kila mwaka hujifanya upya kiotomatiki hadi utakapoughairi. Unaweza kuughairi wakati wowote kwenye mipangilio ya App Store. Wa milele ni malipo ya mara moja na hauishi kamwe.",
+    "terms": "Masharti ya matumizi (EULA)",
+    "privacy": "Sera ya faragha",
+    "freeTitle": "Kinachobaki bure",
+    "freeBody": "Kila unachohitaji kwa upimaji: kazi na kazi ndogo, Nyakati za kudumu, mwonekano wa siku na mstari wa muda, chati na takwimu, ripoti ya PDF na uhamishaji wa CSV, wijeti, Shughuli ya Moja kwa Moja, Kituo cha Udhibiti na Siri, usawazishaji kupitia iCloud au LaCodea ID, mipango ya nakala rudufu na kufunga programu – kwa lugha 41 tofauti. Bila akaunti, bila matangazo, data yako haiuzwi.",
+    "howTitle": "Jinsi ya kupata Pro",
+    "how": [
+      "Katika SimpleTime, fungua Mipangilio › SimpleTime Pro.",
+      "Chagua Kila mwezi, Kila mwaka au Milele – unalipa kupitia Akaunti yako ya Apple.",
+      "Pro inafunguliwa mara moja, kwenye vifaa vyako vyote vyenye Akaunti ile ile ya Apple."
+    ],
+    "faqTitle": "Maswali kuhusu Pro",
+    "ctaTitle": "Anza bure.",
+    "ctaSubtitle": "Pakua SimpleTime – na ufungue Pro ndani ya programu wakati wowote unapotaka."
+  },
+  "faq": {
+    "title": "Maswali na majibu.",
+    "subtitle": "Kila kitu kuhusu SimpleTime – kuanzia mguso wa kwanza hadi SimpleTime Pro.",
+    "searchLabel": "Tafuta kwenye maswali",
+    "searchPlaceholder": "mf. “nakala rudufu” au “Apple Watch”",
+    "results": "Maswali yanayolingana: {count}",
+    "noResults": "Hakuna swali linalolingana na “{query}”.",
+    "noResultsHint": "Jaribu neno lingine – au [tuandikie](@contact).",
+    "topics": "Mada",
+    "moreTitle": "Bado una swali?",
+    "moreBody": "Tuandikie – kila ujumbe unasomwa na kujibiwa.",
+    "moreButton": "Mawasiliano",
+    "categories": [
+      {
+        "id": "basics",
+        "title": "Hatua za kwanza",
+        "items": [
+          {
+            "id": "what-is",
+            "q": "SimpleTime ni nini?",
+            "a": [
+              "SimpleTime ni programu ya kupima muda kwa iPhone, iPad na Mac. Mguso mmoja unaanzisha saa, mguso mmoja unaisimamisha. Kisha SimpleTime inakuonyesha muda wako unakwenda wapi – kama orodha ya siku au mstari wa muda, kwenye chati na takwimu, na kama ripoti ya PDF au faili ya CSV. Akaunti haihitajiki, hakuna matangazo, data yako haiuzwi."
+            ]
+          },
+          {
+            "id": "first-steps",
+            "q": "Ninaanzaje?",
+            "a": [
+              "Gusa + kwenye kichupo cha Upimaji ili kutengeneza kazi – yenye jina, rangi na alama. Gusa pembetatu iliyo kando yake na saa inaanza kwenda; gusa Simamisha ili kuimaliza. Unapofungua programu kwa mara ya kwanza, mwongozo mfupi unakuonyesha vitufe muhimu zaidi. Unaweza kuutazama tena wakati wowote kwenye Mipangilio › Onyesha mwongozo tena."
+            ]
+          },
+          {
+            "id": "free",
+            "q": "Je, SimpleTime ni bure?",
+            "a": [
+              "Ndiyo. Kupakua SimpleTime ni bure, na vivyo hivyo kila unachohitaji kwa upimaji: kazi na kazi ndogo, nyakati za kudumu, mwonekano wa siku, chati na takwimu, ripoti na uhamishaji, wijeti, usawazishaji kupitia iCloud au LaCodea ID, na nakala rudufu. SimpleTime Pro si lazima na huongeza programu ya Apple Watch, mapitio, maeneo, malengo na zaidi. [Yote kuhusu SimpleTime Pro](@pro)"
+            ]
+          },
+          {
+            "id": "account",
+            "q": "Je, ninahitaji akaunti?",
+            "a": [
+              "Hapana. Unafungua programu na kuanza – bila kujisajili. Ukitumia iCloud, usawazishaji hupitia Akaunti yako mwenyewe ya Apple, ambayo hatuioni kamwe. Ukipenda, unaweza kuingia kwa LaCodea ID, akaunti yetu kwa programu zote za LaCodea. Hapo tunahifadhi akaunti yako na manunuzi yako ya SimpleTime Pro – na kumbukumbu zako ikiwa tu utachagua LaCodea ID kama mahali pa kuhifadhi chini ya Data na usawazishaji, na hapo zikiwa zimesimbwa fiche mwanzo hadi mwisho."
+            ]
+          },
+          {
+            "id": "lacodea-id",
+            "q": "LaCodea ID ni nini?",
+            "a": [
+              "LaCodea ID ni akaunti yetu ya hiari kwa programu zote za LaCodea. Unaingia juu kabisa kwenye Mipangilio – kwa Apple, kwa ufunguo wa siri au kwa msimbo kupitia barua pepe. Ukiwa nayo, unaweza kusawazisha data yako kupitia LaCodea ID ikiwa imesimbwa fiche mwanzo hadi mwisho, na ununuzi wa SimpleTime Pro unatumika kwenye kila kifaa ambapo umeingia; hata hivyo, SimpleTime inafanya kazi vizuri bila hiyo."
+            ]
+          },
+          {
+            "id": "devices",
+            "q": "SimpleTime inafanya kazi kwenye vifaa gani?",
+            "a": [
+              "Kwenye iPhone na iPad zenye iOS 26 au iPadOS 26 au toleo jipya zaidi, na kwenye Mac zenye macOS 26 au toleo jipya zaidi. Programu ya Apple Watch ni sehemu ya SimpleTime Pro na inahitaji watchOS 26. Ukichagua iCloud au LaCodea ID kwenye Mipangilio › Data na usawazishaji, kumbukumbu zako zinasawazishwa kwenye vifaa vyote vyenye Akaunti ile ile ya Apple au LaCodea ID ile ile."
+            ]
+          },
+          {
+            "id": "mac",
+            "q": "SimpleTime inaweza kufanya nini kwenye Mac?",
+            "a": [
+              "Karibu kila kitu inachofanya kwenye iPhone – upimaji, mwonekano wa siku, uchambuzi, ripoti, uhamishaji, nakala rudufu, usawazishaji na kufunga programu; pale unapotelezesha kwenye iPhone, kwenye Mac unabofya kulia. Zaidi ya hayo, kuna saa ya kusimamisha kwenye upau wa menyu na wijeti kwenye eneo-kazi lako. Maeneo, Shughuli za Moja kwa Moja, programu ya Apple Watch na aikoni mbadala za programu hazipatikani kwenye Mac."
+            ]
+          },
+          {
+            "id": "languages",
+            "q": "SimpleTime inazungumza lugha gani?",
+            "a": [
+              "41 – kuanzia Kiingereza na Kijerumani hadi Kiarabu, Kihindi na Kijapani. Kwenye Mipangilio › Lugha, unaweza kuchagua lugha ya programu bila kutegemea lugha ya kifaa chako."
+            ]
+          },
+          {
+            "id": "offline",
+            "q": "Je, SimpleTime inafanya kazi bila intaneti?",
+            "a": [
+              "Ndiyo. Upimaji, mwonekano wa siku, chati na ripoti – vyote vinafanya kazi bila muunganisho. Muunganisho unahitajika kwa usawazishaji, nakala rudufu kwenye seva yako mwenyewe, kuingia kwa LaCodea ID, kununua Pro na kutafuta anwani ya eneo. Kilichobaki bila kufanyika, SimpleTime inakikamilisha baadaye – usawazishaji mara tu kifaa chako kinaporudi mtandaoni, na nakala rudufu iliyorukwa utakapofungua programu wakati ujao."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tracking",
+        "title": "Upimaji",
+        "items": [
+          {
+            "id": "start-stop",
+            "q": "Ninaanzishaje na kusimamisha upimaji?",
+            "a": [
+              "Gusa pembetatu iliyo kando ya kazi ili kuianzisha. Kazi inayoendelea inaonekana juu ya kichupo cha Upimaji; gusa Simamisha ili kuimaliza. Ukigusa jina la kazi, kazi zake ndogo zinafunguka; ukitelezesha kushoto, unaweza kuihariri, kuiweka kwenye kumbukumbu au kuifuta; na ukitelezesha kulia, unaona taarifa zake zenye namba zote – kwenye Mac, kubofya kulia kunatoa yote haya."
+            ]
+          },
+          {
+            "id": "one-at-a-time",
+            "q": "Je, kazi mbili zinaweza kuendelea kwa wakati mmoja?",
+            "a": [
+              "Hapana. Kumbukumbu moja tu huendelea kwa wakati mmoja: unapoanzisha kazi nyingine, kumbukumbu inayoendelea inaisha papo hapo – kwa hiyo kumbukumbu zako haziingiliani."
+            ]
+          },
+          {
+            "id": "keeps-running",
+            "q": "Je, saa inaendelea kwenda nikifunga SimpleTime?",
+            "a": [
+              "Ndiyo. SimpleTime inakumbuka ulipoanzisha na kuhesabu muda kuanzia hapo – upimaji unaendelea unapofunga programu, unapofunga skrini ya iPhone yako au kuiwasha upya. Kwenye Skrini iliyofungwa na kwenye Dynamic Island, Shughuli ya Moja kwa Moja inaonyesha muda unaoendelea, pamoja na kitufe cha kuusimamisha, na vikumbusho vyako vinafika hata programu ikiwa imefungwa."
+            ]
+          },
+          {
+            "id": "add-later",
+            "q": "Nimesahau kuanzisha – je, ninaweza kuongeza muda baadaye?",
+            "a": [
+              "Ndiyo. Kwenye kichupo cha Siku, gusa + ili kuongeza kumbukumbu yenye mwanzo na mwisho wake, au gusa iliyopo ili kuibadilisha. Kumbukumbu haziwezi kuingiliana: SimpleTime inakuambia kipindi kikigongana na kumbukumbu nyingine. Ikiwa saa tayari inaendelea, gusa kumbukumbu inayoendelea juu ya kichupo cha Upimaji na urudishe mwanzo wake nyuma – hadi mwisho wa kumbukumbu iliyotangulia."
+            ]
+          },
+          {
+            "id": "restore-entry",
+            "q": "Nimefuta kumbukumbu – je, ninaweza kuirudisha?",
+            "a": [
+              "Ndiyo. Ukifuta kumbukumbu kwenye kichupo cha Siku – kwa kutelezesha kushoto, au kwa kubofya kulia kwenye Mac –, inaenda kwenye tupio: juu kushoto kwenye kichupo cha Siku chini ya “Kumbukumbu zilizofutwa”, “Rejesha” inairudisha, au unaifuta kabisa. Kazi zilizofutwa zinasubiri kwenye tupio juu kushoto kwenye kichupo cha Upimaji, pamoja na kumbukumbu zake. Kitu kikishafutwa kabisa, ni nakala rudufu pekee inayoweza kukirudisha."
+            ]
+          },
+          {
+            "id": "fixed-times",
+            "q": "Nyakati za kudumu ni nini?",
+            "a": [
+              "Nyakati zinazojirudia kama madarasa, zamu au saa za ofisi unaziweka mara moja: kazi, siku za wiki, mwanzo na mwisho, kila wiki au kila wiki mbili, kuanzia siku unayochagua na, ukipenda, pamoja na tarehe ya mwisho. Mara tu muda unapokwisha, SimpleTime huuingiza yenyewe – kwenye kila kifaa ambapo unafungua SimpleTime, na bado mara moja tu; siku zilizopita huzifidia hadi siku 31 nyuma. Wewe unapima tu kile kinachoongezeka; utazipata kwenye Mipangilio › Upimaji › Nyakati za kudumu, bila kuhitaji Pro."
+            ]
+          },
+          {
+            "id": "fixed-times-pause",
+            "q": "Je, ninaweza kusitisha au kubadilisha nyakati za kudumu?",
+            "a": [
+              "Ndiyo. Kwa likizo ya shule, likizo au ugonjwa, weka pumziko kwenye Mipangilio › Upimaji › Nyakati za kudumu kwa “Weka pumziko” – wakati huo SimpleTime haiingizi chochote; unaweza kuzima wakati mmoja mmoja kwa swichi yake. Kumbukumbu zilizokwisha kuingizwa unaweza kuzibadilisha au kuzifuta kama nyingine yoyote, na ukibadilisha au kufuta wakati wa kudumu, kilichokwisha kuingizwa kinabaki. Wakati wa kudumu ukiingiliana na kumbukumbu iliyopo tayari, SimpleTime haiuingizi."
+            ]
+          },
+          {
+            "id": "subtasks",
+            "q": "Kazi ndogo zinatumikaje?",
+            "a": [
+              "Gusa jina la kazi ili kuifungua, kisha ongeza kazi ndogo hapo kwa +. Unaweza kuzipanga kwa ngazi nyingi kadiri shughuli zako zinavyohitaji – mteja, mradi, awamu. Kwenye chati, ripoti na malengo, kazi ndogo huhesabiwa kwenye kazi iliyo juu yake."
+            ]
+          },
+          {
+            "id": "order",
+            "q": "Ninawezaje kupanga orodha yangu ya kazi vizuri?",
+            "a": [
+              "Kazi unazotumia kila siku ziweke kama vipendwa – zinabaki juu. Zilizobaki zinaweza kupangwa kialfabeti, kwa zinazotumika zaidi, kwa zilizotumika hivi karibuni au kwa mpangilio wako mwenyewe. Rangi na alama – au emoji – hufanya kila kazi itambulike kwa urahisi."
+            ]
+          },
+          {
+            "id": "archive-trash",
+            "q": "Kuna tofauti gani kati ya kuweka kwenye kumbukumbu na kufuta?",
+            "a": [
+              "Kuweka kwenye kumbukumbu huficha kazi tu: kumbukumbu zake zinabaki na zinaendelea kuhesabiwa katika uchambuzi wote. Kufuta hupeleka kazi pamoja na kumbukumbu zake kwenye tupio – kisha muda wake hauhesabiwi tena popote. Kumbukumbu na tupio utavipata juu kushoto kwenye kichupo cha Upimaji: kutoka kwenye kumbukumbu, “Rejesha” inarudisha kazi; kutoka kwenye tupio, inarudisha kazi pamoja na kumbukumbu zake – au unaifuta hapo kabisa."
+            ]
+          },
+          {
+            "id": "notes",
+            "q": "Je, ninaweza kuongeza madokezo kwenye kumbukumbu?",
+            "a": [
+              "Ndiyo, kila kumbukumbu inaweza kuwa na dokezo – ulichofanyia kazi, au uliyefanya kazi naye. Unaliongeza unapotengeneza au kuhariri kumbukumbu kwenye kichupo cha Siku, au, saa ikiwa inaendelea, kwa kugusa kumbukumbu inayoendelea juu ya kichupo cha Upimaji. Unaona dokezo unapofungua kumbukumbu, kwenye taarifa za kazi chini ya “Kumbukumbu zote”, kwenye sehemu ya PDF “Kumbukumbu zote” na kwenye uhamishaji wa CSV; nakala rudufu hulijumuisha."
+            ]
+          },
+          {
+            "id": "reminders",
+            "q": "Je, SimpleTime inaweza kunikumbusha?",
+            "a": [
+              "Ndiyo. Kwenye Mipangilio › Panga arifa, unaweka kanuni, kwa mfano kikumbusho wakati kazi imeendelea kwa dakika 60 – kwa kazi zote au zile ulizochagua tu, katika siku za wiki unazochagua. Kwa “Nikumbushe wakati hakuna kinachoendelea”, SimpleTime pia hukujulisha wakati hakuna kilichopimwa kwa muda fulani."
+            ]
+          },
+          {
+            "id": "time-zone",
+            "q": "Nimesafiri kwenda eneo lenye saa tofauti – kwa nini kumbukumbu zangu zinaonyesha nyakati nyingine?",
+            "a": [
+              "Kwa kawaida, SimpleTime huonyesha kila kumbukumbu kwa saa za eneo ambalo kifaa chako kipo sasa – kama Kalenda ya Apple: ulichopima saa 9:00 New York kinaonekana saa 15:00 Berlin. Kwenye Mipangilio › Saa za eneo, unaweza badala yake kuchagua “Saa za eneo ilipopimwa”: hapo kila kumbukumbu inaonekana kwa saa na siku ulipoipima – popote saa na jumla zinapoonekana. Muda wenyewe unabaki ule ule kwa vyovyote vile; kumbukumbu kutoka matoleo ya kabla ya 4.7 huonekana kila mara kwa saa za eneo la kifaa."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "insights",
+        "title": "Mwonekano wa siku na uchambuzi",
+        "items": [
+          {
+            "id": "day-view",
+            "q": "Mwonekano wa siku unaonyesha nini?",
+            "a": [
+              "Kila kumbukumbu ya siku pamoja na mwanzo, mwisho na muda wake – kama orodha, au kama mstari wa muda kutoka 0 hadi 24 wenye kiashiria cha saa ya sasa kwa leo; kwenye skrini pana kama iPad na Mac, vyote viwili vinaonekana kando kwa kando. Juu, unaona jumla ya siku na jinsi inavyolinganishwa na siku iliyotangulia."
+            ]
+          },
+          {
+            "id": "charts",
+            "q": "Kuna chati na takwimu gani?",
+            "a": [
+              "Kwenye kichupo cha Chati: chati za duara kwa kazi na kwa tija, kwa siku, wiki, mwezi au mwaka. Juu kulia chini ya “Takwimu zaidi”, utapata ulinganisho na kipindi kilichopita, mwelekeo, kazi zako za juu na kumbukumbu ndefu zaidi na fupi zaidi – na, kuanzia wiki moja na zaidi, jinsi muda wako unavyotawanyika katika mchana, pamoja na saa yako yenye shughuli nyingi. Kila kazi pia ina ukurasa wake wa taarifa – kumbukumbu ya kwanza, kumbukumbu ndefu zaidi, wiki hii, mwaka huu."
+            ]
+          },
+          {
+            "id": "productivity",
+            "q": "Alama ya tija ni nini?",
+            "a": [
+              "Unapohariri kazi, unaipa kundi chini ya “Tija”: yenye tija, isiyo na tija, ya lazima – au “Ondoa kwenye hesabu ya tija”. Kazi ndogo zisizo na kundi lao huchukua kundi la kazi iliyo juu yake, na “Ondoa kwenye hesabu ya tija” inatumika kwa kila kitu kilicho chini yake. Alama inaonyesha ni sehemu gani ya muda wako uliotathminiwa ilikuwa yenye tija au ya lazima: (yenye tija + ya lazima) ÷ (yenye tija + isiyo na tija + ya lazima) × 100. Muda usiopangwa au ulio katika “Ondoa kwenye hesabu ya tija” hauhesabiwi."
+            ]
+          },
+          {
+            "id": "goals",
+            "q": "Malengo yanafanyaje kazi?",
+            "a": [
+              "Ukiwa na SimpleTime Pro, unaweka lengo kwa kila kazi kwenye Mipangilio › Malengo: angalau au si zaidi ya kiasi fulani cha muda kwa siku, wiki au mwezi – kwa mfano, angalau saa 8 za mazoezi kwa wiki au si zaidi ya saa 2 za mitandao ya kijamii kwa siku. Kazi ndogo huhesabiwa kwenye lengo, na kipindi cha sasa pekee ndicho hupimwa. Unaona umefikia wapi kwenye kichupo cha Chati na kwenye Apple Watch yako; katika sehemu ya “Malengo”, ripoti ya PDF inalinganisha wastani wa kipindi ulichochagua na lengo lako."
+            ]
+          },
+          {
+            "id": "share-chart",
+            "q": "Je, ninaweza kushiriki chati?",
+            "a": [
+              "Ndiyo, chati yoyote inaweza kushirikiwa kama picha au kuhifadhiwa kwenye Picha. Ili kuihifadhi, SimpleTime huomba ruhusa ya kuongeza picha tu – haiwezi kuona maktaba yako ya picha."
+            ]
+          },
+          {
+            "id": "pdf-report",
+            "q": "Ninatengenezaje ripoti ya PDF?",
+            "a": [
+              "Kwenye Mipangilio › Hamisha ripoti, chagua kipindi – kuanzia leo hadi muda wote, au chako mwenyewe – chagua sehemu unazotaka na uziburute kwa mpangilio unaotaka. SimpleTime hutengeneza PDF yenye kila kazi na kazi ndogo, tayari kushirikiwa au kuhifadhiwa. SimpleTime Pro huongeza sehemu za ziada: “Kwa muda”, “Katika mchana mzima”, “Ulinganisho” na “Malengo”.",
+              "Kwa karatasi za saa za kazi kuna sehemu ya “Kumbukumbu zote”: kila kumbukumbu siku kwa siku na mwanzo, mwisho, kazi na dokezo, pamoja na jumla za kila siku, jumla kuu na saa kwa desimali – bora kwa kulinganisha saa zako na hati yako ya mshahara. Ni bure, bila kuhitaji Pro, na imewashwa tangu mwanzo."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "shortcuts",
+        "title": "Wijeti, Siri na Focus",
+        "items": [
+          {
+            "id": "widgets",
+            "q": "Kuna wijeti gani?",
+            "a": [
+              "Kwa Skrini ya Mwanzo: Leo, Kazi inayoendelea na Wiki – Leo na Kazi inayoendelea zikiwa na vitufe vya kuanzisha na kusimamisha. Kwa Skrini iliyofungwa: kinachoendelea na kwa muda gani. Pia kuna swichi ya “Upimaji wa muda” kwa Kituo cha Udhibiti. Kazi ikiwa inaendelea, Shughuli ya Moja kwa Moja inaionyesha kwenye Skrini iliyofungwa na kwenye Dynamic Island, pamoja na kitufe cha kuisimamisha. Ukiwa na SimpleTime Pro, unapata pia wijeti ya anzo la haraka unayoijaza kwa kazi zako mwenyewe."
+            ]
+          },
+          {
+            "id": "without-opening",
+            "q": "Je, ninaweza kuanzisha upimaji bila kufungua programu?",
+            "a": [
+              "Ndiyo, kwa njia kadhaa. Gusa na ushikilie aikoni ya programu ili kusimamisha kinachoendelea au kuanzisha moja ya kazi zako. Andika jina la kazi kwenye utafutaji wa iPhone na uiguse. Au tumia wijeti, Siri au swichi ya “Upimaji wa muda” – kwenye Kituo cha Udhibiti, kwenye Skrini iliyofungwa au kwenye Kitufe cha Kitendo kuanzia iPhone 15 Pro –, na ukiwa na SimpleTime Pro, Apple Watch yako."
+            ]
+          },
+          {
+            "id": "siri",
+            "q": "SimpleTime inafanyaje kazi na Siri na Njia za Mkato?",
+            "a": [
+              "Sema, kwa mfano, “Start Work in SimpleTime”, “Stop tracking in SimpleTime”, “How much did I track today in SimpleTime?” au “What’s running in SimpleTime?”. Siri inaelewa sentensi hizi kwa Kiingereza na Kijerumani. Katika kila lugha, vitendo hivi vinapatikana kwenye programu ya Njia za Mkato, ambapo unaweza pia kuvipa sentensi yako mwenyewe."
+            ]
+          },
+          {
+            "id": "focus-filter",
+            "q": "Kichujio cha Focus hufanya nini?",
+            "a": [
+              "Kwa kichujio cha Focus, SimpleTime hufuata Focus yako: “Kazi” ikiwaka, orodha ya kazi inaonyesha kundi lako la kazi pekee – na upimaji unaweza kuanza na kuisha pamoja na Focus. Unakiweka kwenye Mipangilio ya iOS chini ya Focus › Focus yako › Vichujio vya Focus › Ongeza kichujio › SimpleTime. Kichujio cha Focus ni sehemu ya SimpleTime Pro."
+            ]
+          },
+          {
+            "id": "calendar-entries",
+            "q": "Je, SimpleTime inaweza kuweka kumbukumbu zangu kwenye kalenda yangu?",
+            "a": [
+              "Ndiyo, ukiwa na SimpleTime Pro: washa “Kumbukumbu kwenye Kalenda” kwenye Mipangilio › Kalenda – kuanzia siku hiyo, kila kumbukumbu iliyokamilika inaonekana kama tukio, kwenye kalenda yake ya “SimpleTime” au kwenye ile unayochagua, kwa kila kazi ukipenda. Ukibadilisha au kufuta kumbukumbu, tukio linabadilika pia, na kiungo kilicho kwenye tukio kinafungua kumbukumbu hiyo katika SimpleTime. Ukiizima, matukio yanabaki kwenye kalenda yako.",
+              "“Kazi kutoka kwa kalenda” hugeuza kalenda kama “Ofisini” kuwa kazi; hata hivyo, matukio ambayo tayari yako kwenye kalenda yako hayawi kumbukumbu. Matukio huhifadhiwa kwa mtoa huduma wa kalenda yako na huonyesha majina ya kazi zako kwa kila mtu unayeshiriki naye kalenda – hata kufunga programu kukiwa kumewashwa."
+            ]
+          },
+          {
+            "id": "menu-bar",
+            "q": "Je, ninaweza kutumia SimpleTime kutoka kwenye upau wa menyu kwenye Mac yangu?",
+            "a": [
+              "Ndiyo. Saa ya kusimamisha kwenye upau wa menyu inaonyesha kama kuna kazi inayoendelea; ibofye ili kuanzisha, kusimamisha au kubadilisha kazi bila kufungua dirisha. Unaiwasha au kuizima kwenye Mipangilio › Upau wa menyu › Onyesha kwenye upau wa menyu. Kufunga programu kukiwa kumewekwa, menyu haionyeshi majina ya kazi na inatoa Simamisha pekee."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "data",
+        "title": "Usawazishaji, nakala rudufu na uhamishaji",
+        "items": [
+          {
+            "id": "sync",
+            "q": "Je, SimpleTime inasawazisha kati ya vifaa vyangu?",
+            "a": [
+              "Ndiyo, kupitia iCloud au kupitia LaCodea ID – unachagua ipi kwenye kila kifaa katika Mipangilio › Data na usawazishaji. Kwa iCloud, kila kifaa ambapo umechagua iCloud na umeingia kwa Akaunti ile ile ya Apple kinasawazisha; mfumo ndio huamua lini. Haiwezi kulazimishwa – hapo “Sawazisha sasa” hukagua akaunti yako na muunganisho, na ukurasa huo huo unaonyesha usawazishaji ulifanyika mara ya mwisho lini.",
+              "Kwa LaCodea ID, kila kifaa ambapo umeingia kwa LaCodea ID ile ile na umeichagua kinasawazisha, hata kikiwa na Akaunti tofauti ya Apple – data ikiwa imesimbwa fiche mwanzo hadi mwisho na, SimpleTime ikiwa imefunguliwa kwenye vifaa vyote viwili, ndani ya sekunde chache."
+            ]
+          },
+          {
+            "id": "sync-trouble",
+            "q": "Kumbukumbu zangu hazionekani kwenye kifaa changu kingine – nifanye nini?",
+            "a": [
+              "Angalia Mipangilio › Data na usawazishaji kwenye vifaa vyote viwili: vyote vinahitaji mahali pamoja – iCloud kwa Akaunti ile ile ya Apple, au LaCodea ID kwa akaunti ile ile uliyoingia nayo. Ikisema kwamba badiliko litatumika baadaye, funga SimpleTime kabisa na uifungue tena; pia hakikisha programu imesasishwa kwenye vifaa vyako vyote.",
+              "Kwa iCloud, “Ulinganishi wa mwisho” kwenye Mipangilio chini ya Ulinganishi unaonyesha data ilihamishwa mara ya mwisho lini, na “Angalia ulinganishi” hukagua akaunti yako na muunganisho na, kukiwa na tatizo, hutaja sababu – kwa mfano hifadhi ya iCloud iliyojaa. Kwa LaCodea ID, ukurasa wa Data na usawazishaji unaonyesha kama mabadiliko yanasubiri muunganisho, kama umeingia kwa akaunti nyingine au kama kifaa kinahitaji ufunguo wako wa urejeshaji. Hilo lisiposaidia, [tuandikie](@contact)."
+            ]
+          },
+          {
+            "id": "without-icloud",
+            "q": "Je, ninaweza kutumia SimpleTime bila iCloud?",
+            "a": [
+              "Ndiyo. Chagua “Kwenye kifaa hiki pekee” kwenye Mipangilio chini ya Data na usawazishaji – hapo data yako inabaki kwenye kifaa hiki kimoja. Hilo linafanya nakala rudufu kuwa muhimu zaidi: mpango wa nakala rudufu huihifadhi kiotomatiki, kwa mfano kwenye folda katika programu ya Faili au kwenye seva yako mwenyewe. Ikiwa bado ungependa kusawazisha vifaa kadhaa bila iCloud, chagua LaCodea ID hapo; kifaa kisicho na iCloud Keychain yako kitaomba ufunguo wako wa urejeshaji mara moja."
+            ]
+          },
+          {
+            "id": "switch-storage",
+            "q": "Ninabadilishaje mahali data yangu inapokaa?",
+            "a": [
+              "Kwenye Mipangilio › Data na usawazishaji, gusa mahali data yako inapopaswa kukaa, kisha “Hamia iCloud”, “Hamia LaCodea ID” au “Hifadhi kwenye kifaa hiki pekee”; kwa LaCodea ID, unaingia kwenye akaunti wakati huo huo. Kabla ya kuhamia iCloud au LaCodea ID, SimpleTime hutengeneza nakala ya usalama ya kifaa hiki, na ikiwa tayari kuna data huko, unachagua kati ya “Unganisha” na “Tumia data kutoka …”.",
+              "Badiliko linahusu kifaa hiki pekee na kwa kawaida hutumika baada ya kufunga SimpleTime kabisa na kuifungua tena – ukurasa unakuambia. Vifaa vyako vingine vinaendelea kusawazisha kama awali hadi ubadilishe huko pia. Baadaye, SimpleTime inakupa chaguo la kufuta data iliyo mahali pa zamani; fanya hivyo tu baada ya vifaa vyako vingine kubadilisha pia – la sivyo, navyo vitapoteza data hiyo."
+            ]
+          },
+          {
+            "id": "recovery-key",
+            "q": "Ufunguo wa urejeshaji ni nini?",
+            "a": [
+              "LaCodea ID ikiwa ndiyo mahali pa kuhifadhi, SimpleTime husimba data yako fiche mwanzo hadi mwisho; kwa kawaida vifaa vyako vya Apple hupata ufunguo vyenyewe kupitia iCloud Keychain. Kifaa kisicho na iCloud Keychain yako – kwa mfano chenye Akaunti tofauti ya Apple – kinahitaji mara moja ufunguo wako wa urejeshaji, wenye herufi na tarakimu 24 kwa pamoja. Unaupata kwenye Mipangilio › Data na usawazishaji › Ufunguo wa urejeshaji, baada ya Face ID au nambari ya siri ya kifaa chako; hadi uthibitishe kwamba umeuhifadhi, ukurasa wa Usalama utakukumbusha. Uhifadhi kwenye kidhibiti chako cha manenosiri au kwenye karatasi – bila huo na bila vifaa vyako, hakuna anayeweza kufungua data yako, hata sisi."
+            ]
+          },
+          {
+            "id": "recovery-key-lost",
+            "q": "Nimepoteza ufunguo wangu wa urejeshaji – nifanye nini sasa?",
+            "a": [
+              "Kwenye kifaa ambacho bado kinaweza kusoma data yako, SimpleTime inauonyesha tena kwenye Mipangilio › Data na usawazishaji › Ufunguo wa urejeshaji kwa “Onyesha ufunguo wa urejeshaji” – au unatengeneza mpya hapo, na ule wa zamani unaacha kufanya kazi. Ikiwa hakuna kifaa chako chochote kinachoweza kufungua data tena, hakuna anayeweza kuirejesha – hata sisi. Hapo gusa “Nimepoteza ufunguo wangu wa urejeshaji” unapoombwa kuuweka, na uanze upya na data ya kifaa hiki; chochote kilichokuwa kwenye seva au kwenye vifaa vyako vingine pekee kinapotea."
+            ]
+          },
+          {
+            "id": "backups",
+            "q": "Nakala rudufu zinafanyaje kazi?",
+            "a": [
+              "Kwenye Mipangilio › Nakala rudufu, unatengeneza mipango ya nakala rudufu mingi kadiri unavyotaka. Kila mpango una mahali – iCloud Drive, folda katika programu ya Faili kama Dropbox au Google Drive, seva yako mwenyewe kupitia WebDAV, au kifaa hiki –, ratiba kuanzia kila saa hadi kila mwezi, muda wa kuhifadhi na, ukipenda, nenosiri. Kwenye ukurasa huo huo, unaweza pia kutengeneza nakala rudufu kwa mkono wakati wowote."
+            ]
+          },
+          {
+            "id": "backup-password",
+            "q": "Je, ninaweza kulinda nakala zangu rudufu kwa nenosiri?",
+            "a": [
+              "Ndiyo. Ukiweka nenosiri kwa mpango, kila nakala rudufu husimbwa kwenye kifaa chako kabla ya kuhifadhiwa. Litunze nenosiri vizuri: bila hilo, hakuna anayeweza kurejesha nakala – wala wewe wala sisi. Hakuna njia nyingine."
+            ]
+          },
+          {
+            "id": "backup-files",
+            "q": "Ninapata wapi nakala zangu rudufu?",
+            "a": [
+              "Nakala za mpango uliowekwa “Kwenye kifaa hiki pekee” zinaonekana pia kwenye programu ya Faili chini ya “On My iPhone” (au “On My iPad”) › SimpleTime › Backups, na zile za mpango wa iCloud Drive chini ya iCloud Drive › SimpleTime › Backups. Mipango ya folda katika programu ya Faili au ya seva yako mwenyewe huziweka mahali ulipochagua. Nakala zilizo kwenye kifaa hupotea pamoja na kifaa – na unapofuta SimpleTime. Ni bora kuipa mipango yako nenosiri: bila nenosiri, yeyote mwenye ufikiaji wa mahali hapo anaweza kufungua nakala – kwenye kifaa, yeyote anayekifungua, hata kufunga programu kukiwa kumewashwa."
+            ]
+          },
+          {
+            "id": "restore",
+            "q": "Ninarejeshaje nakala rudufu?",
+            "a": [
+              "Kwenye Mipangilio › Nakala rudufu, unarejesha nakala – kutoka kwenye mmoja wa mipango yako au kutoka kwenye faili. Data iliyopo inabaki, na kinachokosekana kinaongezwa. Nakala kutoka SimpleTime 4.7 na za awali zaidi unazileta kwenye Mipangilio › Hamisha / leta data › Leta nakala kutoka JSON. Kwenye kifaa kipya, ni bora kusubiri kwanza usawazishaji kupitia iCloud au LaCodea ID ulete data yako – la sivyo kazi zinaweza kujirudia."
+            ]
+          },
+          {
+            "id": "export",
+            "q": "Je, ninaweza kuhamisha data yangu?",
+            "a": [
+              "Ndiyo, wakati wowote: kama faili ya CSV yenye mstari mmoja kwa kila kumbukumbu – tarehe, mwanzo, mwisho, kazi, muda, saa kwa desimali na dokezo, kwa Excel, Numbers au programu yoyote ya lahajedwali –, kama ripoti ya PDF au kama nakala rudufu.",
+              "Kwenye Mipangilio › Hamisha / leta data, unachagua kipindi cha faili ya CSV – kuanzia leo hadi muda wote, au chako mwenyewe, kama mwezi uliopita. Nakala rudufu unaitengeneza kwenye Mipangilio › Nakala rudufu."
+            ]
+          },
+          {
+            "id": "timesheet",
+            "q": "Ninapataje saa zangu kwa karatasi ya saa za kazi?",
+            "a": [
+              "Kama PDF: kwenye Mipangilio › Hamisha ripoti, chagua kipindi – kwa mfano “Mwezi uliopita” – na uache sehemu ya “Kumbukumbu zote” ikiwa imewashwa; inaorodhesha kila kumbukumbu na mwanzo, mwisho, kazi na dokezo, pamoja na jumla za kila siku, jumla kuu na saa kwa desimali. Kama lahajedwali: kwenye Mipangilio › Hamisha / leta data, chagua kipindi na uguse “Hamisha data kama CSV” – mstari mmoja kwa kila kumbukumbu wenye tarehe, mwanzo, mwisho, kazi, muda, saa kwa desimali na dokezo, kwa Excel au Numbers. Zote mbili ni bure, na kumbukumbu kutoka nyakati za kudumu huhesabiwa kama nyingine yoyote."
+            ]
+          },
+          {
+            "id": "rounding",
+            "q": "Je, SimpleTime inaweza kukadiria nyakati, kwa mfano hadi robo saa?",
+            "a": [
+              "Hapana, hakuna mpangilio wa kukadiria: SimpleTime huhifadhi mwanzo na mwisho kama unavyopima. Kwenye sehemu ya PDF “Kumbukumbu zote” na kwenye uhamishaji wa CSV, kila mstari unakadiriwa hadi dakika na kuonyeshwa kwa saa za desimali zenye nafasi mbili baada ya nukta; kwenye PDF, jumla zinajumlisha thamani hizi hasa. Ukihitaji robo saa, badilisha mwanzo na mwisho kwenye kumbukumbu au ukadirie kwenye programu yako ya lahajedwali."
+            ]
+          },
+          {
+            "id": "import",
+            "q": "Je, ninaweza kuleta data kutoka programu nyingine?",
+            "a": [
+              "Hapana. SimpleTime husoma nakala zake rudufu tu – faili za CSV, zikiwemo zake yenyewe, haziwezi kuletwa, na matukio kutoka kwenye kalenda yako hayawi kumbukumbu. Nyakati za awali unaweza kuziongeza kwa mkono kwenye kichupo cha Siku kwa +."
+            ]
+          },
+          {
+            "id": "new-device",
+            "q": "Ninahamiaje iPhone mpya?",
+            "a": [
+              "Ingia kwa Akaunti ile ile ya Apple na usakinishe SimpleTime – ukitumia iCloud (Mipangilio › Data na usawazishaji), kumbukumbu zako zinarudi zenyewe. Ukitumia LaCodea ID, ingia nayo kwenye kifaa kipya na uichague chini ya Data na usawazishaji; ikiwa kifaa hakipati ufunguo chenyewe kupitia iCloud Keychain yako, programu itaomba ufunguo wako wa urejeshaji mara moja. Vinginevyo, tengeneza nakala rudufu kwenye kifaa cha zamani na uirejeshe kwenye kipya. Maeneo na mipangilio ni ya kila kifaa – havisawazishwi wala havijumuishwi kwenye nakala rudufu."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "privacy",
+        "title": "Faragha na usalama",
+        "items": [
+          {
+            "id": "data-location",
+            "q": "Data yangu inahifadhiwa wapi?",
+            "a": [
+              "Popote unapochagua: kwenye Mipangilio chini ya Data na usawazishaji, unaamua kati ya “Kwenye kifaa hiki pekee”, iCloud yako binafsi, ambapo Apple huisimba fiche, na LaCodea ID, ambapo husimbwa fiche mwanzo hadi mwisho – katika yoyote kati ya chaguo hizi, hatuwezi kusoma kumbukumbu zako. Nakala rudufu huhifadhiwa popote mipango yako ya nakala rudufu inapoziweka; bila nenosiri, yeyote mwenye ufikiaji wa mahali hapo anaweza kuzisoma. Ukiwasha “Kumbukumbu kwenye Kalenda” ukiwa na Pro, kumbukumbu zilizokamilika zinaonekana pia kama matukio kwenye kalenda yako – zinazoonekana kwa mtoa huduma wake na kwa kila mtu unayeshiriki naye kalenda hiyo."
+            ]
+          },
+          {
+            "id": "lacodea-id-privacy",
+            "q": "Nani anaweza kusoma kumbukumbu zangu ninaposawazisha kupitia LaCodea ID?",
+            "a": [
+              "Vifaa vyako pekee. SimpleTime husimba fiche kazi, kumbukumbu pamoja na nyakati na madokezo yake, nyakati za kudumu, malengo na vikumbusho kwenye kifaa chako (AES-GCM ya biti 256) kabla havijaenda kwenye seva ya SimpleTime yenyewe – vifaa vyako pekee ndivyo vyenye ufunguo, si sisi. Seva huona tu kuna rekodi ngapi za aina gani, ukubwa wake takriban, ziliandikwa lini na kama zilifutwa; iko katika kituo cha data huko Frankfurt am Main. Maelezo kamili yako katika [sera yetu ya faragha](@privacy)."
+            ]
+          },
+          {
+            "id": "tracking-me",
+            "q": "Je, SimpleTime inanifuatilia?",
+            "a": [
+              "Hapana. SimpleTime haionyeshi matangazo, haiuzi data, haitengenezi wasifu wa watumiaji na haikufuatilii kwenye programu na tovuti nyingine. Ili tuweze kupata hitilafu haraka, programu hutuma ripoti za hitilafu na takwimu za matumizi bila kutambulisha mtu kwenye seva yetu wenyewe – bila kitambulisho cha kifaa, na kamwe bila kazi, nyakati au madokezo yako. Unaweza kuzima hili kwenye Mipangilio › Faragha › Muhtasari na ruhusa. Maelezo kamili yako katika [sera yetu ya faragha](@privacy)."
+            ]
+          },
+          {
+            "id": "permissions",
+            "q": "SimpleTime inaomba ruhusa gani?",
+            "a": [
+              "Kile tu ambacho kipengele kinahitaji, na pale tu unapokitumia: arifa kwa vikumbusho na arifa za maeneo, mahali ulipo kwa maeneo, kalenda zako kwa “Kumbukumbu kwenye Kalenda”, kuongeza picha ili kuhifadhi chati kama picha, na Face ID au Touch ID kwa kufunga programu. Kwenye mipangilio chini ya Faragha › Muhtasari na ruhusa, unaona kila ruhusa pamoja na hali yake ya sasa."
+            ]
+          },
+          {
+            "id": "location",
+            "q": "Kwa nini SimpleTime inataka mahali nilipo?",
+            "a": [
+              "Kwa maeneo tu, ambayo ni sehemu ya SimpleTime Pro: ili kazi iweze kuanza unapofika mahali fulani. iOS hufuatilia maeneo uliyoweka na kuijulisha programu unapofika au kuondoka. Maeneo yako yanabaki kwenye kifaa chako, na SimpleTime haihifadhi rekodi ya mahali ulipokuwa. Bila maeneo, SimpleTime haihitaji mahali ulipo."
+            ]
+          },
+          {
+            "id": "app-lock",
+            "q": "Kufunga programu hufanyaje kazi?",
+            "a": [
+              "Kwenye Mipangilio › Kufunga programu, unachagua kama SimpleTime ifunguke kwa Face ID au Touch ID na nambari ya siri ya kifaa chako, au kwa msimbo wako mwenyewe – tarakimu au nenosiri. Kwenye kibadilisha programu, SimpleTime inabaki imefunikwa, na majina ya kazi hayaonekani tena kwenye utafutaji wa iPhone wala kwenye aikoni ya programu; chini ya “Nje ya programu”, unachagua kile ambacho arifa, wijeti na Apple Watch zinaonyesha. Endapo utasahau msimbo wako mwenyewe, unaweza mapema kuwasha “Weka upya msimbo uliosahaulika kwa nambari ya siri ya kifaa” au kuweka nenosiri la dharura. Bila mojawapo, njia pekee ya kurudi ni kufuta programu na kuisakinisha upya – na chochote kilichokuwa kwenye kifaa hiki pekee kinapotea isipokuwa una nakala rudufu."
+            ]
+          },
+          {
+            "id": "security-overview",
+            "q": "Ukurasa wa Usalama unaonyesha nini?",
+            "a": [
+              "Kwenye Mipangilio › Usalama › Muhtasari, unaona kwa mtazamo mmoja jinsi data yako ilivyolindwa: nambari ya siri ya kifaa, kufunga programu, nakala rudufu za kiotomatiki na zilizosimbwa, na mahali data yako inapokaa – ukiwa na LaCodea ID, pia usimbaji fiche wa mwanzo hadi mwisho na ufunguo wako wa urejeshaji. Chochote kinachokosekana bado kimeorodheshwa chini ya “Inapendekezwa”; kila kipengele kinaeleza jinsi kinavyokulinda na, inapohitajika, kinakupeleka kwenye mpangilio unaofaa."
+            ]
+          },
+          {
+            "id": "delete-all",
+            "q": "Ninafutaje data yangu yote?",
+            "a": [
+              "Kwenye Mipangilio chini ya Faragha › Futa data yote, unaondoa kila kitu kwa mpigo – kumbukumbu na kazi, malengo, maeneo, tupio, vikumbusho, nakala rudufu za mipango yako na nakala za zamani kwenye iCloud Drive, uhamishaji, mipangilio pamoja na msimbo wa kufunga programu, na matukio ambayo SimpleTime iliongeza kwenye kalenda yako.",
+              "Inafutwa kwenye kifaa hiki, kwenye iCloud na – ukisawazisha kupitia LaCodea ID – kwenye seva; kupitia iCloud, ufutaji unafika pia kwenye vifaa vyako vingine mara tu vinapokuwa mtandaoni. Ukisawazisha kupitia LaCodea ID, vifaa vyako vingine vinabaki na data yake na vinaacha kusawazisha hadi uweke usawazishaji upya huko – ifute huko pia – na akaunti yako ya LaCodea ID inabaki. Hili haliwezi kutenduliwa."
+            ]
+          },
+          {
+            "id": "delete-app",
+            "q": "Nini kinatokea nikifuta SimpleTime?",
+            "a": [
+              "Hapo chochote kilichokuwa kwenye kifaa hiki pekee kinapotea: kumbukumbu zako ukiwa umechagua “Kwenye kifaa hiki pekee”, nakala za mpango wa “Kwenye kifaa hiki pekee”, maeneo yako na mipangilio yako pamoja na kufunga programu. Chochote kilicho kwenye iCloud au kwa LaCodea ID kinabaki huko na kinarudi baada ya kusakinisha upya, mara tu unapotumia tena mahali pale pale chini ya Data na usawazishaji.",
+              "Nakala rudufu zilizo kwenye iCloud Drive, kwenye folda katika programu ya Faili au kwenye seva yako zinabaki, vivyo hivyo matukio kwenye kalenda yako; kwa nakala iliyosimbwa, baadaye utahitaji nenosiri lake. Usajili unaendelea hadi uughairi, na LaCodea ID yako inabaki. Ikiwa ungependa kuondoa kila kitu kwanza, tumia Mipangilio › Faragha › Futa data yote."
+            ]
+          },
+          {
+            "id": "lacodea-id-delete",
+            "q": "Ninatokaje kwenye LaCodea ID yangu au kuifuta?",
+            "a": [
+              "Gusa LaCodea ID yako juu kabisa kwenye Mipangilio: “Ondoka” hukutoa kwenye programu zote za LaCodea kwenye kifaa hiki – data yako inabaki hapa na inasawazishwa tena mara tu unapoingia. “Tenganisha SimpleTime” hutenganisha SimpleTime tu na akaunti yako; “Futa LaCodea ID” hufuta akaunti kwa programu zote za LaCodea – unaweza pia kufanya hivyo kwenye account.lacodea.com. Iwe unatenganisha au unafuta, seva ya SimpleTime hufuta data yako iliyosawazishwa huko; chochote kilicho kwenye vifaa vyako au kwenye iCloud kinabaki. Usajili kupitia Apple unaendelea hadi uughairi kwenye mipangilio ya kifaa chako."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "pro",
+        "title": "SimpleTime Pro",
+        "items": [
+          {
+            "id": "pro-includes",
+            "q": "SimpleTime Pro inajumuisha nini?",
+            "a": [
+              "Programu ya Apple Watch, mapitio ya wiki, mwezi na mwaka wako, maeneo, kumbukumbu zako kama matukio kwenye kalenda yako na kazi kutoka kwa kalenda zako, mwaka kwa mtazamo mmoja, malengo, kichujio cha Focus, wijeti ya anzo la haraka, rangi saba za msisitizo au yako mwenyewe, fonti sita, aikoni kumi na sita za programu na sehemu za ziada kwenye ripoti ya PDF. Programu ya Apple Watch inahitaji iPhone; maeneo na aikoni za programu zinapatikana kwenye iPhone na iPad. Chochote kitakachokuja baadaye kimejumuishwa. [Yote kuhusu SimpleTime Pro](@pro)"
+            ]
+          },
+          {
+            "id": "pro-price",
+            "q": "SimpleTime Pro inagharimu kiasi gani?",
+            "a": [
+              "Pro inapatikana kwa usajili wa kila mwezi, wa kila mwaka au kwa ununuzi wa mara moja wa “Milele”. Bei hutegemea nchi yako na sarafu yako na huonyeshwa ndani ya programu kabla ya kununua."
+            ]
+          },
+          {
+            "id": "trial",
+            "q": "Je, ninaweza kujaribu Pro kwanza?",
+            "a": [
+              "Ndiyo. Wanaojisajili kwa mara ya kwanza wanaweza kujaribu Kila mwezi au Kila mwaka bure kwa wiki moja; programu inaonyesha kama kipindi cha majaribio kinakuhusu. Usipoghairi angalau saa 24 kabla hakijaisha, usajili hujifanya upya kwa bei iliyoonyeshwa."
+            ]
+          },
+          {
+            "id": "family",
+            "q": "Je, familia yangu inaweza kutumia Pro pia?",
+            "a": [
+              "Ndiyo. SimpleTime Pro inafanya kazi na Kushiriki na Familia – ununuzi mmoja kwa hadi watu sita."
+            ]
+          },
+          {
+            "id": "restore-purchase",
+            "q": "Nimenunua Pro – ninaipataje kwenye vifaa vyangu vingine?",
+            "a": [
+              "Pro ni ya Akaunti yako ya Apple: kwenye vifaa vyako vingine vyenye akaunti ile ile, kwa kawaida inafunguliwa yenyewe. Isipofunguka, gusa “Rejesha manunuzi” huko chini ya Mipangilio › SimpleTime Pro.",
+              "Kwenye kifaa chenye Akaunti tofauti ya Apple, unapata Pro kupitia LaCodea ID: ingia kwa LaCodea ID ile ile kwenye vifaa vyote viwili. Ikiwa ulinunua Pro kabla ya kuingia, ingia pia kwa LaCodea ID yako kwenye kifaa chenye Akaunti ya Apple uliyotumia kununua – kutoka hapo SimpleTime huripoti ununuzi kwenye akaunti yako. Kisha ukurasa wa Pro unaonyesha “Kupitia LaCodea ID yako” na, kwa usajili, mahali ulipojisajili – hapo tu ndipo unaweza kuubadilisha."
+            ]
+          },
+          {
+            "id": "cancel",
+            "q": "Ninaghairije usajili wangu?",
+            "a": [
+              "Kwenye mipangilio yako ya App Store – kwenye iPhone chini ya Mipangilio › jina lako › Usajili – au ndani ya programu kwenye ukurasa wa Pro chini ya Dhibiti usajili. Hii inafanya kazi tu kwenye kifaa chenye Akaunti ya Apple uliyojisajili nayo; ikiwa una Pro kupitia LaCodea ID yako, ukurasa wa Pro unataja vifaa hivyo. Pro inaendelea kufanya kazi hadi mwisho wa kipindi ambacho tayari umekilipia, na kufuta LaCodea ID yako pia hakumalizi usajili."
+            ]
+          },
+          {
+            "id": "lifetime-switch",
+            "q": "Nina usajili – je, ninaweza kuhamia Milele?",
+            "a": [
+              "Ndiyo, moja kwa moja kwenye ukurasa wa Pro. Hata hivyo, Apple haimalizi usajili yenyewe: ughairi baadaye ili usijifanye upya. Programu itakukumbusha."
+            ]
+          },
+          {
+            "id": "pro-ends",
+            "q": "Nini kinatokea Pro ikiisha?",
+            "a": [
+              "Hakuna kinachopotea. Kumbukumbu, malengo na maeneo yako vinabaki vimehifadhiwa. Vipengele vya Pro vinafungwa tena – kwa mfano, maeneo hayaanzishi kazi tena – na kila kitu kinarudi mara tu Pro inapofanya kazi tena."
+            ]
+          },
+          {
+            "id": "pro-offline",
+            "q": "Je, Pro inahitaji muunganisho wa intaneti?",
+            "a": [
+              "Hapana. SimpleTime hukagua ununuzi wako kwa App Store – na, ukiwa umeingia kwa LaCodea ID, kwa akaunti yako pia – kila inapowezekana. Bila muunganisho, Pro inaendelea kufanya kazi – hadi wiki mbili bila mawasiliano."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "watch-places",
+        "title": "Apple Watch na maeneo",
+        "items": [
+          {
+            "id": "watch-setup",
+            "q": "Ninawekaje programu ya Apple Watch?",
+            "a": [
+              "Programu ya Apple Watch ni sehemu ya SimpleTime Pro. Isakinishe kwenye saa yako, kisha fungua SimpleTime kwenye iPhone yako mara moja – baada ya sekunde chache, saa inaonyesha kazi zako. iPhone yako inabaki kuwa chanzo: chochote saa inachoanzisha hupimwa huko, pamoja na Shughuli ile ile ya Moja kwa Moja na wijeti zile zile."
+            ]
+          },
+          {
+            "id": "watch-features",
+            "q": "Ninaweza kufanya nini kwenye Apple Watch yangu?",
+            "a": [
+              "Anzisha na simamisha kwenye kifundo cha mkono – vipendwa vyako, ulichotumia mwisho, au kazi yoyote kupitia utafutaji. Anza mapema: dakika 5, 15, 30 au 60 zilizopita, au bila pengo kuanzia mwisho wa kumbukumbu yako ya mwisho. Simamisha kwa kugusa mara mbili. Fuatilia siku, wiki na malengo yako, pamoja na muda unaoendelea kwenye uso wa saa na kwenye Smart Stack. iPhone yako ikiwa mbali, miguso yako huhifadhiwa pamoja na wakati wake na kuwasilishwa baadaye."
+            ]
+          },
+          {
+            "id": "places-how",
+            "q": "Maeneo yanafanyaje kazi?",
+            "a": [
+              "Ongeza eneo – kwa mfano ofisi yako au ukumbi wako wa mazoezi – lenye nusukipenyo cha mita 50 hadi kilomita 10 na uchague kazi. Unapofika, kazi huanza yenyewe, au SimpleTime huuliza kwanza. Ukiweka muda wa kusubiri, hakuna kinachoanza unapopita tu. Unapoondoka, kazi inaweza kusimama, na unaweza kuwekea eneo mipaka ya siku na nyakati fulani."
+            ]
+          },
+          {
+            "id": "places-late",
+            "q": "Kwa nini eneo linaanza kwa kuchelewa au halianzi kabisa?",
+            "a": [
+              "Maeneo yanahitaji ruhusa ya mahali iwe “Kila Wakati”, na “Mahali Mahususi” iwe imewashwa. iOS mara nyingi hugundua kwa kuchelewa kwamba umefika kwenye eneo lenye nusukipenyo cha chini ya mita 100 kwa sababu, chinichini, mahali ulipo kwa kawaida hutoka kwenye Wi-Fi na mtandao wa simu, si GPS – nusukipenyo kikubwa zaidi husaidia. iOS hufuatilia hadi maeneo 20 kwa kila programu, na kwenye Mac hakuna maeneo."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "more",
+        "title": "Zaidi",
+        "items": [
+          {
+            "id": "look",
+            "q": "Je, ninaweza kubadilisha mwonekano wa SimpleTime?",
+            "a": [
+              "Ndiyo: nuru, giza au kufuata mfumo, chaguo tatu za urefu wa mstari kwa orodha ya kazi, na kwenye Mipangilio › Fonti ukubwa wako mwenyewe wa maandishi na maandishi mazito. Ukiwa na SimpleTime Pro, unapata pia rangi saba za msisitizo au yako mwenyewe – inapita kwenye vitufe, swichi na chati –, fonti sita na, kwenye iPhone na iPad, aikoni kumi na sita za programu."
+            ]
+          },
+          {
+            "id": "accessibility",
+            "q": "Je, SimpleTime inafikika kwa wote?",
+            "a": [
+              "Ndiyo. VoiceOver husoma kwa sauti vitufe, chati na mstari wa muda katika kila lugha ya programu, na chati zinapatikana pia kama grafu za sauti. Maandishi hufuata ukubwa wa maandishi wa iOS hadi viwango vikubwa zaidi – ni kwenye sehemu ya juu na kwenye mstari wa muda tu ambapo hukua hadi kikomo fulani, ili chochote kisifunike vidhibiti. Maelezo zaidi yako katika [taarifa yetu ya ufikivu](@accessibility); kitu kisipokufanyia kazi, tafadhali tujulishe."
+            ]
+          },
+          {
+            "id": "freelance",
+            "q": "Je, SimpleTime inafaa kwa wanaojiajiri?",
+            "a": [
+              "Kwa kupima muda wako, ndiyo: tenganisha wateja na miradi kama kazi na kazi ndogo, na uhamishe ripoti ya PDF au faili ya CSV kila unapohitaji rekodi. Viwango vya malipo kwa saa na ankara si sehemu ya SimpleTime – kwa hayo, peleka faili uliyohamisha kwenye programu yako ya ankara."
+            ]
+          },
+          {
+            "id": "platforms",
+            "q": "Je, kuna toleo la Android, Windows au wavuti?",
+            "a": [
+              "Hapana. SimpleTime imetengenezwa kwa ajili ya iPhone, iPad, Mac na Apple Watch. Unaweza kuhamisha data yako kama CSV wakati wowote."
+            ]
+          },
+          {
+            "id": "account-web",
+            "q": "Ninaweza kufanya nini kwenye account.lacodea.com?",
+            "a": [
+              "Hapo unadhibiti LaCodea ID yako kwenye kivinjari: njia zako za kuingia, usajili wako, kupakua data ya akaunti yako na kufuta akaunti – katika SimpleTime, unafikia akaunti hiyo hiyo juu kabisa kwenye Mipangilio. Hutaona kumbukumbu zako hapo: zipo tu katika SimpleTime kwenye iPhone, iPad, Mac na Apple Watch. Ukisawazisha kupitia LaCodea ID, zimesimbwa fiche mwanzo hadi mwisho kwenye seva ya SimpleTime – LaCodea ID yenyewe haizipati kamwe."
+            ]
+          },
+          {
+            "id": "feedback",
+            "q": "Nimepata hitilafu au nina wazo – nilitume wapi?",
+            "a": [
+              "Tuandikie kwenye [contact@simple-time.app](mailto:contact@simple-time.app) – ukiwa ndani ya programu, unaweza pia kupitia Mipangilio › Maoni. Kwa hitilafu, tafadhali tuambie modeli ya kifaa chako, toleo lako la iOS, iPadOS au macOS na toleo lako la SimpleTime – utalipata kwenye Mipangilio › Kuhusu SimpleTime – na ueleze kwa ufupi ulichokuwa ukifanya. Kila ujumbe unasomwa."
+            ]
+          },
+          {
+            "id": "support-us",
+            "q": "Ninawezaje kuunga mkono SimpleTime?",
+            "a": [
+              "SimpleTime imetengenezwa na mtu mmoja. Ukadiriaji kwenye App Store unasaidia, vivyo hivyo kuwaambia wengine kuihusu – na SimpleTime Pro inafanya maendeleo yake yaendelee."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

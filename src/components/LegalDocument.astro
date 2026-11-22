@@ -59,8 +59,9 @@ const formatted = new Date(lastUpdated).toLocaleDateString(english ? 'en-US' : (
 <Layout lang={lang} path={path} title={`${title} · SimpleTime`} description={description}>
   <PageHeader title={title} />
 
-  <article class="mx-auto max-w-3xl px-5 py-16 sm:px-8 sm:py-20" lang={english ? 'en' : undefined}>
-    {english && <p class="mb-6 rounded-2xl bg-canvas-alt px-5 py-4 text-[15px] leading-relaxed text-muted dark:bg-surface" lang={lang}>{t('legal.englishOnly')}</p>}
+  {/* The English text reads left to right also on fa, ur and ps pages; the note keeps the page's direction. */}
+  <article class="mx-auto max-w-3xl px-5 py-16 sm:px-8 sm:py-20" lang={english ? 'en' : undefined} dir={english ? 'ltr' : undefined}>
+    {english && <p class="mb-6 rounded-2xl bg-canvas-alt px-5 py-4 text-[15px] leading-relaxed text-muted dark:bg-surface" lang={lang} dir="auto">{t('legal.englishOnly')}</p>}
     <p class="text-sm text-subtle">{doc.updated}: {formatted}</p>
 
     {

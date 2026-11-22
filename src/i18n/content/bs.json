@@ -781,7 +781,7 @@
             "id": "lacodea-id-delete",
             "q": "Kako se odjaviti ili obrisati svoj LaCodea ID?",
             "a": [
-              "Dodirni svoj LaCodea ID na samom vrhu Postavki: „Odjava“ te odjavljuje iz svih LaCodea aplikacija na ovom uređaju – tvoji podaci ostaju ovdje i ponovo se sinhroniziraju čim se prijaviš. „Prekini vezu s aplikacijom SimpleTime“ samo odvaja SimpleTime od tvog računa; „Obriši LaCodea ID“ briše račun za sve LaCodea aplikacije – to možeš uraditi i na account.lacodea.com. I kod prekida veze i kod brisanja server aplikacije SimpleTime tamo briše tvoje sinhronizirane podatke; ono što je na tvojim uređajima ili u iCloudu ostaje. Pretplata putem Applea traje dok je ne otkažeš u postavkama svog uređaja."
+              "Dodirni svoj LaCodea ID na samom vrhu Postavki: „Odjavi se“ te odjavljuje iz svih LaCodea aplikacija na ovom uređaju – tvoji podaci ostaju ovdje i ponovo se sinhroniziraju čim se prijaviš. „Prekini vezu s aplikacijom SimpleTime“ samo odvaja SimpleTime od tvog računa; „Obriši LaCodea ID“ briše račun za sve LaCodea aplikacije – to možeš uraditi i na account.lacodea.com. I kod prekida veze i kod brisanja server aplikacije SimpleTime tamo briše tvoje sinhronizirane podatke; ono što je na tvojim uređajima ili u iCloudu ostaje. Pretplata putem Applea traje dok je ne otkažeš u postavkama svog uređaja."
             ]
           }
         ]

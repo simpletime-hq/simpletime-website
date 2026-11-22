@@ -781,7 +781,7 @@
             "id": "lacodea-id-delete",
             "q": "Como encerro a sessão ou apago meu LaCodea ID?",
             "a": [
-              "Toque no seu LaCodea ID no topo dos Ajustes: “Finalizar sessão” encerra a sessão em todos os apps da LaCodea neste dispositivo – seus dados ficam aqui e voltam a sincronizar assim que você iniciar sessão. “Desvincular o SimpleTime” só desconecta o SimpleTime da sua conta; “Apagar o LaCodea ID” apaga a conta para todos os apps da LaCodea – isso também pode ser feito em account.lacodea.com. Tanto ao desvincular quanto ao apagar, o servidor do SimpleTime apaga lá os seus dados sincronizados; o que está nos seus dispositivos ou no iCloud continua. Uma assinatura pela Apple continua até você cancelá-la nos ajustes do seu dispositivo."
+              "Toque no seu LaCodea ID no topo dos Ajustes: “Finalizar sessão” encerra a sessão em todos os apps da LaCodea neste dispositivo – seus dados ficam aqui e voltam a sincronizar assim que você iniciar sessão. “Desconectar o SimpleTime” só desconecta o SimpleTime da sua conta; “Apagar o LaCodea ID” apaga a conta para todos os apps da LaCodea – isso também pode ser feito em account.lacodea.com. Tanto ao desvincular quanto ao apagar, o servidor do SimpleTime apaga lá os seus dados sincronizados; o que está nos seus dispositivos ou no iCloud continua. Uma assinatura pela Apple continua até você cancelá-la nos ajustes do seu dispositivo."
             ]
           }
         ]

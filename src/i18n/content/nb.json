@@ -58,7 +58,7 @@
         "title": "På alle enheter",
         "points": [
           "iPhone, iPad og Mac, holdt i synk via iCloud eller LaCodea ID",
-          "41 språk, uavhengig av språket på enheten din",
+          "51 språk, uavhengig av språket på enheten din",
           "VoiceOver og dynamisk tekst overalt"
         ]
       },
@@ -305,7 +305,7 @@
     "terms": "Bruksvilkår (EULA)",
     "privacy": "Personvernerklæring",
     "freeTitle": "Dette forblir gratis",
-    "freeBody": "Alt du trenger for å registrere: oppgaver og underoppgaver, faste tider, dagsvisningen og tidslinjen, diagrammer og statistikk, PDF-rapporten og CSV-eksporten, widgeter, Live-aktiviteten, Kontrollsenter og Siri, synkronisering via iCloud eller LaCodea ID, sikkerhetskopiplaner og applåsen – på 41 språk. Ingen konto, ingen reklame, ikke noe salg av dataene dine.",
+    "freeBody": "Alt du trenger for å registrere: oppgaver og underoppgaver, faste tider, dagsvisningen og tidslinjen, diagrammer og statistikk, PDF-rapporten og CSV-eksporten, widgeter, Live-aktiviteten, Kontrollsenter og Siri, synkronisering via iCloud eller LaCodea ID, sikkerhetskopiplaner og applåsen – på 51 språk. Ingen konto, ingen reklame, ikke noe salg av dataene dine.",
     "howTitle": "Slik får du Pro",
     "how": [
       "Åpne Innstillinger › SimpleTime Pro i SimpleTime.",
@@ -386,7 +386,7 @@
             "id": "languages",
             "q": "Hvilke språk snakker SimpleTime?",
             "a": [
-              "41 – fra norsk, engelsk og tysk til arabisk, hindi og japansk. Under Innstillinger › Språk kan du velge språket i appen uavhengig av språket på enheten din."
+              "51 – fra norsk, engelsk og tysk til arabisk, hindi og japansk. Under Innstillinger › Språk kan du velge språket i appen uavhengig av språket på enheten din."
             ]
           },
           {

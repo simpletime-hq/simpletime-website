@@ -58,7 +58,7 @@
         "title": "Minden készüléken",
         "points": [
           "iPhone, iPad és Mac, iClouddal vagy a LaCodea ID-val szinkronban",
-          "41 nyelv, a készülék nyelvétől függetlenül",
+          "51 nyelv, a készülék nyelvétől függetlenül",
           "VoiceOver és Dynamic Type mindenütt"
         ]
       },
@@ -305,7 +305,7 @@
     "terms": "Felhasználási feltételek (EULA)",
     "privacy": "Adatvédelmi nyilatkozat",
     "freeTitle": "Ami ingyenes marad",
-    "freeBody": "Minden, ami a méréshez kell: feladatok és alfeladatok, Fix időpontok, napi nézet és idővonal, diagramok és statisztika, PDF-jelentés és CSV-export, widgetek, az élő tevékenység, a Vezérlőközpont és a Siri, szinkronizálás az iClouddal vagy a LaCodea ID-val, mentési tervek és az alkalmazászár – 41 nyelven. Nem kell fiók, nincs hirdetés, és nem adjuk el az adataidat.",
+    "freeBody": "Minden, ami a méréshez kell: feladatok és alfeladatok, Fix időpontok, napi nézet és idővonal, diagramok és statisztika, PDF-jelentés és CSV-export, widgetek, az élő tevékenység, a Vezérlőközpont és a Siri, szinkronizálás az iClouddal vagy a LaCodea ID-val, mentési tervek és az alkalmazászár – 51 nyelven. Nem kell fiók, nincs hirdetés, és nem adjuk el az adataidat.",
     "howTitle": "Így kapod meg a Prót",
     "how": [
       "A SimpleTime-ban nyisd meg a Beállítások › SimpleTime Pro menüt.",
@@ -386,7 +386,7 @@
             "id": "languages",
             "q": "Milyen nyelveken beszél a SimpleTime?",
             "a": [
-              "41 nyelven – az angoltól és a némettől az arabig, a hindiig és a japánig. A Beállítások › Nyelv alatt az app nyelvét a készüléked nyelvétől függetlenül választhatod ki."
+              "51 nyelven – az angoltól és a némettől az arabig, a hindiig és a japánig. A Beállítások › Nyelv alatt az app nyelvét a készüléked nyelvétől függetlenül választhatod ki."
             ]
           },
           {

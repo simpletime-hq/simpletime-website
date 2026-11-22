@@ -58,7 +58,7 @@
         "title": "Qalab kasta",
         "points": [
           "iPhone, iPad iyo Mac, oo la isku-waafajiyo iyadoo loo marayo iCloud ama LaCodea ID",
-          "41 luqadood, oo aan ku xirnayn luqadda qalabkaaga",
+          "51 luqadood, oo aan ku xirnayn luqadda qalabkaaga",
           "VoiceOver iyo Dynamic Type app-ka oo dhan"
         ]
       },
@@ -305,7 +305,7 @@
     "terms": "Shuruudaha Isticmaalka (EULA)",
     "privacy": "Siyaasadda Asturnaanta",
     "freeTitle": "Waxa bilaash ahaanaya",
-    "freeBody": "Wax kasta oo aad diiwaangelinta ugu baahan tahay: hawlo iyo hawlo hoose, Waqtiyada go'an, aragtida maalinta iyo khadka waqtiga, jaantusyo iyo tirakoob, warbixinta PDF iyo dhoofinta CSV, widgets, Dhaqdhaqaaqa Tooska ah, Xarunta Xakamaynta iyo Siri, isku-waafajinta iCloud ama LaCodea ID, qorshayaasha kaydka iyo qufulka app-ka – 41 luqadood. Akoon la'aan, xayaysiis la'aan, xogtaadana lama iibiyo.",
+    "freeBody": "Wax kasta oo aad diiwaangelinta ugu baahan tahay: hawlo iyo hawlo hoose, Waqtiyada go'an, aragtida maalinta iyo khadka waqtiga, jaantusyo iyo tirakoob, warbixinta PDF iyo dhoofinta CSV, widgets, Dhaqdhaqaaqa Tooska ah, Xarunta Xakamaynta iyo Siri, isku-waafajinta iCloud ama LaCodea ID, qorshayaasha kaydka iyo qufulka app-ka – 51 luqadood. Akoon la'aan, xayaysiis la'aan, xogtaadana lama iibiyo.",
     "howTitle": "Sida Pro loo helo",
     "how": [
       "SimpleTime gudihiisa, fur Dejinta › SimpleTime Pro.",
@@ -386,7 +386,7 @@
             "id": "languages",
             "q": "SimpleTime luqadahee ayuu ku hadlaa?",
             "a": [
-              "41 – laga bilaabo af-Ingiriis iyo af-Jarmal ilaa af-Carabi, af-Hindi iyo af-Jabbaaniis. Dejinta › Luqadda ayaad ka dooran kartaa luqadda app-ka, adigoon ku xirnayn luqadda qalabkaaga."
+              "51 – laga bilaabo af-Ingiriis iyo af-Jarmal ilaa af-Carabi, af-Hindi iyo af-Jabbaaniis. Dejinta › Luqadda ayaad ka dooran kartaa luqadda app-ka, adigoon ku xirnayn luqadda qalabkaaga."
             ]
           },
           {

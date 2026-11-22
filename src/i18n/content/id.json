@@ -58,7 +58,7 @@
         "title": "Di setiap perangkat",
         "points": [
           "iPhone, iPad, dan Mac, selaras lewat iCloud atau LaCodea ID",
-          "41 bahasa, terlepas dari bahasa perangkat Anda",
+          "51 bahasa, terlepas dari bahasa perangkat Anda",
           "VoiceOver dan Dynamic Type di mana-mana"
         ]
       },
@@ -305,7 +305,7 @@
     "terms": "Ketentuan penggunaan (EULA)",
     "privacy": "Kebijakan privasi",
     "freeTitle": "Yang tetap gratis",
-    "freeBody": "Semua yang Anda perlukan untuk mencatat: tugas dan subtugas, Jadwal tetap, tampilan hari dan linimasa, diagram dan statistik, laporan PDF dan ekspor CSV, widget, Aktivitas Langsung, Pusat Kontrol dan Siri, sinkronisasi lewat iCloud atau LaCodea ID, rencana cadangan, dan kunci aplikasi – dalam 41 bahasa. Tanpa akun, tanpa iklan, data Anda tidak dijual.",
+    "freeBody": "Semua yang Anda perlukan untuk mencatat: tugas dan subtugas, Jadwal tetap, tampilan hari dan linimasa, diagram dan statistik, laporan PDF dan ekspor CSV, widget, Aktivitas Langsung, Pusat Kontrol dan Siri, sinkronisasi lewat iCloud atau LaCodea ID, rencana cadangan, dan kunci aplikasi – dalam 51 bahasa. Tanpa akun, tanpa iklan, data Anda tidak dijual.",
     "howTitle": "Cara mendapatkan Pro",
     "how": [
       "Di SimpleTime, buka Pengaturan › SimpleTime Pro.",
@@ -386,7 +386,7 @@
             "id": "languages",
             "q": "SimpleTime tersedia dalam bahasa apa saja?",
             "a": [
-              "41 – dari bahasa Inggris dan Jerman hingga Arab, Hindi, dan Jepang. Di Pengaturan › Bahasa, Anda bisa memilih bahasa aplikasi terlepas dari bahasa perangkat Anda."
+              "51 – dari bahasa Inggris dan Jerman hingga Arab, Hindi, dan Jepang. Di Pengaturan › Bahasa, Anda bisa memilih bahasa aplikasi terlepas dari bahasa perangkat Anda."
             ]
           },
           {

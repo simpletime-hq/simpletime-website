@@ -58,7 +58,7 @@
         "title": "Sur tous vos appareils",
         "points": [
           "iPhone, iPad et Mac, synchronisés via iCloud ou LaCodea ID",
-          "41 langues, indépendamment de celle de votre appareil",
+          "51 langues, indépendamment de celle de votre appareil",
           "VoiceOver et Dynamic Type dans toute l'app"
         ]
       },
@@ -305,7 +305,7 @@
     "terms": "Conditions d’utilisation (CLUF)",
     "privacy": "Politique de confidentialité",
     "freeTitle": "Ce qui reste gratuit",
-    "freeBody": "Tout ce qu’il faut pour suivre votre temps : tâches et sous-tâches, horaires fixes, vue du jour et frise, graphiques et statistiques, rapport PDF et export CSV, widgets, activité en direct, centre de contrôle et Siri, synchronisation via iCloud ou LaCodea ID, plans de sauvegarde et le verrouillage de l’app – en 41 langues. Sans compte, sans publicité, sans vente de vos données.",
+    "freeBody": "Tout ce qu’il faut pour suivre votre temps : tâches et sous-tâches, horaires fixes, vue du jour et frise, graphiques et statistiques, rapport PDF et export CSV, widgets, activité en direct, centre de contrôle et Siri, synchronisation via iCloud ou LaCodea ID, plans de sauvegarde et le verrouillage de l’app – en 51 langues. Sans compte, sans publicité, sans vente de vos données.",
     "howTitle": "Comment obtenir Pro",
     "how": [
       "Dans SimpleTime, ouvrez Paramètres › SimpleTime Pro.",
@@ -386,7 +386,7 @@
             "id": "languages",
             "q": "Quelles langues SimpleTime parle-t-il ?",
             "a": [
-              "41 – de l’anglais et de l’allemand à l’arabe, au hindi et au japonais. Dans Paramètres › Langue, vous choisissez la langue de l’app indépendamment de celle de votre appareil."
+              "51 – de l’anglais et de l’allemand à l’arabe, au hindi et au japonais. Dans Paramètres › Langue, vous choisissez la langue de l’app indépendamment de celle de votre appareil."
             ]
           },
           {

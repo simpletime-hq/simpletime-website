@@ -58,7 +58,7 @@
         "title": "Kwenye kila kifaa",
         "points": [
           "iPhone, iPad na Mac, zikisawazishwa kupitia iCloud au LaCodea ID",
-          "Lugha 41 – bila kutegemea lugha ya kifaa chako",
+          "Lugha 51 – bila kutegemea lugha ya kifaa chako",
           "VoiceOver na Dynamic Type kwenye programu nzima"
         ]
       },
@@ -305,7 +305,7 @@
     "terms": "Masharti ya matumizi (EULA)",
     "privacy": "Sera ya faragha",
     "freeTitle": "Kinachobaki bure",
-    "freeBody": "Kila unachohitaji kwa upimaji: kazi na kazi ndogo, Nyakati za kudumu, mwonekano wa siku na mstari wa muda, chati na takwimu, ripoti ya PDF na uhamishaji wa CSV, wijeti, Shughuli ya Moja kwa Moja, Kituo cha Udhibiti na Siri, usawazishaji kupitia iCloud au LaCodea ID, mipango ya nakala rudufu na kufunga programu – kwa lugha 41 tofauti. Bila akaunti, bila matangazo, data yako haiuzwi.",
+    "freeBody": "Kila unachohitaji kwa upimaji: kazi na kazi ndogo, Nyakati za kudumu, mwonekano wa siku na mstari wa muda, chati na takwimu, ripoti ya PDF na uhamishaji wa CSV, wijeti, Shughuli ya Moja kwa Moja, Kituo cha Udhibiti na Siri, usawazishaji kupitia iCloud au LaCodea ID, mipango ya nakala rudufu na kufunga programu – kwa lugha 51 tofauti. Bila akaunti, bila matangazo, data yako haiuzwi.",
     "howTitle": "Jinsi ya kupata Pro",
     "how": [
       "Katika SimpleTime, fungua Mipangilio › SimpleTime Pro.",
@@ -386,7 +386,7 @@
             "id": "languages",
             "q": "SimpleTime inazungumza lugha gani?",
             "a": [
-              "41 – kuanzia Kiingereza na Kijerumani hadi Kiarabu, Kihindi na Kijapani. Kwenye Mipangilio › Lugha, unaweza kuchagua lugha ya programu bila kutegemea lugha ya kifaa chako."
+              "51 – kuanzia Kiingereza na Kijerumani hadi Kiarabu, Kihindi na Kijapani. Kwenye Mipangilio › Lugha, unaweza kuchagua lugha ya programu bila kutegemea lugha ya kifaa chako."
             ]
           },
           {

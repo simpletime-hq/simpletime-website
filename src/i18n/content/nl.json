@@ -58,7 +58,7 @@
         "title": "Op al je apparaten",
         "points": [
           "iPhone, iPad en Mac, gesynchroniseerd via iCloud of LaCodea ID",
-          "41 talen, los van de taal van je apparaat",
+          "51 talen, los van de taal van je apparaat",
           "VoiceOver en dynamische tekst in de hele app"
         ]
       },
@@ -305,7 +305,7 @@
     "terms": "Gebruiksvoorwaarden (EULA)",
     "privacy": "Privacybeleid",
     "freeTitle": "Wat gratis blijft",
-    "freeBody": "Alles wat je nodig hebt om te registreren: taken en subtaken, vaste tijden, de dagweergave en de tijdlijn, grafieken en statistieken, het pdf-rapport en de CSV-export, widgets, de Live activiteit, het bedieningspaneel en Siri, synchronisatie via iCloud of LaCodea ID, back-upplannen, en de app-vergrendeling – in 41 talen. Geen account, geen advertenties, geen verkoop van je gegevens.",
+    "freeBody": "Alles wat je nodig hebt om te registreren: taken en subtaken, vaste tijden, de dagweergave en de tijdlijn, grafieken en statistieken, het pdf-rapport en de CSV-export, widgets, de Live activiteit, het bedieningspaneel en Siri, synchronisatie via iCloud of LaCodea ID, back-upplannen, en de app-vergrendeling – in 51 talen. Geen account, geen advertenties, geen verkoop van je gegevens.",
     "howTitle": "Zo krijg je Pro",
     "how": [
       "Open in SimpleTime Instellingen › SimpleTime Pro.",
@@ -386,7 +386,7 @@
             "id": "languages",
             "q": "Welke talen spreekt SimpleTime?",
             "a": [
-              "41 – van Nederlands, Engels en Duits tot Arabisch, Hindi en Japans. Onder Instellingen › Taal kies je de taal van de app, los van de taal van je apparaat."
+              "51 – van Nederlands, Engels en Duits tot Arabisch, Hindi en Japans. Onder Instellingen › Taal kies je de taal van de app, los van de taal van je apparaat."
             ]
           },
           {

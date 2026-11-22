@@ -58,7 +58,7 @@
         "title": "Kaikilla laitteilla",
         "points": [
           "iPhone, iPad ja Mac, iCloudin tai LaCodea ID:n kautta synkronoituna",
-          "41 kieltä, laitteesi kielestä riippumatta",
+          "51 kieltä, laitteesi kielestä riippumatta",
           "VoiceOver ja dynaaminen teksti kaikkialla"
         ]
       },
@@ -305,7 +305,7 @@
     "terms": "Käyttöehdot (EULA)",
     "privacy": "Tietosuojakäytäntö",
     "freeTitle": "Mikä pysyy ilmaisena",
-    "freeBody": "Kaikki, mitä kirjaamiseen tarvitset: tehtävät ja alatehtävät, kiinteät ajat, päivänäkymä ja aikajana, kaaviot ja tilastot, PDF-raportti ja CSV-vienti, widgetit, liveseuranta, Ohjauskeskus ja Siri, synkronointi iCloudin tai LaCodea ID:n kautta, varmuuskopiosuunnitelmat ja apin lukitus – 41 kielellä. Ei tiliä, ei mainoksia, ei tietojesi myyntiä.",
+    "freeBody": "Kaikki, mitä kirjaamiseen tarvitset: tehtävät ja alatehtävät, kiinteät ajat, päivänäkymä ja aikajana, kaaviot ja tilastot, PDF-raportti ja CSV-vienti, widgetit, liveseuranta, Ohjauskeskus ja Siri, synkronointi iCloudin tai LaCodea ID:n kautta, varmuuskopiosuunnitelmat ja apin lukitus – 51 kielellä. Ei tiliä, ei mainoksia, ei tietojesi myyntiä.",
     "howTitle": "Näin saat Pron",
     "how": [
       "Avaa SimpleTimessa Asetukset › SimpleTime Pro.",
@@ -386,7 +386,7 @@
             "id": "languages",
             "q": "Mitä kieliä SimpleTime puhuu?",
             "a": [
-              "41 – suomesta, englannista ja saksasta arabiaan, hindiin ja japaniin. Kohdassa Asetukset › Kieli voit valita apin kielen laitteesi kielestä riippumatta."
+              "51 – suomesta, englannista ja saksasta arabiaan, hindiin ja japaniin. Kohdassa Asetukset › Kieli voit valita apin kielen laitteesi kielestä riippumatta."
             ]
           },
           {

@@ -58,7 +58,7 @@
         "title": "En todos tus dispositivos",
         "points": [
           "iPhone, iPad y Mac, sincronizados por iCloud o LaCodea ID",
-          "41 idiomas, independientes del idioma del dispositivo",
+          "51 idiomas, independientes del idioma del dispositivo",
           "VoiceOver y texto dinámico en toda la app"
         ]
       },
@@ -305,7 +305,7 @@
     "terms": "Términos de uso (EULA)",
     "privacy": "Política de privacidad",
     "freeTitle": "Lo que sigue siendo gratis",
-    "freeBody": "Todo lo que necesitas para registrar tu tiempo: tareas y subtareas, los horarios fijos, la vista del día y la línea de tiempo, gráficos y estadísticas, el informe PDF y la exportación CSV, los widgets, la actividad en directo, el centro de control y Siri, la sincronización con iCloud o LaCodea ID, los planes de copia de seguridad y el bloqueo de la app – en 41 idiomas. Sin cuenta, sin publicidad, sin venta de tus datos.",
+    "freeBody": "Todo lo que necesitas para registrar tu tiempo: tareas y subtareas, los horarios fijos, la vista del día y la línea de tiempo, gráficos y estadísticas, el informe PDF y la exportación CSV, los widgets, la actividad en directo, el centro de control y Siri, la sincronización con iCloud o LaCodea ID, los planes de copia de seguridad y el bloqueo de la app – en 51 idiomas. Sin cuenta, sin publicidad, sin venta de tus datos.",
     "howTitle": "Cómo conseguir Pro",
     "how": [
       "En SimpleTime, abre Ajustes › SimpleTime Pro.",
@@ -386,7 +386,7 @@
             "id": "languages",
             "q": "¿Qué idiomas habla SimpleTime?",
             "a": [
-              "41 – del español y el inglés al árabe, el hindi y el japonés. En Ajustes › Idioma puedes elegir el idioma de la app, independientemente del idioma de tu dispositivo."
+              "51 – del español y el inglés al árabe, el hindi y el japonés. En Ajustes › Idioma puedes elegir el idioma de la app, independientemente del idioma de tu dispositivo."
             ]
           },
           {

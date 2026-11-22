@@ -58,7 +58,7 @@
         "title": "Em todos os dispositivos",
         "points": [
           "iPhone, iPad e Mac, sincronizados pelo iCloud ou pelo LaCodea ID",
-          "41 idiomas, independentes do idioma do dispositivo",
+          "51 idiomas, independentes do idioma do dispositivo",
           "VoiceOver e Fonte Dinâmica em todo o app"
         ]
       },
@@ -305,7 +305,7 @@
     "terms": "Termos de Uso (EULA)",
     "privacy": "Política de Privacidade",
     "freeTitle": "O que continua gratuito",
-    "freeBody": "Tudo o que você precisa para registrar: tarefas e subtarefas, Horários Fixos, a visão do dia e a linha do tempo, gráficos e estatísticas, o relatório em PDF e a exportação em CSV, widgets, a Atividade ao Vivo, a Central de Controle e a Siri, a sincronização pelo iCloud ou pelo LaCodea ID, os planos de backup e o bloqueio do app – em 41 idiomas. Sem conta, sem anúncios, sem venda dos seus dados.",
+    "freeBody": "Tudo o que você precisa para registrar: tarefas e subtarefas, Horários Fixos, a visão do dia e a linha do tempo, gráficos e estatísticas, o relatório em PDF e a exportação em CSV, widgets, a Atividade ao Vivo, a Central de Controle e a Siri, a sincronização pelo iCloud ou pelo LaCodea ID, os planos de backup e o bloqueio do app – em 51 idiomas. Sem conta, sem anúncios, sem venda dos seus dados.",
     "howTitle": "Como obter o Pro",
     "how": [
       "No SimpleTime, abra Ajustes › SimpleTime Pro.",
@@ -386,7 +386,7 @@
             "id": "languages",
             "q": "Quais idiomas o SimpleTime fala?",
             "a": [
-              "41 – do português e do inglês ao árabe, ao hindi e ao japonês. Em Ajustes › Idioma, você escolhe o idioma do app independentemente do idioma do seu dispositivo."
+              "51 – do português e do inglês ao árabe, ao hindi e ao japonês. Em Ajustes › Idioma, você escolhe o idioma do app independentemente do idioma do seu dispositivo."
             ]
           },
           {

@@ -58,7 +58,7 @@
         "title": "Na svakom uređaju",
         "points": [
           "iPhone, iPad i Mac, sinhronizirani putem iClouda ili LaCodea ID-ja",
-          "41 jezik, nezavisno od jezika tvog uređaja",
+          "51 jezik, nezavisno od jezika tvog uređaja",
           "VoiceOver i Dynamic Type u cijeloj aplikaciji"
         ]
       },
@@ -305,7 +305,7 @@
     "terms": "Uslovi korištenja (EULA)",
     "privacy": "Politika privatnosti",
     "freeTitle": "Šta ostaje besplatno",
-    "freeBody": "Sve što ti treba za mjerenje: zadaci i podzadaci, stalni termini, prikaz dana i vremenska linija, dijagrami i statistika, PDF izvještaj i CSV izvoz, widgeti, aktivnost uživo, Kontrolni centar i Siri, sinhronizacija putem iClouda ili LaCodea ID-ja, planovi sigurnosnih kopija i zaključavanje aplikacije – na 41 jeziku. Bez računa, bez reklama, bez prodaje tvojih podataka.",
+    "freeBody": "Sve što ti treba za mjerenje: zadaci i podzadaci, stalni termini, prikaz dana i vremenska linija, dijagrami i statistika, PDF izvještaj i CSV izvoz, widgeti, aktivnost uživo, Kontrolni centar i Siri, sinhronizacija putem iClouda ili LaCodea ID-ja, planovi sigurnosnih kopija i zaključavanje aplikacije – na 51 jeziku. Bez računa, bez reklama, bez prodaje tvojih podataka.",
     "howTitle": "Kako dobiti Pro",
     "how": [
       "U aplikaciji SimpleTime otvori Postavke › SimpleTime Pro.",
@@ -386,7 +386,7 @@
             "id": "languages",
             "q": "Koje jezike govori SimpleTime?",
             "a": [
-              "41 – od engleskog i njemačkog do arapskog, hindskog i japanskog. Pod Postavke › Jezik možeš odabrati jezik aplikacije nezavisno od jezika svog uređaja."
+              "51 – od engleskog i njemačkog do arapskog, hindskog i japanskog. Pod Postavke › Jezik možeš odabrati jezik aplikacije nezavisno od jezika svog uređaja."
             ]
           },
           {

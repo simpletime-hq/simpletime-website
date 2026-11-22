@@ -71,7 +71,7 @@ export const ui = {
     'meta.terms.description':
       'The terms of use for SimpleTime: a free app, SimpleTime Pro through the App Store, subscriptions and the free week, your data, liability and applicable law.',
     'meta.accessibility.description':
-      'How accessible SimpleTime and this website are: VoiceOver, large text, 41 languages, automated checks – and what isn’t good yet.',
+      'How accessible SimpleTime and this website are: VoiceOver, large text, 51 languages, automated checks – and what isn’t good yet.',
     'meta.pro.title': 'SimpleTime Pro – Apple Watch, places, goals and more',
     'meta.pro.description':
       'SimpleTime stays free. Pro adds the Apple Watch app, reviews, places, goals, a focus filter and more – monthly, yearly or once for good.',
@@ -165,7 +165,7 @@ export const ui = {
     'meta.terms.description':
       'Die Nutzungsbedingungen von SimpleTime: kostenlose App, SimpleTime Pro über den App Store, Abos und Testwoche, deine Daten, Haftung und anwendbares Recht.',
     'meta.accessibility.description':
-      'Wie zugänglich SimpleTime und diese Website sind: VoiceOver, große Schrift, 41 Sprachen, automatische Prüfungen – und was noch nicht gut ist.',
+      'Wie zugänglich SimpleTime und diese Website sind: VoiceOver, große Schrift, 51 Sprachen, automatische Prüfungen – und was noch nicht gut ist.',
     'meta.pro.title': 'SimpleTime Pro – Apple Watch, Orte, Ziele und mehr',
     'meta.pro.description':
       'SimpleTime bleibt kostenlos. Pro bringt die Apple-Watch-App, Rückblicke, Orte, Ziele, den Fokusfilter und mehr – im Monat, im Jahr oder einmalig für immer.',
@@ -256,7 +256,7 @@ export const ui = {
     'meta.terms.description':
       'Les conditions d’utilisation de SimpleTime : une app gratuite, SimpleTime Pro via l’App Store, abonnements et semaine d’essai, responsabilité et droit applicable.',
     'meta.accessibility.description':
-      'Le niveau d’accessibilité de SimpleTime et de ce site : VoiceOver, grands caractères, 41 langues, vérifications automatiques – et ce qui n’est pas encore au point.',
+      'Le niveau d’accessibilité de SimpleTime et de ce site : VoiceOver, grands caractères, 51 langues, vérifications automatiques – et ce qui n’est pas encore au point.',
     'meta.pro.title': 'SimpleTime Pro – Apple Watch, lieux, objectifs et plus encore',
     'meta.pro.description':
       'SimpleTime reste gratuit. Pro ajoute l’app Apple Watch, bilans, lieux, objectifs, filtre de concentration et plus encore – au mois, à l’année ou une fois pour toutes.',
@@ -347,7 +347,7 @@ export const ui = {
     'meta.terms.description':
       'Las condiciones de uso de SimpleTime: una app gratuita, SimpleTime Pro a través del App Store, suscripciones y semana de prueba, responsabilidad y derecho aplicable.',
     'meta.accessibility.description':
-      'Lo accesibles que son SimpleTime y esta web: VoiceOver, texto grande, 41 idiomas, comprobaciones automáticas y lo que aún no está bien.',
+      'Lo accesibles que son SimpleTime y esta web: VoiceOver, texto grande, 51 idiomas, comprobaciones automáticas y lo que aún no está bien.',
     'meta.pro.title': 'SimpleTime Pro – Apple Watch, lugares, objetivos y más',
     'meta.pro.description':
       'SimpleTime sigue siendo gratis. Pro añade la app para Apple Watch, resúmenes, lugares, objetivos, el filtro de concentración y más – por mes, por año o de por vida.',
@@ -438,7 +438,7 @@ export const ui = {
     'meta.terms.description':
       'Le condizioni d’uso di SimpleTime: un’app gratuita, SimpleTime Pro tramite l’App Store, abbonamenti e settimana di prova, i tuoi dati, responsabilità e legge applicabile.',
     'meta.accessibility.description':
-      'Quanto sono accessibili SimpleTime e questo sito: VoiceOver, testo grande, 41 lingue, controlli automatici – e cosa non va ancora bene.',
+      'Quanto sono accessibili SimpleTime e questo sito: VoiceOver, testo grande, 51 lingue, controlli automatici – e cosa non va ancora bene.',
     'meta.pro.title': 'SimpleTime Pro – Apple Watch, luoghi, obiettivi e altro',
     'meta.pro.description':
       'SimpleTime resta gratuito. Pro aggiunge l’app per Apple Watch, riepiloghi, luoghi, obiettivi, filtro Full Immersion e altro – al mese, all’anno o una volta per sempre.',
@@ -529,7 +529,7 @@ export const ui = {
     'meta.terms.description':
       'Условия использования SimpleTime: бесплатное приложение, SimpleTime Pro через App Store, подписки и пробная неделя, ваши данные, ответственность и применимое право.',
     'meta.accessibility.description':
-      'Насколько доступны SimpleTime и этот сайт: VoiceOver, крупный текст, 41 язык, автоматические проверки — и что пока не так.',
+      'Насколько доступны SimpleTime и этот сайт: VoiceOver, крупный текст, 51 язык, автоматические проверки — и что пока не так.',
     'meta.pro.title': 'SimpleTime Pro – Apple Watch, места, цели и многое другое',
     'meta.pro.description':
       'SimpleTime остаётся бесплатным. Pro добавляет приложение для Apple Watch, итоги, места, цели, фильтр фокусирования и многое другое — на месяц, на год или навсегда.',
@@ -620,7 +620,7 @@ export const ui = {
     'meta.terms.description':
       'SimpleTime-ի օգտագործման պայմանները՝ անվճար հավելված, SimpleTime Pro App Store-ի միջոցով, բաժանորդագրություններ և փորձնական շաբաթ, պատասխանատվություն և կիրառելի իրավունք։',
     'meta.accessibility.description':
-      'Որքանով են մատչելի SimpleTime-ը և այս կայքը՝ VoiceOver, խոշոր տեքստ, 41 լեզու, ավտոմատ ստուգումներ, և ինչը դեռ լավ չէ։',
+      'Որքանով են մատչելի SimpleTime-ը և այս կայքը՝ VoiceOver, խոշոր տեքստ, 51 լեզու, ավտոմատ ստուգումներ, և ինչը դեռ լավ չէ։',
     'meta.pro.title': 'SimpleTime Pro – Apple Watch, վայրեր, նպատակներ և ավելին',
     'meta.pro.description':
       'SimpleTime-ը մնում է անվճար։ Pro-ն ավելացնում է Apple Watch-ի հավելվածը, ամփոփումներ, վայրեր, նպատակներ, կենտրոնացման զտիչ և ավելին՝ ամսական, տարեկան կամ ցմահ։',
@@ -711,7 +711,7 @@ export const ui = {
     'meta.terms.description':
       'As condições de utilização do SimpleTime: uma app gratuita, o SimpleTime Pro através da App Store, subscrições e semana de experiência, responsabilidade e lei aplicável.',
     'meta.accessibility.description':
-      'Quão acessíveis são o SimpleTime e este site: VoiceOver, texto grande, 41 idiomas, verificações automáticas – e o que ainda não está bem.',
+      'Quão acessíveis são o SimpleTime e este site: VoiceOver, texto grande, 51 idiomas, verificações automáticas – e o que ainda não está bem.',
     'meta.pro.title': 'SimpleTime Pro – Apple Watch, locais, metas e mais',
     'meta.pro.description':
       'O SimpleTime continua gratuito. O Pro acrescenta a app para o Apple Watch, resumos, locais, metas, o filtro de concentração e mais – ao mês, ao ano ou para sempre.',
@@ -802,7 +802,7 @@ export const ui = {
     'meta.terms.description':
       'SimpleTime kullanım koşulları: ücretsiz bir uygulama, App Store üzerinden SimpleTime Pro, abonelikler ve deneme haftası, verilerin, sorumluluk ve uygulanacak hukuk.',
     'meta.accessibility.description':
-      'SimpleTime ve bu web sitesi ne kadar erişilebilir: VoiceOver, büyük metin, 41 dil, otomatik denetimler – ve henüz iyi olmayanlar.',
+      'SimpleTime ve bu web sitesi ne kadar erişilebilir: VoiceOver, büyük metin, 51 dil, otomatik denetimler – ve henüz iyi olmayanlar.',
     'meta.pro.title': 'SimpleTime Pro – Apple Watch, yerler, hedefler ve dahası',
     'meta.pro.description':
       'SimpleTime ücretsiz kalır. Pro; Apple Watch uygulamasını, özetleri, yerleri, hedefleri, odak filtresini ve dahasını ekler – aylık, yıllık ya da tek seferde sonsuza dek.',
@@ -893,7 +893,7 @@ export const ui = {
     'meta.terms.description':
       'شروط استخدام SimpleTime: تطبيق مجاني، وSimpleTime Pro عبر App Store، والاشتراكات وأسبوع التجربة، وبياناتك، والمسؤولية، والقانون الواجب التطبيق.',
     'meta.accessibility.description':
-      'مدى إمكانية الوصول إلى SimpleTime وهذا الموقع: VoiceOver، والنص الكبير، و41 لغة، والفحوص التلقائية – وما ليس جيدًا بعد.',
+      'مدى إمكانية الوصول إلى SimpleTime وهذا الموقع: VoiceOver، والنص الكبير، و51 لغة، والفحوص التلقائية – وما ليس جيدًا بعد.',
     'meta.pro.title': 'SimpleTime Pro – Apple Watch والأماكن والأهداف والمزيد',
     'meta.pro.description':
       'يبقى SimpleTime مجانيًا. ويضيف Pro تطبيق Apple Watch والملخّصات والأماكن والأهداف ومُرشِّح التركيز والمزيد – شهريًا أو سنويًا أو مرة واحدة إلى الأبد.',
@@ -984,7 +984,7 @@ export const ui = {
     'meta.terms.description':
       'SimpleTime の利用規約：無料のアプリ、App Store で購入する SimpleTime Pro、サブスクリプションと無料期間、データ、責任、準拠法。',
     'meta.accessibility.description':
-      'SimpleTime とこのウェブサイトのアクセシビリティ：VoiceOver、大きな文字、41 言語、自動チェック — そして、まだ十分でない点。',
+      'SimpleTime とこのウェブサイトのアクセシビリティ：VoiceOver、大きな文字、51 言語、自動チェック — そして、まだ十分でない点。',
     'meta.pro.title': 'SimpleTime Pro – Apple Watch、場所、目標など',
     'meta.pro.description':
       'SimpleTime は無料のままです。Pro では Apple Watch アプリ、振り返り、場所、目標、集中モードフィルタなどが加わります — 月額・年額・買い切りから選べます。',
@@ -1075,7 +1075,7 @@ export const ui = {
     'meta.terms.description':
       'SimpleTime 使用条款：免费 App、通过 App Store 购买的 SimpleTime Pro、订阅和试用周、你的数据、责任和适用法律。',
     'meta.accessibility.description':
-      'SimpleTime 和本网站的无障碍程度：旁白、大字体、41 种语言、自动检查 — 以及尚不完善之处。',
+      'SimpleTime 和本网站的无障碍程度：旁白、大字体、51 种语言、自动检查 — 以及尚不完善之处。',
     'meta.pro.title': 'SimpleTime Pro – Apple Watch、地点、目标及更多',
     'meta.pro.description':
       'SimpleTime 保持免费。Pro 另外提供 Apple Watch App、回顾、地点、目标、专注过滤器等功能 — 可按月、按年或一次买断。',
@@ -1166,7 +1166,7 @@ export const ui = {
     'meta.terms.description':
       'SimpleTime की उपयोग की शर्तें: मुफ़्त ऐप, App Store के ज़रिए SimpleTime Pro, सदस्यताएँ और ट्रायल हफ़्ता, आपका डेटा, दायित्व और लागू कानून।',
     'meta.accessibility.description':
-      'SimpleTime और यह वेबसाइट कितने सुलभ हैं: VoiceOver, बड़ा टेक्स्ट, 41 भाषाएँ, स्वचालित जाँच – और जो अभी ठीक नहीं है।',
+      'SimpleTime और यह वेबसाइट कितने सुलभ हैं: VoiceOver, बड़ा टेक्स्ट, 51 भाषाएँ, स्वचालित जाँच – और जो अभी ठीक नहीं है।',
     'meta.pro.title': 'SimpleTime Pro – Apple Watch, जगहें, लक्ष्य और बहुत कुछ',
     'meta.pro.description':
       'SimpleTime मुफ़्त रहता है। Pro जोड़ता है: Apple Watch ऐप, समीक्षाएँ, जगहें, लक्ष्य, फ़ोकस फ़िल्टर और बहुत कुछ – मासिक, वार्षिक या एक बार हमेशा के लिए।',
@@ -1257,7 +1257,7 @@ export const ui = {
     'meta.terms.description':
       'De gebruiksvoorwaarden van SimpleTime: een gratis app, SimpleTime Pro via de App Store, abonnementen en proefweek, je gegevens, aansprakelijkheid en toepasselijk recht.',
     'meta.accessibility.description':
-      'Hoe toegankelijk SimpleTime en deze website zijn: VoiceOver, grote tekst, 41 talen, automatische controles – en wat nog niet goed is.',
+      'Hoe toegankelijk SimpleTime en deze website zijn: VoiceOver, grote tekst, 51 talen, automatische controles – en wat nog niet goed is.',
     'meta.pro.title': 'SimpleTime Pro – Apple Watch, locaties, doelen en meer',
     'meta.pro.description':
       'SimpleTime blijft gratis. Met Pro krijg je de app voor Apple Watch, terugblikken, locaties, doelen, een focusfilter en meer – per maand, per jaar of eenmalig.',
@@ -1348,7 +1348,7 @@ export const ui = {
     'meta.terms.description':
       'Användarvillkoren för SimpleTime: en gratis app, SimpleTime Pro via App Store, abonnemang och provvecka, dina data, ansvar och tillämplig lag.',
     'meta.accessibility.description':
-      'Hur tillgängliga SimpleTime och den här webbplatsen är: VoiceOver, stor text, 41 språk, automatiska kontroller – och det som inte är bra än.',
+      'Hur tillgängliga SimpleTime och den här webbplatsen är: VoiceOver, stor text, 51 språk, automatiska kontroller – och det som inte är bra än.',
     'meta.pro.title': 'SimpleTime Pro – Apple Watch, platser, mål och mer',
     'meta.pro.description':
       'SimpleTime förblir gratis. Pro lägger till appen för Apple Watch, tillbakablickar, platser, mål, ett fokusfilter och mer – per månad, per år eller en gång för alltid.',
@@ -1439,7 +1439,7 @@ export const ui = {
     'meta.terms.description':
       'Умови використання SimpleTime: безкоштовний застосунок, SimpleTime Pro через App Store, підписки й пробний тиждень, ваші дані, відповідальність і застосовне право.',
     'meta.accessibility.description':
-      'Наскільки доступні SimpleTime і цей сайт: VoiceOver, великий текст, 41 мова, автоматичні перевірки — і що поки не так.',
+      'Наскільки доступні SimpleTime і цей сайт: VoiceOver, великий текст, 51 мова, автоматичні перевірки — і що поки не так.',
     'meta.pro.title': 'SimpleTime Pro – Apple Watch, місця, цілі та багато іншого',
     'meta.pro.description':
       'SimpleTime лишається безкоштовним. Pro додає застосунок для Apple Watch, підсумки, місця, цілі, фокус-фільтр та багато іншого — на місяць, на рік або назавжди.',
@@ -1530,7 +1530,7 @@ export const ui = {
     'meta.terms.description':
       'Οι όροι χρήσης του SimpleTime: μια δωρεάν εφαρμογή, το SimpleTime Pro μέσω του App Store, συνδρομές και δοκιμαστική εβδομάδα, ευθύνη και εφαρμοστέο δίκαιο.',
     'meta.accessibility.description':
-      'Πόσο προσβάσιμα είναι το SimpleTime και αυτός ο ιστότοπος: VoiceOver, μεγάλο κείμενο, 41 γλώσσες, αυτόματοι έλεγχοι – και τι δεν είναι ακόμη καλό.',
+      'Πόσο προσβάσιμα είναι το SimpleTime και αυτός ο ιστότοπος: VoiceOver, μεγάλο κείμενο, 51 γλώσσες, αυτόματοι έλεγχοι – και τι δεν είναι ακόμη καλό.',
     'meta.pro.title': 'SimpleTime Pro – Apple Watch, μέρη, στόχοι και άλλα',
     'meta.pro.description':
       'Το SimpleTime μένει δωρεάν. Το Pro προσθέτει την εφαρμογή Apple Watch, ανασκοπήσεις, μέρη, στόχους, φίλτρο συγκέντρωσης κ.ά. – μηνιαία, ετήσια ή μία φορά για πάντα.',
@@ -1621,7 +1621,7 @@ export const ui = {
     'meta.terms.description':
       'תנאי השימוש של SimpleTime: אפליקציה בחינם, SimpleTime Pro דרך ה‑App Store, מינויים ושבוע ניסיון, הנתונים שלך, אחריות והדין החל.',
     'meta.accessibility.description':
-      'עד כמה SimpleTime והאתר הזה נגישים: VoiceOver, טקסט גדול, 41 שפות, בדיקות אוטומטיות – ומה שעוד לא טוב.',
+      'עד כמה SimpleTime והאתר הזה נגישים: VoiceOver, טקסט גדול, 51 שפות, בדיקות אוטומטיות – ומה שעוד לא טוב.',
     'meta.pro.title': 'SimpleTime Pro – Apple Watch, מקומות, יעדים ועוד',
     'meta.pro.description':
       'SimpleTime נשאר חינם. Pro מוסיף את אפליקציית ה‑Apple Watch, סיכומים, מקומות, יעדים, מסנן מיקוד ועוד – לחודש, לשנה או פעם אחת לתמיד.',
@@ -1706,7 +1706,7 @@ export const ui = {
     'meta.privacy.description': 'Slik behandler SimpleTime dataene dine: ingen konto, ingen reklame.',
     'meta.imprint.description': 'Kolofon for simple-time.app etter § 5 DDG – hvem som står bak, kontaktopplysninger og ansvarsforhold for appen og nettstedet SimpleTime.',
     'meta.terms.description': 'Bruksvilkårene for SimpleTime: en gratis app, SimpleTime Pro via App Store, abonnementer og gratisuken, dataene dine, ansvar og gjeldende lov.',
-    'meta.accessibility.description': 'Hvor tilgjengelige SimpleTime og dette nettstedet er: VoiceOver, stor tekst, 41 språk, automatiske kontroller – og det som ikke er bra nok ennå.',
+    'meta.accessibility.description': 'Hvor tilgjengelige SimpleTime og dette nettstedet er: VoiceOver, stor tekst, 51 språk, automatiske kontroller – og det som ikke er bra nok ennå.',
     'meta.pro.title': 'SimpleTime Pro – Apple Watch, steder, mål og mer',
     'meta.pro.description': 'SimpleTime forblir gratis. Pro legger til appen for Apple Watch, tilbakeblikk, steder, mål, et fokusfilter og mer – månedlig, årlig eller én gang for alle.',
     'meta.faq.title': 'Vanlige spørsmål · SimpleTime',
@@ -1764,7 +1764,7 @@ export const ui = {
     'meta.privacy.description': 'Sådan håndterer SimpleTime dine data: ingen konto, ingen reklamer.',
     'meta.imprint.description': 'Kolofon for simple-time.app i henhold til § 5 DDG – udbyder, kontaktoplysninger og oplysninger om ansvar for SimpleTime-appen og webstedet.',
     'meta.terms.description': 'Vilkår for brug af SimpleTime: en gratis app, SimpleTime Pro via App Store, abonnementer og den gratis uge, dine data, ansvar og gældende lov.',
-    'meta.accessibility.description': 'Hvor tilgængelige SimpleTime og dette websted er: VoiceOver, stor tekst, 41 sprog, automatiske tjek – og hvad der endnu ikke er godt nok.',
+    'meta.accessibility.description': 'Hvor tilgængelige SimpleTime og dette websted er: VoiceOver, stor tekst, 51 sprog, automatiske tjek – og hvad der endnu ikke er godt nok.',
     'meta.pro.title': 'SimpleTime Pro – Apple Watch, steder, mål og mere',
     'meta.pro.description': 'SimpleTime forbliver gratis. Pro tilføjer appen til Apple Watch, tilbageblikke, steder, mål, et fokusfilter og mere – månedligt, årligt eller én gang for alle.',
     'meta.faq.title': 'Spørgsmål og svar · SimpleTime',
@@ -1822,7 +1822,7 @@ export const ui = {
     'meta.privacy.description': 'Hogyan bánik a SimpleTime az adataiddal: nem kell fiók, nincs hirdetés.',
     'meta.imprint.description': 'A simple-time.app impresszuma a DDG 5. §-a szerint – üzemeltető, elérhetőségek és felelősségi tudnivalók a SimpleTime apphoz és webhelyhez.',
     'meta.terms.description': 'A SimpleTime felhasználási feltételei: ingyenes app, SimpleTime Pro az App Store-ban, előfizetések és ingyenes hét, adataid, felelősség, irányadó jog.',
-    'meta.accessibility.description': 'Mennyire akadálymentes a SimpleTime és ez a webhely: VoiceOver, nagy szöveg, 41 nyelv, automatikus ellenőrzések – és ami még nem jó.',
+    'meta.accessibility.description': 'Mennyire akadálymentes a SimpleTime és ez a webhely: VoiceOver, nagy szöveg, 51 nyelv, automatikus ellenőrzések – és ami még nem jó.',
     'meta.pro.title': 'SimpleTime Pro – Apple Watch, helyek, célok és még több',
     'meta.pro.description': 'A SimpleTime ingyenes marad. A Próval jön az Apple Watch-app, visszatekintők, helyek, célok, fókuszszűrő és még több – havonta, évente vagy egyszer, örökre.',
     'meta.faq.title': 'Kérdések és válaszok · SimpleTime',
@@ -1880,7 +1880,7 @@ export const ui = {
     'meta.privacy.description': 'Jak SimpleTime zachází s tvými daty: bez účtu, bez reklam.',
     'meta.imprint.description': 'Tiráž webu simple-time.app podle § 5 DDG – provozovatel, kontaktní údaje a informace o odpovědnosti za aplikaci a web SimpleTime.',
     'meta.terms.description': 'Podmínky použití SimpleTime: bezplatná aplikace, SimpleTime Pro přes App Store, předplatné a týden zdarma, tvoje data, odpovědnost a rozhodné právo.',
-    'meta.accessibility.description': 'Jak přístupné jsou SimpleTime a tento web: VoiceOver, velký text, 41 jazyků, automatické kontroly – a co ještě není dobré.',
+    'meta.accessibility.description': 'Jak přístupné jsou SimpleTime a tento web: VoiceOver, velký text, 51 jazyků, automatické kontroly – a co ještě není dobré.',
     'meta.pro.title': 'SimpleTime Pro – Apple Watch, místa, cíle a další',
     'meta.pro.description': 'SimpleTime zůstává zdarma. Pro přidává aplikaci pro Apple Watch, ohlédnutí, místa, cíle, filtr soustředění a další – měsíčně, ročně nebo jednou navždy.',
     'meta.faq.title': 'Otázky a odpovědi · SimpleTime',
@@ -1938,7 +1938,7 @@ export const ui = {
     'meta.privacy.description': 'Kako SimpleTime postupa s tvojim podacima: bez računa, bez oglasa.',
     'meta.imprint.description': 'Impresum za simple-time.app prema § 5 DDG – pružatelj usluge, kontaktni podaci i napomene o odgovornosti za aplikaciju i web-stranicu SimpleTime.',
     'meta.terms.description': 'Uvjeti korištenja: besplatna aplikacija SimpleTime, SimpleTime Pro preko App Storea, pretplate i probni tjedan, tvoji podaci, odgovornost i mjerodavno pravo.',
-    'meta.accessibility.description': 'Koliko su SimpleTime i ova web-stranica pristupačni: VoiceOver, veliki tekst, 41 jezik, automatske provjere – i što još nije dobro.',
+    'meta.accessibility.description': 'Koliko su SimpleTime i ova web-stranica pristupačni: VoiceOver, veliki tekst, 51 jezik, automatske provjere – i što još nije dobro.',
     'meta.pro.title': 'SimpleTime Pro – Apple Watch, mjesta, ciljevi i više',
     'meta.pro.description': 'SimpleTime ostaje besplatan. Pro dodaje aplikaciju za Apple Watch, osvrte, mjesta, ciljeve, filtar fokusa i više – mjesečno, godišnje ili jednokratno zauvijek.',
     'meta.faq.title': 'Pitanja i odgovori · SimpleTime',
@@ -1996,7 +1996,7 @@ export const ui = {
     'meta.privacy.description': 'Cum tratează SimpleTime datele tale: fără cont, fără reclame.',
     'meta.imprint.description': 'Informații legale pentru simple-time.app conform § 5 DDG – operator, date de contact și informații despre răspundere pentru aplicația și site-ul SimpleTime.',
     'meta.terms.description': 'Termenii de utilizare SimpleTime: aplicație gratuită, Pro prin App Store, abonamente și săptămâna gratuită, datele tale, răspunderea și legea aplicabilă.',
-    'meta.accessibility.description': 'Cât de accesibile sunt SimpleTime și acest site: VoiceOver, text mare, 41 de limbi, verificări automate – și ce nu e încă bine.',
+    'meta.accessibility.description': 'Cât de accesibile sunt SimpleTime și acest site: VoiceOver, text mare, 51 de limbi, verificări automate – și ce nu e încă bine.',
     'meta.pro.title': 'SimpleTime Pro – Apple Watch, locuri, obiective și altele',
     'meta.pro.description': 'SimpleTime rămâne gratuită. Pro adaugă aplicația Apple Watch, retrospective, locuri, obiective, filtrul Focalizare și altele – lunar, anual sau pe viață.',
     'meta.faq.title': 'Întrebări și răspunsuri · SimpleTime',
@@ -2054,7 +2054,7 @@ export const ui = {
     'meta.privacy.description': 'Jak SimpleTime obchodzi się z twoimi danymi: bez konta, bez reklam.',
     'meta.imprint.description': 'Nota prawna simple-time.app zgodnie z § 5 DDG – operator, dane kontaktowe i informacje o odpowiedzialności dotyczące aplikacji i strony SimpleTime.',
     'meta.terms.description': 'Warunki korzystania z SimpleTime: bezpłatna aplikacja, SimpleTime Pro w App Store, subskrypcje i darmowy tydzień, twoje dane, odpowiedzialność, prawo właściwe.',
-    'meta.accessibility.description': 'Jak dostępne są SimpleTime i ta strona: VoiceOver, duży tekst, 41 języków, automatyczne testy – i co jeszcze nie działa dobrze.',
+    'meta.accessibility.description': 'Jak dostępne są SimpleTime i ta strona: VoiceOver, duży tekst, 51 języków, automatyczne testy – i co jeszcze nie działa dobrze.',
     'meta.pro.title': 'SimpleTime Pro – Apple Watch, miejsca, cele i więcej',
     'meta.pro.description': 'SimpleTime pozostaje bezpłatny. Pro dokłada aplikację na Apple Watch, podsumowania, miejsca, cele, filtr skupienia i więcej – na miesiąc, rok albo na zawsze.',
     'meta.faq.title': 'Pytania i odpowiedzi · SimpleTime',
@@ -2112,7 +2112,7 @@ export const ui = {
     'meta.privacy.description': 'Näin SimpleTime käsittelee tietojasi: ei tiliä, ei mainoksia.',
     'meta.imprint.description': 'Sivuston simple-time.app julkaisijatiedot DDG:n 5 §:n mukaisesti – ylläpitäjä, yhteystiedot ja vastuutiedot SimpleTime-apista ja sivustosta.',
     'meta.terms.description': 'SimpleTimen käyttöehdot: ilmainen appi, SimpleTime Pro App Storen kautta, tilaukset ja ilmainen viikko, tietosi, vastuu ja sovellettava laki.',
-    'meta.accessibility.description': 'Kuinka saavutettavia SimpleTime ja tämä sivusto ovat: VoiceOver, suuri teksti, 41 kieltä, automaattiset tarkistukset – ja mikä ei vielä ole hyvin.',
+    'meta.accessibility.description': 'Kuinka saavutettavia SimpleTime ja tämä sivusto ovat: VoiceOver, suuri teksti, 51 kieltä, automaattiset tarkistukset – ja mikä ei vielä ole hyvin.',
     'meta.pro.title': 'SimpleTime Pro – Apple Watch, paikat, tavoitteet ja paljon muuta',
     'meta.pro.description': 'SimpleTime pysyy ilmaisena. Pro lisää Apple Watch -apin, katsaukset, paikat, tavoitteet, keskittymissuodattimen ja muuta – kuukaudeksi, vuodeksi tai ikuisesti.',
     'meta.faq.title': 'Usein kysyttyä · SimpleTime',
@@ -2170,7 +2170,7 @@ export const ui = {
     'meta.privacy.description': 'Paano pinangangasiwaan ng SimpleTime ang datos mo: walang account, walang patalastas.',
     'meta.imprint.description': 'Impormasyong legal ng simple-time.app ayon sa § 5 DDG – operator, contact at pananagutan para sa app at website ng SimpleTime.',
     'meta.terms.description': 'Mga tuntunin ng paggamit ng SimpleTime: libreng app, SimpleTime Pro sa App Store, mga subscription at libreng linggo, ang datos mo, pananagutan at naaangkop na batas.',
-    'meta.accessibility.description': 'Gaano ka-accessible ang SimpleTime at ang website na ito: VoiceOver, malaking teksto, 41 wika, mga awtomatikong pagsusuri – at kung ano ang hindi pa maayos.',
+    'meta.accessibility.description': 'Gaano ka-accessible ang SimpleTime at ang website na ito: VoiceOver, malaking teksto, 51 wika, mga awtomatikong pagsusuri – at kung ano ang hindi pa maayos.',
     'meta.pro.title': 'SimpleTime Pro – Apple Watch, mga lugar, mga layunin at iba pa',
     'meta.pro.description': 'Libre pa rin ang SimpleTime. Idinadagdag ng Pro ang app sa Apple Watch, mga balik-tanaw, lugar, layunin, Focus filter at iba pa – buwanan, taunan o minsanang bayad.',
     'meta.faq.title': 'Mga tanong at sagot · SimpleTime',
@@ -2228,7 +2228,7 @@ export const ui = {
     'meta.privacy.description': 'Како SimpleTime поступа са твојим подацима: без налога, без реклама.',
     'meta.imprint.description': 'Импресум за simple-time.app према § 5 DDG – пружалац услуге, подаци за контакт и напомене о одговорности за апликацију и веб-сајт SimpleTime.',
     'meta.terms.description': 'Услови коришћења: бесплатна апликација SimpleTime, SimpleTime Pro преко App Store-а, претплате и бесплатна недеља, твоји подаци, одговорност и меродавно право.',
-    'meta.accessibility.description': 'Колико су SimpleTime и овај веб-сајт приступачни: VoiceOver, велики текст, 41 језик, аутоматске провере – и шта још није добро.',
+    'meta.accessibility.description': 'Колико су SimpleTime и овај веб-сајт приступачни: VoiceOver, велики текст, 51 језик, аутоматске провере – и шта још није добро.',
     'meta.pro.title': 'SimpleTime Pro – Apple Watch, места, циљеви и још много тога',
     'meta.pro.description': 'SimpleTime остаје бесплатан. Pro додаје апликацију за Apple Watch, осврте, места, циљеве, филтер фокуса и још – месечно, годишње или једнократно заувек.',
     'meta.faq.title': 'Питања и одговори · SimpleTime',
@@ -2286,7 +2286,7 @@ export const ui = {
     'meta.privacy.description': 'Cách SimpleTime xử lý dữ liệu của bạn: không cần tài khoản, không quảng cáo.',
     'meta.imprint.description': 'Thông tin pháp lý của simple-time.app theo § 5 DDG – đơn vị vận hành, thông tin liên hệ và lưu ý về trách nhiệm pháp lý cho ứng dụng và trang web SimpleTime.',
     'meta.terms.description': 'Điều khoản sử dụng SimpleTime: ứng dụng miễn phí, SimpleTime Pro qua App Store, gói đăng ký và tuần dùng thử, dữ liệu của bạn, trách nhiệm và luật áp dụng.',
-    'meta.accessibility.description': 'SimpleTime và trang web này dễ tiếp cận đến đâu: VoiceOver, chữ lớn, 41 ngôn ngữ, kiểm tra tự động – và những gì còn chưa tốt.',
+    'meta.accessibility.description': 'SimpleTime và trang web này dễ tiếp cận đến đâu: VoiceOver, chữ lớn, 51 ngôn ngữ, kiểm tra tự động – và những gì còn chưa tốt.',
     'meta.pro.title': 'SimpleTime Pro – Apple Watch, địa điểm, mục tiêu và hơn nữa',
     'meta.pro.description': 'SimpleTime vẫn miễn phí. Pro thêm ứng dụng Apple Watch, tổng kết, địa điểm, mục tiêu, bộ lọc Tập trung và hơn nữa – theo tháng, theo năm hoặc trả một lần.',
     'meta.faq.title': 'Câu hỏi thường gặp · SimpleTime',
@@ -2344,7 +2344,7 @@ export const ui = {
     'meta.privacy.description': 'SimpleTime 如何處理你的資料：不需要帳號，沒有廣告。',
     'meta.imprint.description': 'simple-time.app 依德國 DDG 第 5 條提供的法律聲明 — 營運者、聯絡資料，以及 SimpleTime App 與網站的責任說明。',
     'meta.terms.description': 'SimpleTime 的使用條款：免費 App、透過 App Store 購買的 SimpleTime Pro、訂閱與免費試用週、你的資料、責任與適用法律。',
-    'meta.accessibility.description': 'SimpleTime 與本網站的輔助使用情況：VoiceOver、大字體、41 種語言、自動化檢測 — 以及尚待改進之處。',
+    'meta.accessibility.description': 'SimpleTime 與本網站的輔助使用情況：VoiceOver、大字體、51 種語言、自動化檢測 — 以及尚待改進之處。',
     'meta.pro.title': 'SimpleTime Pro – Apple Watch、地點、目標等更多功能',
     'meta.pro.description': 'SimpleTime 維持免費。Pro 另外提供 Apple Watch App、回顧、地點、目標、專注模式過濾條件等功能 — 可按月、按年或一次買斷。',
     'meta.faq.title': '常見問題 · SimpleTime',
@@ -2402,7 +2402,7 @@ export const ui = {
     'meta.privacy.description': 'Cara SimpleTime menangani data Anda: tanpa akun, tanpa iklan.',
     'meta.imprint.description': 'Informasi hukum untuk simple-time.app menurut § 5 DDG – operator, detail kontak, dan informasi tanggung jawab hukum untuk aplikasi dan situs web SimpleTime.',
     'meta.terms.description': 'Ketentuan penggunaan SimpleTime: aplikasi gratis, SimpleTime Pro di App Store, langganan dan minggu gratis, data Anda, tanggung jawab, dan hukum yang berlaku.',
-    'meta.accessibility.description': 'Seberapa aksesibel SimpleTime dan situs web ini: VoiceOver, teks besar, 41 bahasa, pemeriksaan otomatis – dan apa yang belum baik.',
+    'meta.accessibility.description': 'Seberapa aksesibel SimpleTime dan situs web ini: VoiceOver, teks besar, 51 bahasa, pemeriksaan otomatis – dan apa yang belum baik.',
     'meta.pro.title': 'SimpleTime Pro – Apple Watch, tempat, target, dan lainnya',
     'meta.pro.description': 'SimpleTime tetap gratis. Pro menambahkan aplikasi Apple Watch, kilas balik, tempat, target, Filter Fokus, dan lainnya – bulanan, tahunan, atau seumur hidup.',
     'meta.faq.title': 'Tanya jawab · SimpleTime',
@@ -2460,7 +2460,7 @@ export const ui = {
     'meta.privacy.description': 'SimpleTime이 데이터를 다루는 방법: 계정도, 광고도 없습니다.',
     'meta.imprint.description': '독일 DDG 제5조에 따른 simple-time.app의 법적 고지 – SimpleTime 앱과 웹사이트의 운영자, 연락처, 책임 관련 정보.',
     'meta.terms.description': 'SimpleTime 이용약관: 무료 앱, App Store를 통한 SimpleTime Pro, 구독과 무료 1주일, 내 데이터, 책임, 준거법.',
-    'meta.accessibility.description': 'SimpleTime과 이 웹사이트의 접근성: VoiceOver, 큰 텍스트, 41개 언어, 자동 검사 – 그리고 아직 부족한 점.',
+    'meta.accessibility.description': 'SimpleTime과 이 웹사이트의 접근성: VoiceOver, 큰 텍스트, 51개 언어, 자동 검사 – 그리고 아직 부족한 점.',
     'meta.pro.title': 'SimpleTime Pro – Apple Watch, 장소, 목표 등',
     'meta.pro.description': 'SimpleTime은 계속 무료입니다. Pro는 Apple Watch 앱, 돌아보기, 장소, 목표, 집중 모드 필터 등을 더해 줍니다 – 월간, 연간 또는 한 번 결제로 평생.',
     'meta.faq.title': '자주 묻는 질문 · SimpleTime',
@@ -2518,7 +2518,7 @@ export const ui = {
     'meta.privacy.description': 'Как SimpleTime борави с данните ти: без акаунт, без реклами.',
     'meta.imprint.description': 'Правна информация за simple-time.app съгласно § 5 DDG – оператор, данни за контакт и отговорност за приложението и уебсайта SimpleTime.',
     'meta.terms.description': 'Условия за ползване на SimpleTime: безплатно приложение, Pro чрез App Store, абонаменти и безплатна седмица, данните ти, отговорност и приложимо право.',
-    'meta.accessibility.description': 'Колко достъпни са SimpleTime и този уебсайт: VoiceOver, едър текст, 41 езика, автоматични проверки – и какво още не е добре.',
+    'meta.accessibility.description': 'Колко достъпни са SimpleTime и този уебсайт: VoiceOver, едър текст, 51 езика, автоматични проверки – и какво още не е добре.',
     'meta.pro.title': 'SimpleTime Pro – Apple Watch, места, цели и още',
     'meta.pro.description': 'SimpleTime остава безплатно приложение. Pro добавя приложение за Apple Watch, равносметки, места, цели, филтър за фокус и още – месечно, годишно или завинаги.',
     'meta.faq.title': 'Въпроси и отговори · SimpleTime',
@@ -2576,7 +2576,7 @@ export const ui = {
     'meta.privacy.description': 'SimpleTime จัดการข้อมูลของคุณอย่างไร: ไม่ต้องมีบัญชี ไม่มีโฆษณา',
     'meta.imprint.description': 'ข้อมูลทางกฎหมายของ simple-time.app ตาม § 5 DDG – ผู้ให้บริการ ข้อมูลติดต่อ และข้อมูลเกี่ยวกับความรับผิดสำหรับแอปและเว็บไซต์ SimpleTime',
     'meta.terms.description': 'ข้อกำหนดการใช้งานของ SimpleTime: แอปฟรี SimpleTime Pro ผ่าน App Store การสมัครสมาชิกและสัปดาห์ทดลองใช้ฟรี ข้อมูลของคุณ ความรับผิด และกฎหมายที่ใช้บังคับ',
-    'meta.accessibility.description': 'SimpleTime และเว็บไซต์นี้รองรับการช่วยการเข้าถึงได้ดีแค่ไหน: VoiceOver ข้อความขนาดใหญ่ 41 ภาษา การตรวจสอบอัตโนมัติ – และสิ่งที่ยังไม่ดีพอ',
+    'meta.accessibility.description': 'SimpleTime และเว็บไซต์นี้รองรับการช่วยการเข้าถึงได้ดีแค่ไหน: VoiceOver ข้อความขนาดใหญ่ 51 ภาษา การตรวจสอบอัตโนมัติ – และสิ่งที่ยังไม่ดีพอ',
     'meta.pro.title': 'SimpleTime Pro – Apple Watch สถานที่ เป้าหมาย และอื่นๆ',
     'meta.pro.description': 'SimpleTime ยังคงฟรี Pro เพิ่มแอป Apple Watch สรุปย้อนหลัง สถานที่ เป้าหมาย ตัวกรองโฟกัส และอื่นๆ – แบบรายเดือน รายปี หรือจ่ายครั้งเดียวตลอดชีพ',
     'meta.faq.title': 'คำถามและคำตอบ · SimpleTime',
@@ -2634,7 +2634,7 @@ export const ui = {
     'meta.privacy.description': 'SimpleTime çawa bi daneyên te re tevdigere: bê hesab, bê reklam.',
     'meta.imprint.description': 'Agahiyên qanûnî ji bo simple-time.app li gorî § 5 DDG – xwedî, agahiyên têkiliyê û berpirsiyarî ji bo sepan û malpera SimpleTime.',
     'meta.terms.description': 'Mercên bikaranînê yên SimpleTime: sepaneke belaş, SimpleTime Pro bi rêya App Store, abonetî û hefteya belaş, daneyên te, berpirsiyarî û qanûna derbasdar.',
-    'meta.accessibility.description': 'SimpleTime û ev malper çiqas gihîştbar in: VoiceOver, nivîsa mezin, 41 ziman, kontrolên otomatîk – û tiştê ku hê ne baş e.',
+    'meta.accessibility.description': 'SimpleTime û ev malper çiqas gihîştbar in: VoiceOver, nivîsa mezin, 51 ziman, kontrolên otomatîk – û tiştê ku hê ne baş e.',
     'meta.pro.title': 'SimpleTime Pro – Apple Watch, dever, armanc û bêtir',
     'meta.pro.description': 'SimpleTime belaş dimîne. Pro sepana Apple Watch, paşnêrîn, dever, armanc, parzûna baldariyê û bêtir lê zêde dike – mehane, salane an carekê û her û her.',
     'meta.faq.title': 'Pirs û bersiv · SimpleTime',
@@ -2692,7 +2692,7 @@ export const ui = {
     'meta.privacy.description': 'Jinsi SimpleTime inavyoshughulikia data yako: bila akaunti, bila matangazo.',
     'meta.imprint.description': 'Taarifa za kisheria za simple-time.app kwa mujibu wa § 5 DDG – mwendeshaji, mawasiliano na taarifa za dhima za programu na tovuti ya SimpleTime.',
     'meta.terms.description': 'Masharti ya matumizi ya SimpleTime: programu ya bure, SimpleTime Pro kupitia App Store, usajili na wiki ya majaribio, data yako, dhima na sheria inayotumika.',
-    'meta.accessibility.description': 'Jinsi SimpleTime na tovuti hii zinavyofikika kwa wote: VoiceOver, maandishi makubwa, lugha 41 na ukaguzi wa kiotomatiki – na kile ambacho bado si kizuri.',
+    'meta.accessibility.description': 'Jinsi SimpleTime na tovuti hii zinavyofikika kwa wote: VoiceOver, maandishi makubwa, lugha 51 na ukaguzi wa kiotomatiki – na kile ambacho bado si kizuri.',
     'meta.pro.title': 'SimpleTime Pro – Apple Watch, maeneo, malengo na zaidi',
     'meta.pro.description': 'SimpleTime inabaki bure. Pro huongeza programu ya Apple Watch, mapitio, maeneo, malengo, kichujio cha Focus na zaidi – kwa mwezi, kwa mwaka au mara moja milele.',
     'meta.faq.title': 'Maswali na majibu · SimpleTime',
@@ -2750,7 +2750,7 @@ export const ui = {
     'meta.privacy.description': 'SimpleTime ستا له معلوماتو سره څنګه چلند کوي: حساب ته اړتیا نشته، اعلانونه نشته.',
     'meta.imprint.description': 'د DDG د § ۵ له مخې د simple-time.app قانوني معلومات – چلوونکی، د اړیکې معلومات او د SimpleTime د اپلیکېشن او ویب پاڼې د مسؤلیت په اړه معلومات.',
     'meta.terms.description': 'د SimpleTime د کارونې شرایط: وړیا اپلیکېشن، SimpleTime Pro د App Store له لارې، ګډونونه او وړیا اونۍ، ستا معلومات، مسؤلیت او د پلي کېدو وړ قانون.',
-    'meta.accessibility.description': 'SimpleTime او دا ویب پاڼه څومره د لاسرسي وړ دي: VoiceOver، لوی متن، ۴۱ ژبې، اتوماتیکې ازموینې – او هغه څه چې لا ښه نه دي.',
+    'meta.accessibility.description': 'SimpleTime او دا ویب پاڼه څومره د لاسرسي وړ دي: VoiceOver، لوی متن، ۵۱ ژبې، اتوماتیکې ازموینې – او هغه څه چې لا ښه نه دي.',
     'meta.pro.title': 'SimpleTime Pro – Apple Watch، ځایونه، موخې او نور',
     'meta.pro.description': 'SimpleTime وړیا پاتې کېږي. Pro د Apple Watch اپلیکېشن، بیاکتنې، ځایونه، موخې، د تمرکز فلټر او نور ورزیاتوي – میاشتنی، کلنی یا یو ځل د تل لپاره.',
     'meta.faq.title': 'پوښتنې او ځوابونه · SimpleTime',
@@ -2808,7 +2808,7 @@ export const ui = {
     'meta.privacy.description': 'SimpleTime আপনার ডেটা কীভাবে সামলায়: অ্যাকাউন্ট নেই, বিজ্ঞাপন নেই।',
     'meta.imprint.description': 'জার্মান DDG-এর § 5 অনুযায়ী simple-time.app-এর আইনি তথ্য: SimpleTime অ্যাপ ও ওয়েবসাইটের পরিচালক, যোগাযোগের তথ্য আর দায় সংক্রান্ত তথ্য।',
     'meta.terms.description': 'SimpleTime-এর ব্যবহারের শর্ত: বিনামূল্যের অ্যাপ, App Store-এর মাধ্যমে SimpleTime Pro, সাবস্ক্রিপশন ও বিনামূল্যের সপ্তাহ, আপনার ডেটা, দায় আর প্রযোজ্য আইন।',
-    'meta.accessibility.description': 'SimpleTime আর এই ওয়েবসাইটের অ্যাক্সেসিবিলিটি: VoiceOver, বড় লেখা, ৪১টি ভাষা, স্বয়ংক্রিয় পরীক্ষা – আর যা এখনও ভালো হয়নি।',
+    'meta.accessibility.description': 'SimpleTime আর এই ওয়েবসাইটের অ্যাক্সেসিবিলিটি: VoiceOver, বড় লেখা, ৫১টি ভাষা, স্বয়ংক্রিয় পরীক্ষা – আর যা এখনও ভালো হয়নি।',
     'meta.pro.title': 'SimpleTime Pro – Apple Watch, জায়গা, লক্ষ্য এবং আরও অনেক কিছু',
     'meta.pro.description': 'SimpleTime বিনামূল্যেই থাকে। Pro যোগ করে Apple Watch অ্যাপ, ফিরে দেখা, জায়গা, লক্ষ্য, ফোকাস ফিল্টার ও আরও অনেক কিছু – মাসিক, বাৎসরিক বা একবারে চিরকালের জন্য।',
     'meta.faq.title': 'প্রশ্ন ও উত্তর · SimpleTime',
@@ -2866,7 +2866,7 @@ export const ui = {
     'meta.privacy.description': 'SimpleTime ውሂብህን እንዴት እንደሚይዝ፦ ያለ መለያ፣ ያለ ማስታወቂያ።',
     'meta.imprint.description': 'በ§ 5 DDG መሠረት የsimple-time.app ሕጋዊ መረጃ – ለSimpleTime መተግበሪያና ድረ-ገጽ ኃላፊው፣ የመገኛ አድራሻና የተጠያቂነት መረጃ።',
     'meta.terms.description': 'የSimpleTime የአጠቃቀም ውሎች፦ ነፃ መተግበሪያ፣ SimpleTime Pro በApp Store በኩል፣ ምዝገባዎችና ነፃው የሙከራ ሳምንት፣ ውሂብህ፣ ተጠያቂነትና ተፈጻሚ ሕግ።',
-    'meta.accessibility.description': 'SimpleTime እና ይህ ድረ-ገጽ ምን ያህል ተደራሽ ናቸው፦ VoiceOver፣ ትልቅ ጽሑፍ፣ 41 ቋንቋዎች፣ ራስ-ሰር ፍተሻዎች – እና ገና ጥሩ ያልሆነው።',
+    'meta.accessibility.description': 'SimpleTime እና ይህ ድረ-ገጽ ምን ያህል ተደራሽ ናቸው፦ VoiceOver፣ ትልቅ ጽሑፍ፣ 51 ቋንቋዎች፣ ራስ-ሰር ፍተሻዎች – እና ገና ጥሩ ያልሆነው።',
     'meta.pro.title': 'SimpleTime Pro – Apple Watch፣ ቦታዎች፣ ግቦችና ሌሎችም',
     'meta.pro.description': 'SimpleTime ነፃ ሆኖ ይቀራል። Pro የApple Watch መተግበሪያን፣ ማጠቃለያዎችን፣ ቦታዎችን፣ ግቦችን፣ የFocus ማጣሪያንና ሌሎችንም ይጨምራል – በወር፣ በዓመት ወይም በአንድ ጊዜ ለዘላለም።',
     'meta.faq.title': 'ጥያቄዎችና መልሶች · SimpleTime',
@@ -2924,7 +2924,7 @@ export const ui = {
     'meta.privacy.description': 'SimpleTime آپ کے ڈیٹا کو کیسے سنبھالتا ہے: نہ اکاؤنٹ، نہ اشتہار۔',
     'meta.imprint.description': 'simple-time.app کی قانونی معلومات، بمطابق § 5 DDG – SimpleTime ایپ اور ویب سائٹ کا آپریٹر، رابطے کی تفصیلات اور ذمہ داری سے متعلق معلومات۔',
     'meta.terms.description': 'SimpleTime کی استعمال کی شرائط: مفت ایپ، App Store کے ذریعے SimpleTime Pro، سبسکرپشنز اور مفت ہفتہ، آپ کا ڈیٹا، ذمہ داری اور لاگو قانون۔',
-    'meta.accessibility.description': 'SimpleTime اور یہ ویب سائٹ کتنی قابلِ رسائی ہیں: VoiceOver، بڑا متن، 41 زبانیں، خودکار جانچ – اور کیا ابھی اچھا نہیں۔',
+    'meta.accessibility.description': 'SimpleTime اور یہ ویب سائٹ کتنی قابلِ رسائی ہیں: VoiceOver، بڑا متن، 51 زبانیں، خودکار جانچ – اور کیا ابھی اچھا نہیں۔',
     'meta.pro.title': 'SimpleTime Pro – Apple Watch، مقامات، اہداف اور بہت کچھ',
     'meta.pro.description': 'SimpleTime مفت رہتا ہے۔ Pro اس میں Apple Watch کی ایپ، جائزے، مقامات، اہداف، فوکس فلٹر اور بہت کچھ شامل کرتا ہے – ماہانہ، سالانہ یا ایک بار ہمیشہ کے لیے۔',
     'meta.faq.title': 'سوالات اور جوابات · SimpleTime',
@@ -2982,7 +2982,7 @@ export const ui = {
     'meta.privacy.description': 'SimpleTime با داده‌هایت چه می‌کند: بدون حساب، بدون تبلیغ.',
     'meta.imprint.description': 'اطلاعات حقوقی simple-time.app بر پایهٔ مادهٔ ۵ قانون DDG – گرداننده، اطلاعات تماس و نکته‌های مسئولیت برای برنامه و وب‌سایت SimpleTime.',
     'meta.terms.description': 'شرایط استفاده از SimpleTime: برنامهٔ رایگان، SimpleTime Pro از طریق App Store، اشتراک‌ها و هفتهٔ رایگان، داده‌های تو، مسئولیت و قانون حاکم.',
-    'meta.accessibility.description': 'SimpleTime و این وب‌سایت چقدر دسترس‌پذیرند: VoiceOver، متن بزرگ، ۴۱ زبان، بررسی‌های خودکار – و آنچه هنوز خوب نیست.',
+    'meta.accessibility.description': 'SimpleTime و این وب‌سایت چقدر دسترس‌پذیرند: VoiceOver، متن بزرگ، ۵۱ زبان، بررسی‌های خودکار – و آنچه هنوز خوب نیست.',
     'meta.pro.title': 'SimpleTime Pro –‏ Apple Watch، مکان‌ها، هدف‌ها و بیشتر',
     'meta.pro.description': 'SimpleTime رایگان می‌ماند. Pro برنامهٔ Apple Watch، مرورها، مکان‌ها، هدف‌ها، صافی تمرکز و بیشتر را می‌افزاید – ماهانه، سالانه یا یک‌باره برای همیشه.',
     'meta.faq.title': 'پرسش و پاسخ · SimpleTime',
@@ -3040,7 +3040,7 @@ export const ui = {
     'meta.privacy.description': 'Como o SimpleTime trata os seus dados: sem conta, sem anúncios.',
     'meta.imprint.description': 'Aviso legal de simple-time.app conforme o § 5 DDG – operador, contato e informações sobre responsabilidade do app e do site SimpleTime.',
     'meta.terms.description': 'Os Termos de Uso do SimpleTime: um app gratuito, o SimpleTime Pro pela App Store, assinaturas e a semana grátis, seus dados, responsabilidade e lei aplicável.',
-    'meta.accessibility.description': 'Quão acessíveis são o SimpleTime e este site: VoiceOver, texto grande, 41 idiomas, verificações automáticas – e o que ainda não está bom.',
+    'meta.accessibility.description': 'Quão acessíveis são o SimpleTime e este site: VoiceOver, texto grande, 51 idiomas, verificações automáticas – e o que ainda não está bom.',
     'meta.pro.title': 'SimpleTime Pro – Apple Watch, locais, metas e mais',
     'meta.pro.description': 'O SimpleTime continua gratuito. O Pro acrescenta o app para Apple Watch, retrospectivas, locais, metas, Filtro de Foco e mais – por mês, por ano ou para sempre.',
     'meta.faq.title': 'Perguntas frequentes · SimpleTime',
@@ -3098,7 +3098,7 @@ export const ui = {
     'meta.privacy.description': 'Cara SimpleTime mengendalikan data anda: tanpa akaun, tanpa iklan.',
     'meta.imprint.description': 'Notis undang-undang untuk simple-time.app menurut § 5 DDG – pengendali, butiran hubungan dan maklumat liabiliti bagi app dan tapak web SimpleTime.',
     'meta.terms.description': 'Syarat Penggunaan SimpleTime: app percuma, SimpleTime Pro melalui App Store, langganan dan minggu percuma, data anda, liabiliti dan undang-undang yang terpakai.',
-    'meta.accessibility.description': 'Sejauh mana SimpleTime dan tapak web ini boleh diakses: VoiceOver, teks besar, 41 bahasa, semakan automatik – dan apa yang belum baik.',
+    'meta.accessibility.description': 'Sejauh mana SimpleTime dan tapak web ini boleh diakses: VoiceOver, teks besar, 51 bahasa, semakan automatik – dan apa yang belum baik.',
     'meta.pro.title': 'SimpleTime Pro – Apple Watch, tempat, matlamat dan banyak lagi',
     'meta.pro.description': 'SimpleTime kekal percuma. Pro menambah app Apple Watch, imbasan, tempat, matlamat, Penapis Fokus dan banyak lagi – bulanan, tahunan atau sekali untuk selamanya.',
     'meta.faq.title': 'Soalan lazim · SimpleTime',
@@ -3156,7 +3156,7 @@ export const ui = {
     'meta.privacy.description': 'Ako SimpleTime zaobchádza s tvojimi dátami: bez účtu, bez reklám.',
     'meta.imprint.description': 'Impresum webu simple-time.app podľa § 5 DDG – prevádzkovateľ, kontaktné údaje a informácie o zodpovednosti za apku a web SimpleTime.',
     'meta.terms.description': 'Podmienky používania SimpleTime: bezplatná apka, SimpleTime Pro cez App Store, odbery a týždeň zdarma, tvoje dáta, zodpovednosť a rozhodné právo.',
-    'meta.accessibility.description': 'Prístupnosť SimpleTime a tohto webu: VoiceOver, veľký text, 41 jazykov, automatické kontroly – a čo ešte nie je dobré.',
+    'meta.accessibility.description': 'Prístupnosť SimpleTime a tohto webu: VoiceOver, veľký text, 51 jazykov, automatické kontroly – a čo ešte nie je dobré.',
     'meta.pro.title': 'SimpleTime Pro – Apple Watch, miesta, ciele a ďalšie',
     'meta.pro.description': 'SimpleTime zostáva zdarma. Pro pridáva apku pre Apple Watch, rekapitulácie, miesta, ciele, filter režimu Môjho času a ďalšie – mesačne, ročne alebo raz navždy.',
     'meta.faq.title': 'Otázky a odpovede · SimpleTime',
@@ -3214,7 +3214,7 @@ export const ui = {
     'meta.privacy.description': 'Sida SimpleTime ula dhaqmo xogtaada: akoon la\'aan, xayaysiis la\'aan.',
     'meta.imprint.description': 'Macluumaadka shirkadda ee simple-time.app sida uu dhigayo § 5 DDG – maamulaha, xiriirka iyo macluumaadka mas\'uuliyadda ee app-ka iyo mareegta SimpleTime.',
     'meta.terms.description': 'Shuruudaha isticmaalka SimpleTime: app bilaash ah, SimpleTime Pro oo laga helo App Store-ka, ishtiraakyada iyo toddobaadka bilaashka ah, xogtaada, mas\'uuliyadda iyo sharciga khuseeya.',
-    'meta.accessibility.description': 'Sida SimpleTime iyo mareegtan ugu fudud yihiin qof kasta: VoiceOver, qoraal weyn, 41 luqadood, hubin toos ah – iyo waxa aan weli wanaagsanayn.',
+    'meta.accessibility.description': 'Sida SimpleTime iyo mareegtan ugu fudud yihiin qof kasta: VoiceOver, qoraal weyn, 51 luqadood, hubin toos ah – iyo waxa aan weli wanaagsanayn.',
     'meta.pro.title': 'SimpleTime Pro – Apple Watch, meelaha, hadafyada iyo in ka badan',
     'meta.pro.description': 'SimpleTime bilaash ayuu ahaanayaa. Pro wuxuu ku darayaa app-ka Apple Watch, dib-u-eegisyo, meelo, hadafyo, Shaandhada Diiradda iyo wax kale – bille, sannadle ama hal mar oo weligaa ah.',
     'meta.faq.title': 'Su\'aalo iyo jawaabo · SimpleTime',
@@ -3272,7 +3272,7 @@ export const ui = {
     'meta.privacy.description': 'Kako SimpleTime postupa s tvojim podacima: bez računa, bez reklama.',
     'meta.imprint.description': 'Impresum za simple-time.app prema § 5 DDG – pružalac usluge, kontakt podaci i napomene o odgovornosti za aplikaciju i web-stranicu SimpleTime.',
     'meta.terms.description': 'Uslovi korištenja: besplatna aplikacija SimpleTime, Pro putem App Storea, pretplate i besplatna sedmica, tvoji podaci, odgovornost i mjerodavno pravo.',
-    'meta.accessibility.description': 'Koliko su SimpleTime i ova web-stranica pristupačni: VoiceOver, veliki tekst, 41 jezik, automatske provjere – i šta još nije dobro.',
+    'meta.accessibility.description': 'Koliko su SimpleTime i ova web-stranica pristupačni: VoiceOver, veliki tekst, 51 jezik, automatske provjere – i šta još nije dobro.',
     'meta.pro.title': 'SimpleTime Pro – Apple Watch, mjesta, ciljevi i više',
     'meta.pro.description': 'SimpleTime ostaje besplatan. Pro dodaje aplikaciju za Apple Watch, osvrte, mjesta, ciljeve, filter fokusa i više – mjesečno, godišnje ili jednokratno zauvijek.',
     'meta.faq.title': 'Pitanja i odgovori · SimpleTime',
@@ -3330,7 +3330,7 @@ export const ui = {
     'meta.privacy.description': 'Si i trajton SimpleTime të dhënat tuaja: pa llogari, pa reklama.',
     'meta.imprint.description': 'Impresumi i simple-time.app sipas § 5 DDG – operatori, kontakti dhe informacioni mbi përgjegjësinë për aplikacionin dhe faqen e SimpleTime.',
     'meta.terms.description': 'Kushtet e përdorimit të SimpleTime: aplikacion falas, Pro përmes App Store, abonimet dhe java falas, të dhënat tuaja, përgjegjësia dhe ligji i zbatueshëm.',
-    'meta.accessibility.description': 'Sa të aksesueshëm janë SimpleTime dhe kjo faqe: VoiceOver, tekst i madh, 41 gjuhë, kontrolle automatike – dhe çfarë nuk është ende mirë.',
+    'meta.accessibility.description': 'Sa të aksesueshëm janë SimpleTime dhe kjo faqe: VoiceOver, tekst i madh, 51 gjuhë, kontrolle automatike – dhe çfarë nuk është ende mirë.',
     'meta.pro.title': 'SimpleTime Pro – Apple Watch, vendet, objektivat dhe më shumë',
     'meta.pro.description': 'SimpleTime mbetet falas. Pro shton Apple Watch, përmbledhjet, vendet, objektivat, filtrin e Fokusit e më shumë – mujor, vjetor ose një herë përgjithmonë.',
     'meta.faq.title': 'Pyetje dhe përgjigje · SimpleTime',
@@ -3388,7 +3388,7 @@ export const ui = {
     'meta.privacy.description': 'SimpleTime உங்கள் தரவை எப்படிக் கையாள்கிறது: கணக்கு இல்லை, விளம்பரம் இல்லை.',
     'meta.imprint.description': 'simple-time.app தளத்துக்கான சட்டப்பூர்வ அறிவிப்பு (§ 5 DDG) – SimpleTime செயலி, இணையதளத்தின் நடத்துநர், தொடர்பு விவரங்கள், பொறுப்புத் தகவல்கள்.',
     'meta.terms.description': 'SimpleTimeஇன் பயன்பாட்டு விதிமுறைகள்: இலவசச் செயலி, App Store மூலம் SimpleTime Pro, சந்தாக்கள், இலவச வாரம், உங்கள் தரவு, பொறுப்பு, பொருந்தும் சட்டம்.',
-    'meta.accessibility.description': 'SimpleTime செயலியும் இந்த இணையதளமும் எவ்வளவு அணுகக்கூடியவை: VoiceOver, பெரிய எழுத்து, 41 மொழிகள், தானியங்குச் சோதனைகள் – இன்னும் சரியாக இல்லாதவையும்.',
+    'meta.accessibility.description': 'SimpleTime செயலியும் இந்த இணையதளமும் எவ்வளவு அணுகக்கூடியவை: VoiceOver, பெரிய எழுத்து, 51 மொழிகள், தானியங்குச் சோதனைகள் – இன்னும் சரியாக இல்லாதவையும்.',
     'meta.pro.title': 'SimpleTime Pro – Apple Watch, இடங்கள், இலக்குகள், இன்னும் பல',
     'meta.pro.description': 'SimpleTime இலவசமாகவே இருக்கும். Pro தருவது: Apple Watch செயலி, மீள்பார்வைகள், இடங்கள், இலக்குகள், ஃபோகஸ் ஃபில்டர், இன்னும் பல – மாதந்தோறும், வருடந்தோறும் அல்லது ஒருமுறைக் கட்டணத்தில் நிரந்தரமாக.',
     'meta.faq.title': 'கேள்விகளும் பதில்களும் · SimpleTime',
@@ -3446,7 +3446,7 @@ export const ui = {
     'meta.privacy.description': 'SimpleTime మీ డేటాను ఎలా నిర్వహిస్తుంది: ఖాతా అవసరం లేదు, ప్రకటనలు లేవు.',
     'meta.imprint.description': '§ 5 DDG ప్రకారం simple-time.app చట్టపరమైన నోటీసు – SimpleTime యాప్, వెబ్‌సైట్ నిర్వాహకుడు, సంప్రదింపు వివరాలు, బాధ్యత సమాచారం.',
     'meta.terms.description': 'SimpleTime వినియోగ నిబంధనలు: ఉచిత యాప్, App Store ద్వారా SimpleTime Pro, సబ్‌స్క్రిప్షన్‌లు, ఉచిత వారం, మీ డేటా, బాధ్యత, వర్తించే చట్టం.',
-    'meta.accessibility.description': 'SimpleTime, ఈ వెబ్‌సైట్ యాక్సెసిబిలిటీ ఎలా ఉంది: VoiceOver, పెద్ద టెక్స్ట్, 41 భాషలు, ఆటోమేటిక్ తనిఖీలు – ఇంకా ఏవి బాగాలేవో కూడా.',
+    'meta.accessibility.description': 'SimpleTime, ఈ వెబ్‌సైట్ యాక్సెసిబిలిటీ ఎలా ఉంది: VoiceOver, పెద్ద టెక్స్ట్, 51 భాషలు, ఆటోమేటిక్ తనిఖీలు – ఇంకా ఏవి బాగాలేవో కూడా.',
     'meta.pro.title': 'SimpleTime Pro – Apple Watch, ప్రదేశాలు, లక్ష్యాలు, ఇంకా మరిన్ని',
     'meta.pro.description': 'SimpleTime ఉచితంగానే ఉంటుంది. Proతో అదనంగా: Apple Watch యాప్, సమీక్షలు, ప్రదేశాలు, లక్ష్యాలు, ఫోకస్ ఫిల్టర్, మరిన్ని – నెలవారీ, వార్షికం లేదా ఒకసారి శాశ్వతంగా.',
     'meta.faq.title': 'ప్రశ్నలు, సమాధానాలు · SimpleTime',
@@ -3504,7 +3504,7 @@ export const ui = {
     'meta.privacy.description': 'SimpleTime तुमचा डेटा कसा हाताळते: अकाउंट नाही, जाहिराती नाहीत.',
     'meta.imprint.description': '§ 5 DDG नुसार simple-time.app ची कायदेशीर सूचना – SimpleTime ॲप आणि वेबसाइटचे चालक, संपर्क तपशील आणि दायित्वविषयक माहिती.',
     'meta.terms.description': 'SimpleTime च्या वापराच्या अटी: मोफत ॲप, App Store द्वारे SimpleTime Pro, सदस्यता आणि मोफत आठवडा, तुमचा डेटा, दायित्व आणि लागू कायदा.',
-    'meta.accessibility.description': 'SimpleTime आणि ही वेबसाइट सर्वांना किती सहज वापरता येतात: VoiceOver, मोठे टेक्स्ट, 41 भाषा, स्वयंचलित तपासण्या – आणि अजून काय चांगले नाही.',
+    'meta.accessibility.description': 'SimpleTime आणि ही वेबसाइट सर्वांना किती सहज वापरता येतात: VoiceOver, मोठे टेक्स्ट, 51 भाषा, स्वयंचलित तपासण्या – आणि अजून काय चांगले नाही.',
     'meta.pro.title': 'SimpleTime Pro – Apple Watch, ठिकाणे, ध्येये आणि बरेच काही',
     'meta.pro.description': 'SimpleTime मोफत राहते. Pro मध्ये Apple Watch ॲप, आढावे, ठिकाणे, ध्येये, फोकस फिल्टर आणि बरेच काही मिळते – मासिक, वार्षिक किंवा एकदाच कायमसाठी.',
     'meta.faq.title': 'प्रश्न आणि उत्तरे · SimpleTime',
@@ -3562,7 +3562,7 @@ export const ui = {
     'meta.privacy.description': 'SimpleTime ਤੁਹਾਡੇ ਡੇਟਾ ਨੂੰ ਕਿਵੇਂ ਸੰਭਾਲਦਾ ਹੈ: ਕੋਈ ਖਾਤਾ ਨਹੀਂ, ਕੋਈ ਇਸ਼ਤਿਹਾਰ ਨਹੀਂ।',
     'meta.imprint.description': 'simple-time.app ਦਾ ਕਾਨੂੰਨੀ ਨੋਟਿਸ, § 5 DDG ਅਨੁਸਾਰ – SimpleTime ਐਪ ਅਤੇ ਵੈੱਬਸਾਈਟ ਦਾ ਸੰਚਾਲਕ, ਸੰਪਰਕ ਵੇਰਵੇ ਅਤੇ ਜ਼ਿੰਮੇਵਾਰੀ ਬਾਰੇ ਜਾਣਕਾਰੀ।',
     'meta.terms.description': 'SimpleTime ਦੀਆਂ ਵਰਤੋਂ ਦੀਆਂ ਸ਼ਰਤਾਂ: ਮੁਫ਼ਤ ਐਪ, App Store ਰਾਹੀਂ SimpleTime Pro, ਸਬਸਕ੍ਰਿਪਸ਼ਨਾਂ ਅਤੇ ਮੁਫ਼ਤ ਹਫ਼ਤਾ, ਤੁਹਾਡਾ ਡੇਟਾ, ਜ਼ਿੰਮੇਵਾਰੀ ਅਤੇ ਲਾਗੂ ਕਾਨੂੰਨ।',
-    'meta.accessibility.description': 'SimpleTime ਅਤੇ ਇਸ ਵੈੱਬਸਾਈਟ ਦੀ ਐਕਸੈੱਸਬਿਲਟੀ ਕਿੰਨੀ ਚੰਗੀ ਹੈ: VoiceOver, ਵੱਡਾ ਟੈਕਸਟ, 41 ਭਾਸ਼ਾਵਾਂ, ਸਵੈਚਾਲਿਤ ਜਾਂਚਾਂ – ਅਤੇ ਜੋ ਹਾਲੇ ਠੀਕ ਨਹੀਂ ਹੈ।',
+    'meta.accessibility.description': 'SimpleTime ਅਤੇ ਇਸ ਵੈੱਬਸਾਈਟ ਦੀ ਐਕਸੈੱਸਬਿਲਟੀ ਕਿੰਨੀ ਚੰਗੀ ਹੈ: VoiceOver, ਵੱਡਾ ਟੈਕਸਟ, 51 ਭਾਸ਼ਾਵਾਂ, ਸਵੈਚਾਲਿਤ ਜਾਂਚਾਂ – ਅਤੇ ਜੋ ਹਾਲੇ ਠੀਕ ਨਹੀਂ ਹੈ।',
     'meta.pro.title': 'SimpleTime Pro – Apple Watch, ਥਾਵਾਂ, ਟੀਚੇ ਅਤੇ ਹੋਰ ਬਹੁਤ ਕੁਝ',
     'meta.pro.description': 'SimpleTime ਮੁਫ਼ਤ ਰਹਿੰਦਾ ਹੈ। Pro, Apple Watch ਐਪ, ਸਮੀਖਿਆਵਾਂ, ਥਾਵਾਂ, ਟੀਚੇ, ਫ਼ੋਕਸ ਫ਼ਿਲਟਰ ਅਤੇ ਹੋਰ ਬਹੁਤ ਕੁਝ ਜੋੜਦਾ ਹੈ – ਮਹੀਨਾਵਾਰ, ਸਾਲਾਨਾ ਜਾਂ ਇੱਕ ਵਾਰ ਹਮੇਸ਼ਾਂ ਲਈ।',
     'meta.faq.title': 'ਸਵਾਲ ਅਤੇ ਜਵਾਬ · SimpleTime',

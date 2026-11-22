@@ -58,7 +58,7 @@
         "title": "Në çdo pajisje",
         "points": [
           "Sinkronizim mes iPhone, iPad dhe Mac përmes iCloud ose LaCodea ID",
-          "41 gjuhë, pavarësisht nga gjuha e pajisjes suaj",
+          "51 gjuhë, pavarësisht nga gjuha e pajisjes suaj",
           "VoiceOver dhe Dynamic Type në të gjithë aplikacionin"
         ]
       },
@@ -305,7 +305,7 @@
     "terms": "Kushtet e përdorimit (EULA)",
     "privacy": "Politika e privatësisë",
     "freeTitle": "Çfarë mbetet falas",
-    "freeBody": "Gjithçka që ju nevojitet për regjistrimin e kohës: detyrat dhe nëndetyrat, Oraret fikse, pamja e ditës dhe boshti kohor, grafikët dhe statistikat, raporti PDF dhe eksportimi CSV, miniaplikacionet, Aktiviteti i drejtpërdrejtë, Qendra e kontrollit dhe Siri, sinkronizimi përmes iCloud ose LaCodea ID, planet e rezervimit dhe kyçja e aplikacionit – në 41 gjuhë. Pa llogari, pa reklama, pa shitje të të dhënave tuaja.",
+    "freeBody": "Gjithçka që ju nevojitet për regjistrimin e kohës: detyrat dhe nëndetyrat, Oraret fikse, pamja e ditës dhe boshti kohor, grafikët dhe statistikat, raporti PDF dhe eksportimi CSV, miniaplikacionet, Aktiviteti i drejtpërdrejtë, Qendra e kontrollit dhe Siri, sinkronizimi përmes iCloud ose LaCodea ID, planet e rezervimit dhe kyçja e aplikacionit – në 51 gjuhë. Pa llogari, pa reklama, pa shitje të të dhënave tuaja.",
     "howTitle": "Si ta merrni Pro",
     "how": [
       "Në SimpleTime, hapni Cilësimet › SimpleTime Pro.",
@@ -386,7 +386,7 @@
             "id": "languages",
             "q": "Cilat gjuhë flet SimpleTime?",
             "a": [
-              "41 – nga anglishtja dhe gjermanishtja deri te arabishtja, hindishtja dhe japonishtja. Te Cilësimet › Gjuha mund ta zgjidhni gjuhën e aplikacionit pavarësisht nga gjuha e pajisjes suaj."
+              "51 – nga anglishtja dhe gjermanishtja deri te arabishtja, hindishtja dhe japonishtja. Te Cilësimet › Gjuha mund ta zgjidhni gjuhën e aplikacionit pavarësisht nga gjuha e pajisjes suaj."
             ]
           },
           {

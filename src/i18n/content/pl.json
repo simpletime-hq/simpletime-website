@@ -58,7 +58,7 @@
         "title": "Na każdym urządzeniu",
         "points": [
           "iPhone, iPad i Mac, zsynchronizowane przez iCloud albo LaCodea ID",
-          "41 języków, niezależnie od języka urządzenia",
+          "51 języków, niezależnie od języka urządzenia",
           "VoiceOver i Dynamic Type wszędzie"
         ]
       },
@@ -305,7 +305,7 @@
     "terms": "Warunki korzystania (EULA)",
     "privacy": "Polityka prywatności",
     "freeTitle": "Co pozostaje bezpłatne",
-    "freeBody": "Wszystko, czego potrzebujesz do zapisu czasu: zadania i podzadania, stałe terminy, widok dnia i oś czasu, wykresy i statystyki, raport PDF i eksport CSV, widżety, Wydarzenie na żywo, Centrum sterowania i Siri, synchronizacja przez iCloud albo LaCodea ID, plany kopii zapasowych i blokada aplikacji – w 41 językach. Bez konta, bez reklam, bez sprzedawania twoich danych.",
+    "freeBody": "Wszystko, czego potrzebujesz do zapisu czasu: zadania i podzadania, stałe terminy, widok dnia i oś czasu, wykresy i statystyki, raport PDF i eksport CSV, widżety, Wydarzenie na żywo, Centrum sterowania i Siri, synchronizacja przez iCloud albo LaCodea ID, plany kopii zapasowych i blokada aplikacji – w 51 językach. Bez konta, bez reklam, bez sprzedawania twoich danych.",
     "howTitle": "Jak zdobyć Pro",
     "how": [
       "W SimpleTime otwórz Ustawienia › SimpleTime Pro.",
@@ -386,7 +386,7 @@
             "id": "languages",
             "q": "W jakich językach mówi SimpleTime?",
             "a": [
-              "W 41 – od angielskiego i niemieckiego po arabski, hindi i japoński. W Ustawieniach › Język możesz wybrać język aplikacji niezależnie od języka urządzenia."
+              "W 51 – od angielskiego i niemieckiego po arabski, hindi i japoński. W Ustawieniach › Język możesz wybrać język aplikacji niezależnie od języka urządzenia."
             ]
           },
           {

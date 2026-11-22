@@ -58,7 +58,7 @@
         "title": "Su tutti i dispositivi",
         "points": [
           "iPhone, iPad e Mac, sincronizzati via iCloud o LaCodea ID",
-          "41 lingue, indipendenti dalla lingua del dispositivo",
+          "51 lingue, indipendenti dalla lingua del dispositivo",
           "VoiceOver e testo dinamico in tutta l'app"
         ]
       },
@@ -305,7 +305,7 @@
     "terms": "Condizioni d’uso (EULA)",
     "privacy": "Informativa sulla privacy",
     "freeTitle": "Cosa resta gratuito",
-    "freeBody": "Tutto ciò che ti serve per registrare il tempo: attività e sotto-attività, orari fissi, vista del giorno e linea del tempo, grafici e statistiche, report PDF ed esportazione CSV, widget, attività in tempo reale, centro di controllo e Siri, sincronizzazione tramite iCloud o LaCodea ID, piani di backup e il blocco dell’app – in 41 lingue. Nessun account, nessuna pubblicità, nessuna vendita dei tuoi dati.",
+    "freeBody": "Tutto ciò che ti serve per registrare il tempo: attività e sotto-attività, orari fissi, vista del giorno e linea del tempo, grafici e statistiche, report PDF ed esportazione CSV, widget, attività in tempo reale, centro di controllo e Siri, sincronizzazione tramite iCloud o LaCodea ID, piani di backup e il blocco dell’app – in 51 lingue. Nessun account, nessuna pubblicità, nessuna vendita dei tuoi dati.",
     "howTitle": "Come ottenere Pro",
     "how": [
       "In SimpleTime, apri Impostazioni › SimpleTime Pro.",
@@ -386,7 +386,7 @@
             "id": "languages",
             "q": "Quali lingue parla SimpleTime?",
             "a": [
-              "41 – dall’inglese e dal tedesco all’arabo, all’hindi e al giapponese. In Impostazioni › Lingua scegli la lingua dell’app indipendentemente da quella del dispositivo."
+              "51 – dall’inglese e dal tedesco all’arabo, all’hindi e al giapponese. In Impostazioni › Lingua scegli la lingua dell’app indipendentemente da quella del dispositivo."
             ]
           },
           {

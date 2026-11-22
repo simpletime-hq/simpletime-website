@@ -58,7 +58,7 @@
         "title": "Na každém zařízení",
         "points": [
           "iPhone, iPad a Mac, sladěné přes iCloud nebo LaCodea ID",
-          "41 jazyků, nezávisle na jazyce zařízení",
+          "51 jazyků, nezávisle na jazyce zařízení",
           "VoiceOver a Dynamic Type všude"
         ]
       },
@@ -305,7 +305,7 @@
     "terms": "Podmínky použití (EULA)",
     "privacy": "Zásady ochrany osobních údajů",
     "freeTitle": "Co zůstává zdarma",
-    "freeBody": "Všechno, co k zápisu času potřebuješ: úkoly a podúkoly, Pevné časy, přehled dne a časová osa, grafy a statistiky, PDF report a export do CSV, widgety, živá aktivita, Ovládací centrum a Siri, synchronizace přes iCloud nebo LaCodea ID, plány záloh a zámek aplikace – ve 41 jazycích. Bez účtu, bez reklam, bez prodeje tvých dat.",
+    "freeBody": "Všechno, co k zápisu času potřebuješ: úkoly a podúkoly, Pevné časy, přehled dne a časová osa, grafy a statistiky, PDF report a export do CSV, widgety, živá aktivita, Ovládací centrum a Siri, synchronizace přes iCloud nebo LaCodea ID, plány záloh a zámek aplikace – ve 51 jazycích. Bez účtu, bez reklam, bez prodeje tvých dat.",
     "howTitle": "Jak získat Pro",
     "how": [
       "V SimpleTime otevři Nastavení › SimpleTime Pro.",
@@ -386,7 +386,7 @@
             "id": "languages",
             "q": "Jakými jazyky SimpleTime mluví?",
             "a": [
-              "41 – od češtiny a angličtiny po arabštinu, hindštinu a japonštinu. V Nastavení › Jazyk si můžeš zvolit jazyk aplikace nezávisle na jazyce zařízení."
+              "51 – od češtiny a angličtiny po arabštinu, hindštinu a japonštinu. V Nastavení › Jazyk si můžeš zvolit jazyk aplikace nezávisle na jazyce zařízení."
             ]
           },
           {

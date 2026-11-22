@@ -18,7 +18,7 @@ const { home, store, shots } = getContent(lang);
 const hero = home.hero;
 
 // Chinese and Japanese run sentences together; everywhere else they are spaced.
-const sentenceGap = lang === 'ja' || lang === 'zh' ? '' : ' ';
+const sentenceGap = lang === 'ja' || lang === 'zh' || lang === 'zh-hant' ? '' : ' ';
 
 // The dial behind the phone: sixty minute marks, every fifth one longer – the
 // face of the clock that one tap starts.

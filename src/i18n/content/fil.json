@@ -1,0 +1,950 @@
+{
+  "store": {
+    "lead": "Itinatala ng SimpleTime kung saan napupunta ang oras mo. Isang pindot para magsimula, isang pindot para tumigil.",
+    "promise": "Walang kailangang account, walang patalastas. Nananatili sa device mo ang mga oras mo – at sa iCloud mo o sa LaCodea ID, kung gusto mo.",
+    "sections": [
+      {
+        "id": "tracking",
+        "title": "Pagtatala",
+        "points": [
+          "Isang pindot para magsimula at tumigil – sa app, mula sa home screen, sa Control Center, sa paghahanap sa iPhone o gamit ang Siri",
+          "Mga nakatakdang oras: isang beses mo lang ilalagay ang klase o shift mo – kusang itatala ito ng SimpleTime linggo-linggo",
+          "Mga gawaing may subgawain – ilang antas man ang kailangan ng trabaho mo",
+          "Nakalimutan mong simulan? Idagdag ang oras pagkatapos at baguhin ito kahit kailan mo gusto",
+          "Kulay, simbolo, mga paborito at pagkakasunod-sunod na ikaw mismo ang nagtatakda"
+        ]
+      },
+      {
+        "id": "day",
+        "title": "Ang araw mo",
+        "points": [
+          "Listahan o timeline mula 0 hanggang 24, may marka ng kasalukuyang oras",
+          "Mga tala sa anumang entry",
+          "Ang paghahambing sa kahapon, nasa itaas mismo"
+        ]
+      },
+      {
+        "id": "insights",
+        "title": "Pagsusuri",
+        "points": [
+          "Mga pie chart ayon sa gawain at ayon sa produktibidad",
+          "Araw, linggo, buwan, taon",
+          "Estadistika: paghahambing sa nakaraang panahon, tunguhin, pagkakahati sa buong araw, pinakamahaba at pinakamaikling entry",
+          "Bawat gawain ay may sariling numero – unang entry, pinakamahaba, ngayong linggo, ngayong taon",
+          "Ibahagi ang anumang tsart bilang larawan"
+        ]
+      },
+      {
+        "id": "reports",
+        "title": "Mga ulat at pag-export",
+        "points": [
+          "Ulat na PDF – ikaw ang pipili ng mga bahagi nito at ng pagkakasunod-sunod",
+          "CSV para sa Excel at Numbers",
+          "Mga backup plan: awtomatiko sa iCloud Drive, sa isang folder sa Files app gaya ng Dropbox o Google Drive, sa sarili mong server o sa device – naka-encrypt gamit ang password kung gusto mo"
+        ]
+      },
+      {
+        "id": "widgets",
+        "title": "Mga widget at Siri",
+        "points": [
+          "Ngayong araw, ang tumatakbong gawain at ang linggo sa home screen mo",
+          "Ang tumatakbong oras sa Lock screen at sa Dynamic Island",
+          "Isang switch sa Control Center para simulan at itigil ang pagtatala",
+          "Siri at Shortcuts: magsimula, tumigil o itanong kung ano ang tumatakbo"
+        ]
+      },
+      {
+        "id": "devices",
+        "title": "Sa bawat device",
+        "points": [
+          "iPhone, iPad at Mac – naka-sync sa pamamagitan ng iCloud o ng LaCodea ID",
+          "41 wika, anuman ang wika ng device mo",
+          "VoiceOver at Dynamic Type sa buong app"
+        ]
+      },
+      {
+        "id": "data",
+        "title": "Ang datos mo",
+        "points": [
+          "Lock ng app gamit ang Face ID, Touch ID o sarili mong code",
+          "Ikaw ang pipili kung saan nakatago ang datos mo: sa device na ito lang, sa iCloud mo o end-to-end na naka-encrypt sa LaCodea ID",
+          "Privacy sa iisang pahina: bawat pahintulot at lahat ng datos mo sa isang sulyap",
+          "Kung gusto mo, ang LaCodea ID, iisang account para sa lahat ng app ng LaCodea – gumagana rin ang SimpleTime kahit wala ito",
+          "Walang patalastas, hindi ibinebenta ang datos mo – kung walang account, mga anonymous na ulat ng crash at estadistika ng paggamit lang ang natatanggap namin, at puwede mo itong i-off",
+          "Burahin ang lahat nang sabay-sabay – sa device, sa iCloud at sa mga backup"
+        ]
+      }
+    ],
+    "pro": {
+      "title": "SimpleTime Pro",
+      "intro": "Libre pa rin ang lahat ng nasa itaas. Idinadagdag ng Pro:",
+      "points": [
+        "Apple Watch: simulan at itigil mula sa pulso mo, magsimula nang mas maaga, bantayan ang araw, linggo at mga layunin mo – kasama ang tumatakbong oras sa watch face",
+        "Mga balik-tanaw: ang linggo, buwan at taon mo bilang mga card – para buklatin at ibahagi",
+        "Mga lugar: kusang nagsisimula ang mga gawain pagdating mo – pagkatapos ng oras ng paghihintay, kung gusto mo",
+        "Kalendaryo: bawat entry bilang kaganapan sa kalendaryo mo – at mga gawain mula sa mga kalendaryo gaya ng “Trabaho” o “Pamilya”",
+        "Ang taon sa isang sulyap: bawat araw ng taon sa iisang larawan, kasama ang iyong sunod-sunod",
+        "Mga layunin kada gawain – para sa araw, linggo o buwan",
+        "Focus filter: bumubukas ang Focus mo sa trabaho, trabaho lang ang nasa listahan, tumatakbo na ang orasan",
+        "Widget na mabilisang simula – ikaw ang pupuno nito",
+        "Pitong accent na kulay o sarili mong kulay, anim na font at labing-anim na icon ng app",
+        "Dagdag na bahagi sa ulat na PDF: tunguhin, pagkakahati sa araw, paghahambing, mga layunin"
+      ],
+      "pricing": "Makukuha ang Pro nang buwanan, taunan o isang bayad lang para sa habambuhay. May isang linggong libre ang mga bagong subscriber, at sa Family Sharing ay hanggang anim na tao ang puwedeng gumamit ng Pro. Nakalagay sa app ang mga presyo. Kusang nagre-renew ang buwanan at taunan hanggang kanselahin mo, na puwede mong gawin anumang oras sa mga setting ng App Store. Kasama na ang anumang darating pa."
+    },
+    "closing": "Ginawa para sa sinumang gustong malaman kung saan talaga napupunta ang oras nila – sa trabaho, sa pag-aaral, sa pagsasanay o para sa sarili."
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Pagtatala ng oras para sa iPhone, iPad at Mac",
+      "titleLead": "Isang pindot",
+      "titleAccent": "at tumatakbo na ang orasan.",
+      "cta": "Tingnan ang mga feature",
+      "proof": [
+        "Libreng i-download",
+        "Walang account",
+        "Walang patalastas, walang pagbebenta ng datos"
+      ]
+    },
+    "tour": {
+      "tracking": "Magsimula kahit nasaan ka."
+    },
+    "devices": {
+      "title": "Sa bawat device na gamit mo.",
+      "subtitle": "Naka-sync ang iPhone, iPad at Mac sa pamamagitan ng iCloud o ng LaCodea ID – at patuloy na tumatakbo ang orasan sa Lock screen, sa Dynamic Island at sa pulso mo."
+    },
+    "showcase": [
+      {
+        "id": "day",
+        "title": "Ang buong araw mo, sa isang sulyap."
+      },
+      {
+        "id": "insights",
+        "title": "Tingnan kung saan talaga napupunta ang mga oras mo."
+      },
+      {
+        "id": "reports",
+        "title": "Isang ulat sa loob ng ilang segundo."
+      }
+    ],
+    "features": {
+      "title": "Lahat ng kailangan mo. Libre.",
+      "subtitle": "Bahagi ng libreng app ang bawat feature sa listahang ito."
+    },
+    "pro": {
+      "button": "Lahat tungkol sa SimpleTime Pro"
+    },
+    "audience": {
+      "title": "Para sa sinumang gustong malaman kung saan napupunta ang oras nila.",
+      "subtitle": "Sa trabaho, sa pag-aaral, sa pagsasanay – o para lang sa sarili mo.",
+      "groups": [
+        {
+          "id": "work",
+          "title": "Trabaho at freelance",
+          "body": "Paghiwalayin ang mga kliyente at proyekto bilang mga gawain at subgawain, at mag-export ng malinis na talaan kapag kailangan mo."
+        },
+        {
+          "id": "study",
+          "title": "Eskuwela at pag-aaral",
+          "body": "Tingnan kung gaano karaming oras talaga ang nauubos sa isang subject, at planuhin ang susunod na linggo gamit ang totoong numero."
+        },
+        {
+          "id": "training",
+          "title": "Pagsasanay at mga gawi",
+          "body": "Itala ang mga sesyon, praktis o tulog, at tingnan kung paano tumitibay ang gawi mo sa paglipas ng mga linggo."
+        },
+        {
+          "id": "everyday",
+          "title": "Pang-araw-araw na buhay",
+          "body": "Alamin kung saan talaga napupunta ang mga oras – at ikaw ang magpapasya kung ano ang gusto mong baguhin."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Mga karaniwang tanong.",
+      "subtitle": "Ang pinakamahahalagang sagot sa isang sulyap – at marami pang iba sa pahina ng FAQ.",
+      "button": "Lahat ng tanong at sagot"
+    },
+    "cta": {
+      "title": "Handa ka na bang magsimulang magtala?",
+      "subtitle": "Libre sa iPhone, iPad at Mac. Walang account, walang patalastas, hindi ibinebenta ang datos mo.",
+      "note": "Bahagi ng SimpleTime Pro ang app para sa Apple Watch."
+    }
+  },
+  "shots": [
+    {
+      "id": "tracking",
+      "title": "Magtala",
+      "caption": "Isang pindot at tumatakbo na ang orasan",
+      "alt": "Ang tab na Pagtatala na may tumatakbong gawain at mga paborito sa itaas"
+    },
+    {
+      "id": "day",
+      "title": "Ang araw mo",
+      "caption": "Bawat entry, hanggang sa segundo",
+      "alt": "Ang tab na Araw bilang listahan ng mga entry kasama ang kanilang oras"
+    },
+    {
+      "id": "timeline",
+      "title": "Timeline",
+      "caption": "Ang buong araw mo sa isang sulyap",
+      "alt": "Ang tab na Araw bilang timeline mula 0 hanggang 24"
+    },
+    {
+      "id": "chart",
+      "title": "Suriin",
+      "caption": "Kung saan talaga napupunta ang mga oras mo",
+      "alt": "Isang linggo bilang pie chart ayon sa gawain"
+    },
+    {
+      "id": "statistics",
+      "title": "Estadistika",
+      "caption": "Paghambingin ang mga linggo at alamin ang tunguhin",
+      "alt": "Estadistikang naghahambing sa linggong ito at sa nakaraang linggo"
+    },
+    {
+      "id": "report",
+      "title": "Mga ulat",
+      "caption": "Detalyadong PDF ng bawat gawain",
+      "alt": "Isang pahina ng ulat na PDF kasama ang bawat gawain"
+    },
+    {
+      "id": "pro",
+      "title": "Kunin ang Pro",
+      "caption": "Mga layunin, ang taon mo, sarili mong kulay",
+      "alt": "Ang pahina ng SimpleTime Pro sa app"
+    }
+  ],
+  "pro": {
+    "eyebrow": "SimpleTime Pro",
+    "title": "Sulitin ang oras na itinatala mo.",
+    "subtitle": "Libre pa rin ang SimpleTime – mananatiling ganoon ang lahat ng kaya nito nang walang Pro. Idinadagdag ng Pro ang Apple Watch mo, mga lugar na kusang nagsisimula ng gawain, mga balik-tanaw ng linggo, buwan at taon mo, mga layunin at iba pa.",
+    "featuresTitle": "Ang idinadagdag ng Pro",
+    "features": [
+      {
+        "id": "watch",
+        "title": "Apple Watch",
+        "body": "Simulan at itigil mula sa pulso mo, magsimula nang mas maaga, bantayan ang araw, linggo at mga layunin mo – kasama ang tumatakbong oras sa watch face."
+      },
+      {
+        "id": "reviews",
+        "title": "Mga balik-tanaw",
+        "body": "Ang linggo, buwan at taon mo bilang mga card – para buklatin at ibahagi."
+      },
+      {
+        "id": "places",
+        "title": "Mga lugar",
+        "body": "Kusang nagsisimula ang mga gawain pagdating mo – pagkatapos ng oras ng paghihintay, kung gusto mo, para walang magsimula kapag dumaan ka lang."
+      },
+      {
+        "id": "calendar",
+        "title": "Kalendaryo",
+        "body": "Bawat entry bilang kaganapan sa kalendaryo mo – at mga gawain mula sa mga kalendaryo gaya ng “Trabaho” o “Pamilya”."
+      },
+      {
+        "id": "year",
+        "title": "Ang taon sa isang sulyap",
+        "body": "Bawat araw ng taon bilang isang larawan, kasama ang kasalukuyan at ang pinakamahaba mong sunod-sunod."
+      },
+      {
+        "id": "goals",
+        "title": "Mga layunin",
+        "body": "Isang target kada gawain – para sa araw, linggo o buwan. Kasama rito ang mga subgawain."
+      },
+      {
+        "id": "focus",
+        "title": "Focus filter",
+        "body": "Bumubukas ang Focus mo sa trabaho, trabaho lang ang nasa listahan – at puwedeng magsimula at matapos ang pagtatala kasabay nito."
+      },
+      {
+        "id": "widget",
+        "title": "Widget na mabilisang simula",
+        "body": "Ikaw ang pipili kung aling mga gawain ang nakalagay rito. Isang pindot sa home screen para simulan ang mga ito."
+      },
+      {
+        "id": "style",
+        "title": "Mga kulay, font at icon ng app",
+        "body": "Pitong accent na kulay o sarili mong kulay na umaabot sa buong app – pati anim na font at labing-anim na icon ng app."
+      },
+      {
+        "id": "report",
+        "title": "Higit pa sa ulat na PDF",
+        "body": "Tunguhin, pagkakahati sa buong araw, paghahambing sa nakaraang panahon at mga layunin – sa pagkakasunod-sunod na pipiliin mo."
+      },
+      {
+        "id": "future",
+        "title": "Lahat ng darating pa",
+        "body": "Kasama na ang anumang idaragdag pa – walang dagdag na bayad."
+      }
+    ],
+    "plansTitle": "Tatlong paraan para makuha ang Pro",
+    "plansSubtitle": "Nakadepende sa bansa mo ang mga presyo, at bago ka bumili, ipinapakita ang mga ito sa app sa currency mo.",
+    "plans": [
+      {
+        "id": "monthly",
+        "title": "Buwanan",
+        "body": "Sinisingil bawat buwan. Puwede mong kanselahin anumang oras."
+      },
+      {
+        "id": "yearly",
+        "title": "Taunan",
+        "body": "Sinisingil minsan sa isang taon – ipinapakita ng app kung magkano ang matitipid mo kumpara sa buwanang bayad."
+      },
+      {
+        "id": "lifetime",
+        "title": "Habambuhay",
+        "body": "Isang beses kang magbabayad at sa iyo na ang Pro magpakailanman. Hindi ito mag-e-expire."
+      }
+    ],
+    "notes": [
+      "Puwedeng subukan ng mga bagong subscriber ang Buwanan o Taunan nang libre sa loob ng isang linggo.",
+      "Family Sharing: isang bili para sa hanggang anim na tao.",
+      "Kasama na ang anumang idaragdag pa – walang dagdag na bayad."
+    ],
+    "legal": "Kusang nagre-renew ang buwanan at taunan hanggang kanselahin mo. Puwede mong kanselahin ito anumang oras sa mga setting ng App Store. Isahang bayad ang Habambuhay at hindi ito mag-e-expire.",
+    "terms": "Mga tuntunin ng paggamit (EULA)",
+    "privacy": "Patakaran sa privacy",
+    "freeTitle": "Ang nananatiling libre",
+    "freeBody": "Lahat ng kailangan mo sa pagtatala: mga gawain at subgawain, mga nakatakdang oras, ang tab na Araw at timeline, mga tsart at estadistika, ang ulat na PDF at CSV export, mga widget, ang Live Activity, Control Center at Siri, pag-sync sa pamamagitan ng iCloud o ng LaCodea ID, mga backup plan at ang lock ng app – sa 41 wika. Walang account, walang patalastas, hindi ibinebenta ang datos mo.",
+    "howTitle": "Paano makuha ang Pro",
+    "how": [
+      "Sa SimpleTime, buksan ang Mga setting › SimpleTime Pro.",
+      "Piliin ang Buwanan, Taunan o Habambuhay – magbabayad ka sa pamamagitan ng Apple Account mo.",
+      "Agad na bubukas ang Pro sa lahat ng device mo na may parehong Apple Account."
+    ],
+    "faqTitle": "Mga tanong tungkol sa Pro",
+    "ctaTitle": "Magsimula nang libre.",
+    "ctaSubtitle": "I-download ang SimpleTime – at buksan ang Pro sa app kahit kailan mo gusto."
+  },
+  "faq": {
+    "title": "Mga karaniwang tanong.",
+    "subtitle": "Lahat tungkol sa SimpleTime – mula sa unang pindot hanggang sa SimpleTime Pro.",
+    "searchLabel": "Maghanap sa mga tanong",
+    "searchPlaceholder": "hal. “backup” o “Apple Watch”",
+    "results": "Mga tugmang tanong: {count}",
+    "noResults": "Walang tanong na tumutugma sa “{query}”.",
+    "noResultsHint": "Sumubok ng ibang salita – o [sumulat sa amin](@contact).",
+    "topics": "Mga paksa",
+    "moreTitle": "May tanong ka pa?",
+    "moreBody": "Sumulat sa amin – binabasa at sinasagot ang bawat mensahe.",
+    "moreButton": "Contact",
+    "categories": [
+      {
+        "id": "basics",
+        "title": "Pagsisimula",
+        "items": [
+          {
+            "id": "what-is",
+            "q": "Ano ang SimpleTime?",
+            "a": [
+              "Ang SimpleTime ay app sa pagtatala ng oras para sa iPhone, iPad at Mac. Isang pindot para tumakbo ang orasan, isang pindot para itigil ito. Pagkatapos, ipinapakita sa iyo ng SimpleTime kung saan napupunta ang oras mo – bilang listahan ng araw o timeline, sa mga tsart at estadistika, at bilang ulat na PDF o CSV file. Walang kailangang account, walang patalastas, hindi ibinebenta ang datos mo."
+            ]
+          },
+          {
+            "id": "first-steps",
+            "q": "Paano ako magsisimula?",
+            "a": [
+              "Pindutin ang + sa tab na Pagtatala para gumawa ng gawain – may pangalan, kulay at simbolo. Pindutin ang tatsulok sa tabi nito at tatakbo ang orasan; pindutin ang Itigil para tapusin ito. Sa unang pagbukas, may maikling tour na nagpapakita ng pinakamahahalagang buton. Mapapanood mo ulit ito anumang oras sa Mga setting › Ipakita ulit ang tour."
+            ]
+          },
+          {
+            "id": "free",
+            "q": "Libre ba ang SimpleTime?",
+            "a": [
+              "Oo. Libreng i-download ang SimpleTime, at libre rin ang lahat ng kailangan mo sa pagtatala: mga gawain at subgawain, mga nakatakdang oras, ang tab na Araw, mga tsart at estadistika, mga ulat at pag-export, mga widget, pag-sync sa pamamagitan ng iCloud o ng LaCodea ID at mga backup. Opsyonal ang SimpleTime Pro at idinadagdag nito ang app para sa Apple Watch, mga balik-tanaw, mga lugar, mga layunin at iba pa. [Lahat tungkol sa SimpleTime Pro](@pro)"
+            ]
+          },
+          {
+            "id": "account",
+            "q": "Kailangan ko ba ng account?",
+            "a": [
+              "Hindi. Bubuksan mo lang ang app at magsisimula ka na – walang kailangang pag-sign up. Kung iCloud ang gamit mo, dumadaan ang sync sa sarili mong Apple Account, na hindi namin kailanman nakikita. Kung gusto mo, puwede kang mag-sign in gamit ang LaCodea ID, ang aming account para sa lahat ng app ng LaCodea. Sa ganoon, iniimbak namin ang account mo at ang mga pagbili mo ng SimpleTime Pro. Ang mga entry mo ay iniimbak lang namin kung pipiliin mo ang LaCodea ID bilang lugar ng imbakan sa Data at sync – at end-to-end na naka-encrypt ang mga ito."
+            ]
+          },
+          {
+            "id": "lacodea-id",
+            "q": "Ano ang LaCodea ID?",
+            "a": [
+              "Ang LaCodea ID ay ang aming opsyonal na account para sa lahat ng app ng LaCodea. Nagsa-sign in ka sa pinakaitaas ng Mga setting – gamit ang Apple, isang passkey o isang code sa email. Gamit ito, puwede kang mag-sync nang end-to-end na naka-encrypt sa pamamagitan ng LaCodea ID, at may bisa ang pagbili ng SimpleTime Pro sa bawat device kung saan ka naka-sign in; gumagana pa rin nang maayos ang SimpleTime kahit wala ito."
+            ]
+          },
+          {
+            "id": "devices",
+            "q": "Saang mga device gumagana ang SimpleTime?",
+            "a": [
+              "Sa iPhone at iPad na may iOS 26 o iPadOS 26 pataas, at sa Mac na may macOS 26 pataas. Bahagi ng SimpleTime Pro ang app para sa Apple Watch at kailangan nito ang watchOS 26. Kung pipiliin mo ang iCloud o ang LaCodea ID sa Mga setting › Data at sync, mananatiling naka-sync ang mga entry mo sa lahat ng device na may parehong Apple Account o parehong LaCodea ID."
+            ]
+          },
+          {
+            "id": "mac",
+            "q": "Ano ang kaya ng SimpleTime sa Mac?",
+            "a": [
+              "Halos lahat ng kaya nito sa iPhone – pagtatala, ang tab na Araw, pagsusuri, mga ulat, pag-export, mga backup, sync at ang lock ng app; kung saan ka nag-i-swipe sa iPhone, i-right-click mo naman sa Mac. Dagdag pa rito ang stopwatch sa menu bar at mga widget sa desktop mo. Wala sa Mac ang mga lugar, mga Live Activity, ang app para sa Apple Watch at ang mga alternatibong icon ng app."
+            ]
+          },
+          {
+            "id": "languages",
+            "q": "Anong mga wika ang alam ng SimpleTime?",
+            "a": [
+              "41 – mula Ingles at Aleman hanggang Arabe, Hindi at Hapones. Sa Mga setting › Wika, mapipili mo ang wika ng app nang hiwalay sa wika ng device mo."
+            ]
+          },
+          {
+            "id": "offline",
+            "q": "Gumagana ba ang SimpleTime nang offline?",
+            "a": [
+              "Oo. Gumagana nang walang koneksyon ang pagtatala, ang tab na Araw, ang mga tsart at ang mga ulat. Kailangan mo ng koneksyon para sa sync, sa mga backup sa sarili mong server, sa pag-sign in gamit ang LaCodea ID, sa pagbili ng Pro at sa paghahanap ng address para sa isang lugar. Hahabulin ng SimpleTime ang anumang naiwang hindi nagawa – ang sync sa sandaling online na ulit ang device mo, ang na-miss na backup sa susunod na buksan mo ang app."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tracking",
+        "title": "Pagtatala",
+        "items": [
+          {
+            "id": "start-stop",
+            "q": "Paano ko sisimulan at ititigil ang pagtatala?",
+            "a": [
+              "Pindutin ang tatsulok sa tabi ng isang gawain para simulan ito. Lalabas ang tumatakbong gawain sa itaas ng tab na Pagtatala; pindutin ang Itigil para tapusin ito. Kapag pinindot mo ang pangalan ng gawain, bubukas ang mga subgawain nito; kapag nag-swipe ka pakaliwa, puwede mo itong baguhin, i-archive o burahin; at kapag nag-swipe ka pakanan, makikita ang impormasyon nito kasama ang lahat ng numero – sa Mac, nasa right-click ang lahat ng ito."
+            ]
+          },
+          {
+            "id": "one-at-a-time",
+            "q": "Puwede bang sabay na tumakbo ang dalawang gawain?",
+            "a": [
+              "Hindi. Isang entry lang ang tumatakbo sa bawat pagkakataon: kapag nagsimula ka ng ibang gawain, matatapos ang tumatakbong entry sa mismong sandaling iyon – kaya hindi nagsasanib ang mga entry mo."
+            ]
+          },
+          {
+            "id": "keeps-running",
+            "q": "Patuloy bang tumatakbo ang orasan kapag isinara ko ang SimpleTime?",
+            "a": [
+              "Oo. Tinatandaan ng SimpleTime kung kailan ka nagsimula at doon kinukuwenta ang tagal – patuloy ang pagtatala kahit isara mo ang app, i-lock ang iPhone mo o i-restart ito. Sa Lock screen at sa Dynamic Island, ipinapakita ng Live Activity ang tumatakbong oras, may buton para itigil ito, at dumarating ang mga paalala mo kahit sarado ang app."
+            ]
+          },
+          {
+            "id": "add-later",
+            "q": "Nakalimutan kong magsimula – puwede ko bang idagdag ang oras pagkatapos?",
+            "a": [
+              "Oo. Sa tab na Araw, pindutin ang + para magdagdag ng entry na may simula at katapusan, o pindutin ang isang umiiral na entry para baguhin ito. Hindi puwedeng magsanib ang mga entry: sasabihin sa iyo ng SimpleTime kung nagsasanib ang isang saklaw ng oras sa ibang entry. Kung tumatakbo na ang orasan, pindutin ang tumatakbong entry sa itaas ng tab na Pagtatala at iurong ang simula nito – hanggang sa katapusan ng naunang entry."
+            ]
+          },
+          {
+            "id": "restore-entry",
+            "q": "Nabura ko ang isang entry – maibabalik ko pa ba ito?",
+            "a": [
+              "Oo. Kapag binura mo ang isang entry sa tab na Araw – sa pag-swipe pakaliwa, o sa right-click sa Mac –, mapupunta ito sa basurahan: sa kaliwang itaas ng tab na Araw, sa “Mga binurang entry”, ibabalik ito ng “Ibalik”, o buburahin mo ito nang tuluyan. Naghihintay sa basurahan sa kaliwang itaas ng tab na Pagtatala ang mga binurang gawain, kasama ang kanilang mga entry. Kapag tuluyan nang nabura ang isang bagay, backup na lang ang makapagbabalik nito."
+            ]
+          },
+          {
+            "id": "fixed-times",
+            "q": "Ano ang mga nakatakdang oras?",
+            "a": [
+              "Isang beses mo lang itatakda ang mga umuulit na oras gaya ng klase, shift o oras ng konsultasyon: gawain, mga araw ng linggo, simula at katapusan, bawat linggo o bawat 2 linggo, mula sa araw na pipiliin mo at may petsa ng katapusan kung gusto mo. Sa sandaling matapos ang isang oras, kusa itong itatala ng SimpleTime bilang entry – sa bawat device kung saan mo binubuksan ang SimpleTime, pero iisang beses lang ito itatala; hinahabol nito ang hanggang 31 araw pabalik. Ang itatala mo na lang ay ang dagdag; makikita mo ito sa Mga setting › Pagtatala › Mga nakatakdang oras, hindi kailangan ng Pro."
+            ]
+          },
+          {
+            "id": "fixed-times-pause",
+            "q": "Puwede ko bang i-pause o baguhin ang mga nakatakdang oras?",
+            "a": [
+              "Oo. Para sa bakasyon sa eskuwela o trabaho, o kapag may sakit, magdagdag ng pahinga sa Mga setting › Pagtatala › Mga nakatakdang oras gamit ang “Magdagdag ng pahinga” – walang itatala ang SimpleTime habang may pahinga; puwede mong i-off ang isang oras gamit ang switch nito. Ang mga entry na naitala na ay puwedeng baguhin o burahin gaya ng iba, at kapag binago o binura mo ang isang nakatakdang oras, mananatili ang naitala na. Kung nagsasanib ang isang nakatakdang oras sa isang entry na mayroon na, hindi ito itatala ng SimpleTime."
+            ]
+          },
+          {
+            "id": "subtasks",
+            "q": "Paano gumagana ang mga subgawain?",
+            "a": [
+              "Pindutin ang pangalan ng isang gawain para buksan ito, saka magdagdag doon ng mga subgawain gamit ang +. Puwede kang gumawa ng ilang antas man ang kailangan ng trabaho mo – kliyente, proyekto, yugto. Sa mga tsart, ulat at layunin, binibilang ang mga subgawain sa gawaing nasa itaas nila."
+            ]
+          },
+          {
+            "id": "order",
+            "q": "Paano ko mapapanatiling maayos ang listahan ng mga gawain ko?",
+            "a": [
+              "Markahan bilang paborito ang mga gawaing ginagamit mo araw-araw – mananatili ang mga ito sa itaas. Ang iba ay puwedeng ayusin ayon sa alpabeto, ayon sa pinakamadalas gamitin, ayon sa kamakailang ginamit o sa sariling pagkakasunod. Dahil sa kulay at simbolo – o emoji – madaling makita ang bawat gawain."
+            ]
+          },
+          {
+            "id": "archive-trash",
+            "q": "Ano ang pagkakaiba ng pag-archive at pagbura?",
+            "a": [
+              "Itinatago lang ng pag-archive ang isang gawain: nananatili ang mga entry nito at patuloy na binibilang sa lahat ng pagsusuri. Inililipat naman ng pagbura ang gawain at ang mga entry nito sa basurahan – hindi na binibilang kahit saan ang oras ng mga ito. Makikita mo ang archive at ang basurahan sa kaliwang itaas ng tab na Pagtatala: mula sa archive, ibinabalik ng “Ibalik” ang isang gawain; mula sa basurahan, ibinabalik nito ang gawain kasama ang mga entry nito – o doon mo ito buburahin nang tuluyan."
+            ]
+          },
+          {
+            "id": "notes",
+            "q": "Puwede ba akong maglagay ng tala sa mga entry?",
+            "a": [
+              "Oo, puwedeng may tala ang bawat entry – kung ano ang pinagtrabahuhan mo, o kung sino ang kasama mo. Idinadagdag mo ito kapag gumagawa o nagbabago ka ng entry sa tab na Araw, o, habang tumatakbo ang orasan, sa pagpindot sa tumatakbong entry sa itaas ng tab na Pagtatala. Makikita mo ang tala kapag binuksan mo ang entry, sa impormasyon ng gawain sa “Lahat ng entry”, sa bahaging “Lahat ng entry” ng PDF at sa CSV export; kasama rin ito sa mga backup."
+            ]
+          },
+          {
+            "id": "reminders",
+            "q": "Kaya ba akong paalalahanan ng SimpleTime?",
+            "a": [
+              "Oo. Sa Mga setting › Ayusin ang mga abiso, nagtatakda ka ng mga panuntunan – halimbawa, paalala kapag 60 minuto nang tumatakbo ang isang gawain, para sa lahat ng gawain o sa mga napili lang, sa mga araw na pipiliin mo. Sa “Paalalahanan ako kapag walang tumatakbo”, sasabihan ka rin ng SimpleTime kapag matagal nang walang naitala."
+            ]
+          },
+          {
+            "id": "time-zone",
+            "q": "Bumiyahe ako sa ibang time zone – bakit iba ang oras na nakikita sa mga entry ko?",
+            "a": [
+              "Bilang default, ipinapakita ng SimpleTime ang bawat entry sa time zone kung nasaan ngayon ang device mo – gaya sa Calendar ng Apple: ang itinala mo nang alas-9 ng umaga sa New York ay lalabas nang alas-3 ng hapon sa Berlin. Sa Mga setting › Time zone, puwede mong piliin sa halip ang “Time zone noong itinala”: lalabas ang bawat entry sa oras at sa araw kung kailan mo ito itinala – saanman lumalabas ang mga oras at kabuuan. Pareho pa rin ang tagal sa alinmang paraan; ang mga entry mula sa mga bersyong bago ang 4.7 ay laging lumalabas sa time zone ng device."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "insights",
+        "title": "Tab na Araw at pagsusuri",
+        "items": [
+          {
+            "id": "day-view",
+            "q": "Ano ang ipinapakita ng tab na Araw?",
+            "a": [
+              "Bawat entry ng isang araw kasama ang simula, katapusan at tagal nito – bilang listahan, o bilang timeline mula 0 hanggang 24 na may marka ng kasalukuyang oras ngayong araw; sa malalapad na screen gaya ng iPad at Mac, magkatabi ang dalawa. Sa itaas, makikita mo ang kabuuan ng araw at ang paghahambing nito sa nakaraang araw."
+            ]
+          },
+          {
+            "id": "charts",
+            "q": "Anong mga tsart at estadistika ang mayroon?",
+            "a": [
+              "Sa tab na Tsart: mga pie chart ayon sa gawain at ayon sa produktibidad, para sa isang araw, linggo, buwan o taon. Sa kanang itaas, sa “Iba pang estadistika”, makikita mo ang paghahambing sa nakaraang panahon, ang tunguhin, ang mga nangungunang gawain mo at ang pinakamahaba at pinakamaikling entry – at, mula linggo pataas, kung paano nahahati ang oras mo sa buong araw, kasama ang pinakaabala mong oras. May sariling pahina ng impormasyon din ang bawat gawain – unang entry, pinakamahabang entry, ngayong linggo, ngayong taon."
+            ]
+          },
+          {
+            "id": "productivity",
+            "q": "Ano ang iskor ng produktibidad?",
+            "a": [
+              "Kapag binabago mo ang isang gawain, binibigyan mo ito ng kategorya sa “Produktibidad”: produktibo, hindi produktibo, kailangan – o “Huwag isama sa produktibidad”. Ang mga subgawaing walang sariling kategorya ay sumusunod sa kategorya ng gawaing nasa itaas nila, at ang “Huwag isama sa produktibidad” ay para sa lahat ng nasa ilalim. Ipinapakita ng iskor kung gaano karami sa binibilang mong oras ang produktibo o kailangan: (produktibo + kailangan) ÷ (produktibo + hindi produktibo + kailangan) × 100. Hindi binibilang ang oras na walang itinalagang kategorya o nakatakda sa “Huwag isama sa produktibidad”."
+            ]
+          },
+          {
+            "id": "goals",
+            "q": "Paano gumagana ang mga layunin?",
+            "a": [
+              "Sa SimpleTime Pro, nagtatakda ka ng target kada gawain sa Mga setting › Mga layunin: hindi bababa o hindi lalampas sa tiyak na dami ng oras kada araw, linggo o buwan – halimbawa, hindi bababa sa 8 oras ng sport kada linggo o hindi lalampas sa 2 oras ng social media kada araw. Kasama rito ang mga subgawain, at ang kasalukuyang panahon ang sinusukat. Makikita mo kung nasaan ka na sa tab na Tsart at sa Apple Watch mo; sa bahaging “Mga layunin”, inihahambing ng ulat na PDF ang karaniwan sa napiling panahon sa target mo."
+            ]
+          },
+          {
+            "id": "share-chart",
+            "q": "Puwede ko bang ibahagi ang isang tsart?",
+            "a": [
+              "Oo, puwedeng ibahagi bilang larawan o i-save sa Photos ang anumang tsart. Para ma-save ito, humihingi lang ang SimpleTime ng pahintulot na magdagdag ng mga larawan – hindi nito nakikita ang photo library mo."
+            ]
+          },
+          {
+            "id": "pdf-report",
+            "q": "Paano ako gagawa ng ulat na PDF?",
+            "a": [
+              "Sa Mga setting › I-export ang ulat, pumili ng panahon – mula ngayong araw hanggang sa buong panahon, o sarili mong saklaw – piliin ang mga bahaging gusto mo at hilahin ang mga ito para ayusin ang pagkakasunod-sunod. Gagawin ng SimpleTime ang PDF kasama ang bawat gawain at subgawain, handa nang ibahagi o i-save. Nagdadagdag ang SimpleTime Pro ng iba pang bahagi: “Sa paglipas ng panahon”, “Sa buong araw”, “Paghahambing” at “Mga layunin”.",
+              "Para sa timesheet, may bahaging “Lahat ng entry”: bawat entry araw-araw kasama ang simula, katapusan, gawain at tala, pati ang kabuuan kada araw, ang kabuuan ng lahat at mga oras sa decimal – akmang-akma para maitugma ang mga oras mo sa payslip mo. Libre ito, hindi kailangan ng Pro, at naka-on na bilang default."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "shortcuts",
+        "title": "Mga widget, Siri at Focus",
+        "items": [
+          {
+            "id": "widgets",
+            "q": "Anong mga widget ang mayroon?",
+            "a": [
+              "Para sa home screen: “Ngayon”, “Tumatakbong gawain” at “Linggo” – may mga buton ang “Ngayon” at “Tumatakbong gawain” para magsimula at tumigil. Para sa Lock screen: kung ano ang tumatakbo at gaano na katagal. Mayroon ding switch na “Pagtatala ng oras” para sa Control Center. Habang may tumatakbong gawain, ipinapakita ito ng isang Live Activity sa Lock screen at sa Dynamic Island, may buton para itigil ito. Sa SimpleTime Pro, makakakuha ka rin ng widget na mabilisang simula na pupunuin mo ng sarili mong mga gawain."
+            ]
+          },
+          {
+            "id": "without-opening",
+            "q": "Puwede ba akong magsimulang magtala nang hindi binubuksan ang app?",
+            "a": [
+              "Oo, sa iba’t ibang paraan. Pindutin nang matagal ang icon ng app para itigil ang tumatakbo o para simulan ang isa sa mga gawain mo. I-type ang pangalan ng isang gawain sa paghahanap sa iPhone at pindutin ito. O gumamit ng widget, ng Siri o ng switch na “Pagtatala ng oras” – sa Control Center, sa Lock screen o sa Action button mula iPhone 15 Pro –, at sa SimpleTime Pro, ng Apple Watch mo."
+            ]
+          },
+          {
+            "id": "siri",
+            "q": "Paano gumagana ang SimpleTime kasama ang Siri at Shortcuts?",
+            "a": [
+              "Sabihin, halimbawa, “Start Work in SimpleTime”, “Stop tracking in SimpleTime”, “How much did I track today in SimpleTime?” o “What’s running in SimpleTime?”. Naiintindihan ni Siri ang mga pariralang ito sa Ingles at Aleman. Sa bawat wika, nasa Shortcuts app ang mga aksyon, kung saan puwede mo rin silang bigyan ng sarili mong parirala."
+            ]
+          },
+          {
+            "id": "focus-filter",
+            "q": "Ano ang ginagawa ng Focus filter?",
+            "a": [
+              "Sa Focus filter, sinusunod ng SimpleTime ang Focus mo: kapag bumukas ang “Trabaho”, ang kategorya mo lang sa trabaho ang makikita sa listahan ng gawain – at puwedeng magsimula at matapos ang pagtatala kasabay ng Focus. Itinatakda ito sa Mga Setting ng iOS sa Focus › ang Focus mo › Focus Filters › Add Filter › SimpleTime. Bahagi ng SimpleTime Pro ang Focus filter."
+            ]
+          },
+          {
+            "id": "calendar-entries",
+            "q": "Kaya bang ilagay ng SimpleTime ang mga entry ko sa kalendaryo ko?",
+            "a": [
+              "Oo, sa SimpleTime Pro: i-on ang “Mga entry sa Kalendaryo” sa Mga setting › Kalendaryo – mula sa araw na iyon, lalabas bilang kaganapan ang bawat natapos na entry, sa sarili nitong kalendaryong “SimpleTime” o sa kalendaryong pipiliin mo, kada gawain kung gusto mo. Kapag binago o binura mo ang isang entry, susunod ang kaganapan, at binubuksan ng link sa kaganapan ang entry sa SimpleTime. Kapag in-off mo ito, mananatili ang mga kaganapan sa kalendaryo mo.",
+              "Ginagawang gawain ng “Mga gawain mula sa kalendaryo” ang mga kalendaryo gaya ng “Trabaho”; pero hindi nagiging entry ang mga kaganapang nasa kalendaryo mo na. Nakaimbak ang mga kaganapan sa provider ng kalendaryo mo at ipinapakita nito ang mga pangalan ng gawain mo sa lahat ng pinagbabahagian mo ng kalendaryo – kahit naka-on ang lock ng app."
+            ]
+          },
+          {
+            "id": "menu-bar",
+            "q": "Magagamit ko ba ang SimpleTime mula sa menu bar ng Mac ko?",
+            "a": [
+              "Oo. Ipinapakita ng stopwatch sa menu bar kung may tumatakbong gawain; i-click ito para magsimula, tumigil o lumipat ng gawain nang hindi binubuksan ang window. I-on o i-off ito sa Mga setting › Menu bar › Ipakita sa menu bar. Kapag naka-set up ang lock ng app, walang pangalan ng gawain sa menu at Itigil lang ang inaalok nito."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "data",
+        "title": "Sync, backup at pag-export",
+        "items": [
+          {
+            "id": "sync",
+            "q": "Nagsi-sync ba ang SimpleTime sa pagitan ng mga device ko?",
+            "a": [
+              "Oo, sa pamamagitan ng iCloud o ng LaCodea ID – ikaw ang pipili sa bawat device sa Mga setting › Data at sync. Sa iCloud, nagsi-sync ang bawat device kung saan mo pinili ang iCloud at naka-sign in ka gamit ang parehong Apple Account; ang system ang nagpapasya kung kailan. Hindi ito mapipilit – sinusuri na lang ng “I-sync ngayon” ang account at koneksyon mo, at ipinapakita ng parehong pahina kung kailan ito huling nag-sync.",
+              "Sa LaCodea ID, nagsi-sync ang bawat device kung saan ka naka-sign in gamit ang parehong LaCodea ID at kung saan mo ito pinili, kahit iba ang Apple Account – end-to-end na naka-encrypt at, kapag bukas ang SimpleTime sa dalawang device, sa loob ng ilang segundo."
+            ]
+          },
+          {
+            "id": "sync-trouble",
+            "q": "Hindi lumalabas ang mga entry ko sa iba kong device – ano ang puwede kong gawin?",
+            "a": [
+              "Tingnan ang Mga setting › Data at sync sa dalawang device: kailangang pareho ang lugar ng dalawa – iCloud na may parehong Apple Account, o LaCodea ID na may parehong pag-sign in. Kung sinasabi roon na mamaya pa magkakabisa ang paglipat, isara nang tuluyan ang SimpleTime at buksan ulit; panatilihin ding updated ang app sa lahat ng device mo.",
+              "Sa iCloud, ipinapakita ng “Huling sync” sa Mga setting, sa Pag-sync, kung kailan huling nailipat ang datos, at sinusuri ng “Suriin ang sync” ang account at koneksyon mo at, kapag may problema, sinasabi nito ang dahilan – halimbawa, puno na ang iCloud storage. Sa LaCodea ID, ipinapakita ng pahinang Data at sync kung may mga pagbabagong naghihintay ng koneksyon, kung ibang account ang naka-sign in o kung kailangan ng device ang recovery key mo. Kung hindi pa rin iyon makatulong, [sumulat sa amin](@contact)."
+            ]
+          },
+          {
+            "id": "without-icloud",
+            "q": "Magagamit ko ba ang SimpleTime nang walang iCloud?",
+            "a": [
+              "Oo. Piliin ang “Sa device na ito lang” sa Mga setting, sa Data at sync – mananatili na ang datos mo sa iisang device na ito. Kaya lalong mahalaga ang mga backup: awtomatiko itong sine-save ng isang backup plan, halimbawa sa isang folder sa Files app o sa sarili mong server. Kung gusto mo pa ring mag-sync ng ilang device nang walang iCloud, piliin doon ang LaCodea ID; hihingin nang isang beses ng device na walang iCloud Keychain mo ang recovery key mo."
+            ]
+          },
+          {
+            "id": "switch-storage",
+            "q": "Paano ko papalitan kung saan nakatago ang datos ko?",
+            "a": [
+              "Sa Mga setting › Data at sync, pindutin kung saan dapat nakatago ang datos mo, saka ang “Lumipat sa iCloud”, “Lumipat sa LaCodea ID” o “Itago sa device na ito lang”; para sa LaCodea ID, mag-sign in ka habang ginagawa ito. Bago lumipat sa iCloud o sa LaCodea ID, gumagawa ang SimpleTime ng safety copy ng device na ito, at kung may datos na roon, pipili ka sa pagitan ng “Pagsamahin” at “Gamitin ang data mula sa …”.",
+              "Para sa device na ito lang ang paglipat at kadalasang magkakabisa ito kapag naisara mo na nang tuluyan ang SimpleTime at nabuksan ulit – sasabihin ito sa iyo ng pahina. Patuloy na nagsi-sync gaya ng dati ang iba mong device hanggang lumipat ka rin doon. Pagkatapos, mag-aalok ang SimpleTime na burahin ang datos sa lumang lugar; gawin lang iyon kapag nakalipat na rin ang iba mong device – kung hindi, mawawala rin sa kanila ang datos na iyon."
+            ]
+          },
+          {
+            "id": "recovery-key",
+            "q": "Ano ang recovery key?",
+            "a": [
+              "Kapag LaCodea ID ang lugar ng imbakan mo, ine-encrypt ng SimpleTime ang datos mo nang end-to-end; kadalasang kusang nakukuha ng mga Apple device mo ang key sa pamamagitan ng iCloud Keychain. Ang device na walang iCloud Keychain mo – halimbawa, may ibang Apple Account – ay mangangailangan ng recovery key mo nang isang beses: 24 na titik at numero. Makikita mo ito sa Mga setting › Data at sync › Recovery key, pagkatapos ng Face ID o ng passcode ng device mo; hangga’t hindi mo kinukumpirmang na-save mo na ito, ipapaalala ito sa iyo ng pahinang Seguridad. Itago ito sa password manager mo o sa papel – kung wala ito at ang mga device mo, walang makakapagbukas ng datos mo, kahit kami."
+            ]
+          },
+          {
+            "id": "recovery-key-lost",
+            "q": "Nawala ko ang recovery key ko – ano ngayon?",
+            "a": [
+              "Sa device na nakakabasa pa ng datos mo, ipapakita ulit ito ng SimpleTime sa Mga setting › Data at sync › Recovery key gamit ang “Ipakita ang recovery key” – o gumawa ka roon ng bago, at hindi na gagana ang luma. Kung wala nang device mo ang makapagbukas ng datos, walang makakabawi nito – kahit kami. Kung gayon, pindutin ang “Nawala ang recovery key ko” kapag hiningi ito sa iyo at magsimula ulit gamit ang datos sa device na ito; mawawala ang anumang nasa server o nasa iba mong device lang."
+            ]
+          },
+          {
+            "id": "backups",
+            "q": "Paano gumagana ang mga backup?",
+            "a": [
+              "Sa Mga setting › Mga backup, gumawa ng kahit ilang backup plan ang gusto mo. May lugar ang bawat plano – iCloud Drive, isang folder sa Files app gaya ng Dropbox o Google Drive, sarili mong server sa pamamagitan ng WebDAV, o ang device na ito –, iskedyul mula oras-oras hanggang buwan-buwan, tagal ng pagtatago at, kung gusto mo, password. Sa parehong pahina, puwede ka ring mag-backup nang mano-mano anumang oras."
+            ]
+          },
+          {
+            "id": "backup-password",
+            "q": "Mapoprotektahan ko ba ng password ang mga backup ko?",
+            "a": [
+              "Oo. Kapag nagtakda ka ng password para sa isang plano, ine-encrypt ang bawat backup sa device mo bago ito i-save. Ingatan ang password: kung wala ito, walang makakapag-restore ng backup – hindi ikaw, hindi kami. Walang ibang paraan."
+            ]
+          },
+          {
+            "id": "backup-files",
+            "q": "Saan ko makikita ang mga backup ko?",
+            "a": [
+              "Lumalabas din ang mga backup ng planong nakatakda sa “Sa device na ito lang” sa Files app, sa “On My iPhone” (o “On My iPad”) › SimpleTime › Backups, at ang mga backup ng planong iCloud Drive ay nasa iCloud Drive › SimpleTime › Backups. Inilalagay ng mga planong para sa isang folder sa Files app o sa sarili mong server ang mga ito kung saan mo pinili. Nawawala ang mga backup sa device kasama ng device – at kapag binura mo ang SimpleTime. Mas mabuting lagyan ng password ang mga plano mo: kung wala nito, mabubuksan ang backup ng sinumang may access sa lugar na iyon – sa device, ng sinumang mag-unlock nito, kahit naka-on ang lock ng app."
+            ]
+          },
+          {
+            "id": "restore",
+            "q": "Paano ko ire-restore ang isang backup?",
+            "a": [
+              "Sa Mga setting › Mga backup, ire-restore mo ang isang backup – mula sa isa sa mga plano mo o mula sa isang file. Nananatili ang kasalukuyang datos, at idinadagdag ang anumang nawawala. Ang mga backup mula sa SimpleTime 4.7 at mas luma ay ini-import sa Mga setting › I-export / i-import ang datos › Mag-import ng backup mula sa JSON. Sa bagong device, mas mabuting hintaying maihatid muna ng sync sa pamamagitan ng iCloud o ng LaCodea ID ang datos mo – kung hindi, puwedeng magdoble ang mga gawain."
+            ]
+          },
+          {
+            "id": "export",
+            "q": "Puwede ko bang i-export ang datos ko?",
+            "a": [
+              "Oo, anumang oras: bilang CSV file na may isang hilera kada entry – petsa, simula, katapusan, gawain, tagal, oras sa decimal at tala, para sa Excel, Numbers o anumang spreadsheet app –, bilang ulat na PDF o bilang backup.",
+              "Sa Mga setting › I-export / i-import ang datos, pipiliin mo ang panahon ng CSV file – mula ngayong araw hanggang sa buong panahon, o sarili mong saklaw, gaya ng nakaraang buwan. Gumagawa ka ng backup sa Mga setting › Mga backup."
+            ]
+          },
+          {
+            "id": "timesheet",
+            "q": "Paano ko makukuha ang mga oras ko para sa timesheet?",
+            "a": [
+              "Bilang PDF: sa Mga setting › I-export ang ulat, piliin ang panahon – halimbawa, “Nakaraang buwan” – at hayaang naka-on ang bahaging “Lahat ng entry”; nakalista roon ang bawat entry kasama ang simula, katapusan, gawain at tala, pati ang kabuuan kada araw, ang kabuuan ng lahat at mga oras sa decimal. Bilang spreadsheet: sa Mga setting › I-export / i-import ang datos, piliin ang panahon at pindutin ang “I-export ang datos bilang CSV” – isang hilera kada entry na may petsa, simula, katapusan, gawain, tagal, oras sa decimal at tala, para sa Excel o Numbers. Libre ang dalawa, at binibilang ang mga entry mula sa mga nakatakdang oras gaya ng iba."
+            ]
+          },
+          {
+            "id": "rounding",
+            "q": "Kaya bang i-round ng SimpleTime ang mga oras, halimbawa sa bawat 15 minuto?",
+            "a": [
+              "Hindi, walang setting para sa pag-round: iniimbak ng SimpleTime ang simula at katapusan ayon sa pagkakatala mo. Sa bahaging “Lahat ng entry” ng PDF at sa CSV export, naka-round sa minuto ang bawat hilera at nakasaad sa oras na may dalawang decimal place; sa PDF, eksaktong ang mga halagang ito ang pinagsasama sa mga kabuuan. Kung kailangan mo ng bawat 15 minuto, baguhin ang simula at katapusan sa entry o i-round sa spreadsheet app mo."
+            ]
+          },
+          {
+            "id": "import",
+            "q": "Puwede ba akong mag-import ng datos mula sa ibang app?",
+            "a": [
+              "Hindi. Sariling mga backup lang ang binabasa ng SimpleTime – hindi maii-import ang mga CSV file, kahit ang sarili nito, at hindi nagiging entry ang mga kaganapan sa kalendaryo mo. Puwede mong idagdag nang mano-mano ang mga naunang oras sa tab na Araw gamit ang +."
+            ]
+          },
+          {
+            "id": "new-device",
+            "q": "Paano ako lilipat sa bagong iPhone?",
+            "a": [
+              "Mag-sign in gamit ang parehong Apple Account at i-install ang SimpleTime – kung iCloud ang gamit mo (Mga setting › Data at sync), kusang babalik ang mga entry mo. Kung LaCodea ID ang gamit mo, mag-sign in gamit ito sa bagong device at piliin ito sa Data at sync; kung hindi kusang nakuha ng device ang key sa pamamagitan ng iCloud Keychain mo, hihingin ng app nang isang beses ang recovery key mo. Kung hindi, gumawa ng backup sa lumang device at i-restore ito sa bago. Nakatali sa bawat device ang mga lugar at setting – hindi sini-sync o bina-back up ang mga ito."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "privacy",
+        "title": "Privacy at seguridad",
+        "items": [
+          {
+            "id": "data-location",
+            "q": "Saan nakaimbak ang datos ko?",
+            "a": [
+              "Kung saan mo pinili: sa Mga setting, sa Data at sync, pipili ka sa pagitan ng “Sa device na ito lang”, ng pribado mong iCloud, kung saan ine-encrypt ito ng Apple, at ng LaCodea ID, kung saan end-to-end itong naka-encrypt – hindi namin mababasa ang mga entry mo sa alinman sa mga lugar na ito. Nakaimbak ang mga backup kung saan sila inilalagay ng mga backup plan mo; kung walang password, mababasa ang mga ito ng sinumang may access sa lugar na iyon. Kapag in-on mo ang “Mga entry sa Kalendaryo” gamit ang Pro, lalabas din bilang kaganapan sa kalendaryo mo ang mga natapos na entry – nakikita ng provider nito at ng lahat ng pinagbabahagian mo nito."
+            ]
+          },
+          {
+            "id": "lacodea-id-privacy",
+            "q": "Sino ang makakabasa ng mga entry ko kapag nag-sync ako sa pamamagitan ng LaCodea ID?",
+            "a": [
+              "Ang mga device mo lang. Ine-encrypt ng SimpleTime sa device mo ang mga gawain, ang mga entry kasama ang oras at tala nila, ang mga nakatakdang oras, layunin at paalala (AES-GCM na may 256 bit) bago ipadala ang mga ito sa sariling server ng SimpleTime – ang mga device mo lang ang may key, hindi kami. Ang nakikita lang ng server ay kung ilan at anong uri ng record ang mayroon, kung humigit-kumulang gaano kalaki ang mga ito, kung kailan isinulat ang mga ito at kung binura ang mga ito; nasa isang data center ito sa Frankfurt am Main. Nasa aming [patakaran sa privacy](@privacy) ang mga detalye."
+            ]
+          },
+          {
+            "id": "tracking-me",
+            "q": "Sinusubaybayan ba ako ng SimpleTime?",
+            "a": [
+              "Hindi. Walang patalastas ang SimpleTime, hindi ito nagbebenta ng datos, hindi gumagawa ng mga profile ng user at hindi ka sinusundan sa ibang mga app at website. Para mabilis naming mahanap ang mga bug, nagpapadala ang app ng mga anonymous na ulat ng crash at estadistika ng paggamit sa sarili naming server – walang device ID, at hindi kailanman ang mga gawain, oras o tala mo. Puwede mo itong i-off sa Mga setting › Privacy › Pangkalahatang-ideya at mga pahintulot. Nasa aming [patakaran sa privacy](@privacy) ang mga detalye."
+            ]
+          },
+          {
+            "id": "permissions",
+            "q": "Anong mga pahintulot ang hinihingi ng SimpleTime?",
+            "a": [
+              "Ang kailangan lang ng isang feature, at kapag ginamit mo lang ito: mga abiso para sa mga paalala at sa mga abiso ng mga lugar, ang lokasyon mo para sa mga lugar, ang mga kalendaryo mo para sa “Mga entry sa Kalendaryo”, ang pagdagdag sa Photos para mag-save ng mga larawan, at Face ID o Touch ID para sa lock ng app. Sa mga setting, sa Privacy › Pangkalahatang-ideya at mga pahintulot, makikita mo ang bawat isa kasama ang kasalukuyang katayuan nito."
+            ]
+          },
+          {
+            "id": "location",
+            "q": "Bakit kailangan ng SimpleTime ang lokasyon ko?",
+            "a": [
+              "Para lang sa mga lugar, na bahagi ng SimpleTime Pro: para makapagsimula ang isang gawain pagdating mo sa isang lugar. Binabantayan ng iOS ang mga lugar na itinakda mo at sinasabihan nito ang app kapag dumating o umalis ka. Nananatili sa device mo ang mga lugar mo, at walang talaan ang SimpleTime kung saan ka nagpunta. Kung walang mga lugar, hindi kailangan ng SimpleTime ang lokasyon mo."
+            ]
+          },
+          {
+            "id": "app-lock",
+            "q": "Paano gumagana ang lock ng app?",
+            "a": [
+              "Sa Mga setting › Lock ng app, pipiliin mo kung bubuksan ang SimpleTime gamit ang Face ID o Touch ID at ang passcode ng device mo, o gamit ang sarili mong code – mga numero o password. Sa app switcher, nananatiling nakatakip ang SimpleTime, at hindi na lumalabas ang mga pangalan ng gawain sa paghahanap sa iPhone o sa icon ng app; sa bahaging “Sa labas ng app”, pipiliin mo kung ano ang ipapakita ng mga abiso, widget at ng Apple Watch. Kung sakaling makalimutan mo ang sarili mong code, puwede mong i-on muna ang “I-reset ang nakalimutang code gamit ang passcode ng device” o magtakda ng emergency password. Kung wala ang alinman sa dalawa, ang tanging paraan pabalik ay burahin at i-install ulit ang app – at mawawala ang anumang nasa device na ito lang kung wala kang backup."
+            ]
+          },
+          {
+            "id": "security-overview",
+            "q": "Ano ang ipinapakita ng pahinang Seguridad?",
+            "a": [
+              "Sa Mga setting › Seguridad › Overview, makikita mo sa isang sulyap kung gaano kaprotektado ang datos mo: passcode ng device, lock ng app, mga awtomatiko at naka-encrypt na backup at kung saan nakatago ang datos mo – sa LaCodea ID, pati ang end-to-end encryption at ang recovery key mo. Nakalista sa “Inirerekomenda” ang anumang kulang pa; ipinapaliwanag ng bawat isa kung paano ka nito pinoprotektahan at, kung kailangan, dinadala ka nito sa tamang setting."
+            ]
+          },
+          {
+            "id": "delete-all",
+            "q": "Paano ko buburahin ang lahat ng datos ko?",
+            "a": [
+              "Sa Mga setting, sa Privacy › Burahin ang lahat ng datos, aalisin mo ang lahat nang sabay-sabay – mga entry at gawain, mga layunin, mga lugar, ang basurahan, mga paalala, ang mga backup ng mga plano mo at ang mga lumang backup sa iCloud Drive, mga export, mga setting pati ang code ng lock ng app at ang mga kaganapang idinagdag ng SimpleTime sa kalendaryo mo.",
+              "Binubura ito sa device na ito, sa iCloud at – kung nagsi-sync ka sa pamamagitan ng LaCodea ID – sa server; sa pamamagitan ng iCloud, umaabot din ang pagbura sa iba mong device sa sandaling online na ang mga ito. Kung nagsi-sync ka sa pamamagitan ng LaCodea ID, mananatili ang datos sa iba mong device at titigil ang pag-sync nila hanggang i-set up mo ulit ito roon – burahin mo rin doon – at mananatili ang account mo sa LaCodea ID. Hindi na ito maibabalik."
+            ]
+          },
+          {
+            "id": "delete-app",
+            "q": "Ano ang mangyayari kapag binura ko ang SimpleTime?",
+            "a": [
+              "Mawawala ang anumang nasa device na ito lang: ang mga entry mo kung pinili mo ang “Sa device na ito lang”, ang mga backup ng planong “Sa device na ito lang”, ang mga lugar mo at ang mga setting mo pati ang lock ng app. Mananatili roon ang anumang nasa iCloud o nasa LaCodea ID at babalik ito pagkatapos mong i-install ulit, kapag ginamit mo ulit ang parehong lugar sa Data at sync.",
+              "Mananatili ang mga backup sa iCloud Drive, sa isang folder sa Files app o sa server mo, pati ang mga kaganapan sa kalendaryo mo; para sa naka-encrypt na backup, kakailanganin mo ang password nito. Magpapatuloy ang subscription hanggang kanselahin mo ito, at mananatili ang LaCodea ID mo. Kung gusto mong alisin muna ang lahat, gamitin ang Mga setting › Privacy › Burahin ang lahat ng datos."
+            ]
+          },
+          {
+            "id": "lacodea-id-delete",
+            "q": "Paano ako magsa-sign out o buburahin ang LaCodea ID ko?",
+            "a": [
+              "Pindutin ang LaCodea ID mo sa pinakaitaas ng Mga setting: sa “Mag-sign out”, masa-sign out ka sa lahat ng app ng LaCodea sa device na ito – mananatili rito ang datos mo at magsi-sync ulit ito sa sandaling mag-sign in ka. Inihihiwalay lang ng “Idiskonekta ang SimpleTime” ang SimpleTime sa account mo; binubura naman ng “Burahin ang LaCodea ID” ang account para sa lahat ng app ng LaCodea – magagawa mo rin iyon sa account.lacodea.com. Idiskonekta mo man o burahin, buburahin ng server ng SimpleTime ang mga na-sync mong datos doon; mananatili ang anumang nasa mga device mo o nasa iCloud. Magpapatuloy ang subscription sa pamamagitan ng Apple hanggang kanselahin mo ito sa mga setting ng device mo."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "pro",
+        "title": "SimpleTime Pro",
+        "items": [
+          {
+            "id": "pro-includes",
+            "q": "Ano ang kasama sa SimpleTime Pro?",
+            "a": [
+              "Ang app para sa Apple Watch, mga balik-tanaw ng linggo, buwan at taon mo, mga lugar, ang mga entry mo bilang kaganapan sa kalendaryo mo at mga gawain mula sa mga kalendaryo mo, ang taon sa isang sulyap, mga layunin, ang Focus filter, isang widget na mabilisang simula, pitong accent na kulay o sarili mong kulay, anim na font, labing-anim na icon ng app at dagdag na bahagi sa ulat na PDF. Kailangan ng iPhone ang app sa relo; nasa iPhone at iPad ang mga lugar at icon ng app. Kasama na ang anumang darating pa. [Lahat tungkol sa SimpleTime Pro](@pro)"
+            ]
+          },
+          {
+            "id": "pro-price",
+            "q": "Magkano ang SimpleTime Pro?",
+            "a": [
+              "Makukuha ang Pro nang buwanan, taunan o bilang isahang bili na “Habambuhay”. Nakadepende sa bansa at currency mo ang mga presyo at makikita ang mga ito sa app bago ka bumili."
+            ]
+          },
+          {
+            "id": "trial",
+            "q": "Puwede ko bang subukan muna ang Pro?",
+            "a": [
+              "Oo. Puwedeng subukan ng mga bagong subscriber ang Buwanan o Taunan nang libre sa loob ng isang linggo; ipinapakita ng app kung para sa iyo ang libreng subok. Kung hindi mo ito kakanselahin nang hindi bababa sa 24 oras bago ito matapos, magre-renew ang subscription sa presyong nakalagay."
+            ]
+          },
+          {
+            "id": "family",
+            "q": "Magagamit din ba ng pamilya ko ang Pro?",
+            "a": [
+              "Oo. Gumagana ang SimpleTime Pro sa Family Sharing – isang bili para sa hanggang anim na tao."
+            ]
+          },
+          {
+            "id": "restore-purchase",
+            "q": "Bumili ako ng Pro – paano ko ito makukuha sa iba kong device?",
+            "a": [
+              "Nakatali ang Pro sa Apple Account mo: sa iba mong device na may parehong account, kadalasang kusa itong bumubukas. Kung hindi, pindutin doon ang “Ibalik” sa Mga setting › SimpleTime Pro.",
+              "Sa device na may ibang Apple Account, makukuha mo ang Pro sa pamamagitan ng LaCodea ID: mag-sign in gamit ang parehong LaCodea ID sa dalawang device. Kung bumili ka ng Pro bago ka nag-sign in, mag-sign in din gamit ang LaCodea ID mo sa isang device na may Apple Account na ginamit mo sa pagbili – mula roon, iuulat ng SimpleTime ang pagbili sa account mo. Pagkatapos, makikita sa pahina ng Pro ang “Sa pamamagitan ng LaCodea ID mo” at, kung subscription, kung saan mo ito kinuha – doon lang ito mababago."
+            ]
+          },
+          {
+            "id": "cancel",
+            "q": "Paano ko kakanselahin ang subscription ko?",
+            "a": [
+              "Sa mga setting ng App Store mo – sa iPhone, sa Mga Setting › ang pangalan mo › Subscriptions – o sa app, sa pahina ng Pro, sa Pamahalaan ang subscription. Gumagana lang ito sa device na may Apple Account na ginamit mo sa pag-subscribe; kung nasa iyo ang Pro sa pamamagitan ng LaCodea ID mo, binabanggit ng pahina ng Pro ang mga device na iyon. Mananatiling aktibo ang Pro hanggang sa katapusan ng panahong nabayaran mo na, at hindi rin natatapos ang subscription kapag binura mo ang LaCodea ID mo."
+            ]
+          },
+          {
+            "id": "lifetime-switch",
+            "q": "May subscription ako – puwede ba akong lumipat sa Habambuhay?",
+            "a": [
+              "Oo, mismo sa pahina ng Pro. Pero hindi kusang tinatapos ng Apple ang subscription: kanselahin ito pagkatapos para hindi na ito mag-renew. Ipapaalala ito sa iyo ng app."
+            ]
+          },
+          {
+            "id": "pro-ends",
+            "q": "Ano ang mangyayari kapag natapos ang Pro?",
+            "a": [
+              "Walang mawawala. Mananatiling naka-save ang mga entry, layunin at lugar mo. Mala-lock ulit ang mga Pro feature – halimbawa, hindi na magsisimula ng gawain ang mga lugar – at babalik ang lahat sa sandaling maging aktibo ulit ang Pro."
+            ]
+          },
+          {
+            "id": "pro-offline",
+            "q": "Kailangan ba ng Pro ng koneksyon sa internet?",
+            "a": [
+              "Hindi. Sinusuri ng SimpleTime ang pagbili mo sa App Store – at, kung naka-sign in ka gamit ang LaCodea ID, sa account mo rin – tuwing kaya nito. Kahit walang koneksyon, patuloy na gumagana ang Pro – hanggang dalawang linggo nang hindi nakakakonekta."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "watch-places",
+        "title": "Apple Watch at mga lugar",
+        "items": [
+          {
+            "id": "watch-setup",
+            "q": "Paano ko ise-set up ang app sa Apple Watch?",
+            "a": [
+              "Bahagi ng SimpleTime Pro ang app para sa Apple Watch. I-install ito sa relo mo, saka buksan nang isang beses ang SimpleTime sa iPhone mo – pagkalipas ng ilang segundo, ipapakita ng relo ang mga gawain mo. Ang iPhone mo pa rin ang pinagmumulan: anumang sinimulan ng relo ay doon itinatala, kasama ang parehong Live Activity at ang parehong mga widget."
+            ]
+          },
+          {
+            "id": "watch-features",
+            "q": "Ano ang magagawa ko sa Apple Watch ko?",
+            "a": [
+              "Simulan at itigil mula sa pulso mo – ang mga paborito mo, ang huli mong ginamit, o anumang gawain sa pamamagitan ng paghahanap. Magsimula nang mas maaga: 5, 15, 30 o 60 minuto na ang nakalipas, o tuloy-tuloy mula sa katapusan ng huli mong entry. Itigil gamit ang double tap. Bantayan ang araw, linggo at mga layunin mo, kasama ang tumatakbong oras sa watch face at sa Smart Stack. Kapag hindi abot ang iPhone mo, itinatago ang mga pindot mo kasama ang oras nila at ihahatid mamaya."
+            ]
+          },
+          {
+            "id": "places-how",
+            "q": "Paano gumagana ang mga lugar?",
+            "a": [
+              "Magdagdag ng lugar – halimbawa ang opisina o gym mo – na may radius na 50 m hanggang 10 km, at pumili ng gawain. Pagdating mo, kusang magsisimula ang gawain, o magtatanong muna ang SimpleTime. Kapag may oras ng paghihintay, walang magsisimula kung dadaan ka lang. Pag-alis mo, puwedeng tumigil ang gawain, at puwede mong limitahan ang isang lugar sa tiyak na mga araw at oras."
+            ]
+          },
+          {
+            "id": "places-late",
+            "q": "Bakit huli o hindi nagsisimula ang isang lugar?",
+            "a": [
+              "Para gumana ang mga lugar, dapat nakatakda sa “Always” ang access sa lokasyon at naka-on ang “Precise Location”. Kapag mas maliit sa 100 m, madalas huli nang napapansin ng iOS ang pagdating mo, dahil sa background ay kadalasang galing sa Wi-Fi at sa mobile network ang lokasyon mo, hindi sa GPS – nakakatulong ang mas malaking radius. Hanggang 20 lugar lang kada app ang binabantayan ng iOS, at walang mga lugar sa Mac."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "more",
+        "title": "Iba pa",
+        "items": [
+          {
+            "id": "look",
+            "q": "Puwede ko bang baguhin ang itsura ng SimpleTime?",
+            "a": [
+              "Oo: maliwanag, madilim o sumusunod sa system, tatlong taas ng hilera para sa listahan ng gawain, at sa Mga setting › Font, sarili mong laki ng teksto at bold na teksto. Sa SimpleTime Pro, makakakuha ka rin ng pitong accent na kulay o sarili mong kulay – umaabot ito sa mga buton, switch at tsart –, anim na font at, sa iPhone at iPad, labing-anim na icon ng app."
+            ]
+          },
+          {
+            "id": "accessibility",
+            "q": "Accessible ba ang SimpleTime?",
+            "a": [
+              "Oo. Binabasa nang malakas ng VoiceOver ang mga buton, tsart at timeline sa bawat wika ng app, at may audio graph din ang mga tsart. Sinusunod ng teksto ang laki ng teksto sa iOS hanggang sa pinakamalalaking setting – sa header at sa timeline lang ito lumalaki hanggang sa isang limitasyon, para walang matakpang kontrol. Marami pa sa aming [pahayag sa accessibility](@accessibility); kung may hindi gumagana para sa iyo, pakisabi sa amin."
+            ]
+          },
+          {
+            "id": "freelance",
+            "q": "Angkop ba ang SimpleTime para sa mga freelancer?",
+            "a": [
+              "Para sa pagtatala ng oras mo, oo: paghiwalayin ang mga kliyente at proyekto bilang mga gawain at subgawain, at mag-export ng ulat na PDF o CSV file kapag kailangan mo ng talaan. Hindi bahagi ng SimpleTime ang mga rate kada oras at mga invoice – para roon, dalhin ang export sa invoicing tool mo."
+            ]
+          },
+          {
+            "id": "platforms",
+            "q": "May bersyon ba para sa Android, Windows o web?",
+            "a": [
+              "Wala. Ginawa ang SimpleTime para sa iPhone, iPad, Mac at Apple Watch. Puwede mong i-export ang datos mo bilang CSV anumang oras."
+            ]
+          },
+          {
+            "id": "account-web",
+            "q": "Ano ang magagawa ko sa account.lacodea.com?",
+            "a": [
+              "Doon mo pinamamahalaan ang LaCodea ID mo sa browser: ang mga paraan mo ng pag-sign in, ang mga subscription mo, ang pag-download ng datos ng account mo at ang pagbura ng account – sa SimpleTime, mararating mo ang parehong account sa pinakaitaas ng Mga setting. Hindi mo makikita roon ang mga entry mo: nasa SimpleTime lang ang mga ito sa iPhone, iPad, Mac at Apple Watch. Kung nagsi-sync ka sa pamamagitan ng LaCodea ID, end-to-end na naka-encrypt ang mga ito sa server ng SimpleTime – hindi kailanman natatanggap ng LaCodea ID mismo ang mga ito."
+            ]
+          },
+          {
+            "id": "feedback",
+            "q": "May nakita akong bug o may ideya ako – saan ko ito ipapadala?",
+            "a": [
+              "Sumulat sa amin sa [contact@simple-time.app](mailto:contact@simple-time.app) – mula sa app, puwede ka ring dumaan sa Mga setting › Feedback. Para sa bug, pakisabi sa amin ang modelo ng device mo, ang bersyon mo ng iOS, iPadOS o macOS at ang bersyon mo ng SimpleTime – makikita mo ito sa Mga setting › Tungkol sa SimpleTime – at ilarawan nang maikli kung ano ang ginagawa mo noon. Binabasa ang bawat mensahe."
+            ]
+          },
+          {
+            "id": "support-us",
+            "q": "Paano ko masusuportahan ang SimpleTime?",
+            "a": [
+              "Iisang tao ang gumagawa ng SimpleTime. Nakakatulong ang rating sa App Store, pati ang pagkukuwento mo tungkol dito sa iba – at pinapanatiling tuloy-tuloy ng SimpleTime Pro ang pagbuo nito."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

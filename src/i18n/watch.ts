@@ -36,6 +36,14 @@ export const WATCH: Record<Lang, { total: string; clock: string }> = {
   ro: { total: '9 ore, 2 min.', clock: '18:47' },
   pl: { total: '9 godz. i 2 min', clock: '18:47' },
   fi: { total: '9 h 2 min', clock: '18:47' },
+  fil: { total: '9 na oras, 2 min.', clock: '6:47' },
+  sr: { total: '9 сати и 2 мин', clock: '18:47' },
+  vi: { total: '9 giờ, 2 phút', clock: '18:47' },
+  'zh-hant': { total: '9小時2分鐘', clock: '6:47' },
+  id: { total: '9 j, 2 mnt', clock: '18:47' },
+  ko: { total: '9시간 2분', clock: '6:47' },
+  bg: { total: '9 ч и 2 мин', clock: '18:47' },
+  th: { total: '9 ชม. 2 นาที', clock: '18:47' },
 };
 
 /** Arabic-Indic digits where the watch uses them. */

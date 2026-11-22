@@ -1,0 +1,950 @@
+{
+  "store": {
+    "lead": "SimpleTime ghi lại thời gian của bạn đi đâu. Một chạm để bắt đầu, một chạm để dừng.",
+    "promise": "Không cần tài khoản, không quảng cáo. Giờ giấc của bạn ở lại trên máy – và trong iCloud của bạn hoặc ở LaCodea ID nếu bạn muốn.",
+    "sections": [
+      {
+        "id": "tracking",
+        "title": "Ghi giờ",
+        "points": [
+          "Một chạm để bắt đầu và dừng – trong ứng dụng, từ màn hình chính, từ Trung tâm điều khiển, từ tìm kiếm trên iPhone hoặc bằng Siri",
+          "Giờ cố định: tạo giờ học hay ca làm một lần – SimpleTime tự ghi chúng mỗi tuần",
+          "Công việc có công việc con, lồng sâu như cách bạn làm việc",
+          "Quên bấm bắt đầu? Thêm sau và sửa lúc nào cũng được",
+          "Màu, ký hiệu, mục yêu thích và thứ tự do bạn đặt"
+        ]
+      },
+      {
+        "id": "day",
+        "title": "Ngày của bạn",
+        "points": [
+          "Một danh sách hoặc dòng thời gian từ 0 đến 24 giờ, kèm dấu chỉ giờ hiện tại",
+          "Ghi chú cho bất kỳ mục nào",
+          "Hôm nay so với hôm qua ra sao, ngay trên cùng"
+        ]
+      },
+      {
+        "id": "insights",
+        "title": "Phân tích",
+        "points": [
+          "Biểu đồ tròn theo công việc và theo năng suất",
+          "Ngày, tuần, tháng, năm",
+          "Thống kê: so với kỳ trước, xu hướng, phân bố trong ngày, mục dài nhất và ngắn nhất",
+          "Mỗi công việc có con số riêng – mục đầu tiên, dài nhất, tuần này, năm nay",
+          "Chia sẻ mọi biểu đồ dưới dạng ảnh"
+        ]
+      },
+      {
+        "id": "reports",
+        "title": "Báo cáo và xuất dữ liệu",
+        "points": [
+          "Báo cáo PDF với các phần do bạn chọn và sắp xếp",
+          "CSV cho Excel và Numbers",
+          "Kế hoạch sao lưu: tự động vào iCloud Drive, một thư mục trong ứng dụng Tệp như Dropbox hay Google Drive, máy chủ riêng của bạn hoặc trên máy – mã hoá bằng mật khẩu nếu bạn muốn"
+        ]
+      },
+      {
+        "id": "widgets",
+        "title": "Widget và Siri",
+        "points": [
+          "Hôm nay, công việc đang chạy và tuần trên màn hình chính",
+          "Thời gian đang chạy hiện trên màn hình khoá và trong Dynamic Island",
+          "Một công tắc trong Trung tâm điều khiển để bắt đầu và dừng ghi giờ",
+          "Siri và Phím tắt: bắt đầu, dừng hoặc hỏi việc gì đang chạy"
+        ]
+      },
+      {
+        "id": "devices",
+        "title": "Trên mọi thiết bị",
+        "points": [
+          "iPhone, iPad và Mac, đồng bộ qua iCloud hoặc LaCodea ID",
+          "41 ngôn ngữ, không phụ thuộc ngôn ngữ của máy",
+          "VoiceOver và cỡ chữ động ở khắp nơi"
+        ]
+      },
+      {
+        "id": "data",
+        "title": "Dữ liệu của bạn",
+        "points": [
+          "Khoá ứng dụng bằng Face ID, Touch ID hoặc mã riêng",
+          "Bạn chọn nơi lưu dữ liệu: chỉ trên thiết bị này, trong iCloud của bạn hoặc ở LaCodea ID với mã hoá đầu cuối",
+          "Quyền riêng tư gói gọn trong một trang: xem nhanh mọi quyền truy cập và dữ liệu của bạn",
+          "LaCodea ID nếu bạn muốn: một tài khoản cho tất cả ứng dụng LaCodea – SimpleTime vẫn dùng được mà không cần nó",
+          "Không quảng cáo, không bán dữ liệu của bạn – khi không có tài khoản, chúng tôi chỉ nhận báo cáo sự cố và thống kê sử dụng ẩn danh, và bạn có thể tắt chúng",
+          "Xoá tất cả một lượt – trên máy, trên iCloud và trong các bản sao lưu"
+        ]
+      }
+    ],
+    "pro": {
+      "title": "SimpleTime Pro",
+      "intro": "Mọi thứ ở trên vẫn miễn phí. Pro thêm vào:",
+      "points": [
+        "Apple Watch: bắt đầu và dừng ngay trên cổ tay, bắt đầu sớm hơn, ngày, tuần và mục tiêu trong nháy mắt – thời gian đang chạy hiện trên mặt đồng hồ",
+        "Tổng kết: tuần, tháng và năm thành những tấm thẻ – để lướt xem và chia sẻ",
+        "Địa điểm: công việc tự bắt đầu khi bạn đến – sau một khoảng chờ nếu bạn muốn",
+        "Lịch: mỗi mục thành một sự kiện trong lịch của bạn – cùng công việc từ các lịch như “Công ty” hoặc “Gia đình”",
+        "Cả năm trong một hình: mỗi ngày của năm trong một bức tranh, kèm chuỗi ngày liên tiếp",
+        "Mục tiêu cho từng công việc – theo ngày, tuần hoặc tháng",
+        "Bộ lọc Tập trung: chế độ Tập trung công việc bật lên, danh sách chỉ còn công việc, đồng hồ đã chạy",
+        "Widget khởi động nhanh do bạn tự chọn nội dung",
+        "Bảy màu nhấn hoặc màu của riêng bạn, sáu phông chữ và mười sáu biểu tượng ứng dụng",
+        "Thêm phần trong báo cáo PDF: xu hướng, phân bố trong ngày, so sánh, mục tiêu"
+      ],
+      "pricing": "Pro có theo tháng, theo năm hoặc trả một lần là xong. Người đăng ký mới được dùng thử miễn phí một tuần, và với Chia sẻ trong gia đình, tối đa sáu người có thể dùng Pro. Giá hiển thị trong ứng dụng. Gói tháng và gói năm tự động gia hạn cho tới khi bạn huỷ, và bạn có thể huỷ bất cứ lúc nào trong cài đặt App Store. Những gì thêm vào sau này đều được tính."
+    },
+    "closing": "Dành cho bất kỳ ai muốn biết thời gian của mình thực sự đi đâu – trong công việc, ở trường đại học, khi tập luyện hay cho chính mình."
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Ứng dụng ghi giờ cho iPhone, iPad và Mac",
+      "titleLead": "Một chạm",
+      "titleAccent": "là đồng hồ chạy.",
+      "cta": "Xem tính năng",
+      "proof": [
+        "Tải về miễn phí",
+        "Không cần tài khoản",
+        "Không quảng cáo, không bán dữ liệu"
+      ]
+    },
+    "tour": {
+      "tracking": "Bắt đầu từ bất cứ đâu."
+    },
+    "devices": {
+      "title": "Trên mọi thiết bị bạn dùng.",
+      "subtitle": "iPhone, iPad và Mac luôn đồng bộ với nhau qua iCloud hoặc LaCodea ID – và đồng hồ cứ thế chạy trên Màn hình khoá, trong Dynamic Island và trên cổ tay bạn."
+    },
+    "showcase": [
+      {
+        "id": "day",
+        "title": "Cả ngày của bạn, nhìn qua là rõ."
+      },
+      {
+        "id": "insights",
+        "title": "Xem giờ giấc của bạn thực sự đi đâu."
+      },
+      {
+        "id": "reports",
+        "title": "Một bản báo cáo chỉ trong vài giây."
+      }
+    ],
+    "features": {
+      "title": "Mọi thứ bạn cần. Miễn phí.",
+      "subtitle": "Mọi tính năng trong danh sách này đều có trong ứng dụng miễn phí."
+    },
+    "pro": {
+      "button": "Tất cả về SimpleTime Pro"
+    },
+    "audience": {
+      "title": "Dành cho bất kỳ ai muốn biết thời gian của mình đi đâu.",
+      "subtitle": "Trong công việc, ở trường đại học, khi tập luyện – hay đơn giản là cho chính bạn.",
+      "groups": [
+        {
+          "id": "work",
+          "title": "Công việc & nghề tự do",
+          "body": "Tách riêng từng khách hàng, từng dự án bằng công việc và công việc con, rồi xuất một bản kê gọn gàng bất cứ khi nào bạn cần."
+        },
+        {
+          "id": "study",
+          "title": "Học tập & tự học",
+          "body": "Xem một môn học thực sự tốn bao nhiêu thời gian, và lên kế hoạch cho tuần tới bằng những con số thật."
+        },
+        {
+          "id": "training",
+          "title": "Tập luyện & thói quen",
+          "body": "Ghi lại các buổi tập, giờ luyện tập hay giấc ngủ, và thấy sự đều đặn dần hình thành qua từng tuần."
+        },
+        {
+          "id": "everyday",
+          "title": "Cuộc sống hằng ngày",
+          "body": "Tìm hiểu giờ giấc thực sự đi đâu – rồi tự bạn quyết định điều mình muốn thay đổi."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Giải đáp thắc mắc.",
+      "subtitle": "Những câu trả lời quan trọng nhất trong nháy mắt – và còn nhiều nữa ở trang Câu hỏi thường gặp.",
+      "button": "Tất cả câu hỏi và câu trả lời"
+    },
+    "cta": {
+      "title": "Sẵn sàng bắt đầu ghi giờ?",
+      "subtitle": "Miễn phí trên iPhone, iPad và Mac. Không cần tài khoản, không quảng cáo, không bán dữ liệu của bạn.",
+      "note": "Ứng dụng Apple Watch thuộc SimpleTime Pro."
+    }
+  },
+  "shots": [
+    {
+      "id": "tracking",
+      "title": "Ghi giờ",
+      "caption": "Một chạm là đồng hồ chạy",
+      "alt": "Tab Ghi giờ với một công việc đang chạy và các mục yêu thích ở trên cùng"
+    },
+    {
+      "id": "day",
+      "title": "Ngày của bạn",
+      "caption": "Mọi mục, chính xác đến từng giây",
+      "alt": "Chế độ xem ngày dạng danh sách các mục cùng thời gian của chúng"
+    },
+    {
+      "id": "timeline",
+      "title": "Dòng thời gian",
+      "caption": "Cả ngày của bạn, nhìn qua là rõ",
+      "alt": "Chế độ xem ngày dạng dòng thời gian từ 0 đến 24 giờ"
+    },
+    {
+      "id": "chart",
+      "title": "Phân tích",
+      "caption": "Giờ giấc của bạn thực sự đi đâu",
+      "alt": "Một tuần dưới dạng biểu đồ tròn theo công việc"
+    },
+    {
+      "id": "statistics",
+      "title": "Thống kê",
+      "caption": "So sánh các tuần, nhận ra xu hướng",
+      "alt": "Thống kê so sánh tuần này với tuần trước"
+    },
+    {
+      "id": "report",
+      "title": "Báo cáo",
+      "caption": "Bản PDF chi tiết cho mọi công việc",
+      "alt": "Một trang báo cáo PDF với mọi công việc"
+    },
+    {
+      "id": "pro",
+      "title": "Nâng cấp Pro",
+      "caption": "Mục tiêu, cả năm của bạn, màu của riêng bạn",
+      "alt": "Trang SimpleTime Pro trong ứng dụng"
+    }
+  ],
+  "pro": {
+    "eyebrow": "SimpleTime Pro",
+    "title": "Khai thác nhiều hơn từ thời gian bạn ghi.",
+    "subtitle": "SimpleTime vẫn miễn phí – mọi thứ ứng dụng làm được khi không có Pro vẫn sẽ miễn phí như vậy. Pro thêm Apple Watch của bạn, những địa điểm tự bắt đầu công việc, tổng kết tuần, tháng và năm của bạn, mục tiêu và hơn nữa.",
+    "featuresTitle": "Những gì Pro thêm vào",
+    "features": [
+      {
+        "id": "watch",
+        "title": "Apple Watch",
+        "body": "Bắt đầu và dừng ngay trên cổ tay, bắt đầu sớm hơn, ngày, tuần và mục tiêu trong nháy mắt – thời gian đang chạy hiện trên mặt đồng hồ."
+      },
+      {
+        "id": "reviews",
+        "title": "Tổng kết",
+        "body": "Tuần, tháng và năm của bạn thành những tấm thẻ – để lướt xem và chia sẻ."
+      },
+      {
+        "id": "places",
+        "title": "Địa điểm",
+        "body": "Công việc tự bắt đầu khi bạn đến – sau một khoảng chờ nếu bạn muốn, để không có gì bắt đầu khi bạn chỉ đi ngang qua."
+      },
+      {
+        "id": "calendar",
+        "title": "Lịch",
+        "body": "Mỗi mục thành một sự kiện trong lịch của bạn – cùng công việc từ các lịch như “Công ty” hoặc “Gia đình”."
+      },
+      {
+        "id": "year",
+        "title": "Cả năm trong một hình",
+        "body": "Mỗi ngày của năm trong một bức tranh, kèm chuỗi hiện tại và chuỗi dài nhất."
+      },
+      {
+        "id": "goals",
+        "title": "Mục tiêu",
+        "body": "Một mục tiêu cho mỗi công việc – theo ngày, tuần hoặc tháng. Công việc con cũng được tính vào."
+      },
+      {
+        "id": "focus",
+        "title": "Bộ lọc Tập trung",
+        "body": "Chế độ Tập trung công việc bật lên, danh sách chỉ còn công việc – và việc ghi giờ có thể bắt đầu và kết thúc cùng nó."
+      },
+      {
+        "id": "widget",
+        "title": "Widget khởi động nhanh",
+        "body": "Bạn quyết định những công việc nào nằm trên đó. Một chạm trên Màn hình chính là bắt đầu."
+      },
+      {
+        "id": "style",
+        "title": "Màu sắc, phông chữ và biểu tượng ứng dụng",
+        "body": "Bảy màu nhấn hoặc màu của riêng bạn, chạy suốt cả ứng dụng – cùng sáu phông chữ và mười sáu biểu tượng ứng dụng."
+      },
+      {
+        "id": "report",
+        "title": "Thêm nội dung trong báo cáo PDF",
+        "body": "Xu hướng, phân bố trong ngày, so sánh với kỳ trước và mục tiêu – theo thứ tự bạn chọn."
+      },
+      {
+        "id": "future",
+        "title": "Cả những gì sắp ra mắt",
+        "body": "Những gì thêm vào sau này đều được tính – không phải mua thêm."
+      }
+    ],
+    "plansTitle": "Ba cách để có Pro",
+    "plansSubtitle": "Giá tuỳ theo quốc gia và được hiển thị trong ứng dụng bằng đơn vị tiền tệ của bạn trước khi bạn mua.",
+    "plans": [
+      {
+        "id": "monthly",
+        "title": "Hằng tháng",
+        "body": "Thanh toán hằng tháng. Bạn có thể huỷ bất cứ lúc nào."
+      },
+      {
+        "id": "yearly",
+        "title": "Hằng năm",
+        "body": "Thanh toán mỗi năm một lần – ứng dụng cho biết bạn tiết kiệm được bao nhiêu so với trả theo tháng."
+      },
+      {
+        "id": "lifetime",
+        "title": "Trọn đời",
+        "body": "Trả một lần và giữ Pro mãi mãi. Không bao giờ hết hạn."
+      }
+    ],
+    "notes": [
+      "Người đăng ký mới có thể dùng thử miễn phí gói Hằng tháng hoặc Hằng năm trong một tuần.",
+      "Chia sẻ trong gia đình: một lần mua cho tối đa sáu người.",
+      "Những gì thêm vào sau này đều được tính – không phải mua thêm."
+    ],
+    "legal": "Gói tháng và gói năm tự động gia hạn cho tới khi bạn huỷ. Bạn có thể huỷ bất cứ lúc nào trong cài đặt App Store. Gói trọn đời trả một lần và không hết hạn.",
+    "terms": "Điều khoản sử dụng (EULA)",
+    "privacy": "Chính sách quyền riêng tư",
+    "freeTitle": "Những gì vẫn miễn phí",
+    "freeBody": "Mọi thứ bạn cần để ghi giờ: công việc và công việc con, Giờ cố định, chế độ xem ngày và dòng thời gian, biểu đồ và thống kê, báo cáo PDF và xuất CSV, widget, Hoạt động trực tiếp, Trung tâm điều khiển và Siri, đồng bộ qua iCloud hoặc LaCodea ID, kế hoạch sao lưu và khoá ứng dụng – bằng 41 ngôn ngữ. Không cần tài khoản, không quảng cáo, không bán dữ liệu của bạn.",
+    "howTitle": "Cách để có Pro",
+    "how": [
+      "Trong SimpleTime, mở Cài đặt › SimpleTime Pro.",
+      "Chọn Hằng tháng, Hằng năm hoặc Trọn đời – bạn thanh toán qua Tài khoản Apple của mình.",
+      "Pro được mở khoá ngay, trên mọi thiết bị của bạn dùng cùng Tài khoản Apple."
+    ],
+    "faqTitle": "Câu hỏi về Pro",
+    "ctaTitle": "Bắt đầu miễn phí.",
+    "ctaSubtitle": "Tải SimpleTime về – và mở khoá Pro trong ứng dụng bất cứ khi nào bạn muốn."
+  },
+  "faq": {
+    "title": "Giải đáp thắc mắc.",
+    "subtitle": "Mọi điều về SimpleTime – từ lần chạm đầu tiên đến SimpleTime Pro.",
+    "searchLabel": "Tìm trong các câu hỏi",
+    "searchPlaceholder": "Ví dụ: “sao lưu” hoặc “Apple Watch”",
+    "results": "Câu hỏi phù hợp: {count}",
+    "noResults": "Không có câu hỏi nào khớp với “{query}”.",
+    "noResultsHint": "Hãy thử từ khác – hoặc [viết cho chúng tôi](@contact).",
+    "topics": "Chủ đề",
+    "moreTitle": "Vẫn còn thắc mắc?",
+    "moreBody": "Hãy viết cho chúng tôi – mọi tin nhắn đều được đọc và trả lời.",
+    "moreButton": "Liên hệ",
+    "categories": [
+      {
+        "id": "basics",
+        "title": "Bắt đầu",
+        "items": [
+          {
+            "id": "what-is",
+            "q": "SimpleTime là gì?",
+            "a": [
+              "SimpleTime là ứng dụng ghi giờ cho iPhone, iPad và Mac. Một chạm để đồng hồ chạy, một chạm để dừng. Sau đó SimpleTime cho bạn thấy thời gian của mình đi đâu – dưới dạng danh sách theo ngày hoặc dòng thời gian, trong biểu đồ và thống kê, cũng như dưới dạng báo cáo PDF hoặc tệp CSV. Không cần tài khoản, không quảng cáo, không bán dữ liệu của bạn."
+            ]
+          },
+          {
+            "id": "first-steps",
+            "q": "Bắt đầu như thế nào?",
+            "a": [
+              "Chạm vào dấu + trong tab Ghi giờ để tạo một công việc – với tên, màu và ký hiệu. Chạm vào hình tam giác bên cạnh là đồng hồ chạy; chạm nút Dừng để kết thúc. Ở lần mở đầu tiên, một phần giới thiệu ngắn sẽ chỉ cho bạn những nút quan trọng nhất. Bạn có thể xem lại bất cứ lúc nào trong Cài đặt › Xem lại phần giới thiệu."
+            ]
+          },
+          {
+            "id": "free",
+            "q": "SimpleTime có miễn phí không?",
+            "a": [
+              "Có. Tải SimpleTime về là miễn phí, và mọi thứ bạn cần để ghi giờ cũng vậy: công việc và công việc con, giờ cố định, chế độ xem ngày, biểu đồ và thống kê, báo cáo và xuất dữ liệu, widget, đồng bộ qua iCloud hoặc LaCodea ID, và sao lưu. SimpleTime Pro là tuỳ chọn và thêm ứng dụng Apple Watch, tổng kết, địa điểm, mục tiêu và hơn nữa. [Tất cả về SimpleTime Pro](@pro)"
+            ]
+          },
+          {
+            "id": "account",
+            "q": "Tôi có cần tài khoản không?",
+            "a": [
+              "Không. Bạn chỉ cần mở ứng dụng và bắt đầu – không cần đăng ký. Nếu dùng iCloud, việc đồng bộ diễn ra qua Tài khoản Apple của chính bạn, mà chúng tôi không bao giờ thấy được. Nếu muốn, bạn có thể đăng nhập bằng LaCodea ID, tài khoản của chúng tôi cho tất cả ứng dụng LaCodea. Khi đó chúng tôi lưu tài khoản của bạn và các giao dịch mua SimpleTime Pro – còn các mục của bạn thì chỉ khi bạn chọn LaCodea ID làm nơi lưu trong Dữ liệu và đồng bộ, và khi đó chúng được mã hoá đầu cuối."
+            ]
+          },
+          {
+            "id": "lacodea-id",
+            "q": "LaCodea ID là gì?",
+            "a": [
+              "LaCodea ID là tài khoản không bắt buộc của chúng tôi cho tất cả ứng dụng LaCodea. Bạn đăng nhập ở trên cùng của Cài đặt – bằng Apple, mã khoá hoặc mã qua email. Với tài khoản này, bạn có thể đồng bộ qua LaCodea ID với mã hoá đầu cuối, và giao dịch mua SimpleTime Pro có hiệu lực trên mọi thiết bị bạn đã đăng nhập; dù vậy, SimpleTime vẫn chạy tốt khi không có nó."
+            ]
+          },
+          {
+            "id": "devices",
+            "q": "SimpleTime chạy trên những thiết bị nào?",
+            "a": [
+              "Trên iPhone và iPad chạy iOS 26 hoặc iPadOS 26 trở lên, và trên Mac chạy macOS 26 trở lên. Ứng dụng Apple Watch thuộc SimpleTime Pro và cần watchOS 26. Nếu bạn chọn iCloud hoặc LaCodea ID trong Cài đặt › Dữ liệu và đồng bộ, các mục của bạn luôn được đồng bộ trên mọi thiết bị dùng cùng Tài khoản Apple hoặc cùng LaCodea ID."
+            ]
+          },
+          {
+            "id": "mac",
+            "q": "SimpleTime làm được gì trên Mac?",
+            "a": [
+              "Gần như mọi thứ như trên iPhone – ghi giờ, chế độ xem ngày, phân tích, báo cáo, xuất dữ liệu, sao lưu, đồng bộ và khoá ứng dụng; chỗ nào trên iPhone bạn vuốt thì trên Mac bạn bấm chuột phải. Thêm vào đó còn có đồng hồ bấm giờ trên thanh menu và widget trên màn hình nền. Địa điểm, Hoạt động trực tiếp, ứng dụng Apple Watch và biểu tượng ứng dụng thay thế không có trên Mac."
+            ]
+          },
+          {
+            "id": "languages",
+            "q": "SimpleTime có những ngôn ngữ nào?",
+            "a": [
+              "41 – từ tiếng Anh, tiếng Đức đến tiếng Ả Rập, tiếng Hindi và tiếng Nhật. Trong Cài đặt › Ngôn ngữ, bạn có thể chọn ngôn ngữ của ứng dụng, không phụ thuộc ngôn ngữ của thiết bị."
+            ]
+          },
+          {
+            "id": "offline",
+            "q": "SimpleTime có dùng được khi không có mạng không?",
+            "a": [
+              "Có. Ghi giờ, chế độ xem ngày, biểu đồ và báo cáo đều hoạt động mà không cần kết nối. Bạn cần kết nối để đồng bộ, sao lưu lên máy chủ riêng, đăng nhập bằng LaCodea ID, mua Pro và tìm địa chỉ cho một địa điểm. Những gì còn dang dở, SimpleTime sẽ làm bù – đồng bộ ngay khi thiết bị có mạng trở lại, bản sao lưu bị lỡ vào lần tới bạn mở ứng dụng."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tracking",
+        "title": "Ghi giờ",
+        "items": [
+          {
+            "id": "start-stop",
+            "q": "Làm sao để bắt đầu và dừng ghi giờ?",
+            "a": [
+              "Chạm vào hình tam giác bên cạnh một công việc để bắt đầu. Công việc đang chạy hiện ở trên cùng của tab Ghi giờ; chạm nút Dừng để kết thúc. Chạm vào tên công việc sẽ mở các công việc con của nó, vuốt sang trái để sửa, lưu trữ hoặc xoá công việc, còn vuốt sang phải sẽ hiện thông tin với mọi con số – trên Mac, bấm chuột phải là có tất cả những điều này."
+            ]
+          },
+          {
+            "id": "one-at-a-time",
+            "q": "Hai công việc có thể chạy cùng lúc không?",
+            "a": [
+              "Không. Mỗi lúc chỉ có một mục đang chạy: khi bạn bắt đầu công việc khác, mục đang chạy kết thúc ngay đúng khoảnh khắc đó – nhờ vậy các mục của bạn không chồng lên nhau."
+            ]
+          },
+          {
+            "id": "keeps-running",
+            "q": "Đồng hồ có tiếp tục chạy khi tôi đóng SimpleTime không?",
+            "a": [
+              "Có. SimpleTime ghi nhớ lúc bạn bắt đầu và tính thời lượng từ đó – việc ghi giờ vẫn tiếp tục khi bạn đóng ứng dụng, khoá iPhone hay khởi động lại máy. Trên Màn hình khoá và trong Dynamic Island, Hoạt động trực tiếp hiển thị thời gian đang chạy, kèm một nút để dừng, và lời nhắc của bạn vẫn đến ngay cả khi ứng dụng đã đóng."
+            ]
+          },
+          {
+            "id": "add-later",
+            "q": "Tôi quên bấm bắt đầu – có thể thêm giờ sau không?",
+            "a": [
+              "Được. Trong tab Ngày, chạm dấu + để thêm một mục với giờ bắt đầu và kết thúc, hoặc chạm vào một mục có sẵn để sửa. Các mục không được chồng lên nhau: SimpleTime sẽ báo cho bạn nếu một khoảng thời gian trùng với mục khác. Nếu đồng hồ đã chạy, hãy chạm vào mục đang chạy ở trên cùng của tab Ghi giờ và lùi giờ bắt đầu lại – tối đa đến lúc mục trước đó kết thúc."
+            ]
+          },
+          {
+            "id": "restore-entry",
+            "q": "Tôi lỡ xoá một mục – có lấy lại được không?",
+            "a": [
+              "Được. Nếu bạn xoá một mục trong tab Ngày – bằng cách vuốt sang trái, hoặc bấm chuột phải trên Mac –, mục đó sẽ vào thùng rác: ở góc trên bên trái của tab Ngày, trong “Mục đã xoá”, chạm “Khôi phục” để lấy lại, hoặc xoá vĩnh viễn. Công việc đã xoá nằm trong thùng rác ở góc trên bên trái của tab Ghi giờ, cùng với các mục của chúng. Một khi đã xoá vĩnh viễn, chỉ bản sao lưu mới lấy lại được."
+            ]
+          },
+          {
+            "id": "fixed-times",
+            "q": "Giờ cố định là gì?",
+            "a": [
+              "Những khung giờ lặp lại như giờ học, ca làm hay giờ tư vấn chỉ cần tạo một lần: công việc, các ngày trong tuần, giờ bắt đầu và kết thúc, mỗi tuần hoặc mỗi 2 tuần, từ một ngày bạn chọn và có ngày kết thúc nếu bạn muốn. Ngay khi một khung giờ kết thúc, SimpleTime tự ghi nó thành một mục – trên mọi thiết bị mà bạn mở SimpleTime, nhưng vẫn chỉ một lần; việc ghi bù chỉ lùi lại tối đa 31 ngày. Bạn chỉ cần ghi phần phát sinh thêm; tính năng này nằm trong Cài đặt › Ghi giờ › Giờ cố định, không cần Pro."
+            ]
+          },
+          {
+            "id": "fixed-times-pause",
+            "q": "Tôi có thể tạm dừng hoặc thay đổi giờ cố định không?",
+            "a": [
+              "Được. Cho kỳ nghỉ học, nghỉ phép hay nghỉ ốm, hãy thêm một khoảng tạm dừng trong Cài đặt › Ghi giờ › Giờ cố định bằng “Đặt lịch tạm dừng” – trong khoảng đó SimpleTime không ghi gì; muốn tắt một khung giờ riêng lẻ, bạn dùng công tắc của nó. Các mục đã ghi có thể sửa hoặc xoá như mọi mục khác, và nếu bạn đổi hoặc xoá một giờ cố định, những gì đã ghi vẫn được giữ. Nếu một giờ cố định trùng với một mục đã có, SimpleTime sẽ không ghi nó."
+            ]
+          },
+          {
+            "id": "subtasks",
+            "q": "Công việc con hoạt động thế nào?",
+            "a": [
+              "Chạm vào tên một công việc để mở nó, rồi thêm công việc con ở đó bằng dấu +. Bạn có thể lồng chúng sâu như cách bạn làm việc – khách hàng, dự án, giai đoạn. Trong biểu đồ, báo cáo và mục tiêu, công việc con được tính vào công việc cấp trên."
+            ]
+          },
+          {
+            "id": "order",
+            "q": "Làm sao để danh sách công việc luôn gọn gàng?",
+            "a": [
+              "Đánh dấu những công việc bạn dùng hằng ngày là mục yêu thích – chúng luôn ở trên cùng. Phần còn lại bạn có thể sắp xếp “Theo bảng chữ cái”, “Dùng nhiều nhất”, “Dùng gần đây” hoặc theo “Thứ tự tự đặt”. Một màu và một ký hiệu – hoặc một emoji – giúp mọi công việc dễ nhận ra."
+            ]
+          },
+          {
+            "id": "archive-trash",
+            "q": "Lưu trữ và xoá khác nhau thế nào?",
+            "a": [
+              "Lưu trữ chỉ ẩn một công việc: các mục của nó vẫn còn và vẫn được tính trong mọi phân tích. Xoá sẽ chuyển công việc cùng các mục của nó vào thùng rác – khi đó thời gian của chúng không còn được tính ở đâu nữa. Kho lưu trữ và thùng rác nằm ở góc trên bên trái của tab Ghi giờ: trong kho lưu trữ, “Khôi phục” đưa công việc trở lại; trong thùng rác, nút này đưa công việc trở lại cùng các mục của nó – hoặc bạn xoá vĩnh viễn ở đó."
+            ]
+          },
+          {
+            "id": "notes",
+            "q": "Tôi có thể thêm ghi chú cho các mục không?",
+            "a": [
+              "Được, mỗi mục đều có thể kèm một ghi chú – bạn đã làm gì, hoặc làm cùng ai. Bạn thêm ghi chú khi tạo hoặc sửa một mục trong tab Ngày, hoặc trong lúc đồng hồ đang chạy, bằng cách chạm vào mục đang chạy ở trên cùng của tab Ghi giờ. Bạn thấy ghi chú khi mở mục đó, trong thông tin của công việc ở “Mọi mục”, trong phần “Tất cả các mục” của PDF và trong tệp CSV xuất ra; bản sao lưu cũng lưu cả ghi chú."
+            ]
+          },
+          {
+            "id": "reminders",
+            "q": "SimpleTime có nhắc tôi được không?",
+            "a": [
+              "Có. Trong Cài đặt › Thiết lập thông báo, bạn đặt các quy tắc – ví dụ một lời nhắc khi một công việc đã chạy được 60 phút, cho mọi công việc hoặc chỉ những công việc đã chọn, vào những ngày trong tuần bạn chọn. Với “Nhắc tôi khi không ghi gì”, SimpleTime cũng báo cho bạn khi đã một lúc không có gì được ghi."
+            ]
+          },
+          {
+            "id": "time-zone",
+            "q": "Tôi đi sang múi giờ khác – sao các mục của tôi lại hiện giờ khác?",
+            "a": [
+              "Theo mặc định, SimpleTime hiển thị mọi mục theo múi giờ nơi thiết bị của bạn đang ở – giống như ứng dụng Lịch của Apple: những gì bạn ghi lúc 9 giờ sáng ở New York sẽ hiện thành 3 giờ chiều ở Berlin. Trong Cài đặt › Múi giờ, bạn có thể chọn “Múi giờ khi ghi” thay vào đó: khi ấy mỗi mục hiện đúng giờ và đúng ngày bạn đã ghi nó – ở mọi nơi hiển thị giờ và tổng. Thời lượng vẫn giữ nguyên trong cả hai trường hợp; các mục từ các phiên bản trước 4.7 luôn hiện theo múi giờ của thiết bị."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "insights",
+        "title": "Chế độ xem ngày và phân tích",
+        "items": [
+          {
+            "id": "day-view",
+            "q": "Chế độ xem ngày cho thấy những gì?",
+            "a": [
+              "Mọi mục trong một ngày với giờ bắt đầu, giờ kết thúc và thời lượng – dưới dạng danh sách, hoặc dòng thời gian từ 0 đến 24 giờ, kèm dấu chỉ giờ hiện tại khi xem hôm nay; trên màn hình rộng như iPad và Mac, cả hai hiện cạnh nhau. Ở trên cùng, bạn thấy tổng của ngày và so sánh với ngày hôm trước."
+            ]
+          },
+          {
+            "id": "charts",
+            "q": "Có những biểu đồ và thống kê nào?",
+            "a": [
+              "Trong tab Biểu đồ: biểu đồ tròn theo công việc và theo năng suất, cho một ngày, một tuần, một tháng hoặc một năm. Ở góc trên bên phải, trong “Thêm thống kê”, bạn sẽ thấy so sánh với kỳ trước, xu hướng, các công việc hàng đầu cùng mục dài nhất và ngắn nhất – và từ một tuần trở lên, cả cách thời gian của bạn phân bố trong ngày, kèm giờ bận rộn nhất. Mỗi công việc còn có trang thông tin riêng – mục đầu tiên, mục dài nhất, tuần này, năm nay."
+            ]
+          },
+          {
+            "id": "productivity",
+            "q": "Điểm năng suất là gì?",
+            "a": [
+              "Khi sửa một công việc, bạn gán cho nó một loại trong “Năng suất”: “Hoạt động hiệu quả”, “Hoạt động không hiệu quả”, “Việc bắt buộc” – hoặc “Không tính vào năng suất”. Công việc con không có loại riêng sẽ theo loại của công việc cấp trên, và “Không tính vào năng suất” áp dụng cho mọi thứ bên dưới. Điểm này cho biết bao nhiêu phần trong thời gian được đánh giá là hiệu quả hoặc bắt buộc: (hiệu quả + bắt buộc) ÷ (hiệu quả + không hiệu quả + bắt buộc) × 100. Thời gian chưa được gán loại hoặc đặt là “Không tính vào năng suất” không được tính."
+            ]
+          },
+          {
+            "id": "goals",
+            "q": "Mục tiêu hoạt động thế nào?",
+            "a": [
+              "Với SimpleTime Pro, bạn đặt mục tiêu cho từng công việc trong Cài đặt › Mục tiêu: ít nhất hoặc nhiều nhất một lượng thời gian nhất định mỗi ngày, tuần hoặc tháng – chẳng hạn ít nhất 8 giờ thể thao mỗi tuần hoặc nhiều nhất 2 giờ mạng xã hội mỗi ngày. Công việc con cũng được tính vào, và chỉ kỳ hiện tại được đo. Bạn xem mình đang ở đâu trong tab Biểu đồ và trên Apple Watch; trong phần “Mục tiêu”, báo cáo PDF so sánh mức trung bình trong khoảng thời gian đã chọn với mục tiêu của bạn."
+            ]
+          },
+          {
+            "id": "share-chart",
+            "q": "Tôi có thể chia sẻ biểu đồ không?",
+            "a": [
+              "Được, mọi biểu đồ đều có thể chia sẻ dưới dạng ảnh hoặc lưu vào ứng dụng Ảnh. Để lưu, SimpleTime chỉ xin quyền thêm ảnh – ứng dụng không thể xem thư viện ảnh của bạn."
+            ]
+          },
+          {
+            "id": "pdf-report",
+            "q": "Làm sao để tạo báo cáo PDF?",
+            "a": [
+              "Trong Cài đặt › Xuất báo cáo, hãy chọn một khoảng thời gian – từ hôm nay đến toàn bộ thời gian, hoặc khoảng do bạn tự chọn –, chọn các phần bạn muốn và kéo để sắp xếp thứ tự. SimpleTime tạo bản PDF với mọi công việc và công việc con, sẵn sàng để chia sẻ hoặc lưu. SimpleTime Pro thêm các phần: “Theo thời gian”, “Trong ngày”, “So sánh” và “Mục tiêu”.",
+              "Để làm bảng chấm công, có phần “Tất cả các mục”: mọi mục theo từng ngày với giờ bắt đầu, giờ kết thúc, công việc và ghi chú, cùng tổng mỗi ngày, tổng cộng và số giờ thập phân – rất tiện để đối chiếu giờ làm với phiếu lương. Phần này miễn phí, không cần Pro, và được bật sẵn."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "shortcuts",
+        "title": "Widget, Siri và Tập trung",
+        "items": [
+          {
+            "id": "widgets",
+            "q": "Có những widget nào?",
+            "a": [
+              "Cho Màn hình chính: “Hôm nay”, “Công việc đang chạy” và “Tuần” – “Hôm nay” và “Công việc đang chạy” có nút để bắt đầu và dừng. Cho Màn hình khoá: việc gì đang chạy và đã bao lâu. Ngoài ra còn có công tắc “Ghi giờ” cho Trung tâm điều khiển. Khi một công việc đang chạy, Hoạt động trực tiếp hiển thị nó trên Màn hình khoá và trong Dynamic Island, kèm một nút để dừng. Với SimpleTime Pro, bạn còn có widget khởi động nhanh để đặt các công việc của riêng bạn."
+            ]
+          },
+          {
+            "id": "without-opening",
+            "q": "Tôi có thể bắt đầu ghi giờ mà không mở ứng dụng không?",
+            "a": [
+              "Được, bằng nhiều cách. Chạm và giữ biểu tượng ứng dụng để dừng việc đang chạy hoặc bắt đầu một công việc của bạn. Gõ tên công việc vào tìm kiếm trên iPhone rồi chạm vào nó. Hoặc dùng widget, Siri hay công tắc “Ghi giờ” – trong Trung tâm điều khiển, trên Màn hình khoá hoặc trên nút Tác vụ từ iPhone 15 Pro trở đi –, và với SimpleTime Pro, cả Apple Watch của bạn."
+            ]
+          },
+          {
+            "id": "siri",
+            "q": "SimpleTime hoạt động với Siri và Phím tắt thế nào?",
+            "a": [
+              "Ví dụ, hãy nói “Start Work in SimpleTime”, “Stop tracking in SimpleTime”, “How much did I track today in SimpleTime?” hoặc “What’s running in SimpleTime?”. Siri hiểu các câu này bằng tiếng Anh và tiếng Đức. Ở mọi ngôn ngữ, các tác vụ đều có sẵn trong ứng dụng Phím tắt, nơi bạn cũng có thể đặt cho chúng một câu lệnh của riêng mình."
+            ]
+          },
+          {
+            "id": "focus-filter",
+            "q": "Bộ lọc Tập trung làm gì?",
+            "a": [
+              "Với bộ lọc Tập trung, SimpleTime đi theo chế độ Tập trung của bạn: khi “Công việc” bật, danh sách công việc chỉ hiện phân loại công việc của bạn – và việc ghi giờ có thể bắt đầu và kết thúc cùng chế độ Tập trung. Bạn thiết lập trong Cài đặt của iOS ở Tập trung › chế độ Tập trung của bạn › Bộ lọc Tập trung › Thêm bộ lọc › SimpleTime. Bộ lọc Tập trung thuộc SimpleTime Pro."
+            ]
+          },
+          {
+            "id": "calendar-entries",
+            "q": "SimpleTime có thể đưa các mục của tôi vào lịch không?",
+            "a": [
+              "Được, với SimpleTime Pro: bật “Mục trong Lịch” trong Cài đặt › Lịch – từ ngày đó, mỗi mục đã kết thúc sẽ xuất hiện dưới dạng sự kiện, trong lịch “SimpleTime” riêng hoặc một lịch bạn chọn, và nếu muốn thì riêng cho từng công việc. Khi bạn sửa hoặc xoá một mục, sự kiện cũng thay đổi theo, và liên kết trong sự kiện sẽ mở mục đó trong SimpleTime. Nếu bạn tắt tính năng này, các sự kiện vẫn ở lại trong lịch của bạn.",
+              "“Công việc từ lịch” biến các lịch như “Công ty” thành công việc; tuy vậy, những sự kiện đã có trong lịch sẽ không trở thành mục. Các sự kiện được lưu tại nhà cung cấp lịch của bạn và hiện tên công việc của bạn cho mọi người cùng chia sẻ lịch đó – kể cả khi đã bật khoá ứng dụng."
+            ]
+          },
+          {
+            "id": "menu-bar",
+            "q": "Tôi có thể dùng SimpleTime từ thanh menu trên Mac không?",
+            "a": [
+              "Được. Một đồng hồ bấm giờ trên thanh menu cho biết có công việc nào đang chạy hay không; bấm vào đó để bắt đầu, dừng hoặc chuyển công việc mà không cần mở cửa sổ. Bạn bật hoặc tắt nó trong Cài đặt › Thanh menu › Hiển thị trong thanh menu. Khi đã thiết lập khoá ứng dụng, menu không hiện tên công việc và chỉ có nút Dừng."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "data",
+        "title": "Đồng bộ, sao lưu và xuất dữ liệu",
+        "items": [
+          {
+            "id": "sync",
+            "q": "SimpleTime có đồng bộ giữa các thiết bị của tôi không?",
+            "a": [
+              "Có, qua iCloud hoặc qua LaCodea ID – bạn chọn cách nào trên từng thiết bị trong Cài đặt › Dữ liệu và đồng bộ. Với iCloud, mọi thiết bị mà bạn đã chọn iCloud và đăng nhập cùng một Tài khoản Apple đều được đồng bộ; hệ thống quyết định lúc nào. Không thể ép đồng bộ – khi đó “Đồng bộ ngay” sẽ kiểm tra tài khoản và kết nối của bạn, và cũng trang đó cho biết lần đồng bộ gần nhất.",
+              "Với LaCodea ID, mọi thiết bị mà bạn đăng nhập cùng một LaCodea ID và đã chọn nó đều được đồng bộ, kể cả khi dùng Tài khoản Apple khác – có mã hoá đầu cuối, và nếu SimpleTime đang mở trên cả hai thiết bị, chỉ trong vài giây."
+            ]
+          },
+          {
+            "id": "sync-trouble",
+            "q": "Các mục của tôi không hiện trên thiết bị kia – tôi phải làm gì?",
+            "a": [
+              "Hãy xem Cài đặt › Dữ liệu và đồng bộ trên cả hai thiết bị: cả hai cần cùng một nơi lưu – iCloud với cùng Tài khoản Apple, hoặc LaCodea ID với cùng thông tin đăng nhập. Nếu ở đó báo rằng việc chuyển đổi chỉ có hiệu lực sau, hãy thoát hẳn SimpleTime rồi mở lại; đồng thời hãy cập nhật ứng dụng trên mọi thiết bị của bạn.",
+              "Với iCloud, “Đồng bộ gần nhất” trong Cài đặt ở mục Đồng bộ cho biết lần cuối dữ liệu được truyền, còn “Kiểm tra đồng bộ” xem xét tài khoản và kết nối của bạn và, nếu có vấn đề, nêu rõ lý do – chẳng hạn dung lượng iCloud đã đầy. Với LaCodea ID, trang Dữ liệu và đồng bộ cho biết có thay đổi nào đang chờ kết nối không, có tài khoản khác đang đăng nhập không, hay thiết bị có cần khoá khôi phục của bạn không. Nếu vẫn chưa được, hãy [viết cho chúng tôi](@contact)."
+            ]
+          },
+          {
+            "id": "without-icloud",
+            "q": "Tôi có thể dùng SimpleTime mà không cần iCloud không?",
+            "a": [
+              "Được. Chọn “Chỉ trên thiết bị này” trong Cài đặt ở mục Dữ liệu và đồng bộ – khi đó dữ liệu của bạn chỉ ở trên thiết bị này. Vì vậy bản sao lưu càng quan trọng: một kế hoạch sao lưu sẽ tự động lưu dữ liệu, chẳng hạn vào một thư mục trong ứng dụng Tệp hoặc lên máy chủ riêng của bạn. Nếu vẫn muốn đồng bộ nhiều thiết bị mà không dùng iCloud, hãy chọn LaCodea ID ở đó; khi ấy, thiết bị nào không có Chuỗi khoá iCloud của bạn sẽ hỏi khoá khôi phục một lần."
+            ]
+          },
+          {
+            "id": "switch-storage",
+            "q": "Làm sao để đổi nơi lưu dữ liệu?",
+            "a": [
+              "Trong Cài đặt › Dữ liệu và đồng bộ, chạm vào nơi bạn muốn lưu dữ liệu, rồi chạm “Chuyển sang iCloud”, “Chuyển sang LaCodea ID” hoặc “Chỉ giữ trên thiết bị này”; với LaCodea ID, bạn sẽ đăng nhập trong lúc đó. Trước khi chuyển sang iCloud hoặc LaCodea ID, SimpleTime tạo một bản sao an toàn của thiết bị này, và nếu ở đó đã có dữ liệu, bạn chọn giữa “Gộp” và “Dùng dữ liệu từ …”.",
+              "Việc chuyển chỉ áp dụng cho thiết bị này và thường có hiệu lực sau khi bạn thoát hẳn SimpleTime rồi mở lại – trang sẽ cho bạn biết. Các thiết bị khác của bạn tiếp tục đồng bộ như trước cho đến khi bạn chuyển cả ở đó. Sau đó, SimpleTime đề nghị xoá dữ liệu ở nơi cũ; chỉ làm vậy khi các thiết bị khác của bạn cũng đã chuyển xong – nếu không, chúng cũng sẽ mất dữ liệu đó."
+            ]
+          },
+          {
+            "id": "recovery-key",
+            "q": "Khoá khôi phục là gì?",
+            "a": [
+              "Khi LaCodea ID là nơi lưu dữ liệu, SimpleTime mã hoá đầu cuối dữ liệu của bạn; các thiết bị Apple của bạn thường tự nhận khoá qua Chuỗi khoá iCloud. Một thiết bị không có Chuỗi khoá iCloud của bạn – chẳng hạn dùng Tài khoản Apple khác – cần khoá khôi phục của bạn một lần: 24 chữ cái và chữ số. Bạn tìm thấy nó trong Cài đặt › Dữ liệu và đồng bộ › Khoá khôi phục, sau Face ID hoặc mật mã thiết bị; cho đến khi bạn xác nhận đã lưu nó, trang Bảo mật sẽ nhắc bạn. Hãy giữ nó trong trình quản lý mật khẩu hoặc trên giấy – không có nó và không có thiết bị của bạn, không ai có thể mở dữ liệu của bạn, kể cả chúng tôi."
+            ]
+          },
+          {
+            "id": "recovery-key-lost",
+            "q": "Tôi bị mất khoá khôi phục – giờ phải làm sao?",
+            "a": [
+              "Trên một thiết bị vẫn đọc được dữ liệu của bạn, SimpleTime hiện lại khoá trong Cài đặt › Dữ liệu và đồng bộ › Khoá khôi phục bằng “Hiện khoá khôi phục” – hoặc bạn tạo khoá mới ở đó, và khoá cũ sẽ không còn dùng được. Nếu không thiết bị nào của bạn còn mở được dữ liệu, không ai có thể khôi phục nó – kể cả chúng tôi. Khi đó, hãy chạm “Tôi bị mất khoá khôi phục” khi được hỏi khoá và bắt đầu lại với dữ liệu trên thiết bị này; những gì chỉ có trên máy chủ hoặc trên các thiết bị khác của bạn sẽ bị mất."
+            ]
+          },
+          {
+            "id": "backups",
+            "q": "Sao lưu hoạt động thế nào?",
+            "a": [
+              "Trong Cài đặt › Bản sao lưu, bạn tạo bao nhiêu kế hoạch sao lưu tuỳ ý. Mỗi kế hoạch có một nơi lưu – iCloud Drive, một thư mục trong ứng dụng Tệp như Dropbox hay Google Drive, máy chủ riêng của bạn qua WebDAV, hoặc thiết bị này –, một tần suất từ hằng giờ đến hằng tháng, một thời hạn lưu giữ và, nếu muốn, một mật khẩu. Ngay trên trang đó, bạn cũng có thể tự sao lưu bất cứ lúc nào."
+            ]
+          },
+          {
+            "id": "backup-password",
+            "q": "Tôi có thể bảo vệ bản sao lưu bằng mật khẩu không?",
+            "a": [
+              "Được. Nếu bạn đặt mật khẩu cho một kế hoạch, mọi bản sao lưu đều được mã hoá trên thiết bị của bạn trước khi được lưu. Hãy giữ mật khẩu cẩn thận: không có nó, không ai khôi phục được bản sao lưu – cả bạn lẫn chúng tôi. Không có cách nào khác."
+            ]
+          },
+          {
+            "id": "backup-files",
+            "q": "Tôi tìm bản sao lưu của mình ở đâu?",
+            "a": [
+              "Bản sao lưu của kế hoạch đặt là “Chỉ trên thiết bị này” cũng hiện trong ứng dụng Tệp ở “Trên iPhone” (hoặc “Trên iPad”) › SimpleTime › Backups, còn bản sao lưu của kế hoạch iCloud Drive nằm ở iCloud Drive › SimpleTime › Backups. Kế hoạch cho một thư mục trong ứng dụng Tệp hoặc máy chủ riêng của bạn sẽ đặt chúng ở nơi bạn đã chọn. Bản sao lưu trên thiết bị sẽ mất cùng thiết bị – và khi bạn xoá SimpleTime. Tốt nhất hãy đặt mật khẩu cho các kế hoạch: nếu không có, bất kỳ ai truy cập được nơi lưu đều có thể mở bản sao lưu – trên thiết bị, đó là bất kỳ ai mở khoá được máy, kể cả khi đã bật khoá ứng dụng."
+            ]
+          },
+          {
+            "id": "restore",
+            "q": "Làm sao để khôi phục bản sao lưu?",
+            "a": [
+              "Trong Cài đặt › Bản sao lưu, bạn khôi phục một bản sao lưu – từ một trong các kế hoạch của bạn hoặc từ một tệp. Dữ liệu hiện có được giữ lại, phần còn thiếu sẽ được bổ sung. Bản sao lưu từ SimpleTime 4.7 trở về trước được nhập trong Cài đặt › Xuất / nhập dữ liệu › Nhập bản sao lưu từ JSON. Trên thiết bị mới, tốt nhất hãy đợi đến khi việc đồng bộ qua iCloud hoặc LaCodea ID đã đưa dữ liệu của bạn về – nếu không, công việc có thể bị trùng lặp."
+            ]
+          },
+          {
+            "id": "export",
+            "q": "Tôi có thể xuất dữ liệu của mình không?",
+            "a": [
+              "Được, bất cứ lúc nào: dưới dạng tệp CSV với mỗi mục một dòng – ngày, giờ bắt đầu, giờ kết thúc, công việc, thời lượng, số giờ thập phân và ghi chú, cho Excel, Numbers hay bất kỳ ứng dụng bảng tính nào –, dưới dạng báo cáo PDF hoặc dưới dạng bản sao lưu.",
+              "Trong Cài đặt › Xuất / nhập dữ liệu, bạn chọn khoảng thời gian cho tệp CSV – từ hôm nay đến toàn bộ thời gian, hoặc khoảng do bạn tự chọn, chẳng hạn tháng trước. Bản sao lưu thì bạn tạo trong Cài đặt › Bản sao lưu."
+            ]
+          },
+          {
+            "id": "timesheet",
+            "q": "Làm sao để lấy giờ làm cho bảng chấm công?",
+            "a": [
+              "Dạng PDF: trong Cài đặt › Xuất báo cáo, chọn khoảng thời gian – chẳng hạn “Tháng trước” – và để phần “Tất cả các mục” bật; phần này liệt kê mọi mục với giờ bắt đầu, giờ kết thúc, công việc và ghi chú, cùng tổng mỗi ngày, tổng cộng và số giờ thập phân. Dạng bảng tính: trong Cài đặt › Xuất / nhập dữ liệu, chọn khoảng thời gian rồi chạm “Xuất dữ liệu dạng CSV” – mỗi mục một dòng với ngày, giờ bắt đầu, giờ kết thúc, công việc, thời lượng, số giờ thập phân và ghi chú, cho Excel hoặc Numbers. Cả hai đều miễn phí, và các mục từ giờ cố định được tính như mọi mục khác."
+            ]
+          },
+          {
+            "id": "rounding",
+            "q": "SimpleTime có làm tròn giờ không, chẳng hạn theo 15 phút?",
+            "a": [
+              "Không, không có cài đặt làm tròn: SimpleTime lưu giờ bắt đầu và kết thúc đúng như bạn ghi. Trong phần “Tất cả các mục” của PDF và trong tệp CSV xuất ra, mỗi dòng được làm tròn đến phút và ghi theo giờ thập phân, lấy hai chữ số sau dấu phẩy; trong PDF, các tổng được cộng từ chính những giá trị này. Nếu bạn cần tính theo 15 phút, hãy sửa giờ bắt đầu và kết thúc trong mục hoặc làm tròn trong ứng dụng bảng tính."
+            ]
+          },
+          {
+            "id": "import",
+            "q": "Tôi có thể nhập dữ liệu từ ứng dụng khác không?",
+            "a": [
+              "Không. SimpleTime chỉ đọc bản sao lưu của chính nó – không nhập được tệp CSV, kể cả tệp do SimpleTime tạo ra, và sự kiện trong lịch của bạn không trở thành mục. Bạn có thể tự thêm các khoảng thời gian trước đó trong tab Ngày bằng dấu +."
+            ]
+          },
+          {
+            "id": "new-device",
+            "q": "Làm sao để chuyển sang iPhone mới?",
+            "a": [
+              "Đăng nhập cùng Tài khoản Apple và cài SimpleTime – nếu bạn dùng iCloud (Cài đặt › Dữ liệu và đồng bộ), các mục của bạn sẽ tự quay về. Nếu dùng LaCodea ID, hãy đăng nhập bằng nó trên thiết bị mới và chọn nó trong Dữ liệu và đồng bộ; nếu thiết bị không tự nhận được khoá qua Chuỗi khoá iCloud của bạn, ứng dụng sẽ hỏi khoá khôi phục một lần. Nếu không, hãy tạo bản sao lưu trên thiết bị cũ và khôi phục nó trên thiết bị mới. Địa điểm và cài đặt thuộc về từng thiết bị – chúng không được đồng bộ cũng không được sao lưu."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "privacy",
+        "title": "Quyền riêng tư và bảo mật",
+        "items": [
+          {
+            "id": "data-location",
+            "q": "Dữ liệu của tôi được lưu ở đâu?",
+            "a": [
+              "Ở nơi bạn chọn: trong Cài đặt ở mục Dữ liệu và đồng bộ, bạn quyết định giữa “Chỉ trên thiết bị này”, iCloud riêng của bạn, nơi Apple mã hoá dữ liệu, và LaCodea ID, nơi dữ liệu được mã hoá đầu cuối – ở bất kỳ nơi nào trong số này, chúng tôi đều không đọc được các mục của bạn. Bản sao lưu nằm ở nơi các kế hoạch sao lưu của bạn đặt chúng; nếu không có mật khẩu, bất kỳ ai truy cập được nơi đó đều đọc được. Nếu bạn bật “Mục trong Lịch” với Pro, các mục đã kết thúc cũng hiện dưới dạng sự kiện trong lịch của bạn – nhà cung cấp lịch và mọi người bạn chia sẻ lịch đều thấy được."
+            ]
+          },
+          {
+            "id": "lacodea-id-privacy",
+            "q": "Ai có thể đọc các mục của tôi khi tôi đồng bộ qua LaCodea ID?",
+            "a": [
+              "Chỉ các thiết bị của bạn. SimpleTime mã hoá công việc, các mục cùng giờ giấc và ghi chú, giờ cố định, mục tiêu và lời nhắc ngay trên thiết bị của bạn (AES-GCM 256 bit) trước khi chúng được gửi đến máy chủ riêng của SimpleTime – chỉ thiết bị của bạn có khoá, chúng tôi thì không. Máy chủ chỉ thấy có bao nhiêu bản ghi thuộc loại nào, chúng lớn khoảng bao nhiêu, được ghi khi nào và có bị xoá hay không; máy chủ đặt tại một trung tâm dữ liệu ở Frankfurt am Main. Chi tiết có trong [chính sách quyền riêng tư](@privacy) của chúng tôi."
+            ]
+          },
+          {
+            "id": "tracking-me",
+            "q": "SimpleTime có theo dõi tôi không?",
+            "a": [
+              "Không. SimpleTime không hiện quảng cáo, không bán dữ liệu, không tạo hồ sơ người dùng và không theo dõi bạn qua các ứng dụng và trang web khác. Để chúng tôi tìm ra lỗi nhanh chóng, ứng dụng gửi báo cáo sự cố và thống kê sử dụng ẩn danh đến máy chủ riêng của chúng tôi – không có ID thiết bị, và không bao giờ có công việc, giờ giấc hay ghi chú của bạn. Bạn có thể tắt tính năng này trong Cài đặt › Quyền riêng tư › Tổng quan và quyền truy cập. Chi tiết có trong [chính sách quyền riêng tư](@privacy) của chúng tôi."
+            ]
+          },
+          {
+            "id": "permissions",
+            "q": "SimpleTime xin những quyền truy cập nào?",
+            "a": [
+              "Chỉ những gì một tính năng cần, và chỉ khi bạn dùng nó: thông báo cho lời nhắc và thông báo của địa điểm, vị trí của bạn cho địa điểm, lịch của bạn cho “Mục trong Lịch”, quyền thêm ảnh để lưu hình ảnh, và Face ID hoặc Touch ID cho khoá ứng dụng. Trong cài đặt ở mục Quyền riêng tư › Tổng quan và quyền truy cập, bạn thấy từng quyền cùng trạng thái hiện tại."
+            ]
+          },
+          {
+            "id": "location",
+            "q": "Vì sao SimpleTime cần vị trí của tôi?",
+            "a": [
+              "Chỉ cho tính năng địa điểm, thuộc SimpleTime Pro: để một công việc có thể bắt đầu khi bạn đến một nơi nào đó. iOS theo dõi các khu vực bạn đặt và báo cho ứng dụng khi bạn đến hoặc rời đi. Địa điểm của bạn ở lại trên thiết bị, và SimpleTime không lưu lại bạn đã đi những đâu. Khi không dùng địa điểm, SimpleTime không cần vị trí của bạn."
+            ]
+          },
+          {
+            "id": "app-lock",
+            "q": "Khoá ứng dụng hoạt động thế nào?",
+            "a": [
+              "Trong Cài đặt › Khoá ứng dụng, bạn chọn mở SimpleTime bằng Face ID hoặc Touch ID và mật mã thiết bị, hay bằng mã riêng của bạn – chữ số hoặc mật khẩu. Trong Bộ chuyển đổi ứng dụng, SimpleTime luôn được che, và tên công việc không còn xuất hiện trong tìm kiếm trên iPhone hay trên biểu tượng ứng dụng; trong “Bên ngoài ứng dụng”, bạn chọn những gì thông báo, widget và Apple Watch hiển thị. Phòng khi quên mã riêng, bạn có thể bật sẵn “Đặt lại mã đã quên bằng mật mã thiết bị” hoặc đặt một mật khẩu khẩn cấp. Nếu không có cả hai, cách duy nhất để vào lại là xoá rồi cài lại ứng dụng – và những gì chỉ có trên thiết bị này sẽ mất nếu bạn không có bản sao lưu."
+            ]
+          },
+          {
+            "id": "security-overview",
+            "q": "Trang “Bảo mật” cho thấy những gì?",
+            "a": [
+              "Trong Cài đặt › Bảo mật › Tổng quan, bạn thấy ngay dữ liệu của mình được bảo vệ tốt đến đâu: mật mã thiết bị, khoá ứng dụng, sao lưu tự động và được mã hoá, và nơi lưu dữ liệu của bạn – với LaCodea ID, còn có cả mã hoá đầu cuối và khoá khôi phục. Những gì còn thiếu được liệt kê trong “Được đề xuất”; mỗi mục giải thích nó bảo vệ bạn thế nào và, khi cần, đưa bạn đến đúng phần cài đặt."
+            ]
+          },
+          {
+            "id": "delete-all",
+            "q": "Làm sao để xoá toàn bộ dữ liệu của tôi?",
+            "a": [
+              "Trong Cài đặt ở mục Quyền riêng tư › Xoá mọi dữ liệu, bạn xoá mọi thứ trong một lần – các mục và công việc, mục tiêu, địa điểm, thùng rác, lời nhắc, bản sao lưu của các kế hoạch và các bản sao lưu cũ trên iCloud Drive, các tệp đã xuất, cài đặt kể cả mã của khoá ứng dụng, và các sự kiện SimpleTime đã thêm vào lịch của bạn.",
+              "Dữ liệu bị xoá trên thiết bị này, trong iCloud và – nếu bạn đồng bộ qua LaCodea ID – trên máy chủ; qua iCloud, việc xoá cũng đến các thiết bị khác của bạn ngay khi chúng có mạng. Nếu bạn đồng bộ qua LaCodea ID, các thiết bị khác vẫn giữ dữ liệu của chúng và ngừng đồng bộ cho đến khi bạn thiết lập lại ở đó – hãy xoá cả ở đó – và tài khoản LaCodea ID của bạn vẫn còn. Không thể hoàn tác thao tác này."
+            ]
+          },
+          {
+            "id": "delete-app",
+            "q": "Điều gì xảy ra nếu tôi xoá SimpleTime?",
+            "a": [
+              "Khi đó, những gì chỉ có trên thiết bị này sẽ mất: các mục của bạn nếu bạn đã chọn “Chỉ trên thiết bị này”, bản sao lưu của kế hoạch “Chỉ trên thiết bị này”, địa điểm và cài đặt của bạn, kể cả khoá ứng dụng. Những gì ở trong iCloud hoặc ở LaCodea ID vẫn còn đó và sẽ quay lại sau khi cài lại, khi bạn dùng lại cùng nơi lưu đó trong Dữ liệu và đồng bộ.",
+              "Bản sao lưu trên iCloud Drive, trong một thư mục của ứng dụng Tệp hoặc trên máy chủ của bạn vẫn còn, các sự kiện trong lịch của bạn cũng vậy; với bản sao lưu đã mã hoá, khi đó bạn sẽ cần mật khẩu của nó. Gói đăng ký vẫn tiếp tục cho đến khi bạn huỷ, và LaCodea ID của bạn vẫn còn. Nếu muốn xoá mọi thứ trước, hãy dùng Cài đặt › Quyền riêng tư › Xoá mọi dữ liệu."
+            ]
+          },
+          {
+            "id": "lacodea-id-delete",
+            "q": "Làm sao để đăng xuất hoặc xoá LaCodea ID?",
+            "a": [
+              "Chạm vào LaCodea ID của bạn ở trên cùng của Cài đặt: “Đăng xuất” đăng xuất bạn khỏi mọi ứng dụng LaCodea trên thiết bị này – dữ liệu của bạn vẫn ở đây và sẽ đồng bộ lại ngay khi bạn đăng nhập. “Ngắt kết nối SimpleTime” chỉ tách SimpleTime khỏi tài khoản của bạn; “Xóa LaCodea ID” gỡ bỏ tài khoản khỏi mọi ứng dụng LaCodea – bạn cũng có thể làm việc này tại account.lacodea.com. Dù ngắt kết nối hay xoá, máy chủ của SimpleTime đều xoá dữ liệu đã đồng bộ của bạn ở đó; những gì trên thiết bị của bạn hoặc trong iCloud vẫn còn. Gói đăng ký qua Apple vẫn tiếp tục cho đến khi bạn huỷ trong cài đặt của thiết bị."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "pro",
+        "title": "SimpleTime Pro",
+        "items": [
+          {
+            "id": "pro-includes",
+            "q": "SimpleTime Pro gồm những gì?",
+            "a": [
+              "Ứng dụng Apple Watch, tổng kết tuần, tháng và năm của bạn, địa điểm, các mục của bạn thành sự kiện trong lịch và công việc từ các lịch của bạn, cả năm trong một hình, mục tiêu, bộ lọc Tập trung, widget khởi động nhanh, bảy màu nhấn hoặc màu của riêng bạn, sáu phông chữ, mười sáu biểu tượng ứng dụng và thêm phần trong báo cáo PDF. Ứng dụng đồng hồ cần iPhone; địa điểm và biểu tượng ứng dụng có trên iPhone và iPad. Những gì thêm vào sau này đều được tính. [Tất cả về SimpleTime Pro](@pro)"
+            ]
+          },
+          {
+            "id": "pro-price",
+            "q": "SimpleTime Pro giá bao nhiêu?",
+            "a": [
+              "Pro có theo tháng, theo năm hoặc mua một lần với gói Trọn đời. Giá tuỳ theo quốc gia và đơn vị tiền tệ của bạn, và được hiển thị trong ứng dụng trước khi bạn mua."
+            ]
+          },
+          {
+            "id": "trial",
+            "q": "Tôi có thể dùng thử Pro trước không?",
+            "a": [
+              "Được. Người đăng ký mới có thể dùng thử miễn phí gói Hằng tháng hoặc Hằng năm trong một tuần; ứng dụng sẽ cho biết bạn có được dùng thử hay không. Nếu bạn không huỷ ít nhất 24 giờ trước khi thời gian dùng thử kết thúc, gói đăng ký sẽ gia hạn theo giá đã hiển thị."
+            ]
+          },
+          {
+            "id": "family",
+            "q": "Gia đình tôi có dùng Pro cùng được không?",
+            "a": [
+              "Được. SimpleTime Pro hỗ trợ Chia sẻ trong gia đình – một lần mua cho tối đa sáu người."
+            ]
+          },
+          {
+            "id": "restore-purchase",
+            "q": "Tôi đã mua Pro – làm sao để có Pro trên các thiết bị khác?",
+            "a": [
+              "Pro gắn với Tài khoản Apple của bạn: trên các thiết bị khác dùng cùng tài khoản, Pro thường tự được mở khoá. Nếu không, hãy chạm “Khôi phục” ở đó, trong Cài đặt › SimpleTime Pro.",
+              "Trên thiết bị dùng Tài khoản Apple khác, bạn có Pro qua LaCodea ID: hãy đăng nhập cùng một LaCodea ID trên cả hai thiết bị. Nếu bạn mua Pro trước khi đăng nhập, hãy đăng nhập LaCodea ID cả trên một thiết bị dùng Tài khoản Apple mà bạn đã dùng để mua – từ đó SimpleTime báo giao dịch mua cho tài khoản của bạn. Khi đó trang Pro sẽ hiện “Qua LaCodea ID của bạn” và, với gói đăng ký, nơi bạn đã đăng ký – chỉ ở đó bạn mới thay đổi được gói."
+            ]
+          },
+          {
+            "id": "cancel",
+            "q": "Làm sao để huỷ gói đăng ký?",
+            "a": [
+              "Trong cài đặt App Store của bạn – trên iPhone ở Cài đặt › tên của bạn › Đăng ký – hoặc trong ứng dụng, trên trang Pro ở mục Quản lý gói đăng ký. Việc này chỉ làm được trên thiết bị dùng Tài khoản Apple mà bạn đã đăng ký; nếu bạn có Pro qua LaCodea ID, trang Pro sẽ nêu tên những thiết bị đó. Pro vẫn hoạt động đến hết kỳ bạn đã trả tiền, và việc xoá LaCodea ID cũng không chấm dứt gói đăng ký."
+            ]
+          },
+          {
+            "id": "lifetime-switch",
+            "q": "Tôi đang có gói đăng ký – có chuyển sang Trọn đời được không?",
+            "a": [
+              "Được, ngay trên trang Pro. Tuy vậy, Apple không tự kết thúc gói đăng ký: hãy huỷ nó sau đó để không bị gia hạn. Ứng dụng sẽ nhắc bạn."
+            ]
+          },
+          {
+            "id": "pro-ends",
+            "q": "Điều gì xảy ra khi Pro hết hạn?",
+            "a": [
+              "Không mất gì cả. Các mục, mục tiêu và địa điểm của bạn vẫn được lưu. Các tính năng Pro sẽ bị khoá lại – chẳng hạn địa điểm không còn tự bắt đầu công việc – và mọi thứ trở lại ngay khi Pro hoạt động lại."
+            ]
+          },
+          {
+            "id": "pro-offline",
+            "q": "Pro có cần kết nối Internet không?",
+            "a": [
+              "Không. SimpleTime kiểm tra giao dịch mua của bạn với App Store – và nếu bạn đã đăng nhập LaCodea ID, cả với tài khoản của bạn – bất cứ khi nào có thể. Khi không có kết nối, Pro vẫn tiếp tục hoạt động – tối đa hai tuần không cần kết nối."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "watch-places",
+        "title": "Apple Watch và địa điểm",
+        "items": [
+          {
+            "id": "watch-setup",
+            "q": "Làm sao để thiết lập ứng dụng Apple Watch?",
+            "a": [
+              "Ứng dụng Apple Watch thuộc SimpleTime Pro. Hãy cài nó trên đồng hồ, rồi mở SimpleTime trên iPhone một lần – sau vài giây, đồng hồ sẽ hiện các công việc của bạn. iPhone vẫn là nguồn dữ liệu: những gì đồng hồ bắt đầu đều được ghi ở đó, với cùng Hoạt động trực tiếp và cùng các widget."
+            ]
+          },
+          {
+            "id": "watch-features",
+            "q": "Tôi làm được gì trên Apple Watch?",
+            "a": [
+              "Bắt đầu và dừng ngay trên cổ tay – các mục yêu thích, công việc dùng gần nhất, hoặc bất kỳ công việc nào qua tìm kiếm. Bắt đầu sớm hơn: 5, 15, 30 hoặc 60 phút trước, hoặc liền mạch từ lúc mục trước kết thúc. Dừng bằng cử chỉ Chạm hai lần. Ngày, tuần và mục tiêu trong nháy mắt, với thời gian đang chạy trên mặt đồng hồ và trong Ngăn xếp thông minh. Nếu iPhone ở ngoài tầm, các lần chạm của bạn được lưu kèm thời điểm và gửi bổ sung sau."
+            ]
+          },
+          {
+            "id": "places-how",
+            "q": "Địa điểm hoạt động thế nào?",
+            "a": [
+              "Thêm một địa điểm – chẳng hạn văn phòng hay phòng tập của bạn – với bán kính từ 50 m đến 10 km, rồi chọn một công việc. Khi bạn đến, công việc tự bắt đầu, hoặc SimpleTime hỏi trước. Với thời gian chờ, sẽ không có gì bắt đầu khi bạn chỉ đi ngang qua. Khi bạn rời đi, công việc có thể dừng, và bạn có thể giới hạn một địa điểm vào những ngày và giờ nhất định."
+            ]
+          },
+          {
+            "id": "places-late",
+            "q": "Vì sao địa điểm bắt đầu muộn hoặc không bắt đầu?",
+            "a": [
+              "Địa điểm cần quyền truy cập vị trí ở mức “Luôn luôn”, và “Vị trí chính xác” phải bật. Dưới 100 m, iOS thường nhận ra bạn đến muộn, vì khi chạy nền, vị trí thường lấy từ Wi-Fi và mạng di động chứ không phải GPS – bán kính lớn hơn sẽ giúp ích. iOS theo dõi tối đa 20 địa điểm cho mỗi ứng dụng, và trên Mac không có địa điểm."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "more",
+        "title": "Khác",
+        "items": [
+          {
+            "id": "look",
+            "q": "Tôi có thể thay đổi giao diện SimpleTime không?",
+            "a": [
+              "Được: sáng, tối hoặc theo hệ thống, ba chiều cao hàng cho danh sách công việc, và trong Cài đặt › Phông chữ, cỡ chữ riêng và chữ đậm. Với SimpleTime Pro, bạn còn có bảy màu nhấn hoặc màu của riêng bạn – chạy suốt các nút, công tắc và biểu đồ –, sáu phông chữ và, trên iPhone và iPad, mười sáu biểu tượng ứng dụng."
+            ]
+          },
+          {
+            "id": "accessibility",
+            "q": "SimpleTime có hỗ trợ trợ năng không?",
+            "a": [
+              "Có. VoiceOver đọc các nút, biểu đồ và dòng thời gian bằng mọi ngôn ngữ của ứng dụng, và các biểu đồ còn có dạng biểu đồ âm thanh. Chữ theo cỡ chữ của iOS đến tận các mức lớn nhất – chỉ ở thanh tiêu đề và trên dòng thời gian, chữ lớn lên đến một giới hạn, để không có gì che các nút điều khiển. Xem thêm trong [tuyên bố về trợ năng](@accessibility) của chúng tôi; nếu có gì chưa dùng được với bạn, hãy cho chúng tôi biết."
+            ]
+          },
+          {
+            "id": "freelance",
+            "q": "SimpleTime có phù hợp với người làm tự do không?",
+            "a": [
+              "Để ghi giờ thì có: tách riêng từng khách hàng, từng dự án bằng công việc và công việc con, rồi xuất báo cáo PDF hoặc tệp CSV bất cứ khi nào bạn cần một bản kê. Đơn giá theo giờ và hoá đơn không có trong SimpleTime – với những việc đó, hãy đưa dữ liệu đã xuất vào công cụ lập hoá đơn của bạn."
+            ]
+          },
+          {
+            "id": "platforms",
+            "q": "Có phiên bản cho Android, Windows hoặc web không?",
+            "a": [
+              "Không. SimpleTime được làm cho iPhone, iPad, Mac và Apple Watch. Bạn có thể xuất dữ liệu dạng CSV bất cứ lúc nào."
+            ]
+          },
+          {
+            "id": "account-web",
+            "q": "Tôi làm được gì tại account.lacodea.com?",
+            "a": [
+              "Tại đó bạn quản lý LaCodea ID trong trình duyệt: các phương thức đăng nhập, gói đăng ký, tải về dữ liệu tài khoản và xoá tài khoản – trong SimpleTime, bạn vào cùng tài khoản đó ở trên cùng của Cài đặt. Bạn sẽ không thấy các mục của mình ở đó: chúng chỉ có trong SimpleTime trên iPhone, iPad, Mac và Apple Watch. Nếu bạn đồng bộ qua LaCodea ID, chúng được mã hoá đầu cuối trên máy chủ của SimpleTime – bản thân LaCodea ID không bao giờ nhận được chúng."
+            ]
+          },
+          {
+            "id": "feedback",
+            "q": "Tôi phát hiện lỗi hoặc có ý tưởng – gửi ở đâu?",
+            "a": [
+              "Hãy viết cho chúng tôi tại [contact@simple-time.app](mailto:contact@simple-time.app) – từ ứng dụng, bạn cũng có thể vào Cài đặt › Góp ý. Nếu báo lỗi, hãy cho chúng tôi biết kiểu máy, phiên bản iOS, iPadOS hoặc macOS và phiên bản SimpleTime của bạn – bạn tìm thấy nó trong Cài đặt › Giới thiệu SimpleTime – và mô tả ngắn gọn bạn đang làm gì. Mọi tin nhắn đều được đọc."
+            ]
+          },
+          {
+            "id": "support-us",
+            "q": "Tôi có thể ủng hộ SimpleTime bằng cách nào?",
+            "a": [
+              "SimpleTime do một người làm. Một lượt đánh giá trên App Store sẽ giúp ích, giới thiệu cho người khác cũng vậy – và SimpleTime Pro giúp việc phát triển được tiếp tục."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -44,11 +44,22 @@ export const WATCH: Record<Lang, { total: string; clock: string }> = {
   ko: { total: '9시간 2분', clock: '6:47' },
   bg: { total: '9 ч и 2 мин', clock: '18:47' },
   th: { total: '9 ชม. 2 นาที', clock: '18:47' },
+  ku: { total: '9 st û 2 d', clock: '18:47' },
+  sw: { total: 'saa 9 na dakika 2', clock: '18:47' },
+  ps: { total: '۹ h و ۲ دقیقه', clock: '۱۸:۴۷' },
+  bn: { total: '9 ঘণ্টা, 2 মিনিট', clock: '6:47' },
+  am: { total: '9 ሰዓ እና 2 ደቂቃ', clock: '6:47' },
+  ur: { total: '9 گھنٹے اور 2 منٹ', clock: '6:47' },
+  fa: { total: '۹ ساعت،‏ ۲ دقیقه', clock: '۱۸:۴۷' },
 };
 
-/** Arabic-Indic digits where the watch uses them. */
-export const watchDigits = (lang: Lang, s: string) =>
-  lang === 'ar' ? s.replace(/\d/g, (d) => '٠١٢٣٤٥٦٧٨٩'[Number(d)]) : s;
+/** Arabic-Indic digits where the watch uses them – and the Persian forms in Persian and Pashto, as their formatters write. */
+const DIGITS: Partial<Record<Lang, string>> = { ar: '٠١٢٣٤٥٦٧٨٩', fa: '۰۱۲۳۴۵۶۷۸۹', ps: '۰۱۲۳۴۵۶۷۸۹' };
+export const watchDigits = (lang: Lang, s: string) => {
+  const digits = DIGITS[lang];
+  return digits ? s.replace(/\d/g, (d) => digits[Number(d)]) : s;
+};
 
-/** watchOS mirrors its pages in Arabic and Hebrew – also where the page around stays left to right. */
-export const watchDir = (lang: Lang) => (lang === 'ar' || lang === 'he' ? 'rtl' : 'ltr');
+/** watchOS mirrors its pages in right-to-left languages – also where the page around stays left to right. */
+const RTL = new Set<Lang>(['ar', 'he', 'fa', 'ur', 'ps']);
+export const watchDir = (lang: Lang) => (RTL.has(lang) ? 'rtl' : 'ltr');

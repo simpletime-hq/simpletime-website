@@ -1,0 +1,950 @@
+{
+  "store": {
+    "lead": "SimpleTime tomar dike ka dema te li ku diçe. Lêdanek dide destpêkirin, lêdanek radiwestîne.",
+    "promise": "Hesab ne hewce ye, reklam tune. Saetên te li ser amûra te dimînin – û heke tu bixwazî, di iCloud a te de an li cem LaCodea ID jî.",
+    "sections": [
+      {
+        "id": "tracking",
+        "title": "Tomarkirin",
+        "points": [
+          "Lêdanek dide destpêkirin û radiwestîne – di sepanê de, ji ekrana malê, ji Navenda kontrolê, ji lêgerîna iPhoneyê an bi Siri",
+          "Demên sabît: dersan an nobetan carekê saz bike – SimpleTime wan her hefte bi xwe tomar dike",
+          "Kar bi bin-karên xwe re – ew qas kûr ku xebata te dixwaze",
+          "Te ji bîr kir dest pê bikî? Demê paşê lê zêde bike û kengî bixwazî biguherîne",
+          "Reng, sembol, bijarte û rêzeke ku tu bi xwe diyar dikî"
+        ]
+      },
+      {
+        "id": "day",
+        "title": "Roja te",
+        "points": [
+          "Lîste an xeta demê ji 0 heta 24, bi nîşaneke ji bo dema niha",
+          "Nîşe li ser her tomarê",
+          "Îro li gorî duh, rasterast li jorê"
+        ]
+      },
+      {
+        "id": "insights",
+        "title": "Nirxandin",
+        "points": [
+          "Nexşeyên xelekî li gorî karan û li gorî berhemdariyê",
+          "Roj, hefte, meh, sal",
+          "Statîstîk: berawirdkirin bi dema berê re, meyl, belavbûna di dirêjahiya rojê de, tomara herî dirêj û ya herî kin",
+          "Her kar bi hejmarên xwe – tomara yekem, ya herî dirêj, vê hefteyê, îsal",
+          "Her nexşeyê wek wêne parve bike"
+        ]
+      },
+      {
+        "id": "reports",
+        "title": "Rapor û derhinartin",
+        "points": [
+          "Rapora PDF ku tu beşên wê bi xwe hildibijêrî û rêz dikî",
+          "CSV ji bo Excel û Numbers",
+          "Planên paşgirê: bi xweber li iCloud Drive, di peldankeke sepana Files de wek Dropbox an Google Drive, li ser pêşkêşkara te ya xwe an li ser amûrê – heke bixwazî, bi şîfreyê şîfrekirî"
+        ]
+      },
+      {
+        "id": "widgets",
+        "title": "Widget û Siri",
+        "points": [
+          "Îro, karê ku dimeşe û hefte li ser ekrana malê",
+          "Dema ku dimeşe li ser ekrana kilîtkirî û di Dynamic Island de",
+          "Guhêrbarek di Navenda kontrolê de ku tomarkirinê dide destpêkirin û radiwestîne",
+          "Siri û Shortcuts: dest pê bike, rawestîne an bipirse ka niha çi dimeşe"
+        ]
+      },
+      {
+        "id": "devices",
+        "title": "Li ser her amûrê",
+        "points": [
+          "iPhone, iPad û Mac, bi rêya iCloud an LaCodea ID hevdem",
+          "41 ziman, ji zimanê amûra te serbixwe",
+          "VoiceOver û Dynamic Type di tevahiya sepanê de"
+        ]
+      },
+      {
+        "id": "data",
+        "title": "Daneyên te",
+        "points": [
+          "Kilîta sepanê bi Face ID, Touch ID an koda xwe",
+          "Tu hildibijêrî ka daneyên te li ku bin: tenê li ser vê amûrê, di iCloud a te de an jî ji serî heta dawiyê şîfrekirî li cem LaCodea ID",
+          "Nihêniya kesane li ser rûpelekê: her destûr û hemû daneyên te bi nêrînekê",
+          "Heke bixwazî, LaCodea ID, hesabek ji bo hemû sepanên LaCodea – SimpleTime bê wê jî dixebite",
+          "Ne reklam, ne firotina daneyên te – bê hesab tenê raporên teqînê û statîstîkên bikaranînê yên bênav digihêjin me, û tu dikarî wan jî vemirînî",
+          "Her tiştî bi carekê jê bibe – li ser amûrê, di iCloud de û di paşgiran de"
+        ]
+      }
+    ],
+    "pro": {
+      "title": "SimpleTime Pro",
+      "intro": "Her tiştê li jor belaş dimîne. Pro van lê zêde dike:",
+      "points": [
+        "Apple Watch: ji ser zendê xwe bide destpêkirin û rawestîne, destpêkê paş ve bikişîne, roj, hefte û armancên xwe li ber çavan bigire – bi dema ku dimeşe li ser rûyê demjimêrê",
+        "Paşnêrîn: hefte, meh û sala te wek kart – ji bo temaşekirin û parvekirinê",
+        "Dever: kar gava tu digihîjî bi xwe dest pê dikin – heke bixwazî, piştî demeke bendewariyê",
+        "Salname: her tomar wekî bûyerek di salnameya te de – û kar ji salnameyên wekî „Xebat” an „Malbat”",
+        "Sal bi carekê: her roja salê wek wêneyek, bi rêzeyên te",
+        "Armanc ji bo her karî – ji bo roj, hefte an meh",
+        "Parzûna baldariyê: baldariya te ya kar vedibe, lîste tenê karî nîşan dide, demjimêr jixwe dimeşe",
+        "Widgeteke destpêka bilez ku tu bi xwe tijî dikî",
+        "Heft rengên xurtkirinê an yek ji xwe, şeş tîp û şazdeh sembolên sepanê",
+        "Beşên zêde di rapora PDF de: meyl, belavbûna di rojê de, berawirdkirin, armanc"
+      ],
+      "pricing": "Pro mehane, salane an jî carekê û her û her heye. Aboneyên nû hefteyekê belaş distînin, û bi Parvekirina Malbatê heta şeş kes dikarin Pro bi kar bînin. Biha di sepanê de têne nîşandan. Mehane û salane bi xweber nû dibin heta ku tu betal bikî; tu dikarî her dem di mîhengên App Store de betal bikî. Çi paşê lê zêde bibe, tê de ye."
+    },
+    "closing": "Ji bo her kesê ku dixwaze bizane dema xwe bi rastî li ku derbas dike – li kar, li zanîngehê, di rahênanê de an jî ji bo xwe."
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Tomarkirina demê ji bo iPhone, iPad û Mac",
+      "titleLead": "Lêdanek",
+      "titleAccent": "demjimêrê dide destpêkirin.",
+      "cta": "Taybetmendiyan bibîne",
+      "proof": [
+        "Belaş daxe",
+        "Bê hesab",
+        "Ne reklam, ne firotina daneyan"
+      ]
+    },
+    "tour": {
+      "tracking": "Li ku derê bî, dest pê bike."
+    },
+    "devices": {
+      "title": "Li ser her amûra ku tu bi kar tînî.",
+      "subtitle": "iPhone, iPad û Mac bi rêya iCloud an LaCodea ID hevdem dimînin – û demjimêr li ser ekrana kilîtkirî, di Dynamic Island de û li ser zendê te dimeşe."
+    },
+    "showcase": [
+      {
+        "id": "day",
+        "title": "Hemû roja te, bi nêrînekê."
+      },
+      {
+        "id": "insights",
+        "title": "Bibîne ka saetên te bi rastî li ku diçin."
+      },
+      {
+        "id": "reports",
+        "title": "Raporek di çend çirkeyan de."
+      }
+    ],
+    "features": {
+      "title": "Her tiştê ku pêwîstiya te pê heye. Belaş.",
+      "subtitle": "Her taybetmendiya vê lîsteyê beşek ji sepana belaş e."
+    },
+    "pro": {
+      "button": "Her tişt li ser SimpleTime Pro"
+    },
+    "audience": {
+      "title": "Ji bo her kesê ku dixwaze bizane dema xwe li ku derbas dike.",
+      "subtitle": "Li kar, li zanîngehê, di rahênanê de – an jî tenê ji bo xwe.",
+      "groups": [
+        {
+          "id": "work",
+          "title": "Kar û xebata serbixwe",
+          "body": "Xerîdar û projeyan wek kar û bin-kar ji hev cuda bihêle, û kengî hewce be lîsteyeke paqij derhinêre."
+        },
+        {
+          "id": "study",
+          "title": "Xwendin û fêrbûn",
+          "body": "Bibîne ka dersek bi rastî çiqas dem digire, û hefteya bê bi hejmarên rastîn plan bike."
+        },
+        {
+          "id": "training",
+          "title": "Rahênan û adet",
+          "body": "Seansên rahênanê, dema pratîkê an xewê tomar bike û bibîne ka hefte bi hefte birêkûpêkî çawa ava dibe."
+        },
+        {
+          "id": "everyday",
+          "title": "Jiyana rojane",
+          "body": "Fêr bibe ka saet bi rastî li ku diçin – û bi xwe biryar bide ka tu dixwazî çi biguherînî."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Pirsên gelemperî.",
+      "subtitle": "Bersivên herî girîng bi nêrînekê – û gelek yên din li ser rûpela pirsên gelemperî.",
+      "button": "Hemû pirs û bersiv"
+    },
+    "cta": {
+      "title": "Tu amade yî ku dest bi tomarkirinê bikî?",
+      "subtitle": "Li ser iPhone, iPad û Mac belaş e. Bê hesab, bê reklam, bê firotina daneyên te.",
+      "note": "Sepana Apple Watch beşek ji SimpleTime Pro ye."
+    }
+  },
+  "shots": [
+    {
+      "id": "tracking",
+      "title": "Tomarkirin",
+      "caption": "Lêdanek demjimêrê dide destpêkirin",
+      "alt": "Beşa „Tomar” bi karekî ku dimeşe û bi bijarteyan li jorê"
+    },
+    {
+      "id": "day",
+      "title": "Roja te",
+      "caption": "Her tomar, heta çirkeyê",
+      "alt": "Dîmena rojê wek lîsteya tomaran bi demên wan re"
+    },
+    {
+      "id": "timeline",
+      "title": "Xeta demê",
+      "caption": "Hemû roja te bi nêrînekê",
+      "alt": "Dîmena rojê wek xeta demê ji 0 heta 24"
+    },
+    {
+      "id": "chart",
+      "title": "Analîz",
+      "caption": "Saetên te bi rastî li ku diçin",
+      "alt": "Hefteyek wek nexşeya xelekî li gorî karan"
+    },
+    {
+      "id": "statistics",
+      "title": "Statîstîk",
+      "caption": "Hefteyan berawird bike û meylê bibîne",
+      "alt": "Statîstîk ku vê hefteyê bi ya berê re berawird dikin"
+    },
+    {
+      "id": "report",
+      "title": "Rapor",
+      "caption": "Rapora PDF a hûrgilî bi her karî re",
+      "alt": "Rûpelek ji rapora PDF bi her karî re"
+    },
+    {
+      "id": "pro",
+      "title": "Derbasî Pro bibe",
+      "caption": "Armanc, sala te, rengên te",
+      "alt": "Rûpela SimpleTime Pro di sepanê de"
+    }
+  ],
+  "pro": {
+    "eyebrow": "SimpleTime Pro",
+    "title": "Ji dema ku tu tomar dikî bêtir sûd wergire.",
+    "subtitle": "SimpleTime belaş dimîne – her tiştê ku bê Pro dikare, wisa dimîne. Pro Apple Watch a te, deverên ku karan bi xwe didin destpêkirin, paşnêrînên hefte, meh û sala te, armanc û bêtir lê zêde dike.",
+    "featuresTitle": "Pro çi lê zêde dike",
+    "features": [
+      {
+        "id": "watch",
+        "title": "Apple Watch",
+        "body": "Ji ser zendê xwe bide destpêkirin û rawestîne, destpêkê paş ve bikişîne, roj, hefte û armancên xwe li ber çavan bigire – bi dema ku dimeşe li ser rûyê demjimêrê."
+      },
+      {
+        "id": "reviews",
+        "title": "Paşnêrîn",
+        "body": "Hefte, meh û sala te wek kart – ji bo temaşekirin û parvekirinê."
+      },
+      {
+        "id": "places",
+        "title": "Dever",
+        "body": "Kar gava tu digihîjî bi xwe dest pê dikin – heke bixwazî, piştî demeke bendewariyê, da ku gava tu tenê di ber re derbas dibî tiştek dest pê neke."
+      },
+      {
+        "id": "calendar",
+        "title": "Salname",
+        "body": "Her tomar wekî bûyerek di salnameya te de – û kar ji salnameyên te yên wekî „Xebat” an „Malbat”."
+      },
+      {
+        "id": "year",
+        "title": "Sal bi carekê",
+        "body": "Her roja salê wek wêneyek, bi rêzeya te ya niha û ya herî dirêj."
+      },
+      {
+        "id": "goals",
+        "title": "Armanc",
+        "body": "Ji bo her karî armancek – ji bo roj, hefte an meh. Bin-kar jî di armancê de têne jimartin."
+      },
+      {
+        "id": "focus",
+        "title": "Parzûna baldariyê",
+        "body": "Baldariya te ya kar vedibe, lîste tenê karî nîşan dide – û tomarkirin dikare bi wê re dest pê bike û biqede."
+      },
+      {
+        "id": "widget",
+        "title": "Widgeta destpêka bilez",
+        "body": "Tu biryar didî ka kîjan kar li ser wê bin. Lêdanek li ser ekrana malê wan dide destpêkirin."
+      },
+      {
+        "id": "style",
+        "title": "Reng, tîp û sembolên sepanê",
+        "body": "Heft rengên xurtkirinê an yek ji xwe, di tevahiya sepanê de – û şeş tîp û şazdeh sembolên sepanê."
+      },
+      {
+        "id": "report",
+        "title": "Bêtir di rapora PDF de",
+        "body": "Meyl, belavbûna di dirêjahiya rojê de, berawirdkirin bi dema berê re û armanc – bi rêza ku tu hildibijêrî."
+      },
+      {
+        "id": "future",
+        "title": "Her tiştê ku hê tê",
+        "body": "Çi paşê lê zêde bibe, tê de ye – bê kirîna nû."
+      }
+    ],
+    "plansTitle": "Sê rê ber bi Pro",
+    "plansSubtitle": "Biha bi welatê te ve girêdayî ne û berî kirînê di sepanê de bi diravê te têne nîşandan.",
+    "plans": [
+      {
+        "id": "monthly",
+        "title": "Mehane",
+        "body": "Her meh tê dayîn. Tu dikarî her dem betal bikî."
+      },
+      {
+        "id": "yearly",
+        "title": "Salane",
+        "body": "Salê carekê tê dayîn – sepan nîşan dide ka li gorî dayîna mehane tu çiqas xilas dikî."
+      },
+      {
+        "id": "lifetime",
+        "title": "Her û her",
+        "body": "Carekê bide û Pro her û her ya te ye. Dawî lê nayê."
+      }
+    ],
+    "notes": [
+      "Aboneyên nû dikarin „Mehane” an „Salane” hefteyekê belaş biceribînin.",
+      "Parvekirina Malbatê: kirînek ji bo heta şeş kesan.",
+      "Çi paşê lê zêde bibe, tê de ye – bê kirîna nû."
+    ],
+    "legal": "Mehane û salane bi xweber nû dibin heta ku tu betal bikî. Tu dikarî her dem di mîhengên App Store de betal bikî. Her û her carekê tê dayîn û dawî lê nayê.",
+    "terms": "Mercên bikaranînê (EULA)",
+    "privacy": "Polîtîkaya nihêniyê",
+    "freeTitle": "Çi belaş dimîne",
+    "freeBody": "Her tiştê ku ji bo tomarkirinê pêwîst e: kar û bin-kar, Demên sabît, dîmena rojê û xeta demê, nexşe û statîstîk, rapora PDF û derhinartina CSV, widget, Live Activity, Navenda kontrolê û Siri, hevdemkirin bi rêya iCloud an LaCodea ID, planên paşgirê û kilîta sepanê – bi 41 zimanan. Bê hesab, bê reklam, bê firotina daneyên te.",
+    "howTitle": "Tu çawa Pro distînî",
+    "how": [
+      "Di SimpleTime de Mîheng › SimpleTime Pro veke.",
+      "„Mehane”, „Salane” an „Her û her” hilbijêre – tu bi ajimêra xwe ya Apple pere didî.",
+      "Pro yekser vedibe, li ser hemû amûrên te yên bi heman ajimêra Apple."
+    ],
+    "faqTitle": "Pirs li ser Pro",
+    "ctaTitle": "Belaş dest pê bike.",
+    "ctaSubtitle": "SimpleTime daxe – û kengî bixwazî Pro di sepanê de veke."
+  },
+  "faq": {
+    "title": "Pirsên gelemperî.",
+    "subtitle": "Her tişt li ser SimpleTime – ji lêdana yekem heta SimpleTime Pro.",
+    "searchLabel": "Di pirsan de bigere",
+    "searchPlaceholder": "mînak „paşgir” an „Apple Watch”",
+    "results": "Pirsên guncav: {count}",
+    "noResults": "Ji bo „{query}” tu pirs nehat dîtin.",
+    "noResultsHint": "Peyveke din biceribîne – an [ji me re binivîse](@contact).",
+    "topics": "Mijar",
+    "moreTitle": "Pirseke te hê heye?",
+    "moreBody": "Ji me re binivîse – her peyam tê xwendin û bersivandin.",
+    "moreButton": "Têkilî",
+    "categories": [
+      {
+        "id": "basics",
+        "title": "Gavên yekem",
+        "items": [
+          {
+            "id": "what-is",
+            "q": "SimpleTime çi ye?",
+            "a": [
+              "SimpleTime sepaneke tomarkirina demê ye ji bo iPhone, iPad û Mac. Lêdanek demjimêrê dide destpêkirin, lêdanek wê radiwestîne. Paşê SimpleTime nîşanî te dide ka dema te li ku diçe – wek lîsteya rojê an xeta demê, di nexşe û statîstîkan de, û wek rapora PDF an dosyeya CSV. Hesab ne hewce ye, reklam tune, daneyên te nayên firotin."
+            ]
+          },
+          {
+            "id": "first-steps",
+            "q": "Ez çawa dest pê bikim?",
+            "a": [
+              "Di beşa „Tomar” de li + bixe da ku karekî çêbikî – bi nav, reng û sembol. Li sêgoşeya li kêleka wî bixe û demjimêr dimeşe; ji bo qedandinê li „Rawestîne” bixe. Di vekirina yekem de gereke kurt girîngtirîn bişkokan nîşanî te dide. Tu dikarî wê her dem di Mîheng › Gerê dîsa nîşan bide de ji nû ve temaşe bikî."
+            ]
+          },
+          {
+            "id": "free",
+            "q": "SimpleTime belaş e?",
+            "a": [
+              "Erê. Daxistina SimpleTime belaş e, û her tiştê ku ji bo tomarkirinê pêwîst e jî: kar û bin-kar, demên sabît, dîmena rojê, nexşe û statîstîk, rapor û derhinartin, widget, hevdemkirin bi rêya iCloud an LaCodea ID, û paşgir. SimpleTime Pro vebijarkî ye û sepana Apple Watch, paşnêrîn, dever, armanc û bêtir lê zêde dike. [Her tişt li ser SimpleTime Pro](@pro)"
+            ]
+          },
+          {
+            "id": "account",
+            "q": "Hesab pêwîst e?",
+            "a": [
+              "Na. Tu sepanê vedikî û dest pê dikî – qeydkirin ne hewce ye. Heke tu iCloud bi kar bînî, hevdemkirin bi rêya ajimêra te ya Apple diçe, ku em qet nabînin. Heke bixwazî, tu dikarî bi LaCodea ID têkevî – hesabê me ji bo hemû sepanên LaCodea. Wê demê em hesabê te û kirînên te yên SimpleTime Pro li cem xwe diparêzin – tomarên te tenê heke tu di Dane û hevdemkirin de LaCodea ID wek cihê daneyên xwe hilbijêrî, û wê demê jî ji serî heta dawiyê şîfrekirî."
+            ]
+          },
+          {
+            "id": "lacodea-id",
+            "q": "LaCodea ID çi ye?",
+            "a": [
+              "LaCodea ID hesabê me yê vebijarkî ye ji bo hemû sepanên LaCodea. Tu li jorê Mîhengan têdikevî – bi Apple, bi mifteya derbasbûnê an bi kodeke bi e-nameyê. Bi wê tu dikarî bi rêya LaCodea ID ji serî heta dawiyê şîfrekirî hevdem bikî, û kirîna SimpleTime Pro li ser her amûra ku tu lê têketî yî derbasdar e; SimpleTime bê wê jî baş dixebite."
+            ]
+          },
+          {
+            "id": "devices",
+            "q": "SimpleTime li ser kîjan amûran dixebite?",
+            "a": [
+              "Li ser iPhone û iPad bi iOS 26 an iPadOS 26 û nûtir, û li ser Mac bi macOS 26 û nûtir. Sepana Apple Watch beşek ji SimpleTime Pro ye û watchOS 26 hewce dike. Heke tu di Mîheng › Dane û hevdemkirin de iCloud an LaCodea ID hilbijêrî, tomarên te li ser hemû amûrên bi heman ajimêra Apple an bi heman LaCodea ID hevdem dimînin."
+            ]
+          },
+          {
+            "id": "mac",
+            "q": "SimpleTime li ser Mac çi dikare bike?",
+            "a": [
+              "Hema her tiştê ku li ser iPhone dike – tomarkirin, dîmena rojê, nirxandin, rapor, derhinartin, paşgir, hevdemkirin û kilîta sepanê; li cihê ku tu li ser iPhone dikişînî, li ser Mac bi bişkoka rastê ditikînî. Ji bilî vê, kronometreyek di barika menuyê de û widget li ser sermaseyê hene. Dever, Live Activities, sepana Apple Watch û sembolên sepanê yên din li ser Mac tune ne."
+            ]
+          },
+          {
+            "id": "languages",
+            "q": "SimpleTime bi kîjan zimanan diaxive?",
+            "a": [
+              "41 – ji Kurdî û Îngilîzî heta Erebî, Hindî û Japonî. Di Mîheng › Ziman de tu dikarî zimanê sepanê ji zimanê amûra xwe serbixwe hilbijêrî."
+            ]
+          },
+          {
+            "id": "offline",
+            "q": "SimpleTime bê înternetê dixebite?",
+            "a": [
+              "Erê. Tomarkirin, dîmena rojê, nexşe û rapor hemû bê girêdanê dixebitin. Girêdan ji bo hevdemkirinê, paşgirên li ser pêşkêşkara te ya xwe, têketina bi LaCodea ID, kirîna Pro û lêgerîna navnîşanekê ji bo deverekê pêwîst e. Tiştê ku nîvco dimîne, SimpleTime paşê temam dike – hevdemkirinê hema ku amûra te dîsa serhêl dibe, paşgireke ji bîr çûyî gava tu cara din sepanê vedikî."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tracking",
+        "title": "Tomarkirin",
+        "items": [
+          {
+            "id": "start-stop",
+            "q": "Ez çawa tomarkirinê didim destpêkirin û radiwestînim?",
+            "a": [
+              "Ji bo destpêkirina karekî li sêgoşeya li kêleka wî bixe. Karê ku dimeşe li jorê beşa „Tomar” xuya dibe; ji bo qedandinê li „Rawestîne” bixe. Lêdana li navê karekî bin-karên wî vedike, kişandina ber bi çepê dihêle tu wî biguherînî, arşîv bikî an jê bibî, û kişandina ber bi rastê agahiyên wî bi hemû hejmaran re nîşan dide – li ser Mac, tikandina bi bişkoka rastê van hemûyan pêşkêş dike."
+            ]
+          },
+          {
+            "id": "one-at-a-time",
+            "q": "Du kar dikarin di heman demê de bimeşin?",
+            "a": [
+              "Na. Her carê tenê tomarek dimeşe: gava tu karekî din didî destpêkirin, tomara ku dimeşe di heman kêliyê de diqede – bi vî awayî tomarên te li hev nakin."
+            ]
+          },
+          {
+            "id": "keeps-running",
+            "q": "Gava ez SimpleTime bigirim, demjimêr berdewam dimeşe?",
+            "a": [
+              "Erê. SimpleTime bi bîr tîne ka te kengî dest pê kir û dirêjiyê ji wê hesab dike – gava tu sepanê digirî, iPhoneya xwe kilît dikî an ji nû ve dest pê dikî, tomarkirin berdewam dimeşe. Li ser ekrana kilîtkirî û di Dynamic Island de, Live Activity dema ku dimeşe bi bişkokeke rawestandinê nîşan dide, û bîrxistinên te gava sepan girtî be jî tên."
+            ]
+          },
+          {
+            "id": "add-later",
+            "q": "Min ji bîr kir dest pê bikim – ez dikarim demê paşê lê zêde bikim?",
+            "a": [
+              "Erê. Di beşa „Roj” de li + bixe da ku tomarekê bi destpêk û dawiya wê lê zêde bikî, an li tomareke heyî bixe da ku wê biguherînî. Tomar nikarin li hev bikin: SimpleTime ji te re dibêje heke demek bi tomareke din re li hev dike. Heke demjimêr jixwe dimeşe, li jorê beşa „Tomar” li tomara ku dimeşe bixe û destpêka wê paş ve bikişîne – heta dawiya tomara berê."
+            ]
+          },
+          {
+            "id": "restore-entry",
+            "q": "Min tomarek jê bir – ez dikarim wê vegerînim?",
+            "a": [
+              "Erê. Heke tu tomarekê di beşa „Roj” de jê bibî – bi kişandina ber bi çepê, an li ser Mac bi bişkoka rastê –, ew diçe çopdankê: li jor çepê beşa „Roj” di bin „Tomarên jêbirî” de, „Vegerîne” wê vedigerîne, an tu wê bi domdarî jê dibî. Karên jêbirî bi tomarên xwe re di çopdanka li jor çepê beşa „Tomar” de li bendê ne. Tiştê ku bi domdarî hatibe jêbirin, tenê paşgirek wê vedigerîne."
+            ]
+          },
+          {
+            "id": "fixed-times",
+            "q": "Demên sabît çi ne?",
+            "a": [
+              "Demên ku dubare dibin, wek ders, nobet an saetên pêşwaziyê, tu carekê saz dikî: kar, rojên hefteyê, destpêk û dawî, her hefte an her hefteya duyem, ji rojeke ku tu hildibijêrî û heke bixwazî bi dîroka dawiyê. Hema ku demek diqede, SimpleTime bi xwe tomarekê lê zêde dike – li ser her amûra ku tu SimpleTime lê vedikî, û dîsa jî tenê carekê; herî zêde 31 roj paş ve temam dike. Tu tenê tiştê ku lê zêde dibe tomar dikî; tu wê di Mîheng › Tomar › Demên sabît de dibînî, bê Pro."
+            ]
+          },
+          {
+            "id": "fixed-times-pause",
+            "q": "Ez dikarim demên sabît rawestînim an biguherînim?",
+            "a": [
+              "Erê. Ji bo tatîlên dibistanê, betlane an nexweşiyê, di Mîheng › Tomar › Demên sabît de bi „Navber zêde bike” navberekê deyne – di wê demê de SimpleTime tiştek tomar nake; tu dikarî demeke yekane bi guhêrbara wê vemirînî. Tomarên ku hatine çêkirin wek her tomareke din dikarin bên guhertin an jêbirin, û heke tu demeke sabît biguherînî an jê bibî, tiştê ku berê hatiye tomarkirin dimîne. Heke demeke sabît bi tomareke heyî re li hev bike, SimpleTime wê tomar nake."
+            ]
+          },
+          {
+            "id": "subtasks",
+            "q": "Bin-kar çawa dixebitin?",
+            "a": [
+              "Li navê karekî bixe da ku wî vekî, paşê li wir bi + bin-karan lê zêde bike. Tu dikarî wan ew qas kûr bi cih bikî ku xebata te dixwaze – xerîdar, proje, qonax. Di nexşe, rapor û armancan de bin-kar ji bo karê li jorê xwe têne jimartin."
+            ]
+          },
+          {
+            "id": "order",
+            "q": "Ez çawa lîsteya karên xwe birêkûpêk dihêlim?",
+            "a": [
+              "Karên ku tu her roj bi kar tînî wek bijarte nîşan bike – ew li jorê dimînin. Yên din dikarî bi alfabeyê, li gorî bikaranîna herî zêde, li gorî bikaranîna dawî an bi rêza xwe rêz bikî. Rengek û sembolek – an emojiyek – dihêlin ku her kar bi nêrînekê bê naskirin."
+            ]
+          },
+          {
+            "id": "archive-trash",
+            "q": "Ferqa di navbera arşîvkirin û jêbirinê de çi ye?",
+            "a": [
+              "Arşîvkirin karekî tenê vedişêre: tomarên wî dimînin û di hemû nirxandinan de têne jimartin. Jêbirin karî bi tomarên wî re dibe çopdankê – wê demê dema wan êdî li tu derê nayê jimartin. Arşîv û çopdank li jor çepê beşa „Tomar” in: ji arşîvê „Vegerîne” karekî vedigerîne; ji çopdankê karî bi tomarên wî re vedigerîne – an tu wî li wir bi domdarî jê dibî."
+            ]
+          },
+          {
+            "id": "notes",
+            "q": "Ez dikarim nîşeyan li tomaran zêde bikim?",
+            "a": [
+              "Erê, her tomar dikare nîşeyekê hilgire – te li ser çi xebitî, an bi kê re. Tu wê dema ku di beşa „Roj” de tomarekê çêdikî an diguherînî lê zêde dikî, an jî dema demjimêr dimeşe, bi lêdana li tomara ku dimeşe li jorê beşa „Tomar”. Tu nîşeyê dibînî gava tomarê vedikî, di agahiyên karekî de di bin „Hemû tomar” de, di beşa PDF ya „Hemû tomar” de û di derhinartina CSV de; paşgir wê jî digirin."
+            ]
+          },
+          {
+            "id": "reminders",
+            "q": "SimpleTime dikare bîne bîra min?",
+            "a": [
+              "Erê. Di Mîheng › Agahdariyan mîheng bike de tu rêzikan datînî – mînak bîrxistinek gava karek ji 60 deqîqeyan ve dimeşe, ji bo hemû karan an tenê ji bo yên hilbijartî, di rojên hefteyê yên ku tu hildibijêrî de. Bi „Dema tu tişt nameşe bîne bîra min”, SimpleTime her wiha agahdar dike gava demekê tu tişt nehatiye tomarkirin."
+            ]
+          },
+          {
+            "id": "time-zone",
+            "q": "Ez çûm herêmeke demê ya din – çima tomarên min demên din nîşan didin?",
+            "a": [
+              "Bi awayê standard SimpleTime her tomarê di wê herêma demê de nîşan dide ku amûra te niha tê de ye – wek Salnameya Apple: tiştê ku te li New Yorkê di saet 9ê sibê de tomar kiriye, li Berlînê di saet 3ê piştî nîvro de xuya dibe. Di Mîheng › Herêma demê de tu dikarî li şûna wê „Herêma demê ya tomarkirinê” hilbijêrî: wê demê her tomar bi wê demê û di wê rojê de xuya dibe ku te ew tomar kiriye – li her derê ku dem û berhev xuya dibin. Dirêjî di her du rewşan de wek xwe dimîne; tomarên ji guhertoyên berî 4.7 her tim di herêma demê ya amûrê de xuya dibin."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "insights",
+        "title": "Dîmena rojê û nirxandin",
+        "items": [
+          {
+            "id": "day-view",
+            "q": "Dîmena rojê çi nîşan dide?",
+            "a": [
+              "Her tomara rojekê bi destpêk, dawî û dirêjiya wê – wek lîste, an wek xeta demê ji 0 heta 24 ku îro bi nîşanekê dema niha jî nîşan dide; li ser ekranên fireh wek iPad û Mac, herdu li kêleka hev xuya dibin. Li jorê tu dema giştî ya rojê û berawirdkirina bi roja berê re dibînî."
+            ]
+          },
+          {
+            "id": "charts",
+            "q": "Kîjan nexşe û statîstîk hene?",
+            "a": [
+              "Di beşa „Nexşe” de: nexşeyên xelekî li gorî karan û li gorî berhemdariyê, ji bo rojekê, hefteyekê, mehekê an salekê. Li jor rastê di bin „Bêtir statîstîk” de tu berawirdkirina bi dema berê re, meyl, karên xwe yên herî mezin û tomarên herî dirêj û herî kin dibînî – û ji hefteyekê û pê ve, belavbûna dema te di dirêjahiya rojê de, bi saeta te ya herî tijî. Ji bilî vê, her karî rûpeleke xwe ya agahiyan heye – tomara yekem, tomara herî dirêj, vê hefteyê, îsal."
+            ]
+          },
+          {
+            "id": "productivity",
+            "q": "Puana berhemdariyê çi ye?",
+            "a": [
+              "Gava tu karekî diguherînî, di bin „Berhemdarî” de kategoriyekê didî wî: berhemdar, bêberhem, pêwîst – an „Di berhemdariyê de nehê jimartin”. Bin-karên bê kategoriyeke xwe kategoriya karê li jorê digirin, û „Di berhemdariyê de nehê jimartin” ji bo her tiştê li jêr derbas dibe. Puan nîşan dide ka çi beşek ji dema te ya nirxandî berhemdar an pêwîst bû: (berhemdar + pêwîst) ÷ (berhemdar + bêberhem + pêwîst) × 100. Dema bê kategorî an bi „Di berhemdariyê de nehê jimartin” nayê jimartin."
+            ]
+          },
+          {
+            "id": "goals",
+            "q": "Armanc çawa dixebitin?",
+            "a": [
+              "Bi SimpleTime Pro tu di Mîheng › Armanc de ji bo her karî armancekê datînî: herî kêm an herî zêde demeke diyar di rojê, hefteyê an mehê de – mînak herî kêm 8 saet werzîş di hefteyê de an herî zêde 2 saet medyaya civakî di rojê de. Bin-kar jî tê de têne jimartin, û dema niha tê pîvandin. Tu di beşa „Nexşe” de û li ser Apple Watch a xwe dibînî ka tu li ku yî; rapora PDF di beşa „Armanc” de navîniya dema hilbijartî bi armanca te re berawird dike."
+            ]
+          },
+          {
+            "id": "share-chart",
+            "q": "Ez dikarim nexşeyekê parve bikim?",
+            "a": [
+              "Erê, her nexşe dikare wek wêne bê parvekirin an di sepana Wêne de bê tomarkirin. Ji bo tomarkirinê SimpleTime tenê destûra lêzêdekirina wêneyan dixwaze – ew nikare pirtûkxaneya wêneyên te bibîne."
+            ]
+          },
+          {
+            "id": "pdf-report",
+            "q": "Ez çawa rapora PDF çêdikim?",
+            "a": [
+              "Di Mîheng › Raporê derhinêre de demekê hilbijêre – ji „Îro” heta „Hemû dem”, an ya xwe –, beşên ku tu dixwazî hilbijêre û bi kişandinê rêza wan diyar bike. SimpleTime PDF bi her kar û bin-karî çêdike, amade ji bo parvekirin an tomarkirinê. SimpleTime Pro beşên zêde lê zêde dike: „Bi demê re”, „Di dirêjahiya rojê de”, „Berawirdkirin” û „Armanc”.",
+              "Ji bo lîsteyên saetan beşa „Hemû tomar” heye: her tomar roj bi roj bi destpêk, dawî, kar û nîşeyê re, û berhevokên rojane, berhevoka giştî û saetên dehanî – ji bo berawirdkirina saetên te bi pusûleya mûçeyê re bêkêmasî ye. Belaş e, Pro ne hewce ye, û ji destpêkê ve vekirî ye."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "shortcuts",
+        "title": "Widget, Siri û Focus",
+        "items": [
+          {
+            "id": "widgets",
+            "q": "Kîjan widget hene?",
+            "a": [
+              "Ji bo ekrana malê: „Îro”, „Karê ku dimeşe” û „Hefte” – „Îro” û „Karê ku dimeşe” bi bişkokên destpêkirin û rawestandinê. Ji bo ekrana kilîtkirî: çi dimeşe û çiqas. Her wiha guhêrbara „Tomarkirina demê” ji bo Navenda kontrolê heye. Dema karek dimeşe, Live Activity wî li ser ekrana kilîtkirî û di Dynamic Island de bi bişkokeke rawestandinê nîşan dide. Bi SimpleTime Pro tu widgeteke destpêka bilez jî distînî ku tu bi karên xwe tijî dikî."
+            ]
+          },
+          {
+            "id": "without-opening",
+            "q": "Ez dikarim bêyî vekirina sepanê tomarkirinê bidim destpêkirin?",
+            "a": [
+              "Erê, bi çend awayan. Tiliya xwe li ser sembola sepanê bihêle da ku tiştê ku dimeşe rawestînî an yek ji karên xwe bidî destpêkirin. Navê karekî di lêgerîna iPhoneyê de binivîse û lê bixe. An jî widgetekê, Siri an guhêrbara „Tomarkirina demê” bi kar bîne – di Navenda kontrolê de, li ser ekrana kilîtkirî an li ser Action Button ji iPhone 15 Pro ve –, û bi SimpleTime Pro, Apple Watch a xwe."
+            ]
+          },
+          {
+            "id": "siri",
+            "q": "SimpleTime çawa bi Siri û Shortcuts re dixebite?",
+            "a": [
+              "Mînak bibêje „Start Work in SimpleTime”, „Stop tracking in SimpleTime”, „How much did I track today in SimpleTime?” an „What’s running in SimpleTime?”. Siri van hevokan bi Îngilîzî û Almanî fêm dike. Di her zimanî de çalakî di sepana Shortcuts de amade ne, û li wir tu dikarî hevokeke xwe jî bidî wan."
+            ]
+          },
+          {
+            "id": "focus-filter",
+            "q": "Parzûna baldariyê çi dike?",
+            "a": [
+              "Bi parzûna baldariyê SimpleTime li pey Focus a te diçe: gava „Kar” vedibe, lîsteya karan tenê kategoriya te ya kar nîşan dide – û tomarkirin dikare bi Focus re dest pê bike û biqede. Tu wê di mîhengên iOS de di bin Focus › Focus a te › Focus Filters › Add Filter › SimpleTime de saz dikî. Parzûna baldariyê beşek ji SimpleTime Pro ye."
+            ]
+          },
+          {
+            "id": "calendar-entries",
+            "q": "SimpleTime dikare tomarên min têxe salnameya min?",
+            "a": [
+              "Erê, bi SimpleTime Pro: di Mîheng › Salname de „Tomar di salnameyê de” veke – ji wê rojê û pê ve her tomara qediyayî wekî bûyerekê xuya dibe, di salnameya xwe ya „SimpleTime” de an di yekê ku tu hildibijêrî de, heke bixwazî ji bo her karî cuda. Gava tu tomarekê diguherînî an jê dibî, bûyer jî diguhere, û girêdana di bûyerê de tomarê di SimpleTime de vedike. Heke tu wê vemirînî, bûyer di salnameya te de dimînin.",
+              "„Kar ji salnameyan” ji salnameyên wekî „Xebat” karan çêdike; lê bûyerên ku jixwe di salnameya te de ne nabin tomar. Bûyer li cem pêşkêşkerê salnameya te têne tomarkirin û navên karên te nîşanî hemû kesên ku tu salnameyê bi wan re parve dikî didin – heta dema kilîta sepanê vekirî be jî."
+            ]
+          },
+          {
+            "id": "menu-bar",
+            "q": "Ez dikarim SimpleTime li ser Maca xwe ji barika menuyê bi kar bînim?",
+            "a": [
+              "Erê. Kronometreyek di barika menuyê de nîşan dide ka karek dimeşe an na; lê bitikîne da ku bêyî vekirina pencereyê karan bidî destpêkirin, rawestînî an biguherînî. Tu wê di Mîheng › Barika menuyê › Di barika menuyê de nîşan bide de vedikî an vedimirînî. Dema kilîta sepanê hatibe sazkirin, menu tu navên karan nîşan nade û tenê „Rawestîne” pêşkêş dike."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "data",
+        "title": "Hevdemkirin, paşgir û derhinartin",
+        "items": [
+          {
+            "id": "sync",
+            "q": "SimpleTime di navbera amûrên min de hevdem dibe?",
+            "a": [
+              "Erê, bi rêya iCloud an bi rêya LaCodea ID – tu li ser her amûrê di Mîheng › Dane û hevdemkirin de hildibijêrî kîjan. Bi iCloud, her amûra ku te iCloud lê hilbijartiye û bi heman ajimêra Apple têketî ye hevdem dibe; kengî, pergal diyar dike. Ev nayê zorkirin – wê demê „Niha hevdem bike” ajimêr û girêdana te kontrol dike, û heman rûpel nîşan dide ka hevdemkirina dawî kengî bû.",
+              "Bi LaCodea ID, her amûra ku tu bi heman LaCodea ID lê têketî yî û te ew hilbijartiye hevdem dibe, heta bi ajimêreke Apple ya din jî – ji serî heta dawiyê şîfrekirî û, dema SimpleTime li ser herdu amûran vekirî be, di nav çend çirkeyan de."
+            ]
+          },
+          {
+            "id": "sync-trouble",
+            "q": "Tomarên min li ser amûra min a din xuya nabin – ez çi bikim?",
+            "a": [
+              "Li ser herdu amûran li Mîheng › Dane û hevdemkirin binêre: herdu divê heman cihî bi kar bînin – iCloud bi heman ajimêra Apple, an LaCodea ID bi heman têketinê. Heke rûpel bibêje ku guhertin tenê paşê derbasdar dibe, SimpleTime bi tevahî bigire û dîsa veke; her wiha sepanê li ser hemû amûrên xwe nû bihêle.",
+              "Bi iCloud, „Hevdemkirina dawî” di Mîhengan de di bin „Hevdemkirin” de nîşan dide ka dane cara dawî kengî hatin veguhastin, û „Hevdemkirinê kontrol bike” li ajimêr û girêdana te dinêre û, heke pirsgirêkek hebe, sedemê dibêje – mînak ku cihê te yê iCloud tije ye. Bi LaCodea ID, rûpela „Dane û hevdemkirin” nîşan dide ka guhertin li benda girêdanê ne, ka hesabekî din têketî ye an ka amûr hewceyî mifteya te ya vegerandinê ye. Heke ev alîkarî neke, [ji me re binivîse](@contact)."
+            ]
+          },
+          {
+            "id": "without-icloud",
+            "q": "Ez dikarim SimpleTime bê iCloud bi kar bînim?",
+            "a": [
+              "Erê. Di Mîhengan de di bin „Dane û hevdemkirin” de „Tenê li ser vê amûrê” hilbijêre – wê demê daneyên te li ser vê yek amûrê dimînin. Ji ber vê yekê paşgir hê girîngtir in: planeke paşgirê wan bi xweber tomar dike, mînak li peldankeke sepana Files an li ser pêşkêşkara te ya xwe. Heke tu dîsa jî dixwazî bê iCloud çend amûran hevdem bikî, li wir LaCodea ID hilbijêre; wê demê amûreke bê iCloud Keychain a te carekê mifteya te ya vegerandinê dixwaze."
+            ]
+          },
+          {
+            "id": "switch-storage",
+            "q": "Ez çawa cihê daneyên xwe diguherînim?",
+            "a": [
+              "Di Mîheng › Dane û hevdemkirin de li cihê ku tu dixwazî daneyên te lê bin bixe, paşê li „Derbasî iCloud bibe”, „Derbasî LaCodea ID bibe” an „Tenê li ser vê amûrê bihêle”; ji bo LaCodea ID tu di rê de têdikevî. Berî derbasbûna iCloud an LaCodea ID, SimpleTime kopiyeke ewlehiyê ya vê amûrê çêdike, û heke li wir jixwe dane hebin, tu di navbera „Yek bike” û „Daneyên ji … bi kar bîne” de hildibijêrî.",
+              "Guhertin tenê ji bo vê amûrê ye û bi piranî piştî ku te SimpleTime bi tevahî girt û dîsa vekir derbasdar dibe – rûpel vê ji te re dibêje. Amûrên te yên din wek berê hevdem dibin heta ku tu li wir jî biguherînî. Paşê SimpleTime pêşniyar dike ku daneyên li cihê kevn jê bibe; vê tenê bike piştî ku amûrên te yên din jî derbas bûne – wekî din ew jî wan daneyan winda dikin."
+            ]
+          },
+          {
+            "id": "recovery-key",
+            "q": "Mifteya vegerandinê çi ye?",
+            "a": [
+              "Dema LaCodea ID cihê daneyên te be, SimpleTime daneyên te ji serî heta dawiyê şîfre dike; amûrên te yên Apple bi gelemperî miftê bi xwe bi rêya iCloud Keychain distînin. Amûreke bê iCloud Keychain a te – mînak bi ajimêreke Apple ya din – carekê hewceyî mifteya te ya vegerandinê ye: 24 tîp û hejmar. Tu wê di Mîheng › Dane û hevdemkirin › Mifteya vegerandinê de dibînî, piştî Face ID an koda amûrê; heta ku tu piştrast nekî ku te ew tomar kiriye, rûpela „Ewlehî” wê tîne bîra te. Wê di rêveberê şîfreyan de an li ser kaxezê biparêze – bêyî wê û bêyî amûrên te kes nikare daneyên te veke, em jî nikarin."
+            ]
+          },
+          {
+            "id": "recovery-key-lost",
+            "q": "Mifteya min a vegerandinê winda bû – niha çi?",
+            "a": [
+              "Li ser amûreke ku hê dikare daneyên te bixwîne, SimpleTime wê di Mîheng › Dane û hevdemkirin › Mifteya vegerandinê de bi „Mifteya vegerandinê nîşan bide” dîsa nîşan dide – an tu li wir yeke nû çêdikî, û ya kevn êdî naxebite. Heke yek ji amûrên te jî êdî nikaribe daneyan veke, kes nikare wan vegerîne – em jî nikarin. Wê demê gava ji te tê xwestin li „Mifteya min a vegerandinê winda bû” bixe û bi daneyên vê amûrê ji nû ve dest pê bike; her tiştê ku tenê li ser serverê an li ser amûrên te yên din bû winda dibe."
+            ]
+          },
+          {
+            "id": "backups",
+            "q": "Paşgir çawa dixebitin?",
+            "a": [
+              "Di Mîheng › Paşgir de tu bi qasî ku dixwazî planên paşgirê çêdikî. Her planê cihek heye – iCloud Drive, peldankeke di sepana Files de wek Dropbox an Google Drive, pêşkêşkara te ya xwe bi rêya WebDAV, an ev amûr –, bernameyek ji saetane heta mehane, demeke hilanînê û, heke bixwazî, şîfreyek. Di heman rûpelê de tu dikarî her dem bi destê xwe jî paşgirekê çêkî."
+            ]
+          },
+          {
+            "id": "backup-password",
+            "q": "Ez dikarim paşgirên xwe bi şîfreyekê biparêzim?",
+            "a": [
+              "Erê. Heke tu ji bo planekê şîfreyekê deynî, her paşgir berî tomarkirinê li ser amûra te tê şîfrekirin. Şîfreyê baş biparêze: bêyî wê kes nikare paşgirê vegerîne – ne tu, ne em. Rêyeke din tune."
+            ]
+          },
+          {
+            "id": "backup-files",
+            "q": "Ez paşgirên xwe li ku dibînim?",
+            "a": [
+              "Paşgirên planeke bi „Tenê li ser vê amûrê” di sepana Files de jî di bin „On My iPhone” (an „On My iPad”) › SimpleTime › Backups de xuya dibin, û yên planeke iCloud Drive di bin iCloud Drive › SimpleTime › Backups de. Planên ji bo peldankeke sepana Files an pêşkêşkara te ya xwe wan datînin cihê ku te hilbijartiye. Paşgirên li ser amûrê bi amûrê re winda dibin – û gava tu SimpleTime jê dibî. Çêtir e ku tu şîfreyekê bidî planên xwe: bêyî şîfreyê, her kesê ku gihîştina wî bi wî cihî heye dikare paşgirekê veke – li ser amûrê, her kesê ku kilîta wê veke, heta dema kilîta sepanê vekirî be jî."
+            ]
+          },
+          {
+            "id": "restore",
+            "q": "Ez çawa paşgirekê vedigerînim?",
+            "a": [
+              "Di Mîheng › Paşgir de tu paşgirekê vedigerînî – ji yek ji planên xwe an ji dosyeyekê. Daneyên heyî dimînin, û yên kêm têne zêdekirin. Paşgirên ji SimpleTime 4.7 û berê di Mîheng › Daneyan derhinêre / bike hundir › Paşgirê ji JSON bike hundir de têne hundirkirin. Li ser amûreke nû çêtir e ku tu bisekinî heta ku daneyên te bi hevdemkirina iCloud an LaCodea ID gihîştibin – wekî din kar dikarin du caran çêbibin."
+            ]
+          },
+          {
+            "id": "export",
+            "q": "Ez dikarim daneyên xwe derhinêrim?",
+            "a": [
+              "Erê, her dem: wek dosyeya CSV bi rêzekê ji bo her tomarê – dîrok, destpêk, dawî, kar, dirêjî, saetên dehanî û nîşe, ji bo Excel, Numbers an her sepaneke tabloyan –, wek rapora PDF an wek paşgir.",
+              "Di Mîheng › Daneyan derhinêre / bike hundir de tu dema dosyeya CSV hildibijêrî – ji „Îro” heta „Hemû dem”, an ya xwe, wek meha borî. Paşgirekê tu di Mîheng › Paşgir de çêdikî."
+            ]
+          },
+          {
+            "id": "timesheet",
+            "q": "Ez saetên xwe ji bo lîsteya saetan çawa distînim?",
+            "a": [
+              "Wek PDF: di Mîheng › Raporê derhinêre de demê hilbijêre – mînak „Meha borî” – û beşa „Hemû tomar” vekirî bihêle; ew her tomarê bi destpêk, dawî, kar û nîşeyê re rêz dike, û berhevokên rojane, berhevoka giştî û saetên dehanî. Wek tablo: di Mîheng › Daneyan derhinêre / bike hundir de demê hilbijêre û li „Daneyan wek CSV derhinêre” bixe – ji bo her tomarê rêzek bi dîrok, destpêk, dawî, kar, dirêjî, saetên dehanî û nîşeyê, ji bo Excel an Numbers. Herdu belaş in, û tomarên ji demên sabît wek yên din têne jimartin."
+            ]
+          },
+          {
+            "id": "rounding",
+            "q": "SimpleTime dikare deman gilover bike – mînak bo çaryek saetan?",
+            "a": [
+              "Na, mîhengeke gilover kirinê tune: SimpleTime destpêk û dawiyê wekî ku tu tomar dikî diparêze. Di beşa PDF ya „Hemû tomar” de û di derhinartina CSV de her rêz li deqîqeyê tê gilover kirin û wek saetên dehanî bi du reqeman tê nîşandan; di PDF de berhevok tam van nirxan berhev dikin. Heke çaryek saet ji te re pêwîst bin, destpêk û dawiyê di tomarê de biguherîne an di sepana xwe ya tabloyan de gilover bike."
+            ]
+          },
+          {
+            "id": "import",
+            "q": "Ez dikarim daneyan ji sepaneke din bikim hundir?",
+            "a": [
+              "Na. SimpleTime tenê paşgirên xwe dixwîne – dosyeyên CSV, yên wê bi xwe jî, nayên hundirkirin, û bûyerên ji salnameya te nabin tomar. Tu dikarî demên berê di beşa „Roj” de bi + bi destê xwe lê zêde bikî."
+            ]
+          },
+          {
+            "id": "new-device",
+            "q": "Ez çawa derbasî iPhoneyeke nû dibim?",
+            "a": [
+              "Bi heman ajimêra Apple têkeve û SimpleTime saz bike – heke tu iCloud bi kar tînî (Mîheng › Dane û hevdemkirin), tomarên te bi xwe vedigerin. Heke tu LaCodea ID bi kar tînî, li ser amûra nû bi wê têkeve û di Dane û hevdemkirin de wê hilbijêre; heke amûr miftê bi xwe bi rêya iCloud Keychain a te nestîne, sepan carekê mifteya te ya vegerandinê dixwaze. Wekî din, li ser amûra kevn paşgirekê çêke û li ser ya nû vegerîne. Dever û mîheng girêdayî her amûrê ne – ew ne hevdem dibin, ne jî dikevin paşgirê."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "privacy",
+        "title": "Nihêniya kesane û ewlehî",
+        "items": [
+          {
+            "id": "data-location",
+            "q": "Daneyên min li ku têne hilanîn?",
+            "a": [
+              "Li cihê ku tu hildibijêrî: di Mîhengan de di bin „Dane û hevdemkirin” de tu di navbera „Tenê li ser vê amûrê”, iCloud a te ya taybet – ku li wir Apple wan şîfre dike – û LaCodea ID – ku li wir ji serî heta dawiyê şîfrekirî ne – de biryar didî; em li tu ji van cihan nikarin tomarên te bixwînin. Paşgir li cihê ku planên te yên paşgirê wan datînin têne hilanîn; bêyî şîfreyê, her kesê ku gihîştina wî bi wî cihî heye dikare wan bixwîne. Heke tu bi Pro „Tomar di salnameyê de” vekî, tomarên qediyayî her wiha wekî bûyer di salnameya te de xuya dibin – ji pêşkêşkerê wê û ji hemû kesên ku tu wê bi wan re parve dikî re xuya ne."
+            ]
+          },
+          {
+            "id": "lacodea-id-privacy",
+            "q": "Gava ez bi rêya LaCodea ID hevdem dikim, kî dikare tomarên min bixwîne?",
+            "a": [
+              "Tenê amûrên te. SimpleTime kar, tomar bi dem û nîşeyên wan, demên sabît, armanc û bîrxistinan li ser amûra te şîfre dike (AES-GCM bi 256 bit), berî ku ew biçin servera taybet a SimpleTime – mifte tenê li cem amûrên te ye, ne li cem me. Server tenê dibîne ka çend qeydên ji kîjan cureyê hene, bi texmînî çiqas mezin in, kengî hatine nivîsandin û ka hatine jêbirin an na; ew li navendeke daneyan li Frankfurt am Main e. Hûrgilî di [polîtîkaya me ya nihêniyê](@privacy) de ne."
+            ]
+          },
+          {
+            "id": "tracking-me",
+            "q": "SimpleTime min dişopîne?",
+            "a": [
+              "Na. SimpleTime reklaman nîşan nade, daneyan nafiroşe, profîlên bikarhêneran çênake û te di sepan û malperên din de naşopîne. Da ku em çewtiyan zû bibînin, sepan raporên teqînê û statîstîkên bikaranînê yên bênav ji servera me ya taybet re dişîne – bê nasnameya amûrê, û qet ne bi kar, dem an nîşeyên te re. Tu dikarî vê di Mîheng › Nihêniya kesane › Nêrîna giştî û destûr de vemirînî. Hûrgilî di [polîtîkaya me ya nihêniyê](@privacy) de ne."
+            ]
+          },
+          {
+            "id": "permissions",
+            "q": "SimpleTime kîjan destûran dixwaze?",
+            "a": [
+              "Tenê tiştê ku taybetmendiyek hewce dike, û tenê gava tu wê bi kar tînî: agahdarî ji bo bîrxistinan û agahdariyên deveran, cihê te ji bo deveran, salnameyên te ji bo „Tomar di salnameyê de”, lêzêdekirina wêneyan ji bo tomarkirina wêneyan, û Face ID an Touch ID ji bo kilîta sepanê. Di mîhengan de di bin Nihêniya kesane › Nêrîna giştî û destûr de tu her yekê bi rewşa wê ya niha dibînî."
+            ]
+          },
+          {
+            "id": "location",
+            "q": "Çima SimpleTime cihê min dixwaze?",
+            "a": [
+              "Tenê ji bo deveran, ku beşek ji SimpleTime Pro ne: da ku karek dest pê bike gava tu digihîjî derekê. iOS li herêmên ku tu diyar dikî dinêre û ji sepanê re dibêje gava tu digihîjî an derdikevî. Deverên te li ser amûra te dimînin, û SimpleTime qeyd nagire ka tu li ku bûyî. Bê dever, SimpleTime ne hewceyî cihê te ye."
+            ]
+          },
+          {
+            "id": "app-lock",
+            "q": "Kilîta sepanê çawa dixebite?",
+            "a": [
+              "Di Mîheng › Kilîta sepanê de tu hildibijêrî ka SimpleTime bi Face ID an Touch ID û koda amûra te vedibe, an bi koda te ya xwe – hejmar an şîfre. Di guhêrbara sepanan de SimpleTime veşartî dimîne, û navên karan êdî ne di lêgerîna iPhoneyê de, ne jî li ser sembola sepanê xuya dibin; di bin „Derveyî sepanê” de tu hildibijêrî ka agahdarî, widget û Apple Watch çi nîşan didin. Ji bo rewşekê ku tu koda xwe ji bîr bikî, tu dikarî berê „Ji nû ve sazkirina koda ji bîrkirî bi koda amûrê” vekî an şîfreyeke awarte deynî. Bêyî van herduyan, riya tenê ya vegerê jêbirin û ji nû ve sazkirina sepanê ye – û her tiştê ku tenê li ser vê amûrê bû winda dibe, heke paşgireke te tune be."
+            ]
+          },
+          {
+            "id": "security-overview",
+            "q": "Rûpela „Ewlehî” çi nîşan dide?",
+            "a": [
+              "Di Mîheng › Ewlehî › Nêrîna giştî de tu bi nêrînekê dibînî ka daneyên te çiqas baş têne parastin: koda amûrê, kilîta sepanê, paşgirên xweber û şîfrekirî û cihê daneyên te – bi LaCodea ID her wiha şîfrekirina ji serî heta dawiyê û mifteya te ya vegerandinê. Tiştê ku hê kêm e di bin „Pêşniyarkirî” de tê rêzkirin; her xal rave dike ka çawa te diparêze û, li cihê pêwîst, te dibe mîhenga rast."
+            ]
+          },
+          {
+            "id": "delete-all",
+            "q": "Ez çawa hemû daneyên xwe jê dibim?",
+            "a": [
+              "Di Mîhengan de di bin Nihêniya kesane › Hemû daneyan jê bibe de tu her tiştî bi carekê radikî – tomar û kar, armanc, dever, çopdank, bîrxistin, paşgirên planên te û paşgirên kevn ên di iCloud Drive de, derhinartin, mîheng bi koda kilîta sepanê re û bûyerên ku SimpleTime li salnameya te zêde kirine.",
+              "Jêbirin li ser vê amûrê, di iCloud de û – heke tu bi rêya LaCodea ID hevdem dikî – li ser serverê pêk tê; bi rêya iCloud jêbirin hema ku amûrên te yên din serhêl bibin digihîje wan jî. Heke tu bi rêya LaCodea ID hevdem dikî, amûrên te yên din daneyên xwe dihêlin û êdî hevdem nabin heta ku tu li wir hevdemkirinê ji nû ve saz bikî – li wir jî wan jê bibe –, û hesabê te yê LaCodea ID dimîne. Ev nayê vegerandin."
+            ]
+          },
+          {
+            "id": "delete-app",
+            "q": "Heke ez SimpleTime jê bibim çi dibe?",
+            "a": [
+              "Wê demê her tiştê ku tenê li ser vê amûrê bû diçe: tomarên te heke te „Tenê li ser vê amûrê” hilbijartibe, paşgirên planeke „Tenê li ser vê amûrê”, deverên te û mîhengên te bi kilîta sepanê re. Tiştê ku di iCloud de an li cem LaCodea ID ye li wir dimîne û piştî sazkirina ji nû ve vedigere, gava tu di Dane û hevdemkirin de dîsa heman cihî bi kar bînî.",
+              "Paşgirên di iCloud Drive de, di peldankeke sepana Files de an li ser pêşkêşkara te dimînin, û bûyerên di salnameya te de jî; ji bo paşgireke şîfrekirî wê demê şîfreya wê ji te re pêwîst e. Abonetî berdewam dike heta ku tu wê betal bikî, û LaCodea ID ya te dimîne. Heke tu dixwazî pêşî her tiştî rakî, Mîheng › Nihêniya kesane › Hemû daneyan jê bibe bi kar bîne."
+            ]
+          },
+          {
+            "id": "lacodea-id-delete",
+            "q": "Ez çawa derdikevim an LaCodea ID ya xwe jê dibim?",
+            "a": [
+              "Li jorê Mîhengan li LaCodea ID ya xwe bixe: „Derkeve” te ji hemû sepanên LaCodea yên li ser vê amûrê derdixe – daneyên te li vir dimînin û hema ku tu têkevî dîsa hevdem dibin. „SimpleTime veqetîne” tenê SimpleTime ji hesabê te vediqetîne; „LaCodea ID jê bibe” hesabê ji bo hemû sepanên LaCodea jê dibe – tu dikarî vê li account.lacodea.com jî bikî. Çi tu veqetînî çi jê bibî, servera SimpleTime daneyên te yên hevdemkirî li wir jê dibe; tiştê ku li ser amûrên te an di iCloud de ye dimîne. Abonetiyeke bi rêya Apple berdewam dike heta ku tu wê di mîhengên amûra xwe de betal bikî."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "pro",
+        "title": "SimpleTime Pro",
+        "items": [
+          {
+            "id": "pro-includes",
+            "q": "SimpleTime Pro çi tê de heye?",
+            "a": [
+              "Sepana Apple Watch, paşnêrînên hefte, meh û sala te, dever, tomarên te wekî bûyer di salnameya te de û kar ji salnameyên te, „Sal bi carekê”, armanc, parzûna baldariyê, widgeteke destpêka bilez, heft rengên xurtkirinê an yek ji xwe, şeş tîp, şazdeh sembolên sepanê û beşên zêde di rapora PDF de. Sepana Apple Watch hewceyî iPhone ye; dever û sembolên sepanê li ser iPhone û iPad hene. Çi paşê lê zêde bibe, tê de ye. [Her tişt li ser SimpleTime Pro](@pro)"
+            ]
+          },
+          {
+            "id": "pro-price",
+            "q": "SimpleTime Pro bi çiqasî ye?",
+            "a": [
+              "Pro mehane, salane an wek kirîneke yekcarî ya „Her û her” heye. Biha bi welat û diravê te ve girêdayî ne û berî kirînê di sepanê de têne nîşandan."
+            ]
+          },
+          {
+            "id": "trial",
+            "q": "Ez dikarim pêşî Pro biceribînim?",
+            "a": [
+              "Erê. Aboneyên nû dikarin „Mehane” an „Salane” hefteyekê belaş biceribînin; sepan nîşan dide ka dema ceribandinê ji bo te derbasdar e an na. Heke tu herî dereng 24 saet berî dawiya wê betal nekî, abonetî bi bihayê xuyakirî nû dibe."
+            ]
+          },
+          {
+            "id": "family",
+            "q": "Malbata min jî dikare Pro bi kar bîne?",
+            "a": [
+              "Erê. SimpleTime Pro bi Parvekirina Malbatê re dixebite – kirînek ji bo heta şeş kesan."
+            ]
+          },
+          {
+            "id": "restore-purchase",
+            "q": "Min Pro kirî – ez çawa wê li ser amûrên xwe yên din distînim?",
+            "a": [
+              "Pro girêdayî ajimêra te ya Apple ye: li ser amûrên te yên din ên bi heman ajimêrê, bi gelemperî bi xwe vedibe. Heke venebe, li wir di Mîheng › SimpleTime Pro de li „Vegerîne” bixe.",
+              "Li ser amûreke bi ajimêreke Apple ya din, tu Pro bi rêya LaCodea ID distînî: li ser herdu amûran bi heman LaCodea ID têkeve. Heke te Pro berî têketinê kirîbe, li ser amûreke bi wê ajimêra Apple ya ku te pê kirî jî bi LaCodea ID ya xwe têkeve – SimpleTime ji wir kirînê ji hesabê te re radigihîne. Wê demê rûpela Pro „Bi rêya LaCodea ID a te” nîşan dide û, ji bo abonetiyekê, ka te ew li ku girtiye – tenê li wir dikare bê guhertin."
+            ]
+          },
+          {
+            "id": "cancel",
+            "q": "Ez çawa abonetiya xwe betal dikim?",
+            "a": [
+              "Di mîhengên xwe yên App Store de – li ser iPhone di Settings › navê te › Subscriptions de – an di sepanê de li ser rûpela Pro bi „Abonetiyê birêve bibe”. Ev tenê li ser amûreke bi wê ajimêra Apple ya ku te pê abone bûyî dixebite; heke Pro bi rêya LaCodea ID a te ji te re vekirî be, rûpela Pro wan amûran nav dike. Pro heta dawiya dema ku te jixwe dayiye çalak dimîne, û jêbirina LaCodea ID ya te jî abonetiyê naqedîne."
+            ]
+          },
+          {
+            "id": "lifetime-switch",
+            "q": "Abonetiyeke min heye – ez dikarim derbasî „Her û her” bibim?",
+            "a": [
+              "Erê, rasterast li ser rûpela Pro. Lê Apple abonetiyê bi xwe naqedîne: paşê wê betal bike da ku nû nebe. Sepan vê tîne bîra te."
+            ]
+          },
+          {
+            "id": "pro-ends",
+            "q": "Gava Pro diqede çi dibe?",
+            "a": [
+              "Tiştek winda nabe. Tomar, armanc û deverên te parastî dimînin. Taybetmendiyên Pro dîsa têne girtin – mînak dever êdî karan nadin destpêkirin – û hema ku Pro dîsa çalak bibe, her tişt vedigere."
+            ]
+          },
+          {
+            "id": "pro-offline",
+            "q": "Pro hewceyî girêdana înternetê ye?",
+            "a": [
+              "Na. SimpleTime kirîna te li cem App Store – û, heke tu bi LaCodea ID têketî yî, li cem hesabê te jî – kontrol dike, kengî ku bikaribe. Bê girêdan Pro berdewam dixebite – heta du hefteyan bê têkilî."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "watch-places",
+        "title": "Apple Watch û dever",
+        "items": [
+          {
+            "id": "watch-setup",
+            "q": "Ez çawa sepana Apple Watch saz dikim?",
+            "a": [
+              "Sepana Apple Watch beşek ji SimpleTime Pro ye. Wê li ser Apple Watch a xwe saz bike, paşê SimpleTime carekê li ser iPhoneya xwe veke – piştî çend çirkeyan Apple Watch karên te nîşan dide. iPhoneya te çavkanî dimîne: her tiştê ku Apple Watch dide destpêkirin li wir tê tomarkirin, bi heman Live Activity û heman widgetan."
+            ]
+          },
+          {
+            "id": "watch-features",
+            "q": "Ez li ser Apple Watch a xwe çi dikarim bikim?",
+            "a": [
+              "Ji ser zendê xwe bide destpêkirin û rawestîne – bijarteyên xwe, tiştê ku te dawî bi kar aniye, an her karî bi rêya lêgerînê. Destpêkê paş ve bikişîne: 5, 15, 30 an 60 deqîqe berê, an bê navber ji dawiya tomara xwe ya dawî. Bi lêdana ducarî rawestîne. Roj, hefte û armancên xwe li ber çavan bigire, bi dema ku dimeşe li ser rûyê demjimêrê û di Smart Stack de. Heke iPhoneya te dûr be, lêdanên te bi dema xwe re têne parastin û paşê têne gihandin."
+            ]
+          },
+          {
+            "id": "places-how",
+            "q": "Dever çawa dixebitin?",
+            "a": [
+              "Deverekê zêde bike – mînak nivîsgeha xwe an salona xwe ya werzîşê – bi nîvçapeke ji 50 m heta 10 km, û karekî hilbijêre. Gava tu digihîjî, kar bi xwe dest pê dike, an jî SimpleTime pêşî dipirse. Bi demeke bendewariyê, gava tu tenê di ber re derbas dibî tiştek dest pê nake. Gava tu derdikevî, kar dikare raweste, û tu dikarî deverekê bi hin roj û demjimêran ve sînordar bikî."
+            ]
+          },
+          {
+            "id": "places-late",
+            "q": "Çima deverek dereng an qet dest pê nake?",
+            "a": [
+              "Dever hewceyî destûra cih a „Her dem” ne, bi „Cihê tam” vekirî. Di bin 100 m de iOS gihîştina te pir caran dereng dibîne, ji ber ku di paşxaneyê de cih bi gelemperî ji Wi-Fi û tora mobîl tê, ne ji GPS – nîvçapeke mezintir alîkarî dike. iOS ji bo her sepanê herî zêde 20 deveran dişopîne, û li ser Mac dever tune ne."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "more",
+        "title": "Yên din",
+        "items": [
+          {
+            "id": "look",
+            "q": "Ez dikarim xuyanga SimpleTime biguherînim?",
+            "a": [
+              "Erê: ronî, tarî an li gorî pergalê, sê bilindahiyên rêzê ji bo lîsteya karan, û di Mîheng › Tîp de mezinahiya nivîsê ya xwe û nivîsa stûr. Bi SimpleTime Pro tu her wiha heft rengên xurtkirinê an yek ji xwe distînî – ew di bişkok, guhêrbar û nexşeyan de xuya dibe –, şeş tîp û, li ser iPhone û iPad, şazdeh sembolên sepanê."
+            ]
+          },
+          {
+            "id": "accessibility",
+            "q": "SimpleTime gihîştbar e?",
+            "a": [
+              "Erê. VoiceOver bişkok, nexşe û xeta demê bi her zimanê sepanê dixwîne, û nexşe wek grafîkên dengî (Audio Graphs) jî hene. Nivîs li pey mezinahiya nivîsê ya iOS diçe heta mîhengên herî mezin – tenê li serê ekranê û li ser xeta demê ew heta sînorekê mezin dibe, da ku tiştek kontrolan venegire. Bêtir di [daxuyaniya me ya gihîştbariyê](@accessibility) de heye; heke tiştek ji bo te nexebite, ji kerema xwe ji me re bibêje."
+            ]
+          },
+          {
+            "id": "freelance",
+            "q": "SimpleTime ji bo xebatkarên serbixwe guncav e?",
+            "a": [
+              "Ji bo tomarkirina dema te, erê: xerîdar û projeyan wek kar û bin-kar ji hev cuda bihêle, û kengî belgeyek hewce be raporeke PDF an dosyeyeke CSV derhinêre. Bihayên saetê û fatûre ne beşek ji SimpleTime ne – ji bo wan, derhinartinê bibe sepana xwe ya fatûreyan."
+            ]
+          },
+          {
+            "id": "platforms",
+            "q": "Guhertoyek ji bo Android, Windows an webê heye?",
+            "a": [
+              "Na. SimpleTime ji bo iPhone, iPad, Mac û Apple Watch hatiye çêkirin. Tu dikarî daneyên xwe her dem wek CSV derhinêrî."
+            ]
+          },
+          {
+            "id": "account-web",
+            "q": "Ez li account.lacodea.com çi dikarim bikim?",
+            "a": [
+              "Li wir tu LaCodea ID ya xwe di gerokê de birêve dibî: rêyên têketinê, abonetiyên xwe, daxistina daneyên hesabê xwe û jêbirina hesabê – di SimpleTime de tu xwe digihînî heman hesabî li jorê Mîhengan. Tu tomarên xwe li wir nabînî: ew tenê di SimpleTime de li ser iPhone, iPad, Mac û Apple Watch hene. Heke tu bi rêya LaCodea ID hevdem dikî, ew ji serî heta dawiyê şîfrekirî li ser servera SimpleTime ne – LaCodea ID bi xwe qet wan nastîne."
+            ]
+          },
+          {
+            "id": "feedback",
+            "q": "Min çewtiyek dît an ramaneke min heye – ez wê bişînim ku derê?",
+            "a": [
+              "Li [contact@simple-time.app](mailto:contact@simple-time.app) ji me re binivîse – ji sepanê tu dikarî bi rêya Mîheng › Ramanên te jî binivîsî. Ji bo çewtiyekê, ji kerema xwe modela amûra xwe, guhertoya xwe ya iOS, iPadOS an macOS û guhertoya xwe ya SimpleTime – tu wê di Mîheng › Derbarê SimpleTime de dibînî – ji me re bibêje û bi kurtî binivîse ka te çi dikir. Her peyam tê xwendin."
+            ]
+          },
+          {
+            "id": "support-us",
+            "q": "Ez çawa dikarim piştgiriyê bidim SimpleTime?",
+            "a": [
+              "SimpleTime ji aliyê kesekî ve tê çêkirin. Nirxandinek di App Store de alîkarî dike, her wiha ku tu ji kesên din re behsa wê bikî – û SimpleTime Pro pêşdebirinê didomîne."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -102,6 +102,13 @@ const TASK_NAMES: Record<Lang, Record<TaskKey, string>> = {
   ko: { work: '업무', client: '클라이언트 프로젝트', meetings: '회의', study: '공부', sport: '운동', reading: '독서', admin: '사무와 이메일', social: '소셜 미디어' },
   bg: { work: 'Работа', client: 'Клиентски проект', meetings: 'Срещи', study: 'Учене', sport: 'Тренировка', reading: 'Четене', admin: 'Администрация и имейл', social: 'Социални мрежи' },
   th: { work: 'งาน', client: 'โปรเจกต์ลูกค้า', meetings: 'ประชุม', study: 'เรียน', sport: 'ออกกำลังกาย', reading: 'อ่านหนังสือ', admin: 'งานเอกสารและอีเมล', social: 'โซเชียลมีเดีย' },
+  ku: { work: 'Kar', client: 'Projeya xerîdar', meetings: 'Civîn', study: 'Fêrbûn', sport: 'Werzîş', reading: 'Xwendin', admin: 'Rêveberî û e-name', social: 'Medyaya civakî' },
+  sw: { work: 'Kazi', client: 'Mradi wa mteja', meetings: 'Mikutano', study: 'Masomo', sport: 'Mazoezi', reading: 'Kusoma', admin: 'Utawala na barua pepe', social: 'Mitandao ya kijamii' },
+  ps: { work: 'کار', client: 'د مشتري پروژه', meetings: 'غونډې', study: 'زده کړه', sport: 'ورزش', reading: 'لوستل', admin: 'اداري چارې او برېښنالیک', social: 'ټولنیزې رسنۍ' },
+  bn: { work: 'কাজ', client: 'ক্লায়েন্ট প্রকল্প', meetings: 'মিটিং', study: 'পড়াশোনা', sport: 'ব্যায়াম', reading: 'পাঠ', admin: 'দাপ্তরিক ও ইমেল', social: 'সোশ্যাল মিডিয়া' },
+  am: { work: 'ሥራ', client: 'የደንበኛ ፕሮጀክት', meetings: 'ስብሰባዎች', study: 'ጥናት', sport: 'ስፖርት', reading: 'ንባብ', admin: 'አስተዳደርና ኢሜይል', social: 'ማኅበራዊ ሚዲያ' },
+  ur: { work: 'کام', client: 'کلائنٹ پروجیکٹ', meetings: 'میٹنگز', study: 'پڑھائی', sport: 'ورزش', reading: 'مطالعہ', admin: 'انتظام اور ای میل', social: 'سوشل میڈیا' },
+  fa: { work: 'کار', client: 'پروژهٔ مشتری', meetings: 'جلسه‌ها', study: 'درس خواندن', sport: 'ورزش', reading: 'کتاب‌خوانی', admin: 'اداری و ایمیل', social: 'شبکه‌های اجتماعی' },
 };
 
 // The build stops rather than a page showing an empty legend entry.

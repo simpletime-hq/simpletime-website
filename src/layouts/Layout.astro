@@ -69,13 +69,20 @@ const OG_LOCALE: Record<string, string> = {
   ko: 'ko_KR',
   bg: 'bg_BG',
   th: 'th_TH',
+  ku: 'ku_TR',
+  sw: 'sw_KE',
+  ps: 'ps_AF',
+  bn: 'bn_BD',
+  am: 'am_ET',
+  ur: 'ur_PK',
+  fa: 'fa_IR',
 };
 // The card with the page's own hero; languages without one yet share the English card.
 const OWN_OG = new Set<Lang>(['de', 'nl', 'sv', 'fr', 'it', 'es', 'pt', 'ru', 'uk', 'el', 'tr', 'hy', 'ar', 'he', 'hi', 'zh', 'ja']);
 const ogImage = new URL(OWN_OG.has(lang) ? `/og-${lang}.png` : '/og.png', site).toString();
 
 // Arabic and Hebrew are right-to-left; everything else reads left-to-right.
-const RTL_LOCALES = new Set<Lang>(['ar', 'he']);
+const RTL_LOCALES = new Set<Lang>(['ar', 'he', 'ps', 'ur', 'fa']);
 const dir = RTL_LOCALES.has(lang) ? 'rtl' : 'ltr';
 
 // Body text needs no preload: Apple devices set it in their own system face
@@ -86,7 +93,7 @@ const dir = RTL_LOCALES.has(lang) ? 'rtl' : 'ltr';
 // its swap lays the page out again. Preloaded on /ar/ and /ja/ (audit 19.11.2026,
 // phone ×4 CPU) that second layout only moved before the first paint – ~0.5 s
 // later, the same work in all – so the preload stays where the headline needs it.
-const LATIN = new Set<Lang>(['en', 'de', 'nl', 'sv', 'fr', 'it', 'es', 'pt', 'tr', 'nb', 'da', 'hu', 'cs', 'hr', 'ro', 'pl', 'fi', 'fil', 'vi', 'id']);
+const LATIN = new Set<Lang>(['en', 'de', 'nl', 'sv', 'fr', 'it', 'es', 'pt', 'tr', 'nb', 'da', 'hu', 'cs', 'hr', 'ro', 'pl', 'fi', 'fil', 'vi', 'id', 'ku', 'sw']);
 
 const appSchema = {
   '@context': 'https://schema.org',

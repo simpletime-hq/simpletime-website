@@ -88,8 +88,9 @@ const OG_LOCALE: Record<string, string> = {
   pa: 'pa_IN',
 };
 // The card with the page's own hero; languages without one yet share the English card.
-const OWN_OG = new Set<Lang>(['de', 'nl', 'sv', 'fr', 'it', 'es', 'pt', 'ru', 'uk', 'el', 'tr', 'hy', 'ar', 'he', 'hi', 'zh', 'ja']);
-const ogImage = new URL(OWN_OG.has(lang) ? `/og-${lang}.png` : '/og.png', site).toString();
+// Every language has its own card (scripts/og-images.py); check-content.mjs
+// fails when one is missing.
+const ogImage = new URL(lang === 'en' ? '/og.png' : `/og-${lang}.png`, site).toString();
 
 // Arabic and Hebrew are right-to-left; everything else reads left-to-right.
 const RTL_LOCALES = new Set<Lang>(['ar', 'he', 'ps', 'ur', 'fa']);

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Render the Open Graph card for every locale.
 
-The site spans seven scripts and each font file holds only its own subset,
+The site spans a dozen scripts and each font file holds only its own subset,
 so a single string routinely needs several files: the Turkish headline
 mixes Latin with latin-ext, and every non-Latin card keeps "iPhone",
 "iPad", "Mac" and the SimpleTime wordmark in Latin.
@@ -12,12 +12,17 @@ once already — the Turkish dotless ı looks like a latin-ext character but
 lives in the Latin subset, and rendering it from the wrong file produced
 a NO GLYPH box in the middle of the headline.
 
-Arabic additionally needs shaping and bidi reordering, which this Pillow
-build cannot do (no Raqm). arabic_reshaper and python-bidi do it in pure
-Python; without them the Arabic card is skipped rather than written with
-disconnected letters in the wrong order:
+Pillow here has no Raqm, so it cannot shape. Scripts that join letters,
+reorder vowel signs or stack marks – Arabic, Persian, Pashto and Urdu,
+Devanagari, Bengali, Gurmukhi, Telugu, Tamil and Thai – go through HarfBuzz
+and are filled from the glyph outlines (draw_shaped below). Right-to-left
+lines are put in display order by python-bidi first. A reshaper is not enough
+for Pashto: ټ, ښ, ګ and ڼ have no presentation forms to swap in.
 
-    pip install arabic-reshaper python-bidi
+    pip install uharfbuzz fonttools python-bidi
+
+fontTools reads the .woff files next to the .woff2 ones, so it needs no
+Brotli.
 
 The copy is the home page's hero in each language – headline, eyebrow and
 the three promises under the buttons – read from src/i18n/content/<lang>.json,
@@ -43,6 +48,16 @@ DEVANAGARI = ROOT / "node_modules/@fontsource/noto-sans-devanagari"
 HEBREW = ROOT / "node_modules/@fontsource/noto-sans-hebrew"
 JAPANESE = ROOT / "node_modules/@fontsource-variable/noto-sans-jp"
 CHINESE = ROOT / "node_modules/@fontsource-variable/noto-sans-sc"
+# Only for these cards (devDependencies): the site itself uses the system fonts
+# for Korean, Traditional Chinese and the scripts below.
+KOREAN = ROOT / "node_modules/@fontsource-variable/noto-sans-kr"
+CHINESE_TRAD = ROOT / "node_modules/@fontsource-variable/noto-sans-tc"
+THAI = ROOT / "node_modules/@fontsource/noto-sans-thai"
+BENGALI = ROOT / "node_modules/@fontsource/noto-sans-bengali"
+GURMUKHI = ROOT / "node_modules/@fontsource/noto-sans-gurmukhi"
+TELUGU = ROOT / "node_modules/@fontsource/noto-sans-telugu"
+TAMIL = ROOT / "node_modules/@fontsource/noto-sans-tamil"
+ETHIOPIC = ROOT / "node_modules/@fontsource/noto-sans-ethiopic"
 PUBLIC = ROOT / "public"
 SCREENS = ROOT / "src/assets/screens"
 CONTENT = ROOT / "src/i18n/content"
@@ -75,6 +90,15 @@ SUBSETS = [
         DEVANAGARI / "400.css",
         "devanagari",
     ),
+    # After latin-ext: it repeats a few of its letters (Ă, Đ …) and adds the
+    # stacked Vietnamese ones (ế, ộ …).
+    ("vietnamese", INTER / "files/inter-vietnamese-{w}-normal.woff2", INTER / "400.css", "vietnamese"),
+    ("bengali", BENGALI / "files/noto-sans-bengali-bengali-{w}-normal.woff2", BENGALI / "400.css", "bengali"),
+    ("gurmukhi", GURMUKHI / "files/noto-sans-gurmukhi-gurmukhi-{w}-normal.woff2", GURMUKHI / "400.css", "gurmukhi"),
+    ("telugu", TELUGU / "files/noto-sans-telugu-telugu-{w}-normal.woff2", TELUGU / "400.css", "telugu"),
+    ("tamil", TAMIL / "files/noto-sans-tamil-tamil-{w}-normal.woff2", TAMIL / "400.css", "tamil"),
+    ("thai", THAI / "files/noto-sans-thai-thai-{w}-normal.woff2", THAI / "400.css", "thai"),
+    ("ethiopic", ETHIOPIC / "files/noto-sans-ethiopic-ethiopic-{w}-normal.woff2", ETHIOPIC / "400.css", "ethiopic"),
 ]
 
 def copy_for(lang: str) -> tuple[str, str, str, str]:
@@ -84,27 +108,47 @@ def copy_for(lang: str) -> tuple[str, str, str, str]:
     return tuple(drawable(line) for line in lines)
 
 
+def proof_for(lang: str) -> list[str]:
+    """The promises under the buttons, one by one – for when they need two lines."""
+    hero = json.loads((CONTENT / f"{lang}.json").read_text(encoding="utf-8"))["home"]["hero"]
+    return [drawable(item) for item in hero["proof"]]
+
+
 def drawable(text: str) -> str:
     """What the page gets right through font fallback, a single font file cannot:
     the Hebrew copy binds prefixes to Latin names with a non-breaking hyphen
     (ל‑iPhone), which none of the subsets carry – it drew a NO GLYPH box. The
-    direction marks are invisible on the page and only in the way here."""
-    return text.replace("\u2011", "-").replace("\u200e", "").replace("\u200f", "")
+    direction marks stay until python-bidi has ordered the line (shape): the
+    Persian copy needs the one after "iPhone،" to keep the comma on the right
+    side of the name."""
+    return text.replace("\u2011", "-")
+
+
+def unmarked(text: str) -> str:
+    """Direction marks are invisible on the page and only in the way here."""
+    return text.replace("\u200e", "").replace("\u200f", "")
 
 
 # Every site language, in the order of the language menu.
-LANGS = ["en", "de", "nl", "sv", "fr", "it", "es", "pt", "ru", "uk", "el", "tr", "hy", "ar", "he", "hi", "zh", "ja"]
+LANGS = [
+    "en", "de", "fr", "it", "es", "pt", "pt-br", "nl", "sv", "da", "nb", "fi", "ro", "pl", "cs", "sk", "hu", "bg",
+    "sr", "hr", "bs", "sq", "uk", "ru", "el", "tr", "ar", "he", "fa", "ku", "hy", "ps", "hi", "ur", "bn", "pa", "mr",
+    "te", "ta", "zh", "zh-hant", "ja", "ko", "vi", "th", "id", "ms", "fil", "sw", "am", "so",
+]
 
-RTL = {"ar", "he"}
+RTL = {"ar", "he", "fa", "ps", "ur"}
 
-# Both are right-to-left, but only Arabic joins its letters — running Hebrew
-# through the reshaper would be a no-op at best, so it only gets the bidi pass.
-RESHAPE = {"ar"}
+# These scripts join letters, reorder vowel signs, form conjuncts or stack
+# marks, so they cannot be drawn codepoint by codepoint. Their runs go through
+# HarfBuzz and are filled from the glyph outlines; see draw_shaped below.
+# Hebrew needs only the bidi pass.
+SHAPED = {"arabic", "devanagari", "bengali", "gurmukhi", "telugu", "tamil", "thai"}
 
-# Devanagari reorders matras and forms conjuncts, so it cannot be drawn
-# codepoint by codepoint. Those runs go through HarfBuzz and are filled
-# from the glyph outlines; see draw_shaped below.
-SHAPED = {"devanagari"}
+# Joiners belong to the letters around them: split off into a run of their own
+# they would break the shaping they are there to steer (Persian می‌افتد,
+# Telugu ట్యాప్‌తో). The danda ends sentences in Hindi, Bengali and Punjabi
+# alike; it comes from the font of the sentence, not the first one that has it.
+STAY = {"\u200c", "\u200d", "\u0964", "\u0965"}
 
 
 def parse_range(css_path: Path, subset: str) -> set[int]:
@@ -158,6 +202,8 @@ RANGES: list[tuple[str, Path, set[int]]] = [
 ]
 RANGES += cjk_subsets(JAPANESE, "jp")
 RANGES += cjk_subsets(CHINESE, "sc")
+RANGES += cjk_subsets(KOREAN, "kr")
+RANGES += cjk_subsets(CHINESE_TRAD, "tc")
 
 _fonts: dict[tuple[str, int, int], ImageFont.FreeTypeFont] = {}
 
@@ -180,34 +226,28 @@ def font(subset: str, weight: int, size: int) -> ImageFont.FreeTypeFont:
 
 
 def shape(text: str, lang: str) -> str:
-    """Right-to-left copy needs bidi reordering — and Arabic contextual
-    shaping on top — before Pillow can draw it; this build has no Raqm, so
-    it is done in Python."""
+    """Right-to-left copy is put in display order here; joining the Arabic
+    letters is left to HarfBuzz (shaped_run), which turns each run back into
+    reading order first."""
     if lang not in RTL:
-        return text
+        return unmarked(text)
     try:
-        from bidi.algorithm import get_display
+        from bidi import get_display
     except ImportError:
         raise SystemExit("RTL copy needs bidi: pip install python-bidi")
-    if lang in RESHAPE:
-        try:
-            import arabic_reshaper
-        except ImportError:
-            raise SystemExit("Arabic needs shaping: pip install arabic-reshaper")
-        text = arabic_reshaper.reshape(text)
-    return get_display(text)
+    return unmarked(get_display(text))
 
 
 # Japanese and Chinese share most Han codepoints but draw them differently,
 # so the card's locale decides which CJK family may match.
-CJK_PREFIX = {"ja": "jp-", "zh": "sc-"}
+CJK_PREFIX = {"ja": "jp-", "zh": "sc-", "ko": "kr-", "zh-hant": "tc-"}
 _locale = "en"
 
 
 def subset_for(ch: str) -> str:
     allowed = CJK_PREFIX.get(_locale)
     for name, _, points in RANGES:
-        if name.startswith(("jp-", "sc-")) and (allowed is None or not name.startswith(allowed)):
+        if name.startswith(("jp-", "sc-", "kr-", "tc-")) and (allowed is None or not name.startswith(allowed)):
             continue
         if ord(ch) in points:
             return name
@@ -219,7 +259,8 @@ def runs(text: str) -> list[tuple[str, str]]:
     out: list[tuple[str, str]] = []
     current, buffer = None, ""
     for ch in text:
-        sub = subset_for(ch)
+        stays = ch in STAY and current is not None and ord(ch) in next(r for n, _, r in RANGES if n == current)
+        sub = current if stays else subset_for(ch)
         if sub != current:
             if buffer:
                 out.append((current, buffer))
@@ -270,7 +311,8 @@ def shaper(subset: str, weight: int):
     """HarfBuzz font plus the fontTools glyph set for one subset.
 
     HarfBuzz cannot read woff2, so the file is decompressed first —
-    without that every character shapes to .notdef.
+    without that every character shapes to .notdef. fontTools takes the .woff
+    beside it: same glyphs, zlib instead of Brotli.
     """
     key = f"{subset}-{weight}"
     if key not in _shapers:
@@ -279,7 +321,7 @@ def shaper(subset: str, weight: int):
         import uharfbuzz as hb
         from fontTools.ttLib import TTFont
 
-        path = str(next(t for n, t, _ in RANGES if n == subset)).format(w=weight)
+        path = str(next(t for n, t, _ in RANGES if n == subset)).format(w=weight).removesuffix("2")
         tt = TTFont(path)
         tt.flavor = None
         raw = _io.BytesIO()
@@ -343,8 +385,14 @@ def shaped_run(subset, text, weight, size):
     from fontTools.pens.recordingPen import DecomposingRecordingPen
 
     hb, hbfont, tt = shaper(subset, weight)
+    if subset == "arabic":
+        # python-bidi has already reversed the run for display; HarfBuzz joins
+        # in reading order and returns the glyphs left to right itself.
+        text = text[::-1]
     buf = hb.Buffer()
     buf.add_str(text)
+    # Local forms: Marathi ल and श, Urdu digits.
+    buf.language = _locale.split("-")[0]
     buf.guess_segment_properties()
     hb.shape(hbfont, buf)
 
@@ -454,17 +502,34 @@ def build(lang: str, out: Path) -> None:
     meta_size = 23
     while meta_size > 14 and measure(draw, meta, 500, meta_size) > 600:
         meta_size -= 1
-    meta_width = measure(draw, meta, 500, meta_size)
+    meta_lines = [meta]
+    proof = proof_for(lang)
+    if meta_size < 18 and len(proof) > 1:
+        # Too long for one readable line – Tamil ran into the phone even at
+        # 14px. Two lines instead, split where both come out largest.
+        best = (0, meta_lines)
+        for k in range(1, len(proof)):
+            parts = [shape(" · ".join(proof[:k]), lang), shape(" · ".join(proof[k:]), lang)]
+            size2 = 23
+            while size2 > 14 and max(measure(draw, t, 500, size2) for t in parts) > 600:
+                size2 -= 1
+            if size2 > best[0]:
+                best = (size2, parts)
+        meta_size, meta_lines = best
     if rtl:
         draw.ellipse([right_edge + 8, 489, right_edge + 20, 501], fill="#8ea9e3")
-        draw_text(draw, right_edge - meta_width, 481 + (23 - meta_size) // 2, meta, 500, meta_size, "#9fb3de")
     else:
         draw.ellipse([82, 489, 94, 501], fill="#8ea9e3")
-        draw_text(draw, 108, 481 + (23 - meta_size) // 2, meta, 500, meta_size, "#9fb3de")
+    y = 481 + (23 - meta_size) // 2
+    for line in meta_lines:
+        width = measure(draw, line, 500, meta_size)
+        draw_text(draw, right_edge - width if rtl else 108, y, line, 500, meta_size, "#9fb3de")
+        y += round(meta_size * 1.5)
 
     base.save(out, optimize=True)
     used = sorted({sub for sub, _ in runs(line1 + line2 + subtitle + meta)})
-    print(f"{out.name:14} headline {size}px, subtitle {sub_size}px, subsets: {', '.join(used)}")
+    lines = f" in {len(meta_lines)} lines" if len(meta_lines) > 1 else ""
+    print(f"{out.name:14} headline {size}px, subtitle {sub_size}px, promises {meta_size}px{lines}, subsets: {', '.join(used)}")
 
 
 def main() -> None:

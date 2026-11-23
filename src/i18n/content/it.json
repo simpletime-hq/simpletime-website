@@ -1229,7 +1229,7 @@
     "updated": "Ultimo aggiornamento",
     "summaryTitle": "In breve",
     "summary": [
-      "SimpleTime si usa con VoiceOver e con il testo grande, in 41 lingue.",
+      "SimpleTime si usa con VoiceOver e con il testo grande, in 51 lingue.",
       "A ogni modifica verifichiamo automaticamente che questo sito non abbia barriere.",
       "Ciò che non va ancora bene è indicato qui sotto – e se trovi una barriera, scrivici."
     ],
@@ -1241,7 +1241,7 @@
           "VoiceOver: pulsanti, grafici e linea del tempo hanno etichette che VoiceOver legge ad alta voce, in ogni lingua dell’app. I grafici si possono anche ascoltare con Grafico audio: VoiceOver riproduce i loro valori come suoni e li legge ad alta voce.",
           "Dimensioni del testo: il testo segue le dimensioni impostate in iOS fino alle più grandi per l’accessibilità. Dove un testo molto grande coprirebbe i comandi – nell’intestazione e lungo la linea del tempo –, cresce solo fino a un limite. Alle dimensioni più grandi, la barra dell’attività in corso mostra nome e durata uno sotto l’altro, così non viene tagliato nulla. In Impostazioni › Carattere puoi anche impostare una dimensione del testo e il grassetto solo per SimpleTime.",
           "Movimento e colori: se «Riduci movimento» è attivo, SimpleTime attenua le sue animazioni. Riconosci le attività non solo dal colore, ma anche dal nome e dal simbolo, e i testi sono pensati per restare leggibili con l’aspetto chiaro e con quello scuro.",
-          "Lingue: l’app parla 41 lingue, indipendentemente dalla lingua del dispositivo; arabo, ebraico, persiano, pashto e urdu da destra a sinistra."
+          "Lingue: l’app parla 51 lingue, indipendentemente dalla lingua del dispositivo; arabo, ebraico, persiano, pashto e urdu da destra a sinistra."
         ]
       },
       {

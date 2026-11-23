@@ -1229,7 +1229,7 @@
     "updated": "Son güncelleme",
     "summaryTitle": "Kısaca",
     "summary": [
-      "SimpleTime, VoiceOver ve büyük metinle 41 dilde kullanılabilir.",
+      "SimpleTime, VoiceOver ve büyük metinle 51 dilde kullanılabilir.",
       "Her değişiklikte bu web sitesini engellere karşı otomatik olarak denetliyoruz.",
       "Henüz iyi olmayanlar aşağıda yazıyor – bir engelle karşılaşırsan bize yaz."
     ],
@@ -1241,7 +1241,7 @@
           "VoiceOver: düğmelerin, grafiklerin ve zaman çizelgesinin VoiceOver’ın sesli okuduğu etiketleri vardır – uygulamanın her dilinde. Grafikleri ayrıca Sesli Grafik olarak dinleyebilirsin: VoiceOver değerlerini ses olarak çalar ve sesli okur.",
           "Metin boyutu: metin, iOS’taki metin boyutunu en büyük erişilebilirlik boyutlarına kadar izler. Çok büyük metnin denetimleri kapatacağı yerlerde – başlıkta ve zaman çizelgesi boyunca – yalnızca belirli bir sınıra kadar büyür. En büyük boyutlarda çalışan görevin çubuğu, adı ve süreyi alt alta gösterir; böylece hiçbir şey kesilmez. Ayarlar › Yazı tipi bölümünde ayrıca yalnızca SimpleTime için kendi metin boyutunu ve kalın metni ayarlarsın.",
           "Hareket ve renk: “Hareketi Azalt” açıkken SimpleTime animasyonlarını yumuşatır. Görevleri yalnızca renklerinden değil, adlarından ve simgelerinden de ayırt edersin; metinler hem açık hem de koyu görünümde okunaklı kalacak şekilde tasarlanmıştır.",
-          "Diller: uygulama, cihazının dilinden bağımsız olarak 41 dil konuşur – Arapça, İbranice, Farsça, Peştuca ve Urduca sağdan sola."
+          "Diller: uygulama, cihazının dilinden bağımsız olarak 51 dil konuşur – Arapça, İbranice, Farsça, Peştuca ve Urduca sağdan sola."
         ]
       },
       {

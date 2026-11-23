@@ -1229,7 +1229,7 @@
     "updated": "Zuletzt aktualisiert",
     "summaryTitle": "Kurz gesagt",
     "summary": [
-      "SimpleTime lässt sich mit VoiceOver und großer Schrift bedienen, in 41 Sprachen.",
+      "SimpleTime lässt sich mit VoiceOver und großer Schrift bedienen, in 51 Sprachen.",
       "Die Website prüfen wir bei jeder Änderung automatisch auf Barrieren.",
       "Was noch nicht gut ist, steht unten – und wenn du auf eine Barriere stößt, schreib uns."
     ],
@@ -1241,7 +1241,7 @@
           "VoiceOver: Knöpfe, Diagramme und die Zeitachse haben Beschriftungen, die VoiceOver vorliest – in jeder Sprache der App. Die Diagramme lassen sich außerdem als Audiograf anhören: VoiceOver spielt ihre Werte als Töne ab und liest sie vor.",
           "Schriftgröße: Texte folgen der Schriftgröße von iOS bis zu den größten Stufen der Bedienungshilfen. Wo zu große Schrift die Bedienung verdecken würde – in der Kopfleiste und an der Zeitachse –, wächst sie nur bis zu einer Grenze. Die Leiste mit der laufenden Aufgabe stellt bei den größten Stufen Name und Dauer untereinander, damit nichts abgeschnitten wird. In den Einstellungen unter Schrift stellst du außerdem eine eigene Textgröße und fette Schrift nur für SimpleTime ein.",
           "Bewegung und Farben: Ist „Bewegung reduzieren“ an, nimmt SimpleTime seine Animationen zurück. Aufgaben erkennst du nicht nur an ihrer Farbe, sondern auch an Namen und Symbol, und Texte sind im hellen wie im dunklen Erscheinungsbild auf gute Lesbarkeit ausgelegt.",
-          "Sprachen: Die App spricht 41 Sprachen, unabhängig von der Sprache deines Geräts – Arabisch, Hebräisch, Persisch, Paschtu und Urdu von rechts nach links."
+          "Sprachen: Die App spricht 51 Sprachen, unabhängig von der Sprache deines Geräts – Arabisch, Hebräisch, Persisch, Paschtu und Urdu von rechts nach links."
         ]
       },
       {

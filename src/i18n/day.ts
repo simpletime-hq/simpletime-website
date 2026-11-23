@@ -109,6 +109,16 @@ const TASK_NAMES: Record<Lang, Record<TaskKey, string>> = {
   am: { work: 'ሥራ', client: 'የደንበኛ ፕሮጀክት', meetings: 'ስብሰባዎች', study: 'ጥናት', sport: 'ስፖርት', reading: 'ንባብ', admin: 'አስተዳደርና ኢሜይል', social: 'ማኅበራዊ ሚዲያ' },
   ur: { work: 'کام', client: 'کلائنٹ پروجیکٹ', meetings: 'میٹنگز', study: 'پڑھائی', sport: 'ورزش', reading: 'مطالعہ', admin: 'انتظام اور ای میل', social: 'سوشل میڈیا' },
   fa: { work: 'کار', client: 'پروژهٔ مشتری', meetings: 'جلسه‌ها', study: 'درس خواندن', sport: 'ورزش', reading: 'کتاب‌خوانی', admin: 'اداری و ایمیل', social: 'شبکه‌های اجتماعی' },
+  'pt-br': { work: 'Trabalho', client: 'Projeto do cliente', meetings: 'Reuniões', study: 'Estudos', sport: 'Treino', reading: 'Leitura', admin: 'Admin e e-mail', social: 'Redes sociais' },
+  ms: { work: 'Kerja', client: 'Projek klien', meetings: 'Mesyuarat', study: 'Belajar', sport: 'Senaman', reading: 'Membaca', admin: 'Admin & e-mel', social: 'Media sosial' },
+  sk: { work: 'Práca', client: 'Projekt pre klienta', meetings: 'Stretnutia', study: 'Štúdium', sport: 'Tréning', reading: 'Čítanie', admin: 'Administratíva a e-mail', social: 'Sociálne siete' },
+  so: { work: 'Shaqo', client: 'Mashruuca macmiilka', meetings: 'Kulammo', study: 'Waxbarasho', sport: 'Jimicsi', reading: 'Akhris', admin: 'Maamul & iimayl', social: 'Baraha bulshada' },
+  bs: { work: 'Posao', client: 'Projekat za klijenta', meetings: 'Sastanci', study: 'Učenje', sport: 'Trening', reading: 'Čitanje', admin: 'Administracija i e-mail', social: 'Društvene mreže' },
+  sq: { work: 'Punë', client: 'Projekt klienti', meetings: 'Takime', study: 'Studim', sport: 'Stërvitje', reading: 'Lexim', admin: 'Administrim dhe email', social: 'Rrjete sociale' },
+  ta: { work: 'வேலை', client: 'வாடிக்கையாளர் திட்டம்', meetings: 'கூட்டங்கள்', study: 'படிப்பு', sport: 'உடற்பயிற்சி', reading: 'வாசிப்பு', admin: 'நிர்வாகம் & மின்னஞ்சல்', social: 'சமூக ஊடகங்கள்' },
+  te: { work: 'పని', client: 'క్లయింట్ ప్రాజెక్ట్', meetings: 'మీటింగ్‌లు', study: 'చదువు', sport: 'వ్యాయామం', reading: 'పఠనం', admin: 'అడ్మిన్ & ఇమెయిల్', social: 'సోషల్ మీడియా' },
+  mr: { work: 'काम', client: 'क्लायंट प्रोजेक्ट', meetings: 'मीटिंग्ज', study: 'अभ्यास', sport: 'व्यायाम', reading: 'वाचन', admin: 'ॲडमिन व ईमेल', social: 'सोशल मीडिया' },
+  pa: { work: 'ਕੰਮ', client: 'ਕਲਾਇੰਟ ਪ੍ਰੋਜੈਕਟ', meetings: 'ਮੀਟਿੰਗਾਂ', study: 'ਪੜ੍ਹਾਈ', sport: 'ਕਸਰਤ', reading: 'ਪੜ੍ਹਨਾ', admin: 'ਕਾਗਜ਼ੀ ਕਾਰਵਾਈ ਅਤੇ ਈਮੇਲ', social: 'ਸੋਸ਼ਲ ਮੀਡੀਆ' },
 };
 
 // The build stops rather than a page showing an empty legend entry.

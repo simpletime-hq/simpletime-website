@@ -76,10 +76,21 @@ const OG_LOCALE: Record<string, string> = {
   am: 'am_ET',
   ur: 'ur_PK',
   fa: 'fa_IR',
+  'pt-br': 'pt_BR',
+  ms: 'ms_MY',
+  sk: 'sk_SK',
+  so: 'so_SO',
+  bs: 'bs_BA',
+  sq: 'sq_AL',
+  ta: 'ta_IN',
+  te: 'te_IN',
+  mr: 'mr_IN',
+  pa: 'pa_IN',
 };
 // The card with the page's own hero; languages without one yet share the English card.
-const OWN_OG = new Set<Lang>(['de', 'nl', 'sv', 'fr', 'it', 'es', 'pt', 'ru', 'uk', 'el', 'tr', 'hy', 'ar', 'he', 'hi', 'zh', 'ja']);
-const ogImage = new URL(OWN_OG.has(lang) ? `/og-${lang}.png` : '/og.png', site).toString();
+// Every language has its own card (scripts/og-images.py); check-content.mjs
+// fails when one is missing.
+const ogImage = new URL(lang === 'en' ? '/og.png' : `/og-${lang}.png`, site).toString();
 
 // Arabic and Hebrew are right-to-left; everything else reads left-to-right.
 const RTL_LOCALES = new Set<Lang>(['ar', 'he', 'ps', 'ur', 'fa']);
@@ -93,7 +104,7 @@ const dir = RTL_LOCALES.has(lang) ? 'rtl' : 'ltr';
 // its swap lays the page out again. Preloaded on /ar/ and /ja/ (audit 19.11.2026,
 // phone ×4 CPU) that second layout only moved before the first paint – ~0.5 s
 // later, the same work in all – so the preload stays where the headline needs it.
-const LATIN = new Set<Lang>(['en', 'de', 'nl', 'sv', 'fr', 'it', 'es', 'pt', 'tr', 'nb', 'da', 'hu', 'cs', 'hr', 'ro', 'pl', 'fi', 'fil', 'vi', 'id', 'ku', 'sw']);
+const LATIN = new Set<Lang>(['en', 'de', 'nl', 'sv', 'fr', 'it', 'es', 'pt', 'tr', 'nb', 'da', 'hu', 'cs', 'hr', 'ro', 'pl', 'fi', 'fil', 'vi', 'id', 'ku', 'sw', 'pt-br', 'ms', 'sk', 'so', 'bs', 'sq']);
 
 const appSchema = {
   '@context': 'https://schema.org',

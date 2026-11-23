@@ -58,7 +58,7 @@
         "title": "On every device",
         "points": [
           "iPhone, iPad, and Mac, kept in sync through iCloud or the LaCodea ID",
-          "41 languages, independent of your device language",
+          "51 languages, independent of your device language",
           "VoiceOver and Dynamic Type throughout"
         ]
       },
@@ -305,7 +305,7 @@
     "terms": "Terms of Use (EULA)",
     "privacy": "Privacy Policy",
     "freeTitle": "What stays free",
-    "freeBody": "Everything you need for tracking: tasks and subtasks, Fixed Times, the day view and timeline, charts and statistics, the PDF report and CSV export, widgets, the Live Activity, Control Center and Siri, sync through iCloud or the LaCodea ID, backup plans, and the app lock – in 41 languages. No account, no ads, no selling of your data.",
+    "freeBody": "Everything you need for tracking: tasks and subtasks, Fixed Times, the day view and timeline, charts and statistics, the PDF report and CSV export, widgets, the Live Activity, Control Center and Siri, sync through iCloud or the LaCodea ID, backup plans, and the app lock – in 51 languages. No account, no ads, no selling of your data.",
     "howTitle": "How to get Pro",
     "how": [
       "In SimpleTime, open Settings › SimpleTime Pro.",
@@ -386,7 +386,7 @@
             "id": "languages",
             "q": "Which languages does SimpleTime speak?",
             "a": [
-              "41 – from English and German to Arabic, Hindi and Japanese. Under Settings › Language, you can choose the app’s language independently of your device’s language."
+              "51 – from English and German to Arabic, Hindi and Japanese. Under Settings › Language, you can choose the app’s language independently of your device’s language."
             ]
           },
           {
@@ -1229,7 +1229,7 @@
     "updated": "Last updated",
     "summaryTitle": "In short",
     "summary": [
-      "SimpleTime works with VoiceOver and large text, in 41 languages.",
+      "SimpleTime works with VoiceOver and large text, in 51 languages.",
       "We automatically check this website for barriers with every change.",
       "What isn’t good yet is listed below – and if you run into a barrier, write to us."
     ],
@@ -1241,7 +1241,7 @@
           "VoiceOver: buttons, charts and the timeline have labels that VoiceOver reads aloud – in every language of the app. You can also listen to the charts as an Audio Graph: VoiceOver plays their values as tones and reads them aloud.",
           "Text size: text follows the iOS text size up to the largest accessibility sizes. Where very large text would cover the controls – in the header and along the timeline –, it grows only up to a limit. At the largest sizes, the bar with the running task shows name and duration one below the other, so nothing is cut off. Under Settings › Font, you can also set your own text size and bold text just for SimpleTime.",
           "Motion and color: when Reduce Motion is on, SimpleTime tones down its animations. You can tell tasks apart not only by their color but also by name and symbol, and text is designed to stay readable in both light and dark appearance.",
-          "Languages: the app speaks 41 languages, independent of your device’s language – Arabic, Hebrew, Persian, Pashto and Urdu from right to left."
+          "Languages: the app speaks 51 languages, independent of your device’s language – Arabic, Hebrew, Persian, Pashto and Urdu from right to left."
         ]
       },
       {

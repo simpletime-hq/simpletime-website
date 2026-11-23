@@ -58,7 +58,7 @@
         "title": "Sa bawat device",
         "points": [
           "iPhone, iPad at Mac – naka-sync sa pamamagitan ng iCloud o ng LaCodea ID",
-          "41 wika, anuman ang wika ng device mo",
+          "51 wika, anuman ang wika ng device mo",
           "VoiceOver at Dynamic Type sa buong app"
         ]
       },
@@ -305,7 +305,7 @@
     "terms": "Mga tuntunin ng paggamit (EULA)",
     "privacy": "Patakaran sa privacy",
     "freeTitle": "Ang nananatiling libre",
-    "freeBody": "Lahat ng kailangan mo sa pagtatala: mga gawain at subgawain, mga nakatakdang oras, ang tab na Araw at timeline, mga tsart at estadistika, ang ulat na PDF at CSV export, mga widget, ang Live Activity, Control Center at Siri, pag-sync sa pamamagitan ng iCloud o ng LaCodea ID, mga backup plan at ang lock ng app – sa 41 wika. Walang account, walang patalastas, hindi ibinebenta ang datos mo.",
+    "freeBody": "Lahat ng kailangan mo sa pagtatala: mga gawain at subgawain, mga nakatakdang oras, ang tab na Araw at timeline, mga tsart at estadistika, ang ulat na PDF at CSV export, mga widget, ang Live Activity, Control Center at Siri, pag-sync sa pamamagitan ng iCloud o ng LaCodea ID, mga backup plan at ang lock ng app – sa 51 wika. Walang account, walang patalastas, hindi ibinebenta ang datos mo.",
     "howTitle": "Paano makuha ang Pro",
     "how": [
       "Sa SimpleTime, buksan ang Mga setting › SimpleTime Pro.",
@@ -386,7 +386,7 @@
             "id": "languages",
             "q": "Anong mga wika ang alam ng SimpleTime?",
             "a": [
-              "41 – mula Ingles at Aleman hanggang Arabe, Hindi at Hapones. Sa Mga setting › Wika, mapipili mo ang wika ng app nang hiwalay sa wika ng device mo."
+              "51 – mula Ingles at Aleman hanggang Arabe, Hindi at Hapones. Sa Mga setting › Wika, mapipili mo ang wika ng app nang hiwalay sa wika ng device mo."
             ]
           },
           {

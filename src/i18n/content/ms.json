@@ -1,0 +1,950 @@
+{
+  "store": {
+    "lead": "SimpleTime menjejak ke mana masa anda pergi. Sekali ketik untuk mula, sekali ketik untuk henti.",
+    "promise": "Tidak perlu akaun, tiada iklan. Masa anda kekal pada peranti – dan dalam iCloud anda atau bersama LaCodea ID, jika anda mahu.",
+    "sections": [
+      {
+        "id": "tracking",
+        "title": "Rekod masa",
+        "points": [
+          "Sekali ketik untuk mula dan henti – dalam app, dari Skrin Utama, Pusat Kawalan, carian iPhone atau dengan Siri",
+          "Waktu Tetap: sediakan kelas atau syif sekali – SimpleTime merekodkannya sendiri setiap minggu",
+          "Tugas dengan subtugas, bersarang sedalam struktur kerja anda",
+          "Terlupa untuk mula? Tambah masa kemudian dan editnya bila-bila masa",
+          "Warna, simbol, kegemaran dan susunan yang anda tetapkan sendiri"
+        ]
+      },
+      {
+        "id": "day",
+        "title": "Hari anda",
+        "points": [
+          "Senarai atau garis masa dari 0 hingga 24, dengan penanda masa semasa",
+          "Nota pada mana-mana entri",
+          "Perbandingan hari ini dengan semalam, terus di bahagian atas"
+        ]
+      },
+      {
+        "id": "insights",
+        "title": "Analisis",
+        "points": [
+          "Carta pai mengikut tugas dan mengikut produktiviti",
+          "Hari, minggu, bulan, tahun",
+          "Statistik: perbandingan dengan tempoh lalu, aliran, taburan sepanjang hari, entri terpanjang dan terpendek",
+          "Setiap tugas dengan angkanya sendiri – entri pertama, terpanjang, minggu ini, tahun ini",
+          "Kongsi mana-mana carta sebagai imej"
+        ]
+      },
+      {
+        "id": "reports",
+        "title": "Laporan dan eksport",
+        "points": [
+          "Laporan PDF yang bahagiannya anda pilih dan susun sendiri",
+          "CSV untuk Excel dan Numbers",
+          "Pelan sandaran: automatik ke iCloud Drive, folder dalam app Fail seperti Dropbox atau Google Drive, pelayan sendiri atau peranti – disulitkan dengan kata laluan jika mahu"
+        ]
+      },
+      {
+        "id": "widgets",
+        "title": "Widget dan Siri",
+        "points": [
+          "Hari ini, tugas berjalan dan minggu pada Skrin Utama anda",
+          "Masa berjalan pada Skrin Kunci dan dalam Dynamic Island",
+          "Suis dalam Pusat Kawalan untuk mula dan henti merekod",
+          "Siri dan Pintasan: mula, henti atau tanya apa yang sedang berjalan"
+        ]
+      },
+      {
+        "id": "devices",
+        "title": "Pada setiap peranti",
+        "points": [
+          "iPhone, iPad dan Mac, diselaraskan melalui iCloud atau LaCodea ID",
+          "51 bahasa, tidak bergantung pada bahasa peranti anda",
+          "VoiceOver dan Dynamic Type di seluruh app"
+        ]
+      },
+      {
+        "id": "data",
+        "title": "Data anda",
+        "points": [
+          "Kunci app dengan Face ID, Touch ID atau kod anda sendiri",
+          "Anda pilih tempat data disimpan: hanya pada peranti ini, dalam iCloud anda atau disulitkan hujung ke hujung dengan LaCodea ID",
+          "Privasi dalam satu halaman: setiap keizinan dan semua data anda sekilas pandang",
+          "Jika mahu, LaCodea ID: satu akaun untuk semua app LaCodea – SimpleTime juga berfungsi tanpanya",
+          "Tiada iklan, data anda tidak dijual – tanpa akaun, kami hanya menerima laporan ranap dan statistik penggunaan tanpa nama, yang boleh dinyahaktifkan",
+          "Padam semuanya sekali gus – pada peranti, dalam iCloud dan dalam sandaran"
+        ]
+      }
+    ],
+    "pro": {
+      "title": "SimpleTime Pro",
+      "intro": "Semua yang di atas kekal percuma. Pro menambah:",
+      "points": [
+        "Apple Watch: mula dan henti dari pergelangan tangan, mula lebih awal, pantau hari, minggu dan matlamat – dengan masa berjalan pada muka jam",
+        "Imbasan: minggu, bulan dan tahun anda sebagai kad – untuk diselak dan dikongsi",
+        "Tempat: tugas bermula sendiri apabila anda tiba – selepas masa menunggu, jika mahu",
+        "Kalendar: setiap entri sebagai peristiwa dalam kalendar anda – serta tugas daripada kalendar seperti “Kerja” atau “Keluarga”",
+        "Setahun sekilas pandang: setiap hari dalam setahun sebagai satu gambar, dengan rentetan anda",
+        "Matlamat bagi setiap tugas – untuk hari, minggu atau bulan",
+        "Penapis Fokus: Fokus kerja diaktifkan, senarai hanya menunjukkan kerja, jam sudah berjalan",
+        "Widget Mula Cepat yang anda isi sendiri",
+        "Tujuh warna aksen atau warna anda sendiri, enam fon dan enam belas ikon app",
+        "Bahagian tambahan dalam laporan PDF: aliran, taburan harian, perbandingan, matlamat"
+      ],
+      "pricing": "Pro tersedia bulanan, tahunan atau sekali untuk selamanya. Pelanggan baharu mendapat seminggu percuma, dan dengan Perkongsian Keluarga sehingga enam orang boleh menggunakan Pro. Harga dipaparkan dalam app. Langganan bulanan dan tahunan diperbaharui secara automatik sehingga dibatalkan, yang boleh dibuat bila-bila masa dalam seting App Store anda. Apa sahaja yang akan datang turut disertakan."
+    },
+    "closing": "Dibuat untuk sesiapa sahaja yang ingin tahu ke mana sebenarnya masa mereka pergi – di tempat kerja, di universiti, semasa berlatih atau untuk diri sendiri."
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Penjejak masa untuk iPhone, iPad dan Mac",
+      "titleLead": "Sekali ketik,",
+      "titleAccent": "jam terus bermula.",
+      "cta": "Lihat ciri",
+      "proof": [
+        "Muat turun percuma",
+        "Tanpa akaun",
+        "Tanpa iklan, tanpa penjualan data"
+      ]
+    },
+    "tour": {
+      "tracking": "Mulakan di mana sahaja anda berada."
+    },
+    "devices": {
+      "title": "Pada setiap peranti yang anda gunakan.",
+      "subtitle": "iPhone, iPad dan Mac kekal diselaraskan melalui iCloud atau LaCodea ID – dan jam terus berjalan pada Skrin Kunci, dalam Dynamic Island dan pada pergelangan tangan anda."
+    },
+    "showcase": [
+      {
+        "id": "day",
+        "title": "Seluruh hari anda, sekilas pandang."
+      },
+      {
+        "id": "insights",
+        "title": "Lihat ke mana masa anda sebenarnya pergi."
+      },
+      {
+        "id": "reports",
+        "title": "Laporan dalam beberapa saat."
+      }
+    ],
+    "features": {
+      "title": "Semua yang anda perlukan. Percuma.",
+      "subtitle": "Setiap ciri dalam senarai ini disertakan dalam app percuma."
+    },
+    "pro": {
+      "button": "Semua tentang SimpleTime Pro"
+    },
+    "audience": {
+      "title": "Dibuat untuk sesiapa sahaja yang ingin tahu ke mana masa mereka pergi.",
+      "subtitle": "Di tempat kerja, di universiti, semasa berlatih – atau sekadar untuk diri sendiri.",
+      "groups": [
+        {
+          "id": "work",
+          "title": "Pekerjaan & kerja bebas",
+          "body": "Asingkan klien dan projek sebagai tugas dan subtugas, dan eksport rekod yang kemas bila-bila masa anda memerlukannya."
+        },
+        {
+          "id": "study",
+          "title": "Pengajian & pembelajaran",
+          "body": "Lihat berapa banyak masa yang sebenarnya diambil oleh sesuatu subjek, dan rancang minggu seterusnya dengan angka sebenar."
+        },
+        {
+          "id": "training",
+          "title": "Latihan & tabiat",
+          "body": "Rekod sesi latihan, masa berlatih atau tidur, dan lihat konsistensi anda terbina dari minggu ke minggu."
+        },
+        {
+          "id": "everyday",
+          "title": "Kehidupan seharian",
+          "body": "Ketahui ke mana sebenarnya masa anda pergi – dan tentukan sendiri apa yang ingin anda ubah."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Soalan lazim.",
+      "subtitle": "Jawapan terpenting sekilas pandang – dan banyak lagi di halaman Soalan Lazim.",
+      "button": "Semua soalan dan jawapan"
+    },
+    "cta": {
+      "title": "Sedia untuk mula merekod?",
+      "subtitle": "Percuma pada iPhone, iPad dan Mac. Tanpa akaun, tanpa iklan, tanpa penjualan data anda.",
+      "note": "App Apple Watch ialah sebahagian daripada SimpleTime Pro."
+    }
+  },
+  "shots": [
+    {
+      "id": "tracking",
+      "title": "Rekod",
+      "caption": "Sekali ketik, jam terus bermula",
+      "alt": "Tab Rekod dengan tugas yang sedang berjalan dan kegemaran di bahagian atas"
+    },
+    {
+      "id": "day",
+      "title": "Hari anda",
+      "caption": "Setiap entri, tepat hingga ke saat",
+      "alt": "Paparan hari sebagai senarai entri dengan masanya"
+    },
+    {
+      "id": "timeline",
+      "title": "Garis masa",
+      "caption": "Seluruh hari anda sekilas pandang",
+      "alt": "Paparan hari sebagai garis masa dari 0 hingga 24"
+    },
+    {
+      "id": "chart",
+      "title": "Analisis",
+      "caption": "Ke mana masa anda sebenarnya pergi",
+      "alt": "Seminggu sebagai carta pai mengikut tugas"
+    },
+    {
+      "id": "statistics",
+      "title": "Statistik",
+      "caption": "Bandingkan minggu dan kenal pasti aliran",
+      "alt": "Statistik yang membandingkan minggu ini dengan minggu sebelumnya"
+    },
+    {
+      "id": "report",
+      "title": "Laporan",
+      "caption": "PDF terperinci bagi setiap tugas",
+      "alt": "Satu halaman laporan PDF dengan setiap tugas"
+    },
+    {
+      "id": "pro",
+      "title": "Dapatkan Pro",
+      "caption": "Matlamat, tahun anda, warna anda sendiri",
+      "alt": "Halaman SimpleTime Pro dalam app"
+    }
+  ],
+  "pro": {
+    "eyebrow": "SimpleTime Pro",
+    "title": "Dapatkan lebih banyak daripada masa yang anda rekod.",
+    "subtitle": "SimpleTime kekal percuma – semua yang boleh dilakukannya tanpa Pro akan kekal begitu. Pro menambah Apple Watch anda, tempat yang memulakan tugas dengan sendirinya, imbasan minggu, bulan dan tahun anda, matlamat dan banyak lagi.",
+    "featuresTitle": "Apa yang ditambah oleh Pro",
+    "features": [
+      {
+        "id": "watch",
+        "title": "Apple Watch",
+        "body": "Mula dan henti dari pergelangan tangan, mula lebih awal, pantau hari, minggu dan matlamat – dengan masa berjalan pada muka jam."
+      },
+      {
+        "id": "reviews",
+        "title": "Imbasan",
+        "body": "Minggu, bulan dan tahun anda sebagai kad – untuk diselak dan dikongsi."
+      },
+      {
+        "id": "places",
+        "title": "Tempat",
+        "body": "Tugas bermula dengan sendirinya apabila anda tiba – selepas masa menunggu, jika anda mahu, supaya tiada apa-apa bermula apabila anda hanya lalu."
+      },
+      {
+        "id": "calendar",
+        "title": "Kalendar",
+        "body": "Setiap entri sebagai peristiwa dalam kalendar anda – serta tugas daripada kalendar seperti “Kerja” atau “Keluarga”."
+      },
+      {
+        "id": "year",
+        "title": "Setahun Sekilas Pandang",
+        "body": "Setiap hari dalam setahun sebagai satu gambar, dengan rentetan semasa dan rentetan terpanjang anda."
+      },
+      {
+        "id": "goals",
+        "title": "Matlamat",
+        "body": "Sasaran bagi setiap tugas – untuk hari, minggu atau bulan. Subtugas turut dikira."
+      },
+      {
+        "id": "focus",
+        "title": "Penapis Fokus",
+        "body": "Fokus kerja anda diaktifkan, senarai hanya menunjukkan kerja – dan perekodan boleh bermula serta tamat bersamanya."
+      },
+      {
+        "id": "widget",
+        "title": "Widget Mula Cepat",
+        "body": "Anda yang menentukan tugas yang ada padanya. Sekali ketik pada Skrin Utama terus memulakannya."
+      },
+      {
+        "id": "style",
+        "title": "Warna, fon dan ikon app",
+        "body": "Tujuh warna aksen atau warna anda sendiri, digunakan di seluruh app – serta enam fon dan enam belas ikon app."
+      },
+      {
+        "id": "report",
+        "title": "Lebih banyak dalam laporan PDF",
+        "body": "Aliran, taburan sepanjang hari, perbandingan dengan tempoh lalu dan matlamat – mengikut susunan yang anda pilih."
+      },
+      {
+        "id": "future",
+        "title": "Semua yang akan datang",
+        "body": "Apa sahaja yang ditambah kemudian turut disertakan – tanpa pembelian tambahan."
+      }
+    ],
+    "plansTitle": "Tiga cara untuk mendapatkan Pro",
+    "plansSubtitle": "Harga bergantung pada negara anda dan dipaparkan dalam app dalam mata wang anda sebelum anda membeli.",
+    "plans": [
+      {
+        "id": "monthly",
+        "title": "Bulanan",
+        "body": "Dibilkan setiap bulan. Anda boleh membatalkannya pada bila-bila masa."
+      },
+      {
+        "id": "yearly",
+        "title": "Tahunan",
+        "body": "Dibilkan setahun sekali – app menunjukkan berapa banyak yang anda jimatkan berbanding bayaran bulanan."
+      },
+      {
+        "id": "lifetime",
+        "title": "Sepanjang Hayat",
+        "body": "Bayar sekali dan miliki Pro selama-lamanya. Ia tidak pernah tamat tempoh."
+      }
+    ],
+    "notes": [
+      "Pelanggan baharu boleh mencuba Bulanan atau Tahunan secara percuma selama seminggu.",
+      "Perkongsian Keluarga: satu pembelian untuk sehingga enam orang.",
+      "Apa sahaja yang ditambah kemudian turut disertakan – tanpa pembelian tambahan."
+    ],
+    "legal": "Langganan bulanan dan tahunan diperbaharui secara automatik sehingga anda membatalkannya. Anda boleh membatalkannya pada bila-bila masa dalam seting App Store. Sepanjang Hayat ialah bayaran sekali sahaja dan tidak pernah tamat tempoh.",
+    "terms": "Syarat Penggunaan (EULA)",
+    "privacy": "Dasar Privasi",
+    "freeTitle": "Apa yang kekal percuma",
+    "freeBody": "Semua yang anda perlukan untuk merekod: tugas dan subtugas, Waktu Tetap, paparan hari dan garis masa, carta dan statistik, laporan PDF dan eksport CSV, widget, Aktiviti Langsung, Pusat Kawalan dan Siri, penyelarasan melalui iCloud atau LaCodea ID, pelan sandaran serta kunci app – dalam 51 bahasa. Tanpa akaun, tanpa iklan, tanpa penjualan data anda.",
+    "howTitle": "Cara mendapatkan Pro",
+    "how": [
+      "Dalam SimpleTime, buka Seting › SimpleTime Pro.",
+      "Pilih Bulanan, Tahunan atau Sepanjang Hayat – anda membayar melalui Akaun Apple anda.",
+      "Pro dibuka kunci serta-merta, pada semua peranti anda dengan Akaun Apple yang sama."
+    ],
+    "faqTitle": "Soalan tentang Pro",
+    "ctaTitle": "Mulakan secara percuma.",
+    "ctaSubtitle": "Muat turun SimpleTime – dan buka kunci Pro dalam app bila-bila masa anda mahu."
+  },
+  "faq": {
+    "title": "Soalan lazim.",
+    "subtitle": "Semua tentang SimpleTime – dari ketikan pertama hingga SimpleTime Pro.",
+    "searchLabel": "Cari soalan",
+    "searchPlaceholder": "cth. “sandaran” atau “Apple Watch”",
+    "results": "Soalan yang sepadan: {count}",
+    "noResults": "Tiada soalan yang sepadan dengan “{query}”.",
+    "noResultsHint": "Cuba perkataan lain – atau [tulis kepada kami](@contact).",
+    "topics": "Topik",
+    "moreTitle": "Masih ada soalan?",
+    "moreBody": "Tulis kepada kami – setiap mesej dibaca dan dijawab.",
+    "moreButton": "Hubungi",
+    "categories": [
+      {
+        "id": "basics",
+        "title": "Bermula",
+        "items": [
+          {
+            "id": "what-is",
+            "q": "Apakah itu SimpleTime?",
+            "a": [
+              "SimpleTime ialah penjejak masa untuk iPhone, iPad dan Mac. Sekali ketik untuk memulakan jam, sekali ketik untuk menghentikannya. SimpleTime kemudian menunjukkan ke mana masa anda pergi – sebagai senarai harian atau garis masa, dalam carta dan statistik, serta sebagai laporan PDF atau fail CSV. Tiada akaun diperlukan, tiada iklan, tiada penjualan data anda."
+            ]
+          },
+          {
+            "id": "first-steps",
+            "q": "Bagaimanakah saya bermula?",
+            "a": [
+              "Ketik + dalam tab Rekod untuk mencipta tugas – dengan nama, warna dan simbol. Ketik segi tiga di sebelahnya dan jam mula berjalan; ketik Henti untuk menamatkannya. Kali pertama anda membuka app, lawatan ringkas menunjukkan butang yang paling penting. Anda boleh menontonnya semula pada bila-bila masa di Seting › Tunjukkan lawatan semula."
+            ]
+          },
+          {
+            "id": "free",
+            "q": "Adakah SimpleTime percuma?",
+            "a": [
+              "Ya. SimpleTime percuma untuk dimuat turun, begitu juga semua yang anda perlukan untuk merekod: tugas dan subtugas, waktu tetap, paparan hari, carta dan statistik, laporan dan eksport, widget, penyelarasan melalui iCloud atau LaCodea ID, serta sandaran. SimpleTime Pro ialah pilihan tambahan yang menambah app Apple Watch, imbasan, tempat, matlamat dan banyak lagi. [Semua tentang SimpleTime Pro](@pro)"
+            ]
+          },
+          {
+            "id": "account",
+            "q": "Adakah saya memerlukan akaun?",
+            "a": [
+              "Tidak. Anda buka app dan terus mula – tanpa perlu mendaftar. Jika anda menggunakan iCloud, penyelarasan berjalan melalui Akaun Apple anda sendiri, yang tidak pernah kami lihat. Jika mahu, anda boleh daftar masuk dengan LaCodea ID, akaun kami untuk semua app LaCodea. Kami kemudian menyimpan akaun anda dan pembelian SimpleTime Pro anda – entri anda pula hanya jika anda memilih LaCodea ID sebagai tempat simpanan di bawah Data dan penyelarasan, dan itu pun disulitkan hujung ke hujung."
+            ]
+          },
+          {
+            "id": "lacodea-id",
+            "q": "Apakah itu LaCodea ID?",
+            "a": [
+              "LaCodea ID ialah akaun kami untuk semua app LaCodea, yang boleh anda gunakan jika mahu. Anda daftar masuk di bahagian paling atas Seting – dengan Apple, kunci laluan atau kod melalui e-mel. Dengannya, anda boleh menyelaraskan data melalui LaCodea ID dengan penyulitan hujung ke hujung, dan pembelian SimpleTime Pro terpakai pada setiap peranti tempat anda mendaftar masuk; SimpleTime tetap berfungsi dengan baik tanpanya."
+            ]
+          },
+          {
+            "id": "devices",
+            "q": "Pada peranti apakah SimpleTime berjalan?",
+            "a": [
+              "Pada iPhone dan iPad dengan iOS 26 atau iPadOS 26 atau lebih baharu, dan pada Mac dengan macOS 26 atau lebih baharu. App Apple Watch ialah sebahagian daripada SimpleTime Pro dan memerlukan watchOS 26. Jika anda memilih iCloud atau LaCodea ID di Seting › Data dan penyelarasan, entri anda kekal diselaraskan pada semua peranti dengan Akaun Apple yang sama atau LaCodea ID yang sama."
+            ]
+          },
+          {
+            "id": "mac",
+            "q": "Apakah yang boleh dilakukan oleh SimpleTime pada Mac?",
+            "a": [
+              "Hampir semua yang dilakukannya pada iPhone – perekodan, paparan hari, analisis, laporan, eksport, sandaran, penyelarasan dan kunci app; leretan pada iPhone menjadi klik kanan pada Mac. Selain itu, terdapat jam randik dalam bar menu dan widget pada desktop anda. Tempat, Aktiviti Langsung, app Apple Watch dan ikon app alternatif tidak tersedia pada Mac."
+            ]
+          },
+          {
+            "id": "languages",
+            "q": "Dalam bahasa apakah SimpleTime tersedia?",
+            "a": [
+              "51 – daripada bahasa Inggeris dan Jerman hingga bahasa Arab, Hindi dan Jepun. Di Seting › Bahasa, anda boleh memilih bahasa app tanpa bergantung pada bahasa peranti anda."
+            ]
+          },
+          {
+            "id": "offline",
+            "q": "Adakah SimpleTime berfungsi tanpa Internet?",
+            "a": [
+              "Ya. Perekodan, paparan hari, carta dan laporan semuanya berfungsi tanpa sambungan. Sambungan diperlukan untuk penyelarasan, sandaran ke pelayan anda sendiri, daftar masuk dengan LaCodea ID, membeli Pro dan mencari alamat untuk sesuatu tempat. Apa sahaja yang tertangguh akan diselesaikan oleh SimpleTime kemudian – penyelarasan sebaik sahaja peranti anda kembali dalam talian, sandaran yang terlepas apabila anda membuka app pada kali seterusnya."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tracking",
+        "title": "Rekod masa",
+        "items": [
+          {
+            "id": "start-stop",
+            "q": "Bagaimanakah saya mula dan henti merekod?",
+            "a": [
+              "Ketik segi tiga di sebelah tugas untuk memulakannya. Tugas yang sedang berjalan dipaparkan di bahagian atas tab Rekod; ketik Henti untuk menamatkannya. Ketikan pada nama tugas membuka subtugasnya, leretan ke kiri membolehkan anda mengedit, mengarkibkan atau memadamnya, dan leretan ke kanan menunjukkan infonya dengan semua angka – pada Mac, klik kanan menawarkan semua ini."
+            ]
+          },
+          {
+            "id": "one-at-a-time",
+            "q": "Bolehkah dua tugas berjalan serentak?",
+            "a": [
+              "Tidak. Hanya satu entri berjalan pada satu masa: apabila anda memulakan tugas lain, entri yang sedang berjalan tamat pada ketika itu juga – jadi entri anda tidak bertindih."
+            ]
+          },
+          {
+            "id": "keeps-running",
+            "q": "Adakah jam terus berjalan apabila saya menutup SimpleTime?",
+            "a": [
+              "Ya. SimpleTime mengingati bila anda bermula dan mengira tempohnya dari situ – perekodan terus berjalan apabila anda menutup app, mengunci iPhone atau memulakannya semula. Pada Skrin Kunci dan dalam Dynamic Island, Aktiviti Langsung menunjukkan masa berjalan, dengan butang untuk menghentikannya, dan peringatan anda tetap sampai walaupun app ditutup."
+            ]
+          },
+          {
+            "id": "add-later",
+            "q": "Saya terlupa untuk mula – bolehkah saya menambah masa kemudian?",
+            "a": [
+              "Ya. Dalam tab Hari, ketik + untuk menambah entri dengan masa mula dan tamatnya, atau ketik entri sedia ada untuk mengubahnya. Entri tidak boleh bertindih: SimpleTime memberitahu anda jika sesuatu tempoh bertembung dengan entri lain. Jika jam sudah berjalan, ketik entri yang sedang berjalan di bahagian atas tab Rekod dan undurkan masa mulanya – paling jauh hingga ke penghujung entri sebelumnya."
+            ]
+          },
+          {
+            "id": "restore-entry",
+            "q": "Saya telah memadam entri – bolehkah saya mendapatkannya semula?",
+            "a": [
+              "Ya. Jika anda memadam entri dalam tab Hari – dengan leretan ke kiri, atau klik kanan pada Mac –, entri itu dialihkan ke sampah: di bahagian atas sebelah kiri tab Hari, di bawah “Entri Dipadam”, “Pulihkan” mengembalikannya, atau anda memadamnya secara kekal. Tugas yang dipadam menunggu dalam sampah di bahagian atas sebelah kiri tab Rekod, bersama entrinya. Sebaik sahaja sesuatu dipadam secara kekal, hanya sandaran yang boleh mengembalikannya."
+            ]
+          },
+          {
+            "id": "fixed-times",
+            "q": "Apakah itu waktu tetap?",
+            "a": [
+              "Masa berulang seperti kelas, syif atau waktu konsultasi hanya perlu disediakan sekali: tugas, hari dalam seminggu, masa mula dan tamat, setiap minggu atau selang seminggu, bermula dari hari yang anda pilih dan dengan tarikh tamat jika mahu. Sebaik sahaja sesuatu waktu berlalu, SimpleTime merekodkannya sendiri – pada setiap peranti tempat anda membuka SimpleTime, namun tetap sekali sahaja; rekod susulan dibuat paling lama 31 hari ke belakang. Anda hanya perlu merekod masa tambahan; ciri ini terdapat di Seting › Perekodan › Waktu Tetap, tanpa perlu Pro."
+            ]
+          },
+          {
+            "id": "fixed-times-pause",
+            "q": "Bolehkah saya menjeda atau mengubah waktu tetap?",
+            "a": [
+              "Ya. Untuk cuti sekolah, percutian atau cuti sakit, tambah jeda di Seting › Perekodan › Waktu Tetap dengan “Tambah Jeda” – SimpleTime tidak merekod apa-apa semasa jeda itu; anda boleh menyahaktifkan satu waktu dengan suisnya. Entri yang sudah dibuat boleh diubah atau dipadam seperti entri lain, dan jika anda mengubah atau memadam waktu tetap, apa yang sudah direkod kekal. Jika waktu tetap bertindih dengan entri yang sudah wujud, SimpleTime tidak merekodkannya."
+            ]
+          },
+          {
+            "id": "subtasks",
+            "q": "Bagaimanakah subtugas berfungsi?",
+            "a": [
+              "Ketik nama tugas untuk membukanya, kemudian tambah subtugas di situ dengan +. Anda boleh menyusunnya secara bersarang sedalam struktur kerja anda – klien, projek, fasa. Dalam carta, laporan dan matlamat, subtugas dikira dalam tugas di atasnya."
+            ]
+          },
+          {
+            "id": "order",
+            "q": "Bagaimanakah saya memastikan senarai tugas saya tersusun?",
+            "a": [
+              "Tandakan tugas yang anda gunakan setiap hari sebagai kegemaran – ia kekal di bahagian atas. Selebihnya boleh diisih mengikut abjad, kekerapan penggunaan, penggunaan terkini atau tertib tersuai. Warna dan simbol – atau emoji – menjadikan setiap tugas mudah dikenali."
+            ]
+          },
+          {
+            "id": "archive-trash",
+            "q": "Apakah perbezaan antara mengarkib dan memadam?",
+            "a": [
+              "Mengarkib hanya menyembunyikan tugas: entrinya kekal dan terus dikira dalam semua analisis. Memadam mengalihkan tugas dan entrinya ke sampah – masanya kemudian tidak lagi dikira di mana-mana. Arkib dan sampah terdapat di bahagian atas sebelah kiri tab Rekod: dari arkib, “Pulihkan” mengembalikan tugas; dari sampah, ia mengembalikan tugas bersama entrinya – atau anda memadamnya secara kekal di situ."
+            ]
+          },
+          {
+            "id": "notes",
+            "q": "Bolehkah saya menambah nota pada entri?",
+            "a": [
+              "Ya, setiap entri boleh mempunyai nota – apa yang anda kerjakan atau dengan siapa anda bekerja. Anda menambahnya semasa mencipta atau mengedit entri dalam tab Hari, atau, semasa jam berjalan, dengan mengetik entri yang sedang berjalan di bahagian atas tab Rekod. Anda melihat nota itu apabila membuka entri, dalam info tugas di bawah “Semua entri”, dalam bahagian PDF “Semua entri” dan dalam eksport CSV; sandaran turut menyimpannya."
+            ]
+          },
+          {
+            "id": "reminders",
+            "q": "Bolehkah SimpleTime mengingatkan saya?",
+            "a": [
+              "Ya. Di Seting › Konfigurasikan pemberitahuan, anda menetapkan peraturan – contohnya peringatan apabila sesuatu tugas telah berjalan selama 60 minit, untuk semua tugas atau tugas terpilih sahaja, pada hari yang anda pilih. Dengan “Ingatkan saya apabila tiada apa-apa yang berjalan”, SimpleTime juga memberitahu anda apabila tiada apa-apa direkod untuk beberapa ketika."
+            ]
+          },
+          {
+            "id": "time-zone",
+            "q": "Saya mengembara ke zon waktu lain – mengapa entri saya menunjukkan masa yang berbeza?",
+            "a": [
+              "Secara lalai, SimpleTime memaparkan setiap entri dalam zon waktu tempat peranti anda berada sekarang – seperti Kalendar Apple: apa yang anda rekod pada pukul 9 pagi di New York dipaparkan pada pukul 3 petang di Berlin. Di Seting › Zon Waktu, anda boleh memilih “Zon Waktu Semasa Direkod” sebagai gantinya: setiap entri kemudian dipaparkan dengan masa dan pada hari anda merekodkannya – di mana-mana sahaja masa dan jumlah dipaparkan. Tempohnya tetap sama dalam kedua-dua keadaan; entri daripada versi sebelum 4.7 sentiasa dipaparkan dalam zon waktu peranti."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "insights",
+        "title": "Paparan hari dan analisis",
+        "items": [
+          {
+            "id": "day-view",
+            "q": "Apakah yang ditunjukkan oleh paparan hari?",
+            "a": [
+              "Setiap entri dalam sehari dengan masa mula, tamat dan tempohnya – sebagai senarai, atau sebagai garis masa dari 0 hingga 24 dengan penanda masa semasa bagi hari ini; pada skrin lebar seperti iPad dan Mac, kedua-duanya dipaparkan bersebelahan. Di bahagian atas, anda melihat jumlah hari itu dan perbandingannya dengan hari sebelumnya."
+            ]
+          },
+          {
+            "id": "charts",
+            "q": "Apakah carta dan statistik yang tersedia?",
+            "a": [
+              "Dalam tab Carta: carta pai mengikut tugas dan mengikut produktiviti, untuk sehari, seminggu, sebulan atau setahun. Di bahagian atas sebelah kanan, di bawah “Statistik lanjut”, anda akan menemui perbandingan dengan tempoh lalu, aliran, tugas teratas anda serta entri terpanjang dan terpendek – dan, bagi tempoh seminggu ke atas, taburan masa anda sepanjang hari, dengan jam paling sibuk anda. Setiap tugas juga mempunyai halaman info tersendiri – entri pertama, entri terpanjang, minggu ini, tahun ini."
+            ]
+          },
+          {
+            "id": "productivity",
+            "q": "Apakah itu skor produktiviti?",
+            "a": [
+              "Semasa mengedit tugas, anda memberinya kategori di bawah “Produktiviti”: produktif, tidak produktif, perlu – atau “Kecualikan daripada produktiviti”. Subtugas tanpa kategori sendiri mengambil kategori tugas di atasnya, dan “Kecualikan daripada produktiviti” terpakai pada semua yang berada di bawahnya. Skor menunjukkan berapa banyak daripada masa dinilai anda yang produktif atau perlu: (produktif + perlu) ÷ (produktif + tidak produktif + perlu) × 100. Masa yang tidak ditetapkan atau yang ditetapkan kepada “Kecualikan daripada produktiviti” tidak diambil kira."
+            ]
+          },
+          {
+            "id": "goals",
+            "q": "Bagaimanakah matlamat berfungsi?",
+            "a": [
+              "Dengan SimpleTime Pro, anda menetapkan sasaran bagi setiap tugas di Seting › Matlamat: sekurang-kurangnya atau paling banyak sejumlah masa tertentu sehari, seminggu atau sebulan – contohnya, sekurang-kurangnya 8 jam sukan seminggu atau paling banyak 2 jam media sosial sehari. Subtugas turut dikira, dan tempoh semasa yang diukur. Anda melihat kedudukan anda dalam tab Carta dan pada Apple Watch anda; dalam bahagian “Matlamat”, laporan PDF membandingkan purata dalam tempoh yang dipilih dengan sasaran anda."
+            ]
+          },
+          {
+            "id": "share-chart",
+            "q": "Bolehkah saya berkongsi carta?",
+            "a": [
+              "Ya, mana-mana carta boleh dikongsi sebagai imej atau disimpan ke Foto. Untuk menyimpannya, SimpleTime hanya meminta keizinan untuk menambah foto – ia tidak dapat melihat pustaka foto anda."
+            ]
+          },
+          {
+            "id": "pdf-report",
+            "q": "Bagaimanakah saya mencipta laporan PDF?",
+            "a": [
+              "Di Seting › Eksport Laporan, pilih tempoh – dari hari ini hingga sepanjang masa, atau tempoh tersuai –, pilih bahagian yang anda mahu dan seret untuk menyusunnya. SimpleTime mencipta PDF dengan setiap tugas dan subtugas, sedia untuk dikongsi atau disimpan. SimpleTime Pro menambah bahagian tambahan: “Dari masa ke masa”, “Sepanjang hari”, “Perbandingan” dan “Matlamat”.",
+              "Untuk lembaran masa, terdapat bahagian “Semua entri”: setiap entri hari demi hari dengan masa mula, tamat, tugas dan nota, serta jumlah harian, jumlah keseluruhan dan jam perpuluhan – sesuai untuk menyemak jam kerja anda dengan slip gaji. Bahagian ini percuma, tanpa perlu Pro, dan diaktifkan secara lalai."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "shortcuts",
+        "title": "Widget, Siri dan Fokus",
+        "items": [
+          {
+            "id": "widgets",
+            "q": "Apakah widget yang tersedia?",
+            "a": [
+              "Untuk Skrin Utama: Hari Ini, Tugas berjalan dan Minggu – Hari Ini dan Tugas berjalan dengan butang untuk mula dan henti. Untuk Skrin Kunci: apa yang sedang berjalan dan sudah berapa lama. Terdapat juga suis “Rekod masa” untuk Pusat Kawalan. Semasa tugas berjalan, Aktiviti Langsung menunjukkannya pada Skrin Kunci dan dalam Dynamic Island, dengan butang untuk menghentikannya. Dengan SimpleTime Pro, anda juga mendapat Widget Mula Cepat yang anda isi dengan tugas anda sendiri."
+            ]
+          },
+          {
+            "id": "without-opening",
+            "q": "Bolehkah saya mula merekod tanpa membuka app?",
+            "a": [
+              "Ya, dengan beberapa cara. Sentuh dan tahan ikon app untuk menghentikan apa yang sedang berjalan atau memulakan salah satu tugas anda. Taip nama tugas dalam carian iPhone dan ketik padanya. Atau gunakan widget, Siri atau suis “Rekod masa” – dalam Pusat Kawalan, pada Skrin Kunci atau pada Butang Tindakan mulai iPhone 15 Pro –, dan dengan SimpleTime Pro, Apple Watch anda."
+            ]
+          },
+          {
+            "id": "siri",
+            "q": "Bagaimanakah SimpleTime berfungsi dengan Siri dan Pintasan?",
+            "a": [
+              "Sebut, contohnya, “Start Work in SimpleTime”, “Stop tracking in SimpleTime”, “How much did I track today in SimpleTime?” atau “What’s running in SimpleTime?”. Siri memahami frasa ini dalam bahasa Inggeris dan Jerman. Dalam setiap bahasa, tindakan tersedia dalam app Pintasan, tempat anda juga boleh memberikannya frasa anda sendiri."
+            ]
+          },
+          {
+            "id": "focus-filter",
+            "q": "Apakah fungsi Penapis Fokus?",
+            "a": [
+              "Dengan Penapis Fokus, SimpleTime mengikut Fokus anda: apabila “Kerja” diaktifkan, senarai tugas hanya menunjukkan kategori kerja anda – dan perekodan boleh bermula serta tamat bersama Fokus itu. Anda menyediakannya dalam Seting iOS di Fokus › Fokus anda › Penapis Fokus › Tambah Penapis › SimpleTime. Penapis Fokus ialah sebahagian daripada SimpleTime Pro."
+            ]
+          },
+          {
+            "id": "calendar-entries",
+            "q": "Bolehkah SimpleTime memasukkan entri saya ke dalam kalendar saya?",
+            "a": [
+              "Ya, dengan SimpleTime Pro: aktifkan “Entri dalam Kalendar” di Seting › Kalendar – mulai hari itu, setiap entri yang selesai dipaparkan sebagai peristiwa, dalam kalendar “SimpleTime” tersendiri atau kalendar pilihan anda, bagi setiap tugas jika mahu. Apabila anda mengubah atau memadam entri, peristiwa itu turut berubah, dan pautan dalam peristiwa membuka entri dalam SimpleTime. Jika anda menyahaktifkannya, peristiwa kekal dalam kalendar anda.",
+              "“Tugas daripada Kalendar” menukar kalendar seperti “Kerja” menjadi tugas; namun, peristiwa yang sudah ada dalam kalendar anda tidak menjadi entri. Peristiwa disimpan pada penyedia kalendar anda dan menunjukkan nama tugas anda kepada semua orang yang berkongsi kalendar itu dengan anda – walaupun kunci app aktif."
+            ]
+          },
+          {
+            "id": "menu-bar",
+            "q": "Bolehkah saya menggunakan SimpleTime dari bar menu pada Mac saya?",
+            "a": [
+              "Ya. Jam randik dalam bar menu menunjukkan sama ada tugas sedang berjalan; klik padanya untuk mula, henti atau menukar tugas tanpa membuka tetingkap. Anda mengaktifkan atau menyahaktifkannya di Seting › Bar Menu › Tunjukkan dalam Bar Menu. Jika kunci app disediakan, menu tidak menunjukkan nama tugas dan hanya menawarkan Henti."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "data",
+        "title": "Penyelarasan, sandaran dan eksport",
+        "items": [
+          {
+            "id": "sync",
+            "q": "Adakah SimpleTime menyelaras antara peranti saya?",
+            "a": [
+              "Ya, melalui iCloud atau melalui LaCodea ID – anda memilihnya pada setiap peranti di Seting › Data dan penyelarasan. Dengan iCloud, setiap peranti tempat anda memilih iCloud dan mendaftar masuk dengan Akaun Apple yang sama akan diselaraskan; sistem yang menentukan masanya. Ia tidak boleh dipaksa – “Selaraskan sekarang” kemudian menyemak akaun dan sambungan anda, dan halaman yang sama menunjukkan bila penyelarasan terakhir berlaku.",
+              "Dengan LaCodea ID, setiap peranti tempat anda mendaftar masuk dengan LaCodea ID yang sama dan memilihnya akan diselaraskan, walaupun dengan Akaun Apple yang berbeza – disulitkan hujung ke hujung dan, jika SimpleTime dibuka pada kedua-dua peranti, dalam beberapa saat."
+            ]
+          },
+          {
+            "id": "sync-trouble",
+            "q": "Entri saya tidak muncul pada peranti saya yang lain – apakah yang boleh saya lakukan?",
+            "a": [
+              "Semak Seting › Data dan penyelarasan pada kedua-dua peranti: kedua-duanya memerlukan tempat yang sama – iCloud dengan Akaun Apple yang sama, atau LaCodea ID dengan akaun yang sama. Jika tertera bahawa pertukaran hanya berkuat kuasa kemudian, tutup SimpleTime sepenuhnya dan bukanya semula; pastikan juga app sentiasa dikemas kini pada semua peranti anda.",
+              "Dengan iCloud, “Penyelarasan terakhir” dalam Seting di bawah Penyelarasan menunjukkan bila data terakhir dipindahkan, dan “Semak penyelarasan” menyemak akaun dan sambungan anda serta, jika ada masalah, menyatakan puncanya – contohnya storan iCloud yang penuh. Dengan LaCodea ID, halaman Data dan penyelarasan menunjukkan sama ada perubahan sedang menunggu sambungan, sama ada akaun lain telah didaftar masuk atau sama ada peranti memerlukan kunci pemulihan anda. Jika itu tidak membantu, [tulis kepada kami](@contact)."
+            ]
+          },
+          {
+            "id": "without-icloud",
+            "q": "Bolehkah saya menggunakan SimpleTime tanpa iCloud?",
+            "a": [
+              "Ya. Pilih “Hanya pada peranti ini” dalam Seting di bawah Data dan penyelarasan – data anda kemudian kekal pada peranti ini sahaja. Ini menjadikan sandaran lebih penting: pelan sandaran menyimpannya secara automatik, contohnya ke folder dalam app Fail atau ke pelayan anda sendiri. Jika anda masih mahu menyelaraskan beberapa peranti tanpa iCloud, pilih LaCodea ID di situ; peranti tanpa Rantai Kunci iCloud anda kemudian akan meminta kunci pemulihan anda sekali."
+            ]
+          },
+          {
+            "id": "switch-storage",
+            "q": "Bagaimanakah saya menukar tempat data saya disimpan?",
+            "a": [
+              "Di Seting › Data dan penyelarasan, ketik tempat data anda patut disimpan, kemudian “Tukar kepada iCloud”, “Tukar kepada LaCodea ID” atau “Simpan hanya pada peranti ini”; untuk LaCodea ID, anda akan diminta mendaftar masuk. Sebelum bertukar kepada iCloud atau LaCodea ID, SimpleTime membuat salinan keselamatan peranti ini, dan jika sudah ada data di sana, anda memilih antara “Gabung” dan “Gunakan data daripada …”.",
+              "Pertukaran ini hanya terpakai pada peranti ini dan biasanya berkuat kuasa selepas anda menutup SimpleTime sepenuhnya dan membukanya semula – halaman itu akan memberitahu anda. Peranti anda yang lain terus diselaraskan seperti sebelumnya sehingga anda bertukar di sana juga. Selepas itu, SimpleTime menawarkan untuk memadam data di tempat lama; lakukannya hanya selepas peranti anda yang lain turut bertukar – jika tidak, peranti itu juga akan kehilangan data tersebut."
+            ]
+          },
+          {
+            "id": "recovery-key",
+            "q": "Apakah itu kunci pemulihan?",
+            "a": [
+              "Dengan LaCodea ID sebagai tempat simpanan, SimpleTime menyulitkan data anda hujung ke hujung; peranti Apple anda biasanya mendapat kunci dengan sendirinya melalui Rantai Kunci iCloud. Peranti tanpa Rantai Kunci iCloud anda – contohnya dengan Akaun Apple yang berbeza – memerlukan kunci pemulihan anda sekali: 24 huruf dan digit. Anda menemuinya di Seting › Data dan penyelarasan › Kunci pemulihan, selepas Face ID atau kod laluan peranti anda; sehingga anda mengesahkan bahawa anda telah menyimpannya, halaman Keselamatan akan mengingatkan anda. Simpan kunci itu dalam pengurus kata laluan anda atau di atas kertas – tanpanya dan tanpa peranti anda, tiada sesiapa boleh membuka data anda, termasuk kami."
+            ]
+          },
+          {
+            "id": "recovery-key-lost",
+            "q": "Saya kehilangan kunci pemulihan saya – apa yang perlu dilakukan?",
+            "a": [
+              "Pada peranti yang masih boleh membaca data anda, SimpleTime menunjukkannya semula di Seting › Data dan penyelarasan › Kunci pemulihan dengan “Tunjukkan kunci pemulihan” – atau anda mencipta kunci baharu di situ, dan kunci lama tidak lagi berfungsi. Jika tiada peranti anda yang boleh membuka data itu lagi, tiada sesiapa boleh memulihkannya – termasuk kami. Dalam keadaan itu, ketik “Saya kehilangan kunci pemulihan saya” apabila anda diminta memasukkannya dan mulakan semula dengan data pada peranti ini; apa sahaja yang hanya ada pada pelayan atau pada peranti anda yang lain akan hilang."
+            ]
+          },
+          {
+            "id": "backups",
+            "q": "Bagaimanakah sandaran berfungsi?",
+            "a": [
+              "Di Seting › Sandaran, anda mencipta seberapa banyak pelan sandaran yang anda mahu. Setiap pelan mempunyai lokasi – iCloud Drive, folder dalam app Fail seperti Dropbox atau Google Drive, pelayan anda sendiri melalui WebDAV, atau peranti ini –, jadual dari setiap jam hingga bulanan, tempoh simpanan dan, jika mahu, kata laluan. Pada halaman yang sama, anda juga boleh membuat sandaran secara manual pada bila-bila masa."
+            ]
+          },
+          {
+            "id": "backup-password",
+            "q": "Bolehkah saya melindungi sandaran saya dengan kata laluan?",
+            "a": [
+              "Ya. Jika anda menetapkan kata laluan untuk sesuatu pelan, setiap sandaran disulitkan pada peranti anda sebelum disimpan. Simpan kata laluan itu baik-baik: tanpanya, tiada sesiapa boleh memulihkan sandaran – tidak anda, tidak juga kami. Tiada cara lain."
+            ]
+          },
+          {
+            "id": "backup-files",
+            "q": "Di manakah saya boleh menemui sandaran saya?",
+            "a": [
+              "Sandaran daripada pelan yang ditetapkan kepada “Hanya pada peranti ini” juga dipaparkan dalam app Fail di bawah “Pada iPhone Saya” (atau “Pada iPad Saya”) › SimpleTime › Backups, dan sandaran daripada pelan iCloud Drive di bawah iCloud Drive › SimpleTime › Backups. Pelan untuk folder dalam app Fail atau pelayan anda sendiri menyimpannya di tempat yang anda pilih. Sandaran pada peranti akan hilang bersama peranti – dan apabila anda memadam SimpleTime. Sebaiknya berikan kata laluan kepada pelan anda: tanpa kata laluan, sesiapa yang mempunyai akses ke lokasi itu boleh membuka sandaran – pada peranti, sesiapa yang membuka kuncinya, walaupun kunci app aktif."
+            ]
+          },
+          {
+            "id": "restore",
+            "q": "Bagaimanakah saya memulihkan sandaran?",
+            "a": [
+              "Di Seting › Sandaran, anda memulihkan sandaran – daripada salah satu pelan anda atau daripada fail. Data sedia ada dikekalkan, dan apa sahaja yang hilang akan ditambah. Sandaran daripada SimpleTime 4.7 dan lebih awal diimport di Seting › Eksport / Import Data › Import sandaran daripada JSON. Pada peranti baharu, sebaiknya tunggu sehingga penyelarasan melalui iCloud atau LaCodea ID menghantar data anda – jika tidak, tugas mungkin muncul dua kali."
+            ]
+          },
+          {
+            "id": "export",
+            "q": "Bolehkah saya mengeksport data saya?",
+            "a": [
+              "Ya, pada bila-bila masa: sebagai fail CSV dengan satu baris bagi setiap entri – tarikh, mula, tamat, tugas, tempoh, jam perpuluhan dan nota, untuk Excel, Numbers atau mana-mana app hamparan –, sebagai laporan PDF atau sebagai sandaran.",
+              "Di Seting › Eksport / Import Data, anda memilih tempoh fail CSV – dari hari ini hingga sepanjang masa, atau tempoh tersuai, seperti bulan lalu. Anda membuat sandaran di Seting › Sandaran."
+            ]
+          },
+          {
+            "id": "timesheet",
+            "q": "Bagaimanakah saya mendapatkan jam kerja saya untuk lembaran masa?",
+            "a": [
+              "Sebagai PDF: di Seting › Eksport Laporan, pilih tempoh – contohnya “Bulan Lalu” – dan biarkan bahagian “Semua entri” diaktifkan; bahagian ini menyenaraikan setiap entri dengan masa mula, tamat, tugas dan nota, serta jumlah harian, jumlah keseluruhan dan jam perpuluhan. Sebagai hamparan: di Seting › Eksport / Import Data, pilih tempoh dan ketik “Eksport data sebagai CSV” – satu baris bagi setiap entri dengan tarikh, mula, tamat, tugas, tempoh, jam perpuluhan dan nota, untuk Excel atau Numbers. Kedua-duanya percuma, dan entri daripada waktu tetap dikira seperti entri lain."
+            ]
+          },
+          {
+            "id": "rounding",
+            "q": "Bolehkah SimpleTime membundarkan masa, contohnya kepada suku jam?",
+            "a": [
+              "Tidak, tiada seting pembundaran: SimpleTime menyimpan masa mula dan tamat sebagaimana anda merekodnya. Dalam bahagian PDF “Semua entri” dan dalam eksport CSV, setiap baris dibundarkan kepada minit terdekat dan diberikan dalam jam perpuluhan dengan dua tempat perpuluhan; dalam PDF, jumlahnya dikira tepat daripada nilai-nilai ini. Jika anda memerlukan suku jam, ubah masa mula dan tamat dalam entri atau bundarkan dalam app hamparan anda."
+            ]
+          },
+          {
+            "id": "import",
+            "q": "Bolehkah saya mengimport data daripada app lain?",
+            "a": [
+              "Tidak. SimpleTime hanya membaca sandarannya sendiri – fail CSV, termasuk fail CSV daripada SimpleTime sendiri, tidak boleh diimport, dan peristiwa daripada kalendar anda tidak menjadi entri. Anda boleh menambah masa terdahulu secara manual dalam tab Hari dengan +."
+            ]
+          },
+          {
+            "id": "new-device",
+            "q": "Bagaimanakah saya berpindah ke iPhone baharu?",
+            "a": [
+              "Daftar masuk dengan Akaun Apple yang sama dan pasang SimpleTime – jika anda menggunakan iCloud (Seting › Data dan penyelarasan), entri anda kembali dengan sendirinya. Jika anda menggunakan LaCodea ID, daftar masuk dengannya pada peranti baharu dan pilihnya di bawah Data dan penyelarasan; jika peranti tidak mendapat kunci melalui Rantai Kunci iCloud anda dengan sendirinya, app akan meminta kunci pemulihan anda sekali. Jika tidak, buat sandaran pada peranti lama dan pulihkannya pada peranti baharu. Tempat dan seting terikat pada setiap peranti – ia tidak diselaraskan dan tidak disandarkan."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "privacy",
+        "title": "Privasi dan keselamatan",
+        "items": [
+          {
+            "id": "data-location",
+            "q": "Di manakah data saya disimpan?",
+            "a": [
+              "Di mana sahaja yang anda pilih: dalam Seting di bawah Data dan penyelarasan, anda memilih antara “Hanya pada peranti ini”, iCloud peribadi anda, tempat Apple menyulitkannya, dan LaCodea ID, tempat data disulitkan hujung ke hujung – kami tidak dapat membaca entri anda di mana-mana tempat ini. Sandaran disimpan di tempat yang ditetapkan oleh pelan sandaran anda; tanpa kata laluan, sesiapa yang mempunyai akses ke tempat itu boleh membacanya. Jika anda mengaktifkan “Entri dalam Kalendar” dengan Pro, entri yang selesai juga dipaparkan sebagai peristiwa dalam kalendar anda – kelihatan kepada penyedianya dan kepada semua orang yang berkongsi kalendar itu dengan anda."
+            ]
+          },
+          {
+            "id": "lacodea-id-privacy",
+            "q": "Siapakah yang boleh membaca entri saya apabila saya menyelaras melalui LaCodea ID?",
+            "a": [
+              "Hanya peranti anda. SimpleTime menyulitkan tugas, entri dengan masa dan notanya, waktu tetap, matlamat dan peringatan pada peranti anda (AES-GCM dengan 256 bit) sebelum ia dihantar ke pelayan SimpleTime sendiri – hanya peranti anda yang mempunyai kunci, bukan kami. Pelayan hanya melihat berapa banyak rekod bagi setiap jenis, anggaran saiznya, bila ia ditulis dan sama ada ia telah dipadam; pelayan itu terletak di pusat data di Frankfurt am Main. Butirannya terdapat dalam [dasar privasi](@privacy) kami."
+            ]
+          },
+          {
+            "id": "tracking-me",
+            "q": "Adakah SimpleTime menjejak saya?",
+            "a": [
+              "Tidak. SimpleTime tidak memaparkan iklan, tidak menjual data, tidak membina profil pengguna dan tidak mengikuti anda merentasi app dan tapak web lain. Supaya kami dapat mencari pepijat dengan cepat, app menghantar laporan ranap dan statistik penggunaan tanpa nama ke pelayan kami sendiri – tanpa ID peranti, dan tidak sekali-kali termasuk tugas, masa atau nota anda. Anda boleh menyahaktifkannya di Seting › Privasi › Gambaran Keseluruhan dan Keizinan. Butirannya terdapat dalam [dasar privasi](@privacy) kami."
+            ]
+          },
+          {
+            "id": "permissions",
+            "q": "Apakah keizinan yang diminta oleh SimpleTime?",
+            "a": [
+              "Hanya apa yang diperlukan oleh sesuatu ciri, dan hanya apabila anda menggunakannya: pemberitahuan untuk peringatan dan makluman Tempat, lokasi anda untuk Tempat, kalendar anda untuk “Entri dalam Kalendar”, menambah foto untuk menyimpan imej, serta Face ID atau Touch ID untuk kunci app. Dalam seting di bawah Privasi › Gambaran Keseluruhan dan Keizinan, anda melihat setiap satu dengan statusnya sekarang."
+            ]
+          },
+          {
+            "id": "location",
+            "q": "Mengapakah SimpleTime memerlukan lokasi saya?",
+            "a": [
+              "Hanya untuk Tempat, yang merupakan sebahagian daripada SimpleTime Pro: supaya tugas boleh bermula apabila anda tiba di sesuatu lokasi. iOS memantau kawasan yang anda tetapkan dan memberitahu app apabila anda tiba atau bertolak. Tempat anda kekal pada peranti anda, dan SimpleTime tidak menyimpan rekod tentang tempat yang pernah anda kunjungi. Tanpa Tempat, SimpleTime tidak memerlukan lokasi anda."
+            ]
+          },
+          {
+            "id": "app-lock",
+            "q": "Bagaimanakah kunci app berfungsi?",
+            "a": [
+              "Di Seting › Kunci app, anda memilih sama ada SimpleTime dibuka dengan Face ID atau Touch ID dan kod laluan peranti anda, atau dengan kod anda sendiri – digit atau kata laluan. Dalam Penukar App, SimpleTime kekal terlindung, dan nama tugas tidak lagi dipaparkan dalam carian iPhone atau pada ikon app; di bawah “Di Luar App”, anda memilih apa yang ditunjukkan oleh pemberitahuan, widget dan Apple Watch. Sekiranya anda terlupa kod sendiri, anda boleh mengaktifkan “Reset kod yang terlupa dengan kod laluan peranti” terlebih dahulu atau menetapkan kata laluan kecemasan. Tanpa kedua-duanya, satu-satunya cara untuk masuk semula ialah memadam dan memasang semula app – dan apa sahaja yang hanya ada pada peranti ini akan hilang melainkan anda mempunyai sandaran."
+            ]
+          },
+          {
+            "id": "security-overview",
+            "q": "Apakah yang ditunjukkan oleh halaman Keselamatan?",
+            "a": [
+              "Di Seting › Keselamatan › Gambaran Keseluruhan, anda melihat sekilas pandang sejauh mana data anda dilindungi: kod laluan peranti, kunci app, sandaran automatik dan disulitkan serta tempat data anda disimpan – dengan LaCodea ID, juga penyulitan hujung ke hujung dan kunci pemulihan anda. Apa sahaja yang masih kurang disenaraikan di bawah “Disyorkan”; setiap item menerangkan cara ia melindungi anda dan, jika perlu, membawa anda ke seting yang betul."
+            ]
+          },
+          {
+            "id": "delete-all",
+            "q": "Bagaimanakah saya memadam semua data saya?",
+            "a": [
+              "Dalam Seting di bawah Privasi › Padam semua data, anda mengeluarkan semuanya sekali gus – entri dan tugas, matlamat, tempat, sampah, peringatan, sandaran pelan anda dan sandaran lama dalam iCloud Drive, eksport, seting termasuk kod kunci app serta peristiwa yang ditambah oleh SimpleTime ke kalendar anda.",
+              "Data dipadam pada peranti ini, dalam iCloud dan – jika anda menyelaras melalui LaCodea ID – pada pelayan; melalui iCloud, pemadaman juga sampai ke peranti anda yang lain sebaik sahaja peranti itu dalam talian. Jika anda menyelaras melalui LaCodea ID, peranti anda yang lain mengekalkan datanya dan berhenti menyelaras sehingga anda menyediakan penyelarasan di sana semula – padamkan data di sana juga – dan akaun LaCodea ID anda kekal. Tindakan ini tidak boleh dibuat asal."
+            ]
+          },
+          {
+            "id": "delete-app",
+            "q": "Apakah yang berlaku jika saya memadam SimpleTime?",
+            "a": [
+              "Maka apa sahaja yang hanya ada pada peranti ini akan hilang: entri anda jika anda memilih “Hanya pada peranti ini”, sandaran pelan “Hanya pada peranti ini”, tempat anda dan seting anda termasuk kunci app. Apa sahaja yang ada dalam iCloud atau bersama LaCodea ID kekal di sana dan kembali selepas pemasangan semula sebaik sahaja anda menggunakan tempat yang sama di bawah Data dan penyelarasan sekali lagi.",
+              "Sandaran dalam iCloud Drive, dalam folder app Fail atau pada pelayan anda kekal, begitu juga peristiwa dalam kalendar anda; untuk sandaran yang disulitkan, anda kemudian memerlukan kata laluannya. Langganan terus berjalan sehingga anda membatalkannya, dan LaCodea ID anda kekal. Jika anda mahu mengeluarkan semuanya terlebih dahulu, gunakan Seting › Privasi › Padam semua data."
+            ]
+          },
+          {
+            "id": "lacodea-id-delete",
+            "q": "Bagaimanakah saya mendaftar keluar atau memadam LaCodea ID saya?",
+            "a": [
+              "Ketik LaCodea ID anda di bahagian paling atas Seting: “Daftar Keluar” mendaftar keluar anda daripada semua app LaCodea pada peranti ini – data anda kekal di sini dan diselaraskan semula sebaik sahaja anda mendaftar masuk. “Putuskan sambungan SimpleTime” hanya memisahkan SimpleTime daripada akaun anda; “Padam LaCodea ID” memadam akaun untuk semua app LaCodea – anda juga boleh melakukannya di account.lacodea.com. Sama ada anda memutuskan sambungan atau memadam, pelayan SimpleTime memadam data anda yang diselaraskan di sana; apa sahaja pada peranti anda atau dalam iCloud kekal. Langganan melalui Apple terus berjalan sehingga anda membatalkannya dalam seting peranti anda."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "pro",
+        "title": "SimpleTime Pro",
+        "items": [
+          {
+            "id": "pro-includes",
+            "q": "Apakah yang disertakan dalam SimpleTime Pro?",
+            "a": [
+              "App Apple Watch, imbasan minggu, bulan dan tahun anda, tempat, entri anda sebagai peristiwa dalam kalendar serta tugas daripada kalendar anda, setahun sekilas pandang, matlamat, Penapis Fokus, Widget Mula Cepat, tujuh warna aksen atau warna anda sendiri, enam fon, enam belas ikon app dan bahagian tambahan dalam laporan PDF. App jam tangan memerlukan iPhone; tempat dan ikon app tersedia pada iPhone dan iPad. Apa sahaja yang akan datang turut disertakan. [Semua tentang SimpleTime Pro](@pro)"
+            ]
+          },
+          {
+            "id": "pro-price",
+            "q": "Berapakah harga SimpleTime Pro?",
+            "a": [
+              "Pro tersedia secara bulanan, tahunan atau sebagai pembelian sekali “Sepanjang Hayat”. Harga bergantung pada negara dan mata wang anda serta dipaparkan dalam app sebelum anda membeli."
+            ]
+          },
+          {
+            "id": "trial",
+            "q": "Bolehkah saya mencuba Pro dahulu?",
+            "a": [
+              "Ya. Pelanggan baharu boleh mencuba Bulanan atau Tahunan secara percuma selama seminggu; app menunjukkan sama ada percubaan itu terpakai kepada anda. Jika anda tidak membatalkannya sekurang-kurangnya 24 jam sebelum tamat, langganan diperbaharui pada harga yang dipaparkan."
+            ]
+          },
+          {
+            "id": "family",
+            "q": "Bolehkah keluarga saya turut menggunakan Pro?",
+            "a": [
+              "Ya. SimpleTime Pro berfungsi dengan Perkongsian Keluarga – satu pembelian untuk sehingga enam orang."
+            ]
+          },
+          {
+            "id": "restore-purchase",
+            "q": "Saya telah membeli Pro – bagaimanakah saya mendapatkannya pada peranti saya yang lain?",
+            "a": [
+              "Pro terikat pada Akaun Apple anda: pada peranti anda yang lain dengan akaun yang sama, Pro biasanya dibuka kunci dengan sendirinya. Jika tidak, ketik “Pulihkan” di sana, di Seting › SimpleTime Pro.",
+              "Pada peranti dengan Akaun Apple yang berbeza, anda mendapat Pro melalui LaCodea ID: daftar masuk dengan LaCodea ID yang sama pada kedua-dua peranti. Jika anda membeli Pro sebelum mendaftar masuk, daftar masuk juga dengan LaCodea ID anda pada peranti dengan Akaun Apple yang digunakan untuk membelinya – SimpleTime melaporkan pembelian itu kepada akaun anda dari situ. Halaman Pro kemudian menunjukkan “Melalui LaCodea ID anda” dan, bagi langganan, tempat anda melanggannya – hanya di situ langganan boleh diubah."
+            ]
+          },
+          {
+            "id": "cancel",
+            "q": "Bagaimanakah saya membatalkan langganan saya?",
+            "a": [
+              "Dalam seting App Store anda – pada iPhone di Seting › nama anda › Langganan – atau dalam app pada halaman Pro di bawah Urus langganan. Ini hanya berfungsi pada peranti dengan Akaun Apple yang anda gunakan untuk melanggan; jika anda mempunyai Pro melalui LaCodea ID anda, halaman Pro menamakan peranti tersebut. Pro kekal aktif sehingga akhir tempoh yang telah anda bayar, dan memadam LaCodea ID anda juga tidak menamatkan langganan."
+            ]
+          },
+          {
+            "id": "lifetime-switch",
+            "q": "Saya mempunyai langganan – bolehkah saya bertukar kepada Sepanjang Hayat?",
+            "a": [
+              "Ya, terus pada halaman Pro. Walau bagaimanapun, Apple tidak menamatkan langganan dengan sendirinya: batalkannya selepas itu supaya ia tidak diperbaharui. App akan mengingatkan anda."
+            ]
+          },
+          {
+            "id": "pro-ends",
+            "q": "Apakah yang berlaku apabila Pro tamat?",
+            "a": [
+              "Tiada apa-apa yang hilang. Entri, matlamat dan tempat anda kekal disimpan. Ciri Pro dikunci semula – contohnya, tempat tidak lagi memulakan tugas – dan semuanya kembali sebaik sahaja Pro aktif semula."
+            ]
+          },
+          {
+            "id": "pro-offline",
+            "q": "Adakah Pro memerlukan sambungan Internet?",
+            "a": [
+              "Tidak. SimpleTime menyemak pembelian anda dengan App Store – dan, jika anda telah mendaftar masuk dengan LaCodea ID, dengan akaun anda juga – bila-bila masa yang mungkin. Tanpa sambungan, Pro terus berfungsi – sehingga dua minggu tanpa hubungan."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "watch-places",
+        "title": "Apple Watch dan tempat",
+        "items": [
+          {
+            "id": "watch-setup",
+            "q": "Bagaimanakah saya menyediakan app Apple Watch?",
+            "a": [
+              "App Apple Watch ialah sebahagian daripada SimpleTime Pro. Pasangnya pada jam tangan anda, kemudian buka SimpleTime pada iPhone anda sekali – selepas beberapa saat, jam tangan menunjukkan tugas anda. iPhone anda kekal sebagai sumber: apa sahaja yang dimulakan oleh jam tangan direkod di sana, dengan Aktiviti Langsung yang sama dan widget yang sama."
+            ]
+          },
+          {
+            "id": "watch-features",
+            "q": "Apakah yang boleh saya lakukan pada Apple Watch saya?",
+            "a": [
+              "Mula dan henti dari pergelangan tangan – kegemaran anda, apa yang terakhir anda gunakan atau mana-mana tugas melalui carian. Mula lebih awal: 5, 15, 30 atau 60 minit yang lalu, atau tanpa jurang dari penghujung entri terakhir anda. Henti dengan Ketik Dua Kali. Pantau hari, minggu dan matlamat anda, dengan masa berjalan pada muka jam dan dalam Tindanan Pintar. Jika iPhone anda di luar jangkauan, ketikan anda disimpan bersama masanya dan dihantar kemudian."
+            ]
+          },
+          {
+            "id": "places-how",
+            "q": "Bagaimanakah tempat berfungsi?",
+            "a": [
+              "Tambah tempat – contohnya pejabat atau gim anda – dengan radius dari 50 m hingga 10 km, dan pilih tugas. Apabila anda tiba, tugas bermula dengan sendirinya, atau SimpleTime bertanya dahulu. Dengan masa menunggu, tiada apa-apa bermula apabila anda hanya lalu. Apabila anda bertolak, tugas boleh berhenti, dan anda boleh mengehadkan tempat kepada hari dan waktu tertentu."
+            ]
+          },
+          {
+            "id": "places-late",
+            "q": "Mengapakah tempat bermula lewat atau tidak bermula langsung?",
+            "a": [
+              "Tempat memerlukan akses lokasi “Sentiasa”, dengan Lokasi Tepat diaktifkan. Di bawah 100 m, iOS sering lewat mengesan ketibaan anda, kerana di latar belakang lokasi anda biasanya diperoleh daripada Wi-Fi dan rangkaian selular, bukan GPS – radius yang lebih besar membantu. iOS memantau paling banyak 20 tempat bagi setiap app, dan pada Mac tiada Tempat."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "more",
+        "title": "Lain-lain",
+        "items": [
+          {
+            "id": "look",
+            "q": "Bolehkah saya mengubah rupa SimpleTime?",
+            "a": [
+              "Ya: cerah, gelap atau mengikut sistem, tiga ketinggian baris untuk senarai tugas, dan di Seting › Fon, saiz teks anda sendiri dan teks tebal. Dengan SimpleTime Pro, anda juga mendapat tujuh warna aksen atau warna anda sendiri – digunakan pada butang, suis dan carta –, enam fon dan, pada iPhone dan iPad, enam belas ikon app."
+            ]
+          },
+          {
+            "id": "accessibility",
+            "q": "Adakah SimpleTime menyokong kebolehcapaian?",
+            "a": [
+              "Ya. VoiceOver membacakan butang, carta dan garis masa dalam setiap bahasa app, dan carta juga tersedia sebagai Graf Audio. Teks mengikut saiz teks iOS anda sehingga saiz terbesar – hanya dalam pengepala dan pada garis masa, teks membesar sehingga had tertentu, supaya tiada apa-apa yang menutup kawalan. Maklumat lanjut terdapat dalam [kenyataan kebolehcapaian](@accessibility) kami; jika ada sesuatu yang tidak berfungsi untuk anda, sila beritahu kami."
+            ]
+          },
+          {
+            "id": "freelance",
+            "q": "Adakah SimpleTime sesuai untuk pekerja bebas?",
+            "a": [
+              "Untuk merekod masa anda, ya: asingkan klien dan projek sebagai tugas dan subtugas, dan eksport laporan PDF atau fail CSV bila-bila masa anda memerlukan rekod. Kadar sejam dan invois bukan sebahagian daripada SimpleTime – untuk itu, bawa hasil eksport ke perisian invois anda."
+            ]
+          },
+          {
+            "id": "platforms",
+            "q": "Adakah terdapat versi untuk Android, Windows atau web?",
+            "a": [
+              "Tidak. SimpleTime dibuat untuk iPhone, iPad, Mac dan Apple Watch. Anda boleh mengeksport data anda sebagai CSV pada bila-bila masa."
+            ]
+          },
+          {
+            "id": "account-web",
+            "q": "Apakah yang boleh saya lakukan di account.lacodea.com?",
+            "a": [
+              "Di sana anda mengurus LaCodea ID anda dalam pelayar: kaedah daftar masuk anda, langganan anda, memuat turun data akaun anda dan memadam akaun – dalam SimpleTime, anda mencapai akaun yang sama di bahagian paling atas Seting. Anda tidak akan melihat entri anda di sana: entri hanya wujud dalam SimpleTime pada iPhone, iPad, Mac dan Apple Watch. Jika anda menyelaras melalui LaCodea ID, entri disulitkan hujung ke hujung pada pelayan SimpleTime – LaCodea ID sendiri tidak pernah menerimanya."
+            ]
+          },
+          {
+            "id": "feedback",
+            "q": "Saya menemui pepijat atau ada idea – ke mana saya perlu menghantarnya?",
+            "a": [
+              "Tulis kepada kami di [contact@simple-time.app](mailto:contact@simple-time.app) – dari app, anda juga boleh melalui Seting › Maklum Balas. Untuk pepijat, sila beritahu kami model peranti anda, versi iOS, iPadOS atau macOS anda dan versi SimpleTime anda – anda boleh menemuinya di Seting › Perihal SimpleTime – dan terangkan secara ringkas apa yang sedang anda lakukan. Setiap mesej dibaca."
+            ]
+          },
+          {
+            "id": "support-us",
+            "q": "Bagaimanakah saya boleh menyokong SimpleTime?",
+            "a": [
+              "SimpleTime dibuat oleh seorang individu. Penilaian di App Store membantu, begitu juga dengan memberitahu orang lain tentangnya – dan SimpleTime Pro memastikan pembangunannya terus berjalan."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

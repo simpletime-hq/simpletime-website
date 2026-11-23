@@ -11,12 +11,13 @@
  *
  * Checked per language: every key English has and no others, the same list
  * lengths and ids in the same order, the same {placeholders}, link targets
- * that resolve, and no empty strings.
+ * that resolve, and no empty strings – and a preview card of its own in
+ * public/ (scripts/og-images.py), which Layout.astro links as og:image.
  *
  *   node scripts/check-content.mjs
  */
 
-import { readFile, readdir } from 'node:fs/promises';
+import { access, readFile, readdir } from 'node:fs/promises';
 import { join } from 'node:path';
 
 const ROOT = new URL('../', import.meta.url).pathname;
@@ -103,6 +104,17 @@ for (const lang of langs) {
   if (lang === 'en') continue;
   const drop = LEGAL_IN_ENGLISH.has(lang) ? (key) => key.startsWith('imprint.') : (key) => key === 'legal.englishOnly';
   compare(without(ui.en, drop), ui[lang], 'ui', lang);
+}
+
+// ------------------------------------------------------------ preview card ---
+
+for (const lang of langs) {
+  const card = lang === 'en' ? 'og.png' : `og-${lang}.png`;
+  try {
+    await access(join(ROOT, 'public', card));
+  } catch {
+    problems.push(`${lang}: public/${card} missing – python3 scripts/og-images.py`);
+  }
 }
 
 if (problems.length) {

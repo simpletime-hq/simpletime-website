@@ -58,7 +58,7 @@
         "title": "Trên mọi thiết bị",
         "points": [
           "iPhone, iPad và Mac, đồng bộ qua iCloud hoặc LaCodea ID",
-          "41 ngôn ngữ, không phụ thuộc ngôn ngữ của máy",
+          "51 ngôn ngữ, không phụ thuộc ngôn ngữ của máy",
           "VoiceOver và cỡ chữ động ở khắp nơi"
         ]
       },
@@ -305,7 +305,7 @@
     "terms": "Điều khoản sử dụng (EULA)",
     "privacy": "Chính sách quyền riêng tư",
     "freeTitle": "Những gì vẫn miễn phí",
-    "freeBody": "Mọi thứ bạn cần để ghi giờ: công việc và công việc con, Giờ cố định, chế độ xem ngày và dòng thời gian, biểu đồ và thống kê, báo cáo PDF và xuất CSV, widget, Hoạt động trực tiếp, Trung tâm điều khiển và Siri, đồng bộ qua iCloud hoặc LaCodea ID, kế hoạch sao lưu và khoá ứng dụng – bằng 41 ngôn ngữ. Không cần tài khoản, không quảng cáo, không bán dữ liệu của bạn.",
+    "freeBody": "Mọi thứ bạn cần để ghi giờ: công việc và công việc con, Giờ cố định, chế độ xem ngày và dòng thời gian, biểu đồ và thống kê, báo cáo PDF và xuất CSV, widget, Hoạt động trực tiếp, Trung tâm điều khiển và Siri, đồng bộ qua iCloud hoặc LaCodea ID, kế hoạch sao lưu và khoá ứng dụng – bằng 51 ngôn ngữ. Không cần tài khoản, không quảng cáo, không bán dữ liệu của bạn.",
     "howTitle": "Cách để có Pro",
     "how": [
       "Trong SimpleTime, mở Cài đặt › SimpleTime Pro.",
@@ -386,7 +386,7 @@
             "id": "languages",
             "q": "SimpleTime có những ngôn ngữ nào?",
             "a": [
-              "41 – từ tiếng Anh, tiếng Đức đến tiếng Ả Rập, tiếng Hindi và tiếng Nhật. Trong Cài đặt › Ngôn ngữ, bạn có thể chọn ngôn ngữ của ứng dụng, không phụ thuộc ngôn ngữ của thiết bị."
+              "51 – từ tiếng Anh, tiếng Đức đến tiếng Ả Rập, tiếng Hindi và tiếng Nhật. Trong Cài đặt › Ngôn ngữ, bạn có thể chọn ngôn ngữ của ứng dụng, không phụ thuộc ngôn ngữ của thiết bị."
             ]
           },
           {

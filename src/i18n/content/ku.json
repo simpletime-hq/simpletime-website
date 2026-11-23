@@ -58,7 +58,7 @@
         "title": "Li ser her amûrê",
         "points": [
           "iPhone, iPad û Mac, bi rêya iCloud an LaCodea ID hevdem",
-          "41 ziman, ji zimanê amûra te serbixwe",
+          "51 ziman, ji zimanê amûra te serbixwe",
           "VoiceOver û Dynamic Type di tevahiya sepanê de"
         ]
       },
@@ -305,7 +305,7 @@
     "terms": "Mercên bikaranînê (EULA)",
     "privacy": "Polîtîkaya nihêniyê",
     "freeTitle": "Çi belaş dimîne",
-    "freeBody": "Her tiştê ku ji bo tomarkirinê pêwîst e: kar û bin-kar, Demên sabît, dîmena rojê û xeta demê, nexşe û statîstîk, rapora PDF û derhinartina CSV, widget, Live Activity, Navenda kontrolê û Siri, hevdemkirin bi rêya iCloud an LaCodea ID, planên paşgirê û kilîta sepanê – bi 41 zimanan. Bê hesab, bê reklam, bê firotina daneyên te.",
+    "freeBody": "Her tiştê ku ji bo tomarkirinê pêwîst e: kar û bin-kar, Demên sabît, dîmena rojê û xeta demê, nexşe û statîstîk, rapora PDF û derhinartina CSV, widget, Live Activity, Navenda kontrolê û Siri, hevdemkirin bi rêya iCloud an LaCodea ID, planên paşgirê û kilîta sepanê – bi 51 zimanan. Bê hesab, bê reklam, bê firotina daneyên te.",
     "howTitle": "Tu çawa Pro distînî",
     "how": [
       "Di SimpleTime de Mîheng › SimpleTime Pro veke.",
@@ -386,7 +386,7 @@
             "id": "languages",
             "q": "SimpleTime bi kîjan zimanan diaxive?",
             "a": [
-              "41 – ji Kurdî û Îngilîzî heta Erebî, Hindî û Japonî. Di Mîheng › Ziman de tu dikarî zimanê sepanê ji zimanê amûra xwe serbixwe hilbijêrî."
+              "51 – ji Kurdî û Îngilîzî heta Erebî, Hindî û Japonî. Di Mîheng › Ziman de tu dikarî zimanê sepanê ji zimanê amûra xwe serbixwe hilbijêrî."
             ]
           },
           {

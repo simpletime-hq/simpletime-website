@@ -58,7 +58,7 @@
         "title": "Pe toate dispozitivele",
         "points": [
           "iPhone, iPad și Mac, ținute la zi prin iCloud sau LaCodea ID",
-          "41 de limbi, independent de limba dispozitivului",
+          "51 de limbi, independent de limba dispozitivului",
           "VoiceOver și text dinamic peste tot"
         ]
       },
@@ -305,7 +305,7 @@
     "terms": "Termeni de utilizare (EULA)",
     "privacy": "Politica de confidențialitate",
     "freeTitle": "Ce rămâne gratuit",
-    "freeBody": "Tot ce-ți trebuie ca să-ți înregistrezi timpul: activități și subactivități, Intervale fixe, vizualizarea zilei și cronologia, grafice și statistici, raportul PDF și exportul CSV, widgeturi, activitatea live, Centrul de control și Siri, sincronizarea prin iCloud sau LaCodea ID, planuri de copii de siguranță și blocarea aplicației – în 41 de limbi. Fără cont, fără reclame, fără vânzarea datelor tale.",
+    "freeBody": "Tot ce-ți trebuie ca să-ți înregistrezi timpul: activități și subactivități, Intervale fixe, vizualizarea zilei și cronologia, grafice și statistici, raportul PDF și exportul CSV, widgeturi, activitatea live, Centrul de control și Siri, sincronizarea prin iCloud sau LaCodea ID, planuri de copii de siguranță și blocarea aplicației – în 51 de limbi. Fără cont, fără reclame, fără vânzarea datelor tale.",
     "howTitle": "Cum obții Pro",
     "how": [
       "În SimpleTime, deschide Setări › SimpleTime Pro.",
@@ -386,7 +386,7 @@
             "id": "languages",
             "q": "Ce limbi vorbește SimpleTime?",
             "a": [
-              "41 – de la engleză și germană până la arabă, hindi și japoneză. În Setări › Limbă poți alege limba aplicației independent de limba dispozitivului."
+              "51 – de la engleză și germană până la arabă, hindi și japoneză. În Setări › Limbă poți alege limba aplicației independent de limba dispozitivului."
             ]
           },
           {
